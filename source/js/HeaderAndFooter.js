@@ -6,7 +6,7 @@ function createHeader(breadcrumbs) {
     document.write('<div class="main-container">');
     document.write('<div class="header">');
     document.write('<div class="header-title">');
-    document.write('<a href="http://beta.appinventor.mit.edu/about/"><img alt="" src="images/appinventor_logo.gif"></a>');//may need to change this source
+    document.write('<a href="http://beta.appinventor.mit.edu/about/"><img alt="" src="/source/images/appinventor_logo.gif"></a>');//may need to change this source
     document.write('</div>');
     document.write('<form action="http://www.google.com/cse" id="cse-search-box">');
     document.write(' <input name="cx" type="hidden" \ value="005719495929270354943:tlvxrelje-e"> <input name= \
@@ -16,7 +16,7 @@ function createHeader(breadcrumbs) {
     document.write('<input class="textbox" name="q" type="text">');
     document.write('</div>');
     document.write('<div class="header-search-button">');
-    document.write('<input name="sa" src="images/search-button.png" \ type="image">');
+    document.write('<input name="sa" src="/source/images/search-button.png" \ type="image">');
     document.write('</div>');
     document.write('</div>');
     document.write('</form><script src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en">');
