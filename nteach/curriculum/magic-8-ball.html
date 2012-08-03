@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if (lte IE 6)&(!IEMobile)]><html class="ie6 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="ie7 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 8)&(!IEMobile)]><html class="ie8 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<!-- Mirrored from teach.appinventor.mit.edu/curriculum/magic-8-ball by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 03 Aug 2012 17:54:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta about="/curriculum/magic-8-ball" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/teach.appinventor.mit.edu/files/MIT_App_Inventor_favicon_0.png" type="image/png" />
+<meta content="Magic 8-ball" about="/curriculum/magic-8-ball" property="dc:title" />
+<link rel="shortlink" href="../node/23.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="magic-8-ball.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Magic 8-ball | MIT App Inventor</title>
+<style>@import url("../modules/system/system.base94e8.css?m57jh8");
+@import url("../modules/system/system.menus94e8.css?m57jh8");
+@import url("../modules/system/system.messages94e8.css?m57jh8");
+@import url("../modules/system/system.theme94e8.css?m57jh8");</style>
+<style>@import url("../modules/comment/comment94e8.css?m57jh8");
+@import url("../modules/field/theme/field94e8.css?m57jh8");
+@import url("../modules/node/node94e8.css?m57jh8");
+@import url("../modules/search/search94e8.css?m57jh8");
+@import url("../modules/user/user94e8.css?m57jh8");
+@import url("../sites/all/modules/views/css/views94e8.css?m57jh8");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctools94e8.css?m57jh8");
+@import url("../sites/all/modules/panels/css/panels94e8.css?m57jh8");
+@import url("../sites/all/modules/extlink/extlink94e8.css?m57jh8");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.base94e8.css?m57jh8");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layout94e8.css?m57jh8");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messages94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/html-elements94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/forms94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/tables94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/page94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/articles94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/comments94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/fields94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/blocks94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/navigation94e8.css?m57jh8");
+@import url("../sites/teach.appinventor.mit.edu/files/color/teachtheme-936a64de/colors94e8.css?m57jh8");
+@import url("../sites/all/themes/sky/css/sky.settings.style94e8.css?m57jh8");
+@import url("../sites/all/themes/teachtheme/css/teachtheme94e8.css?m57jh8");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/print94e8.css?m57jh8");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style94e8.css?m57jh8" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels94e8.css?m57jh8" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/teachtheme/css/teachtheme.responsive.style94e8.css?m57jh8" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/teachtheme/css/teachtheme.responsive.gpanels94e8.css?m57jh8" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/teach.appinventor.mit.edu/files/at_css/teachtheme.responsive.layout94e8.css?m57jh8" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://teach.appinventor.mit.edu/sites/teach.appinventor.mit.edu/files/at_css/teachtheme.lt-ie9.layout.css?m57jh8" media="all" />
+<![endif]-->
+<script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupal94e8.js?m57jh8"></script>
+<script src="../sites/all/modules/admin_menu/admin_devel/admin_devel94e8.js?m57jh8"></script>
+<script src="../sites/all/modules/panels/js/panels94e8.js?m57jh8"></script>
+<script src="../sites/all/modules/extlink/extlink94e8.js?m57jh8"></script>
+<script src="../sites/all/modules/google_analytics/googleanalytics94e8.js?m57jh8"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31815541-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/sky/js/scripts94e8.js?m57jh8"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"teachtheme","theme_token":"MlbyHNpVAr2HmTurhNbgF7g2v3lccBNOPct91cds9QU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/sky\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/teachtheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/teachtheme\/css\/teachtheme.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/teachtheme\/css\/teachtheme.responsive.style.css":1,"sites\/all\/themes\/teachtheme\/css\/teachtheme.responsive.gpanels.css":1,"public:\/\/at_css\/teachtheme.responsive.layout.css":1,"public:\/\/at_css\/teachtheme.lt-ie9.layout.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-23 page-type-curriculum-page site-name-mit-app-inventor section-curriculum site-name-hidden color-scheme-custom teachtheme gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+        <div id="cml_logo"><a href="http://mobilelearning.mit.edu/" title="CML Home Page"><img src="../sites/teach.appinventor.mit.edu/files/cml_logo.png" alt="MIT Center for Mobile Learning"></a>
+        </div>
+
+    <div id="branding">
+              <hgroup class="element-invisible">
+                      <h1 id="site-name" class="element-invisible"><a href="../index.html" title="Home page">MIT App Inventor</a></h1>
+                            </hgroup>
+                    <div id="logo"><a href="../index.html" title="Home page"><img src="../sites/teach.appinventor.mit.edu/files/MIT_app_inventor_teach_logo_big.png" alt="MIT App Inventor logo"/></a></div>
+          </div>
+
+          <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix">
+              <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+            <ul class="menu clearfix"><li class="first leaf menu-item-218"><a href="../index.html" title="">Home</a></li><li class="expanded active-trail menu-item-716"><a href="../curriculum.html" title="" class="active-trail">Curriculum</a><ul class="menu clearfix"><li class="first leaf menu-item-720"><a href="../curriculum.html">Curriculum</a></li><li class="leaf menu-item-725"><a href="emulator.html">Emulator</a></li><li class="leaf menu-item-723"><a href="hello-purr.html">Hello Purr</a></li><li class="leaf menu-item-736"><a href="magic-8-ball-teachers-guide.html">Magic 8 Ball Teachers&#039; Guide</a></li><li class="leaf active-trail menu-item-718"><a href="magic-8-ball.html" class="active-trail active">Magic 8-ball</a></li><li class="leaf menu-item-734"><a href="media-library.html">Media Library</a></li><li class="leaf menu-item-730"><a href="module-1.html">Module 1</a></li><li class="leaf menu-item-731"><a href="module-2.html">Module 2</a></li><li class="leaf menu-item-726"><a href="packaging-apps.html">Packaging Apps</a></li><li class="leaf menu-item-732"><a href="paint-me.html">Paint Me</a></li><li class="leaf menu-item-737"><a href="paint-me-teachers-guide.html">Paint Me Teachers&#039; Guide</a></li><li class="leaf menu-item-724"><a href="phone.html">Phone</a></li><li class="leaf menu-item-733"><a href="pong.html">Pong</a></li><li class="leaf menu-item-738"><a href="pong-teachers-guide.html">Pong Teachers&#039; Guide</a></li><li class="leaf menu-item-721"><a href="setup-instructions.html">Setup Instructions</a></li><li class="leaf menu-item-722"><a href="start-app-inventor.html">Start App Inventor</a></li><li class="leaf menu-item-729"><a href="starting-app-inventor.html">Starting with App Inventor</a></li><li class="leaf menu-item-728"><a href="troubleshooting-your-phone.html">Trouble with Your Phone</a></li><li class="last leaf menu-item-727"><a href="understanding-blocks.html">Understanding Blocks</a></li></ul></li><li class="collapsed menu-item-618"><a href="../resources.html" title="">Resources</a></li><li class="collapsed menu-item-714"><a href="../content/faq.html" title="Frequently Asked Questions">FAQ</a></li><li class="leaf menu-item-432"><a href="https://groups.google.com/forum/?fromgroups#!forum/app-inventor-instructors" title="MIT App Inventor Instructors forums">Forum</a></li><li class="last leaf menu-item-527"><a href="http://beta.appinventor.mit.edu/" title="">Invent</a></li></ul>  </nav>
+  </div>
+
+  </header>
+
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+
+            
+          <section id="breadcrumb"><h2 class="element-invisible">You are here</h2><ol id="crumbs"><li class="crumb"><a href="../curriculum.html" title="">Curriculum</a></li></ol></section>
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-2 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-23" class="article article-curriculum-page odd article-full clearfix" about="/curriculum/magic-8-ball" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      Magic 8-ball                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.blocks {
+border: 2px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #F3F6EC;
+}
+
+.box {
+color: green;
+font-size:12px;
+font-family: Lucida Sans Unicode;
+background-position :left center;
+background-repeat: no-repeat;
+background-image: url('http://beta.appinventor.mit.edu/static/images/android-notice-30x30.gif');
+padding-left: 60px;
+}
+
+h2 {
+border-bottom: 1px solid #CDCDCD;
+padding: 10px 0 5px 0;
+}
+
+h3 {
+border-bottom: 1px solid #CDCDCD;
+padding: 10px 0 5px 0;
+}
+
+/*--><!]]>*/
+</style><h2>1: Magic 8 Ball</h2>
+<p>Feel free to use the <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxhcHBpbnZlbnRvcmxlc3NvbnN8Z3g6MjJkNmViOGQ3MDNmZWYwZQ">PDF version</a> of Magic 8 Ball if you prefer.</p>
+<p>Be sure to download the media files necessary for Magic 8 Ball from the <a href="media-library.html">Media Library</a>.</p>
+<h3>Lesson One: Magic 8 Ball Predicts the Future</h3>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m1.jpg" style="float:left;width:75px;" /></p>
+<p>This introductory module will guide you through building a “Magic 8 Ball” app with App Inventor. When you shake the phone (or press a button), your 8-ball will deliver one of its classic predictions, such as “It is decidedly so” or “Reply hazy, try again.”</p>
+<h3>Learning Goals</h3>
+<p>After completing this app, you will have good understanding of the following:</p>
+<ul><li>App Inventor environment: designer, blocks editor, emulator and/or physical phone</li>
+<li>App Inventor components: accelerometer sensor, image, list-picker</li>
+</ul><h3>Materials</h3>
+<ul><li>A selection of images and sounds are available at the <a href="media-library.html">App Inventor Media Library</a></li>
+<li>Supporting hard copy materials</li>
+</ul><h3>Outline</h3>
+<ol><li>Set up computers and phones (or emulator). It’s best to do this ahead of time. See: <a href="setup-instructions.html">Pre-workshop setup instructions</a>, which you can share with workshop attendees before the workshop if they will be using their own computers.</li>
+<li>Basic App Inventor tutorial - getting around [<a href="http://www.youtube.com/watch?v=nC_x9iOby0g">video</a>]</li>
+<li>Build the App</li>
+<li>Test the App</li>
+<li>Troubleshooting</li>
+<li>Next steps: suggestions for further exploration</li>
+</ol><h3>Preparation: Setting up and Navigating App Inventor </h3>
+<ul><li><b>The setup instructions and the Getting Started video will help you get connected to App Inventor if you have no already done so.</b> You should complete those steps before proceeding.</li>
+<li>Log on to the App Inventor service</li>
+<li>Test your java configuration</li>
+<li>Install the App Inventor setup software</li>
+<li>Launch the Blocks Editor</li>
+<li>Launch an Android emulator OR connect to an Android phone</li>
+<li>Once all of these things are working, proceed with building your first app.</li>
+</ul><h3>Part One: Your first app</h3>
+<p>First you will make a simple app consisting of a button that, when clicked, plays a sound.</p>
+<p style="color:green;">DESIGN: App Inventor Designer</p>
+<ol><li>To open the App Inventor Designer window, go to <a href="http://appinventor.mit.edu/">http://appinventor.mit.edu</a> and sign in. See setup instructions above if you are not sure how to sign in.</li>
+<li>If you already have made an app (such as Hello Purr), you are directed to the Designer. Click "My Project" at the upper left corner, which will direct you to the list of projects. Click "New" and name your project as "Magic8Ball" without any spaces.<br /><img src="../sites/teach.appinventor.mit.edu/files/m2.JPG" /></li>
+<li>Download an image and sound file to be used in your app from the <a href="media-library.html">Media Library</a> if you have not already done so. You can select any image/sound files on the list. Left click on the links then right click on the image or sound on the next page and click "Save as". Save the media files to a convenient location.</li>
+<li>On the left column of the Designer, open the Basic palette, and drag a Button component over to the Viewer(#1). Change the button image to a ball image by choosing “image” from the Properties pane on the right (#2). Click the “add” button to select the previously saved image on your computer, then click “OK” to close the selection window, and click “OK” again on the properties pane to close the small window that lets you select an image file (#3). Go to the text field in the Properties pane and delete the display text of your button component (#4).<br /><img src="../sites/teach.appinventor.mit.edu/files/m4.png" /><br /><img src="../sites/teach.appinventor.mit.edu/files/m5.png" /></li>
+<li> From the Media palette, drag over a Sound component onto the Viewer pane (#1). Notice that since the sound will not be a visible part of the app, it appears at the bottom of the Viewer pane, as a “Non-visible component”. Under the Properties click the "Sound" section and click "Add" (#2). Choose a sound file from the selection of three different sounds: the cha-ching sound, ta-da sound, or clicking tea spoon sound (#3).<br /><img src="../sites/teach.appinventor.mit.edu/files/m6.png" /></li>
+</ol><p style="color:green;">BUILD: Blocks Editor</p>
+<p>In the upper right corner of the Designer, click on the Blocks Editor button. Wait for a few moments while the blocks editor loads. This takes some time, and often requires you to click “accept”, “ok”, or “keep” as the java program downloads to your computer. If you are having trouble loading the Blocks Editor, visit <a href="http://www.java.com/">http://www.java.com</a> to see if you have java installed, or to troubleshoot your installation. There is more information on launching the Blocks Editor in the <a href="setup-instructions.html">Setup Instructions</a>.</p>
+<p>Once the Blocks Editor is open, there are several options running along the left side of the screen. We refer to these as palettes with “drawers.” </p>
+<p>From the My Blocks palette, click on the Button1 drawer. Drag the <span class="blocks">Button1.Click</span> block into the work area (#1). From the My Blocks palette, click on the Sound1 drawer, drag the <span class="blocks">Sound1.Play</span> block into the work area and insert it into the <span class="blocks">when Button1.Cllick</span> block (#2). They will click together like magnetic puzzle pieces.</p>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m7.JPG" /></p>
+<p>Your blocks should now look like this:</p>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m8.png" /></p>
+<p style="color:green;">TEST: Phone/Emulator</p>
+<p>You have now built an app! To test that it works, you either have to launch an emulator, or connect to a phone. Go back to the setup instructions if you do not have a phone or an emulator running.</p>
+<p><b>Emulator</b>: click on the picture, you will hear the sound play.<br /><b>Phone</b>: tap the picture, you will hear the sound play.</p>
+<h3>Part Two: Add in a prediction picker</h3>
+<p style="color:green;">DESIGN: App Inventor</p>
+<p>Go back to the Designer window in your browser and add some new things to your app.</p>
+<p>From the Screen Arrangement palette, drag over the Vertical Arrangement component (#1).</p>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m9.png" /></p>
+<p>From the Basic palette, drag over a Label component, Label1 (#2), inside of the vertical arrangement component. In the Properties pane, change the text property of Label1 to “Ask the Magic 8 Ball a question”(#3).</p>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m10.png" /></p>
+<p>From the Basic palette, drag over another Label component (Label2) right below the Label1. Change the text property of the Label2 to “Touch the Magic 8 Ball to receive your answer.” Drag the two labels and the image so that they are all inside the Vertical Arrangement component if you have not done so already. This will cause them to line up with each other in a vertical line. (Note: this can be tricky mouse work, but get them in there just right and the vertical arrangement will resize itself to fit everything.)</p>
+<p style="color:green;">BUILD: Blocks Editor</p>
+<p>Now it’s time to go into the Blocks Editor to program the components you just added to your project. (Remember, the Blocks Editor is running in a window outside of your web browser, signified by the java icon that looks like a coffee cup.)</p>
+<ol><li>From the My Blocks palette, click on Label2 drawer to see all of its associated blocks. Drag over the blue <span class="blocks">set Label2.Text</span> and connect it to the <span class="blocks">Sound1.Play</span> block. Notice that the <span class="blocks">when Button1.Click</span> block automatically gets bigger to accomodate the new block.<br /><img src="../sites/teach.appinventor.mit.edu/files/m11.png" /></li>
+<li>From the Built-in palette, click on the Lists drawer. Drag over the <span class="blocks">pick random item</span> block and connect it to the <span class="blocks">set Label2.Text</span> block.<br /><img src="../sites/teach.appinventor.mit.edu/files/m12.png" /></li>
+<li>From the Built-in palette, click on Lists again, then drag out the <span class="blocks">make a list</span> block and connect it to the <span class="blocks">pick random item</span> block.</li>
+<li>From the Built-in palette, click on the Text drawer, drag out the <span class="blocks">text</span> block and connect it to the item socket of the <span class="blocks">make a list</span> block. Click directly on the word “text” so that it gets highlighted. You can then type in the text you want in place for one of the answers of your Magic 8 Ball.</li>
+<li>Repeat the step 4 for each of the answer selections you would like programmed into your 8 Ball App. Plug each text block into the <span class="blocks">pick random item</span> block. (Ideas for answers: <a href="http://en.wikipedia.org/wiki/Magic_8-Ball">http://en.wikipedia.org/wiki/Magic_8-Ball</a>)</li>
+</ol><p>Blocks should look something like this:</p>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m13.png" /><br />
+(Note: it is normal for there to be a blank space at the end of the make list block.)</p>
+<p style="color:green;">TEST: Emulator or Phone</p>
+<p><b>Emulator</b>: Click on the picture of the 8 Ball, you should see one of your answers in the text field of the Magic 8 Ball, and a sound should play.<br /><b>Phone</b>: Tap on the picture of the 8 Ball, you should see one of your answers in the text field of the Magic 8 Ball, and a sound should play.</p>
+<h3>Part Three: Use the Accelerometer to cause a prediction when the phone is shaken</h3>
+<p style="color;green;">DESIGN: App Inventor</p>
+<p>From the Sensors palette, drag over an <b>AccelerometerSensor</b> sensor component. Notice that it automatically drops down to the “Non-visible components” area of the Viewer window.</p>
+<p style="color:green;">BUILD: Blocks Editor</p>
+<ol><li>From the My Blocks drawer, click on AccelerometerSensor, then drag out the block for <span class="blocks">when AccelerometerSensor.Shaking</span>.</li>
+<li>Disconnect all of the blocks from inside the <span class="blocks">Button1.Click</span> block and move them inside the <span class="blocks">AccelerometerSensor.Shaking</span> block. <b>NOTE:</b> you can move whole sections of connected blocks by clicking on the uppermost or leftmost block and dragging it. The connected blocks will come with it.</li>
+<li>Delete the <span class="blocks">Button1.Click</span> block to keep your work area tidy.</li>
+</ol><p>The block should look something like this:</p>
+<p><img src="../sites/teach.appinventor.mit.edu/files/m14.png" /></p>
+<p style="color:green;">TEST: Phone/Emulator</p>
+<p><b>Phone</b>: When you shake the phone it should show an answer and play a sound.<br /><b>Emulator</b>: unfortunately, you can not simulate shaking the phone when using the emulator.</p>
+<p style="color:green;">Package the App to Your Phone!</p>
+<p>Notice that your app disappears when you plug your phone out from the USB cable. It is because the app is still stored in the server and not in your phone. Follow <a href="packaging-apps.html">these instructions</a> and package your app to your phone!</p>
+<h3>Challenge 1: Let's Make the Magic 8 Ball Speak</h3>
+<p>Instead of making the prediction appear as text, can you make the 8 ball speak it aloud? Hint: the speech-to-text component is under the <b>Other Stuff</b> palette in the Designer.</p>
+<pre class="box">Done with Magic 8 Ball? Return to module 1 <a href="module-1.html">here</a>.</pre></div></div></div>  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+          <div class="region region-sidebar-second sidebar">
+    <div id="block-block-1" class="block block-block block-odd block-count-3 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p><a href="http://beta.appinventor.mit.edu/"><img src="../sites/teach.appinventor.mit.edu/files/use_mit_app_inventor_button.png" title="Use MIT App Inventor" alt="Use MIT App Inventor" /></a></p>
+<p>All you need to get started with MIT App Inventor is a Google account to log in.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-5" class="block block-block block-even block-count-4 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p><a href="http://explore.appinventor.mit.edu/"><img src="../sites/teach.appinventor.mit.edu/files/information_and_tutorials_button.png" alt="Information &amp; Tutorials" title="Information &amp; Tutorials" /></a></p>
+    </div>
+  </div>
+</div>
+<section id="block-block-6" class="block block-block block-odd block-count-5 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Phones &amp; Tablets Database</h2>
+            <div class="block-content content">
+      <p>Learn from and contribute to the <a href="http://bit.ly/AppInvDevices">database of devices known to work with App Inventor</a>.</p>
+    </div>
+  </div>
+</section>
+  </div>
+    
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from teach.appinventor.mit.edu/curriculum/magic-8-ball by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 03 Aug 2012 17:54:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

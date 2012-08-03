@@ -1,0 +1,33 @@
+/**
+ * Modtheme modtheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+.region-top-menu {
+  background-color: #bee5ee;
+}
+
+.block-region-top-menu, .block-region-top-menu ul.menu {
+  background-color: #bee5ee;
+  text-align: right;
+  float: right;
+}
+
+#user-login-block-form-fields label {
+  text-align: center;
+}
+.front-page-story-list-row img { 
+  float:left; margin: 0 5px 0 0; 
+}
+#cml_logo {
+  width: automatic;
+}
+#cml_logo img {
+  clear: both;
+  float: right;
+}
+
