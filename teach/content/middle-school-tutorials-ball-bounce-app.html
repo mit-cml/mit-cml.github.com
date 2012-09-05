@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if (lte IE 6)&(!IEMobile)]><html class="ie6 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="ie7 ie6-7 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 8)&(!IEMobile)]><html class="ie8 ie6-8" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<!-- Mirrored from teach.appinventor.mit.edu/content/middle-school-tutorials-ball-bounce-app by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 05 Sep 2012 01:46:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta about="/content/middle-school-tutorials-ball-bounce-app" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/teach.appinventor.mit.edu/files/MIT_App_Inventor_favicon_0.png" type="image/png" />
+<meta content="Middle School Tutorials: Ball Bounce App" about="/content/middle-school-tutorials-ball-bounce-app" property="dc:title" />
+<link rel="shortlink" href="../node/59.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="middle-school-tutorials-ball-bounce-app.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Middle School Tutorials: Ball Bounce App | MIT App Inventor</title>
+<style>@import url("../modules/system/system.basef805.css?m9htcx");
+@import url("../modules/system/system.menusf805.css?m9htcx");
+@import url("../modules/system/system.messagesf805.css?m9htcx");
+@import url("../modules/system/system.themef805.css?m9htcx");</style>
+<style>@import url("../modules/comment/commentf805.css?m9htcx");
+@import url("../modules/field/theme/fieldf805.css?m9htcx");
+@import url("../modules/node/nodef805.css?m9htcx");
+@import url("../modules/search/searchf805.css?m9htcx");
+@import url("../modules/user/userf805.css?m9htcx");
+@import url("../sites/all/modules/views/css/viewsf805.css?m9htcx");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctoolsf805.css?m9htcx");
+@import url("../sites/all/modules/panels/css/panelsf805.css?m9htcx");
+@import url("../sites/all/modules/extlink/extlinkf805.css?m9htcx");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.basef805.css?m9htcx");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layoutf805.css?m9htcx");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messagesf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/html-elementsf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/formsf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/tablesf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/pagef805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/articlesf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/commentsf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/fieldsf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/blocksf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/navigationf805.css?m9htcx");
+@import url("../sites/teach.appinventor.mit.edu/files/color/teachtheme-936a64de/colorsf805.css?m9htcx");
+@import url("../sites/all/themes/sky/css/sky.settings.stylef805.css?m9htcx");
+@import url("../sites/all/themes/teachtheme/css/teachthemef805.css?m9htcx");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/printf805.css?m9htcx");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.stylef805.css?m9htcx" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanelsf805.css?m9htcx" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/teachtheme/css/teachtheme.responsive.stylef805.css?m9htcx" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/teachtheme/css/teachtheme.responsive.gpanelsf805.css?m9htcx" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/teach.appinventor.mit.edu/files/at_css/teachtheme.responsive.layoutf805.css?m9htcx" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://teach.appinventor.mit.edu/sites/teach.appinventor.mit.edu/files/at_css/teachtheme.lt-ie9.layout.css?m9htcx" media="all" />
+<![endif]-->
+<script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupalf805.js?m9htcx"></script>
+<script src="../sites/all/modules/admin_menu/admin_devel/admin_develf805.js?m9htcx"></script>
+<script src="../sites/all/modules/panels/js/panelsf805.js?m9htcx"></script>
+<script src="../sites/all/modules/extlink/extlinkf805.js?m9htcx"></script>
+<script src="../sites/all/modules/google_analytics/googleanalyticsf805.js?m9htcx"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31815541-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/sky/js/scriptsf805.js?m9htcx"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"teachtheme","theme_token":"6OgBtbWrkikeBpUjkjePA7fb7G3WDZ-1XcOZp-RPFHc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/sky\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/teachtheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/teachtheme\/css\/teachtheme.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/teachtheme\/css\/teachtheme.responsive.style.css":1,"sites\/all\/themes\/teachtheme\/css\/teachtheme.responsive.gpanels.css":1,"public:\/\/at_css\/teachtheme.responsive.layout.css":1,"public:\/\/at_css\/teachtheme.lt-ie9.layout.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-59 page-type-resource site-name-mit-app-inventor section-content site-name-hidden color-scheme-custom teachtheme gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+        <div id="cml_logo"><a href="http://mobilelearning.mit.edu/" title="CML Home Page"><img src="../sites/teach.appinventor.mit.edu/files/cml_logo.png" alt="MIT Center for Mobile Learning"></a>
+        </div>
+
+    <div id="branding">
+              <hgroup class="element-invisible">
+                      <h1 id="site-name" class="element-invisible"><a href="../index-2.html" title="Home page">MIT App Inventor</a></h1>
+                            </hgroup>
+                    <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/teach.appinventor.mit.edu/files/MIT_app_inventor_teach_logo_big.png" alt="MIT App Inventor logo"/></a></div>
+          </div>
+
+          <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix">
+              <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+            <ul class="menu clearfix"><li class="first leaf menu-item-218"><a href="../index-2.html" title="">Home</a></li><li class="collapsed menu-item-716"><a href="../curriculum.html" title="">Curriculum</a></li><li class="collapsed menu-item-618"><a href="../resources.html" title="">Resources</a></li><li class="collapsed menu-item-714"><a href="faq.html" title="Frequently Asked Questions">FAQ</a></li><li class="leaf menu-item-432"><a href="https://groups.google.com/forum/?fromgroups#!forum/app-inventor-instructors" title="MIT App Inventor Instructors forums">Forum</a></li><li class="last leaf menu-item-527"><a href="http://beta.appinventor.mit.edu/" title="">Invent</a></li></ul>  </nav>
+  </div>
+
+  </header>
+
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-2 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-59" class="article article-type-resource article-promoted odd article-full clearfix" about="/content/middle-school-tutorials-ball-bounce-app" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      Middle School Tutorials: Ball Bounce App                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Middle School teacher Richard Incorvia has put together some simple, easy-to-follow <a href="https://sites.google.com/site/middleschoolandroid/home/app-inventor-tutorials">tutorials</a> for teaching App Inventor to students. These can be used with older students as well. <a href="https://sites.google.com/site/middleschoolandroid/home/app-inventor-tutorials/day-1">Part One</a> walks students through building an app with a moving ball that bounces off when it comes to an edge. <a href="https://sites.google.com/site/middleschoolandroid/home/app-inventor-tutorials/day-2">Part Two</a> introduces buttons to change the ball's speed.  This is an excellent introductory lesson for students because it lets them see immediate effects of their program changes in the app's behavior.</p>
+</div></div></div><section class="field field-name-field-resource-url field-type-link-field field-label-above view-mode-full"><h2 class="field-label">Resource URL:&nbsp;</h2><div class="field-items"><div class="field-item even"><a href="https://sites.google.com/site/middleschoolandroid/home/app-inventor-tutorials">https://sites.google.com/site/middleschoolandroid/home/app-inventor-tutorials</a></div></div></section><section class="field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Grade Level:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../grade-level/6-8.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel">6-8</a>      </li>
+
+    
+      <li class="field-item odd">
+        <a href="../grade-level/9-12.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel">9-12</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Subject:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../subject/computer-science.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Computer Science</a>      </li>
+
+    
+      <li class="field-item odd">
+        <a href="../subject/math.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Math</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Resource Type:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../lesson-type/tutorial.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Tutorial</a>      </li>
+
+    
+  </ul>
+
+</section>
+  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+          <div class="region region-sidebar-second sidebar">
+    <div id="block-block-1" class="block block-block block-odd block-count-3 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p><a href="http://beta.appinventor.mit.edu/"><img src="../sites/teach.appinventor.mit.edu/files/use_mit_app_inventor_button.png" title="Use MIT App Inventor" alt="Use MIT App Inventor" /></a></p>
+<p>All you need to get started with MIT App Inventor is a Google account to log in.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-5" class="block block-block block-even block-count-4 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p><a href="http://appinventor.mit.edu/explore/"><img src="../sites/teach.appinventor.mit.edu/files/information_and_tutorials_button.png" alt="Information &amp; Tutorials" title="Information &amp; Tutorials" /></a></p>
+    </div>
+  </div>
+</div>
+<section id="block-block-6" class="block block-block block-odd block-count-5 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Phones &amp; Tablets Database</h2>
+            <div class="block-content content">
+      <p>Learn from and contribute to the <a href="http://bit.ly/AppInvDevices">database of devices known to work with App Inventor</a>.</p>
+    </div>
+  </div>
+</section>
+  </div>
+    
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from teach.appinventor.mit.edu/content/middle-school-tutorials-ball-bounce-app by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 05 Sep 2012 01:46:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>
