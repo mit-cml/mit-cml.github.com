@@ -1,0 +1,39 @@
+/* Fields */
+.field {
+  padding: 0 0 0.5em 0;
+}
+.field .field-label {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: inherit;
+  margin: 0;
+}
+.field-label-inline .field-label,
+.field-label-inline .field-items {
+  display: inline;
+}
+.field-type-image figure,
+.field-type-image figcaption {
+  margin: 0;
+  padding: 0;
+}
+.field-type-image figure {
+  margin-bottom: 10px;
+}
+.field-type-image figure img {
+  margin: auto;
+  text-align: center;
+}
+.field-type-image figcaption {
+  font-size: 0.823em;
+  font-style: italic;
+  line-height: 1.3;
+  margin: auto;
+  max-width: 90%;
+  padding: 4px 0 0;
+  text-align: center;
+}
+tabel .field-type-image img {
+  width: 100%;
+  height: auto;
+}
