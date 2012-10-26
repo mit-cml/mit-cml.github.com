@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="App Inventor for Android" name="description" />
+  <meta content="Android, Blocks App Inventor, Mobile, Phone, IDE" name="keywords" />
+  <title>
+    Wireless Phone Connection Test
+  </title>
+  <link href="images/appinventor-16.png" rel="SHORTCUT ICON" type="image/ico" />
+  <link href="images/appinventor-16.png" rel="icon" type="image/png" />
+  <link href="css/appinventor.css" rel="stylesheet" />
+  <script language = "JavaScript" src="scripts/HeaderAndFooter.js"></script>
+  <style>
+   img.c3 {border-width:0}
+    li.c2 {list-style: none}
+    div.c1 {clear:both;}
+  </style>
+ </head>
+ <body>
+  <script language = "JavaScript">createHeader('<div id="navigation-breadcrumb"> <a href="/learn/">Learn</a> &gt; Wireless &gt; ');</script><br>
+  <div id="aiac">
+   <div class="main-container">
+    <div class="customhr customhr-gray">
+    </div>
+    <div class="content">
+     <div class="content-body">
+      <div class="learn-page">
+       <script>
+        function toggleShowHide(elementId) {
+              var element = document.getElementById(elementId);
+              if (element) {
+              if (element.style.display == "none")
+              element.style.display = "inline";
+              else
+              element.style.display = "none";
+              }
+              }
+       </script>
+       <h1>
+        Wireless Phone Connection Test
+       </h1>
+       <p><b>Update October 9, 2012: Read our <a href="news.html">News Update.</a>.</b></p>
+       <p>
+         Welcome to the MIT App Inventor wireless test. Instead of using the USB cable to connect
+         your phone to your computer, you use a WiFi connection instead. Both your phone and computer need to
+         be able to communicate with each other over the network. Normally this means that both are connected
+         to the same WiFi network, but isn't necessary. The compute can be connected to a wired network drop
+         while the phone can be on a local WiFi network. As long as data can get from the PC to the phone, things should work.
+       </p>
+       <p>
+         Note: If your phone is not on a WiFi network but is instead connected to the Internet via the Cell Phone Carrier, this
+         system will not work.
+       </p>
+       <p>
+       </p>
+       <ul>
+        <li>
+          <p>
+            <b>
+              Step 1:
+            </b>
+            Download and install the App Inventor Debug App and install it on your phone. You can download it here: <a href="/wireless/AppInventorDebugApp.apk">AppInventorDebugApp.apk</a>. This is a version of the Application that is normally installed via the
+            USB cable. However because we are not using a USB cable, you need to manually install it. You MUST use this version.
+          </p>
+          <p>
+            This QR Code will bring you to the version in the Google Play Store:<br />
+            <img src="store.png" width="300" height="300">
+          </p>
+          <p>Note: When we update the MIT App Inventor Server an older versions of the App Inventor Debug App will likely stop working. We will put up a message
+            on the server before we plan an upgrade. You can then download the new version of the App Inventor Debug App prior to the server upgrade. The newer
+            version of the App will work with the older (current) server.</p>
+          <p>If you download the App from the Play Store, we recommend that you check the "Allow automatic updating" box on the installation screen.</p>
+        </li>
+        <li>
+          <b>
+          Step 2:
+         </b>
+          From the blocks editor, select the "Connect Wifi" button. You will be shown a dialog box with a alpha-numeric code. DO NOT HIT "OK" YET. A QR code will also be displayed.
+          </li>
+        <li>
+          <b>
+            Step 3:
+            </b>
+          Start the App Inventor Debug App on your phone (you can
+          launch it like a normal Android application). It will have a
+          text box where you enter the code displayed in step 2. Press "Go!."
+          <br /><br />
+          Alternatively, if your phone has a camera, and an
+          appropriate bar code scanning application, you can select
+          the "Scan" button on the Debug App and scan the QR code
+          displayed above. If you use the Scan button, you do not have
+          to enter the displayed code or press the "Go!"  button.
+          <br /><br />
+          </li>
+        <li>
+          <b>
+            Step 4:
+            </b>
+          Now press the OK button on the dialog box in the blocks
+          editor. Your phone should now display your application. If
+          you typed in the wrong code, you should see an error
+          dialog. If this happens, restart the App Inventor Debug App
+          on your phone (use the "Back" key to exit and start it
+          again. Go back to Step 2.
+          </li>
+        </ul>
+       <p>
+         If you have trouble connecting, make sure your phone is using
+         WiFi and not the cell network. On some phones and locations
+         even with WiFi enabled, the phone continues to use the cell
+         network for Internet connectivity. If this may be happening
+         to you, you can disable mobile networking (cell based Internet
+         connectivity) from your phone's Android settings menu.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="footer">
+     <script language = "JavaScript">createFooter();</script><br>
+     <div class="footer-lastupdate">
+      <script>
+       if (document.lastModified != '') {
+                var m = "Page last updated: " + document.lastModified;
+                var p = m.length-8;
+                document.writeln("<center>");
+                document.write(m.substring(p, 0));
+                document.writeln("<\/center>");
+              }
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
