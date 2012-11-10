@@ -1,0 +1,52 @@
+/* Set layout for gpanels for smaller devices */
+
+/* Smartphone portrait */
+@media only screen and (max-width:320px) {
+  .gpanel .region {
+    display: block;
+    float: none;
+    width: 100% !important;
+  }
+}
+
+/* Smartphone landscape */
+@media only screen and (min-width:321px) and (max-width:480px) {
+  .gpanel .region {
+    display: block;
+    float: none;
+    width: 100% !important;
+  }
+}
+
+/* Tablet portrait */
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .three-25-25-50 .region-three-25-25-50-first,
+  .three-25-25-50 .region-three-25-25-50-second,
+  .three-50-25-25 .region-three-50-25-25-second,
+  .three-50-25-25 .region-three-50-25-25-third {
+    width: 50%;
+  }
+  .three-50-25-25 .region-three-50-25-25-first,
+  .three-25-25-50 .region-three-25-25-50-third {
+    width: 100%;
+  }
+  .four-4x25 .region {
+    width: 50% !important;
+  }
+  .six-6x16 .region,
+  .five-5x20 .region-five-first,
+  .five-5x20 .region-five-second,
+  .five-5x20 .region-five-third {
+    width: 33.333% !important;
+  }
+  .five-5x20 .region-five-fourth,
+  .five-5x20 .region-five-fifth {
+    width: 50%;
+  }
+  .three-50-25-25 .region-three-50-25-25-second,
+  .three-25-25-50 .region-three-25-25-50-third ,
+  .six-6x16 .region-six-third,
+  .five-5x20 .region-five-fourth {
+    clear: left !important;
+  }
+}
