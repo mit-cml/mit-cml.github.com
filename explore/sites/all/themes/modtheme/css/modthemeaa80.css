@@ -94,18 +94,42 @@ padding-left: 90px;
 
 /*This is Henry's CSS code for the setup instructions pages*/
 
-#buttonWrapper{
+ul.setup { 
+    list-style: none;
+
+}
+
+.setup-buttonWrapper{
     margin: 20px auto;
 
 }
 
-ul { 
-   # list-style: none;
+
+a.setup-buttonSetup{
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    margin: 30px auto;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+ul.setup { 
+    list-style: none;
+
+}
+
+.setup-buttonWrapper{
+    margin: 20px auto;
 
 }
 
 
-a.buttonSetup{
+a.setup-buttonSetup{
     display: block;
     position: relative;
     height: 40px;
@@ -119,7 +143,7 @@ a.buttonSetup{
     color: #000000;
 }
 
-a.buttonHeader{
+a.setup-buttonHeader{
     display: block;
     float:left;
     position: relative;
@@ -135,28 +159,40 @@ a.buttonHeader{
     color: #000000;
 }
 
-.gray,.gray:hover {
+/* setup-gray */
+.setup-gray,.setup-gray:hover {
+    color: #356600;
+    border-bottom: 4px solid #356600;
+    background: #d8dfb1;
+}
+
+.setup-gray:hover { background: #E7FFCD; }
+
+
+.setup-lightGreen{
     color: #555;
     border-bottom: 4px solid #356600;
-    background: #bfd18e;
+    background: #F6ECB1;
 }
 
-.gray:hover { background: #82ac38; }
+.setup-lightGreen:hover { background: #82ac38; }
 
-.lightGreen{
-    color: #555;
-    border-bottom: 4px solid #356600;
-    background: #ebdf11;
-}
-
-.lightGreen:hover { background: #82ac38; }
-
-.blob {
-    padding: 0px 20px 20px 20px;
-    margin: 30px 20px 20px 20px;
-    background-color: #bfd18e;
+.setup-blob {
+	padding: 0px 20px 20px 20px;
+	margin: 30px 20px 20px 20px;
+	background-color: #F8FEF0;
 
 }
 
-/*Henry's setup instruction css ends*/
+/*global style*/
+h2.setup{
+border-bottom: 1px solid #82ac38;
+padding: 10px 0 5px 0;
+}
 
+h3.setup{
+border-bottom: 1px solid #82ac38;
+padding: 10px 0 5px 0;
+}
+
+/*Henry's CSS code ends*/
