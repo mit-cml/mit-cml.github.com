@@ -54,6 +54,8 @@
 	background-color: #F3F6EC;
 }
 
+
+
 .ai-box {
 	color: green;
 	font-size:12px;
@@ -92,12 +94,7 @@ padding-left: 90px;
         padding-left: 90px;
 }
 
-/*This is Henry's CSS code for the setup instructions pages*/
-
-ul.setup { 
-    list-style: none;
-
-}
+/*CSS code for the setup instructions pages*/
 
 .setup-buttonWrapper{
     margin: 20px auto;
@@ -109,7 +106,7 @@ a.setup-buttonSetup{
     display: block;
     position: relative;
     height: 40px;
-    width: 200px;
+    width: 120px;
     margin: 30px auto;
     text-decoration: none;
     font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -117,30 +114,11 @@ a.setup-buttonSetup{
     line-height: 40px;
     text-align: center;
     color: #000000;
-}
-ul.setup { 
-    list-style: none;
-
 }
 
 .setup-buttonWrapper{
     margin: 20px auto;
 
-}
-
-
-a.setup-buttonSetup{
-    display: block;
-    position: relative;
-    height: 40px;
-    width: 200px;
-    margin: 30px auto;
-    text-decoration: none;
-    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
 }
 
 a.setup-buttonHeader{
@@ -158,6 +136,50 @@ a.setup-buttonHeader{
     text-align: center;
     color: #000000;
 }
+
+.blob {
+	padding: 0px 20px 20px 20px;
+	margin: 30px 20px 20px 20px;
+	background-color: #F8FEF0;
+
+}
+
+/*buttons*/
+
+a.buttonSetup {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    margin: 30px auto;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.gray,.gray:hover {
+    color: #356600;
+    border-bottom: 4px solid #356600;
+    background: #d8dfb1;
+}
+
+.gray:hover { background: #E7FFCD; }
+
+/*global style*/
+h2 {
+border-bottom: 1px solid #82ac38;
+padding: 10px 0 5px 0;
+}
+
+h3 {
+border-bottom: 1px solid #82ac38;
+padding: 10px 0 5px 0;
+}
+
 
 /* setup-gray */
 .setup-gray,.setup-gray:hover {
@@ -184,6 +206,13 @@ a.setup-buttonHeader{
 
 }
 
+.blob {
+	padding: 0px 20px 20px 20px;
+	margin: 30px 20px 20px 20px;
+	background-color: #F8FEF0;
+
+}
+
 /*global style*/
 h2.setup{
 border-bottom: 1px solid #82ac38;
@@ -195,4 +224,9 @@ border-bottom: 1px solid #82ac38;
 padding: 10px 0 5px 0;
 }
 
-/*Henry's CSS code ends*/
+
+/*Style adjustments for table(s) that are a part of Google Custom Search*/
+.gstl_0, .gsc-search-box {
+  margin-top: 0;
+  padding-top: 0px;
+}
