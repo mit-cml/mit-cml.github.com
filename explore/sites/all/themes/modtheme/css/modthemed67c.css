@@ -230,3 +230,39 @@ padding: 10px 0 5px 0;
   margin-top: 0;
   padding-top: 0px;
 }
+
+
+/******
+ * Coloring for Invent menu item.
+ ******/
+.menu-item-527 > a {
+        background-color: #de7345 !important;
+        color: #fffa55 !important;
+}
+.menu-item-527 > a:hover, .menu-item-527 > a:focus, .menu-item-527 > a.active {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+/******
+ * Coloring for Get Setup menu item.
+ ******/
+.menu-item-1346 > a {
+        background-color: #6c1f6f !important;
+        color: #fffa55 !important;
+}
+.menu-item-1346 > a:hover, .menu-item-1150 > a:focus, .menu-item-1150 > a.active {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+/******
+ * Coloring for Teach menu item.
+ ******/
+.menu-item-1345 > a {
+        background-color: #74aaca !important;
+        color: #fffa55 !important;
+}
+.menu-item-1345 > a:hover, a:focus, a:active {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+

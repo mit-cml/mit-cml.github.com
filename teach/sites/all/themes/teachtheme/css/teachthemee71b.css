@@ -163,3 +163,37 @@ h3 {
 border-bottom: 1px solid #CDCDCD;
 padding: 10px 0 5px 0;
 }
+/******
+ * Coloring for Invent menu item.
+ ******/
+.menu-item-527 > a {
+        background-color: #de7345 !important;
+        color: #fffa55 !important;
+}
+.menu-item-527 > a:hover, .menu-item-527 > a:focus, .menu-item-527 > a.active {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+/******
+ * Coloring for Get Setup menu item.
+ ******/
+.menu-item-1072 > a {
+        background-color: #6c1f6f !important;
+        color: #fffa55 !important;
+}
+.menu-item-1072 > a:hover, .menu-item-928 > a:focus, .menu-item-928 > a.active {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+/******
+ * Coloring for Explore menu item.
+ ******/
+.menu-item-1073 > a {
+        background-color: #9cab61 !important;
+        color: #fffa55 !important;
+}
+.menu-item-1073 > a:hover, .menu-item-927 > a:focus {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+
