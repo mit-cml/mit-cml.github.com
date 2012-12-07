@@ -225,11 +225,16 @@ padding: 10px 0 5px 0;
 }
 
 
-/*Style adjustments for table(s) that are a part of Google Custom Search*/
+/*Style adjustments for Google Custom Search*/
 .gstl_0, .gsc-search-box {
   margin-top: 0;
   padding-top: 0px;
 }
+
+.gsib_b, .gsib_a {
+  vertical-align: top !important;
+}
+
 
 
 /******
