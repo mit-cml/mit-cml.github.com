@@ -53,6 +53,13 @@ footer {
   margin-left: 40px;
   text-align: center;
 }
+.announce {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: auto;
+  font-size: 22px;
+  text-align: center;
+}
 .information {
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
