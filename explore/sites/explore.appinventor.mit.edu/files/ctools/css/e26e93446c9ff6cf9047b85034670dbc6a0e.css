@@ -1,0 +1,63 @@
+
+.t-edge, .b-edge, .l-edge, .r-edge, .wrap-corner {
+  position: relative;
+  /* hasLayout -1 ? For IE only */
+  zoom: 1;
+}
+#ed_front .t-edge {
+  background: url(../../../../all/modules/panels/plugins/styles/corners/shadow-t.png) repeat-x 0 top;
+  font-size: 1px;
+}
+#ed_front .b-edge {
+  background: url(../../../../all/modules/panels/plugins/styles/corners/shadow-b.png) repeat-x 0 bottom;
+  font-size: 1px;
+}
+#ed_front .l-edge {
+  background: url(../../../../all/modules/panels/plugins/styles/corners/shadow-l.png) repeat-y 0 0;
+}
+#ed_front .r-edge {
+  background: url(../../../../all/modules/panels/plugins/styles/corners/shadow-r.png) repeat-y right 0;
+}
+#ed_front .wrap-corner {
+  background: #fff !important;
+}
+#ed_front .wrap-corner .t-edge, #ed_front .wrap-corner .b-edge {
+  height: 11px;
+}
+#ed_front .wrap-corner .l, #ed_front .wrap-corner .r {
+  position: absolute;
+  top: 0;
+  height: 11px;
+  width: 11px;
+  background-image: url(../../../../all/modules/panels/plugins/styles/corners/corner-bits.png);
+}
+#ed_front .wrap-corner .l {
+  left: 0;
+}
+#ed_front .wrap-corner .r {
+  right: 0;
+  background-position: -11px 0;
+}
+#ed_front .wrap-corner .b-edge .l {
+  background-position: 0 -11px;
+}
+#ed_front .wrap-corner .b-edge .r {
+  background-position: -11px -11px;
+}
+#ed_front .wrap-corner .r-edge {
+  padding: 5px 24px;
+}
+#ed_front div.admin-links {
+  margin-top: -14px;
+  margin-left: -12px;
+}
+
+#ed_front .panel-separator {
+  background: url(../../../../all/modules/panels/plugins/styles/corners/shadow-b.png) repeat-x 0 center;
+  font-size: 1px;
+  height: 30px;
+}
+
+#ed_front .rounded-corner {
+  margin-bottom: 1em;
+}
