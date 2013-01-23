@@ -8,7 +8,7 @@
 .container {width: 100%;}
 }
 /* Smartphone landscape one-col-vert */
-@media &#039;only screen and (min-width:32$ {
+@media only screen and (min-width:321px) and (max-width:480px) {
 .two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0;}
 .region-sidebar-first {width: 50%;}
 .region-sidebar-second {width: 50%;}
@@ -18,7 +18,7 @@
 .container {width: 100%;}
 }
 /* Tablet portrait one-col-vert */
-@media &#039;only screen and (min-width:481px) $ {
+@media only screen and (min-width:481px) and (max-width:768px) {
 .two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0;}
 .region-sidebar-first {width: 50%;}
 .region-sidebar-second {width: 50%;}
@@ -28,7 +28,7 @@
 .container {width: 100%;}
 }
 /* Tablet landscape three-col-grail */
-@media &#039;only screen and (min-width:769px)$ {
+@media only screen and (min-width:769px) and (max-width:1024px) {
 .two-sidebars .content-inner {margin-left: 180px; margin-right: 180px;}
 .sidebar-first .content-inner {margin-left: 180px; margin-right: 0;}
 .sidebar-second .content-inner {margin-right: 180px; margin-left: 0;}
@@ -36,12 +36,13 @@
 .region-sidebar-second {width: 180px; margin-left: -180px; clear: none;}
 .container {width: 960px;}
 }
-/* Standard layout three-col-grail */
+/* Standard layout three-col-right */
 @media only screen and (min-width:1025px) {
-.two-sidebars .content-inner {margin-left: 25%; margin-right: 30%;}
-.sidebar-first .content-inner {margin-left: 25%; margin-right: 0;}
-.sidebar-second .content-inner {margin-right: 30%; margin-left: 0;}
-.region-sidebar-first {width: 25%; margin-left: -100%;}
-.region-sidebar-second {width: 30%; margin-left: -30%; clear: none;}
+.two-sidebars .content-inner {margin-right: 280px; margin-left: 0;}
+.sidebar-first .content-inner {margin-right: 0px; margin-left: 0;}
+.sidebar-second .content-inner {margin-right: 280px; margin-left: 0;}
+.region-sidebar-first {width: 0px; margin-left: -280px;}
+.region-sidebar-second {width: 280px; margin-left: -280px; clear: none;}
+.sidebar-first .region-sidebar-first {width: 0px; margin-left: -0px;}
 .container {width: 1080px;}
 }
