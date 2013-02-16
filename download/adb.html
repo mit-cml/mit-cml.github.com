@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="App Inventor for Android" name="description" />
+  <meta content="Android, Blocks App Inventor, Mobile, Phone, IDE" name="keywords" />
+  <title>
+    New "abd" tools for MIT App Inventor
+  </title>
+  <link href="images/appinventor-16.png" rel="SHORTCUT ICON" type="image/ico" />
+  <link href="images/appinventor-16.png" rel="icon" type="image/png" />
+  <link href="css/appinventor.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/clippy.css" media="all">
+  <script language = "JavaScript" src="scripts/HeaderAndFooter.js"></script>
+  <style>
+   img.c3 {border-width:0}
+    li.c2 {list-style: none}
+    div.c1 {clear:both;}
+  </style>
+ </head>
+ <body>
+  <script language = "JavaScript">createHeader('<div id="navigation-breadcrumb"> <a href="/learn/">Learn</a> &gt; adb tools &gt; ');</script><br>
+  <div id="aiac">
+   <div class="main-container">
+    <div class="customhr customhr-gray">
+    </div>
+    <div class="content">
+     <div class="content-body">
+      <div class="learn-page">
+       <script>
+        function toggleShowHide(elementId) {
+              var element = document.getElementById(elementId);
+              if (element) {
+              if (element.style.display == "none")
+              element.style.display = "inline";
+              else
+              element.style.display = "none";
+              }
+              }
+       </script>
+       <h1>
+         Download Page for "adb" tool.
+       </h1>
+       <h3><font color=#E66B26>If you are not using Android operating system 4.2.2 or newer, you can ignore this message.</font></h3>
+       <p>If you are upgrading to the latest version of the Android operating system, version 4.2.2, you will need to also upgrade 
+	      a program on your computer, or else you won’t be able to connect to the phone with the USB cable. 
+	      <a href = "http://www.androidcentral.com/semi-pro-tip-android-422-here-your-android-sdk-might-need-updating"target="_blank">
+		  Look here for some background.</a>
+		</p>
+	      <p>If you are using App Inventor with the USB cable, and you are upgrading the phone to Android version 4.2.2 you should:<br> 
+			<ol>
+	         <li>Find the folder where the Appinventor Setup software was installed, and locate the "adb" program (also called "adb.exe" on Windows)</li>
+	         <li>Download the new version of the "adb" program appropriate to your operating system.</li>
+               <ul>
+                 <li><a href="adb-MacOSX.zip">adb-MacOSX.zip</a></li>
+                 <li><a href="adb-Windows.zip">adb-Windows.zip</a></li>
+                 <li><a href="adb-Ubuntu.zip">adb-Ubuntu.zip</a></li>
+               </ul>
+             <li>Extract and replace the adb program with this new version</li>
+			</ol>
+		  </p>
+	    <p>The next time you connect your phone to your computer with USB debugging turned on, you’ll be asked to "Allow USB Debugging?", say "OK". App 
+		   Inventor should now work as before. We are planning to release a new version of the App Inventor setup software in a few weeks that will make 
+		   this extra step unnecessary.
+		</p>
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="footer">
+     <script language = "JavaScript">createFooter();</script><br>
+     <div class="footer-lastupdate">
+      <script>
+       if (document.lastModified != '') {
+                var m = "Page last updated: " + document.lastModified;
+                var p = m.length-8;
+                document.writeln("<center>");
+                document.write(m.substring(p, 0));
+                document.writeln("<\/center>");
+              }
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+<script src="scripts/jquery-1.7.min.js"></script>
+<script src="scripts/clippy.min.js"></script>
+<script type="text/javascript">
+// var poll = null;
+// $(document).ready(function() {
+//               clippy.load('Clippy', function(agent){
+//               agent.moveTo(100, 150);
+//               agent.show();
+//               agent.speak("Hey! Download the Companion App Here!");
+//               agent.play("GestureLeft");
+//               poll = function() {
+//                  agent.animate();
+//                  setTimeout("poll()", 15000);
+//               }
+//               poll();
+//             });});
+</script>
+ </body>
+</html>
