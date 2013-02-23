@@ -6,7 +6,7 @@ function createHeader(breadcrumbs) {
     document.write('<div class="main-container">');
     document.write('<div class="header">');
     document.write('<div class="header-title">');
-    document.write('<a href="/about/"><img alt="" src="images/appinventor_logo.gif"></a>');//may need to change this source
+    document.write('<img alt="" src="images/appinventor_logo.gif">');//may need to change this source
     document.write('</div>');
     document.write('<form action="http://www.google.com/cse" id="cse-search-box">');
     document.write(' <input name="cx" type="hidden" \ value="005719495929270354943:tlvxrelje-e"> <input name= \
@@ -23,7 +23,7 @@ function createHeader(breadcrumbs) {
     document.write('</script>');
     document.write('<div class="header-login">');
     document.write('<div class="header-login-greeting"> \
-              Learn about App Inventor  \
+              <a href="http://appinventor.mit.edu/" target="_blank">Learn about App Inventor</a>  \
             </div>');
     document.write('</div>');
     document.write('</div>');
@@ -76,8 +76,8 @@ function createHeader(breadcrumbs) {
     }
     document.write('</div>');
     //breadcrumbs
-    document.write(breadcrumbs);
-    document.write('</div>');
+//    document.write(breadcrumbs);
+//    document.write('</div>');
 }
 function createFooter(){
     document.write('<p>');
