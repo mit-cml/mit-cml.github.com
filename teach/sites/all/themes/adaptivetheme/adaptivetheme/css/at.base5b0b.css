@@ -1,0 +1,95 @@
+/* Reset */
+html {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body,
+h1,h2,h3,h4,h5,h6,
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img,
+em,dfn,del,ins,
+a,
+tbody,tfoot,thead,tr,
+li,
+label,legend,
+figure,figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset HTML5 elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Flexible Media and Cross browser improvements
+ * - This can cause issues in table cells where no width is set on the column,
+ *   only in some versions of webkit and IE 7/8.
+ * - Google maps break also, see below for fixes.
+ */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+object,
+embed,
+video {
+  max-width: 100%;
+}
+/* Kill flexible images in IE6-8 */
+.ie6-8 img {
+  max-width: none;
+}
+/* Override max-width 100% for map displays, as much as possible anyway... */
+#map img,
+.gmap img,
+.view-gmap img,
+.openlayers-map img,
+#getlocations_map_canvas img,
+#locationmap_map img,
+.geofieldMap img,
+.views_horizontal_slider img {
+  max-width: none !important;
+}
+
+/* Improve IE's resizing of images */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Helpful classes for hiding content */
+.offscreen {
+  position: absolute;
+  top: -99999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  outline: 0;
+}
+.element-hidden {
+  display: none;
+}
