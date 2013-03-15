@@ -1,0 +1,168 @@
+/* Page */
+html, body {
+  background-color: #d8dfb1;
+  color: #000000;  
+}
+
+/* tasks */
+#skip-link a,
+ul.tabs li a,
+ul.tabs li a:visited {
+  background-color: #ffffff;
+  color: #2b7915;
+}
+ul.tabs li a:hover,
+ul.tabs li a:focus,
+ul.tabs li a:active,
+ul.tabs li a.active,
+ul.tabs li a.active:visited {
+  background-color: #2b7915;
+  color: #ffffff;
+}
+
+/* Links */
+a,
+a:visited {
+  color: #637f15;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #3b5732;  
+}
+.pager a:hover,
+.pager a:active,
+.pager a:focus {
+  background-color: #637f15;
+  color: #ffffff;
+}
+
+/* Identity */
+h1#site-name a,
+h1#site-name a:visited {
+  color: #ffffff;   
+}
+h2#site-slogan {
+  color: #ffffff; 
+}
+
+/* Header */
+.region-header,
+#menu-bar,
+.region-header h2.block-title,
+#menu-bar h2.block-title {
+  color: #d9e5a4;
+}
+.region-header a,
+.region-header a:visited {
+  color: #637f15;
+}
+.region-header a:hover,
+.region-header a:focus,
+.region-header a:active {
+  color: #3b5732;
+}
+
+/* Footer */
+.breadcrumb,
+#page > footer,
+#page > footer .block-title {
+  background-color: #eeeeee;
+  color: #000000;
+}
+.breadcrumb a,
+#page > footer a,
+#page > footer a:visited {
+ color: #637f15; 
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus,
+.breadcrumb a:active,
+#page > footer a:hover,
+#page > footer a:focus,
+#page > footer a:active {
+  color: #3b5732;
+}
+
+/* Navigation */
+#menu-bar .sf-menu a {
+  border: 0;
+}
+#menu-bar ul a,
+#menu-bar ul a:visited {
+  background-color: #637f15;
+  color: #ffffff;
+}
+#menu-bar ul a:hover,
+#menu-bar ul a:focus,
+#menu-bar ul a:active,
+#menu-bar ul a.active-trail,
+#menu-bar ul a.active-trail:visited,
+#menu-bar ul a.active,
+#menu-bar ul a.active:visited {
+  background-color: #ffffff;
+  color: #473e34;
+}
+#menu-bar ul ul a:active,
+#menu-bar ul ul a.active-trail,
+#menu-bar ul ul a.active-trail:visited,
+#menu-bar ul ul a.active,
+#menu-bar ul ul a.active:visited {
+  background-color: #637f15;
+  color: #ffffff;
+}
+#menu-bar ul ul a:hover,
+#menu-bar ul ul a:focus,
+#menu-bar ul ul a.active:hover,
+#menu-bar ul ul a.active:focus {
+  background-color: #343030;
+  color: #ffffff;
+}
+#menu-bar .sf-navbar.sf-style-none li ul li ul {
+  background-color: transparent;
+}
+/* .sf-navbar */
+.sf-navbar.sf-style-none li ul {
+  background-color: transparent !important;
+  width: 100%;
+}
+.sf-navbar > li > ul > li {
+  border-bottom: 1px solid #ffffff;
+}
+/* .sf-vertical */
+.sf-menu.sf-vertical li a {
+  border: 0;
+  border-bottom: 1px solid #343030;
+}
+.sf-menu.sf-vertical li a:hover,
+.sf-menu.sf-vertical li a:focus,
+.sf-menu.sf-vertical li a:visited:hover {
+  background: #343030 !important;
+  color: #ffffff;
+}
+
+/* Node links */
+article .links a,
+article .links a:visited {
+  background-color: #eeeeee;
+  color: #000002;
+}
+article .links a:hover,
+article .links a:focus,
+article .links a:active {
+  background-color: #aaaaaa;
+  color: #000003;
+}
+
+/* Titles */
+h1 {
+  color: #100001;
+}
+h2 {
+  color: #000000; /* need to update */
+}
+.comment header h3 a,
+h1 a,
+h1.article-title a {
+  color: #000000;
+}
