@@ -1,0 +1,102 @@
+/* Set layout for gpanels for smaller devices */
+
+/**
+ * Use this file to conditionally override gpanel layouts for devices.
+ * If you adjust the media queries in the theme settings you should
+ * adjust them here so they match.
+ *
+ * Internet Explorer Overrides
+ *
+ * Adaptivetheme includes special conditional classes on the HTML element
+ * which allow you to easily target styles at specific version of IE.
+ * 
+ * You can also use traditional conditional stylesheets - please see template.php
+ * and for help and instructions view our online help:
+ * http://adaptivethemes.com/documentation/working-with-internet-explorer
+ * 
+ * .iem7  - IE7 Mobile
+ * .ie6   - IE6
+ * .ie6-7 - IE6/7
+ * .ie6-8 - IE6/7/8
+ * .ie7   - IE7
+ * .ie8   - IE8
+ */
+
+/* Smartphone portrait */
+@media only screen and (max-width:320px) {
+  .gpanel .region {
+    display: block;
+    float: none;
+    width: 100% !important;
+  }
+  .ie6-7 .gpanel .region {
+    right: 0 !important;
+  }
+}
+
+/* Smartphone landscape */
+@media only screen and (min-width:321px) and (max-width:480px) {
+  .gpanel .region {
+    display: block;
+    float: none;
+    width: 100% !important;
+  }
+  .ie6-7 .gpanel .region {
+    right: 0 !important;
+  }
+}
+
+/* Tablet portrait */
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .three-25-25-50 .region-three-25-25-50-first,
+  .three-25-25-50 .region-three-25-25-50-second,
+  .three-50-25-25 .region-three-50-25-25-second,
+  .three-50-25-25 .region-three-50-25-25-third {
+    width: 50%;
+  }
+  .three-50-25-25 .region-three-50-25-25-first,
+  .three-25-25-50 .region-three-25-25-50-third {
+    width: 100% !important;
+    display: block;
+    float: none;
+    margin-bottom: 15px;
+  }
+  .four-4x25 .region {
+    width: 50%;
+  }
+  .six-6x16 .region,
+  .five-5x20 .region-five-first,
+  .five-5x20 .region-five-second,
+  .five-5x20 .region-five-third {
+    width: 33.333%;
+  }
+  .five-5x20 .region-five-fourth,
+  .five-5x20 .region-five-fifth {
+    width: 50%;
+  }
+  .three-50-25-25 .region-three-50-25-25-second,
+  .three-25-25-50 .region-three-25-25-50-third ,
+  .six-6x16 .region-six-third,
+  .five-5x20 .region-five-fourth {
+    clear: left;
+  }
+
+  /* IE6-7 */
+  .ie6-7 .three-25-25-50 .region-three-25-25-50-first,
+  .ie6-7 .three-25-25-50 .region-three-25-25-50-second,
+  .ie6-7 .three-50-25-25 .region-three-50-25-25-second,
+  .ie6-7 .three-50-25-25 .region-three-50-25-25-third,
+  .ie6-7 .four-4x25 .region,
+  .ie6-7 .five-5x20 .region-five-fourth,
+  .ie6-7 .five-5x20 .region-five-fifth   {
+    width: 49%;
+    right: 0 !important;
+  }
+  .ie6-7 .six-6x16 .region,
+  .ie6-7 .five-5x20 .region-five-first,
+  .ie6-7 .five-5x20 .region-five-second,
+  .ie6-7 .five-5x20 .region-five-third {
+    width: 32.333%;
+    right: 0!important;
+  }
+}
