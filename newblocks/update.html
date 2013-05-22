@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="App Inventor for Android" name="description" />
+  <meta content="Android, Blocks App Inventor, Mobile, Phone, IDE" name="keywords" />
+  <title>
+   Welcome to App Inventor "newblocks" pilot
+  </title>
+  <link href="images/appinventor-16.png" rel="SHORTCUT ICON" type="image/ico" />
+  <link href="images/appinventor-16.png" rel="icon" type="image/png" />
+  <link href="css/appinventor.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/clippy.css" media="all">
+  <script language = "JavaScript" src="scripts/HeaderAndFooter.js"></script>
+  <style>
+   img.c3 {border-width:0}
+    li.c2 {list-style: none}
+    div.c1 {clear:both;}
+    #aiac code { border-style: solid; padding: 5px; margin-left: 50px; border-color: gray;}
+  </style>
+ </head>
+ <body>
+  <script language = "JavaScript">createHeader('<div id="navigation-breadcrumb"> <a href="http://appinventor.mit.edu/explore/learn/">Learn</a> &gt; Wireless &gt; ');</script><br>
+  <div id="aiac">
+   <div class="main-container">
+    <div class="customhr customhr-gray">
+    </div>
+    <div class="content">
+     <div class="content-body">
+
+<h3>Welcome to App Inventor "newblocks" pilot, Update Information</h3>
+
+<p>Welcome to the “nb102” version of App Inventor Newblocks. As of
+  this version we will begin to deprecate the “newblocks” terminology in
+  favor of “MIT App Inventor 2”.</p>
+
+<p>This version requires a new version of the
+  <a href="http://appinventor.mit.edu/newblocks/MITNewBlocksCompanion.apk">MIT
+                             NewBlocks Companion</a>.</p>
+
+<p>This version is a further refinement of the new blocks editing code
+   for MIT App Inventor. Right click on the blocks editor background
+   to see some new features for arranging your blocks. You can also
+   use Chrome to “Zoom” in and out to make building larger apps
+   easier. This version should also work in Firefox (previous versions
+   did not always display the blocks correctly).</p>
+
+<p>This version adds a “Connect to Emulator” button when in the blocks
+   editor. As its name implies, this is a facility that will let you
+   debug your apps using the emulator. Note that this functionality is
+   still being worked on and isn’t finished (or polished that well
+   either!). In particular the UI will likely change.</p>
+
+<p>To use the Emulator you should install the Android SDK or you may
+   be able to use the App Inventor setup tools version of the
+   emulator. In either case you will need to invoke the Android
+   Emulator manually (for now). We recommend using the Android SDK and
+   following the instructions in the SDK documentation. <b>YOU DO NOT
+   NEED TO INSTALL ECLIPSE</b>. The SDK itself is sufficient. You can also
+   start an emulator for any recent version of Android. We recommend
+   using Gingerbread (2.3) or later.</p>
+
+<p>Once you have an emulator running, you need to install the MIT
+   NewBlocks Companion in the emulator. You can use the “adb” command
+   to do this. In particular the command is:</p>
+
+<code>
+  “adb install MITNewBlocksCompanion.apk”
+</code>
+
+<p>This assumes that you are working in the directory where you
+   downloaded the Companion. You can use an absolute path to the APK
+   file as well.</p>
+
+<p>Once you have done this, you can use the emulator for App Inventor
+   Development. There is one additional catch. Each time you start the
+   emulator you should issue the command:</p>
+
+<code>
+  “adb forward tcp:8001 tcp:8001”
+</code>
+
+<p>This sets up the network path for the Companion app. Once the
+   emulator is running and you have issued the adb command above,
+   start the Companion App in the emulator. It should recognize that
+   it is running in the emulator and not put up any buttons, etc. You
+   should now (finally!) be able to click the “Connect to Emulator”
+   button in the blocks editor. Your App should now appear in the
+   Companion on the emulator, if all went well.</p>
+
+<p>Obviously we will streamline this process in the future.</p>
+
+<p>Enjoy. Please send any feedback via the <a href="http://appinventor.mit.edu/newblocks/feedback.html" target="_blank">Feedback Form</a> at the top
+   of the page (in MIT App Inventor).</p>
+
+<p>Happy Inventing!<br />
+The MIT App Inventor Team</p>
+</div>
+</div>
+
+    <div class="footer">
+     <script language = "JavaScript">createFooter();</script><br>
+     <div class="footer-lastupdate">
+      <script>
+       if (document.lastModified != '') {
+                var m = "Page last updated: " + document.lastModified;
+                var p = m.length-8;
+                document.writeln("<center>");
+                document.write(m.substring(p, 0));
+                document.writeln("<\/center>");
+              }
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+<script src="scripts/jquery-1.7.min.js"></script>
+<script src="scripts/clippy.min.js"></script>
+<script type="text/javascript">
+// var poll = null;
+// $(document).ready(function() {
+//               clippy.load('Clippy', function(agent){
+//               agent.moveTo(100, 150);
+//               agent.show();
+//               agent.speak("Hey! Download the Companion App Here!");
+//               agent.play("GestureLeft");
+//               poll = function() {
+//                  agent.animate();
+//                  setTimeout("poll()", 15000);
+//               }
+//               poll();
+//             });});
+</script>
+ </body>
+</html>
