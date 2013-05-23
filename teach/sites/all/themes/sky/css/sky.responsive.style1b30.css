@@ -1,0 +1,168 @@
+/* Smartphone portrait */
+@media only screen and (max-width:320px) {
+  body {
+    padding: 0 5px;
+  }
+  #branding,
+  .region-header  {
+    float: none;
+    margin: 0 0 10px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .region-header .block {
+    clear: both;
+    float: none;
+    margin: 5px auto;
+    max-width: 80%;
+  }
+  .region-header .block .block-inner {
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+  }
+  h1#site-name {
+    font-size: 1.5em;
+  }
+  h2#site-slogan {
+    font-size: 0.9em;
+  }
+  #menu-bar {
+    margin-bottom: 1px;
+    overflow: hidden;
+  }
+  #menu-bar .menu-wrapper li a,
+  #menu-bar .menu-wrapper .menu li a {
+    display: block;
+    line-height: 3.6ex;
+    padding: 0 0.5em;
+    font-size: .9em;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+  #menu-bar .menu-wrapper li.last a,
+  #menu-bar .menu-wrapper .menu li.last a {
+  }
+  #menu-bar .menu-wrapper li,
+  #menu-bar .menu-wrapper .menu li {
+    display: block;
+    float: none;
+    margin-right: 0;
+  }
+  #menu-bar .menu-wrapper ul.menu li {
+    margin: 0;
+    padding: 0;
+  }
+  #menu-bar .menu-wrapper ul ul {
+    display: none !important;
+  }
+}
+
+/* Smartphone landscape */
+@media only screen and (min-width:321px) and (max-width:480px) {
+  body {
+    padding: 0 5px;
+  }
+  #branding,
+  .region-header  {
+    float: none;
+    margin: 0 0 10px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .region-header .block {
+    clear: both;
+    float: none;
+    margin: 5px auto;
+    max-width: 80%;
+  }
+  .region-header .block .block-inner {
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+  }
+  h1#site-name {
+    font-size: 1.5em;
+  }
+  h2#site-slogan {
+    font-size: 0.9em;
+  }
+  #menu-bar {
+    margin-bottom: 1px;
+    overflow: hidden;
+  }
+  #menu-bar .menu-wrapper li a,
+  #menu-bar .menu-wrapper .menu li a {
+    display: block;
+    padding: 0 0.5em;
+    font-size: .9em;
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+  #menu-bar .menu-wrapper li.last a,
+  #menu-bar .menu-wrapper .menu li.last a {
+  }
+  #menu-bar .menu-wrapper li,
+  #menu-bar .menu-wrapper .menu li {
+    display: block;
+    float: none;
+    margin-right: 0;
+  }
+  #menu-bar .menu-wrapper ul.menu li {
+    margin: 0;
+    padding: 0;
+  }
+  #menu-bar .menu-wrapper ul ul {
+    display: none !important;
+  }
+}
+
+/* Tablet portrait */
+@media only screen and (min-width:481px) and (max-width:768px) {
+  body {
+    padding: 0 8px;
+  }
+  h1#site-name {
+    font-size: 2em;
+  }
+  #menu-bar .menu-wrapper li a,
+  #menu-bar .menu-wrapper .menu li a {
+    padding: 0 1em;
+    font-size: .9em;
+  }
+  #menu-bar .menu-wrapper li,
+  #menu-bar .menu-wrapper .menu li {
+    margin-right: 2px;
+  }
+}
+
+/* Tablet landscape */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  h1#site-name {
+    font-size: 2.8em;
+  }
+  #menu-bar .menu-wrapper li a,
+  #menu-bar .menu-wrapper .menu li a {
+    padding: 0 1.2em;
+    font-size: .94em;
+  }
+  #menu-bar .menu-wrapper li,
+  #menu-bar .menu-wrapper .menu li {
+    margin-right: 4px;
+  }
+}
+
+/* Standard layout
+@media only screen and (min-width:1025px) {
+}
+ */

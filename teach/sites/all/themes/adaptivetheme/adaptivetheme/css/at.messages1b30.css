@@ -1,0 +1,73 @@
+/* Messages */
+div.messages {
+  margin: 10px;
+}
+#block-system-help {
+  background: #f7f7f7 url(images/help.png) no-repeat 8px 8px;
+  border: none;
+  margin: 10px 0;
+  padding: 10px 10px 10px 50px;
+}
+#block-system-help code,
+div.messages code {
+  font-weight: 700;
+}
+#block-system-help p:last-child,
+#block-system-help ul:last-child {
+  margin-bottom: 0;
+}
+#block-system-help p:first-child {
+  margin-top: 0;
+}
+.block-region {
+  background-color: #f7f8f8;
+  border: 2px dashed #ddd;
+  clear: both;
+  color: #666;
+  font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif; /* Safari hack */
+  font-size: 1.077em;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 3px 6px 1px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+}
+#page article.article-unpublished,
+#page article.comment-unpublished {
+  background-color: #fffce5;
+}
+#page .article-unpublished .unpublished,
+#page .comment-unpublished .unpublished {
+  background: url("images/warning.png") no-repeat 1px 7px;
+  color: #625b42;
+  font-weight: 700;
+  padding: 5px 10px 10px 20px;
+}
+div#acquia-agent-no-search {
+  padding-left:3em !important;
+  margin: 8px 0;
+}
+a.block-demo-backlink,
+a.block-demo-backlink:link,
+a.block-demo-backlink:visited {
+  left:50%;
+  margin-left:-9em;
+  text-align:center;
+  width:18em;
+}
+.vertical-tab-button-error a {
+  border: 1px solid #FC6F5D;
+}
+body.maintenance-page,
+body.maintenance-page .container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+body.maintenance-page #header {
+  padding-left: 0;
+  padding-right: 0;
+}
