@@ -1,6 +1,6 @@
 /**
  * newexploretheme NewExploretheme.css
- *
+ * 
  * Use this file to add your custom styles.
  *
  * You can change the name of this file, just
@@ -55,72 +55,72 @@
 }
 
 .basicblock {
-border: 1px dashed #7AA81C;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E7F2CB;
-font-size: 9pt;
-text-wrap: suppress;
+	border: 1px dashed #7AA81C;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #E7F2CB;
+	font-size: 9pt;
+	text-wrap: suppress;
 
 }
 
 .callblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E0D1FF;
-font-size: 9pt;
-text-wrap: suppress;
+	border: 1px dashed #000000;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #E0D1FF;
+	font-size: 9pt;
+	text-wrap: suppress;
 
 }
 
 .argblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E5E5FF;
-font-size: 9pt;
-text-wrap: suppress;
+	border: 1px dashed #000000;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #E5E5FF;
+	font-size: 9pt;
+	text-wrap: suppress;
 
 }
 .textblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FADAA0;
-font-size: 9pt;
-text-wrap: suppress;
+	border: 1px dashed #000000;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #FADAA0;
+	font-size: 9pt;
+	text-wrap: suppress;
 
 }
 
 .setterblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #C1D5F8;
-font-size: 9pt;
-text-wrap: suppress;
+	border: 1px dashed #000000;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #C1D5F8;
+	font-size: 9pt;
+	text-wrap: suppress;
 }
 
 .controlblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FAEDBB;
-font-size: 9pt;
-text-wrap: suppress;
+	border: 1px dashed #000000;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #FAEDBB;
+	font-size: 9pt;
+	text-wrap: suppress;
 }
 
 
@@ -133,6 +133,11 @@ text-wrap: suppress;
 	background-image: url('http://beta.appinventor.mit.edu/static/images/android-notice-30x30.gif');
 	padding-left: 60px;
 }
+
+a.ai-box {
+	color: #4d2177;
+}
+
 
 .ai-header {
 	border-bottom: 1px solid #CDCDCD;
@@ -330,11 +335,11 @@ padding: 10px 0 5px 0;
 /******
  * Coloring for Teach menu item.
  ******/
-.menu-item-1730 > a {
+.menu-item-2106 > a {
         background-color: #74aaca !important;
         color: #fffa55 !important;
 }
-.menu-item-1730 > a:hover, a:focus, a.active, a.active-trail{
+.menu-item-2106 > a:hover, a:focus, a.active, a.active-trail{
         background-color: #ffffff !important;
         color: #3b5732 !important;
 }
