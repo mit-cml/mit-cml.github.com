@@ -5,7 +5,7 @@
   <meta content="App Inventor for Android" name="description" />
   <meta content="Android, Blocks App Inventor, Mobile, Phone, IDE" name="keywords" />
   <title>
-    Testing the V133 App Inventor Release
+    Testing Blocks Editor Synchronization
   </title>
   <link href="images/appinventor-16.png" rel="SHORTCUT ICON" type="image/ico" />
   <link href="images/appinventor-16.png" rel="icon" type="image/png" />
@@ -39,21 +39,31 @@
               }
        </script>
        <h1>
-         Testing the V134 App Inventor Release
+         Testing Blocks Editor Synchronization
        </h1>
        <p>
-         <b>Update: May 3rd:</b> We are now testing v134rc2. You will need a new Companion app for rc2 (use link below). The correct
-         Companion will have version 2.07.
+         Testing now has experimental code which attempts to provide better internal synchronization within the Java Blocks Editor to
+         avoid the problem where projects with multiple screens were getting corrupted because the user switched screens too quickly.
        </p>
        <p>
-         We are now testing the V134 Release. You will need the new <a href="MITAICompanion.apk">MITAICompanion.apk</a> app in order to test
-         This release. This copy is signed with the same key as the Store version so you should be able to side-load it on top of the store
-         version. Note: When you are done testing you might want to remove this version and re-download the store version so you can continue
-         to get auto updated.
+         I believe I found a problem where the new screen could start loading while an auto save was in progress, and I believe I have
+         fixed it. The source code is <a href="https://github.com/jisqyv/app-inventor-private/commits/moresynchro" target="_blank">in my GitHub fork</a>. Note that I pulled this commit:
+         <pre><code><font size=-1>
+ 4c3d286 *
+        | Author: halatmit <hal@mit.edu>
+        | Date:   Mon May 6 08:39:47 2013 -0400
+        |
+        |     Player: Renamed IsLooping to Loop.
+        |     Changed the property so that it affects both current and future playing.
+        |     Fixed minor typo
+        |
+        |     Change-Id: Ie17e340537d1821ab0fa8312b191cd9ec5be92fc
+
+        </font></code></pre>
+         so that we can use the same buildservers and companion app (this commit is the only one in master since v134 that
+         changes the blocks/components).
        </p>
-       <p>
-         Release notes are in <a href="https://docs.google.com/document/d/1jRx00o3DwToWsTt8gdqJb4L3khbSxqeFmKSrQAct4V4/edit" target="_blank">This Google Doc</a>. Please review (and contribute!).
-       </p>
+       <p><b>PLEASE TEST</b></p>
        <p>
          Btw. Clippy over on the left makes sounds... (you have been warned! :-) ).
        </p>
