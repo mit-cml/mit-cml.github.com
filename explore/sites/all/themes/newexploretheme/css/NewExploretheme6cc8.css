@@ -130,7 +130,7 @@
 	font-family: Lucida Sans Unicode;
 	background-position :left center;
 	background-repeat: no-repeat;	
-	background-image: url('http://beta.appinventor.mit.edu/static/images/android-notice-30x30.gif');
+	background-image: url('../../../files/callout_icons/android-notice-30x30.gif');
 	padding-left: 60px;
 }
 
@@ -151,7 +151,7 @@ font-size:12px;
 font-family: Lucida Sans Unicode;
 background-position :left bottom;
 background-repeat: no-repeat;
-background-image: url('http://beta.appinventor.mit.edu/static/images/testicon2.png');
+background-image: url('../../../files/callout_icons/testicon2.png');
 padding-left: 90px;
 }
 
@@ -163,7 +163,7 @@ padding-left: 90px;
         background: #FDD;
         background-position :left center;
         background-repeat: no-repeat;
-        background-image: url('http://beta.appinventor.mit.edu/static/images/android-warning-30x30.gif');
+        background-image: url('../../../files/callout_icons/android-warning-30x30.gif');
         padding-left: 90px;
 }
 
