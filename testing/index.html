@@ -5,7 +5,7 @@
   <meta content="App Inventor for Android" name="description" />
   <meta content="Android, Blocks App Inventor, Mobile, Phone, IDE" name="keywords" />
   <title>
-    Testing Blocks Editor Synchronization
+    Testing Release v135
   </title>
   <link href="images/appinventor-16.png" rel="SHORTCUT ICON" type="image/ico" />
   <link href="images/appinventor-16.png" rel="icon" type="image/png" />
@@ -39,29 +39,17 @@
               }
        </script>
        <h1>
-         Testing Blocks Editor Synchronization
+         Testing Release v135
        </h1>
        <p>
-         Testing now has experimental code which attempts to provide better internal synchronization within the Java Blocks Editor to
-         avoid the problem where projects with multiple screens were getting corrupted because the user switched screens too quickly.
+         Testing now has v135rc1, the first release candidate for MIT App Inventor Release v135. This is a bugfix release.
        </p>
        <p>
-         I believe I found a problem where the new screen could start loading while an auto save was in progress, and I believe I have
-         fixed it. The source code is <a href="https://github.com/jisqyv/app-inventor-private/commits/moresynchro" target="_blank">in my GitHub fork</a>. Note that I pulled this commit:
-         <pre><code><font size=-1>
- 4c3d286 *
-        | Author: halatmit <hal@mit.edu>
-        | Date:   Mon May 6 08:39:47 2013 -0400
-        |
-        |     Player: Renamed IsLooping to Loop.
-        |     Changed the property so that it affects both current and future playing.
-        |     Fixed minor typo
-        |
-        |     Change-Id: Ie17e340537d1821ab0fa8312b191cd9ec5be92fc
-
-        </font></code></pre>
-         so that we can use the same buildservers and companion app (this commit is the only one in master since v134 that
-         changes the blocks/components).
+         There is a new <a href="MITAICompanion.apk">MIT AI Companion version 2.08</a> for this release but its use is not mandatory as the
+         blocks with this release are compatible with the blocks in the v134 release. So version 2.07 should still be fine.
+       </p>
+       <p>
+         <a href="https://docs.google.com/document/d/1WaGtmcYmx0I6qNZ21yrWfJmPz94TDa9IT9HHQmYEI-I/edit?usp=sharing" target="_blank">You can view and edit the release notes.</a>
        </p>
        <p><b>PLEASE TEST</b></p>
        <p>
