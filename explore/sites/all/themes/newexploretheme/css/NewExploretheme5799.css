@@ -46,102 +46,102 @@
 }
 
 .ai-blocks {
-	border: 2px dashed #7AA81C;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #F3F6EC;
+  border: 2px dashed #7AA81C;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #F3F6EC;
 }
 
 .basicblock {
-	border: 1px dashed #7AA81C;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #E7F2CB;
-	font-size: 9pt;
-	text-wrap: suppress;
+  border: 1px dashed #7AA81C;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #E7F2CB;
+  font-size: 9pt;
+  text-wrap: suppress;
 
 }
 
 .callblock {
-	border: 1px dashed #000000;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #E0D1FF;
-	font-size: 9pt;
-	text-wrap: suppress;
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #E0D1FF;
+  font-size: 9pt;
+  text-wrap: suppress;
 
 }
 
 .argblock {
-	border: 1px dashed #000000;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #E5E5FF;
-	font-size: 9pt;
-	text-wrap: suppress;
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #E5E5FF;
+  font-size: 9pt;
+  text-wrap: suppress;
 
 }
 .textblock {
-	border: 1px dashed #000000;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #FADAA0;
-	font-size: 9pt;
-	text-wrap: suppress;
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FADAA0;
+  font-size: 9pt;
+  text-wrap: suppress;
 
 }
 
 .setterblock {
-	border: 1px dashed #000000;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #C1D5F8;
-	font-size: 9pt;
-	text-wrap: suppress;
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #C1D5F8;
+  font-size: 9pt;
+  text-wrap: suppress;
 }
 
 .controlblock {
-	border: 1px dashed #000000;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: #FAEDBB;
-	font-size: 9pt;
-	text-wrap: suppress;
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FAEDBB;
+  font-size: 9pt;
+  text-wrap: suppress;
 }
 
 
 .ai-box {
-	color: green;
-	font-size:12px;
-	font-family: Lucida Sans Unicode;
-	background-position :left center;
-	background-repeat: no-repeat;	
-	background-image: url('../../../files/callout_icons/android-notice-30x30.gif');
-	padding-left: 60px;
+  color: green;
+  font-size:12px;
+  font-family: Lucida Sans Unicode;
+  background-position :left center;
+  background-repeat: no-repeat; 
+  background-image: url('../../../files/callout_icons/android-notice-30x30.gif');
+  padding-left: 60px;
 }
 
 a.ai-box {
-	color: #4d2177;
+  color: #4d2177;
 }
 
 
 .ai-header {
-	border-bottom: 1px solid #CDCDCD;
-	padding: 10px 0 5px 0;
+  border-bottom: 1px solid #CDCDCD;
+  padding: 10px 0 5px 0;
 }
 
 .ai-testing {
@@ -211,9 +211,9 @@ a.setup-buttonHeader{
 }
 
 .blob {
-	padding: 0px 20px 20px 20px;
-	margin: 30px 20px 20px 20px;
-	background-color: #F8FEF0;
+  padding: 0px 20px 20px 20px;
+  margin: 30px 20px 20px 20px;
+  background-color: #F8FEF0;
 
 }
 
@@ -273,16 +273,16 @@ padding: 10px 0 5px 0;
 .setup-lightGreen:hover { background: #82ac38; }
 
 .setup-blob {
-	padding: 0px 20px 20px 20px;
-	margin: 30px 20px 20px 20px;
-	background-color: #F8FEF0;
+  padding: 0px 20px 20px 20px;
+  margin: 30px 20px 20px 20px;
+  background-color: #F8FEF0;
 
 }
 
 .blob {
-	padding: 0px 20px 20px 20px;
-	margin: 30px 20px 20px 20px;
-	background-color: #F8FEF0;
+  padding: 0px 20px 20px 20px;
+  margin: 30px 20px 20px 20px;
+  background-color: #F8FEF0;
 
 }
 
@@ -390,24 +390,48 @@ ul.menu {
 /*******
  * Create scrollable checkboxes on views
  *******/
+
+ .views-exposed-form .views-exposed-widget {
+  width: 100%;
+}
+
 .bef-checkboxes,
 .bef-select-as-radios .form-radios {
   /*
    * Setting the height and overflow creates a scrollable <div> for the radio/checkbox elements.
    * The border is just for looks -- adjust or remove as needed.
    */
-  height: 143px;
-  overflow: auto;
-  width: auto;
+  height: auto;
+  float:left;
+  width: 100%;
+  /*background-color:red;*/
   /*border: 1px solid #AAAAAA;*/
   padding-right: 5px;
 }
 
+.bef-checkboxes .form-item, .bef-select-as-radios .form-radios .form-item {
+  display:block;
+  width:20%;
+  float:left;
+
+}
 /* Line up multi-line options nicely */
 .bef-checkboxes .form-item,
 .bef-select-as-radios .form-radios .form-item {
   text-indent: -24px;
   margin-left: 24px;
+}
+
+.views-exposed-widget.views-submit-button{
+  width:50px;
+  float:left;
+  padding: 0 1em 1em 0;
+}
+
+.views-exposed-widget.views-reset-button{
+  width:40%;
+  float:left;
+  padding: 0 0 1em 0;
 }
 
 /*******
@@ -419,8 +443,8 @@ ul.menu {
 .fix-width-50{
   width:50%;
 }
-.fix-width-75{
-  width:75%;
+.fix-width-80{
+  width:80%;
 }
 
 tr.even {
