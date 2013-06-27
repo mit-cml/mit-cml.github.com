@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - Multiple Screens</title>
+ <link>http://explore.appinventor.mit.edu/tutorial-type/multiple-screens</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Colored Dots</title>
+ <link>http://explore.appinventor.mit.edu/content/colored-dots</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Colored Dots&lt;/span&gt;: Creating Apps with Multiple Screens&lt;/h2&gt;
+&lt;p&gt;This tutorial shows how to create apps that have multiple screens. In App Inventor, you can have a screen open a second screen. Later, the second screen can return to the screen that opened it. You can have as many screens as you like, but each screen closes by returning to the screen that opened it. The screens can share information by passing and returning values when they open and close. The screens also share the same TinyDB data, which they can use to store and share values.&lt;/p&gt;
+&lt;p&gt;Building an app with multiple screens is a lot like creating several individual apps. Every screen that you create has its own components in the Designer window. In the Blocks Editor, you will be able to see only the components of the screen currently selected in the Designer. Similarly, the blocks of code related to a screen cannot refer to blocks of code in another screen.&lt;/p&gt;
+&lt;p&gt;This program, ColoredDots, has two screens. ColoredDots is similar to &lt;a href=&quot;http://explore.appinventor.mit.edu/content/paintpot-part-1&quot;&gt;PaintPot&lt;/a&gt;, but it uses a second screen to let the user create new colors by providing numerical values for the red, green, and blue color composition (RGB). In the PaintPot app, a user can only paint with one of the three predefined colors. Adding more colors to Paintpot would have required new buttons on the screen, reducing the amount of space available for painting. In ColoredDots, the new color is chosen on a second screen called Brush_Picker. Once a new color has been created in this second screen, its value is passed back to the first screen. You can also save and name the colors you create in the second screen, then use the saved colors later when painting. By using ListPicker to store the colors you create, it eliminates the need for the user to remember the name of the color they saved and spell it correctly in accessing it again. This makes the database of stored colors more accessible, making it easier to share the app among a group of people.&lt;/p&gt;
+&lt;p&gt;Here are the two screens for the ColoredDots app:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/brush_picker.PNG&quot; style=&quot;float:right;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/screen1.PNG&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Objectives&lt;/h4&gt;
+&lt;p&gt;By the end of this tutorial, you should have a understanding of:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;How to make an app with multiple screens.&lt;/li&gt;
+&lt;li&gt;How to pass values from one screen to another via &lt;b&gt;TinyDB&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;How to fill and use the &lt;b&gt;ListPicker&lt;/b&gt; element.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Building the Main Screen (Screen1)&lt;/h4&gt;
+&lt;p&gt;You start building a multiscreen app by creating a new project, just as with any other app. As usual, App Inventor automatically creates the main screen and names it &lt;b&gt;Screen1&lt;/b&gt; and you can add components. Here&#039;s the Designer and the Components panel when all the components for &lt;b&gt;Screen1&lt;/b&gt; have been added.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/screen1designer_0.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The components are:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;td&gt;
+Component Settings
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TitleLabel&lt;/td&gt;
+&lt;td&gt;Shows the title &quot;Paint with Colored Dots&quot;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ColorLabel&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Current Color&quot;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ColorSample&lt;/td&gt;
+&lt;td&gt;Blank label whose background color is the current color&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;DotSizeLabel&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Dot size&quot;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;DotSizeValue&lt;/td&gt;
+&lt;td&gt;Shows the current dot size&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Canvas&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
+&lt;td&gt;Shows dots at the places you touch&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;EraseButton&lt;/td&gt;
+&lt;td&gt;Clears the canvas&lt;/td&gt;
+&lt;td&gt;Set text to &quot;Erase&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;openBrushPicker&lt;/td&gt;
+&lt;td&gt;Launches the second screen&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Customize Brush&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;ListPicker&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ListPicker1&lt;/td&gt;
+&lt;td&gt;Loads the list of colors from the data base&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Stored Color&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TinyDB&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;Stores color names and values&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;We&#039;ll look at the blocks for &lt;b&gt;Screen1&lt;/b&gt; below. But first let&#039;s add the other screen.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Adding a second screen&lt;/h4&gt;
+&lt;p&gt;To add a new screen to your app, click the Add Screen button in the top toolbar of the Designer window. A dialog window will appear, in which you can provide a name for the new screen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/newscreenname_0.PNG&quot; style=&quot;float:right; width:250px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/addscreen.png&quot; style=&quot;width:400px;&quot; /&gt;&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; You should make the name of the new screen something meaningful when you add it. Do that now, because once a screen has been added, its name cannot be changed -- the Rename button for the screen component itself is disabled -- it&#039;s good to have meaningful names for the parts of your program. One limitation here is that &lt;b&gt;Screen1&lt;/b&gt; cannot be renamed. Remember also that the screen&#039;s title (shown in the title bar when the app is running) is different from its name. You can change the screen title in the Properties pane.&lt;/pre&gt;&lt;p&gt;When you create a new screen, the Designer window switches to display it. Initially there will be no components, just like with a new app, and you add new components by dragging them from the Palette, just as with any screen. Here&#039;s the Designer window for the second screen, named &lt;b&gt;Brush_Picker&lt;/b&gt;, after the components have been added. Notice that &lt;b&gt;Brush_Picker&lt;/b&gt; is a dark green color, meaning &lt;b&gt;Brush_Picker&lt;/b&gt; is the current screen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/brushpickerdesigner.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The components for the brush picker screen are:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;RedLabel&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Red&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Red&lt;/td&gt;
+&lt;td&gt;For entering the amount of red in the color (0-255)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;GreenLabel&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Green&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Green&lt;/td&gt;
+&lt;td&gt;For entering the amount of green in the color (0-255)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;BlueLabel&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Blue&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Blue&lt;/td&gt;
+&lt;td&gt;For entering the amount of blue in the color (0-255)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;DotRadius&lt;/td&gt;
+&lt;td&gt;Shows the text &quot;Dot size&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;RadiusTextBox&lt;/td&gt;
+&lt;td&gt;Shows the current dot size&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TestColorButton&lt;/td&gt;
+&lt;td&gt;Press to create the new color and prompts the user to store this color&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;LabelTestColorSample&lt;/td&gt;
+&lt;td&gt;Blank label whose background color is the new color&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Canvas&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
+&lt;td&gt;Displays the size and color of the test color&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ResetColorButton&lt;/td&gt;
+&lt;td&gt;Resets all the values to the default color, black&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ReturnToPainting&lt;/td&gt;
+&lt;td&gt;Returns to the main screen with the new color and dot size&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Notifier&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Other stuff&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Notifier1&lt;/td&gt;
+&lt;td&gt;Shows a dialog for saving the color and entering a color name&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TinyDB&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;Stores color names and values&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Here and in general with multiple screen apps, only the components that belong to the current screen (in this case &lt;b&gt;Brush_Picker&lt;/b&gt;) are shown in the Designer and the Components pane. You can switch between screens by pressing the &lt;b&gt;Brush_Picker&lt;/b&gt; and the &lt;b&gt;Screen1&lt;/b&gt; buttons, and the view in the Designer will show the corresponding screen. The same is true for the Blocks Editor: When you&#039;re working on a screen you&#039;ll see only the blocks for that screen.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;None of the components, variable definitions, and procedures that you define in one screen will be accessible from any other screen. We&#039;ll see below how to pass information between screens.&lt;/pre&gt;&lt;pre class=&quot;ai-warning&quot;&gt;Warning: When you switch between screens, you are effectively telling the Blocks Editor to load a new project, and this takes a little time. Wait until the Blocks Editor is done loading the blocks for the new screen before changing things. Most especially, wait until the new screen has finished loading before clicking on blocks or links with the mouse. If you don&#039;t wait, you may get errors, or even lose blocks from your project.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Blocks for the main screen (Screen1)&lt;/h4&gt;
+&lt;p&gt;The &lt;b&gt;Screen1&lt;/b&gt; is essentially a drawing program. When you touch the Canvas, the app draws a dot of the current radius and color. The color is specified by the background of the &lt;b&gt;ColorSample&lt;/b&gt; label. The erase button clears the canvas. When the screen opens, it initializes the radius to 3 and the color to black. Here are the corresponding blocks:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/screen1basicblocks.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It is worth noting that the &lt;span class=&quot;basicblock&quot;&gt;Initialize&lt;/span&gt; block uses the procedure &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt; and sets the ListPicker to &lt;span class=&quot;callblock&quot;&gt;populateList&lt;/span&gt; using the &lt;span class=&quot;setterblock&quot;&gt;set ListPicker1.Elements to&lt;/span&gt; block. Each of these actions will be discussed in more detail later. Basically, when the screen starts, it stores the default color, Black, and adds that to the list of colors that can be selected using the ListPicker. &lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt;Test to make sure the drawing behavior acts as you expect it to. You won&#039;t be able to add new colors yet, but see what happens when you try to draw dots of the page.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Communicating with the brush picker screen&lt;/h4&gt;
+&lt;p&gt;The multiple screen aspect of the app involves getting the &quot;new brush&quot;: the new color and the new dot radius. It&#039;s the job of &lt;b&gt;Brush_Picker&lt;/b&gt; to create these values and return these to &lt;b&gt;Screen1&lt;/b&gt; as a list of three items: the color, the dotsize, and the total number of colors stored. The number of colors is necessary for creating the list that ListPicker will reference. We&#039;ll see how &lt;b&gt;Brush_Picker&lt;/b&gt; does this below, but from the perspective of &lt;b&gt;Screen1&lt;/b&gt;, all it needs to do is open &lt;b&gt;Brush_Picker&lt;/b&gt; and get the result.&lt;/p&gt;
+&lt;p&gt;Here&#039;s how this happens: when the Customize Brush button is pressed, &lt;b&gt;Screen1&lt;/b&gt; uses &lt;span class=&quot;&quot; controlblock=&quot;&quot;&gt;open another screen with start value&lt;/span&gt; to open &lt;b&gt;Brush_Picker&lt;/b&gt;. When the user finishes with Brush_Picker, it will signal the other screen closed event, which provides the name of the screen (here Brush_Picker) and the value returned (here the three-element list). The event handler for &lt;b&gt;Screen1&lt;/b&gt; extracts the three items from the list and sets the ColorSample background and the DotSizeValue text properties. It also calls the procedure &lt;span class=&quot;callblock&quot;&gt;populateList&lt;/span&gt;, which is defined below. Here are the blocks:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/screen1communicating.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;ColoredDots uses &lt;span class=&quot;controlblock&quot;&gt;open another screen with value&lt;/span&gt; to open &lt;b&gt;Brush_Picker&lt;/b&gt; with values passed to it from &lt;b&gt;Screen1&lt;/b&gt;. The other screen then accesses these opening values using &lt;span class=&quot;controlblock&quot;&gt;get start value&lt;/span&gt; blocks. In general, a screen opens another screen with &lt;span class=&quot;controlblock&quot;&gt;open another screen&lt;/span&gt; and gets a result back though the &lt;span class=&quot;controlblock&quot;&gt;when other screen closed&lt;/span&gt; event. In this case, the values are passed from &lt;b&gt;Screen1&lt;/b&gt; to &lt;b&gt;Brush_Picker&lt;/b&gt; so the app can keep track of how many colors are stored and what the current values are.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt; If you want to make sure that your blocks for opening a new screen are working, you will have to package the app to your phone or emulator. App Inventor does not currently allow live development for multi-screen apps, so make sure you package the phone before trying to test the behavior.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Sharing data via TinyDB&lt;/h4&gt;
+&lt;p&gt;Besides opening screens and returning values, the different screens in a multiple screen app can communicate through TinyDB. To do this, give every screen its individual TinyDB component. Even though these will be &quot;different&quot; TinyDB components, they will in fact all share the same keys and values: If one screen stores a value under a key, the other screen can get that value by using the same key.&lt;/p&gt;
+&lt;p&gt;ColoredDots uses TinyDB to let you name the colors you create and save them to later use. The saving and naming will be done in &lt;b&gt;Brush_Picker&lt;/b&gt;, as shown in the blocks later. When you open ListPicker (labelled Stored Color) in &lt;b&gt;Screen1&lt;/b&gt;, the app uses opens the list of colors that you have stored for you to choose one and then sets the drawing color to the result. The elements are added to this list by creating the procedure &lt;span class=&quot;callblock&quot;&gt;populateList&lt;/span&gt;. As shown in these blocks, &lt;span class=&quot;callblock&quot;&gt;populateList&lt;/span&gt; iterates through the all of the stored entries in the database up to the number of stored colors and adds them to the list tinyDBlist. It returns this list, which ListPicker1 points to.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/screen1populatelist.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When ListPicker is opened, you will see a list of all the colors you created. &lt;span class=&quot;basicblock&quot;&gt;ListPicker1.AfterPicking&lt;/span&gt; sets the Color value stored for that name to be the current drawing color, as shown here. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/screen1listpicker.PNG&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Blocks for the Brush_Picker screen&lt;/h4&gt;
+&lt;p&gt;The main job of &lt;b&gt;Brush_Picker&lt;/b&gt; is to create a color from the red-green-blue values entered in the text boxes and provide that color to &lt;b&gt;Screen1&lt;/b&gt;. When you click ReturnToPainting the new color, the new dot size (taken from the RadiusTextBox), and the total number of colors are returned to &lt;b&gt;Screen1&lt;/b&gt; as a three-item list.As mentioned above, when Brush_Picker is open, Screen1 passes it values of the current color, the number of colors, and the current dot radius size. &lt;b&gt;Brush_Picker&lt;/b&gt; uses &lt;span class=&quot;controlblock&quot;&gt;get start value&lt;/span&gt; when it is initialized to access these values.&lt;/p&gt;
+&lt;p&gt;When you click the TestColorButton, the color is created for you as the background of LabelTestColorSample and the Canvas shows a circle of the appropriate size and color. To return the list to Screen1, &lt;b&gt;Brush_Picker&lt;/b&gt; uses &lt;span class=&quot;controlblock&quot;&gt;close screen with value&lt;/span&gt;, which takes as an argument the value to be returned (in this case, the list). When a screen closes, the app returns to the screen that opened it.&lt;/p&gt;
+&lt;p&gt;Here are the blocks that do this. &lt;b&gt;Brush_Picker&lt;/b&gt; uses the procedures &lt;span class=&quot;callblock&quot;&gt;CheckColor&lt;/span&gt; and &lt;span class=&quot;callblock&amp;gt;LimitRange&amp;lt;/span&amp;gt; to ensure that the values entered in the text boxes are valid numbers for colors and dot size. We&#039;ll examine these procedure below.&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/brushpickercommunicate.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When TestColorButton is clicked, is displays the created color. Notifier1 is then used to give you a choice to save the color or cancel using the &lt;span class=&quot;basicblock&quot;&gt;Notifier1.ShowChooseDialog&lt;/span&gt; block. The response from this will trigger further Notifier events so that you can save the color.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/brushpickertestcolor.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The next blocks show how Brush_Picker associates a name with a color for use by Screen1. The &lt;span class=&quot;basicblock&quot;&gt;Notifier1.ShowChooseDialog&lt;/span&gt; block triggers a &lt;span class=&quot;basicblock&quot;&gt;Notifier1.AfterChoosing&lt;/span&gt; event. In these blocks, the &lt;b&gt;ifelse&lt;/b&gt; block checks the response to whether or not the color should be saved. If the response is &quot;OK,&quot; &lt;span class=&quot;basicblock&quot;&gt;Notifier1.AfterChoosing&lt;/span&gt; calls &lt;span class=&quot;basicblock&quot;&gt;Notifier1.ShowTextDialog&lt;/span&gt; which prompts you to store a name for this color.&lt;/p&gt;
+&lt;p&gt;Once you make your entry, the color is stored with two tags two ways in TinyDB1. First, it stores the name with the current number of colors as the key. This is used when iterating through the list of colors for ListPicker in &lt;b&gt;Screen1&lt;/b&gt; so that the names will be displayed for the user. Secondly, the color is stored in TinyDB, using the name you entered as a key. &lt;b&gt;Screen1&lt;/b&gt; can then retrieve the color using its own TinyDB component and access it via the stored name as chosen in ListPicker.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/brushpickerstorecolor.PNG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Reset button allows the user to clear all of the entries in the red, green, and blue fields so they can start over easily. The blocks for this are shown here:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/brushpickerresetcolor.PNG&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Limiting numbers to a range&lt;/h4&gt;
+&lt;p&gt;The only thing left is to show how &lt;b&gt;Brush_Picker&lt;/b&gt; checks that it&#039;s using good values for colors and dot size. Each of the red, green, blue values should be a number between 0 and 255. But you could have entered anything in those text boxes. The &lt;span class=&quot;callblock&quot;&gt;checkColor&lt;/span&gt; procedure takes a value and limits its range to between 0 and 255: If it&#039;s less than 0 (or not a number at all) the result will be 0. It it&#039;s greater than 255, the result will be 255:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/checkColor.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The final bit is &lt;span class=&quot;callblock&quot;&gt;LimitRange&lt;/span&gt;. This is a general procedure that takes an input, a lower limit, and an upper limit, and restricts the input to lie within that range (and it returns the lower limit if the input is not a number). The procedure is simple, but tricky: To restrict the range, take the maximum of the input and the lower limit, then take the minimum of the result and the upper limit. This programming &quot;trick&quot; has little to do with multiple screens or App Inventor. You might want to take a few moments to convince yourself that it really works.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/coloredDots/LimitRange.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Comments on multiple screens&lt;/h4&gt;
+&lt;p&gt;You can have many screens in an App Inventor app, but a screen always returns to the screen that opened it. On the other hand, you can get the effect of screens switching to arbitrary other screen by setting up a &quot;manager screen&quot; that is used for opening all the other screens. When a screen wants to switch, it returns to the manager with a value saying which screen to open next.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt; In the current version of App Inventor, it is not yet possible to test a multiple-screen app in live development mode. You can test each screen separately, but you cannot test the communication between two screens. When try to switch between screens, you&#039;ll get an error message. To test whether the screens are properly communicating, you&#039;ll need to &lt;b&gt;Package for Phone&lt;/b&gt; and open the installed app.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Further exploration&lt;/h4&gt;
+&lt;p&gt;Now that you are able to create your own colors and access them for drawing, try some variations!&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Make Brush_Picker warn the user if they are trying to store a color with the same name as something that has already been stored (e.g. don&#039;t let them make two colors named &quot;red&quot;).
+&lt;/li&gt;&lt;li&gt;Have the starting color be the last one that the user was using in the app instead of always starting with black.
+&lt;/li&gt;&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Summary&lt;/h4&gt;
+&lt;p&gt;In this tutorial you have learned:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;How to make an app with multiple screens&lt;/li&gt;
+&lt;li&gt;How to share data between those two screens using &lt;b&gt;TinyBD&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;How to use a counter to add all of the values in &lt;b&gt;TinyDB&lt;/b&gt; to add to a list.&lt;/li&gt;
+&lt;li&gt;How to use &lt;b&gt;ListPicker&lt;/b&gt; to select from a list of items&lt;/li&gt;
+&lt;/ul&gt;&lt;pre class=&quot;ai-box&quot;&gt;This tutorial is based on work by Eni Mustafaraj of Wellesley College.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/content/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/drawing-canvas&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Drawing Canvas&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/multiple-screens&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Multiple Screens&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 15:47:16 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">310 at http://explore.appinventor.mit.edu</guid>
+ <comments>http://explore.appinventor.mit.edu/content/colored-dots#comments</comments>
+</item>
+</channel>
+</rss>
