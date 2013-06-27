@@ -146,6 +146,17 @@
   text-wrap: suppress;
 }
 
+.mathblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #81BEF7;
+  font-size: 9pt;
+  text-wrap: suppress;
+}
+
 .ai-box {
   color: green;
   font-size:12px;
