@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - Drawing</title>
+ <link>http://explore.appinventor.mit.edu/tutorial-type/drawing</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>PaintPot</title>
+ <link>http://explore.appinventor.mit.edu/content/paintpot-part-1</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial has two parts: &lt;a href=&quot;/content/paintpot-part-1&quot;&gt;Part 1&lt;/a&gt; | &lt;a href=&quot;/content/paintpot-part-2&quot;&gt;Part 2&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;This tutorial introduces the &lt;strong&gt;Canvas&lt;/strong&gt; component for creating simple two-dimensional graphics. You&#039;ll build an app that lets you draw on the phone screen in different colors.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;&lt;strong&gt;Historical note&lt;/strong&gt;: PaintPot was one of the first programs developed to demonstrate the potential of personal computers, as far back as the 1970s.&lt;/pre&gt;&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch2PaintPot.pdf&quot;&gt;Download Book Chapter PDF&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;What you&#039;re building&lt;/h4&gt;
+&lt;p&gt;&lt;img style=&quot;float:right;margin:5px;&quot; src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotPart1PhoneImage.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With the &lt;span style=&quot;font-style:italic;&quot;&gt;PaintPot&lt;/span&gt; app, you can:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Dip your finger into a virtual paint pot to draw in that color.&lt;/li&gt;
+&lt;li&gt;Drag your finger along the screen to draw a line.&lt;/li&gt;
+&lt;li&gt;Tap the screen to make dots.&lt;/li&gt;
+&lt;li&gt;Use the button at the bottom to wipe the screen clean.&lt;/li&gt;
+&lt;li&gt;Include an image as a drawing background.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;span style=&quot;font-style:italic;&quot;&gt;
+&lt;p&gt;This tutorial assumes that you have completed the &lt;span style=&quot;font-style:italic;&quot;&gt;HelloPurr&lt;/span&gt; tutorial. It introduces the following App Inventor concepts:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;strong&gt;Canvas&lt;/strong&gt; component for drawing.&lt;/li&gt;
+&lt;li&gt;Controlling screen layout with &lt;strong&gt;Arrangement&lt;/strong&gt; components.&lt;/li&gt;
+&lt;li&gt;Event handlers that take arguments.&lt;/li&gt;
+&lt;li&gt;Variables.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Before starting&lt;/h4&gt;
+&lt;p&gt;Make sure your computer and your phone are set up to use App Inventor. Start a new project in the Designer window, and name it &lt;span style=&quot;font-style:italic;&quot;&gt;&quot;PaintPot&quot;&lt;/span&gt;. Open the Blocks Editor, click &lt;strong&gt;Connect to Phone&lt;/strong&gt;, and make sure the phone has started the App Inventor app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Screen title&lt;/h4&gt;
+&lt;p&gt;To get started, go to the Properties panel on the right of the Designer and change the screen &lt;strong&gt;Title&lt;/strong&gt; to &quot;PaintPot&quot;. You should see this change on phone, with the new title showing in the title bar.&lt;/p&gt;
+&lt;p&gt;There are three names in App Inventor, and it&#039;s easy to confuse them:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;The name you choose for your project as you work on it (in this case, &lt;span style=&quot;font-style:italic;&quot;&gt;PaintPot&lt;/span&gt;). This will also be the name of the application if you package it for the phone.&lt;/li&gt;
+&lt;li&gt;The name &quot;Screen1&quot;, which is the name of the &lt;strong&gt;Screen&lt;/strong&gt; component. You&#039;ll see it listed in the Components panel in the Designer. You can&#039;t change the name of the Screen component in the current version of App Inventor.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Title&lt;/strong&gt; property of the screen, which is what you&#039;ll see in the phone&#039;s title bar. Title is a property of the &lt;strong&gt;Screen&lt;/strong&gt; component. The Title starts out being &quot;Screen1&quot;, which is what you used in  &lt;span style=&quot;font-style:italic;&quot;&gt;HelloPurr&lt;/span&gt;. However, you can change it, as you&#039;re doing for &lt;span style=&quot;font-style:italic;&quot;&gt;PaintPot&lt;/span&gt;. To reiterate, the name and the title of Screen1 are initially the same, but you can change the title if you want.&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;You&#039;ll use these components to make &lt;span style=&quot;font-style:italic;&quot;&gt;PaintPot&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Three &lt;strong&gt;Buttons&lt;/strong&gt; for selecting red, blue, or green paint, and another button for wiping the drawing.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;Canvas&lt;/strong&gt;, the drawing surface. This canvas has a &lt;strong&gt;BackgroundImage&lt;/strong&gt;, which is &lt;a href=&quot;/sites/all/files/tutorials/helloPurr/kitty.png&quot;&gt;this kitty&lt;/a&gt; from the &lt;span style=&quot;font-style:italic;&quot;&gt;HelloPurr&lt;/span&gt; tutorial. You can also draw on a blank canvas. That&#039;s just a canvas without a background image.&lt;/li&gt;
+&lt;li&gt;There&#039;s also a component you don&#039;t see: you use a &lt;strong&gt;HorizontalArrangement&lt;/strong&gt; to make the three color buttons line up.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;That makes five components in all. Let&#039;s get them and build the app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Color Buttons&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Drag a &lt;strong&gt;Button&lt;/strong&gt; component onto the Viewer and change the button&#039;s &lt;strong&gt;Text&lt;/strong&gt; attribute to &quot;Red&quot; and make its &lt;strong&gt;BackgroundColor&lt;/strong&gt; red.&lt;/li&gt;
+&lt;li&gt;Click on &lt;span style=&quot;font-style:italic;&quot;&gt;Button1&lt;/span&gt; in the components list in the Viewer to highlight it (it might already be highlighted) and use the &lt;strong&gt;Rename...&lt;/strong&gt; button to change its name from &quot;Button1&quot; to &quot;ButtonRed&quot;.&lt;/li&gt;
+&lt;li&gt;Similarly, make two more buttons for blue and green, named &quot;ButtonBlue&quot; and &quot;ButtonGreen&quot;, placing them vertically under the red button.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Here&#039;s how this should look in the designer, with the button names appearing in the list of project components. In this project, you&#039;re changing the names of the components rather than leaving them as the default names as you did with &lt;span style=&quot;font-style:italic;&quot;&gt;HelloPurr&lt;/span&gt;. Using meaningful names makes your projects more readable to yourself and others.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotThreeButtonsVertically.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You should also see the three buttons on the phone screen.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Layout with Screen Arrangement&lt;/h4&gt;
+&lt;p&gt;You should now have three buttons, one above the other. The next step is to make them line up horizontally. You do this using a &lt;strong&gt;HorizontalArrangement&lt;/strong&gt; component.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;From the Palette&#039;s Screen Arrangement category, drag out a &lt;strong&gt;HorizontalArrangement&lt;/strong&gt; component and place it under the buttons. Change the name of this component from &quot;HorizontalArrangement1&quot; to &quot;ThreeButtons&quot;.&lt;/li&gt;
+&lt;li&gt;In the Properties panel, change the &lt;strong&gt;Width&lt;/strong&gt; of &lt;span style=&quot;font-style:italic;&quot;&gt;ThreeButtons&lt;/span&gt; to &quot;Fill Parent...&quot; so that it fills the entire width of the screen.&lt;/li&gt;
+&lt;li&gt;Move the three buttons side by side into the &lt;strong&gt;HorizontalArrangement&lt;/strong&gt; component. &lt;strong&gt;Hint&lt;/strong&gt;: You&#039;ll see a blue vertical line that shows where the piece you&#039;re dragging will go.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;If you look in the list of project components, you&#039;ll see the three buttons indented under the &lt;span style=&quot;font-style:italic;&quot;&gt;ThreeButtons&lt;/span&gt; to show that they are now its subcomponents. Notice that all the components are indented under &lt;span style=&quot;font-style:italic;&quot;&gt;Screen1&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotThreeButtonsHorizontally.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You should also see your three buttons line up in a row on the phone screen, although things might not look exactly as on the Designer. For example, the Arrangement&#039;s outline shows in the Designer but not on the phone.&lt;/p&gt;
+&lt;p&gt;In general, you use Screen Arrangement to create simple vertical or horizontal layouts. You can create more complex layouts by nesting Screen Arrangement components. There is also a &lt;strong&gt;TableArrangement&lt;/strong&gt; component (not covered in this tutorial).&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Canvas and wipe button&lt;/h4&gt;
+&lt;p&gt;The final two components are the canvas and the wipe button.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;From the Palette&#039;s Basic category drag a &lt;strong&gt;Canvas&lt;/strong&gt; component onto the Viewer. Change its name to &quot;DrawingCanvas&quot;. Set its &lt;strong&gt;Width&lt;/strong&gt; to &quot;Fill Parent&quot; and set its &lt;strong&gt;Height&lt;/strong&gt; to 300 pixels.&lt;/li&gt;
+&lt;li&gt;Add a Background Image to the &lt;strong&gt;Canvas&lt;/strong&gt;. Click on the field containing &quot;None...&quot; next to &lt;strong&gt;BackgroundImage&lt;/strong&gt; in the canvas&#039;s Properties panel. You can use the same kitty.png file, if you still have it on your desktop from an earlier tutorial. Or you can use another image.&lt;br /&gt;&lt;pre class=&quot;ai-box&quot;&gt;You can use any image you like, but you&#039;ll get the best results if the size of the image (in pixels) is close to the size at which you&#039;ll be showing it on the phone. Also, large images will take a long time to load, and might exceed the memory capacity of the phone allocates for applications.&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;From the Palette, drag the final button onto the screen, placing it under the canvas. Change its &lt;strong&gt;id&lt;/strong&gt; to &quot;ButtonWipe&quot; and change its &lt;strong&gt;Text&lt;/strong&gt; attribute to &quot;Wipe&quot;.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;You&#039;ve now completed the steps to set the appearance of your app. Here&#039;s how this should look in the Designer. Next, you&#039;ll define how the components behave.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components&lt;/h4&gt;
+&lt;p&gt;The Blocks Editor should already be open. First set up the buttons that change the paint color. Later you will add blocks to decide what happens when someone touches or drags the screen.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add button event handlers&lt;/h4&gt;
+&lt;p&gt;In the Blocks Editor:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Switch to the My Blocks column.&lt;/li&gt;
+&lt;li&gt;Open the drawer for &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonRed&lt;/span&gt; and drag out the &lt;span class=&quot;basicblock&quot;&gt;when ButtonRed.Click &lt;/span&gt; block.&lt;/li&gt;
+&lt;li&gt;Open the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer. Drag out the &lt;span class=&quot;setblock&quot;&gt;set DrawingCanvas.PaintColor to &lt;/span&gt; block (you may have to scroll the list of blocks in the drawer to find it) and place it in the &lt;span class=&quot;basicblock&quot;&gt;do&lt;/span&gt; section of &lt;span class=&quot;basicblock&quot;&gt;when ButtonRed.Click &lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Switch to the Built-In Column. Open the Colors drawer and drag out the block for the color Red and put it into &lt;span class=&quot;setblock&quot;&gt;set DrawingCanvas.PaintColor to &lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Repeat steps 2-4 for the blue and green buttons.&lt;/li&gt;
+&lt;li&gt;The final button to set up is the Wipe button. Switch back to the My Blocks column. Make a click event handler for &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonWipe&lt;/span&gt; by dragging &lt;span class=&quot;basicblock&quot;&gt;when ButtonWipe.Click &lt;/span&gt; from the &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonWipe&lt;/span&gt; drawer. From the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer, drag &lt;span class=&quot;callblock&quot;&gt;call DrawingCanvas.Clear &lt;/span&gt; and place it in the &lt;span class=&quot;basicblock&quot;&gt;do&lt;/span&gt; area of the &lt;span class=&quot;basicblock&quot;&gt;when ButtonWipe.Click&lt;/span&gt; block.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;The blocks for the buttons should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/buttonsclick.PNG&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add Touch-event Handlers&lt;/h4&gt;
+&lt;p&gt;Now for the next step: drawing on the &lt;strong&gt;Canvas&lt;/strong&gt;. You&#039;ll arrange things so that when you touch the canvas, you get a dot at the spot where you touch. If you drag your finger slowly along the canvas, it draws a line.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;In the Blocks Editor, open the drawer for the canvas and drag the &lt;span class=&quot;basicblock&quot;&gt;when DrawingCanvas.Touched&lt;/span&gt; block to the workspace. As soon as you drag the block out, the three plugs on the right automatically fill in with name blocks called &lt;strong&gt;x&lt;/strong&gt;, &lt;strong&gt;y&lt;/strong&gt;, and &lt;strong&gt;touchedSprite&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;You&#039;ve already seen button click events. Clicks are simple, because there&#039;s nothing to know about the click other than that it happened. Other event handlers such as &lt;span class=&quot;basicblock&quot;&gt;when ... Touched&lt;/span&gt; need information about the event. In App Inventor, this information is expressed as the value of arguments associated with the event handler. For the &lt;span class=&quot;basicblock&quot;&gt;when ... Touched&lt;/span&gt; event, the first two arguments stand for the x and y coordinates of where the touch happened. We&#039;ll save &lt;strong&gt;touchedSprite&lt;/strong&gt; for a later tutorial.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;For this touch event, make the canvas draw a small circle at the point with coordinates (x, y). Drag out a &lt;span class=&quot;callblock&quot;&gt;call DrawingCanvas.DrawCircle&lt;/span&gt; command from the canvas drawer and place it in the &lt;span class=&quot;basicblock&quot;&gt;do&lt;/span&gt; section of &lt;span class=&quot;basicblock&quot;&gt;when DrawingCanvas.Touched&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;On the right side of the &lt;span class=&quot;callblock&quot;&gt;call DrawingCanvas.DrawCircle&lt;/span&gt; block are three sockets where you must specify values for the x and y coordinates where the circle should be drawn, and &lt;strong&gt;r&lt;/strong&gt;, which is the radius of the circle. For &lt;strong&gt;x&lt;/strong&gt; and &lt;strong&gt;y&lt;/strong&gt;, you&#039;ll use values of the arguments that were supplied to the Touched handler:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Open the My Definitions drawer at the top of the column. Find the blocks for &lt;span class=&quot;argblock&quot;&gt;value x&lt;/span&gt; and &lt;span class=&quot;argblock&quot;&gt;value y&lt;/span&gt;. The blocks were automatically created when you dragged out the touch event handler block.&lt;/li&gt;
+&lt;li&gt;Drag out the &lt;span class=&quot;argblock&quot;&gt;value x&lt;/span&gt; and &lt;span class=&quot;argblock&quot;&gt;value y&lt;/span&gt; blocks and plug them into the corresponding sockets in the &lt;span class=&quot;basicblock&quot;&gt;when DrawingCanvas.Touched&lt;/span&gt; block. Make sure to drag the &lt;span class=&quot;argblock&quot;&gt;value&lt;/span&gt; blocks, not the corresponding &lt;span class=&quot;argblock&quot;&gt;name&lt;/span&gt; blocks; they look very similar.&lt;/li&gt;
+&lt;li&gt;You&#039;ll also need to specify the radius of the circle to draw. Five (pixels) is a good value for this app. Click in a blank area of the screen to bring up the hover menu and select &lt;strong&gt;math&lt;/strong&gt; (green). Select &quot;123&quot; from the dropdown list, to create a number block. Change the &quot;123&quot; to &quot;5&quot; and plug that in for the radius slot.&lt;/li&gt;
+&lt;/ol&gt;&lt;pre class=&quot;ai-box&quot;&gt;You can also just type 5 followed by return, to create a number block with a value of 5. This is an example of &lt;em&gt;typeblocking&lt;/em&gt;: if you start typing, the Blocks Editor shows a list of blocks whose names match what you are typing; if you type a number it creates a number block.&lt;/pre&gt;&lt;p&gt;Here&#039;s how the touch event handler should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotTouchHandler.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Try out what you have so far on the phone. Touch a color button. Now touch the canvas, and your finger should leave a spot at each place you touch. Touching the Wipe button should clear your drawing.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add Drag Events&lt;/h4&gt;
+&lt;p&gt;Finally, add the drag event handler. Here&#039;s the difference between a touch and a drag:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;A touch is when you place your finger on the canvas and lift it without moving it.&lt;/li&gt;
+&lt;li&gt;A drag is when you place your finger on the canvas and move your finger while keeping it in contact.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;When you drag your finger across the screen, it appears to draw a giant, curved line where you moved your finger. What you&#039;re actually doing is drawing hundreds of tiny straight lines: each time you move your finger, even a little bit, you extend the line from your finger&#039;s immediate last position to its new position.&lt;/p&gt;
+&lt;p&gt;A drag event comes with 6 arguments. These are three pairs of x and y coordinates that show:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The position of your finger back where the drag started.&lt;/li&gt;
+&lt;li&gt;The current position of your finger.&lt;/li&gt;
+&lt;li&gt;The immediately previous position of your finger.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;There&#039;s also a sprite, which we&#039;ll ignore for this tutorial.&lt;/p&gt;
+&lt;p&gt;Now make dragging draw a line between the previous position and the current position by creating a drag handler:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;From the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer, drag the &lt;span class=&quot;basicblock&quot;&gt;when DrawingCanvas.Dragged&lt;/span&gt; block to the workspace.&lt;/li&gt;
+&lt;li&gt;Also from the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer, drag the &lt;span class=&quot;callblock&quot;&gt;call DrawingCanvas.DrawLine&lt;/span&gt; block into the &lt;span class=&quot;basicblock&quot;&gt;do&lt;/span&gt; slot of the &lt;span class=&quot;basicblock&quot;&gt;when DrawingCanvas.Dragged&lt;/span&gt; block.&lt;/li&gt;
+&lt;li&gt;Click on the My Definitions drawer. You should see the blocks for the arguments you need. Drag the corresponding value blocks to the appropriate slots in &lt;span class=&quot;basicblock&quot;&gt;when DrawingCanvas.Dragged&lt;/span&gt;: &lt;strong&gt;x1&lt;/strong&gt; and &lt;strong&gt;y1&lt;/strong&gt; should be &lt;strong&gt;prevX&lt;/strong&gt; and &lt;strong&gt;prevY&lt;/strong&gt;; &lt;strong&gt;x2&lt;/strong&gt; and &lt;strong&gt;y2&lt;/strong&gt; should be &lt;strong&gt;currentX&lt;/strong&gt; and &lt;strong&gt;currentY&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Here&#039;s the result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotDragHandler.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Test your work by trying it on the phone: drag your finger around on the screen to draw lines and curves. Touch the screen to make spots. Use the Wipe button to clear the screen.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;/content/paintpot-part-2&quot;&gt;PaintPot Part 2&lt;/a&gt;, you&#039;ll see how to use global variables to create dots of different sizes.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You can use Screen Arrangement components to specify screen layouts other than just placing components one under the other.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Canvas&lt;/strong&gt; component lets you draw on it. It can also sense touches and drags.&lt;/li&gt;
+&lt;li&gt;Some event handlers are called with information about the event, such as the coordinates of where the screen was touched. This information is represented by arguments. When you select an event handler that has arguments, App Inventor creates &lt;span class=&quot;argblock&quot;&gt;value&lt;/span&gt; blocks for these and places them in the My Definitions drawer.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/paintPot1/PaintPot.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/basic&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Basic&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/drawing&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Drawing&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 15:43:28 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">305 at http://explore.appinventor.mit.edu</guid>
+ <comments>http://explore.appinventor.mit.edu/content/paintpot-part-1#comments</comments>
+</item>
+</channel>
+</rss>
