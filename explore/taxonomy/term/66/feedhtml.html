@@ -6,6 +6,298 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Get the Gold</title>
+ <link>http://explore.appinventor.mit.edu/get-gold</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+.ButtonText {
+color:green;
+font-weight: bold;
+}
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldMain.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; By building the &lt;span style=&quot;color:green;&quot;&gt;Get The Gold App&lt;/span&gt; you will get practice with setting visibility, using Clock components and Timers, and detecting collisions in App Inventor. You&#039;ll program an application that has a pirate ship whose goal is to collect all the gold on the screen.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;GetTheGold&quot;. Open the Blocks Editor and connect to a device or emulator.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial introduces the following skills, useful for future game development:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Using the Clock component&lt;/li&gt;
+&lt;li&gt;Using Clock.Timer to move sprites&lt;/li&gt;
+&lt;li&gt;Using Sprite.Flung to move a sprite &lt;/li&gt;
+&lt;li&gt;Using collision detection&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Getting Ready&lt;/h4&gt;
+&lt;p&gt;For this game, you will have two types of imagesprites: pirate and gold coin. Click below to download the image file for your sprites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/pirateship.jpeg&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/pirateship.jpeg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/goldcoin.jpeg&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/goldcoin.jpeg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer.&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Canvas&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
+&lt;td&gt;The background that we will be putting our imagesprites on&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;PirateSprite&lt;/td&gt;
+&lt;td&gt;The pirate ship in our game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite2&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite3&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite4&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite5&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite6&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Clock&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;We use the Clock for its Timer method to move the coins&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
+&lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components as described below:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ResetButton&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Reset&quot;.
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;PirateSprite&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Change &lt;span class=&quot;ButtonText&quot;&gt;Speed&lt;/span&gt; property to 6.
+&lt;/td&gt;
+&lt;td&gt;
+Upload the pirateship image and set &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to pirateship.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ImageSprite(2,3,4,5,6)&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Upload the goldcoin image and set &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to goldcoin.
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;Clock&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; property to 2000.
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Moving the Pirate&lt;/h4&gt;
+&lt;p&gt; To move the PirateSprite, we want the user to be able to &quot;fling&quot; the sprite in the direction that they choose. To do this, we will use the &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.Flung&lt;/span&gt; event handler. &lt;/p&gt;
+&lt;p&gt; You may notice that &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.Flung&lt;/span&gt; takes in 6 attributes: x, y, xvel, yvel, speed, and heading. We want to reassign PirateSprite&#039;s current heading to the heading given to us from PirateSprite.Flung. This means that the user can now control the direction of the pirate ship with their fingers by flinging on the screen. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/PirateSpriteFlung.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To prevent the pirate from moving off the screen, we will also use PirateSprite.Bounce when an edge is reached. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/PirateSpriteBounce.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Moving the Coins&lt;/h4&gt;
+&lt;p&gt; We want the coins to move to random positions on the screen. We will use &lt;span class=&quot;basicblock&quot;&gt;Clock1.Timer &lt;/span&gt; and the ImageSprite&#039;s MoveTo method to do this. &lt;/p&gt;
+&lt;p&gt; When the Clock1.Timer goes off, we want all of our gold coin ImageSprites to move to a new random location on the Canvas. We will do this by using the &lt;span class=&quot;basicblock&quot;&gt;Sprite.MoveTo&lt;/span&gt; block. &lt;/p&gt;
+&lt;p&gt;MoveTo takes in two arguments: the x and y coordinates on the canvas of the new position we want the sprite to move to. We want the Sprite to move to a new &lt;i&gt;random&lt;/i&gt; location so we will use the &lt;span class=&quot;basicblock&quot;&gt;random integer&lt;/span&gt; block found in the Math box. Since we want each Gold ImageSprite to move to a new location, we repeat this process for each sprite&#039;s MoveTo function. &lt;/p&gt;
+&lt;p&gt;For ImageSprite2, we want x to be a random integer from 0 to &lt;i&gt;Canvas1.Width-ImageSprite2.Width&lt;/i&gt; and y to be a random integer from 0 to &lt;i&gt;Canvas1.Height-ImageSprite2.Height&lt;/i&gt;. This is to be repeated for all the Gold Image Sprites.&lt;/p&gt;
+&lt;p&gt;Remember that sprites are measured at the upper left corner as (0,0) so if we don&#039;t want them to go off the screen, we need to take the sprite&#039;s height/width into account when setting the range for our random numbers.&lt;/p&gt;
+&lt;p&gt;We will do this by setting up our blocks as in the image below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/ClockTimer.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Detecting Collisions&lt;/h4&gt;
+&lt;p&gt; App Inventor detects collisions by checking for an intersection between the bounding rectangles of each ImageSprite. We call this rectangle-based collision detection. As you can see in the image below, sprites with circular or polygon shape will appear to collide because of the rectangular bounds around them when they might not actually be colliding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/CollisionDetection.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We can use the &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidedWith &lt;/span&gt; event handler to detect whenever the pirate ship collides with another sprite or gold coin. You may notice that &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidedWith &lt;/span&gt; takes in an argument. This argument is the object that PirateSprite just collided with. We will be testing inside the handler for which object so the name of this argument is not significant. You can name it other. &lt;/p&gt;
+&lt;p&gt;Whenever the pirate collides with a gold coin, we want the coin to disappear. We can do this by setting the coin&#039;s visibility to false. To find which coin the pirate collided with, we will use the &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidingWith&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt; We can use &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidingWith&lt;/span&gt; to take in a component (each of the gold coin sprites) to detect which sprite was hit. This is a component block and NOT a text block with the words ImageSprite inside. The component block can be found in the drawer for each component. If a sprite was hit, we will set its visibility to false. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/CollisionSprites.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Reset Button&lt;/h4&gt;
+&lt;p&gt;After the user hits all of the gold sprites with the pirate ship, none of them will be visible. The reset button should set all of the gold sprites&#039; visibility to true. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/ResetVis.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Complete Program&lt;/h4&gt;
+&lt;p&gt;Here&#039;s the complete &lt;strong&gt;&lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;&lt;/strong&gt; program.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldAll.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Package the final version of the app by choosing &lt;strong&gt;Package For Phone | Barcode&lt;/strong&gt; from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get this program running, you may want to do the following additional features to extend it. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Create a label to display the time that it took you to get all the gold&lt;/li&gt;
+&lt;li&gt;Change the speed of the ship or gold coins&lt;/li&gt;
+&lt;li&gt;Add an enemy sprite that when collided with, causes your pirate to lose speed&lt;/li&gt;
+&lt;li&gt;Use one of the phone&#039;s sensors to control movement of the pirate ship &lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGold.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;GetTheGold&lt;/span&gt;? Return to to the other modules &lt;a href=&quot;/teach/module-2-2&quot;&gt;here&lt;/a&gt; or the  tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/content/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/clock-timer&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Clock Timer&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/game&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Game&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sprites&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Sprites&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 28 Jun 2013 21:35:19 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">346 at http://explore.appinventor.mit.edu</guid>
+ <comments>http://explore.appinventor.mit.edu/get-gold#comments</comments>
+</item>
+<item>
  <title>MoleMash 2</title>
  <link>http://explore.appinventor.mit.edu/content/molemash-2</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
@@ -98,8 +390,7 @@ text-wrap: suppress;
 
 
 /*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;MoleMash 2&lt;/span&gt;&lt;/h2&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
+&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/moleMash2/front-pic.png&quot; style=&quot;float:right;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch3MoleMash.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial shows you how to build a game similar to the Whac-A-MoleTM arcade game. Specifically, your goal is to whack (tap) a mole that randomly pops out of one of five fixed holes. Every time you succeed, your score is increased by one point.&lt;/p&gt;

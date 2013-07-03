@@ -6,6 +6,298 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Get the Gold</title>
+ <link>http://explore.appinventor.mit.edu/get-gold</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+.ButtonText {
+color:green;
+font-weight: bold;
+}
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldMain.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; By building the &lt;span style=&quot;color:green;&quot;&gt;Get The Gold App&lt;/span&gt; you will get practice with setting visibility, using Clock components and Timers, and detecting collisions in App Inventor. You&#039;ll program an application that has a pirate ship whose goal is to collect all the gold on the screen.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;GetTheGold&quot;. Open the Blocks Editor and connect to a device or emulator.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial introduces the following skills, useful for future game development:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Using the Clock component&lt;/li&gt;
+&lt;li&gt;Using Clock.Timer to move sprites&lt;/li&gt;
+&lt;li&gt;Using Sprite.Flung to move a sprite &lt;/li&gt;
+&lt;li&gt;Using collision detection&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Getting Ready&lt;/h4&gt;
+&lt;p&gt;For this game, you will have two types of imagesprites: pirate and gold coin. Click below to download the image file for your sprites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/pirateship.jpeg&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/pirateship.jpeg&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/goldcoin.jpeg&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/goldcoin.jpeg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer.&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Canvas&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
+&lt;td&gt;The background that we will be putting our imagesprites on&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;PirateSprite&lt;/td&gt;
+&lt;td&gt;The pirate ship in our game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite2&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite3&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite4&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite5&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ImageSprite6&lt;/td&gt;
+&lt;td&gt;One of the gold coins in the game&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Clock&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;We use the Clock for its Timer method to move the coins&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
+&lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components as described below:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ResetButton&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Reset&quot;.
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;PirateSprite&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Change &lt;span class=&quot;ButtonText&quot;&gt;Speed&lt;/span&gt; property to 6.
+&lt;/td&gt;
+&lt;td&gt;
+Upload the pirateship image and set &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to pirateship.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ImageSprite(2,3,4,5,6)&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Upload the goldcoin image and set &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to goldcoin.
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;Clock&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; property to 2000.
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Moving the Pirate&lt;/h4&gt;
+&lt;p&gt; To move the PirateSprite, we want the user to be able to &quot;fling&quot; the sprite in the direction that they choose. To do this, we will use the &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.Flung&lt;/span&gt; event handler. &lt;/p&gt;
+&lt;p&gt; You may notice that &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.Flung&lt;/span&gt; takes in 6 attributes: x, y, xvel, yvel, speed, and heading. We want to reassign PirateSprite&#039;s current heading to the heading given to us from PirateSprite.Flung. This means that the user can now control the direction of the pirate ship with their fingers by flinging on the screen. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/PirateSpriteFlung.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To prevent the pirate from moving off the screen, we will also use PirateSprite.Bounce when an edge is reached. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/PirateSpriteBounce.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Moving the Coins&lt;/h4&gt;
+&lt;p&gt; We want the coins to move to random positions on the screen. We will use &lt;span class=&quot;basicblock&quot;&gt;Clock1.Timer &lt;/span&gt; and the ImageSprite&#039;s MoveTo method to do this. &lt;/p&gt;
+&lt;p&gt; When the Clock1.Timer goes off, we want all of our gold coin ImageSprites to move to a new random location on the Canvas. We will do this by using the &lt;span class=&quot;basicblock&quot;&gt;Sprite.MoveTo&lt;/span&gt; block. &lt;/p&gt;
+&lt;p&gt;MoveTo takes in two arguments: the x and y coordinates on the canvas of the new position we want the sprite to move to. We want the Sprite to move to a new &lt;i&gt;random&lt;/i&gt; location so we will use the &lt;span class=&quot;basicblock&quot;&gt;random integer&lt;/span&gt; block found in the Math box. Since we want each Gold ImageSprite to move to a new location, we repeat this process for each sprite&#039;s MoveTo function. &lt;/p&gt;
+&lt;p&gt;For ImageSprite2, we want x to be a random integer from 0 to &lt;i&gt;Canvas1.Width-ImageSprite2.Width&lt;/i&gt; and y to be a random integer from 0 to &lt;i&gt;Canvas1.Height-ImageSprite2.Height&lt;/i&gt;. This is to be repeated for all the Gold Image Sprites.&lt;/p&gt;
+&lt;p&gt;Remember that sprites are measured at the upper left corner as (0,0) so if we don&#039;t want them to go off the screen, we need to take the sprite&#039;s height/width into account when setting the range for our random numbers.&lt;/p&gt;
+&lt;p&gt;We will do this by setting up our blocks as in the image below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/ClockTimer.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Detecting Collisions&lt;/h4&gt;
+&lt;p&gt; App Inventor detects collisions by checking for an intersection between the bounding rectangles of each ImageSprite. We call this rectangle-based collision detection. As you can see in the image below, sprites with circular or polygon shape will appear to collide because of the rectangular bounds around them when they might not actually be colliding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/CollisionDetection.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We can use the &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidedWith &lt;/span&gt; event handler to detect whenever the pirate ship collides with another sprite or gold coin. You may notice that &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidedWith &lt;/span&gt; takes in an argument. This argument is the object that PirateSprite just collided with. We will be testing inside the handler for which object so the name of this argument is not significant. You can name it other. &lt;/p&gt;
+&lt;p&gt;Whenever the pirate collides with a gold coin, we want the coin to disappear. We can do this by setting the coin&#039;s visibility to false. To find which coin the pirate collided with, we will use the &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidingWith&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt; We can use &lt;span class=&quot;basicblock&quot;&gt;PirateSprite.CollidingWith&lt;/span&gt; to take in a component (each of the gold coin sprites) to detect which sprite was hit. This is a component block and NOT a text block with the words ImageSprite inside. The component block can be found in the drawer for each component. If a sprite was hit, we will set its visibility to false. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/CollisionSprites.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Reset Button&lt;/h4&gt;
+&lt;p&gt;After the user hits all of the gold sprites with the pirate ship, none of them will be visible. The reset button should set all of the gold sprites&#039; visibility to true. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/ResetVis.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Complete Program&lt;/h4&gt;
+&lt;p&gt;Here&#039;s the complete &lt;strong&gt;&lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;&lt;/strong&gt; program.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldAll.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Package the final version of the app by choosing &lt;strong&gt;Package For Phone | Barcode&lt;/strong&gt; from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get this program running, you may want to do the following additional features to extend it. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Create a label to display the time that it took you to get all the gold&lt;/li&gt;
+&lt;li&gt;Change the speed of the ship or gold coins&lt;/li&gt;
+&lt;li&gt;Add an enemy sprite that when collided with, causes your pirate to lose speed&lt;/li&gt;
+&lt;li&gt;Use one of the phone&#039;s sensors to control movement of the pirate ship &lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGoldBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGold.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;GetTheGold&lt;/span&gt;? Return to to the other modules &lt;a href=&quot;/teach/module-2-2&quot;&gt;here&lt;/a&gt; or the  tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/content/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/clock-timer&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Clock Timer&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/game&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Game&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sprites&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Sprites&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 28 Jun 2013 21:35:19 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">346 at http://explore.appinventor.mit.edu</guid>
+ <comments>http://explore.appinventor.mit.edu/get-gold#comments</comments>
+</item>
+<item>
  <title>MoleMash 2</title>
  <link>http://explore.appinventor.mit.edu/content/molemash-2</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
@@ -98,8 +390,7 @@ text-wrap: suppress;
 
 
 /*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;MoleMash 2&lt;/span&gt;&lt;/h2&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
+&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/moleMash2/front-pic.png&quot; style=&quot;float:right;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch3MoleMash.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial shows you how to build a game similar to the Whac-A-MoleTM arcade game. Specifically, your goal is to whack (tap) a mole that randomly pops out of one of five fixed holes. Every time you succeed, your score is increased by one point.&lt;/p&gt;
@@ -574,9 +865,9 @@ text-wrap: suppress;
 &lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
 &lt;p&gt;Connect to the App Inventor web site and start a new project. Name the new project VideoWall and set the screen&#039;s Orientation to Landscape.&lt;/p&gt;
 &lt;p&gt;Download the following video files* for use later on:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/sites/explore.appinventor.mit.edu/files/bigbuckbunny.3gp&quot;&gt;BigBuckBunny (bigbuckbunny.3gp)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/sites/explore.appinventor.mit.edu/files/nasa.3gp&quot;&gt;NASA (nasa.3gp)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/sites/explore.appinventor.mit.edu/files/sintel.3gp&quot;&gt;Sintel (sintel.3gp)&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/sites/all/files/tutorials/videoWall/bigbuckbunny.3gp&quot;&gt;BigBuckBunny (bigbuckbunny.3gp)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/sites/all/files/tutorials/videoWall/nasa.3gp&quot;&gt;NASA (nasa.3gp)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/sites/all/files/tutorials/videoWall/sintel.3gp&quot;&gt;Sintel (sintel.3gp)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;*Attributions for these videos are included at the end of this tutorial.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;The finished VideoWall app will display a wall of three videos that can be expanded to their true size and then shrunk back down again. The app will also allow you to display the videos in fullscreen. This tutorial assumes you have followed earlier tutorials to learn how the following blocks work:&lt;/p&gt;
@@ -590,7 +881,7 @@ text-wrap: suppress;
 &lt;li&gt;Showing the VideoPlayer video in fullscreen mode&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
 &lt;p&gt;Use the component designer to create the interface for the &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt;. When completed, the designer should look similar to the snapshot below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/setupcomponents.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/videoWall/setupcomponents.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;First, you need to upload the video files. Click on the Add... button and select a video file downloaded earlier. Repeat this step to add the other two video files. Now create the interface by dragging and dropping the components from the Palette to the Viewer.&lt;/p&gt;
 &lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
@@ -715,7 +1006,7 @@ Purpose of Component
 &lt;td&gt;Definition&lt;/td&gt;
 &lt;td&gt;Defines the vid3_zoomed variable (rename it)&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The three variables should like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/flagblocks.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/videoWall/flagblocks.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Create the &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block. There are three VideoPlayers in the app, but you&#039;ll use one Procedure block to resize all three. To accomplish this simplicity, you will use the Advance blocks component &lt;span class=&quot;setblock&quot;&gt;Any VideoPlayer&lt;/span&gt; blocks. Create the &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block using the following blocks:&lt;/p&gt;
 &lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
@@ -760,7 +1051,7 @@ Purpose of Component
 &lt;td&gt;Text&lt;/td&gt;
 &lt;td&gt;Text to set button to. Make one text block text&#039;s Shrink and the other&#039;s Grow.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer&lt;/span&gt; block should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/resize_block.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/videoWall/resize_block.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer&lt;/span&gt; block will be explained later after you create the blocks for responding to button clicks.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Create the Click Blocks&lt;/h4&gt;
 &lt;p&gt;The blocks you will create respond to clicks on the ResizeButton buttons. To build the three blocks, you will need the following blocks:&lt;/p&gt;
@@ -819,7 +1110,7 @@ Purpose of Component
 &lt;td&gt;VideoPlayer3&lt;/td&gt;
 &lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/resize_blocks.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/videoWall/resize_blocks.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Most blocks in App Inventor require you to know exactly what component your app will manipulate when you design the app. For some apps, you will have several of the same type of component and you want to program the same behavior for all of the similar components (like the VideoPlayer blocks in this app). The blocks in the Advanced section allow you to build some general manipulation on some type of component. When you built the &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer procedure&lt;/span&gt; block, you didn&#039;t know specifically which VideoPlayer would be used in the procedure. The &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer&lt;/span&gt; works on VideoPlayers; but not until the &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer&lt;/span&gt; block is used in the &lt;span class=&quot;basicblock&quot;&gt;ResizeButton1.Click&lt;/span&gt; block (for example) is the specific VideoPlayer known.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt; app could have been designed with a specific resizing procedure for each VideoPlayer. By using the Advanced blocks in a single resizing procedure, the app is much simpler.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
@@ -851,12 +1142,12 @@ Purpose of Component
 &lt;td&gt;VideoPlayer3&lt;/td&gt;
 &lt;td&gt;Used to show fullscreen video&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/fullscreen_blocks.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/videoWall/fullscreen_blocks.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
 &lt;p&gt;The &lt;span class=&quot;setblock&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; block takes a true/false value (also called a boolean) to tell it whether to go full screen or not. Setting a &lt;span class=&quot;setblock&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; block to true causes that VideoPlayer to be displayed in fullscreen mode. If there is another VideoPlayer in fullscreen mode, that VideoPlayer&#039;s .FullScreen value is set to false and it is replaced with the current VideoPlayer. If a &lt;span class=&quot;setblock&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; is true, setting a &lt;span class=&quot;setblock&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; block to false causes the fullscreen mode to be exited and the app&#039;s interface to display. Test this behavior. Start playing the BigBuckVideo, and click on the Show FullScreen button below the BigBuckBunny video. The app&#039;s interface should disappear and some media controls with the BigBuckBunny video should appear. Use the Back button on your device or the emulator to exit fullscreen. The app&#039;s interface should appear.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Final Program&lt;/h4&gt;
 &lt;p&gt;VideoWall Final Version&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blockseditor_full.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/videoWall/blockseditor_full.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Package the final version of the app by choosing &lt;b&gt;Package For Phone | Barcode&lt;/b&gt; from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app. &lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
 &lt;p&gt;Now that you have finished the first &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt; app, you might want to build some variations. For example:&lt;/p&gt;
@@ -1410,6 +1701,14 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Android, Where&#039;s My Ca
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
   
   &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/activity-starter&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Activity Starter&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
@@ -2296,6 +2595,10 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving&lt;/s
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
         &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
 
     
@@ -2957,6 +3260,10 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;BroadcastHub&lt;/span&gt;? 
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
         &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
 
     
@@ -2968,446 +3275,6 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;BroadcastHub&lt;/span&gt;? 
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">317 at http://explore.appinventor.mit.edu</guid>
  <comments>http://explore.appinventor.mit.edu/content/broadcasthub#comments</comments>
-</item>
-<item>
- <title>TextGroup (Part 2)</title>
- <link>http://explore.appinventor.mit.edu/content/text-group-part-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-li {
-padding-bottom: 7px;
-}
-
-.basicblock {
-border: 1px dashed #7AA81C;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E7F2CB;
-font-size: 9pt;
-text-wrap: suppress;
-	
-}
-
-.callblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E0D1FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.argblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E5E5FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.textblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FADAA0;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.setblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #C1D5F8;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-.controlblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FAEDBB;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Text Group Part II: Adding and Removing Members&lt;/span&gt;&lt;/h2&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/textGroup2emulator.png&quot; style=&quot;float:right; width:250px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;This tutorial extends the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/textgroup&quot;&gt;Text Group&lt;/a&gt; tutorial. That app sent a text to a fixed list of phone numbers, and only the programmer could change the numbers in the list. The app in this tutorial allows the user to add and remove the phone numbers in the list, and it stores the list persistently in a database. &lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Getting started&lt;/h4&gt;
-&lt;p&gt;Connect to the App Inventor web site and open your TextGroup project (if you haven&#039;t completed that tutorial, do so now before continuing). SaveAs the app and name it &quot;TextGroup2&quot;. You can leave the screen&#039;s &lt;b style=&quot;color:green;&quot;&gt;Title&lt;/b&gt; as &quot;Text Group&quot;. Open the Blocks Editor and connect to the phone.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
-&lt;p&gt;You&#039;ll design the app so that the user adds phone numbers to the group by choosing from the phone&#039;s contact list, and removes them by choosing from the items already in the group.. You&#039;ll store the list of numbers in a database so that they are there even when the app is closed and re-launched.&lt;/p&gt;
-&lt;p&gt;The tutorial covers the following App Inventor components and concepts:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;The &lt;span class=&quot;control&quot;&gt;foreach&lt;/span&gt; block for repeating operations on a list.&lt;/li&gt;
-&lt;li&gt;The &lt;b&gt;PhoneNumberPicker&lt;/b&gt; component for accessing the phone&#039;s contacts.&lt;/li&gt;
-&lt;li&gt;The &lt;b&gt;ListPicker&lt;/b&gt; component for allowing the user to choose a number for removal.&lt;/li&gt;
-&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts.&lt;/li&gt;
-&lt;li&gt;The &lt;b&gt;TinyDB&lt;/b&gt; database component for storing the phone list in a database. &lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
-&lt;p&gt;The user interface for Text Group, Part II has a textbox, button, and status label for sending the group text, just as in Part I. If you performed a SaveAs to begin this project, those components should already be in the view. You should then add a &lt;b&gt;PhoneNumberPicker&lt;/b&gt; and &lt;b&gt;ListPicker&lt;/b&gt; components for adding and removing phone numbers from the list, along with a &lt;b&gt;Texting&lt;/b&gt; component and a &lt;b&gt;TinyDB&lt;/b&gt; component, both of which will appear in the &quot;non-visual&quot; component area. A table of detailed instructions for designing the components is below, but you can also build it from the following picture of what it should look like:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/designerPart2.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The components listed below were used to create the designer window shown above. The first four were part of TextGroup so will already be there if you built that app and performed a SaveAs to begin this one. You&#039;ll need to drag each of the other components from the Palette into the Viewer and name it as specified below:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Component Type
-&lt;/td&gt;
-&lt;td&gt;
-Palette Group
-&lt;/td&gt;
-&lt;td&gt;
-What you&#039;ll name it
-&lt;/td&gt;
-&lt;td&gt;
-Purpose of Component
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;TextBox&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;MessageText&lt;/td&gt;
-&lt;td&gt;User will enter message here.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;TextGroupButton&lt;/td&gt;
-&lt;td&gt;User enters the message here&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Label&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;StatusLabel&lt;/td&gt;
-&lt;td&gt;Reports when texts have been sent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Texting&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Social&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
-&lt;td&gt;The component that sends the texts&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Label&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;GroupHeadingLabel&lt;/td&gt;
-&lt;td&gt;Header for the list of phone numbers that will appear&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Label&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;MembersLabel&lt;/td&gt;
-&lt;td&gt;This is where the list of phone numbers will appear&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Horizontal Arrangement&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Screen Arrangement&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
-&lt;td&gt;To organize the add and remove buttons (pickers) horizontally&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;PhoneNumberPicker&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Social&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;PhoneNumberPicker1&lt;/td&gt;
-&lt;td&gt;Allow user to choose from numbers in contact list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;ListPicker&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;RemoveListPicker&lt;/td&gt;
-&lt;td&gt;Allow user to remove number from phone numbers in group&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;TinyDB&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;TinyDB1&lt;/td&gt;
-&lt;td&gt;For storing and retrieving group&#039;s phone numbers from database&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components in the following way:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Hint&lt;/b&gt; of MessageText to &quot;enter a message&quot;&lt;/li&gt;
-&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of TextGroupButton to &quot;Text Group&quot;&lt;/li&gt;
-&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of StatusLabel to &quot;status&quot;.&lt;/li&gt;
-&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of GroupHeadingLabel to &quot;-- Group -- &quot;.&lt;/li&gt;
-&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of MembersLabel to &quot;members will appear here&quot;.&lt;/li&gt;
-&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of PhoneNumberPicker1 to &quot;Add Member&quot;.&lt;/li&gt;
-&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of RemoverListPicker to &quot;Remove Member&quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components &lt;/h4&gt;
-&lt;p&gt;If you completed Text Group, Part I, you should have the following list defined in the Blocks Editor:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/phonelist.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;For this app, you still want the list but you don&#039;t want any pre-defined numbers in it-- the numbers will be added by the end-user of the app. So remove the text blocks with the numbers and leave the &lt;span class=&quot;ai-blocks&quot;&gt;make a list&lt;/span&gt; block empty:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/emptylist.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;You&#039;ll need to add the following behaviors:&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt;When the user clicks the &quot;Add Member&quot; button (the button associated with the PhoneNumberPicker), the picker will appear for the user to choose a number. When the choice is made, the app will add the chosen number to the PhoneNumbers list and update the database.&lt;/li&gt;
-&lt;li&gt;When the user clicks the &quot;Remove Member&quot; button (the button associated with the RemovListPicker), the picker will appear for the user to choose one of the numbers already in PhoneNumbers. When the choice is made, the app will remove the number from the list and update the database.&lt;/li&gt;
-&lt;li&gt;When the app begins, the numbers stored in the database are retrieved and loaded into PhoneNumbers.&lt;/li&gt;
-&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Adding a Phone Number (Member) to the Group &lt;/h4&gt;
-&lt;p&gt;The list of phone numbers in the contact list will appear when the user clicks the PhoneNumberPicker &#039;s associated button: that behavior is built-in to the component. When the user makes a choice from the contact list, PhoneNumberPicker &#039;s AfterPicking event is triggered-- your job is to program this to add the chosen item to the list and update the database.&lt;/p&gt;
-&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Block type
-&lt;/td&gt;
-&lt;td&gt;
-Drawer
-&lt;/td&gt;
-&lt;td&gt;
-Purpose
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;PhoneNumberPicker1.AfterPicking&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;PhoneNumberPicker1&lt;/td&gt;
-&lt;td&gt;The event-handler that is triggered when user chooses from contact list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Lists&lt;/td&gt;
-&lt;td&gt;Your goal is to add chosen number to list &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug this into list slot of add items to list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;PhoneNumberPicker1.PhoneNumber &lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;PhoneNumberPicker1&lt;/td&gt;
-&lt;td&gt;This holds the chosen phone number, plug into &lt;b&gt;item&lt;/b&gt; slot of &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;TinyDB1&lt;/td&gt;
-&lt;td&gt;Since the list is updated, need to update the database&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;textGroup&quot;)&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Plug this in as the &lt;b&gt;tag&lt;/b&gt; of &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug this in as the &lt;b&gt;value&lt;/b&gt; of &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;MembersLabel&lt;/td&gt;
-&lt;td&gt;Display the list on the phone&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;plug into &lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/addMember.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;When the user chooses from the PhoneListPicker, the &lt;span class=&quot;basicblock&quot;&gt;PhoneListPicker1.AfterPicking&lt;/span&gt; event is triggered. A PhoneListPicker&#039; s job is to put the user&#039;s choice in its PhoneNumber property, so the event-handler just calls &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt; to get that choice into the PhoneNumbers list.&lt;/p&gt;
-&lt;p&gt;PhoneNumbers is a variable, and variables are short-term memory that will disappear when the app is closed. Thus, after adding the item to the variable, &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt; block is used to copy that list to the database-- the phone&#039;s long-term memory. The data is tagged with &quot;textGroup&quot;. Later, you&#039;ll use that tag to re-load the phone number list from the database each time the app is opened.&lt;/p&gt;
-&lt;p&gt;After updating the database, &lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt; is called to display the list. This is necessary because list variables are hidden from the user until they are placed in a visible component. Directly placing a list into a label is a rudimentary way of displaying a list-- the list will appear in the form: (111-1111 222-2222). In the next section, you&#039;ll program a more elegant list display.&lt;/p&gt;
-&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; On the phone, click &quot;Add Member&quot; and choose a number from the list of contacts that appears. Does the number appear in the MembersLabel? Try adding additional numbers to see how the list is displayed. &lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Displaying the List with Items on Separate Lines&lt;/h4&gt;
-&lt;p&gt;At this point the app shows the user the phone numbers that have been added, but not very elegantly. Create a procedure &lt;span class=&quot;callblock&quot;&gt;displayMembers&lt;/span&gt;, which displays the list with each phone number on a separate line. Be sure and call the procedure in the &lt;span class=&quot;basicblock&quot;&gt;PhonePicker1.AfterPicking&lt;/span&gt; event, below the &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt; block, so that the updated list is displayed. The call to the procedure should replace the blocks that set the MembersLabel.Text directly to the list. For help displaying the list on separate lines, see &lt;a href=&quot;http://explore.appinventor.mit.edu/content/displaying-list&quot;&gt;Displaying a List&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Block type
-&lt;/td&gt;
-&lt;td&gt;
-Drawer
-&lt;/td&gt;
-&lt;td&gt;
-Purpose
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;procedure&lt;/span&gt; (&quot;displayMembers&quot;)&lt;/td&gt;
-&lt;td&gt;Definitions&lt;/td&gt;
-&lt;td&gt;Create a procedure as you&#039;ll want to call this from multiple places&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;MembersLabel&lt;/td&gt;
-&lt;td&gt;Display the list here&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;&quot;)&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Start the text out empty&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Control&lt;/td&gt;
-&lt;td&gt;Iterate through the numbers&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;name number&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;in the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Name the foreach variable &quot;number&quot;. This is the current item of the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug into in list slot of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;MembersLabel&lt;/td&gt;
-&lt;td&gt;Modify with each of the numbers&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Build a text object from multiple parts&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;MembersLabel.Text&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;MembersLabel&lt;/td&gt;
-&lt;td&gt;Add to the label on each iteration of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;\n&quot;)&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Newline character so that next number is on next line&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;The current number from the list&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Here&#039;s how the blocks should look:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/displayMembers.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; in &lt;span class=&quot;callblock&quot;&gt;displayMembers&lt;/span&gt; successively adds a phone number to the end of the label, placing a newline character in between each item.&lt;/p&gt;
-&lt;p&gt;Of course this procedure will not do anything unless you call it: you should add a call to the procedure in the &lt;span class=&quot;basicblock&quot;&gt;PhonePicker1.AfterPicking&lt;/span&gt; event, below the &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt; block. The &lt;span class=&quot;callblock&quot;&gt;call displayMembers&lt;/span&gt; block can be found in My Definitions, and it should replace the blocks that directly set the MembersLabel.Text in the list.&lt;/p&gt;
-&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; On the phone, click &quot;Add Member&quot; to choose another number to add to the list. When the modified list is displayed, does each number appear on separate lines?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Removing a Number from the list&lt;/h4&gt;
-&lt;p&gt;To allow the user to remove a number from the list, you must first get the PhoneNumbers list into the RemoveListPicker that appears when the user clicks &quot;Remove Member&quot;. Unlike the PhonePicker component, which gets its data from the phone&#039;s contact list, ListPicker requires you to explicilty load the items that will appear. You can do this by setting the Elements property of the ListPicker component. You do this within the &lt;span class=&quot;basicblock&quot;&gt;RemoveListPicker.BeforePicking&lt;/span&gt; event, which is triggered right when the user clicks the button but before the list is shown.&lt;/p&gt;
-&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/BeforePicking.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Next, code the &lt;span class=&quot;basicblock&quot;&gt;RemoveListPicker.AfterPicking&lt;/span&gt; event so that the user&#039;s choice is removed from the PhoneNumbers list. You&#039;ll need the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Block type
-&lt;/td&gt;
-&lt;td&gt;
-Drawer
-&lt;/td&gt;
-&lt;td&gt;
-Purpose
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;RemoveListPicker.AfterPicking&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;RemoveListPicker&lt;/td&gt;
-&lt;td&gt;This is triggered after the user chooses a number from the list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;remove list item&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Lists&lt;/td&gt;
-&lt;td&gt;Removes the indexth item in a given list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug into list slot of &lt;span class=&quot;ai-blocks&quot;&gt;remove list item&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;position in list&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Lists&lt;/td&gt;
-&lt;td&gt;Given an item in a list, this gives you its index&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;RemoveListPicker.Selection&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;RemoveListPicker&lt;/td&gt;
-&lt;td&gt;The number chosen by the user, plug into thing slot of &lt;span class=&quot;ai-blocks&quot;&gt;position in list&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug into list slot of &lt;span class=&quot;ai-blocks&quot;&gt;position in list&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;call displayMembers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Once the user removes one, display the modified list&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/RemoveAfterPicking.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;When the user chooses a number from the RemoveListPicker, the &lt;span class=&quot;basicblock&quot;&gt;AfterPicking&lt;/span&gt; event is triggered. The event-handler uses position in list to get the index of the chosen number, then uses that index to remove the number from the list PhoneNumbers. The database is then updated and the list displayed.&lt;/p&gt;
-&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; On the phone, click &quot;Remove Member&quot; and choose a number from the list that appears. When the list is re-displayed, is the number you chose gone? &lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Loading the List from the Database&lt;/h4&gt;
-&lt;p&gt;The app so far works, and when changes are made to the PhoneNumbers list they are also stored in a database. Now you just need to add the behavior such that the data stored in the database is loaded when the app launches.&lt;/p&gt;
-&lt;p&gt;Program the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event-handler so that the saved list of phone numbers is retrieved from the database and placed in the PhoneNumbers list and the display is updated to show the list. You&#039;ll need to check the retrieved data to make sure there&#039;s something there-- after all, the first time the app is used, the database will not have any numbers in it.&lt;/p&gt;
-&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Block type
-&lt;/td&gt;
-&lt;td&gt;
-Drawer
-&lt;/td&gt;
-&lt;td&gt;
-Purpose
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;def variable&lt;/span&gt; (&quot;valueFromDB&quot;) &lt;/td&gt;
-&lt;td&gt;Definitions&lt;/td&gt;
-&lt;td&gt;A temporary variable to hold the retrieved data&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (blank)&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Initial value for the variable can be anything&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Screen1&lt;/td&gt;
-&lt;td&gt;This is triggered when app begins&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set valueFromDB to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;You&#039;ll set the variable to the value retrieved from db&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.GetValue&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;TinyDB1&lt;/td&gt;
-&lt;td&gt;Get the stored response text from the database&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;textGroup&quot;)&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Plug into tag slot of &lt;span class=&quot;callblock&quot;&gt;GetValue&lt;/span&gt;, make sure text is same as was used in StoreValue above&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;if test&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Control&lt;/td&gt;
-&lt;td&gt;To ask if the retrieved value has some text&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;is list?&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Check if the data returned is a list (if no data is returned, this will be false)&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;global valueFromDB&lt;/span&gt; (x2)&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;This variable holds the value retrieved from &lt;span class=&quot;calblock&quot;&gt;GetValue&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set PhoneNumbers to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;PhoneNumbers&lt;/td&gt;
-&lt;td&gt;If we retrieved something, place it in PhoneNumbers&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/screenInit.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;When the app begins, the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event is triggered. The event-handler queries the database with GetValue and the tag &quot;textGroup&quot;. If there is a value with that tag in the database, its corresponding value will be placed in the variable valueFromDB. The event-handler checks this value-- is it a list?-- and if it is puts the list into the variable PhoneNumbers and calls displayMembers.&lt;/p&gt;
-&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the app.&lt;/b&gt; To test the final app, first package and install it on the phone and run it. Live testing won&#039;t work in this case because every time you &quot;Restart App&quot;, in clears the phone&#039;s database: even if you&#039;ve stored some data persistently, it is cleared when you restart the app. 
-
-Click Restart App so that the app re-initializes. Does the list of numbers you&#039;ve entered appear on reload? Try removing all items and testing again. Does the app launch without error?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Text Group Part II, Final Program&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/textGroup2final.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
-&lt;p&gt;Once you get the Text Group app working, you might want to explore some variations. For example,&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Write a version that records both the contact name and phone number of each member of the group. You can also use ContactPicker to let the user choose from a contact name instead of a number.&lt;/li&gt;
-&lt;li&gt;Write a version that allows the user to define and make use of multiple groups. You&#039;ll need a group list in which each item is a list of contacts/numbers, and you&#039;ll need a more complex user interface. &lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
-&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;PhoneListPicker allow the user to choose from the phone numbers of his contacts. The choice is placed in the Selection property and the AfterPicking event is called when the user makes a choice.&lt;/li&gt;
-&lt;li&gt;ListPicker is similar to PhoneListPicker but it displays a programmer-defined list, e.g., the list of phone numbers in the group. You define the list that will appear in the ListPicker by setting the Elements property, and you can do this in the BeforePicking event. The user&#039;s choice is placed in the Selection property, and the AfterPicking event is triggered when the user makes a choice.&lt;/li&gt;
-&lt;li&gt;TinyDB is used to store data persistently so that it can be loaded each time an app begins. StoreValue stores with a tag to identify the data and the data itself (the value). GetValue returns the data for a given tag. Often, an app will call GetValue when the app begins (Screen1.Initialize) to load the persistent data.&lt;/li&gt;
-&lt;li&gt;Currently, App Inventor does not provide full access and functionality for the contacts and groups of the phone. In this tutorial, you created your own group and app for processing the group (adding,removing, and texting all).&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
-&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/textgroup2barcode.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Or &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/textgroup2.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/textgroup2.zip&quot;&gt;download the source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
-
-Done with &lt;span style=&quot;color:black;&quot;&gt;TextGroup Part 2&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/content/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
- <pubDate>Fri, 14 Jun 2013 16:12:40 +0000</pubDate>
- <dc:creator>aaron</dc:creator>
- <guid isPermaLink="false">316 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/content/text-group-part-2#comments</comments>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta about="/support/concepts/variables" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../../sites/explore.appinventor.mit.edu/files/MIT_App_Inventor_favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta content="Global vs Local Variables" about="/support/concepts/variables" property="dc:title" />
+<link rel="shortlink" href="../../node/333.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="variables.html" />
+  <title>Global vs Local Variables | Explore MIT App Inventor</title>
+  <style>@import url("../../modules/system/system.basea51e.css?mpdh4l");
+@import url("../../modules/system/system.menusa51e.css?mpdh4l");
+@import url("../../modules/system/system.messagesa51e.css?mpdh4l");
+@import url("../../modules/system/system.themea51e.css?mpdh4l");</style>
+<style>@import url("../../modules/comment/commenta51e.css?mpdh4l");
+@import url("../../modules/field/theme/fielda51e.css?mpdh4l");
+@import url("../../modules/node/nodea51e.css?mpdh4l");
+@import url("../../modules/search/searcha51e.css?mpdh4l");
+@import url("../../modules/user/usera51e.css?mpdh4l");
+@import url("../../sites/all/modules/views/css/viewsa51e.css?mpdh4l");</style>
+<style>@import url("../../sites/all/modules/ctools/css/ctoolsa51e.css?mpdh4l");
+@import url("../../sites/all/modules/panels/css/panelsa51e.css?mpdh4l");
+@import url("../../sites/all/modules/extlink/extlinka51e.css?mpdh4l");</style>
+<style>@import url("../../sites/all/themes/adaptivetheme/adaptivetheme/css/at.basea51e.css?mpdh4l");
+@import url("../../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layouta51e.css?mpdh4l");
+@import url("../../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messagesa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/html-elementsa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/formsa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/tablesa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/pagea51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/articlesa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/commentsa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/fieldsa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/blocksa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/navigationa51e.css?mpdh4l");
+@import url("../../sites/explore.appinventor.mit.edu/files/color/newexploretheme-991117ab/colorsa51e.css?mpdh4l");
+@import url("../../sites/all/themes/sky/css/sky.settings.stylea51e.css?mpdh4l");
+@import url("../../sites/all/themes/newexploretheme/css/NewExplorethemea51e.css?mpdh4l");</style>
+<style media="print">@import url("../../sites/all/themes/sky/css/printa51e.css?mpdh4l");</style>
+<link type="text/css" rel="stylesheet" href="../../sites/all/themes/sky/css/sky.responsive.stylea51e.css?mpdh4l" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/all/themes/sky/css/sky.responsive.gpanelsa51e.css?mpdh4l" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/explore.appinventor.mit.edu/files/at_css/newexploretheme.responsive.layouta51e.css?mpdh4l" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/at_css/newexploretheme.lt-ie9.layout.css?mpdh4l" media="all" />
+<![endif]-->
+  <script src="../../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../../misc/drupala51e.js?mpdh4l"></script>
+<script src="../../sites/all/modules/panels/js/panelsa51e.js?mpdh4l"></script>
+<script src="../../sites/all/modules/extlink/extlinka51e.js?mpdh4l"></script>
+<script src="../../sites/all/modules/google_analytics/googleanalyticsa51e.js?mpdh4l"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../../sites/all/themes/sky/js/scriptsa51e.js?mpdh4l"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"newexploretheme","theme_token":"UH4_6_zXWPz6ciUJC30A8F_1Bgzndmu7bDTEP1OlvPU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/sky\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"public:\/\/at_css\/newexploretheme.responsive.layout.css":1,"public:\/\/at_css\/newexploretheme.lt-ie9.layout.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+<!-- Put the following javascript before the closing </head> tag. -->
+<script>
+ ( function() {
+    var cx = '009943970440830858880:hxy3yq9wtr0';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-333 page-type-page i18n-en lang-en site-name-explore-mit-app-inventor section-support site-name-hidden color-scheme-custom newexploretheme gecko win fs-small bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+<!--    <div id="branding">
+              <hgroup class="element-invisible">
+                      <h1 id="site-name" class="element-invisible"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+                </div>-->
+
+          <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix">
+              <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+            <ul class="menu clearfix"><li class="first collapsed menu-item-218"><a href="../../index-2.html" title="Explore MIT App Inventor Home Page">Home</a></li><li class="collapsed menu-item-686"><a href="../../news-events.html" title="Upcoming events and recent news">News+Events</a></li><li class="collapsed menu-item-958"><a href="../../tutorials.html" title="Tutorials to learn about using MIT App Inventor">Tutorials</a></li><li class="leaf menu-item-432"><a href="../../forums.html" title="MIT App Inventor forums">Forums</a></li><li class="collapsed menu-item-1644"><a href="../../resources.html" title="Resources related to MIT App Inventor">Resources</a></li><li class="collapsed menu-item-525"><a href="../../support.html" title="Support on using MIT App Inventor">Support</a></li><li class="collapsed menu-item-438"><a href="../../stories.html" title="Stories about Users&#039; Successes with MIT App Inventor">Stories</a></li><li class="collapsed menu-item-1346"><a href="../../content/setup-mit-app-inventor.html" title="Get setup to use App Inventor">Setup</a></li><li class="collapsed menu-item-2106"><a href="../../teach.html" title="Materials for teaching App Inventor">Teach</a></li><li class="last leaf menu-item-527"><a href="http://beta.appinventor.mit.edu/" title="Start using App Inventor">Invent</a></li></ul>  </nav>
+  </div>
+
+  </header>
+
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-2 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-333" class="article article-type-page article-lang-en odd article-full clearfix" about="/support/concepts/variables" typeof="foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      Global vs Local Variables                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Variables can be thought of as containers that hold values. There are two types of variables that we can use: global and local variables.</p>
+<h2>Global vs Local Variables</h2>
+<h3>Global Variable</h3>
+<p>A <strong>global variable</strong> is a variable that can be accessed in multiple scopes. This means that wherever you are in the program you can use that variable: get its current value or set its value to something else. Global variables are created using the <span class="variableblock">initialize global name to</span> block found in the Variables drawer.</p>
+<h3>Local Variable</h3>
+<p>A <strong>local variable</strong> is a variable that is declared within a function or it is an argument passed into a function. This means that you can only access these variables in that specific function where they are declared or passed in as an argument. </p>
+<p>Local variables are created when:</p>
+<ul><li>arguments are passed in to a procedure or event</li>
+<li>using the <span class="variableblock">initialize local name to</span> block</li>
+<li>using a <span class="controlblock">for range</span> or <span class="controlblock">for each</span> block (these for loops will create a local variable for the letter <em> i</em></li>
+</ul><h3>Variables Overview</h3>
+<p>The Variables drawer provides blocks to create, get, and set both global and local variables. Explanations of all of the blocks available in this drawer can be found on the <a href="../blocks/variables.html">Variables page</a>.</p>
+<h3>Global Variable Example</h3>
+<p>Take out a <span class="variableblock">get</span> block and click the dropdown. There will be no variables to select. Create a global variable and name it <em>count</em> and initialize it to 0.  Click on the dropdown of the <span class="variableblock">get</span> block. You can now see <em>count</em> available to choose. Once you have created a global variable, it will always be available in the dropdown of <span class="variableblock">get</span> .</p>
+<p><img src="../../sites/all/files/UserGuide/concepts/variables/getglobalvar.gif" /></p>
+<h3>Local Variable Example</h3>
+<p>Create a local variable using <span class="variableblock">initialize local name to in do</span> block and name it <em>a</em>. Now drag out a <span class="variableblock">set</span> block and put it outside of the <span class="variableblock">initialize local name to in do</span> block. Click on the dropdown of the set block. You will not see <em>a</em> as a choice in the dropdown. This is because the <span class="variableblock">set</span>  block is out of the scope of the local variable's domain. Move the block inside of the do part of the <span class="variableblock">initialize local name to in do</span> block. Click the dropdown of the set block. Now <em>a</em> is available to choose.</p>
+<p><img src="../../sites/all/files/UserGuide/concepts/variables/setlocalvar.gif" /></p>
+<h3>Variable Labels</h3>
+<p>Notice how when you use a get or set block for a global variable. The block will say <em>global</em> name.</p>
+<p><img src="../../sites/all/files/UserGuide/concepts/variables/globalget.png" /><br /><img src="../../sites/all/files/UserGuide/concepts/variables/globalset.png" /></p>
+<p>When using get or set blocks for local variables, the block will only say <em> name</em>.</p>
+<p><img src="../../sites/all/files/UserGuide/concepts/variables/localget.html" /><br /><img src="../../sites/all/files/UserGuide/concepts/variables/localset.html" /></p>
+<h3>Summary</h3>
+<p>So while inside a local variable block or a procedure that has arguments, the arguments or local variable that you named will also be available in the dropdown. But when you are not inside, they will not be available. When you select a value in the dropdown, the internal value saved to that variable will be returned and passed on to whatever block <span class="variableblock">get</span> is connected to.</p>
+<h3>Why would I ever need to use local variables?</h3>
+<p>Sometimes you may need to create a new variable within a procedure and only want that procedure to be able to use it.</p>
+<p><img src="../../sites/all/files/UserGuide/blocks/variables/example.png" /></p>
+<p>In this example, we use a local variable, <em>height</em>, to store the height of the triangle whose hypotenuse and base we're given as arguments. We might have a different procedure that uses <em>height</em> as an argument so we would not be able to use a global variable. To make sure of that, we use local variables so that the height in the right context is only available in the procedure where it is used.</p>
+<p>Sometimes it might just be easier to have local variables rather than creating many new global ones. Or it might allow us to use less blocks.</p>
+<pre class="ai-box">Want to experiment with global and local variables more? Check out this lesson on variable scoping <a href="variable-scoping-lesson.html">here</a>.</pre></div></div></div>  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+          <div class="region region-sidebar-second sidebar">
+    <div id="block-block-16" class="block block-block block-odd block-count-3 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <a href="http://appinventor.mit.edu/explore/"><img alt="MIT App Inventor" title="MIT App Inventor" src="../../sites/all/files/explore_images/appinventor_logo_sm.png" /></a><img alt="Center for Mobile Learning" title="Center for Mobile Learning" src="../../sites/all/files/explore_images/cml_logo_sm.png" id="cml_logo_back"/>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block block-even block-count-4 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p align="center"><a href="http://beta.appinventor.mit.edu/"><img src="../../sites/all/files/inventButton.png" alt="Use MIT App Inventor" width="77%" /></a></p>
+<p>All you need to get started with MIT App Inventor is a Google account to log in.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-7" class="block block-block block-odd block-count-5 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <!-- Place this tag where you want the search box to render -->
+<gcse:searchbox-only queryParameterName="term"></gcse:searchbox-only>    </div>
+  </div>
+</div>
+  </div>
+    
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from explore.appinventor.mit.edu/support/concepts/variables by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 03 Jul 2013 20:50:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>
