@@ -6,6 +6,158 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MoleMash for App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/molemash</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img style=&quot;float:right;&quot; src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleOnEmulator.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In the game &lt;span style=&quot;color:green;&quot;&gt;MoleMash&lt;/span&gt;, a mole pops up at random positions on a playing field, and the player scores points by hitting the mole before it jumps away. This tutorial shows how to build &lt;span style=&quot;color:green;&quot;&gt;MoleMash&lt;/span&gt; as an example of a simple game that uses animation.&lt;/p&gt;
+&lt;p&gt;The tutorial assumes that you have completed the &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/hellopurr&quot;&gt;HelloPurr&lt;/a&gt; and &lt;a href=&quot;/ai2/paintpot-part1&quot;&gt;PaintPot&lt;/a&gt; tutorials.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch3MoleMash.pdf&quot;&gt;Download Book Chapter (PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &quot;MoleMash&quot;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;MoleMash&quot;. Open the Blocks Editor and connect to the phone.&lt;/p&gt;
+&lt;p&gt;Also download this &lt;a href=&quot;/sites/all/files/ai2tutorials/moleMash/mole.png&quot;&gt;picture of a mole&lt;/a&gt; and save it on your computer.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;You&#039;ll design the game so that the mole moves once every half-second. If it is touched, the score increases by one, and the phone vibrates. Pressing restart resets the score to zero.&lt;/p&gt;
+&lt;p&gt;This tutorial introduces:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;image sprites&lt;/li&gt;
+&lt;li&gt;timers and the &lt;strong&gt;Clock&lt;/strong&gt; component&lt;/li&gt;
+&lt;li&gt;procedures&lt;/li&gt;
+&lt;li&gt;picking random numbers between 0 and 1&lt;/li&gt;
+&lt;li&gt;text blocks&lt;/li&gt;
+&lt;li&gt;typeblocking&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The first components&lt;/h4&gt;
+&lt;p&gt;Several components should be familiar from previous tutorials:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;A &lt;strong&gt;Canvas&lt;/strong&gt; named &quot;MyCanvas&quot;. This is the area where the mole moves.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;Label&lt;/strong&gt; named &quot;ScoreLabel&quot; that shows the score, i.e., the number of times the player has hit the mole.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;Button&lt;/strong&gt; named &quot;ResetButton&quot;.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Drag these components from the Palette onto the Viewer and assign their names. Put &lt;span style=&quot;color:green;&quot;&gt;MyCanvas&lt;/span&gt; on top and set its dimensions to 300 pixels wide by 300 pixels high. Set the &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; of ScoreLabel to &quot;Score: ---&quot;. Set the &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; of ResetButton to &quot;Reset&quot;. Also add a &lt;strong&gt;Sound&lt;/strong&gt; component and name it &quot;Noise&quot;. You&#039;ll use &lt;span style=&quot;color:green;&quot;&gt;Noise&lt;/span&gt; to make the phone vibrate when the mole is hit, similar to the way you made the kitty purr in &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Timers and the Clock component&lt;/h4&gt;
+&lt;p&gt;You need to arrange for the mole to jump periodically, and you&#039;ll do this with the aid of a &lt;strong&gt;Clock&lt;/strong&gt; component. The Clock component provides various operations dealing with time, like telling you what the date is. Here, you&#039;ll use the component as a timer that fires at regular internals. The firing interval is determined by the Clock &#039;s &lt;strong style=&quot;color:green;&quot;&gt;TimerInterval&lt;/strong&gt; property. Drag out a Clock component; it will go into the non-visible components area. Name it &quot;MoleTimer&quot;. Set its TimeInterval to 500 milliseconds to make the mole move every half second. Make sure that &lt;strong style=&quot;color:green;&quot;&gt;Enabled&lt;/strong&gt; is checked.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Adding an Image Sprite&lt;/h4&gt;
+&lt;p&gt;To add the moving mole we&#039;ll use a &lt;em&gt;sprite&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Sprites are images that can move on the screen within a Canvas. Each sprite has a &lt;strong style=&quot;color:green;&quot;&gt;Speed&lt;/strong&gt; and a &lt;strong style=&quot;color:green;&quot;&gt;Heading&lt;/strong&gt;, and also an &lt;strong style=&quot;color:green;&quot;&gt;Interval&lt;/strong&gt; that determines how often the sprite moves at its designated speed. Sprites can also detect when they are touched. In &lt;span style=&quot;color:green;&quot;&gt;MoleMash&lt;/span&gt;, the mole has a speed zero, so it won&#039;t move by itself. Instead, you&#039;ll be setting the mole&#039;s position each time the timer fires. Drag an &lt;strong&gt;ImageSprite&lt;/strong&gt; component onto the Viewer. You&#039;ll find this component in the Animation category of the Palette. Place it within &lt;span style=&quot;color:green;&quot;&gt;MyCanvas&lt;/span&gt; area. Set these properties for the Mole sprite:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Picture&lt;/strong&gt;: Use mole.png, which you downloaded to your computer at the beginning of this tutorial.&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Enabled&lt;/strong&gt;: checked&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Interval&lt;/strong&gt;: 500 (The interval doesn&#039;t matter here, because the mole&#039;s speed is zero: it&#039;s not moving by itself.)&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Heading&lt;/strong&gt;: 0 The heading doesn&#039;t matter here either, because the speed is 0.&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Speed&lt;/strong&gt;: 0.0&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Visible&lt;/strong&gt;: checked&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Width&lt;/strong&gt;: Automatic&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&quot;color:green;&quot;&gt;Height&lt;/strong&gt;: Automatic&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;You should see the &lt;strong style=&quot;color:green;&quot;&gt;x&lt;/strong&gt; and &lt;strong style=&quot;color:green;&quot;&gt;y&lt;/strong&gt; properties already filled in. They were determined by where you placed the mole when you dragged it onto &lt;span style=&quot;color:green;&quot;&gt;MyCanvas&lt;/span&gt;. Go ahead and drag the mole some more. You should see &lt;strong style=&quot;color:green;&quot;&gt;x&lt;/strong&gt; and &lt;strong style=&quot;color:green;&quot;&gt;y&lt;/strong&gt; change. You should also see the mole on your connected phone, and the mole moving around on the phone as you drag it around in the Designer. You&#039;ve now specified all the components. The Designer should look like this. Notice how &lt;span style=&quot;color:green;&quot;&gt;Mole&lt;/span&gt; is indented under &lt;span style=&quot;color:green;&quot;&gt;MyCanvas&lt;/span&gt; in the component structure list, indicating that the sprite is a sub-component of the canvas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMashDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Component Behavior and Event Handlers&lt;/h4&gt;
+&lt;p&gt;Now you&#039;ll specify the component behavior. This introduces some new App Inventor ideas. The first is the idea of a &lt;em&gt;procedure&lt;/em&gt;. For an overview and explanation of procedures, check out the &lt;a href=&quot;/ai2/support/concepts/procedures&quot;&gt;Procedures page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A procedure is a sequence of statements that you can refer to all at once as single command. If you have a sequence that you need to use more than once in a program, you can define that as a procedure, and then you don&#039;t have to repeat the sequence each time you use it. Procedures in App Inventor can take arguments and return values. This tutorial covers only the simplest case: procedures that take no arguments and return no values.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Define Procedures&lt;/h4&gt;
+&lt;p&gt;Define two procedures:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; moves the &lt;span style=&quot;color:green;&quot;&gt;Mole&lt;/span&gt; sprite to a new random position on the canvas.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;UpdateScore&lt;/span&gt; shows the score, by changing the text of the &lt;strong style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Start with MoveMole:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;In the Blocks Editor, under Built-In, open the Procedures drawer. Drag out a &lt;span class=&quot;callblock-ai2&quot;&gt;to procedure&lt;/span&gt; block and change the label &quot;procedure&quot; to &quot;MoveMole&quot;.&lt;br /&gt;&lt;pre class=&quot;box&quot;&gt;Note: There are two similar blocks: &lt;span class=&quot;callblock-ai2&quot;&gt;procedure then do&lt;/span&gt; and &lt;span class=&quot;callblock-ai2&quot;&gt;procedure then resu;t&lt;/span&gt;. Here you should use &lt;span class=&quot;callblock-ai2&quot;&gt;procedure then do&lt;/span&gt;.&lt;/pre&gt;&lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;to MoveMole&lt;/span&gt; block has a slot labeled &quot;do&quot;. That&#039;s where you put the statements for the procedure. In this case there will be two statements: one to set the mole&#039;s x position and one to set its y position. In each case, you&#039;ll set the position to be a random fraction, between 0 and 1, of the difference between the size of the canvas and the size of the mole. You create that value using blocks for &lt;span class=&quot;mathblock-ai2&quot;&gt;random fraction&lt;/span&gt; and multiplication and subtraction. You can find these in the Math drawer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Build the &lt;span style=&quot;color:green;&quot;&gt;MoveMole&lt;/span&gt; procedure. The completed definition should look like this:&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoveMole.png&quot; /&gt;&lt;br /&gt;&lt;span style=&quot;color:green;&quot;&gt;MoveMole&lt;/span&gt; does not take any arguments so you don&#039;t have to use the &lt;a href=&quot;/ai2/support/concepts/mutators&quot;&gt;mutator&lt;/a&gt; function of the procedure block. Observe how the blocks connect together: the first statement uses the &lt;span class=&quot;setblock&quot;&gt;Mole.X set&lt;/span&gt; block to set mole&#039;s horizontal position. The value plugged into the block&#039;s socket is the result of multiplying:
+&lt;ol&gt;&lt;li&gt;The result of the &lt;span class=&quot;mathblock-ai2&quot;&gt;call random fraction&lt;/span&gt; block, which a value between 0 and 1&lt;/li&gt;
+&lt;li&gt;The result of subtracting the mole&#039;s width from the canvas width&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;The vertical position is handled similarly.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;With &lt;span style=&quot;color:green;&quot;&gt;MoveMole&lt;/span&gt; done, the next step is to define a variable called &lt;span style=&quot;color:green;&quot;&gt;score&lt;/span&gt; to hold the score (number of hits) and give it initial value 0. Also define a procedure &lt;span class=&quot;callblock-ai2&quot;&gt;UpdateScore&lt;/span&gt; that shows the score in &lt;span style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/span&gt;. The actual contents to be shown in &lt;span style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/span&gt; will be the text &quot;Score: &quot; joined to the value of &lt;span style=&quot;color:green;&quot;&gt;score&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;To create the &quot;Score: &quot; part of the label, drag out a text block from the Text drawer. Change the block to read &quot;Score: &quot; rather than &quot;text&quot;.&lt;/li&gt;
+&lt;li&gt;Use a join block to attach this to a block that gives the value of the score variable. You can find the join block in the Text drawer.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Here&#039;s how &lt;span style=&quot;color:green;&quot;&gt;score&lt;/span&gt; and &lt;span class=&quot;callblock-ai2&quot;&gt;UpdateScore&lt;/span&gt; should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/UpdateScore.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add a Timer&lt;/h4&gt;
+&lt;p&gt;The next step is to make the mole keep moving. Here&#039;s where you&#039;ll use &lt;span style=&quot;color:green;&quot;&gt;MoleTimer&lt;/span&gt;. Clock components have an event handler called &lt;span class=&quot;eventblock&quot;&gt;when ... Timer&lt;/span&gt; that triggers repeatedly at a rate determined by the &lt;strong style=&quot;color:green;&quot;&gt;TimerInterval&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Set up &lt;span style=&quot;color:green;&quot;&gt;MoleTimer&lt;/span&gt; to call &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; each time the timer fires, by building the event handler like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMashTimerEventHandler.png&quot; /&gt;&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;Notice how the mole starts jumping around on the phone as soon as you define the event handler. This is an example of how things in App Inventor start happening instantaneously, as soon as you define them.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add a Mole Touch Handler&lt;/h4&gt;
+&lt;p&gt;The program should increment the score each time the mole is touched. Sprites, like canvases, respond to touch events. So create a touch event handler for &lt;span style=&quot;color:green;&quot;&gt;Mole&lt;/span&gt; that:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Increments the score.&lt;/li&gt;
+&lt;li&gt;Calls &lt;span class=&quot;callblock-ai2&quot;&gt;UpdateScore&lt;/span&gt; to show the new score.&lt;/li&gt;
+&lt;li&gt;Makes the phone vibrate for 1/10 second (100 milliseconds).&lt;/li&gt;
+&lt;li&gt;Calls &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; so that the mole moves right away, rather than waiting for the timer.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Here&#039;s what this looks like in blocks. Go ahead and assemble the &lt;span class=&quot;eventblock&quot;&gt;when Mole.Touched&lt;/span&gt; blocks as shown.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMashTouchEventHandler.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here&#039;s a tip: You can use &lt;a href=&quot;/tips/typeblocking&quot;&gt;typeblocking&lt;/a&gt;: typing to quickly create blocks.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;To create a value block containing 100, just type 100 and press return.&lt;/li&gt;
+&lt;li&gt;To create a &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; block, just type &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; and select the block you want from the list&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Reset the Score&lt;/h4&gt;
+&lt;p&gt;One final detail is resetting the score. That&#039;s simply a matter of making the &lt;span style=&quot;color:green;&quot;&gt;ResetButton&lt;/span&gt; change the score to 0 and calling &lt;span class=&quot;callblock-ai2&quot;&gt;UpdateScore&lt;/span&gt;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Complete Program&lt;/h4&gt;
+&lt;p&gt;Here&#039;s the complete &lt;span style=&quot;color:green;&quot;&gt;MoleMash&lt;/span&gt; program:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMashComplete.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get the game working, you might want to explore some variations. For example:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Make the game vary the speed of the mole in response to how well the player is doing. To vary how quickly the mole moves, you&#039;ll need to change the &lt;span style=&quot;color:green;&quot;&gt;MoleTimer&lt;/span&gt;&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Interval&lt;/strong&gt; property.&lt;/li&gt;
+&lt;li&gt;Keep track of when the player hits the mole and when the player misses the mole, and show a score with both hits and misses. To do this, you&#039;ll need do define touched handlers both for &lt;span style=&quot;color:green;&quot;&gt;Mole&lt;/span&gt;, same as now, and for &lt;span style=&quot;color:green;&quot;&gt;MyCanvas&lt;/span&gt;. One subtle issue, if the player touches the mole, does that also count as a touch for &lt;span style=&quot;color:green;&quot;&gt;MyCanvas&lt;/span&gt;? The answer is yes. Both touch events will register.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this project:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Sprites are touch-sensitive shapes that you can program to move around on a &lt;strong&gt;Canvas&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Clock&lt;/strong&gt; component can be used as a timer to make events that happen at regular intervals.&lt;/li&gt;
+&lt;li&gt;Procedures are defined using &lt;span class=&quot;callblock-ai2&quot;&gt;to&lt;/span&gt; blocks.&lt;/li&gt;
+&lt;li&gt;For each procedure you define, App Inventor automatically creates an associated call block and places it in the My Definitions drawer.&lt;/li&gt;
+&lt;li&gt;Making a &lt;span class=&quot;mathblock-ai2&quot;&gt;random-fraction&lt;/span&gt; block produces a number between 0 and 1.&lt;/li&gt;
+&lt;li&gt;Text blocks specify literal text, similar to the way that number blocks specify literal numbers.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tips/typeblocking&quot;&gt;Typeblocking&lt;/a&gt; is a way to create blocks quickly, by typing a block&#039;s name.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMashBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMash.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;MoleMash&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/basic&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Basic&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/clock-timer&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Clock Timer&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/game&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Game&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sprites&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Sprites&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Wed, 03 Jul 2013 14:29:42 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">356 at http://explore.appinventor.mit.edu</guid>
+ <comments>http://explore.appinventor.mit.edu/ai2/molemash#comments</comments>
+</item>
+<item>
  <title>Get the Gold</title>
  <link>http://explore.appinventor.mit.edu/get-gold</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;

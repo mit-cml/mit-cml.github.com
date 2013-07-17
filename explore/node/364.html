@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta about="/ai2/paintpot-part2" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/MIT_App_Inventor_favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta content="PaintPot (Part 2) for App Inventor 2" about="/ai2/paintpot-part2" property="dc:title" />
+<link rel="shortlink" href="364.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../ai2/paintpot-part2.html" />
+  <title>PaintPot (Part 2) for App Inventor 2 | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.basee52a.css?mq1nhp");
+@import url("../modules/system/system.menuse52a.css?mq1nhp");
+@import url("../modules/system/system.messagese52a.css?mq1nhp");
+@import url("../modules/system/system.themee52a.css?mq1nhp");</style>
+<style>@import url("../modules/comment/commente52a.css?mq1nhp");
+@import url("../modules/field/theme/fielde52a.css?mq1nhp");
+@import url("../modules/node/nodee52a.css?mq1nhp");
+@import url("../modules/search/searche52a.css?mq1nhp");
+@import url("../modules/user/usere52a.css?mq1nhp");
+@import url("../sites/all/modules/views/css/viewse52a.css?mq1nhp");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctoolse52a.css?mq1nhp");
+@import url("../sites/all/modules/panels/css/panelse52a.css?mq1nhp");
+@import url("../sites/all/modules/extlink/extlinke52a.css?mq1nhp");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.basee52a.css?mq1nhp");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layoute52a.css?mq1nhp");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messagese52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/html-elementse52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/formse52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/tablese52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/pagee52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/articlese52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/commentse52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/fieldse52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/blockse52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/navigatione52a.css?mq1nhp");
+@import url("../sites/explore.appinventor.mit.edu/files/color/newexploretheme-991117ab/colorse52a.css?mq1nhp");
+@import url("../sites/all/themes/sky/css/sky.settings.stylee52a.css?mq1nhp");
+@import url("../sites/all/themes/newexploretheme/css/NewExplorethemee52a.css?mq1nhp");
+@import url("../sites/all/themes/newexploretheme/video-js/video-jse52a.css?mq1nhp");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/printe52a.css?mq1nhp");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.stylee52a.css?mq1nhp" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanelse52a.css?mq1nhp" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/at_css/newexploretheme.responsive.layoute52a.css?mq1nhp" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/at_css/newexploretheme.lt-ie9.layout.css?mq1nhp" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupale52a.js?mq1nhp"></script>
+<script src="../sites/all/modules/panels/js/panelse52a.js?mq1nhp"></script>
+<script src="../sites/all/modules/extlink/extlinke52a.js?mq1nhp"></script>
+<script src="../sites/all/modules/google_analytics/googleanalyticse52a.js?mq1nhp"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/sky/js/scriptse52a.js?mq1nhp"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/videoe52a.js?mq1nhp"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"newexploretheme","theme_token":"hokwaRxJi-jaFiKOFGTCRJFBy7kY9gnxAJt8r53U6o0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"public:\/\/at_css\/newexploretheme.responsive.layout.css":1,"public:\/\/at_css\/newexploretheme.lt-ie9.layout.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+<!-- Put the following javascript before the closing </head> tag. -->
+<script>
+ ( function() {
+    var cx = '009943970440830858880:hxy3yq9wtr0';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-364 page-type-tutorial i18n-en lang-en site-name-explore-mit-app-inventor section-ai2 site-name-hidden color-scheme-custom newexploretheme gecko win fs-small bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+<!--    <div id="branding">
+              <hgroup class="element-invisible">
+                      <h1 id="site-name" class="element-invisible"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+                </div>-->
+
+          <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix">
+              <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+            <ul class="menu clearfix"><li class="first collapsed menu-item-218"><a href="../index-2.html" title="Explore MIT App Inventor Home Page">Home</a></li><li class="collapsed menu-item-686"><a href="../news-events.html" title="Upcoming events and recent news">News+Events</a></li><li class="expanded active-trail menu-item-958"><a href="../tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="active-trail">Tutorials</a><ul class="menu clearfix"><li class="first leaf menu-item-2136"><a href="../content/alertme.html">AlertMe</a></li><li class="leaf menu-item-2140"><a href="../content/android-wheres-my-car.html">Android, Where&#039;s My Car</a></li><li class="leaf menu-item-2135"><a href="../content/broadcasthub.html">Broadcast Hub</a></li><li class="leaf menu-item-2128"><a href="../content/colored-dots.html">Colored Dots</a></li><li class="leaf menu-item-2150"><a href="../get-gold.html">Get the Gold</a></li><li class="leaf menu-item-2139"><a href="../content/google-voice.html">Google Voice for Texting over Wifi</a></li><li class="leaf menu-item-2122"><a href="../content/hellopurr.html">Hello Purr</a></li><li class="leaf menu-item-2162"><a href="../ai2/hellopurr.html">Hello Purr for App Inventor 2</a></li><li class="leaf menu-item-965"><a href="../content/hellopurr.html" title="HelloPurr">HelloPurr</a></li><li class="leaf menu-item-2123"><a href="../teach/magic-8-ball.html">Magic 8-Ball</a></li><li class="leaf menu-item-2165"><a href="../ai2/magic-8-ball.html">Magic 8-ball for App Inventor 2</a></li><li class="leaf menu-item-2131"><a href="../content/makequiz-and-takequiz.html">MakeQuiz and TakeQuiz</a></li><li class="leaf menu-item-2132"><a href="../content/maptour.html">MapTour</a></li><li class="leaf menu-item-2127"><a href="../content/minigolf.html">Mini Golf: Fling, TouchUp, TouchDown Gestures</a></li><li class="leaf menu-item-2143"><a href="../content/molemash-2.html">MoleMash 2</a></li><li class="leaf menu-item-2125"><a href="../content/molemash.html">MoleMash</a></li><li class="leaf menu-item-2168"><a href="../ai2/molemash.html">MoleMash for App Inventor 2</a></li><li class="leaf menu-item-2138"><a href="../content/no-text-while-driving-part-2.html">No Text While Driving (Part 2)</a></li><li class="leaf menu-item-2137"><a href="../content/no-text-while-driving.html">No Text While Driving</a></li><li class="collapsed menu-item-1733"><a href="../teach/paint-pic.html">Paint Pic</a></li><li class="leaf menu-item-2170"><a href="../ai2/paintpot-part1.html">PaintPot (Part 1) for App Inventor 2</a></li><li class="leaf menu-item-968"><a href="../content/paintpot-part-2.html" title="PaintPot (Part 2)">PaintPot (Part 2)</a></li><li class="leaf active-trail menu-item-2189"><a href="../ai2/paintpot-part2.html" class="active-trail active">PaintPot (Part 2) for App Inventor 2</a></li><li class="leaf menu-item-2124"><a href="../content/paintpot-part-1.html">PaintPot</a></li><li class="leaf menu-item-2126"><a href="../content/piccall.html">PicCall</a></li><li class="leaf menu-item-2129"><a href="../content/pizzaparty.html">Pizza Party with Fusion Tables</a></li><li class="leaf menu-item-2130"><a href="../content/quizme.html">QuizMe</a></li><li class="leaf menu-item-2141"><a href="../content/stockquotes.html">StockQuotes</a></li><li class="leaf menu-item-2134"><a href="../content/text-group-part-2.html">TextGroup (Part 2)</a></li><li class="leaf menu-item-2133"><a href="../content/textgroup.html">TextGroup</a></li><li class="last leaf menu-item-2142"><a href="../content/videowall.html">VideoWall</a></li></ul></li><li class="leaf menu-item-432"><a href="../forums.html" title="MIT App Inventor forums">Forums</a></li><li class="collapsed menu-item-1644"><a href="../resources.html" title="Resources related to MIT App Inventor">Resources</a></li><li class="collapsed menu-item-525"><a href="../support.html" title="Support on using MIT App Inventor">Support</a></li><li class="collapsed menu-item-438"><a href="../stories.html" title="Stories about Users&#039; Successes with MIT App Inventor">Stories</a></li><li class="collapsed menu-item-1346"><a href="http://explore.appinventor.mit.edu/setup-mit-app-inventor" title="Get setup to use App Inventor">Setup</a></li><li class="collapsed menu-item-2106"><a href="../teach.html" title="Materials for teaching App Inventor">Teach</a></li><li class="last leaf menu-item-527"><a href="http://beta.appinventor.mit.edu/" title="Start using App Inventor">Invent</a></li></ul>  </nav>
+  </div>
+
+  </header>
+
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-2 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-364" class="article article-type-tutorial article-lang-en odd article-full clearfix" about="/ai2/paintpot-part2" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      PaintPot (Part 2) for App Inventor 2                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This tutorial has two parts: <a href="../ai2/paintpot-part1.html">Part 1</a> | <a href="../ai2/paintpot-part2.html">Part 2</a> </p>
+<p>Part 2 extends <a href="../ai2/paintpot-part1.html">Part 1</a> of the tutorial to create both large and small dots, as a demonstration of how to use <em>global variables</em>.</p>
+<h4 class="ai-header">Starting</h4>
+<p>Make sure you've completed the <a href="../ai2/setup.html">Set Up</a> process and you have your completed project from <a href="../ai2/paintpot-part1.html">PaintPot Part 1</a> loaded.</p>
+<p>Start where you left off at the end of Part 1, with the project open in App Inventor. Use the <strong>Save As</strong> button to make a copy of <span style="color:green;">PaintPot</span> so you can work on the new version without affecting the original version. Name the copy "PaintPotV2" (with no spaces). After saving a copy, you should see <span style="color:green;">PaintPotV2</span> in the Designer.</p>
+<h4 class="ai-header">Creating variables</h4>
+<p>The size of the dots drawn on the canvas is determined in the <span class="basicblock">when DrawingCanvas.Touched</span> event handler where <span class="callblock-ai2">call Drawing.DrawCircle</span> is called with <strong style="color:green;">r</strong>, the radius of the circle, equal to 5. To change the thickness, all we need to do is use different values for <strong style="color:green;">r</strong>. Use <strong style="color:green;">r</strong> = 2 for small dots and <strong style="color:green;">r</strong> = 8 for large dots.</p>
+<p>Start by creating names for these values:</p>
+<ol><li>Open the Blocks Editor if it isn't already open and connect the phone. Your phone should show the buttons and the canvas you built previously.</li>
+<li>In the Blocks Editor, in the Built-In column, open the Variables drawer. Drag out a <span class="variableblock">initialize global name to</span> block. Change the text that reads "name" to read "small". A yellow warning exclamation mark might appear on the block. If you mouse over this you'll see a warning message explaining that the block has an empty socket.</li>
+<li>You need to fill in the socket with a number block that specifies the value for "small" -- use 2 as the value. To create the number block, type the number 2. A menu will appear, showing you all the possible blocks that include "2" in their name. Click on the first one, which is the <span class="mathblock">number 2</span> itself, and a number block with the value 2 should appear. Plug that in to the <span class="variable block">initialize global small to</span> block. The yellow warning mark will disappear, because the empty socket has been filled. (The second value listed in the menu is the math block <span class="mathblock">atan2</span> which you won't use here.)</li>
+</ol><p>Here are the steps in the sequence:</p>
+<ol><li><img src="../sites/all/files/ai2tutorials/paintPot2/var1.png" /></li>
+<li><img src="../sites/all/files/ai2tutorials/paintPot2/var2.png" /></li>
+<li><img src="../sites/all/files/ai2tutorials/paintPot2/var3.png" /></li>
+<li><img src="../sites/all/files/ai2tutorials/paintPot2/var4.png" /></li>
+<li><img src="../sites/all/files/ai2tutorials/paintPot2/var5.png" /></li>
+</ol><p>You've now defined a global variable named <span class="variableblock">small</span> whose value is the number 2.<br />
+Similar to <span class="setblock">small</span>, define a global variable <span class="variableblock">big</span>, whose value is 8.<br />
+Finally, define a global variable <span class="variableblock">dotsize</span> and give it an initial value of 2.</p>
+<pre class="ai-box">You might wonder whether it would be better programming style to make the initial value of <span style="color:black;">dotsize</span> be the value of <span style="color:black;">small</span> rather than 2. That would be true, except for a subtle programming point: Doing that would be relying on the assumption that <span style="color:black;">small</span> will already have a value at the point in time when <span style="color:black;">dotsize</span> is assigned its value. In App Inventor, you can't make assumptions about the order in which different <span class="setblock" style="color:black;">def</span> blocks will be processed. In general, of course, you really <em>would</em> like to specify the order in which variables are assigned. You can do this by assigning all values when the application is initialized, using the Screen initialize event. The <a href="http://appinventor.mit.edu/explore/content/quizme.html">Quiz Me</a> tutorial gives an example of initialization.</pre><h4 class="ai-header">Using variables</h4>
+<p>Now go back to the touch event handler you set up in Part 1 and change the <span class="callblock-ai2">call to DrawCircle</span> block so that it uses the value of <span style="color:green;">dotsize</span> rather than always using 5.</p>
+<p>In the Blocks Editor, switch to the My Blocks column, and open the Variables drawer. Pull out a get block and click on the dropdown. You should see three new variables in the dropdown: small, big, and dotsize</p>
+<p>These blocks were automatically created and put in the dropdown of <span class="variableblock">get</span> and <span class="variableblock">set</span> variable blocks, similarly to the way that x and y were created in the dropdown when you defined the <span class="eventblock">when DrawingCanvas.Touched</span> event handler in the part 1 of this tutorial. "Global" means "global variable", in contrast to the event-handler arguments, which are considered "local variables". The difference is that the argument values are accessible only within the body of the event handler, while global variables are accessible throughout the entire program.</p>
+<ul><li>Go to the <span class="eventblock">when MyCanvas.Touched</span> event handler and replace the number 5 block in <span class="callblock-ai2">call DrawCircle</span> with the <span class="variableblock">get dotsize</span> block from the Variables drawer.</li>
+</ul><h4 class="ai-header">Changing the values of variables</h4>
+<p>Now set up a way to change dotsize to be small (2) or big (8). Do this with buttons.</p>
+<ol><li>In the Designer, drag a <strong>HorizontalArrangement</strong> component into the Viewer pane below the <span style="color:green;">DrawingCanvas</span> component. Name the component "BottomButtons".</li>
+<li>Drag the existing <span style="color:green;">ButtonWipe</span> into <span style="color:green;">BottomButtons</span>.</li>
+<li>Drag two more button components from the Palette into <span style="color:green;">BottomButtons</span>, placing them next to <span style="color:green;">ButtonWipe</span>.</li>
+<li>Name the buttons "ButtonBig" and "ButtonSmall", and set their <strong style="color:green;">Text</strong> to read "Big dots" and "Small dots", respectively.</li>
+<li>In the Blocks Editor under My Blocks, create a <span class="eventblock">when ... Clicked</span> event handler for <span style="color:green;">ButtonSmall</span> that changes <span style="color:green;">dotsize</span> to be the value of <span style="color:green;">small</span>. To change <span style="color:green;">dotsize</span> use the <span class="variableblock">set global dotsize to</span> block from the MyDefinitions drawer and plug in the <span class="variableblock">global small</span> block.</li>
+<li>Make a similar event handler for <span style="color:green;">ButtonBig</span>.</li>
+</ol><p>The two click event handlers should look like this:</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot2/PaintPotDotsClick.png" /></p>
+<p>You're done! You can draw in <span style="color:green;">PaintPot</span> and use the new buttons to draw either big dots or small dots. Notice that dragging your finger still produces a thin line. That's because the changes we just made don't affect how <span class="callblock-ai2">DrawLine</span> is called.</p>
+<p>Here's the finished program in the Designer:</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot2/PaintPotAllDesigner.png" /></p>
+<p>and in the Blocks Editor:</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot2/PaintPotAllBlocks.png" /></p>
+<pre class="ai-box">A bug for you to work on: The program you just built has a slight bug. If you start drawing before pressing any of the paint buttons, the paint color will be black; however, after you choose a color, there's no way to get back to black. Think about how you could fix that.</pre><h4 class="ai-header">Review</h4>
+<p>You create global variables by using <span class="variableblock">def</span> blocks from the Variables drawer.</p>
+<p>For each global variable you define, App Inventor automatically supplies a <span class="variableblock">global</span> block that gives the value of the variable, and a <span class="variableblock">set global ... to</span> block for changing the value of the variable. These blocks can be found in the Variables drawer.</p>
+<pre class="ai-box">Done with <span style="color:black;">PaintPot</span>? Return to the other tutorials <a href="../ai2/tutorials.html">here</a>.</pre></div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Version:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-version/app-inventor-2.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 2</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Difficulty:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-difficulty/basic.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Basic</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Type:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-type/drawing-canvas.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drawing Canvas</a>      </li>
+
+    
+  </ul>
+
+</section>
+  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+          <div class="region region-sidebar-second sidebar">
+    <div id="block-block-16" class="block block-block block-odd block-count-3 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <a href="http://appinventor.mit.edu/explore/"><img alt="MIT App Inventor" title="MIT App Inventor" src="../sites/all/files/explore_images/appinventor_logo_sm.png" /></a><img alt="Center for Mobile Learning" title="Center for Mobile Learning" src="../sites/all/files/explore_images/cml_logo_sm.png" id="cml_logo_back"/>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block block-even block-count-4 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p align="center"><a href="http://beta.appinventor.mit.edu/"><img src="../sites/all/files/inventButton.png" alt="Use MIT App Inventor" width="77%" onmouseover="this.src='http://explore.appinventor.mit.edu/sites/all/files/inventButton2.png'" onmouseout="this.src='http://explore.appinventor.mit.edu/sites/all/files/inventButton.png'" /></a></p>
+<p>All you need to get started with MIT App Inventor is a Google account to log in.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-7" class="block block-block block-odd block-count-5 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <!-- Place this tag where you want the search box to render -->
+<gcse:searchbox-only queryParameterName="term"></gcse:searchbox-only>    </div>
+  </div>
+</div>
+  </div>
+    
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from explore.appinventor.mit.edu/node/364 by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 17 Jul 2013 02:14:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>
