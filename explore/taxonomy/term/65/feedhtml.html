@@ -6,6 +6,300 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>StockQuotes for App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/stockquotes</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;StockQuotes&lt;/span&gt;&lt;/h2&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
+&lt;p&gt;Just like you can access web pages from your phone -- for example, to look up a stock price -- so can App Inventor.  This app enables the user to enter a stock symbol, then looks up the price of the stock on Yahoo! Finance and displays the price on the phone.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes that you are familiar with the basics of App Inventor -- using the Component Designer to build a user interface and using the Blocks Editor to specify event handlers.  If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial includes&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Accepting text input from the user to specify the stock symbol.&lt;/li&gt;
+&lt;li&gt;Using the Web component to ask Google Finance for the latest price for the stock.&lt;/li&gt;
+&lt;li&gt;Displaying the result.&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project.  Name it StockQuotes, and also set the screen’s &lt;b style=&quot;color:green;&quot;&gt;Title&lt;/b&gt; to “Stock Quotes”. Open the Blocks Editor and connect it to the phone.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;Use the component designer to create the user interface.  When you are done, it should look something like the picture below.  Additional instructions are below the picture.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/components1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Create the following components by dragging them from the Palette into the Viewer.&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;StockSymbolTextBox&lt;/td&gt;
+&lt;td&gt;Where the user enters the stock symbol&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;GetQuoteButton&lt;/td&gt;
+&lt;td&gt;To request the stock quote&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ValueLabel&lt;/td&gt;
+&lt;td&gt;To display the stock quote&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Web&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Other stuff&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Web1&lt;/td&gt;
+&lt;td&gt;To request and receive the stock quote&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Stick with the default properties except for the following changes:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
+&lt;td&gt;Action&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;StockSymbolTextBox&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Set its &lt;b style=&quot;color:green;&quot;&gt;Hint&lt;/b&gt; property to &quot;Enter a stock symbol&quot;. Clear its &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; property by deleting or backspacing over the contents.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;GetQuoteButton&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Set its &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; property to &quot;Get Stock Quote&quot;.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ValueLabel&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Clear its &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; property.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The Yahoo! Finance API&lt;/h4&gt;
+&lt;p&gt;Many web services provide an &lt;em&gt;application programmer interface&lt;/em&gt; (API) for developers to enable their programs to access the service. Some ways to discover APIs are through the website &lt;a href=&quot;http://programmableweb.com&quot;&gt;http://programmableweb.com&lt;/a&gt; or just by doing a web search for the service name and “API”.&lt;/p&gt;
+&lt;p&gt;The Yahoo! Finance API is documented in gory detail at &lt;a href=&quot;http://www.gummy-stuff.org/Yahoo-data.htm&quot;&gt;http://www.gummy-stuff.org/Yahoo-data.htm&lt;/a&gt; . The highlights are that you can get the latest price for the stock with the symbol &quot;GOOG&quot;, for example, with the URL &lt;a href=&quot;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;amp;s=GOOG&quot;&gt;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;amp;s=GOOG&lt;/a&gt; . The section &quot;f=l1&quot; (lower-case letter L, followed by the number 1) says we would like the latest price, and the section “s=GOOG” says we would like information about the stock whose symbol is “GOOG”.  The result is returned in comma-separated value (CSV) format, which you may be familiar with from spreadsheets.  Since only one value will be returned for our query, the result will be a plain old number, such as “511.5”, without any commas.  (Commas would be used if we requested multiple pieces of data from Yahoo!, such as the name of the company and the daily trade volume.)&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h4&gt;
+&lt;h5 class=&quot;ai-header&quot;&gt;Requesting the Data&lt;/h5&gt;
+&lt;p&gt;The blocks to make the web request are shown here and detailed below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/request-data.png&quot; /&gt;&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;eventblock&quot;&gt;GetQuoteButton.Click&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;GetQuoteButton&lt;/td&gt;
+&lt;td&gt;Handle a click of the &quot;Get Quote&quot; button.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;set Web1.Url to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Web1&lt;/td&gt;
+&lt;td&gt;Specify the URL to request.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;call make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Concatenate the parts of the URL.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;text&lt;/span&gt; (&lt;a href=&quot;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;amp;s=&quot;&gt;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;amp;s=&lt;/a&gt;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Specify the first unchanging part of the URL.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;StockSymbolTextBox.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;StockSymbolTextBox&lt;/td&gt;
+&lt;td&gt;Get the stock symbol from the text box.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;eventblock&quot;&gt;call Web1.Get&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Web1&lt;/td&gt;
+&lt;td&gt;Make the web request.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The meaning is: When GetQuoteButton is clicked:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Build the Web component’s URL by concatenating “&lt;a href=&quot;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;amp;s=&quot;&gt;http://finance.yahoo.com/d/quotes.csv?f=l1&amp;amp;s=&lt;/a&gt;” (which you should copy and paste into the text block) and the symbol entered by the user (StockSymbolTextBox.Text).&lt;/li&gt;
+&lt;li&gt;Request the page specified by the URL. (This is like pressing return after entering a URL in your web browser.)&lt;/li&gt;
+&lt;/ol&gt;&lt;h5 class=&quot;ai-header&quot;&gt;Receiving the Data
+&lt;/h5&gt;&lt;p&gt;When the response to the web request arrives, the &lt;span class=&quot;eventblock&quot;&gt;Web.GotText&lt;/span&gt; event is raised with four parameters (only some of which we’ll use in this app):&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;url&lt;/b&gt;: the URL of the original request (which is useful if requests are made with many different URLs).&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;responseCode&lt;/b&gt;: &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_HTTP_status_codes&quot;&gt;the HTTP status code&lt;/a&gt;, which indicates whether the web request succeeded or how it failed; for example, 200 means that the request succeeded, 404 that the page could not be found, etc.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;responseType&lt;/b&gt;: &lt;a href=&quot;http://en.wikipedia.org/wiki/Mime_type&quot;&gt;the MIME type&lt;/a&gt; of the response, such as “text/csv” in this app, “image/jpeg”, etc.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;responseContent&lt;/b&gt;: the data being returned, such as “511.5”.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Here are a picture and table of the blocks you need to create:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/receive-data.png&quot; /&gt;&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;eventblock&quot;&gt;Web1.GotText&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Web1&lt;/td&gt;
+&lt;td&gt;Specify what to do when the reply comes back from the web.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;ifelse&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Provide different behavior depending on whether the request succeeded.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock&quot;&gt;get responseCode&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Gets the response code returned for the web request, which...&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; = &lt;/span&gt;(equals) block&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;...is checked for equality with...&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;eventblock&quot;&gt;number&lt;/span&gt; (200)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;...200, the code for valid web responses.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;set ValueLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;ValueLabel&lt;/td&gt;
+&lt;td&gt;Display the result on the screen.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;call make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Build the result by concatenating...&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;text&lt;/span&gt; (&quot;Current value: &quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;...the text “Current value: “ and...&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock&quot;&gt;get responseContent&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Gets the value returned from the web.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;set ValueLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;ValueLabel&lt;/td&gt;
+&lt;td&gt;Display an error message.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;text&lt;/span&gt; (&quot;Error getting stock quote&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;The error message&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Here&#039;s a description of the block&#039;s behavior:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;If the response code indicates that the web request succeeded (= 200), set the label to the concatenation of “Current value: “ and the returned data (e.g., 511.5).&lt;/li&gt;
+&lt;li&gt;Otherwise, set the label to “Error getting stock quote”.&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some ideas introduced in this tutorial:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Using an application programmer interface (API)&lt;/li&gt;
+&lt;li&gt;Making a request with the Web component&lt;/li&gt;
+&lt;li&gt;Checking whether a web request was successful&lt;/li&gt;
+&lt;li&gt;Displaying information returned from the web&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;These ideas will be developed further in the second part of this tutorial, which is under development.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/StockQuotesBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/stockQuotes/StockQuotes.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Credits&lt;/h4&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;This tutorial is based on &lt;a href=&quot;http://appinventorblog.com/2011/06/02/app-inventor-has-a-new-component-the-web/&quot;&gt;an app created by Prof. David Wolber&lt;/a&gt; and relies on the Yahoo! Finance API.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;StockQuotes&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/external-api&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;External API&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Tue, 02 Jul 2013 20:35:01 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">354 at http://explore.appinventor.mit.edu</guid>
+ <comments>http://explore.appinventor.mit.edu/ai2/stockquotes#comments</comments>
+</item>
+<item>
  <title>StockQuotes</title>
  <link>http://explore.appinventor.mit.edu/content/stockquotes</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
