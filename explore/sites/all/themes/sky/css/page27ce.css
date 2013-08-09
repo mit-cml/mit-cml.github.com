@@ -1,0 +1,261 @@
+/* Page and genereral module styles */
+
+/**
+ * Font sizes (reference)
+ * Based on 13px body (81.3%).
+ *
+ *  8px = 0.615em          30px = 2.308em          52px = 4em
+ *  9px = 0.692em          31px = 2.385em          53px = 4.077em
+ * 10px = 0.769em          32px = 2.462em          54px = 4.154em
+ * 11px = 0.846em          33px = 2.538em          55px = 4.231em
+ * 12px = 0.923em          34px = 2.615em          56px = 4.308em
+ * 13px = 1em              35px = 2.692em          57px = 4.385em
+ * 14px = 1.077em          36px = 2.769em          58px = 4.462em
+ * 15px = 1.154em          37px = 2.846em          59px = 4.538em
+ * 16px = 1.231em          38px = 2.923em          60px = 4.615em
+ * 17px = 1.308em          39px = 3em              61px = 4.692em
+ * 18px = 1.385em          40px = 3.077em          62px = 4.769em
+ * 19px = 1.462em          41px = 3.154em          63px = 4.846em
+ * 20px = 1.538em          42px = 3.231em          64px = 4.923em
+ * 21px = 1.615em          43px = 3.308em          65px = 5em
+ * 22px = 1.692em          44px = 3.385em          66px = 5.077em
+ * 23px = 1.769em          45px = 3.462em          67px = 5.154em
+ * 24px = 1.846em          46px = 3.538em          68px = 5.231em
+ * 25px = 1.923em          47px = 3.615em          69px = 5.308em
+ * 26px = 2em              48px = 3.692em          70px = 5.385em
+ * 27px = 2.077em          49px = 3.769em          71px = 5.462em
+ * 28px = 2.154em          50px = 3.846em          72px = 5.538em
+ * 29px = 2.231em          51px = 3.923em
+ */
+
+.block-inner,
+.breadcrumb,
+.region-help,
+.messages,
+#main-content > header,
+div#tasks,
+#attribution {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#columns {
+  background: #fff;
+}
+.columns-inner {
+  padding-top: 20px;
+}
+#page > header {
+  clear: both;
+  padding: 20px 0 0;
+}
+#branding {
+  float: left;
+  margin: 0 0 40px;
+  width: 40%;	
+}
+#logo {
+  padding: 0 20px;
+}
+#page > header > hgroup {
+  line-height: 1.2;
+  margin: 0 20px;
+}
+
+h1#site-name { /* 48px */
+  font-size: 3.692em;
+  margin: 0 0 0.2em 0;
+  padding: 0;
+}
+h2#site-slogan {
+  font-size: 1.077em;
+  margin: 0;
+  padding: 0;
+}
+#site-name {
+  font-size: 1.846em;
+}
+#site-name a    {
+  text-decoration: none;
+}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+
+#site-slogan {
+  font-size: 1.077em;
+  font-weight: 400;
+}
+.region-header {
+  float: right;
+  max-width: 60%;
+  clear: none;
+}
+h1#page-title {
+  margin-top: 0;
+}
+.in-maintenance h1#page-title {
+  padding: 10px;
+  margin-top: 0;
+}
+#content-column,
+.region-sidebar-first,
+.region-sidebar-second {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.region-content-aside {
+  padding-top: 20px;
+}
+.region-tertiary-content {
+  padding-bottom: 20px;
+}
+
+a.feed-icon {
+  padding: 10px;
+}
+
+/* Footer - the main page footer only */
+#page > footer {
+  padding: 20px 0;
+}
+
+/* Feed icons */
+.feed-icon img {
+  padding: 0 10px;
+}
+
+/* Search results list. */
+.search-results {
+  margin: 0;
+}
+.search-results .search-result {}
+.search-results .title {
+  font-size: 1.154em;
+}
+.search-results .search-snippet-info {
+  padding: 0;
+}
+.search-results p {
+  margin: 0;
+}
+.search-results .search-snippet {}
+.search-results .search-info {
+  font-size: .923em;
+}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+  position: absolute;
+  top: -99em;
+}
+.maintenance-page footer {
+  margin: 10px 0 0;
+}
+.maintenance-page footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+div.messages {
+  margin: 5px 20px;
+}
+
+/* Override max-width 100% for Gmaps and Getlocations modules */
+.gmap img,
+.view-gmap img,
+#getlocations_map_canvas img {
+  max-width: none;
+}
+
+/* Collapsible region */
+.js .region-collapsible,
+.collapsible-toggle {
+  display: none;
+}
+.region-collapsible-wrapper {
+  display: none;
+}
+.toggle-active .region-collapsible-wrapper {
+  display: block;
+}
+.section-collapsible,
+.region-highlighted {
+    background: #fff;
+    padding: 1em 0;
+}
+.js .section-collapsible {
+  bottom: 0;
+  height: 50%;
+  height: auto !important;
+  max-height: 50%;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.section-collapsible.toggle-active {
+  overflow: auto;
+  -moz-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+.region-collapsible {
+  padding: 15px 30px 15px 15px;
+  overflow: hidden;
+}
+.region-collapsible  .block {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.js .collapsible-toggle {
+  border: none;
+  display: block;
+  font-size: 1.077em;
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.collapsible-toggle a,
+.collapsible-toggle a:visited {
+  background: #fff url(images/black.png) no-repeat 16px -248px;
+  bottom: 0;
+  display: inline-block;
+  height: 20px;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+  text-indent: -999em;
+  width: 20px;
+  z-index: 1;
+  -moz-border-radius: 4px 0 0 0;
+  -webkit-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+  -moz-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+.toggle-active .collapsible-toggle a {
+  background-position: 16px -390px;
+  position: relative;
+  float: right;
+  -moz-border-radius: 0 0 0 4px;
+  -webkit-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.collapsible-toggle a:hover,
+.collapsible-toggle a:focus,
+.collapsible-toggle a:active {
+  background-image: url(images/gray.png);
+  outline: 0;
+}
+.link { background-position: 0 0; }
+.locked { background-position: 0 -66px; }
+.minus { background-position: 0 -132px; }
+.plus { background-position: 0 -198px; }
+.popout { background-position: 0 -264px; }
+.search { background-position: 0 -330px; }
+.x { background-position: 0 -396px;}
