@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta about="/resources/app-inventor-flash-cards" property="sioc:num_replies" content="1" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="App Inventor Code Snippet Cards" about="/resources/app-inventor-flash-cards" property="dc:title" />
+<link rel="shortlink" href="../node/278.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../resources/app-inventor-flash-cards.html" />
+  <title>App Inventor Code Snippet Cards | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.basefd0f.css?msb13d");
+@import url("../modules/system/system.menusfd0f.css?msb13d");
+@import url("../modules/system/system.messagesfd0f.css?msb13d");
+@import url("../modules/system/system.themefd0f.css?msb13d");</style>
+<style>@import url("../modules/comment/commentfd0f.css?msb13d");
+@import url("../modules/field/theme/fieldfd0f.css?msb13d");
+@import url("../modules/node/nodefd0f.css?msb13d");
+@import url("../modules/search/searchfd0f.css?msb13d");
+@import url("../modules/user/userfd0f.css?msb13d");
+@import url("../sites/all/modules/extlink/extlinkfd0f.css?msb13d");
+@import url("../sites/all/modules/views/css/viewsfd0f.css?msb13d");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctoolsfd0f.css?msb13d");
+@import url("../sites/all/modules/panels/css/panelsfd0f.css?msb13d");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.basefd0f.css?msb13d");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layoutfd0f.css?msb13d");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messagesfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/html-elementsfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/formsfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/tablesfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/pagefd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/articlesfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/commentsfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/fieldsfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/blocksfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/navigationfd0f.css?msb13d");
+@import url("../sites/explore.appinventor.mit.edu/files/color/newexploretheme-8cabcfae/colorsfd0f.css?msb13d");
+@import url("../sites/all/themes/sky/css/sky.settings.stylefd0f.css?msb13d");
+@import url("../sites/all/themes/newexploretheme/css/NewExplorethemefd0f.css?msb13d");
+@import url("../sites/all/themes/newexploretheme/video-js/video-jsfd0f.css?msb13d");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/printfd0f.css?msb13d");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.stylefd0f.css?msb13d" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanelsfd0f.css?msb13d" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/at_css/newexploretheme.responsive.layoutfd0f.css?msb13d" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/at_css/newexploretheme.lt-ie9.layout.css?msb13d" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupalfd0f.js?msb13d"></script>
+<script src="../sites/all/modules/extlink/extlinkfd0f.js?msb13d"></script>
+<script src="../sites/all/modules/panels/js/panelsfd0f.js?msb13d"></script>
+<script src="../sites/all/modules/google_analytics/googleanalyticsfd0f.js?msb13d"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/sky/js/scriptsfd0f.js?msb13d"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/videofd0f.js?msb13d"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"newexploretheme","theme_token":"vOrHnsYcXIwrVWitYgtTl89q57HFbW9WGh4m3siX73w","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"public:\/\/at_css\/newexploretheme.responsive.layout.css":1,"public:\/\/at_css\/newexploretheme.lt-ie9.layout.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+<!-- Put the following javascript before the closing </head> tag. -->
+<script>
+ ( function() {
+    var cx = '009943970440830858880:hxy3yq9wtr0';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-278 page-type-resource lang-en site-name-explore-mit-app-inventor section-resources site-name-hidden color-scheme-custom newexploretheme gecko win fs-small bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+<!--    <div id="branding">
+              <hgroup class="element-invisible">
+                      <h1 id="site-name" class="element-invisible"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+                </div>-->
+
+          <div id="menu-bar" class="nav clearfix">
+      <nav id="block-system-main-menu" class="block block-system block-menu block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix">
+              <h2 class="block-title element-invisible element-invisible">Main menu</h2>
+            <ul class="menu clearfix"><li class="first collapsed menu-item-218"><a href="../index-2.html" title="Explore MIT App Inventor Home Page">Home</a></li><li class="collapsed menu-item-686"><a href="../news-events.html" title="Upcoming events and recent news">News+Events</a></li><li class="collapsed menu-item-958"><a href="../tutorials.html" title="Tutorials to learn about using MIT App Inventor">Tutorials</a></li><li class="leaf menu-item-432"><a href="../forums.html" title="MIT App Inventor forums">Forums</a></li><li class="collapsed menu-item-1644"><a href="../resources.html" title="Resources related to MIT App Inventor">Resources</a></li><li class="collapsed menu-item-525"><a href="../support.html" title="Support on using MIT App Inventor">Support</a></li><li class="collapsed menu-item-438"><a href="../stories.html" title="Stories about Users&#039; Successes with MIT App Inventor">Stories</a></li><li class="collapsed menu-item-1346"><a href="../setup-mit-app-inventor.html" title="Get setup to use App Inventor">Setup</a></li><li class="collapsed menu-item-2106"><a href="../teach.html" title="Materials for teaching App Inventor">Teach</a></li><li class="last leaf menu-item-527"><a href="http://beta.appinventor.mit.edu/" title="Start using App Inventor">Invent</a></li></ul>  </nav>
+  </div>
+
+  </header>
+
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-2 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-278" class="article article-type-resource article-promoted article-lang-en odd article-full clearfix" about="/resources/app-inventor-flash-cards" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      App Inventor Code Snippet Cards                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Anshul Bhagi, as part of his thesis, created this deck of 20 cards, each containing a bite-sized snippet of blocks code to help students learn programming concepts through App Inventor. </p>
+<p><em>See Also: <a href="http://appinventor.mit.edu/explore/resources/beginner-app-inventor-concept-cards.html">App Inventor Concept Cards</a></em></p>
+<p>The topics of the Code Snippet Cards are:</p>
+<ul><li>Defining and Using Variables </li>
+<li> Properties, Functions, and Events </li>
+<li>Moving Sprites with Button Clicks</li>
+<li> Defining and Calling Procedures</li>
+<li>Implementing Jumping and Gravity</li>
+<li>Moving Sprites with Clocks</li>
+<li>Using AnimatedSprite Component</li>
+<li>Moving Sprites with Accelerometer</li>
+<li>Detecting if Phone is Close to Objects</li>
+<li>Touch Events on Canvas and Sprites</li>
+<li>Playing Sounds in your App </li>
+<li>Detecting Fling Gestures</li>
+<li>Layouts and Centering Components</li>
+<li>Generating Random Numbers</li>
+<li>Collision Detection</li>
+<li>Detecting if Phone is Shaking</li>
+<li>Creating your own Colors</li>
+<li>Speech Recognition</li>
+<li>Drawing on the Canvas</li>
+<li>Working with Lists of Components</li>
+</ul></div></div></div><section class="field field-name-field-resource-url field-type-link-field field-label-inline clearfix view-mode-full"><h2 class="field-label">Resource URL:&nbsp;</h2><div class="field-items"><div class="field-item even"><a href="../sites/all/files/Resources/AppInventorFlashCards.pdf">App Inventor Code Snippet Cards</a></div></div></section><section class="field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-inline clearfix view-mode-full clearfix">
+
+      <h2 class="field-label">Grade Level:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        6-8      </li>
+
+    
+      <li class="field-item odd">
+        9-12      </li>
+
+    
+      <li class="field-item even">
+        Undergraduate      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-difficulty-level field-type-taxonomy-term-reference field-label-inline clearfix view-mode-full clearfix">
+
+      <h2 class="field-label">Difficulty Level:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        Basic      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-inline clearfix view-mode-full clearfix">
+
+      <h2 class="field-label">Subject:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        Computer Science      </li>
+
+    
+      <li class="field-item odd">
+        Math      </li>
+
+    
+      <li class="field-item even">
+        Science      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-inline clearfix view-mode-full clearfix">
+
+      <h2 class="field-label">Resource Type:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        Curriculum      </li>
+
+    
+  </ul>
+
+</section>
+  </div>
+
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="../user/login866d.html?destination=node/278%23comment-form">Log in</a> or <a href="../user/register866d.html?destination=node/278%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+  <section id="comments" class="comment-wrapper">
+          <h2 class="comment-title title">Comments</h2>
+      
+  <a id="comment-3"></a>
+<article class="comment odd clearfix" about="/comment/3#comment-3" typeof="sioc:Post sioct:Comment">
+
+  
+  <header class="clearfix">
+                  <h3 property="dc:title" datatype="" class="comment-title"><a href="3.html#comment-3" rel="bookmark">You really make it seem so</a></h3>
+                <p class="submitted"><span property="dc:date dc:created" content="2013-09-16T08:31:46-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/users/ketanghos" typeof="sioc:UserAccount" property="foaf:name" datatype="">ketanghos</span> on <time datetime="2013-09-16T08:31:46Z" pubdate="pubdate"><span class="date-time permalink"><a href="3.html#comment-3" rel="bookmark">Mon, 09/16/2013 - 08:31</a></span></time></span></p>
+  </header>
+
+  <div class="comment-content">
+    <span rel="sioc:reply_of" resource="/resources/app-inventor-flash-cards" class="rdf-meta"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>You really make it seem so easy with your presentation but I find this topic to be really something which I think I would never understand. It seems too complicated and very broad for me. <a href="http://quickbookshosting.co/" rel="dofollow">QuickBooks Cloud Hosting</a></p>
+</div></div></div>      </div>
+
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="../user/login866d.html?destination=node/278%23comment-form">Log in</a> or <a href="../user/register866d.html?destination=node/278%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+
+  </section>
+
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+          <div class="region region-sidebar-second sidebar">
+    <div id="block-block-16" class="block block-block block-odd block-count-3 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <a href="http://appinventor.mit.edu/explore/"><img alt="MIT App Inventor" title="MIT App Inventor" src="../sites/all/files/explore_images/appinventor_logo_sm.png" /></a><img alt="Center for Mobile Learning" title="Center for Mobile Learning" src="../sites/all/files/explore_images/cml_logo_sm.png" id="cml_logo_back"/>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block block-even block-count-4 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p align="center"><a href="http://beta.appinventor.mit.edu/"><img src="../sites/all/files/inventButton.png" alt="Use MIT App Inventor" width="77%" onmouseover="this.src='http://explore.appinventor.mit.edu/sites/all/files/inventButton2.png'" onmouseout="this.src='http://explore.appinventor.mit.edu/sites/all/files/inventButton.png'" /></a></p>
+<p align="center"> All you need to get started with MIT App Inventor is a Google account to log in.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-7" class="block block-block block-odd block-count-5 block-region-sidebar-second">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <!-- Place this tag where you want the search box to render -->
+<gcse:searchbox-only queryParameterName="term"></gcse:searchbox-only>    </div>
+  </div>
+</div>
+  </div>
+    
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from explore.appinventor.mit.edu/comment/3 by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 16 Sep 2013 19:52:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

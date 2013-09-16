@@ -1148,7 +1148,7 @@ text-wrap: suppress;
 &lt;/ul&gt;&lt;p&gt;The tutorial covers the following App Inventor concepts:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts and processing received texts.&lt;/li&gt;
 &lt;li&gt;List variables to keep track of the numbers to text.&lt;/li&gt;
-&lt;li&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block that allows an app to repeat operations on a list of data (the list of phone numbers)&lt;/li&gt;
+&lt;li&gt;The &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block that is used to cause an app to repeat operations on a list of data (the list of phone numbers) each time the Timer goes off&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Setting up the Components&lt;/h4&gt;
 &lt;p&gt;BroadcasterHub facilitates communication between mobile phones. Those phones need not have the BroadcasterHub app installed, or even be smart phones. The app is the hub, and the app&#039;s user interface is only for the administrator of the communications network.&lt;/p&gt;
 &lt;p&gt;For this sample, that user interface is simple: it will display the current &lt;em&gt;broadcast list&lt;/em&gt; -- the list of phone numbers which have registered for the service-- and it will report all texts it receives and broadcasts.&lt;/p&gt;
@@ -1282,7 +1282,7 @@ Purpose
 &lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
 &lt;p&gt;The first row of blocks sets Texting1.PhoneNumber to the phone number of the message that was just received. The app then asks if the messageText was of the special code &quot;joinabc&quot;. If so, the sender&#039;s phone number is added to the BroadcastList, and a congratulations message is sent. If the messageText is something other than &quot;joinabc&quot;, the reply message is just the invitation message from before. After the &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block, the reply message is sent (bottom row).&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; From a second phone, send the text message &quot;joinabc&quot; to the phone on which the app is running. Do you recieve the correct reply? Try sending a different text message as well to check if the ifelse is working correctly.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Broadcasting Messages&lt;/h4&gt;
-&lt;p&gt;Next, you&#039;ll add the behavior so that the app broadcasts messages to the numbers in BroadcastList, if the message arrives from a number in BroadcastList. You&#039;ll need an additional &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block to check if the number is in the list, and a &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block to send broadcast the message to each item in the list. Here are all the blocks you&#039;ll need:&lt;/p&gt;
+&lt;p&gt;Next, you&#039;ll add the behavior so that the app broadcasts messages to the numbers in BroadcastList, if the message arrives from a number in BroadcastList. You&#039;ll need an additional &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block to check if the number is in the list, and a &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block to broadcast the message to each item in the list. Here are all the blocks you&#039;ll need:&lt;/p&gt;
 &lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
@@ -1304,12 +1304,12 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;My Definitions&lt;/td&gt;
 &lt;td&gt;Plug into list slot of is in list?&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Control&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;Clock.Timer&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Blocks&lt;/td&gt;
 &lt;td&gt;To repeatedly send out message to all in list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global BroadcastList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global BroadcastList&lt;/span&gt; x2&lt;/td&gt;
 &lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug into list slot of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Plug into list slot of &lt;span class=&quot;controlblock&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Texting1&lt;/td&gt;
 &lt;td&gt;To set the message&lt;/td&gt;
@@ -1319,13 +1319,30 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Texting1&lt;/td&gt;
 &lt;td&gt;To set the phone number&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value var&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;set Clock.TimerEnabled&lt;/span&gt; x2&lt;/td&gt;
+&lt;td&gt;Clock1&lt;/td&gt;
+&lt;td&gt;To turn the timer on/off&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;set nTicks&lt;/span&gt; x2&lt;/td&gt;
 &lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Holds the current item of the BroadcastList, it&#039;s a (phone) number&lt;/td&gt;
+&lt;td&gt;Sets the value of nTicks&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To grab an item from the list&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/broadcastitNolog.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/textingreceived.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;The behavior is complex enough that it requires a &quot;nested&quot; &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block. If the phone number of the received message is already in the list, the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block is executed and the message relayed to all in the list. If the number is not in the list, the outer else-do clause is executed, and it asks another question, which is the test of the nested &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block: is the messageText equal to &quot;joinabc&quot;. The app then branches one of two ways based on the answer.&lt;/p&gt;
+&lt;p&gt;We&#039;ve just set up a &lt;span class=&quot;controlblock&quot;&gt;timer&lt;/span&gt; to send a text message to each number in the list, BroadcastList. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; performs some action each time the clock ticks. To control the timer, define a global variable named &lt;b&gt;nTicks&lt;/b&gt;. We will set this variable initially to the number of phone numbers in the list.  And then we will subtract 1 from the variable each time we send a message. 
+
+A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; is done in two parts.  In &lt;span class=&quot;basicblock&quot;&gt;TextingMessage1.Received&lt;/span&gt; we will no longer send the message. Instead, we will initialize the global &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable to the length of the &lt;span class=&quot;controlblock&quot;&gt;BroadcastList&lt;/span&gt; list.  And we will enable the &lt;span class=&quot;controlblock&quot;&gt;Clock1&lt;/span&gt;.
+
+The second part is done using a &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block. This block will contain the &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt; command. Each time the clock ticks the following steps will be performed:
+&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;Select a number from the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list using the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; as the index.&lt;/li&gt;
+&lt;li&gt;Set the &lt;span class=&quot;controlblock&quot;&gt;Texting1.PhoneNumber&lt;/span&gt; to the selected number.&lt;/li&gt;
+&lt;li&gt;Send the text message using &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Subtract 1 from the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable.&lt;/li&gt;
+&lt;li&gt;If the  &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; is less than or equal to 0, disable the clock&lt;/li&gt;.  This will stop the timer.
+&lt;/ul&gt;&lt;p&gt;The behavior is complex enough that it requires a &quot;nested&quot; &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block. If the phone number of the received message is already in the list, the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block is executed and the message relayed to all in the list. If the number is not in the list, the outer else-do clause is executed, and it asks another question, which is the test of the nested &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block: is the messageText equal to &quot;joinabc&quot;. The app then branches one of two ways based on the answer.&lt;/p&gt;
 &lt;p&gt;In general, &lt;span class=&quot;controlblock&quot;&gt;if&lt;/span&gt; and &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; blocks can be nested to arbitrary levels, giving you the power to program arbitrarily complex behaviors.&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; First, have two different phones register with the app by texting &quot;joinabc&quot; to the phone which is running the app.Then text another message from one of the phones. Both phones should receive the text.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Logging the broadcasted texts&lt;/h4&gt;
 &lt;p&gt;When a text is received and broadcast out to the other phones, the app should log that occurrence to the app so the administrator can monitor the activity. Earlier, you added the label LogLabel to the user interface for this purpose. Now, you&#039;ll code some blocks that change LogLabel each time a new text arrives.&lt;/p&gt;
@@ -1438,7 +1455,7 @@ Purpose
 &lt;p&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; in &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; successively adds a phone number to the end of the label, placing a newline character in between each item.&lt;/p&gt;
 &lt;p&gt;Of course this procedure will not do anything unless you call it: you should add two calls to the procedure: one within the &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event-handler, and one within the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event-handler. The call &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; block can be found in My Definitions, and it should replace the blocks that directly set the BroadcastListLabel.Text to the list. You can see how these calls to &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; should look in the snapshot of the final version below.&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Try adding some more phone numbers to the list. Do the registered phone numbers now appear on separate lines?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Broadcast Hub, Final Version&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/finalversion.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/allBlocks.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
 &lt;p&gt;Once you get the Broadcast Hub app working, you might want to explore some variations. For example,&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Allow client phones to remove themselves from the list by texting &quot;quitabc&quot; to the app.&lt;/li&gt;
@@ -1608,7 +1625,7 @@ text-wrap: suppress;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
 &lt;p&gt;The user interface for Text Group, Part II has a textbox, button, and status label for sending the group text, just as in Part I. If you performed a SaveAs to begin this project, those components should already be in the view. You should then add a &lt;b&gt;PhoneNumberPicker&lt;/b&gt; and &lt;b&gt;ListPicker&lt;/b&gt; components for adding and removing phone numbers from the list, along with a &lt;b&gt;Texting&lt;/b&gt; component and a &lt;b&gt;TinyDB&lt;/b&gt; component, both of which will appear in the &quot;non-visual&quot; component area. A table of detailed instructions for designing the components is below, but you can also build it from the following picture of what it should look like:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/designerPart2.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The components listed below were used to create the designer window shown above. The first four were part of TextGroup so will already be there if you built that app and performed a SaveAs to begin this one. You&#039;ll need to drag each of the other components from the Palette into the Viewer and name it as specified below:&lt;/p&gt;
+&lt;p&gt;The components listed below were used to create the designer window shown above. The first five were part of TextGroup so will already be there if you built that app and performed a SaveAs to begin this one. You&#039;ll need to drag each of the other components from the Palette into the Viewer and name it as specified below:&lt;/p&gt;
 &lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
@@ -1645,6 +1662,11 @@ Purpose of Component
 &lt;td&gt;Social&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
 &lt;td&gt;The component that sends the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Clock&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;The component that designates when to send the texts&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
 &lt;b&gt;Label&lt;/b&gt;
 &lt;/td&gt;
@@ -1899,7 +1921,7 @@ Click Restart App so that the app re-initializes. Does the list of numbers you&#
 &lt;p&gt;Or &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/textgroup2.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/textgroup2.zip&quot;&gt;download the source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/TextGroup2_MIT.zip&quot;&gt;download the source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
 Done with &lt;span style=&quot;color:black;&quot;&gt;TextGroup Part 2&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
@@ -2057,7 +2079,7 @@ text-wrap: suppress;
 &lt;p&gt;You&#039;ll design the TextGroup app so that clicking on a button texts a message to a list of phone numbers. The app introduces the following App Inventor concepts:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts and processing SMS texts.&lt;/li&gt;
 &lt;li&gt;List variables to keep track of the numbers to text.&lt;/li&gt;
-&lt;li&gt;The foreach block for repeating operations on a list of data (the list of phone numbers)&lt;/li&gt;
+&lt;li&gt;The Timer block for repeating operations on a list of data (the list of phone numbers)&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the components&lt;/h4&gt;
 &lt;p&gt;The user interface for &lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt; is simple: it has a text box for entering the message to send, a button to send the message, a label that reports when the message is sent, and a Texting component. Use the Component Designer to create this interface. When you finish, it should look something like the snapshot below (there are also more detailed instructions below the snapshot).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup2.png&quot; /&gt;&lt;/p&gt;
@@ -2092,10 +2114,15 @@ Purpose of Component
 &lt;td&gt;Social&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
 &lt;td&gt;The component that sends the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;Used to designate when to send the texts&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components in the following way:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Set the the &lt;b style=&quot;color:green;&quot;&gt;Hint&lt;/b&gt; of MessageText to &quot;enter a message&quot;&lt;/li&gt;
 &lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of TextGroupButton to &quot;Text Group&quot;&lt;/li&gt;
 &lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of StatusLabel to &quot;status&quot;&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;TimerEnabled&lt;/b&gt; of Clock1 to &quot;false&quot;&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components&lt;/h4&gt;
 &lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt;&#039;s behavior is as follows: when the user clicks the TextGroupButton, the app should text the message entered by the user in MessageText to all the numbers in a list of phone numbers. When all are sent, it should report the last message sent in the StatusLabel.&lt;/p&gt;
 &lt;p&gt;Text the entered message to one phone number.&lt;/p&gt;
@@ -2156,36 +2183,29 @@ Purpose
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this, but with two or three phone numbers of your friends.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup4.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Note that &lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; blocks are used for the phone numbers, not &lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; blocks. This will allow for dashes, which are not allowed in &lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; blocks. &lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; blocks are used for data on which you want to perform mathematical computations.&lt;/p&gt;
-&lt;p&gt;Now you&#039;re ready to modify the TextGroupButton event-handler so that it texts each number in the variable PhoneNumbers. You&#039;ll use a &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block to specify that you want to send the text to each phone number in the list.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;The &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;foreach&lt;/span&gt; block allows you to specify blocks that should be repeated for every item in a list.
+&lt;p&gt;Now you&#039;re ready to modify the TextGroupButton event-handler so that it texts each number in the variable PhoneNumbers. &lt;/p&gt;
+&lt;p&gt;You&#039;ll need to set up a &lt;span class=&quot;controlblock&quot;&gt;timer&lt;/span&gt; to send a text message to each number in the list. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; performs some action each time the clock ticks. To
+control the timer, define a global variable named &lt;b&gt;nTicks&lt;/b&gt;. We will set this variable initially to the number of phone numbers in the
+list.  And then we will subtract 1 from the variable each time we send a message. 
 
-Any blocks you place within the &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;foreach&lt;/span&gt; block will be repeated on all of the items in the specified list.
+A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; is done in two parts.  In &lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt;
+we will no longer send the message. Instead, we will initialize the global &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable to the length of
+the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list.  And we will enable the &lt;span class=&quot;controlblock&quot;&gt;Clock1&lt;/span&gt;.
 
-There are two slots (arguments) in the &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;foreach&lt;/span&gt; block, &lt;b&gt;variable&lt;/b&gt; and &lt;b&gt;in list&lt;/b&gt;. The slot named &quot;variable&quot; is filled in by App Inventor with a name &lt;b&gt;var&lt;/b&gt; block. The name is by default &quot;var&quot;, but you can change it to &quot;item&quot; or some other name. It represents the &quot;current item&quot; being processed as the &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;foreach&lt;/span&gt; processes the items in a list. Do not remove this block.
-
-You should fill the &lt;b&gt;in list&lt;/b&gt; slot with the list variable you want to process (e.g., PhoneNumbers).&lt;/pre&gt;&lt;p&gt;You&#039;ll reconfigure the blocks already in &lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt;, and you&#039;ll need the following additional blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Block Type
-&lt;/td&gt;
-&lt;td&gt;
-Drawer
-&lt;/td&gt;
-&lt;td&gt;
-Purpose
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Control&lt;/td&gt;
-&lt;td&gt;Encloses the operations to be repeated&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value var&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;This block appears in My Definitions after you drag in the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;; it represents the current item being processed. Plug it into the &lt;span class=&quot;setblock&quot;&gt;Texting1.PhoneNumber&lt;/span&gt; block.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;The list being processed, plug it into the &lt;b style=&quot;color:green;&quot;&gt;in list&lt;/b&gt; argument near the bottom of the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup5.png&quot; /&gt;&lt;/p&gt;
+The second part is done using a &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block. This block will contain the &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;
+command. Each time the clock ticks the following steps will be performed:
+&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;Select a number from the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list using the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; as the index.&lt;/li&gt;
+&lt;li&gt;Set the &lt;span class=&quot;controlblock&quot;&gt;Texting1.PhoneNumber&lt;/span&gt; to the selected number.&lt;/li&gt;
+&lt;li&gt;Send the text message using &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Subtract 1 from the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable.&lt;/li&gt;
+&lt;li&gt;If the  &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; is less than or equal to 0, disable the clock&lt;/li&gt;.  This will stop the timer.
+&lt;/ul&gt;&lt;p&gt;Reconfigure the &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block so it looks like this: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/clocktimerblock.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Reconfigure the &lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt; block so it looks like this: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/buttonclickblock.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
-&lt;p&gt;When the TextGroupButton is clicked, the &lt;b style=&quot;color:green;&quot;&gt;Texting1.Message&lt;/b&gt; property is set to the message entered by the user in MessageText. Then the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block begins executing. The two lines of blocks nested within the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; will be executed three times, because there are three items in the list PhoneNumbers . The first time they are executed, the value &lt;b style=&quot;color:green;&quot;&gt;var&lt;/b&gt; will hold the value &quot;1112222&quot;, and the message will be sent to that number. As soon as the message is sent, the app will &quot;loop up&quot; and repeat the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; blocks. The second time through, the value var will hold &quot;3334444&quot;, and the message will be sent to it. On the third iteration, var will hold &quot;5556666&quot;, and the third text will be sent out.&lt;/p&gt;
+&lt;p&gt;When the TextGroupButton is clicked, the &lt;b style=&quot;color:green;&quot;&gt;Texting1.Message&lt;/b&gt; property is set to the message entered by the user in MessageText. Then the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable is set to the length of the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list and the &lt;span class=&quot;controlblock&quot;&gt;Clock1.TimerEnabled&lt;/span&gt; is set to &lt;b&gt;true&lt;/b&gt;.   This will start the clock ticking.  Then in the &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block, the message will be sent to the target phone number and the global variable &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; will be decremented by 1.  The clock will continue ticking and sending messages until &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; at which point the &lt;span class=&quot;controlblock&quot;&gt;Clock1.TimerEnabled&lt;/span&gt; will be set to &lt;b&gt;false&lt;/b&gt; thereby stopping the timer.&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; Click the &lt;b&gt;TextGroupButton&lt;/b&gt; on the phone. Is the text sent to all the numbers in the list?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Reporting the Status of the app&lt;/h4&gt;
 &lt;p&gt;It&#039;s always a good idea to give the user feedback when they initiate an operation. In the app you&#039;ve built thus far, the user clicks on the &lt;span style=&quot;color:green;&quot;&gt;TextGroupButton&lt;/span&gt; and nothing changes in the app&#039;s user interface. Though the user might hear the phone&#039;s chime for transmitting the text, it&#039;s still better to report a status directly in the app.&lt;/p&gt;
 &lt;p&gt;Modify the blocks so that the status label reports the last message sent. You&#039;ll need the following blocks:&lt;/p&gt;
@@ -2210,8 +2230,8 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;MessageText.Text&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;MessageText&lt;/td&gt;
 &lt;td&gt;The message just sent&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The updated &lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt; blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/foreach2.png&quot; /&gt;&lt;/p&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The updated &lt;span class=&quot;basicblock&quot;&gt;Clock1.Timer&lt;/span&gt; blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/clocktimerblock2.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
 &lt;p&gt;The join block is used to concatenate two pieces of text. You need it when you want to join data from a variable or property with some other text. If you want to piece together more than two texts, there is also a &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt; block.&lt;/p&gt;
 &lt;p&gt;Test the status behavior. Does the status message report the message that was sent?&lt;/p&gt;
@@ -2220,20 +2240,20 @@ Purpose
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textGroupFinal.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
 &lt;p&gt;Once you get the &lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt; app working, you might want to explore some variations. For example,&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Write a &quot;random date&quot; version that randomly chooses a number in the list to call. You won&#039;t need a &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block, but you will need the &lt;span class=&quot;listblock&quot;&gt;pick random item&lt;/span&gt; function in the Lists drawer.&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Write a &quot;random date&quot; version that randomly chooses a number in the list to call. You won&#039;t need a &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block, but you will need the &lt;span class=&quot;listblock&quot;&gt;pick random item&lt;/span&gt; function in the Lists drawer.&lt;/li&gt;
 &lt;li&gt;Write a version in which &quot;Missing You&quot; is sent to the list of numbers as soon as the app begins (on the &lt;span class=&quot;basicblock&quot;&gt;Screen.Initialize&lt;/span&gt; event). This will allow for quick texting without clicking an additional button.&lt;/li&gt;
 &lt;li&gt;Write a version that allows the &lt;em&gt;user&lt;/em&gt; to enter the numbers in the list. This way you don&#039;t need to re-program the blocks to change the group you are texting &lt;em&gt;and&lt;/em&gt; your app can be used by others! You&#039;ll need to use &lt;b&gt;TinyDB&lt;/b&gt; to store the numbers after they are entered.&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
 &lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Instead of placing data directly in event handlers, you can create list variables and program event handlers to process the list.&lt;/li&gt;
-&lt;li&gt;An app can repeat functions on all items of a list using the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block.&lt;/li&gt;
+&lt;li&gt;An app can repeat functions on all items of a list using the &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block.&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
 &lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
 &lt;/p&gt;&lt;p&gt;
 &lt;img src=&quot;/sites/all/files/tutorials/textGroup/TextGroupBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/textGroup/TextGroup.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/textGroup/TextGroup.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/textGroup/TextGroup_MIT.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
 Done with &lt;span style=&quot;color:black;&quot;&gt;TextGroup&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;

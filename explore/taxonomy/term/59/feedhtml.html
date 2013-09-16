@@ -2914,7 +2914,7 @@ text-wrap: suppress;
 &lt;/ul&gt;&lt;p&gt;The tutorial covers the following App Inventor concepts:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts and processing received texts.&lt;/li&gt;
 &lt;li&gt;List variables to keep track of the numbers to text.&lt;/li&gt;
-&lt;li&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block that allows an app to repeat operations on a list of data (the list of phone numbers)&lt;/li&gt;
+&lt;li&gt;The &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block that is used to cause an app to repeat operations on a list of data (the list of phone numbers) each time the Timer goes off&lt;/li&gt;
 &lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Setting up the Components&lt;/h4&gt;
 &lt;p&gt;BroadcasterHub facilitates communication between mobile phones. Those phones need not have the BroadcasterHub app installed, or even be smart phones. The app is the hub, and the app&#039;s user interface is only for the administrator of the communications network.&lt;/p&gt;
 &lt;p&gt;For this sample, that user interface is simple: it will display the current &lt;em&gt;broadcast list&lt;/em&gt; -- the list of phone numbers which have registered for the service-- and it will report all texts it receives and broadcasts.&lt;/p&gt;
@@ -3048,7 +3048,7 @@ Purpose
 &lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
 &lt;p&gt;The first row of blocks sets Texting1.PhoneNumber to the phone number of the message that was just received. The app then asks if the messageText was of the special code &quot;joinabc&quot;. If so, the sender&#039;s phone number is added to the BroadcastList, and a congratulations message is sent. If the messageText is something other than &quot;joinabc&quot;, the reply message is just the invitation message from before. After the &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block, the reply message is sent (bottom row).&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; From a second phone, send the text message &quot;joinabc&quot; to the phone on which the app is running. Do you recieve the correct reply? Try sending a different text message as well to check if the ifelse is working correctly.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Broadcasting Messages&lt;/h4&gt;
-&lt;p&gt;Next, you&#039;ll add the behavior so that the app broadcasts messages to the numbers in BroadcastList, if the message arrives from a number in BroadcastList. You&#039;ll need an additional &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block to check if the number is in the list, and a &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block to send broadcast the message to each item in the list. Here are all the blocks you&#039;ll need:&lt;/p&gt;
+&lt;p&gt;Next, you&#039;ll add the behavior so that the app broadcasts messages to the numbers in BroadcastList, if the message arrives from a number in BroadcastList. You&#039;ll need an additional &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block to check if the number is in the list, and a &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block to broadcast the message to each item in the list. Here are all the blocks you&#039;ll need:&lt;/p&gt;
 &lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
@@ -3070,12 +3070,12 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;My Definitions&lt;/td&gt;
 &lt;td&gt;Plug into list slot of is in list?&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Control&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;Clock.Timer&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Blocks&lt;/td&gt;
 &lt;td&gt;To repeatedly send out message to all in list&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global BroadcastList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global BroadcastList&lt;/span&gt; x2&lt;/td&gt;
 &lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Plug into list slot of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Plug into list slot of &lt;span class=&quot;controlblock&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Texting1&lt;/td&gt;
 &lt;td&gt;To set the message&lt;/td&gt;
@@ -3085,13 +3085,30 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Texting1&lt;/td&gt;
 &lt;td&gt;To set the phone number&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value var&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;set Clock.TimerEnabled&lt;/span&gt; x2&lt;/td&gt;
+&lt;td&gt;Clock1&lt;/td&gt;
+&lt;td&gt;To turn the timer on/off&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;set nTicks&lt;/span&gt; x2&lt;/td&gt;
 &lt;td&gt;My Definitions&lt;/td&gt;
-&lt;td&gt;Holds the current item of the BroadcastList, it&#039;s a (phone) number&lt;/td&gt;
+&lt;td&gt;Sets the value of nTicks&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To grab an item from the list&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/broadcastitNolog.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/textingreceived.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;The behavior is complex enough that it requires a &quot;nested&quot; &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block. If the phone number of the received message is already in the list, the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block is executed and the message relayed to all in the list. If the number is not in the list, the outer else-do clause is executed, and it asks another question, which is the test of the nested &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block: is the messageText equal to &quot;joinabc&quot;. The app then branches one of two ways based on the answer.&lt;/p&gt;
+&lt;p&gt;We&#039;ve just set up a &lt;span class=&quot;controlblock&quot;&gt;timer&lt;/span&gt; to send a text message to each number in the list, BroadcastList. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; performs some action each time the clock ticks. To control the timer, define a global variable named &lt;b&gt;nTicks&lt;/b&gt;. We will set this variable initially to the number of phone numbers in the list.  And then we will subtract 1 from the variable each time we send a message. 
+
+A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; is done in two parts.  In &lt;span class=&quot;basicblock&quot;&gt;TextingMessage1.Received&lt;/span&gt; we will no longer send the message. Instead, we will initialize the global &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable to the length of the &lt;span class=&quot;controlblock&quot;&gt;BroadcastList&lt;/span&gt; list.  And we will enable the &lt;span class=&quot;controlblock&quot;&gt;Clock1&lt;/span&gt;.
+
+The second part is done using a &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block. This block will contain the &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt; command. Each time the clock ticks the following steps will be performed:
+&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;Select a number from the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list using the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; as the index.&lt;/li&gt;
+&lt;li&gt;Set the &lt;span class=&quot;controlblock&quot;&gt;Texting1.PhoneNumber&lt;/span&gt; to the selected number.&lt;/li&gt;
+&lt;li&gt;Send the text message using &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Subtract 1 from the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable.&lt;/li&gt;
+&lt;li&gt;If the  &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; is less than or equal to 0, disable the clock&lt;/li&gt;.  This will stop the timer.
+&lt;/ul&gt;&lt;p&gt;The behavior is complex enough that it requires a &quot;nested&quot; &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block. If the phone number of the received message is already in the list, the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block is executed and the message relayed to all in the list. If the number is not in the list, the outer else-do clause is executed, and it asks another question, which is the test of the nested &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block: is the messageText equal to &quot;joinabc&quot;. The app then branches one of two ways based on the answer.&lt;/p&gt;
 &lt;p&gt;In general, &lt;span class=&quot;controlblock&quot;&gt;if&lt;/span&gt; and &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; blocks can be nested to arbitrary levels, giving you the power to program arbitrarily complex behaviors.&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; First, have two different phones register with the app by texting &quot;joinabc&quot; to the phone which is running the app.Then text another message from one of the phones. Both phones should receive the text.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Logging the broadcasted texts&lt;/h4&gt;
 &lt;p&gt;When a text is received and broadcast out to the other phones, the app should log that occurrence to the app so the administrator can monitor the activity. Earlier, you added the label LogLabel to the user interface for this purpose. Now, you&#039;ll code some blocks that change LogLabel each time a new text arrives.&lt;/p&gt;
@@ -3204,7 +3221,7 @@ Purpose
 &lt;p&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; in &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; successively adds a phone number to the end of the label, placing a newline character in between each item.&lt;/p&gt;
 &lt;p&gt;Of course this procedure will not do anything unless you call it: you should add two calls to the procedure: one within the &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event-handler, and one within the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event-handler. The call &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; block can be found in My Definitions, and it should replace the blocks that directly set the BroadcastListLabel.Text to the list. You can see how these calls to &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; should look in the snapshot of the final version below.&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Try adding some more phone numbers to the list. Do the registered phone numbers now appear on separate lines?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Broadcast Hub, Final Version&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/finalversion.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/allBlocks.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
 &lt;p&gt;Once you get the Broadcast Hub app working, you might want to explore some variations. For example,&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Allow client phones to remove themselves from the list by texting &quot;quitabc&quot; to the app.&lt;/li&gt;
