@@ -1,0 +1,221 @@
+/* Layout */
+
+/* Provide a backup layout for browsers that do not support media queries */
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 960px;
+}
+.two-sidebars .content-inner {
+  margin: 0 180px;
+}
+.sidebar-first .content-inner {
+  margin-left: 180px;
+}
+.sidebar-second .content-inner {
+  margin-right: 180px;
+}
+.region-sidebar-first {
+  width: 180px;
+  margin-left: -100%;
+}
+.region-sidebar-second {
+  width: 180px;
+  margin-left: -180px;
+}
+ 
+/* Add gutters */
+.block-inner,
+.region-help,
+.messages,
+#primary-nav,
+#secondary-nav,
+#breadcrumb,
+#main-content > header,
+#branding,
+#attribution {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Float the columns */
+#content-column,
+.region-sidebar-first,
+.region-sidebar-second {
+  float: left;
+}
+
+/* Ensure the content column is always the full width of its container */
+#content-column {
+  width: 100%;
+}
+
+/* Clear floating elements */
+.clear,
+#columns,
+#breadcrumb,
+#crumbs,
+.region-secondary-content,
+.region-tertiary-content,
+.region-footer,
+#block-admin-display-form ,
+.gpanel {
+  clear: both;
+}
+
+/* Strip block margin inside content column area. */
+.content-inner .block {
+  margin: 0;
+}
+
+/* Maintain backwards compatibility with older AT designs. */
+.block {
+  position: relative;
+}
+.block-superfish,
+.block-nice-menus {
+  position: static;
+}
+
+/* GPanels */
+.gpanel .region {
+  display: inline;
+  position: relative;
+  float: left;
+}
+.two-33-66 .region-two-33-66-second {
+  width: 66.333%;
+}
+.two-66-33 .region-two-66-33-first {
+  width: 66.666%;
+}
+.five-5x20 .region {
+  width: 20%;
+}
+.six-6x16 .region {
+  width: 16.666%;
+}
+.two-50 .region,
+.three-50-25-25 .region-three-50-25-25-first,
+.three-25-25-50 .region-three-25-25-50-third {
+  width: 50%;
+}
+.three-3x33 .region,
+.two-33-66 .region-two-33-66-first,
+.two-66-33 .region-two-66-33-second {
+  width: 33.333%;
+}
+.four-4x25 .region,
+.three-25-25-50 .region-three-25-25-50-first,
+.three-25-25-50 .region-three-25-25-50-second,
+.three-50-25-25 .region-three-50-25-25-second,
+.three-50-25-25 .region-three-50-25-25-third {
+  width: 25%;
+}
+
+/* Panels */
+.block-panels_mini {
+  padding: 0;
+}
+
+/* Compass clearfix */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+/* lte IE7 Layout fixes - these use the html element classes rather 
+ * than loading a global IE stylesheet */
+/* Be sure the layout is set */
+.ie6-7 #main-content,
+.ie6-7 #columns {
+  display: block;
+}
+.ie6-7 #main-content,
+.ie6-7 #columns,
+.ie6-7 #content-column,
+.ie6-7 .region-sidebar-first,
+.ie6-7 .region-sidebar-second,
+.ie6-7 .gpanel .region {
+  zoom: 1;
+}
+
+/* Circumvent sub-pixel rounding */
+.ie6-7 .gpanel {
+  clear: both;
+}
+.ie6-7 .gpanel .region {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.ie6-7 .two-50 .region-two-50-second,
+.ie6-7 .two-66-33 .region-two-66-33-second,
+.ie6-7 .two-33-66 .region-two-33-66-second {
+  float: right;
+}
+.ie6-7 .two-33-66 .region-two-33-66-first,
+.ie6-7 .two-66-33 .region-two-66-33-second {
+  width: 33%;
+}
+.ie6-7 .two-66-33 .region-two-66-33-first,
+.ie6-7 .two-33-66 .region-two-33-66-second {
+  width: 66%;
+}
+.ie6-7 .three-3x33 .region {
+  width: 32.666%;
+}
+.ie6-7 .five-5x20 .region {
+  width: 19.2%;
+}
+.ie6-7 .six-6x16 .region {
+  width: 15.833%;
+}
+.ie6-7 .two-50 .region,
+.ie6-7 .three-25-25-50 .region-three-25-25-50-third,
+.ie6-7 .three-50-25-25 .region-three-50-25-25-first {
+  width: 49.5%;
+}
+.ie6-7 .three-25-25-50 .region-three-25-25-50-first,
+.ie6-7 .three-25-25-50 .region-three-25-25-50-second,
+.ie6-7 .three-50-25-25 .region-three-50-25-25-second,
+.ie6-7 .three-50-25-25 .region-three-50-25-25-third,
+.ie6-7 .four-4x25 .region {
+  width: 24.25%;
+}
+.ie6-7 .three-3x33 .region-three-33-second,
+.ie6-7 .three-3x33 .region-three-2-33-second,
+.ie6-7 .three-25-25-50 .region-three-25-25-50-second,
+.ie6-7 .three-50-25-25 .region-three-50-25-25-second,
+.ie6-7 .four-4x25 .region-four-second,
+.ie6-7 .five-5x20 .region-five-second,
+.ie6-7 .six-6x16 .region-six-second {
+  right: -1%;
+}
+.ie6-7 .three-3x33 .region-three-33-third,
+.ie6-7 .three-3x33 .region-three-2-33-third,
+.ie6-7 .three-25-25-50 .region-three-25-25-50-third,
+.ie6-7 .three-50-25-25 .region-three-50-25-25-third,
+.ie6-7 .four-4x25 .region-four-third,
+.ie6-7 .four-4x25 .region-four-2-third,
+.ie6-7 .five-5x20 .region-five-third,
+.ie6-7 .six-6x16 .region-six-third {
+  right: -2%;
+}
+.ie6-7 .four-4x25 .region-four-fourth,
+.ie6-7 .four-4x25 .region-four-2-fourth,
+.ie6-7 .five-5x20 .region-five-fourth,
+.ie6-7 .six-6x16 .region-six-fourth {
+  right: -3%;
+}
+.ie6-7 .five-5x20 .region-five-fifth,
+.ie6-7 .six-6x16 .region-six-fifth {
+  right: -4%;
+}
+.ie6-7 .six-6x16 .region-six-sixth {
+  right: -5%;
+}

@@ -1,0 +1,2359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://dev-explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - SMS Texting</title>
+ <link>http://dev-explore.appinventor.mit.edu/tutorial-type/sms-texting</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Google Voice for Texting over Wifi</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/google-voice</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Texting Over Wifi: &lt;/span&gt;Using Google Voice&lt;/h2&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial shows how to use the Texting component to send and receive text messages (SMS) over Wifi.   This lets&lt;br /&gt;
+instructors use App Inventor texting examples and exercises with phones that do not have mobile or data plans.&lt;/p&gt;
+&lt;p&gt;In order to use the Texting component over Wifi, the app user will need a &lt;a href=&quot;https://www.google.com/voice&quot;&gt;Google Voice account&lt;/a&gt; and will also need to download and install the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.apps.googlevoice&quot;&gt;Google Voice app&lt;/a&gt; from the Play Store.&lt;/p&gt;
+&lt;p&gt;Once you get Google Voice set up on your phone, try the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/alertme&quot;&gt;AlertMe&lt;/a&gt; tutorial.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Under the Hood: How Things Work&lt;/h4&gt;
+&lt;p&gt;Texting over Wifi uses Google Voice to send and receive messages. The mobile Google Voice app is used for receiving messages and the user&#039;s Google Voice account is used for sending messages.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Receiving a Message:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Here are some of the internal details for how things work when a message is received.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;The phone receives an incoming text message, say, &quot;Hi&quot;, from some phone, say, &quot;555-111-2222&quot;.&lt;/li&gt;
+&lt;li&gt;The Android system forwards the message to the Google Voice mobile app, which has been set up to receive messages.&lt;/li&gt;
+&lt;li&gt;The Google Voice app forwards the message to the Texting component&#039;s Broadcast Receiver.&lt;/li&gt;
+&lt;li&gt;If the Texting component is &lt;b&gt;enabled to receive messages&lt;/b&gt;, the Broadcast Receiver forwards the message to the Texting component.&lt;/li&gt;
+&lt;li&gt;If the Texting component is running (meaning it is visible in the foreground), its &lt;span class=&quot;basicblock&quot;&gt;MessageReceived&lt;/span&gt; (with the arguments &lt;span class=&quot;argblock&quot;&gt;555-111-2222&lt;/span&gt; and &lt;span class=&quot;argblock&quot;&gt;Hi&lt;/span&gt; for this example) event handler will be invoked.&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/googleVoiceWifiText/MessageReceivedBlock.png&quot; /&gt;&lt;/p&gt;
+&lt;li&gt;The &lt;span class=&quot;basicblock&quot;&gt;MessageReceived&lt;/span&gt; method will process the message according to the algorithm specified in its do slot.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Of course most of these details are not visible to the App Inventor programmer, who just needs to worry about the procedure in the Do slot.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sending a Message:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Here are some of the details for how things work when a message is sent.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Sending a message requires that the Texting component&#039;s &lt;span class=&quot;setblock&quot;&gt;Message&lt;/span&gt; and &lt;span class=&quot;setblock&quot;&gt;PhoneNumber&lt;/span&gt; properties have been set and that its &lt;span class=&quot;callblock&quot;&gt;SendMessage&lt;/span&gt; method has been called.&lt;/li&gt;
+&lt;li&gt;If this is the first message being sent by the app, the user will be prompted to authenticate with their online Google Voice account.&lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/googleVoiceWifiText/sendingmsg.png&quot; /&gt;&lt;/p&gt;
+&lt;li&gt;Once authenticated, the &lt;span class=&quot;callblock&quot;&gt;SendMessage&lt;/span&gt; method will forward the message and phone number to Google Voice.&lt;/li&gt;
+&lt;li&gt;Google Voice will forward the message to the destination phone number.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Note:  if the user sends a message to her own Google Voice number, it will be forwarded back to the phone., which&lt;br /&gt;
+could be very confusing.  This may have implications for how you design your app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Preliminaries: Logging onto Wifi&lt;/h4&gt;
+&lt;p&gt;A reliable Wifi hotspot is a prerequisite to using the Texting component without a SIM card or mobile account. Use the phone&#039;s &lt;em&gt;Settings &amp;gt; Wireless &amp;amp; networks &amp;gt; Wi-Fi&lt;/em&gt; to connect to a Wifi hotspot. This may require you to login to the Wifi with a password and may also require you to login to the school&#039;s network with a username and password.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Setting Up Your Google Voice Account&lt;/h4&gt;
+&lt;p&gt;The revised Texting component uses Google Voice to send outgoing messages over Wifi. In order to build and test an app that sends text messages over Wifi, the app developer will have to have a &lt;a href=&quot;https://www.google.com/voice&quot;&gt;Google Voice account&lt;/a&gt;. Once the app is developed, users of the app will also have to have Google Voice accounts.&lt;/p&gt;
+&lt;p&gt;To create a Google Voice account,&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Login to your Gmail account.&lt;/li&gt;
+&lt;li&gt;Click on the &lt;em&gt;More&lt;/em&gt; tab on the Google menu bar.&lt;/li&gt;
+&lt;li&gt;Select the &lt;em&gt;Even More&lt;/em&gt; option.&lt;/li&gt;
+&lt;li&gt;Scroll down to the &lt;em&gt;Google Voice&lt;/em&gt; link under &lt;em&gt;Home and Office/&lt;em&gt;.&lt;/em&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Follow the instructions there to create a Google Voice number and activate your account.&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Installing the Google Voice App&lt;/h4&gt;
+&lt;p&gt;The revised Texting component receives incoming messages over Wifi through the &lt;a href=&quot;http://www.google.com/mobile/voice&quot;&gt;Google Voice mobile app&lt;/a&gt;. To download and install Google voice on your phone:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Start the phone&#039;s &lt;em&gt;Market&lt;/em&gt; or &lt;em&gt;Play Store&lt;/em&gt; app.&lt;/li&gt;
+&lt;li&gt;Search for &quot;Google Voice&quot;.&lt;/li&gt;
+&lt;li&gt;Download and install the app.&lt;/li&gt;
+&lt;li&gt;Read and approve the app&#039;s permission requests.&lt;/li&gt;
+&lt;li&gt;Start the app and follow the setup instructions.&lt;/li&gt;
+&lt;li&gt;Set the following Google Voice settings under &lt;em&gt;Voice &amp;gt; Sync&lt;/em&gt; and notifications:&lt;/li&gt;
+&lt;li&gt;Receive text messages &amp;gt; Via the Google Voice app&lt;/li&gt;
+&lt;li&gt;Text notifications &amp;gt; Off (unless you want your app and Google Voice to notify you)&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Authenticating Outgoing Messages&lt;/h4&gt;
+&lt;p&gt;Because outgoing messages are sent through the user&#039;s (online) Google Voice account, users of Texting-over-wifi apps will be asked to give the app permission to access the user&#039;s account &lt;b&gt;now and in the future&lt;/b&gt;. If there are more than one user account on the phone, the user will first be prompted to choose an account. &lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/sites/all/files/tutorials/googleVoiceWifiText/permissionscreen.png&quot; width=&quot;200&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;/sites/all/files/tutorials/googleVoiceWifiText/authscreen.png&quot; width=&quot;200&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;This description assumes that the user already has an active Google account on the phone. If not, the user will be asked to setup an account or login to an existing Google account.&lt;/p&gt;
+&lt;p&gt;This authentication process will happen the first time the app sends an outgoing message after it is installed. Depending on how the app and phone are used, the user may never again be asked for permission &lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;In Summary&lt;/h4&gt;
+&lt;p&gt;Congratulations! You have successfully installed Google Voice and are ready to text over Wifi! This will be useful for a variety of Apps that use texting. Now try to build &lt;a href=&quot;http://explore.appinventor.mit.edu/content/alertme&quot;&gt;AlertMe&lt;/a&gt;, an app that allows you to try this new capability.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;Google Voice&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:20:49 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">321 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/google-voice#comments</comments>
+</item>
+<item>
+ <title>No Text While Driving (Part 2)</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/no-text-while-driving-part-2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;No Text While Driving&lt;/span&gt;, Part 2&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD2/emulator.png&quot; style=&quot;float:right; width:350px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch4NoTexting.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You know that texting while driving is dangerous, so you&#039;ve created and installed the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/no-text-while-driving&quot;&gt;No Text While Driving&lt;/a&gt; app on your phone. Now, when you drive you open that app and let it auto-respond to incoming texts.&lt;/p&gt;
+&lt;p&gt;But the jingle of the texts coming in is killing you with curiosity-- wouldn&#039;t it be great if you could hear the texts spoken aloud? With Part II of the tutorial, you&#039;ll extend the app so that it speaks out both the message and who sent it. And since you&#039;re making some changes anyway, you&#039;ll modify the auto-response so it reports your whereabouts in the reply: &quot;Sorry, I&#039;m driving and I&#039;m at 1600 Pennsylvania Avenue&quot;. &lt;/p&gt;
+&lt;p&gt;Before completing this tutorial you should complete &lt;a href=&quot;http://explore.appinventor.mit.edu/content/no-text-while-driving&quot;&gt;part I&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;For this app to work, you&#039;ll need to load a text-to-speech module, &lt;em&gt;Text-To-Speech Extended&lt;/em&gt;, on your phone. App Inventor and other apps rely on this module for the underlying voice synthesis. If you don&#039;t already have it, you can download onto your phone using the Android Market:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;On your phone, open the Market app&lt;/li&gt;
+&lt;li&gt;Search for TTS&lt;/li&gt;
+&lt;li&gt;Select the app &lt;em&gt;Text-To-Speech Extended&lt;/em&gt; to install&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Once the &lt;em&gt;Text-To-Speech&lt;/em&gt; module is installed, open it to test its features. When it opens, set the default language as desired. Then select &quot;Listen to Preview&quot;. If you don&#039;t hear anything, make sure the volume on your phone is turned on. You can also change the default Engine which can enhance the quality of the spoken words.&lt;/p&gt;
+&lt;p&gt;Once the Text-To-Speech module is installed and configured as desired, you can use the &lt;b&gt;TextToSpeech&lt;/b&gt; component within App Inventor. Begin by opening App Inventor and your &lt;span style=&quot;color:green;&quot;&gt;NoTextWhileDriving&lt;/span&gt; project from part I. SaveAs the project and name the new copy &quot;NoTextWhileDriving2&quot;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;ll Learn&lt;/h4&gt;
+&lt;p&gt;The app demonstrates two powerful components:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;LocationSensor&lt;/b&gt; component to determine the phone&#039;s location, and&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;TextToSpeech&lt;/b&gt; component to speak the incoming texts aloud.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;These components encapsulate some advanced functionality, but using them in building an app is relatively straight-forward.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;Leave the user interface for &lt;span style=&quot;color:green;&quot;&gt;NoTextWhileDriving, Part II&lt;/span&gt; the same as in Part I. But in the Component Designer, add two non-visual components: a &lt;b&gt;LocationSensor&lt;/b&gt; and a &lt;b&gt;TextToSpeech&lt;/b&gt; component. You do not need to set any properties of the components.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components&lt;/h4&gt;
+&lt;p&gt;The behavior for part I of No Text While Driving was: &quot;when a text is received, the message the user has put in MessageTextbox is sent as a text message response to the sender.&quot;&lt;/p&gt;
+&lt;p&gt;For part II, the behavior will be changed to: &quot;when a text is received, it is spoken aloud and a message, including the text in MessageTextbox and the phone&#039;s current location, is sent in response to the sender.&quot;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Speaking the text aloud&lt;/h4&gt;
+&lt;p&gt;When a text message is received by the phone, the &lt;span class=&quot;basicblock&quot;&gt;Texting.MessageReceived&lt;/span&gt; event is triggered. The blocks from Part I handle this event by setting the PhoneNumber and Message properties of the Texting component appropriately and then sending the response text.&lt;/p&gt;
+&lt;p&gt;Extend the blocks from Part I by using the TextToSpeech component to speak both the sender&#039;s phone number and the message. You&#039;ll add the following blocks to the existing &lt;span class=&quot;basicblock&quot;&gt;Texting.MessageReceived&lt;/span&gt; blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TextToSpeech1.Speak&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;TextToSpeech1&lt;/td&gt;
+&lt;td&gt;Speak out the message received&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Build the words that are to be spoken&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;message from&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;First words spoken, put a space at end&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;This is the number the original text was received from&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Put a space in between number and message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;messageText&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;This is the original message received&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD2/MessageReceivedSpoken.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
+&lt;p&gt;After the response is sent, the &lt;span class=&quot;callblock&quot;&gt;TextToSpeech1.Speak&lt;/span&gt; function is called. You can plug any text object into the message slot of the Speak function. In this case, &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt; is used to build the words to be spoken, including the text &quot;message from&quot;, the phone number from which the message was received (number), a blank text, and the message received (messageText). If the text &quot;hello&quot; was received from the number &quot;111-2222&quot;, the words &quot;message from 111-2222. hello.&quot; would be spoken.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; You&#039;ll need a second phone to test the behaviors in this app. From the second phone, send a text to the phone that is running the app. Does the second phone speak the text aloud? Does it still send an automated response?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Adding location information to the auto-response&lt;/h4&gt;
+&lt;p&gt;Next, add a &lt;span class=&quot;basicblock&quot;&gt;LocationSensor.LocationChanged&lt;/span&gt; event handler which places the current address into a variable, lastKnownLocation. When a text comes in, the value of that variable can be added to the response message. Here are the blocks you&#039;ll need:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;def variable&lt;/span&gt; (lastKnownLocation)&lt;/td&gt;
+&lt;td&gt;Definitions&lt;/td&gt;
+&lt;td&gt;Create a variable to hold the last read address&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;unknown&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Set the default value in case the phone&#039;s sensor is not working&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;LocationSensor1.LocationChanged&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;LocationSensor1&lt;/td&gt;
+&lt;td&gt;This is triggered on the first location reading and every change&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set lastKnownLocation to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Set this variable to be used later&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;LocationSensor1.CurrentAddress&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;LocationSensor1&lt;/td&gt;
+&lt;td&gt;This is a street address such as &quot;2222 Willard Street, Atlanta, Georgia&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Here are the blocks:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD2/lastLocation.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&quot;basicblock&quot;&gt;LocationSensor1.LocationChanged&lt;/span&gt; is called the first time the sensor gets a reading and each time the phone is moved enough to trigger a new reading. These blocks just place the current (street) address into the variable lastKnownLocation, which you&#039;ll use later when you change the auto-response that is sent out.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Modify the message with location information&lt;/h4&gt;
+&lt;p&gt;Next, modify the &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event-handler so that the current address is added to the response. You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;If there is a location reading, build a compound text object&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;MessageTextBox.Text &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MessageTextBox&lt;/td&gt;
+&lt;td&gt;This is the (custom) message in the text box&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; ( &quot;My location is: &quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;This will be spoken after the custom message (note the leading space)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global lastKnownLocation&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;LocatonSensor&lt;/td&gt;
+&lt;td&gt;This is an address such as &quot;2222 Willard Street, Atlanta, Georgia&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD2/ReceivedText.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;Instead of directly sending a message of the text in MessageTextbox.Text, the app first builds a message using &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;. It combines the response text in MessageTextBox.Text with the text &quot; My location is &quot; and then the variable lastKnownLocation.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; From the second phone, send a text to the phone that is running the app. Does the second phone receive the response text? Does it include location information? &lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Final Program&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD2/finalProg.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get the app working, you might want to explore some variations. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Write a version that lets the user define custom responses for particular phone numbers.&lt;/li&gt;
+&lt;li&gt;Write a version that sounds an alarm when a text is received from a number in a &quot;notify&quot; list.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;TextToSpeech&lt;/b&gt; component takes any text object and speaks it aloud. It relies on an Android module, &lt;em&gt;Text-To-Speech Extended&lt;/em&gt;, which must be downloaded to the phone for the app to work.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt; is used to piece together (concatenate) separate text items into a single text object.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;LocationSensor&lt;/b&gt; component can report the phone&#039;s latitude, longitude, and current street address. To ensure that it has a reading, you should access its data in its &lt;span class=&quot;basicblock&quot;&gt;LocationChanged&lt;/span&gt; event-handler, which is triggered the first time a reading is made and on every change thereafter. &lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD2/NTWD2Barcode.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/NTWD2/notextwhiledriving2.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to customize this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/NTWD2/notextwhiledriving2.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving, Part 2&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:20:14 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">320 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/no-text-while-driving-part-2#comments</comments>
+</item>
+<item>
+ <title>No Text While Driving</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/no-text-while-driving</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;No Text While Driving&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/screenshot.PNG&quot; style=&quot;float:right;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch4NoTexting.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This tutorial demonstrates how an app can respond to text messages automatically. You&#039;ll build an app that sends back a response when a text message is received. The idea for the app came from University of San Franciso student Daniel Finnegan.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify event-handlers.If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;NoTextWhileDriving&lt;/span&gt;, and also set the screen&#039;s &lt;b style=&quot;color:green;&quot;&gt;Title&lt;/b&gt; to &quot;NoTextWhileDriving&quot;. Open the Blocks Editor and connect to the phone.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;You&#039;ll design the app so that it sends a response to any text message received. You&#039;ll also allow the user to customize the response sent.&lt;/p&gt;
+&lt;p&gt;The tutorial introduces the following App Inventor concepts: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts and processing received texts.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;TinyDB&lt;/b&gt; database component for saving the customized message even after the app is closed.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;The user interface for NoTextWhileDriving is simple: it has a text box for the response message and a button for submitting a change to this message. It also has two checkboxes: one to decide whether or not you want to be receiving messages and one to choose to enable  Google Voice. This is useful for texting if your phone doesn&#039;t have a SIM card. Visit the &lt;a href=&quot;http://appinventor.mit.edu/explore/content/google-voice-texting-over-wifi.html&quot;&gt;Texting over Google Voice&lt;/a&gt; tutorial to learn more about this.&lt;/p&gt;
+&lt;p&gt;You&#039;ll also need a Texting component and a TinyDB component, both of which will appear in the &quot;non-visual&quot; component area. A table of detailed instructions for designing the components is below, but you can also build it from the following picture of what it should look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/fullscreen.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The components listed below were used to create the designer window shown above. Drag each component from the Palette into the Viewer and name it as specified below:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;td&gt;
+Component Settings
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;PromptLabel&lt;/td&gt;
+&lt;td&gt;Let the user know how the app works&lt;/td&gt;
+&lt;td&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; to &quot;The text below will be sent in response to all texts while this app is running.&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ResponseLabel&lt;/td&gt;
+&lt;td&gt;Displays what text will be sent to incoming messages.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;NewResponseTextbox&lt;/td&gt;
+&lt;td&gt;User will enter custom response here&lt;/td&gt;
+&lt;td&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Hint
+&lt;/b&gt;&lt;p&gt; to &quot;Enter custom response.&quot;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;SubmitResponseButton&lt;/td&gt;
+&lt;td&gt;User clicks this to submit new response&lt;/td&gt;
+&lt;td&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;text
+&lt;/b&gt;&lt;p&gt; to &quot;Submit Response.&quot;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;CheckBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;CheckBoxReceivingEnabled&lt;/td&gt;
+&lt;td&gt;Let the user choose if they want to receive messages.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;CheckBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;CheckBoxGvEnabled&lt;/td&gt;
+&lt;td&gt;Let the user choose if they want to respond using Google Voice.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Texting&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Social&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
+&lt;td&gt;The component that processes the texts&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TinyDB&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;The component that will store the response in the database&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components&lt;/h4&gt;
+&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;NoTextWhileDriving&lt;/span&gt; has the following behaviors:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;When a text is received, the message displayed in ResponseLabel is sent as a text message response to the sender.&lt;/li&gt;
+&lt;li&gt;When the user modifies the custom message in NewResponseTextbox and clicks the SubmitResponseButton , the new message is saved persisently in the phone&#039;s database.&lt;/li&gt;
+&lt;li&gt;When the app begins, the custom message is loaded from the database into ResponseLabel.&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;1. Responding to a text&lt;/h4&gt;
+&lt;p&gt;When a text message is received by the phone, the &lt;span class=&quot;basicblock&quot;&gt;Texting.MessageReceived&lt;/span&gt; event is triggered. Your app should handle this event by setting the PhoneNumber and Message properties of the Texting component appropriately and sending the response text.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks: &lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Event-handler triggered when the phone receives a text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.PhoneNumber to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Set the PhoneNumber property before sending &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;This is the phone number of the person who sent the text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Set the Message property before sending&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;ResponseLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;ResponseLabel&lt;/td&gt;
+&lt;td&gt;This is the message the user has entered&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;Texting1.SendMessage &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Send the message&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/messagereceivedblocks.PNG&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the phone receives any text message, the &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event is triggered. The phone number of the sender is in the argument number, and the sender&#039;s message is in the argument &lt;span class-=&quot;&quot;&gt;messageText&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In response, the app sends a text message to the sender. To send a text, the app sets the two key properties of the Texting component: PhoneNumber and Message. &lt;span class=&quot;setblock&quot;&gt;Texting.PhoneNumber&lt;/span&gt; is set to the number of the sender, and &lt;span class=&quot;setblock&quot;&gt;Texting.Message&lt;/span&gt; is set to the text in &lt;span class=&quot;argblock&quot;&gt;ResponseLabel&lt;/span&gt; -- this might be the default, &quot;I&#039;m driving right now, I&#039;ll contact you shortly.&quot;, or the user may have modified it. Once these properties are set, &lt;span class=&quot;callblock&quot;&gt;Texting1.SendMessage&lt;/span&gt; is called to actually send the response text message.&lt;/p&gt;
+&lt;p&gt;The &lt;span class=&quot;controlblock&quot;&gt;if&lt;/span&gt; block prevents the app from sending the automatic reply if it receives its own message. This would happen, for example, if the user is texting their own number to test the app.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; You&#039;ll need a second phone to test this behavior. From the second phone, send a text to the phone that is running the app. You can &lt;a href=&quot;http://explore.appinventor.mit.edu/content/google-voice&quot;&gt;set up one phone with Google Voice&lt;/a&gt; or start two emulators to communicate with one another to test this behavior. Does the second phone receive the response text? If that works, try modifying the response message and sending another message from the second phone. Is the new response sent?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;2. Storing the custom response&lt;/h4&gt;
+&lt;p&gt;The app so far works, but if you close the app and reopen it, the custom message will be lost. To make things more convenient for the user, store the custom response message they enter into a database using the TinyDB component.&lt;/p&gt;
+&lt;p&gt;TinyDB provides two blocks: StoreValue and GetValue . The former allows you to store a tagged piece of information, while the latter let&#039;s you retrieve one.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks to store the custom message: &lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;SubmitResponseButton.Click&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;SubmitResponseButton&lt;/td&gt;
+&lt;td&gt;User clicks this button to submit new response message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;ResponseLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;ResponseLabel&lt;/td&gt;
+&lt;td&gt;Sets the response to be what the user inputs.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;NewResponseTextbox.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;NewResponseTextbox&lt;/td&gt;
+&lt;td&gt;The response message entered by the user is here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;Store the custom message in the phone&#039;s database&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;responseMessage&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Use this as the tag for the data&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;ResponseLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;ResponseLabel&lt;/td&gt;
+&lt;td&gt;The response message entered by the user is displayed here after the user submits their new response.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/submitresponse.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the user clicks the SubmitResponseButton, the app will store the response message entered by the user as the shown text that will be sent. The text in this label (&lt;span class=&quot;argblock&quot;&gt;ResponseLabel.Text&lt;/span&gt;) will be stored in TinyDB. The text &lt;span class=&quot;textblock&quot;&gt;responseMessage&lt;/span&gt; is used as a tag to uniquely identify the information-- later, you&#039;ll use that same tag to retrieve the message from the database.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;3. Retrieving the saved response message&lt;/h4&gt;
+&lt;p&gt;Program the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event-handler so that the saved custom response message is retrieved from the database and placed in ResponseLabel. Check the retrieved data to make sure there&#039;s something there-- after all, the first time the app is used, the database will not have any message saved. If there is a stored message, place it in the ResponseLabel so that the user can see it and so that it will be used to respond to incoming texts.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;def variable&lt;/span&gt; (&quot;response&quot;)&lt;/td&gt;
+&lt;td&gt;Definitions&lt;/td&gt;
+&lt;td&gt;A temporary variable to hold the retrieved data &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (blank)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Initial value for the variable can be anything&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Screen1&lt;/td&gt;
+&lt;td&gt;This is triggered when app begins&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;Texting1.ReceivingEnabled&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Sets the app so that it receives SMS text messages&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; (3)&lt;/td&gt;
+&lt;td&gt;Number&lt;/td&gt;
+&lt;td&gt;The app is initialized to receive text messages while the app is running or when it&#039;s not&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;CheckBoxGvEnabled.Checked&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;CheckBoxGvEnabled&lt;/td&gt;
+&lt;td&gt;Sets status of the Google Voice Enabled checkbox&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;Texting1.GoogleVoiceEnabled&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;If Google Voice is enabled, SMS messages will be sent over Google Voice&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;if else test&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To ask if texting should be enabled.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;not= block&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Check if the retrieved value is not equal to (=) 1&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;Texting1.ReceivingEnabled&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Lets the user decide whether or not the app will received SMS messages&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;CheckBoxReceivingEnabled.Checked&lt;/span&gt;(x2)&lt;/td&gt;
+&lt;td&gt;CheckBoxReceivingEnabled&lt;/td&gt;
+&lt;td&gt;Sets status of the Receiving Enabled checkbox.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;true&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Logic&lt;/td&gt;
+&lt;td&gt;Sets the app to receive text messages&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;false&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Logic&lt;/td&gt;
+&lt;td&gt;Sets the app to not receive text messages&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Response&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; Definitions &lt;/td&gt;
+&lt;td&gt;Sets the variable to the value retrieved from db.&lt;/td&gt;
+&lt;/tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.GetValue&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;Get the stored response text from the database&lt;/td&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;responseMessage&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Plug into tag slot of GetValue, make sure text is same as was used in StoreValue above&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;if test&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To ask if the retrieved value has some text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;&amp;gt; block&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Check if length of retrieved value is greater than (&amp;gt;) 0&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;length test&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Check if length of retrieved value is greater than 0&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global response&lt;/span&gt; (x2)&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;This variable holds the value retrieved from GetValue&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; (0)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;To compare with length of response&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set ResponseLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Message&lt;/td&gt;
+&lt;td&gt;If we retrieved something, place it in ResponseLabel&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/initializeblock_update.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the app begins, the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event is triggered. The app calls the &lt;span class=&quot;callblock&quot;&gt;TinyDB1.GetValue&lt;/span&gt; with a tag of &lt;span class=&quot;textblock&quot;&gt;responseMessage&lt;/span&gt;-- the same tag used when you stored the user&#039;s entry earlier. The resulting value is placed in the variable &lt;span class=&quot;setblock&quot;&gt;response&lt;/span&gt;. When the app starts, we set the Texting component to have receiving enabled, but not Google Voice, which is displayed on the user interface. &lt;span class=&quot;argblock&quot;&gt;ReceivingEnabled&lt;/span&gt; takes a number value 1 (receiving disabled), 2 (receiving enabled while app is running), or 3 (receiving enabled when app is running and is not running) &lt;/p&gt;
+&lt;p&gt;The variable response is used so that the value returned from the database can be checked. If it has a length of 0, then there was no database entry with a tag of &lt;span class=&quot;textblock&quot;&gt;responseMessage&lt;/span&gt;-- something that will occur the first time a user runs this app. But if the length is greater than 0, the app knows that a custom response has been stored previously, and the retrieved value can be placed in the ResponseLabel which the user will see and which is used as the message for any response texts sent. &lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the app.&lt;/b&gt; Enter a new response message in the NewResponseTextbox and click the SubmitResponseButton. Then restart the app by clicking the Restart App button in the Blocks Editor. This will cause the app to re-initialize just like it will when a user closes the app and reopens it later. Does the custom message you entered appear?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Selecting Response Settings&lt;/h4&gt;
+&lt;p&gt;The user interface has two checkboxes that the user can toggle: whether Receiving is enabled and whether Google Voice is enabled. The first allows the user to decide whether or not they want to be receiving messages. The second lets the user decide if they want to send messages from their own phone number or from a Google Voice account. When the user toggles these switches, the changes are communicated to the Texting component which enables or disables these properties as marked.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks.&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;CheckBoxGvEnabled.Changed&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;CheckBoxGvEnabled&lt;/td&gt;
+&lt;td&gt;Detects if the user toggles this control.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;Texting1.GoogleVoiceEnabled&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Sets whether or not Google Voice is enabled&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;CheckBoxGvEnabled.Checked&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;CheckBoxGvEnabled&lt;/td&gt;
+&lt;td&gt;Returns true or false value.&lt;/td&gt;
+&lt;/tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;CheckBoxReceivingEnabled.Changed&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;CheckBoxReceivingEnabled&lt;/td&gt;
+&lt;td&gt;Detects if the user toggles this control.&lt;/td&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;if else block&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Checks whether or not receiving is enabled.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;= block&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Checks whether or not receiving is enabled.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;true&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Logic&lt;/td&gt;
+&lt;td&gt;Checks whether or not receiving is enabled.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;CheckBoxReceivingEnabled.Checked&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;CheckBoxReceivingEnabled&lt;/td&gt;
+&lt;td&gt;Returns true or false value.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;Texting1.ReceivingEnabled&lt;/span&gt;(x2)&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Sets whether or not receiving is enabled.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt;(1)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Sets ReceivingEnabled as false.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt;(3)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Sets ReceivingEnabled as true.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/checkboxblocks_update.png&quot; /&gt;&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the app.&lt;/b&gt; Try texting your Android device when the &quot;Receiving Enabled&quot; is checked and then when it is not checked. Do you receive texts when it is unchecked? Try texting over Google Voice. If any of these features aren&#039;t working like you expect them to, go back and look at the blocks again!&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;No Text While Driving, Final Program&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/allblocks.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get the No Text While Driving app working, you might want to explore some variations. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Write a version that speaks the received texts aloud. You&#039;ll need to use the &lt;b&gt;TextToSpeech&lt;/b&gt; component.&lt;/li&gt;
+&lt;li&gt;Write a version that lets the user define custom responses for particular phone numbers.&lt;/li&gt;
+&lt;li&gt;Write a version that sends custom responses based on the user&#039;s location (e.g., I&#039;m in church...)&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component can be used both to send text messages and process the ones that are received.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;TinyDB&lt;/b&gt; component is used to store information persistently, in the phone&#039;s database, so that it there each time the app is opened.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/NTWD/NTWDBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/NTWD/NoTextWhileDriving.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/NTWD/NoTextWhileDriving.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:19:45 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">319 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/no-text-while-driving#comments</comments>
+</item>
+<item>
+ <title>AlertMe</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/alertme</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;AlertMe: &lt;/span&gt;Texting in the background, when app is not running&lt;/h2&gt;
+&lt;p&gt;The &lt;span style=&quot;color:green;&quot;&gt;AlertMe&lt;/span&gt; app receives alert messages, and notifies the user even when the app is not currently running. If the app is running (visible on the screen), when it receives an SMS, the message will be displayed on the screen. If it&#039;s not running, the user will receive a &lt;em&gt;Notification&lt;/em&gt; in the status bar, which can be viewed by pulling down the status bar. Tapping on the notification will start the app and display the message. The user can then click the &lt;em&gt;Acknowledge&lt;/em&gt; button to send an acknowledgment to the sender that the alert has been received.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/notification.png&quot; width=&quot;200&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/notification%20bar.png&quot; width=&quot;200&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/alert%20me%20running.png&quot; width=&quot;200&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; align=&quot;center&quot;&gt;&lt;a href=&quot;/sites/explore.appinventor.mit.edu/files/AlertMe.zip&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/downloadSourcebutton.png&quot; style=&quot;float: center;border:none&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;pre class=&quot;ai-box&quot;&gt;&lt;strong&gt;If you are using a device that does not have regular SMS enabled through a cell phone carrier and want to do texting over the internet (IP/wifi)&lt;/strong&gt;, make sure you have a Google Voice account and you have the Google Voice app set up on your phone or tablet. For more information on how to do this, see the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/google-voice&quot;&gt;Google Voice for Wifi Texting&lt;/a&gt; tutorial. When you set up the texting component in the designer, be sure you have checked the &lt;em&gt;GoogleVoiceEnabled&lt;/em&gt; property.&lt;/pre&gt;&lt;hr /&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The Designer&lt;/h4&gt;
+&lt;p&gt;The interface of the app is pretty simple. It displays the time, phone number, and message of each of the alerts, as well as an acknowledge button. What really drives this app is the Texting component that you will add. The components are: &lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component Type&lt;/td&gt;
+&lt;td&gt;Palette Group&lt;/td&gt;
+&lt;td&gt;What you&#039;ll name it&lt;/td&gt;
+&lt;td&gt;Purpose of Component&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;Label&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;LabelHeader&lt;/td&gt;
+&lt;td&gt;Displays the &quot;Alerts&quot; header.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;Label&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;LabelAlerts&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Displays the incoming messages in a log&lt;/p&gt;
+&lt;p&gt;Set width and height to &lt;b&gt;Fill Parent&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;Button&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;ButtonAck&lt;/td&gt;
+&lt;td&gt;Sends an achknowledgment to the alert sender.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;Clock&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;Clock1&lt;/td&gt;
+&lt;td&gt;Used to generate a time stamp in the message log.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;Texting&lt;/td&gt;
+&lt;td&gt;Social&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Receives and sends messages over Wifi.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Only if you are using texting over wifi through Google Voice:&lt;/em&gt; &lt;b&gt;Check the &lt;em&gt;GoogleVoiceEnabled&lt;/em&gt; property.&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;When you&#039;re done, the designer should look like this.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/designer_0.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;The Blocks Editor&lt;/h4&gt;
+&lt;p&gt;The blocks have to handle two events: receiving a message and sending an acknowledgment. In each of these cases, they have to know who sent the message and what it said. We&#039;ll approach each of these actions in turn.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Variables&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Since both procedures require that we know the alert message and who sent it, we will define two globalvariables: &lt;span class=&quot;setblock&quot;&gt;alertPhoneNumber&lt;/span&gt; and &lt;span class=&quot;setblock&quot;&gt;alertMessage&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/variables.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;The Message Received Block&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Incoming messages are handled by the &lt;span class=&quot;basicblock&quot;&gt;MessageReceived&lt;/span&gt; block, which takes two arguments, the &lt;span class=&quot;argblock&quot;&gt;number&lt;/span&gt; and the &lt;span class=&quot;argblock&quot;&gt;messageText&lt;/span&gt;. For this app, we store the values of these arguments in our global variables, &lt;span class=&quot;setblock&quot;&gt;alertPhoneNumber&lt;/span&gt; and &lt;span class=&quot;setblock&quot;&gt;alertMessage&lt;/span&gt; respectively, and then construct a log entry and display it on the label using &lt;span class=&quot;setblock&quot;&gt;LabelAlerts.Text&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/AlertMeBlock.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sending an Acknowledgment&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The user can acknowledge an alert by sending a message back to the sender. This is done using &lt;span class=&quot;basicblock&quot;&gt;ButtonAck.Click&lt;/span&gt;, which constructs the message and sends it as shown here. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/buttonclick.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Now that you have AlertMe working, here are some variations on the program you can make.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Modify the function of the &lt;em&gt;Acknowledge&lt;/em&gt; button so you can choose to send different text, such as choosing between &quot;What&#039;s up?&quot;, &quot;On my way&quot;, and &quot;Call you later.&quot;&lt;/li&gt;
+&lt;li&gt;Change the blocks so the user gets an automatically generated response (without you clicking a button). This could be a setting you could enable if you are away from your phone or in a meeting.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/alertMe/AlertMeBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/alertMe/AlertMe.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/alertMe/AlertMe.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;AlertMe&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/clock-timer&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Clock Timer&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:13:33 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">318 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/alertme#comments</comments>
+</item>
+<item>
+ <title>Broadcast Hub</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/broadcasthub</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;BroadcastHub&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch11BroadcastHub.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this tutorial, you&#039;ll write an app that automatically responds to texts messages and broadcasts texts messages it receives to a list of phone numbers.The app is inspired by &lt;a href=&quot;http://www.frontlinesms.com/&quot;&gt;FrontLineSMS&lt;/a&gt;, a tool that has been used in developing countries to &lt;a href=&quot;http://news.bbc.co.uk/2/hi/technology/8209172.stm&quot;&gt;monitor elections&lt;/a&gt;, broadcast weather changes, and in general connect people that don&#039;t have access to the web but do have phones and mobile connectivity.&lt;/p&gt;
+&lt;p&gt;FrontLineSMS is software that runs on a computer with a phone plugged into it. The computer and plugged-in phone serve as a hub for SMS text communication amongst a group. You&#039;ll write a version of the software that runs on an Android phone, thus allowing the hub to be as mobile as the phones it connects.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify event-handlers. If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
+&lt;p&gt;The tutorial also assumes you have completed the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/textgroup&quot;&gt;TextGroup&lt;/a&gt; tutorial and thus are familiar with the basics of the &lt;b&gt;Texting&lt;/b&gt; component.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;BroadcastHub&lt;/span&gt;, and also set the screen&#039;s &lt;b style=&quot;color:green;&quot;&gt;Title&lt;/b&gt; to &quot;BroadcastHub&quot;. Open the Blocks Editor and connect to the phone.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;BroadcastHub processes text messages that are received in the following manner: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If the text message is from an unknown source, the app responds with a text that invites that source to join the broadcast list.&lt;/li&gt;
+&lt;li&gt;If the text message “joinabc” is received, the app adds the sender to the broadcast list.&lt;/li&gt;
+&lt;li&gt;If the text message is from a number already in the broadcast list, the message is broadcast to all numbers in the list.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The tutorial covers the following App Inventor concepts:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts and processing received texts.&lt;/li&gt;
+&lt;li&gt;List variables to keep track of the numbers to text.&lt;/li&gt;
+&lt;li&gt;The &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block that is used to cause an app to repeat operations on a list of data (the list of phone numbers) each time the Timer goes off&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Setting up the Components&lt;/h4&gt;
+&lt;p&gt;BroadcasterHub facilitates communication between mobile phones. Those phones need not have the BroadcasterHub app installed, or even be smart phones. The app is the hub, and the app&#039;s user interface is only for the administrator of the communications network.&lt;/p&gt;
+&lt;p&gt;For this sample, that user interface is simple: it will display the current &lt;em&gt;broadcast list&lt;/em&gt; -- the list of phone numbers which have registered for the service-- and it will report all texts it receives and broadcasts.&lt;/p&gt;
+&lt;p&gt;To build the interface, add the following components:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;BroadcastListLabel&lt;/td&gt;
+&lt;td&gt;This will display the phone numbers that are registered.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;LogLabel&lt;/td&gt;
+&lt;td&gt;This will display a log of the texts received and broadcast.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Texting&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Social&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
+&lt;td&gt;The component that processes the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TinyDB&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;To store the list of registered phone numbers&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;ul&gt;&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Width&lt;/b&gt; of each of the labels to &quot;Fill Parent&quot; so that they span the phone horizontally. Set the &lt;b style=&quot;color:green;&quot;&gt;Height&lt;/b&gt; for the labels to 200 pixels.&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; property of BroadcastListLabel to &quot;Broadcast List...&quot;.&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; property of LogLabel to blank.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;BroadcastHub should look like this after its front-end is designed:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/broadcasterDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components&lt;/h4&gt;
+&lt;p&gt;The activity for Broadcast Hub is not triggered by the user entering information or clicking a button, but by texts being received from outside sources. You&#039;ll need the following behaviors:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;When the text message is from an unknown source, the app responds with a text that invites that source to join the broadcast list.&lt;/li&gt;
+&lt;li&gt;When the text message &quot;joinabc&quot; is received, register the sender as part of the broadcast list.&lt;/li&gt;
+&lt;li&gt;When the text message is from a number already in the broadcast list, the message is broadcast to all numbers in the list.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Start by creating the first behavior-- when you receive a text, send a message back to the sender inviting them to text a code, &quot;joinabc&quot;, in order to register for the group. You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Event-handler triggered when the phone receives a text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.PhoneNumber to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;To set the number for the return text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Argument of &lt;span class=&quot;basicblock&quot;&gt;MessageReceived&lt;/span&gt;, it is the phone number of sender &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;To set the invite message to send&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;The invite message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Send it!&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/messageRcvd1.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; is triggered when any text message is received on the phone. The blocks within the event-handler set the PhoneNumber and Message of the Texting1 component, then send the message.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; You&#039;ll need another phone besides the one on which the app resides. From the second phone, send a text &quot;hello&quot; to the phone running the app. The second phone should receive a text that invites them to the group.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Handling the &quot;joinabc&quot; text message&lt;/h4&gt;
+&lt;p&gt;Create the blocks for the second behavior: &quot;when the text message &quot;joinabc&quot; is received, add the sender to the broadcast list.&quot; First, you&#039;ll need to define a list variable, BroadcastList, to store the phone numbers that register. From Definitions, drag out a def var block and name it &quot;BroadcastList&quot;. Initialize it with a make a list block from Lists:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/BroadcastList.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, modify the &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event-handler so that it adds the sender&#039;s phone number to the BroadcastList if the message received is &quot;joinabc&quot;. After you add the number to the list, display the new list in the BroadcastListLabel. You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Depending on message received, you&#039;ll do different things&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;= block&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;The test will be: is messageText equal to &quot;joinabc&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argnumber&quot;&gt;value messageText&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into = block&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;joinabc&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Plug into = block&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock&quot;&gt;add items to list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;To add the sender&#039;s number to BroadcastList&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;BroadcastList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;The list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug in as item of &lt;span class=&quot;listblock&quot;&gt;add items to list&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set BroadcastListLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;BroadcastListLabel&lt;/td&gt;
+&lt;td&gt;Display the new list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;BroadcastList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug in to &lt;span class=&quot;setblock&quot;&gt;set BroadcastListLabel.Text to&lt;/span&gt; block&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Prepare Texting1 to send message back to sender&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;congrats, you ...&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Congratulate sender for joining group&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/addtolist.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The first row of blocks sets Texting1.PhoneNumber to the phone number of the message that was just received. The app then asks if the messageText was of the special code &quot;joinabc&quot;. If so, the sender&#039;s phone number is added to the BroadcastList, and a congratulations message is sent. If the messageText is something other than &quot;joinabc&quot;, the reply message is just the invitation message from before. After the &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block, the reply message is sent (bottom row).&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; From a second phone, send the text message &quot;joinabc&quot; to the phone on which the app is running. Do you recieve the correct reply? Try sending a different text message as well to check if the ifelse is working correctly.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Broadcasting Messages&lt;/h4&gt;
+&lt;p&gt;Next, you&#039;ll add the behavior so that the app broadcasts messages to the numbers in BroadcastList, if the message arrives from a number in BroadcastList. You&#039;ll need an additional &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block to check if the number is in the list, and a &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block to broadcast the message to each item in the list. Here are all the blocks you&#039;ll need:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Depending on whether sender is already in list, you&#039;ll do different things&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock&quot;&gt;is in list?&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Checks to see if something is in a list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global BroadcastList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into list slot of is in list?&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into list slot of is in list?&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;Clock.Timer&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Blocks&lt;/td&gt;
+&lt;td&gt;To repeatedly send out message to all in list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global BroadcastList&lt;/span&gt; x2&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into list slot of &lt;span class=&quot;controlblock&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;To set the message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value messageText&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;The message that was received and to be broadcast&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;To set the phone number&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;set Clock.TimerEnabled&lt;/span&gt; x2&lt;/td&gt;
+&lt;td&gt;Clock1&lt;/td&gt;
+&lt;td&gt;To turn the timer on/off&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;set nTicks&lt;/span&gt; x2&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Sets the value of nTicks&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To grab an item from the list&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/textingreceived.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;We&#039;ve just set up a &lt;span class=&quot;controlblock&quot;&gt;timer&lt;/span&gt; to send a text message to each number in the list, BroadcastList. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; performs some action each time the clock ticks. To control the timer, define a global variable named &lt;b&gt;nTicks&lt;/b&gt;. We will set this variable initially to the number of phone numbers in the list.  And then we will subtract 1 from the variable each time we send a message. 
+
+A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; is done in two parts.  In &lt;span class=&quot;basicblock&quot;&gt;TextingMessage1.Received&lt;/span&gt; we will no longer send the message. Instead, we will initialize the global &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable to the length of the &lt;span class=&quot;controlblock&quot;&gt;BroadcastList&lt;/span&gt; list.  And we will enable the &lt;span class=&quot;controlblock&quot;&gt;Clock1&lt;/span&gt;.
+
+The second part is done using a &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block. This block will contain the &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt; command. Each time the clock ticks the following steps will be performed:
+&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;Select a number from the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list using the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; as the index.&lt;/li&gt;
+&lt;li&gt;Set the &lt;span class=&quot;controlblock&quot;&gt;Texting1.PhoneNumber&lt;/span&gt; to the selected number.&lt;/li&gt;
+&lt;li&gt;Send the text message using &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Subtract 1 from the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable.&lt;/li&gt;
+&lt;li&gt;If the  &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; is less than or equal to 0, disable the clock&lt;/li&gt;.  This will stop the timer.
+&lt;/ul&gt;&lt;p&gt;The behavior is complex enough that it requires a &quot;nested&quot; &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block. If the phone number of the received message is already in the list, the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block is executed and the message relayed to all in the list. If the number is not in the list, the outer else-do clause is executed, and it asks another question, which is the test of the nested &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; block: is the messageText equal to &quot;joinabc&quot;. The app then branches one of two ways based on the answer.&lt;/p&gt;
+&lt;p&gt;In general, &lt;span class=&quot;controlblock&quot;&gt;if&lt;/span&gt; and &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; blocks can be nested to arbitrary levels, giving you the power to program arbitrarily complex behaviors.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; First, have two different phones register with the app by texting &quot;joinabc&quot; to the phone which is running the app.Then text another message from one of the phones. Both phones should receive the text.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Logging the broadcasted texts&lt;/h4&gt;
+&lt;p&gt;When a text is received and broadcast out to the other phones, the app should log that occurrence to the app so the administrator can monitor the activity. Earlier, you added the label LogLabel to the user interface for this purpose. Now, you&#039;ll code some blocks that change LogLabel each time a new text arrives.&lt;/p&gt;
+&lt;p&gt;You need to build a text that says something like &quot;message from 111-2222 broadcast&quot;. The 111-2222 is not fixed data, but is the value of the variable number that comes with the MessageReceived event. So to build the text, you&#039;ll concatenate the first part &quot;message from&quot; with the variable number and finally with the last part of the message, the text &quot;broadcast&quot;.&lt;/p&gt;
+&lt;p&gt;There are two functions in the Text drawer to build text. One is the join function, which joins two pieces of text. Another function, &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;, is also available and more convenient to use than join when you have more than two parts. You&#039;ll use it for this behavior. Here are all the blocks you&#039;ll need:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set LogLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;LogLabel&lt;/td&gt;
+&lt;td&gt;Display the log here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Build a text object out of multiple parts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;message from&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Report message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;The number of the sender&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;broadcast\n&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Text is &quot;message from 111-2222 broadcast&quot; with newline&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;LogLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;LogLabel&lt;/td&gt;
+&lt;td&gt;Add new log to the previous ones&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/broadcastit.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;After broadcasting the message to all the numbers in BroadcastList , the app now modifies the LogLabel to include a report of the just broadcasted text. If the sender&#039;s number (value number) is &quot;1112222&quot;, then the &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt; will build the text object:&lt;/p&gt;
+&lt;p&gt;message from: 1112222 broadcast&lt;/p&gt;
+&lt;p&gt;along with the log reports that were already in LogLabel.Text from previously received texts. The &quot;\n&quot; is the newline character that causes the old reports to be displayed on the next line, e.g.,&lt;/p&gt;
+&lt;p&gt;message from: 1112222 broadcast&lt;br /&gt;
+message from: 555-6666 broadcast&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Storing the BroadcastList in a Database&lt;/h4&gt;
+&lt;p&gt;As is, the app works, but every time you close the app the BroadcastList will be lost and everyone would have to re-register. To fix this, you&#039;ll use the &lt;b&gt;TinyDB&lt;/b&gt; component to store and retrieve the BroadcastList to and from a database. TinyDB allows you to store data persistently-- even if the app is closed, the next time you open the app the data will be there. &lt;/p&gt;
+&lt;p&gt;The general scheme for storing data persistently is the following: When the app begins, load the list from the database into a variable (e.g., BroadcastList ). Then, each time a new item is added to the list, update the database version of the list. &lt;/p&gt;
+&lt;p&gt;Start by coding the blocks to store the list in the database. With the TinyDB component, a tag is used to identify the data and distinguish it from other data stored in the database. In this case, you can tag the data as &quot;broadcastList&quot;. Do the following: &lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Drag out a &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt; block from the TinyDB1 drawer.&lt;/li&gt;
+&lt;li&gt;Create a &lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; block and give it the text &quot;broadcastList&quot;. Place this text block as the tag of StoreValue.&lt;/li&gt;
+&lt;li&gt;Drag out a reference to BroadcastList from My Definitions . Place it as the value argument of StoreValue.&lt;/li&gt;
+&lt;li&gt;Place the StoreValue block right below the blocks that add an item to the BroadcastList.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;The bottom part of the modified &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event-handler should look like the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/storeBroadcastList.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt; stores the data in BroadcastList to a database with a tag that you can later use to retrieve the data into your app. In this case, the tag is the text, &quot;broadcastList&quot;, and he value is the actual list BroadcastList.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Loading the BroadcastList from a Database&lt;/h4&gt;
+&lt;p&gt;Now add the blocks for loading the list back in each time the app begins. When the app begins, the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event is triggered, so your blocks will go in that event-handler. You’ll call &lt;span class=&quot;callblock&quot;&gt;TinyDB.GetValue&lt;/span&gt;, using the same tag you used to store the list (“broadcastList”). Check if the returned value is a list, because it won’t be if there isn’t any data in the list yet.&lt;/p&gt;
+&lt;p&gt;The blocks should look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/getValue.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The blocks first define a variable, valueFromDB, which is used to temporarily store the data returned from the database. When the app begins, the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event is triggered. &lt;span class=&quot;callblock&quot;&gt;TinyDB.GetValue&lt;/span&gt; is called, and the data from the database is placed in valueFromDB.&lt;/p&gt;
+&lt;p&gt;The variable is then checked to see if it is a list. If it is not, that means there was no data for the tag “broadcastList” in the database, and an empty text has been returned. This will happen the first time a user opens the app.&lt;/p&gt;
+&lt;p&gt;If valueFromDB is a list, the list is placed into the variable BroadcastList and the list is displayed.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Choose &lt;b&gt;Restart App&lt;/b&gt; which will trigger the &lt;span class=&quot;basicblock&quot; style=&quot;color:black;&quot;&gt;Screen1.Initialize&lt;/span&gt;. Do the numbers registered earlier appear?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Display BroadcastList with each number on separate lines&lt;/h4&gt;
+&lt;p&gt;Create a procedure &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt;, which displays the list with each phone number on a separate line. Be sure and call the procedure from below the &lt;span class=&quot;listblock&quot;&gt;add items to list&lt;/span&gt; block so that the updated list is displayed.&lt;/p&gt;
+&lt;p&gt;For help displaying the list on separate lines, see &lt;a href=&quot;/content/displaying-list&quot;&gt;Displaying a List&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;procedure&lt;/span&gt; (&quot;displayBroadcastList&quot;)&lt;/td&gt;
+&lt;td&gt;Definitions&lt;/td&gt;
+&lt;td&gt;Create the procedure&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set BroadcastListLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;BroadcastListLabel&lt;/td&gt;
+&lt;td&gt;Display the list here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;Phone Numbers...&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;The header for the list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Iterate through the numbers&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;name pnumber&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;in the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Name the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; variable &quot;pnumber&quot;. This is the current item of the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;BroadcastList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into in list slot of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set BroadcastListLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;BroadcastListLabel&lt;/td&gt;
+&lt;td&gt;Modify with each of the numbers&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Build a text object from multiple parts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;BroadcastListLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;BroadcastListLabel&lt;/td&gt;
+&lt;td&gt;Add to the label on each iteration of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;\n&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Newline character so that next number is on next line&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value pnumber&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;The current number from the list&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; procedure should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/displayBroadcastList.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; in &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; successively adds a phone number to the end of the label, placing a newline character in between each item.&lt;/p&gt;
+&lt;p&gt;Of course this procedure will not do anything unless you call it: you should add two calls to the procedure: one within the &lt;span class=&quot;basicblock&quot;&gt;Texting1.MessageReceived&lt;/span&gt; event-handler, and one within the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event-handler. The call &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; block can be found in My Definitions, and it should replace the blocks that directly set the BroadcastListLabel.Text to the list. You can see how these calls to &lt;span class=&quot;callblock&quot;&gt;displayBroadcastList&lt;/span&gt; should look in the snapshot of the final version below.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Try adding some more phone numbers to the list. Do the registered phone numbers now appear on separate lines?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Broadcast Hub, Final Version&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/allBlocks.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get the Broadcast Hub app working, you might want to explore some variations. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Allow client phones to remove themselves from the list by texting &quot;quitabc&quot; to the app.&lt;/li&gt;
+&lt;li&gt;Let the hub administrator (the user of your app) add and remove numbers from the broadcast list.&lt;/li&gt;
+&lt;li&gt;Let the hub administrator specify numbers that should not be allowed into the list.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial: &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Apps can react to events, like a text being received, that are not initiated by the user of the app.&lt;/li&gt;
+&lt;li&gt;Nested &lt;span class=&quot;controlblock&quot;&gt;ifelse&lt;/span&gt; and &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; blocks can be used to code complex behaviors.&lt;/li&gt;
+&lt;li&gt;The &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt; block can be used to build a text object out of multiple parts.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;TinyDB&lt;/b&gt; can be used to store and retrieve data from a database. A general scheme is to call &lt;span class=&quot;callblock&quot;&gt;StoreValue&lt;/span&gt; to update the database whenever the data changes, and call &lt;span class=&quot;callblock&quot;&gt;GetValue&lt;/span&gt; to retrieve the database data when the app begins.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/broadcastHub/broadcastHubBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/broadcastHub/broadcastHub.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/broadcastHub/broadcastHub.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;BroadcastHub&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:13:05 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">317 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/broadcasthub#comments</comments>
+</item>
+<item>
+ <title>TextGroup (Part 2)</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/text-group-part-2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Text Group Part II: Adding and Removing Members&lt;/span&gt;&lt;/h2&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/textGroup2emulator.png&quot; style=&quot;float:right; width:250px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This tutorial extends the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/textgroup&quot;&gt;Text Group&lt;/a&gt; tutorial. That app sent a text to a fixed list of phone numbers, and only the programmer could change the numbers in the list. The app in this tutorial allows the user to add and remove the phone numbers in the list, and it stores the list persistently in a database. &lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and open your TextGroup project (if you haven&#039;t completed that tutorial, do so now before continuing). SaveAs the app and name it &quot;TextGroup2&quot;. You can leave the screen&#039;s &lt;b style=&quot;color:green;&quot;&gt;Title&lt;/b&gt; as &quot;Text Group&quot;. Open the Blocks Editor and connect to the phone.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;You&#039;ll design the app so that the user adds phone numbers to the group by choosing from the phone&#039;s contact list, and removes them by choosing from the items already in the group.. You&#039;ll store the list of numbers in a database so that they are there even when the app is closed and re-launched.&lt;/p&gt;
+&lt;p&gt;The tutorial covers the following App Inventor components and concepts:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;span class=&quot;control&quot;&gt;foreach&lt;/span&gt; block for repeating operations on a list.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;PhoneNumberPicker&lt;/b&gt; component for accessing the phone&#039;s contacts.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;ListPicker&lt;/b&gt; component for allowing the user to choose a number for removal.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts.&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;TinyDB&lt;/b&gt; database component for storing the phone list in a database. &lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;The user interface for Text Group, Part II has a textbox, button, and status label for sending the group text, just as in Part I. If you performed a SaveAs to begin this project, those components should already be in the view. You should then add a &lt;b&gt;PhoneNumberPicker&lt;/b&gt; and &lt;b&gt;ListPicker&lt;/b&gt; components for adding and removing phone numbers from the list, along with a &lt;b&gt;Texting&lt;/b&gt; component and a &lt;b&gt;TinyDB&lt;/b&gt; component, both of which will appear in the &quot;non-visual&quot; component area. A table of detailed instructions for designing the components is below, but you can also build it from the following picture of what it should look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/designerPart2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The components listed below were used to create the designer window shown above. The first five were part of TextGroup so will already be there if you built that app and performed a SaveAs to begin this one. You&#039;ll need to drag each of the other components from the Palette into the Viewer and name it as specified below:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;MessageText&lt;/td&gt;
+&lt;td&gt;User will enter message here.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Button&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TextGroupButton&lt;/td&gt;
+&lt;td&gt;User enters the message here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;StatusLabel&lt;/td&gt;
+&lt;td&gt;Reports when texts have been sent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Texting&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Social&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
+&lt;td&gt;The component that sends the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Clock&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;The component that designates when to send the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;GroupHeadingLabel&lt;/td&gt;
+&lt;td&gt;Header for the list of phone numbers that will appear&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Label&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;MembersLabel&lt;/td&gt;
+&lt;td&gt;This is where the list of phone numbers will appear&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Horizontal Arrangement&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Screen Arrangement&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
+&lt;td&gt;To organize the add and remove buttons (pickers) horizontally&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;PhoneNumberPicker&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Social&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;PhoneNumberPicker1&lt;/td&gt;
+&lt;td&gt;Allow user to choose from numbers in contact list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;ListPicker&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;RemoveListPicker&lt;/td&gt;
+&lt;td&gt;Allow user to remove number from phone numbers in group&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TinyDB&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;For storing and retrieving group&#039;s phone numbers from database&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components in the following way:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Hint&lt;/b&gt; of MessageText to &quot;enter a message&quot;&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of TextGroupButton to &quot;Text Group&quot;&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of StatusLabel to &quot;status&quot;.&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of GroupHeadingLabel to &quot;-- Group -- &quot;.&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of MembersLabel to &quot;members will appear here&quot;.&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of PhoneNumberPicker1 to &quot;Add Member&quot;.&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of RemoverListPicker to &quot;Remove Member&quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components &lt;/h4&gt;
+&lt;p&gt;If you completed Text Group, Part I, you should have the following list defined in the Blocks Editor:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/phonelist.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For this app, you still want the list but you don&#039;t want any pre-defined numbers in it-- the numbers will be added by the end-user of the app. So remove the text blocks with the numbers and leave the &lt;span class=&quot;ai-blocks&quot;&gt;make a list&lt;/span&gt; block empty:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/emptylist.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You&#039;ll need to add the following behaviors:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;When the user clicks the &quot;Add Member&quot; button (the button associated with the PhoneNumberPicker), the picker will appear for the user to choose a number. When the choice is made, the app will add the chosen number to the PhoneNumbers list and update the database.&lt;/li&gt;
+&lt;li&gt;When the user clicks the &quot;Remove Member&quot; button (the button associated with the RemovListPicker), the picker will appear for the user to choose one of the numbers already in PhoneNumbers. When the choice is made, the app will remove the number from the list and update the database.&lt;/li&gt;
+&lt;li&gt;When the app begins, the numbers stored in the database are retrieved and loaded into PhoneNumbers.&lt;/li&gt;
+&lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Adding a Phone Number (Member) to the Group &lt;/h4&gt;
+&lt;p&gt;The list of phone numbers in the contact list will appear when the user clicks the PhoneNumberPicker &#039;s associated button: that behavior is built-in to the component. When the user makes a choice from the contact list, PhoneNumberPicker &#039;s AfterPicking event is triggered-- your job is to program this to add the chosen item to the list and update the database.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;PhoneNumberPicker1.AfterPicking&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;PhoneNumberPicker1&lt;/td&gt;
+&lt;td&gt;The event-handler that is triggered when user chooses from contact list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Your goal is to add chosen number to list &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug this into list slot of add items to list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;PhoneNumberPicker1.PhoneNumber &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;PhoneNumberPicker1&lt;/td&gt;
+&lt;td&gt;This holds the chosen phone number, plug into &lt;b&gt;item&lt;/b&gt; slot of &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;Since the list is updated, need to update the database&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;textGroup&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Plug this in as the &lt;b&gt;tag&lt;/b&gt; of &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug this in as the &lt;b&gt;value&lt;/b&gt; of &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MembersLabel&lt;/td&gt;
+&lt;td&gt;Display the list on the phone&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;plug into &lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/addMember.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the user chooses from the PhoneListPicker, the &lt;span class=&quot;basicblock&quot;&gt;PhoneListPicker1.AfterPicking&lt;/span&gt; event is triggered. A PhoneListPicker&#039; s job is to put the user&#039;s choice in its PhoneNumber property, so the event-handler just calls &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt; to get that choice into the PhoneNumbers list.&lt;/p&gt;
+&lt;p&gt;PhoneNumbers is a variable, and variables are short-term memory that will disappear when the app is closed. Thus, after adding the item to the variable, &lt;span class=&quot;callblock&quot;&gt;TinyDB1.StoreValue&lt;/span&gt; block is used to copy that list to the database-- the phone&#039;s long-term memory. The data is tagged with &quot;textGroup&quot;. Later, you&#039;ll use that tag to re-load the phone number list from the database each time the app is opened.&lt;/p&gt;
+&lt;p&gt;After updating the database, &lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt; is called to display the list. This is necessary because list variables are hidden from the user until they are placed in a visible component. Directly placing a list into a label is a rudimentary way of displaying a list-- the list will appear in the form: (111-1111 222-2222). In the next section, you&#039;ll program a more elegant list display.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; On the phone, click &quot;Add Member&quot; and choose a number from the list of contacts that appears. Does the number appear in the MembersLabel? Try adding additional numbers to see how the list is displayed. &lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Displaying the List with Items on Separate Lines&lt;/h4&gt;
+&lt;p&gt;At this point the app shows the user the phone numbers that have been added, but not very elegantly. Create a procedure &lt;span class=&quot;callblock&quot;&gt;displayMembers&lt;/span&gt;, which displays the list with each phone number on a separate line. Be sure and call the procedure in the &lt;span class=&quot;basicblock&quot;&gt;PhonePicker1.AfterPicking&lt;/span&gt; event, below the &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt; block, so that the updated list is displayed. The call to the procedure should replace the blocks that set the MembersLabel.Text directly to the list. For help displaying the list on separate lines, see &lt;a href=&quot;http://explore.appinventor.mit.edu/content/displaying-list&quot;&gt;Displaying a List&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;procedure&lt;/span&gt; (&quot;displayMembers&quot;)&lt;/td&gt;
+&lt;td&gt;Definitions&lt;/td&gt;
+&lt;td&gt;Create a procedure as you&#039;ll want to call this from multiple places&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MembersLabel&lt;/td&gt;
+&lt;td&gt;Display the list here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Start the text out empty&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Iterate through the numbers&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;name number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;in the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Name the foreach variable &quot;number&quot;. This is the current item of the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into in list slot of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set MembersLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MembersLabel&lt;/td&gt;
+&lt;td&gt;Modify with each of the numbers&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Build a text object from multiple parts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;MembersLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MembersLabel&lt;/td&gt;
+&lt;td&gt;Add to the label on each iteration of &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;\n&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Newline character so that next number is on next line&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;value number&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;The current number from the list&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Here&#039;s how the blocks should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/displayMembers.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; in &lt;span class=&quot;callblock&quot;&gt;displayMembers&lt;/span&gt; successively adds a phone number to the end of the label, placing a newline character in between each item.&lt;/p&gt;
+&lt;p&gt;Of course this procedure will not do anything unless you call it: you should add a call to the procedure in the &lt;span class=&quot;basicblock&quot;&gt;PhonePicker1.AfterPicking&lt;/span&gt; event, below the &lt;span class=&quot;ai-blocks&quot;&gt;add items to list&lt;/span&gt; block. The &lt;span class=&quot;callblock&quot;&gt;call displayMembers&lt;/span&gt; block can be found in My Definitions, and it should replace the blocks that directly set the MembersLabel.Text in the list.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; On the phone, click &quot;Add Member&quot; to choose another number to add to the list. When the modified list is displayed, does each number appear on separate lines?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Removing a Number from the list&lt;/h4&gt;
+&lt;p&gt;To allow the user to remove a number from the list, you must first get the PhoneNumbers list into the RemoveListPicker that appears when the user clicks &quot;Remove Member&quot;. Unlike the PhonePicker component, which gets its data from the phone&#039;s contact list, ListPicker requires you to explicilty load the items that will appear. You can do this by setting the Elements property of the ListPicker component. You do this within the &lt;span class=&quot;basicblock&quot;&gt;RemoveListPicker.BeforePicking&lt;/span&gt; event, which is triggered right when the user clicks the button but before the list is shown.&lt;/p&gt;
+&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/BeforePicking.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, code the &lt;span class=&quot;basicblock&quot;&gt;RemoveListPicker.AfterPicking&lt;/span&gt; event so that the user&#039;s choice is removed from the PhoneNumbers list. You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;RemoveListPicker.AfterPicking&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;RemoveListPicker&lt;/td&gt;
+&lt;td&gt;This is triggered after the user chooses a number from the list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;remove list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Removes the indexth item in a given list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into list slot of &lt;span class=&quot;ai-blocks&quot;&gt;remove list item&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;position in list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Given an item in a list, this gives you its index&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;RemoveListPicker.Selection&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;RemoveListPicker&lt;/td&gt;
+&lt;td&gt;The number chosen by the user, plug into thing slot of &lt;span class=&quot;ai-blocks&quot;&gt;position in list&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;global PhoneNumbers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Plug into list slot of &lt;span class=&quot;ai-blocks&quot;&gt;position in list&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;call displayMembers&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;Once the user removes one, display the modified list&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/RemoveAfterPicking.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the user chooses a number from the RemoveListPicker, the &lt;span class=&quot;basicblock&quot;&gt;AfterPicking&lt;/span&gt; event is triggered. The event-handler uses position in list to get the index of the chosen number, then uses that index to remove the number from the list PhoneNumbers. The database is then updated and the list displayed.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; On the phone, click &quot;Remove Member&quot; and choose a number from the list that appears. When the list is re-displayed, is the number you chose gone? &lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Loading the List from the Database&lt;/h4&gt;
+&lt;p&gt;The app so far works, and when changes are made to the PhoneNumbers list they are also stored in a database. Now you just need to add the behavior such that the data stored in the database is loaded when the app launches.&lt;/p&gt;
+&lt;p&gt;Program the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event-handler so that the saved list of phone numbers is retrieved from the database and placed in the PhoneNumbers list and the display is updated to show the list. You&#039;ll need to check the retrieved data to make sure there&#039;s something there-- after all, the first time the app is used, the database will not have any numbers in it.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;def variable&lt;/span&gt; (&quot;valueFromDB&quot;) &lt;/td&gt;
+&lt;td&gt;Definitions&lt;/td&gt;
+&lt;td&gt;A temporary variable to hold the retrieved data&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (blank)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Initial value for the variable can be anything&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Screen1&lt;/td&gt;
+&lt;td&gt;This is triggered when app begins&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set valueFromDB to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;You&#039;ll set the variable to the value retrieved from db&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;TinyDB1.GetValue&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;TinyDB1&lt;/td&gt;
+&lt;td&gt;Get the stored response text from the database&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;textGroup&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Plug into tag slot of &lt;span class=&quot;callblock&quot;&gt;GetValue&lt;/span&gt;, make sure text is same as was used in StoreValue above&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock&quot;&gt;if test&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To ask if the retrieved value has some text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;ai-blocks&quot;&gt;is list?&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Check if the data returned is a list (if no data is returned, this will be false)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;global valueFromDB&lt;/span&gt; (x2)&lt;/td&gt;
+&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;td&gt;This variable holds the value retrieved from &lt;span class=&quot;calblock&quot;&gt;GetValue&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set PhoneNumbers to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;PhoneNumbers&lt;/td&gt;
+&lt;td&gt;If we retrieved something, place it in PhoneNumbers&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/screenInit.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the app begins, the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event is triggered. The event-handler queries the database with GetValue and the tag &quot;textGroup&quot;. If there is a value with that tag in the database, its corresponding value will be placed in the variable valueFromDB. The event-handler checks this value-- is it a list?-- and if it is puts the list into the variable PhoneNumbers and calls displayMembers.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the app.&lt;/b&gt; To test the final app, first package and install it on the phone and run it. Live testing won&#039;t work in this case because every time you &quot;Restart App&quot;, in clears the phone&#039;s database: even if you&#039;ve stored some data persistently, it is cleared when you restart the app. 
+
+Click Restart App so that the app re-initializes. Does the list of numbers you&#039;ve entered appear on reload? Try removing all items and testing again. Does the app launch without error?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Text Group Part II, Final Program&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/textGroup2final.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get the Text Group app working, you might want to explore some variations. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Write a version that records both the contact name and phone number of each member of the group. You can also use ContactPicker to let the user choose from a contact name instead of a number.&lt;/li&gt;
+&lt;li&gt;Write a version that allows the user to define and make use of multiple groups. You&#039;ll need a group list in which each item is a list of contacts/numbers, and you&#039;ll need a more complex user interface. &lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;PhoneListPicker allow the user to choose from the phone numbers of his contacts. The choice is placed in the Selection property and the AfterPicking event is called when the user makes a choice.&lt;/li&gt;
+&lt;li&gt;ListPicker is similar to PhoneListPicker but it displays a programmer-defined list, e.g., the list of phone numbers in the group. You define the list that will appear in the ListPicker by setting the Elements property, and you can do this in the BeforePicking event. The user&#039;s choice is placed in the Selection property, and the AfterPicking event is triggered when the user makes a choice.&lt;/li&gt;
+&lt;li&gt;TinyDB is used to store data persistently so that it can be loaded each time an app begins. StoreValue stores with a tag to identify the data and the data itself (the value). GetValue returns the data for a given tag. Often, an app will call GetValue when the app begins (Screen1.Initialize) to load the persistent data.&lt;/li&gt;
+&lt;li&gt;Currently, App Inventor does not provide full access and functionality for the contacts and groups of the phone. In this tutorial, you created your own group and app for processing the group (adding,removing, and texting all).&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup2/textgroup2barcode.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/textgroup2.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, &lt;a href=&quot;/sites/all/files/tutorials/textGroup2/TextGroup2_MIT.zip&quot;&gt;download the source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;TextGroup Part 2&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:12:40 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">316 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/text-group-part-2#comments</comments>
+</item>
+<item>
+ <title>TextGroup</title>
+ <link>http://dev-explore.appinventor.mit.edu/content/textgroup</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt;&lt;/h2&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup1.png&quot; style=&quot;float:right;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This tutorial introduces the &lt;b&gt;Texting&lt;/b&gt; component for sending and processing SMS text messages.You&#039;ll build an app that texts a message to a list of phone numbers. This tutorial assumes you are familiar with the basics of App Inventor: using the Component Designer to build a user interface, and using the Blocks Editor to specify event handlers. If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it TextGroup, and also set the screen&#039;s &lt;b style=&quot;color:green;&quot;&gt;Title&lt;/b&gt; to &quot;TextGroup.&quot; Open the Blocks Editor and connect to the phone.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;You&#039;ll design the TextGroup app so that clicking on a button texts a message to a list of phone numbers. The app introduces the following App Inventor concepts:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;Texting&lt;/b&gt; component for sending texts and processing SMS texts.&lt;/li&gt;
+&lt;li&gt;List variables to keep track of the numbers to text.&lt;/li&gt;
+&lt;li&gt;The Timer block for repeating operations on a list of data (the list of phone numbers)&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the components&lt;/h4&gt;
+&lt;p&gt;The user interface for &lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt; is simple: it has a text box for entering the message to send, a button to send the message, a label that reports when the message is sent, and a Texting component. Use the Component Designer to create this interface. When you finish, it should look something like the snapshot below (there are also more detailed instructions below the snapshot).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The following table describes the components you need. Drag each component from the Palette into the Viewer and name it as specified below:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;TextBox&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;MessageText&lt;/td&gt;
+&lt;td&gt;User will enter message here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Button&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;TextGroupButton&lt;/td&gt;
+&lt;td&gt;User will click here after entering the message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Label&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;StatusLabel&lt;/td&gt;
+&lt;td&gt;Reports when texts have been sent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Texting&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Social&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Texting1&lt;/td&gt;
+&lt;td&gt;The component that sends the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;Used to designate when to send the texts&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components in the following way:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Set the the &lt;b style=&quot;color:green;&quot;&gt;Hint&lt;/b&gt; of MessageText to &quot;enter a message&quot;&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of TextGroupButton to &quot;Text Group&quot;&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; of StatusLabel to &quot;status&quot;&lt;/li&gt;
+&lt;li&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;TimerEnabled&lt;/b&gt; of Clock1 to &quot;false&quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add behaviors to the components&lt;/h4&gt;
+&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt;&#039;s behavior is as follows: when the user clicks the TextGroupButton, the app should text the message entered by the user in MessageText to all the numbers in a list of phone numbers. When all are sent, it should report the last message sent in the StatusLabel.&lt;/p&gt;
+&lt;p&gt;Text the entered message to one phone number.&lt;/p&gt;
+&lt;p&gt;To introduce yourself to the Texting component, begin by creating a simplified version that texts the message entered by the user to your own phone. To send a text, you need to set two properties of the Texting component: the &lt;b style=&quot;color:green;&quot;&gt;PhoneNumber&lt;/b&gt; and the &lt;b style=&quot;color:green;&quot;&gt;Message&lt;/b&gt;. Once these properties are set, you call the SendMessage function to actually send the text.&lt;/p&gt;
+&lt;p&gt;Open the Blocks Editor and drag out the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block Type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;TextGroupButton&lt;/td&gt;
+&lt;td&gt;When the user clicks the button, this event handler is triggered.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.Message to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;Message&lt;/b&gt; property before sending&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;MessageText.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MessageText&lt;/td&gt;
+&lt;td&gt;This is the message the user has entered.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set Texting1.PhoneNumber to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Set the &lt;b style=&quot;color:green;&quot;&gt;PhoneNumber&lt;/b&gt; property before sending&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (&quot;1112222&quot;)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Put your own phone number as the text.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Texting1&lt;/td&gt;
+&lt;td&gt;Send the message&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this (but with a real phone number instead of &quot;1112222&quot;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup3.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
+&lt;p&gt;When the user clicks the TextGroupButton, the event-handler is triggered. The first row of blocks gets the text entered by the user (MessageText.Text) and places it into the Message property of the Texting1 component. The second row of blocks sets the PhoneNumber property of the Texting1 component. After the first two rows of blocks, Texting1 knows what to send and who to send it to; the last block just instructs Texting1 to actually send the message.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; If your phone is connected, the app should appear with the MessageText box and button. Enter a message and click on the TextGroupButton. Does the text get sent? Check your phone (or the phone you sent the text to) to see.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Texting a list&lt;/h4&gt;
+&lt;p&gt;Next, you&#039;ll modify the blocks to text more than one number at a time. You&#039;ll first define a &lt;em&gt;global variable&lt;/em&gt; to store the data for the app: the phone numbers. Global variables are not seen by the user; they are the app&#039;s &quot;hidden&quot; memory. In this case, you&#039;ll define the list of phone numbers to which the text is sent.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks to build a list of phone numbers:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block Type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;def variable&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Definitions&lt;/td&gt;
+&lt;td&gt;Defines the &lt;b style=&quot;color:green;&quot;&gt;PhoneNumbers&lt;/b&gt; variable (rename it)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock&quot;&gt;make a list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Used to define the items of the list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; (3)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;The actual phone numbers&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this, but with two or three phone numbers of your friends.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textgroup4.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Note that &lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; blocks are used for the phone numbers, not &lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; blocks. This will allow for dashes, which are not allowed in &lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; blocks. &lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; blocks are used for data on which you want to perform mathematical computations.&lt;/p&gt;
+&lt;p&gt;Now you&#039;re ready to modify the TextGroupButton event-handler so that it texts each number in the variable PhoneNumbers. &lt;/p&gt;
+&lt;p&gt;You&#039;ll need to set up a &lt;span class=&quot;controlblock&quot;&gt;timer&lt;/span&gt; to send a text message to each number in the list. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; performs some action each time the clock ticks. To
+control the timer, define a global variable named &lt;b&gt;nTicks&lt;/b&gt;. We will set this variable initially to the number of phone numbers in the
+list.  And then we will subtract 1 from the variable each time we send a message. 
+
+A &lt;span class=&quot;controlblock&quot; style=&quot;color;black;&quot;&gt;timer&lt;/span&gt; is done in two parts.  In &lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt;
+we will no longer send the message. Instead, we will initialize the global &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable to the length of
+the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list.  And we will enable the &lt;span class=&quot;controlblock&quot;&gt;Clock1&lt;/span&gt;.
+
+The second part is done using a &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block. This block will contain the &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;
+command. Each time the clock ticks the following steps will be performed:
+&lt;/pre&gt;&lt;ul&gt;&lt;li&gt;Select a number from the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list using the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; as the index.&lt;/li&gt;
+&lt;li&gt;Set the &lt;span class=&quot;controlblock&quot;&gt;Texting1.PhoneNumber&lt;/span&gt; to the selected number.&lt;/li&gt;
+&lt;li&gt;Send the text message using &lt;span class=&quot;controlblock&quot;&gt;Texting1.SendMessage&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Subtract 1 from the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable.&lt;/li&gt;
+&lt;li&gt;If the  &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; is less than or equal to 0, disable the clock&lt;/li&gt;.  This will stop the timer.
+&lt;/ul&gt;&lt;p&gt;Reconfigure the &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block so it looks like this: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/clocktimerblock.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Reconfigure the &lt;span class=&quot;basicblock&quot;&gt;TextGroupButton.Click&lt;/span&gt; block so it looks like this: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/buttonclickblock.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
+&lt;p&gt;When the TextGroupButton is clicked, the &lt;b style=&quot;color:green;&quot;&gt;Texting1.Message&lt;/b&gt; property is set to the message entered by the user in MessageText. Then the &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; variable is set to the length of the &lt;span class=&quot;controlblock&quot;&gt;phoneNumbers&lt;/span&gt; list and the &lt;span class=&quot;controlblock&quot;&gt;Clock1.TimerEnabled&lt;/span&gt; is set to &lt;b&gt;true&lt;/b&gt;.   This will start the clock ticking.  Then in the &lt;span class=&quot;controlblock&quot;&gt;Clock1.Timer&lt;/span&gt; block, the message will be sent to the target phone number and the global variable &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; will be decremented by 1.  The clock will continue ticking and sending messages until &lt;span class=&quot;controlblock&quot;&gt;nTicks&lt;/span&gt; at which point the &lt;span class=&quot;controlblock&quot;&gt;Clock1.TimerEnabled&lt;/span&gt; will be set to &lt;b&gt;false&lt;/b&gt; thereby stopping the timer.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test the behavior.&lt;/b&gt; Click the &lt;b&gt;TextGroupButton&lt;/b&gt; on the phone. Is the text sent to all the numbers in the list?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Reporting the Status of the app&lt;/h4&gt;
+&lt;p&gt;It&#039;s always a good idea to give the user feedback when they initiate an operation. In the app you&#039;ve built thus far, the user clicks on the &lt;span style=&quot;color:green;&quot;&gt;TextGroupButton&lt;/span&gt; and nothing changes in the app&#039;s user interface. Though the user might hear the phone&#039;s chime for transmitting the text, it&#039;s still better to report a status directly in the app.&lt;/p&gt;
+&lt;p&gt;Modify the blocks so that the status label reports the last message sent. You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Block Type
+&lt;/td&gt;
+&lt;td&gt;
+Drawer
+&lt;/td&gt;
+&lt;td&gt;
+Purpose
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set StatusLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;StatusLabel&lt;/td&gt;
+&lt;td&gt;This is where status will appear&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;join&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;To concatenate the two parts of the status message&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Put &quot;last message sent:&quot; in this text block&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;MessageText.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;MessageText&lt;/td&gt;
+&lt;td&gt;The message just sent&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The updated &lt;span class=&quot;basicblock&quot;&gt;Clock1.Timer&lt;/span&gt; blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/clocktimerblock2.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
+&lt;p&gt;The join block is used to concatenate two pieces of text. You need it when you want to join data from a variable or property with some other text. If you want to piece together more than two texts, there is also a &lt;span class=&quot;textblock&quot;&gt;make text&lt;/span&gt; block.&lt;/p&gt;
+&lt;p&gt;Test the status behavior. Does the status message report the message that was sent?&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Final program&lt;/h4&gt;
+&lt;p&gt;&lt;b&gt;TextGroup, Final Version&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/textGroup/textGroupFinal.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get the &lt;span style=&quot;color:green;&quot;&gt;TextGroup&lt;/span&gt; app working, you might want to explore some variations. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Write a &quot;random date&quot; version that randomly chooses a number in the list to call. You won&#039;t need a &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block, but you will need the &lt;span class=&quot;listblock&quot;&gt;pick random item&lt;/span&gt; function in the Lists drawer.&lt;/li&gt;
+&lt;li&gt;Write a version in which &quot;Missing You&quot; is sent to the list of numbers as soon as the app begins (on the &lt;span class=&quot;basicblock&quot;&gt;Screen.Initialize&lt;/span&gt; event). This will allow for quick texting without clicking an additional button.&lt;/li&gt;
+&lt;li&gt;Write a version that allows the &lt;em&gt;user&lt;/em&gt; to enter the numbers in the list. This way you don&#039;t need to re-program the blocks to change the group you are texting &lt;em&gt;and&lt;/em&gt; your app can be used by others! You&#039;ll need to use &lt;b&gt;TinyDB&lt;/b&gt; to store the numbers after they are entered.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Instead of placing data directly in event handlers, you can create list variables and program event handlers to process the list.&lt;/li&gt;
+&lt;li&gt;An app can repeat functions on all items of a list using the &lt;span class=&quot;basicblock&quot;&gt;Clock.Timer&lt;/span&gt; block.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;
+&lt;img src=&quot;/sites/all/files/tutorials/textGroup/TextGroupBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/textGroup/TextGroup.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/textGroup/TextGroup_MIT.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;TextGroup&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-difficulty/advanced&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Advanced&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/data-storage&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Data Storage&lt;/a&gt;      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        &lt;a href=&quot;/tutorial-type/sms-texting&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;SMS Texting&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 14 Jun 2013 16:12:11 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">315 at http://dev-explore.appinventor.mit.edu</guid>
+ <comments>http://dev-explore.appinventor.mit.edu/content/textgroup#comments</comments>
+</item>
+</channel>
+</rss>

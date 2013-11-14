@@ -1,0 +1,590 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta about="/ai2/pizzaparty" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/dev-explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta content="Pizza Party with Fusion Tables for App Inventor 2" about="/ai2/pizzaparty" property="dc:title" />
+<link rel="shortlink" href="381.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../ai2/pizzaparty.html" />
+  <title>Pizza Party with Fusion Tables for App Inventor 2 | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.base00fa.css?mvt5b2");
+@import url("../modules/system/system.menus00fa.css?mvt5b2");
+@import url("../modules/system/system.messages00fa.css?mvt5b2");
+@import url("../modules/system/system.theme00fa.css?mvt5b2");</style>
+<style>@import url("../modules/comment/comment00fa.css?mvt5b2");
+@import url("../modules/field/theme/field00fa.css?mvt5b2");
+@import url("../modules/node/node00fa.css?mvt5b2");
+@import url("../modules/search/search00fa.css?mvt5b2");
+@import url("../modules/user/user00fa.css?mvt5b2");
+@import url("../sites/all/modules/extlink/extlink00fa.css?mvt5b2");
+@import url("../sites/all/modules/views/css/views00fa.css?mvt5b2");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctools00fa.css?mvt5b2");
+@import url("../sites/all/modules/panels/css/panels00fa.css?mvt5b2");
+@import url("../sites/all/libraries/superfish/css/superfish00fa.css?mvt5b2");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.base00fa.css?mvt5b2");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layout00fa.css?mvt5b2");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messages00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/html-elements00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/forms00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/tables00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/page00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/articles00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/comments00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/fields00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/blocks00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/navigation00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/color/colors00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/sky.settings.style00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/reset00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/typography00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/layout00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/drupal00fa.css?mvt5b2");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/print00fa.css?mvt5b2");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style00fa.css?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels00fa.css?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style00fa.html?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels00fa.html?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/dev-explore.appinventor.mit.edu/files/at_css/appinventor.responsive.layout00fa.css?mvt5b2" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://dev-explore.appinventor.mit.edu/sites/dev-explore.appinventor.mit.edu/files/at_css/appinventor.lt-ie9.layout.css?mvt5b2" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupal00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/extlink/extlink00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/panels/js/panels00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/google_analytics/googleanalytics00fa.js?mvt5b2"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/libraries/superfish/jquery.hoverIntent.minified00fa.js?mvt5b2"></script>
+<script src="../sites/all/libraries/superfish/superfish00fa.js?mvt5b2"></script>
+<script src="../sites/all/libraries/superfish/supersubs00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/superfish/superfish00fa.js?mvt5b2"></script>
+<script src="../sites/all/themes/sky/js/scripts00fa.js?mvt5b2"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/video00fa.js?mvt5b2"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"uszCHDrbnYdfMsLrnJuGtyKQLFdcw_ARvUnPa93ap-o","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1,"public:\/\/at_css\/appinventor.responsive.layout.css":1,"public:\/\/at_css\/appinventor.lt-ie9.layout.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-381 page-type-tutorial lang-en site-name-explore-mit-app-inventor section-ai2 color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor logo"/></a></div>
+          
+    </div>
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-superfish-1" class="block block-superfish block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix" role="navigation">
+              <h2 class="block-title element-invisible element-invisible">Simple_Nav</h2>
+            <ul id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-2 sf-single-items-1"><li id="menu-2892-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-no-children"><a href="../index-2.html" title="" class="sf-depth-1">Home</a></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">Blog ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">News &amp; Events</a></li><li id="menu-3039-1" class="last even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="../library.html" title="" class="sf-depth-1 menuparent">Support ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3104-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Library</a></li><li id="menu-3036-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-3038-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../forums.html" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="last even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li></ul></li></ul>  </nav>
+  </div>
+      <div class="region region-create">
+    <section id="block-block-21" class="block block-block block-odd block-count-2 block-region-create">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Create Button</h2>
+            <div class="block-content content">
+      <p><a href="http://ai2-test.appinventor.mit.edu/"><button>Create</button></a></p>
+    </div>
+  </div>
+</section>
+  </div>
+    </div>
+      <div class="region region-header">
+    <section id="block-block-23" class="block block-block block-odd block-count-3 block-region-header">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Social Icons</h2>
+            <div class="block-content content">
+      <p style="color:white;float:left;margin: 10px 5px;">
+Follow Us:</p>
+<p style="float:left;margin: 5px 10px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://twitter.com/AppInv"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="http://www.youtube.com/user/appinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>   <a href="mailto:do-not-reply@appinventor.mit.edu"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/gmail.png" style="width:25px;" /></a></p>
+    </div>
+  </div>
+</section>
+<div id="block-block-7" class="block block-block block-even block-count-4 block-region-header">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <script>
+  (function() {
+    var cx = '009943970440830858880:7m_hkyhma2q';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>    </div>
+  </div>
+</div>
+  </div>
+    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-5 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-381" class="article article-type-tutorial article-lang-en odd article-full clearfix" about="/ai2/pizzaparty" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      Pizza Party with Fusion Tables for App Inventor 2                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+/*--><!]]>*/
+</style><div style="float:right;"><img src="http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/pizza_party_screenshot.png" style="border:none; padding-left:15;" /><br /><a href="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT.aia"><img src="http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/downloadSourcebutton.png" style="border:none; padding-left:65;" /></a></div>
+<p>In this tutorial, you will create an app that lets people enter food orders for a pizza party. Orders are stored in a Fusion Table, providing one easy to access place for the data. By reading from the table, the app can easily display the orders that have been entered.</p>
+<p>A <a href="http://en.wikipedia.org/wiki/Google_Fusion_Tables">Fusion Table</a> is a Google service to support the gathering, managing, sharing, and visualizing of data. Data are stored in multiple tables on Google's <a href="http://en.wikipedia.org/wiki/Cloud_computing">cloud</a>. Individual tables can be merged (or fused) if they contain a common column, and they can be easily visualized on maps and in various kinds of charts and graphs. All of the data are stored in a public table that can be accessed via Google Drive, and allows different users<a href="#note">**</a> to add information to the tables. Coupled with a location sensor, an App Inventor app could post periodic updates of each user's location to a public fusion table. Users could post notes to mark noteworthy locations. For example, a team of botanists could use a Fusion Table app to create an annotated catalog of the trees or plants within a certain geographical area.</p>
+<p>This tutorial introduces:</p>
+<ul><li>Using the <b>FusionTables</b> component</li>
+<li>Using a <b>WebViewer</b> component</li>
+</ul><p>This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify the app's behavior. If you are not familiar with the basics, try stepping through some of the <a href="../ai2/tutorials.html">basic tutorials</a> before continuing.</p>
+<hr /><p><strong>IF YOU DOWNLOAD THE SOURCE CODE</strong> you will need to supply your own API KEY, your own Table ID, and your own TABLE URL in the global variables in the blocks editor. This source code will not work without these additions.</p>
+<h4 class="ai-header">Creating your own Fusion Table</h4>
+<p>Creating your own Fusion Tables is as easy as creating a Google document, if you are familiar with that process.</p>
+<p><img src="../sites/all/files/tutorials/pizzaParty/MoreEvenMoreFusion.jpg" style="float:right" /></p>
+<ol><li>On the web, login to your Gmail account or any other Google service (e.g., Drive, YouTube).</li>
+<li>Select the <strong>More &gt; Even more</strong> menu and scroll to the bottom of the page of Google services where you will find the Fusion Tables service under "Innovation", click on the Fusion Tables link.</li>
+<li>Click "Create New Table"</li>
+<li>You will be given three options for the new table: "From this computer", "Google Spreadsheets", or "Create an empty table". For the purposes of this tutorial, select <b>Create an empty table</b>.</li>
+<li>You will see that the new table automatically comes with four columns. Change the column names for your Pizza app by going to <strong>Edit &gt; Change Columns</strong>.You'll rename the four default columns to <em>Date</em> (type=Date), <em>Name</em> (type=Text), <em>Pizza</em> (type=Text), <em>Drink</em> (type=Text). Click save and then add a fifth column by going to the <strong>Edit &gt; Add Column</strong>. Name this fifth column <em>Comment</em> (type=Text). .</li>
+<li>Leave this window open so that you can come back and get the URL, which you'll need when you set up the properties of the WebViewer component in your app.</li>
+<li>Click on the <strong>Share</strong> button (top right) to modify the table's permissions. For this tutorial, you can specify a few friends who will use the app. Only people who are explicitly given permission will be able to enter pizza party preferences through your app.</li>
+</ol><pre class="ai-box"><img src="../sites/all/files/tutorials/pizzaParty/FusionTables_GoogleDrive.png" style="float:right;padding:15px;" />Another way to create a new table: go to Google Drive. Click the <strong>Create</strong> button, then go to <strong>More &gt; Fusion Table</strong>. The picture at right shows what the Create button's menu should look like. If you do not see Fusion Table in your menu, then you may need to contact your school's network administrator. (See Troubleshooting section at the bottom of this page.) </pre><p><strong><a name="note" id="note">NOTE</a> about Sharing Fusion Tables:</strong> To share a FusionTable with others, you have to share it with each person individually, or you can share with a Google Group (see footnote at the end of this tutorial), the same way you would share a private google doc.  There is no way to share write privileges to a FusionTable with the public. Public access is restricted to read-only.</p>
+<h4 class="ai-header">Getting an API Key</h4>
+<p>In order to use the FusiontablesControl Component you need to acquire a Google Applications Programming Interface (API) key, an API Key. To get an API key, follow these instructions:</p>
+<ol><li>Go to your <a href="https://code.google.com/apis/console/">Google APIs Console</a> and login if necessary.</li>
+<li>Select the <strong>Services</strong> item from the menu on the upper left.</li>
+<li>In the list of services, find the <strong>Fusion Tables API</strong> service and click the toggle button that currently says "off".</li>
+<li>Read and agree to the terms of service. When you return to the APIs Console page you'll see that the on/off switch next to Fusion Tables API is now "On" and green.</li>
+<li>Go back up the menu on the upper left of the screen and select the <strong>API Access</strong> item.</li>
+<li>Your API Key will be in the rectangular box in the section called "Simple API Access". You will need set the "API Key" property of the Fusiontables Control component in any app that you make that uses Fusion Tables. (More info below.)</li>
+</ol><h4 class="ai-header">Building the App</h4>
+<p>Connect to the App Inventor web site and start a new project. Name the new project PizzaParty, set the screen's orientation to Portrait and uncheck the Screen's scrollable property. You may also wish to set the Screen's Title property to something other than 'Screen 1'.</p>
+<h4 class="ai-header">The User Interface</h4>
+<p>In addition to the FusiontablesControl component, the Pizza Party app makes use of several other types of components. It is assumed that you have learned how to use these in previous lessons. Use the component designer to create the interface for the Search Party. When completed, the designer should look like this:</p>
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/designer.png" /></p>
+<p>The components are: </p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Component Type
+</td>
+<td>
+Palette Group
+</td>
+<td>
+What you'll name it
+</td>
+<td>
+Purpose of Component
+</td>
+<td>
+Settings of Component
+</td>
+</tr><tr><td>
+<b>Label</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">LabelName</td>
+<td>Shows the text "Your Name:"</td>
+<td></td>
+</tr><tr><td>
+<b>TextBox</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">TextBoxUserName</td>
+<td>Gets input from user</td>
+<td>Set the width property to Fill Parent</td>
+</tr><tr><td>
+<b>HorizontalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement1</td>
+<td>Contains Name Label and Textbox</td>
+<td></td>
+</tr><tr><td>
+<b>ListPicker</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">ListPickerPizza</td>
+<td>Accesses the list of available pizza types</td>
+<td>
+<p>Set the Width property to Fill Parent</p>
+<p>Set the Text property to "What type of pizza?"</p>
+<p>Set the ElementsFromString to "Cheese, Pepperoni, Anchovies, Hawaiian"</p>
+</td>
+</tr><tr><td>
+<b>ListPicker</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">ListPickerDrink</td>
+<td>Accesses the list of available drinks.</td>
+<td>
+<p>Set the Width property to Fill Parent</p>
+<p>Set the Text property to "What type of drink?"</p>
+<p>Set the ElementsFromString to "Coke, Diet Coke, Sprite, Ginger Ale"</p>
+</td>
+</tr><tr><td>
+<b>Label</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">LabelComment</td>
+<td>Shows the text "Comments:"</td>
+<td></td>
+</tr><tr><td>
+<b>TextBox</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">TextBoxComments</td>
+<td>Takes user input</td>
+<td>Set the width property to Fill Parent</td>
+</tr><tr><td>
+<b>HorizontalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement2</td>
+<td>Contains Comments Label and Textbox</td>
+<td></td>
+</tr><tr><td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">ButtonSubmit</td>
+<td>Adds new data to the public fusion table</td>
+<td>
+<p>Set the Text to "Submit"</p>
+<p>Set the width property to Fill Parent</p>
+</td>
+</tr><tr><td>
+<b>WebViewer</b>
+</td>
+<td>Not ready for prime time</td>
+<td style="color:green;">WebViewer1</td>
+<td>Displays Fusion Table</td>
+<td>Set width and height properties to Fill Parent</td>
+</tr><tr><td>
+<b>FusiontablesControl</b>
+</td>
+<td>Not ready for prime time</td>
+<td style="color:green;">FusiontablesControl1</td>
+<td>Manages interactions with the app's Fusion Table</td>
+<td></td>
+</tr><tr><td>
+<b>Clock</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">Clock1</td>
+<td>Used to provide a timestamp each time an order is placed.</td>
+<td></td>
+</tr><tr><td>
+<b>Notifier</b>
+</td>
+<td>Other stuff</td>
+<td style="color:green;">Notifier1</td>
+<td>Notifies the user of any errors</td>
+<td></td>
+</tr></table><h4 class="ai-header">Determining your Fusion Table URL and Table ID</h4>
+<p>In the blocks editor, you will set the WebViewer component's HomeURL property to point to the URL of your table. To find your Fusion Table's URL:</p>
+<ol><li>In your browser, navigate to the new Fusion Table you just created.</li>
+<li>Go to the menu and select <b>Tools &gt; Publish</b>.</li>
+<li>You'll see a notice saying: "This table is private and will not be visible". Click the blue link that says "Change Visibility".</li>
+<li>In the list of "Who Has Access", click the blue "Change..." link next to "Private - Only people listed below..."</li>
+<li>Choose"Public on the Web" or "Anyone with the link". Either of these settings will work for this tutorial. In the future, you should decide this setting based on the sensitivity of your data.</li>
+<li>Click the green Save button, then the blue Done button.</li>
+<li>Back on the Fusion Table page, go to the menu bar and select <strong>Tools &gt; Publish</strong>. Select the URL from the top text box (labeled "Send in an email or IM"), copy the URL and return to App Inventor. You will paste the URL into the definition block for the TABLE_URL (see below).</li>
+<li>The Table ID of the fusion table is contained within the URL after the plus sign. Look for "from+" and then copy all of the characters after the plus. This is the Table's ID. You can also find the Table ID by browsing to your table, then selecting <b>File&gt;About this table</b> in the menu.</li>
+</ol><h4 class="ai-header">Blocks Editor</h4>
+<p>Open the Blocks Editor so you can program the app's behavior. First, you will describe the app's variables. Variables whose names are ALL_CAPS are constants -- that is, variables whose values do not change while the program is running. It is good to get into the habit of using this naming convention. Define the following variables and give them the initial values shown in the table.</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Variable Name
+</td>
+<td>
+Initial Value
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td>
+<b>TABLE_URL</b>
+</td>
+<td>text</td>
+<td>Initialize this global variable to the "published" URL of your fusion table. See instructions above.</td>
+</tr><tr><td>
+<b>TABLE_ID</b>
+</td>
+<td>text</td>
+<td>Initialize this global variable to your table ID (e.g. a long string of characters unique to your fusion table). See instructions above.<font></font></td>
+</tr><tr></tr><tr><td>
+<b>API_KEY</b>
+</td>
+<td>text</td>
+<td>Initialize this global variable to your own API Key for Google Fusion Tables. See instructions above.</td>
+</tr><tr><td>
+<b>UserName</b>
+</td>
+<td>text</td>
+<td>Records the name of the user.</td>
+</tr><tr><td>
+<b>pizza</b>
+</td>
+<td>text</td>
+<td>Stores the pizza choice input by the user.</td>
+</tr><tr><td>
+<b>drink</b>
+</td>
+<td>text</td>
+<td>Stores the drink choice input by the user.</td>
+</tr><tr><td>
+<b>comment</b>
+</td>
+<td>text</td>
+<td>Stores the comment input by the user.</td>
+</tr></table><p><b>Initializing the App</b></p>
+<p>It is important to perform some initialization steps whenever the app is started. These are done in the <span class="eventblock">Screen1.Initialize</span> block. For this app we need to set the initial values for the FusionTable component's API Key property (set to global API_KEY) and the WebViewer component's HomeURL property (set to global TABLE_URL). We also tell the app to forget the user's login credentials. This will prompt the user to login to their Google account and give permission to the app to access the Fusion Table. This authentication step will happen only once when the app first tries to access the Fusion Table. Remember, Fusion Tables are only writeable by users who have been given permission by the table's owner. You specify this in the Sharing settings for the Fusion Table (easy to do from the Google Drive webpage.)</p>
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/initialblocks.png" /></p>
+<p>Set up the <span class="callblock-ai2">resetForm</span> procedure as shown below. After recording an entry, this procedure resets the interface back to the original state.</p>
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/resetForm.png" /></p>
+<p><b>List Picker Blocks</b></p>
+<p>In the designer, you set the choices for the pizza and drink types by filling in the "Selection" property with comma separated lists. These pre-programmed choices will be displayed on the user interface so the user can select their food and drink. Their selections are stored in the pizza and drink variables.</p>
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/listpicker.png" /></p>
+<p><b>Submitting Data</b><br /></p><p></p>
+<p>Once the user has entered their name, food choices, and comments, they will click the <b>Submit</b> button. The app tests to make sure that the name, pizza, and drink fields have values in them, and prompts the user to try again if any of the required answers are missing. Notice that the <span class="textblock-ai2">text =</span> block is used (find it under Built-in palette, Text drawer). This block compares two strings of text to see if they are equal.  If all required information is present, it calls the procedure <span class="callblock-ai2">InsertDataInTable</span> (see below). The blocks for the <span class="eventblock">ButtonSubmit.Click</span> are shown here:</p>
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/submit.png" /></p>
+<p><b>Inserting Data into the Fusion Table</b></p>
+<p>The FusiontablesControl component is used to send the data to the Fusion Table. This action will create a new row in the Fusion Table, setting the values of the various columns involved. App Inventor makes this easy to do, but you have to be careful that the insert query is formatted correctly.</p>
+<p>This procedure involves two steps: (1) constructing the insert query and then (2) sending the query to Google's Fusion Table service. The query we want to send will take this format:</p>
+<p>INSERT INTO<br /><tableid> (<column1>, <column2>, ...) VALUES (<value1>, <value2>, ...)</value2></value1></column2></column1></tableid></p>
+<p>The words in CAPS are part of the query's syntax. The words in parentheses are values that we need to plug in. First there is a list of (column names) followed by VALUES followed by a list of (value names). The order of the column names and value names must be in the same order so that they match up. An example of what this might look like is shown below. Notice that the values must be enclosed in single quotes:</p>
+<p>INSERT INTO 191GHtZ_B2 (Name, Date) VALUES ('Sam', '10/10/2012')</p>
+<p>First, setup a new <span class="callblock-ai2">Procedure With Result</span> that takes a string and returns it surrounded by single quotes. The procedure <span class="callblock-ai2">quotify</span> is used in the InsertDataInTable procedure to place quotes around all of the values in the query. It also takes care of "escaping" any single quotes or apostrophes that are input by the user. You can send single apostrophes as part of a value in the query, so the "replace all" block adds an extra single quote. Two single quotes in a row are interpreted as one single quote.</p>
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/quotify.png" /></p>
+<p>To construct the query we use App Inventor's join text block. Be sure to put spaces where needed, such as before and after the words INSERT INTO and VALUES:</p>
+<p><img src="../sites/all/files/ai2tutorials/pizzaParty/insertTable.png" /></p>
+<p>For this app, the column names must match the column names of the table we created earlier (with columns Date, Name, Pizza, Drink, Comment). Their respective values are taken from the procedure's global variables.  Note: If you did not use these exact words for your table's columns, then be sure to use your table's column names when you build your query.</p>
+<p>Don't forget the <span class="callblock-ai2">FusiontablesControl.SendQuery</span> command at the very end of this procedure. It's small in size compared to rest of the procedure, but very important.</p>
+<p><b>Handling the Response from the Fusion Tables Service</b></p>
+<p>The <span class="eventblock">FusiontablesControl.GotResult</span> event will be fired when the app receives a response from Google's Fusion Tables Service. For an insert query the service will return the rowID of the new row that was inserted or an error message if something went wrong. In this simple example, we use the "contains" block ( (find it under Built-in palette, Text drawer) to check whether the result string has the rowID in it. If so, then we know that the rowID was received, and we then invoke the <span class="callblock-ai2">WebViewer.GoHome</span> procedure, which reloads the "HomeURL" as specified in the WebViewer's properties. Note that this set of blocks also calls the <span class="callblock-ai2">resetForm</span> procedure. After recording an entry, it resets the interface back to the original state.</p>
+
+<p><img src="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/gotresult.png" /></p>
+<p><b>You're done!</b> Package the app by going to <b>Package for Phone</b> on the Designer. You can now test the App for the purposes of the pizza party. Once you understand this tutorial, you'll be ready to make new Fusion Tables and modify the app to collect different types data from users. Remember, you have to give each user permission to access the Fusion Table. You do this through the Google Fusion Tables interface, not through App Inventor. Luckily, this means you don't have to change the app in order to add more users who can access the table.</p>
+<h4 class="ai-header">Challenges</h4>
+<p>This app has the Fusion Table hard-coded into the blocks. Find a way to let users specify their own fusion table ID so that they can host their own Pizza Party.</p>
+<h4 class="ai-header">Variations</h4>
+<p>Now that you have a simple app that uses fusion tables and a webviewer working, you might want to build some other apps with Fusion Tables. For example:</p>
+<ul><li>Include a <b>LocationSensor</b> so that the user's location can be added to the Fusion Table to create a map with notes</li>
+<li>Make the WebViewer display something other than the table of stored values; perhaps a map or a chart</li>
+</ul><h4 class="ai-header">Troubleshooting</h4>
+<p>If you are using a Google Apps for Education account, and you are not able to create a new fusion table (in the "Create" menu of Google Drive you won't even see an option for Fusion Tables), you will need to ask your system administrator to turn this option on for you. Or, you can switch to a standard gmail account. Fusion Tables are not automatically turned on for Google Apps for Education Accounts, your system administrator must make Fusion Tables available to the accounts in your domain.</p>
+<p>If you are receiving errors when trying to submit to the Fusion Table, especially if the error mentions Authentication, be sure that you have put the correct API Key into the API Key property field on the FusionTables component in the Design Window.</p>
+<p>To familiarize yourself with fusion tables, have a look around the <a href="http://support.google.com/fusiontables/bin/answer.py?hl=en&amp;answer=2571232">Fusion Tables Web Site</a>. Check out the example gallery to see what kinds of things are possible. Work through this <a href="http://earth.google.com/outreach/tutorial_fusion_sample.html">Fusion Table tutorial</a>, which shows how import some data, create a Fusion Table, and view the data on a map with your browser. You'll need to log in with your Google account.</p>
+<p><strong>To share a FusionTable with many people</strong>, rather than by entering email addresses individually, you can <strong>create a dedicated Google Group for your app and let all the app users know how to join the group</strong> (maybe through the web page for your app). From the moment you create your app, you share the Fusion Table once with your Google Group (using its email address), and <strong>make sure to give to the group editing rights</strong>. Every user who joins the group will inherit the editing rights automatically.</p>
+<pre class="ai-box"><span style="color:black;">Done with PizzaParty?</span> <a href="http://explore.appinventor.mit.edu/tutorials">Return to the other tutorials</a>.</pre><h4 class="ai-header">Download Source Code</h4>
+<p>If you'd like to work with this sample in App Inventor, download the <a href="http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT.aia">source code</a> to your computer, then open App Inventor, go to the My Projects page, and choose <b>More Actions | Upload Source</b>. Remember to add in your API KEY and Fusion Table information in the Designer and blocks.</p>
+</div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Version:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-version/app-inventor-2.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 2</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Difficulty:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-difficulty/advanced.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Advanced</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Type:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-type/clock-timer.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Clock Timer</a>      </li>
+
+    
+      <li class="field-item odd">
+        <a href="../tutorial-type/data-storage.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Data Storage</a>      </li>
+
+    
+  </ul>
+
+</section>
+  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from dev-explore.appinventor.mit.edu/node/381 by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 14 Nov 2013 04:45:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

@@ -1,0 +1,836 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta about="/content/makequiz-and-takequiz" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/dev-explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta content="MakeQuiz and TakeQuiz" about="/content/makequiz-and-takequiz" property="dc:title" />
+<link rel="shortlink" href="313.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../content/makequiz-and-takequiz.html" />
+  <title>MakeQuiz and TakeQuiz | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.base00fa.css?mvt5b2");
+@import url("../modules/system/system.menus00fa.css?mvt5b2");
+@import url("../modules/system/system.messages00fa.css?mvt5b2");
+@import url("../modules/system/system.theme00fa.css?mvt5b2");</style>
+<style>@import url("../modules/comment/comment00fa.css?mvt5b2");
+@import url("../modules/field/theme/field00fa.css?mvt5b2");
+@import url("../modules/node/node00fa.css?mvt5b2");
+@import url("../modules/search/search00fa.css?mvt5b2");
+@import url("../modules/user/user00fa.css?mvt5b2");
+@import url("../sites/all/modules/extlink/extlink00fa.css?mvt5b2");
+@import url("../sites/all/modules/views/css/views00fa.css?mvt5b2");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctools00fa.css?mvt5b2");
+@import url("../sites/all/modules/panels/css/panels00fa.css?mvt5b2");
+@import url("../sites/all/libraries/superfish/css/superfish00fa.css?mvt5b2");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.base00fa.css?mvt5b2");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layout00fa.css?mvt5b2");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messages00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/html-elements00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/forms00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/tables00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/page00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/articles00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/comments00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/fields00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/blocks00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/navigation00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/color/colors00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/sky.settings.style00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/reset00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/typography00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/layout00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/drupal00fa.css?mvt5b2");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/print00fa.css?mvt5b2");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style00fa.css?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels00fa.css?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style00fa.html?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels00fa.html?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/dev-explore.appinventor.mit.edu/files/at_css/appinventor.responsive.layout00fa.css?mvt5b2" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://dev-explore.appinventor.mit.edu/sites/dev-explore.appinventor.mit.edu/files/at_css/appinventor.lt-ie9.layout.css?mvt5b2" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupal00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/extlink/extlink00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/panels/js/panels00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/google_analytics/googleanalytics00fa.js?mvt5b2"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/libraries/superfish/jquery.hoverIntent.minified00fa.js?mvt5b2"></script>
+<script src="../sites/all/libraries/superfish/superfish00fa.js?mvt5b2"></script>
+<script src="../sites/all/libraries/superfish/supersubs00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/superfish/superfish00fa.js?mvt5b2"></script>
+<script src="../sites/all/themes/sky/js/scripts00fa.js?mvt5b2"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/video00fa.js?mvt5b2"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"3vCSe628H75flCVz239khatdg4Sa0gxi8JheIDevrrY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1,"public:\/\/at_css\/appinventor.responsive.layout.css":1,"public:\/\/at_css\/appinventor.lt-ie9.layout.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-313 page-type-tutorial lang-en site-name-explore-mit-app-inventor section-content color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor logo"/></a></div>
+          
+    </div>
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-superfish-1" class="block block-superfish block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix" role="navigation">
+              <h2 class="block-title element-invisible element-invisible">Simple_Nav</h2>
+            <ul id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-2 sf-single-items-1"><li id="menu-2892-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-no-children"><a href="../index-2.html" title="" class="sf-depth-1">Home</a></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">Blog ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">News &amp; Events</a></li><li id="menu-3039-1" class="last even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="../library.html" title="" class="sf-depth-1 menuparent">Support ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3104-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Library</a></li><li id="menu-3036-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-3038-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../forums.html" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="last even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li></ul></li></ul>  </nav>
+  </div>
+      <div class="region region-create">
+    <section id="block-block-21" class="block block-block block-odd block-count-2 block-region-create">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Create Button</h2>
+            <div class="block-content content">
+      <p><a href="http://ai2-test.appinventor.mit.edu/"><button>Create</button></a></p>
+    </div>
+  </div>
+</section>
+  </div>
+    </div>
+      <div class="region region-header">
+    <section id="block-block-23" class="block block-block block-odd block-count-3 block-region-header">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Social Icons</h2>
+            <div class="block-content content">
+      <p style="color:white;float:left;margin: 10px 5px;">
+Follow Us:</p>
+<p style="float:left;margin: 5px 10px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://twitter.com/AppInv"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="http://www.youtube.com/user/appinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>   <a href="mailto:do-not-reply@appinventor.mit.edu"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/gmail.png" style="width:25px;" /></a></p>
+    </div>
+  </div>
+</section>
+<div id="block-block-7" class="block block-block block-even block-count-4 block-region-header">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <script>
+  (function() {
+    var cx = '009943970440830858880:7m_hkyhma2q';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>    </div>
+  </div>
+</div>
+  </div>
+    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-5 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-313" class="article article-type-tutorial article-lang-en odd article-full clearfix" about="/content/makequiz-and-takequiz" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      MakeQuiz and TakeQuiz                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+	
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--><!]]>*/
+</style><h2 class="ai-header"><span style="color:green;">MakeQuiz</span> and <span style="color:green;">TakeQuiz</span></h2>
+<h4 class="ai-header">What you're building</h4>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/MakeQuizEmulator.png" style="float:right; width: 200px;" /></p>
+<p><span style="color:green;">MakeQuiz</span> and <span style="color:green;">TakeQuiz</span> are two apps that, in tandem, allow a teacher to create quizzes for a student. Parents can create fun trivia apps for their children during a long road trip, grade school teachers can build "Math Blaster" quizzes, and college students can build quizzes to help their study groups prepare for a final. This tutorial will walk you through creating both the MakeQuiz and the TakeQuiz app.</p>
+<p>This tutorial is a followup of the <a href="http://explore.appinventor.mit.edu/content/quizme">QuizMe tutorial</a> -- if you haven't completed that tutorial you should do so before continuing.</p>
+<h4 class="ai-header">Getting started</h4>
+<p>Connect to the App Inventor web site and start a new project. Name it "MakeQuiz", and also set the screen's <b style="color:green;">Title</b> to "MakeQuiz". Open the Blocks Editor and connect to the phone.</p>
+<h4 class="ai-header">Introduction</h4>
+<p>You'll design two apps, MakeQuiz for the "teacher" and TakeQuiz for the "student". With MakeQuiz:</p>
+<p><a href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/MakeQuiz.zip"><img src="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/downloadMakeQuizButton.PNG" style="float:right; width: 200px;border:none" /></a></p>
+<ul><li>The user enters questions and answers in an input form.</li>
+<li>The previously entered question-answer pairs are displayed.</li>
+<li>The quiz is stored persistently, in a database.</li>
+</ul><p>TakeQuiz will work similarly to the <a href="http://explore.appinventor.mit.edu/content/quizme">QuizMe</a> app-- in fact you'll build it using QuizMe as a basis. TakeQuiz will differ in that the questions asked will be those that were entered into the database using MakeQuiz.</p>
+<p>This tutorial introduces the following App Inventor concepts:</p>
+<ul><li>Input forms for allowing the user to enter information.</li>
+<li>Displaying lists: serializing a list variable to display it on separate lines.</li>
+<li>Persistent data: MakeQuiz will save the quiz questions and answers in a database and TakeQuiz will load them in from the database.</li>
+<li>Data Sharing: the two apps together illustrate how two phones (and even two apps) can communicate through a shared, web database:</li>
+</ul><p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/dbdiagram.png" /></p>
+<h4 class="ai-header">Set up the Components for MakeQuiz</h4>
+<p>Use the Component Designer to create the interface for MakeQuiz. When you finish, it should look something like the snapshot below (there are also more detailed instructions below the snapshot).</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/makeQuizComponents.png" /></p>
+<p>You'll use the following components to create MakeQuiz. Drag each component from the Palette into the Viewer and name it as specified below:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Component Type
+</td>
+<td>
+Palette Group
+</td>
+<td>
+What you'll name it
+</td>
+<td>
+Purpose of Component
+</td>
+</tr><tr><td>
+<b>HorizontalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement1</td>
+<td>Display the question prompt and textbox on one line</td>
+</tr><tr><td><b>Label</b></td>
+<td>Basic</td>
+<td style="color:green;">Label1</td>
+<td>The "Question:" prompt</td>
+</tr><tr><td><b>TextBox</b></td>
+<td>Basic</td>
+<td style="color:green;">QuestionText</td>
+<td>User enters questions here </td>
+</tr><tr><td><b>HorizontalArrangement</b></td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement2</td>
+<td>Display the answer prompt and textbox on one line</td>
+</tr><tr><td><b>Label</b></td>
+<td>Basic</td>
+<td style="color:green;">Label2</td>
+<td>The "Answer:" prompt</td>
+</tr><tr><td><b>TextBox</b></td>
+<td>Basic</td>
+<td style="color:green;">AnswerText</td>
+<td>User enters answers here </td>
+</tr><tr><td><b>Button</b></td>
+<td>Basic</td>
+<td style="color:green;">SubmitButton</td>
+<td>User clicks to submit a QA pair.</td>
+</tr><tr><td><b>Label</b></td>
+<td>Basic</td>
+<td style="color:green;">QuestionsAnswersLabel</td>
+<td>This will display previously entered QAs</td>
+</tr><tr><td><b>TinyWebDB</b></td>
+<td>Other Stuff</td>
+<td style="color:green;">TinyWebDB1</td>
+<td>To store to and retrieve from database</td>
+</tr></table><p>Set the properties of the components in the following way:</p>
+<ul><li>Set the Text of Label1 to "Question": and the Text of Label2 to "Answer":</li>
+<li>Set the Hint of QuestionText to "enter a question" and the Hint of AnswerText to "enter an answer".</li>
+<li>Set the Text of SubmitButton to " Submit "</li>
+<li>Set the Text of QuestionsAnswersLabel to "Questions and Answers".</li>
+</ul><p>Put <span style="color:green;">Label1</span> and <span style="color:green;">QuestionText</span> in <span style="color:green;">HorizontalArrangement1</span>, and <span style="color:green;">Label2</span> and <span style="color:green;">AnswerText</span> in <span style="color:green;">HorizontalArrangement2</span>.</p>
+<h4 class="ai-header">Add behaviors to the components</h4>
+<p>Open the Blocks Editor to add the behaviors for the app. As with the original QuizMe app, you'll first define some <em>global variables</em> for the QuestionList and AnswerList , but this time you won't provide fixed questions and answers. You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="setblock">def variable</span> ("QuestionList") </td>
+<td>Definitions</td>
+<td>Defines the <b>QuestionList</b> variable (rename it)</td>
+</tr><tr><td><span class="setblock">def variable</span> ("AnswerList") </td>
+<td>Definitions</td>
+<td>Defines the <b>AnswerList</b> variable (rename it)</td>
+</tr><tr><td><span class="listblock">make a list</span></td>
+<td>Lists</td>
+<td>To set up the <b>QuestionList</b> for new items</td>
+</tr><tr><td><span class="listblock">make a list</span></td>
+<td>Lists</td>
+<td>To set up the <b>AnswerList</b> for new items</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/lists.png" /></p>
+<p>Note that, unlike the original QuizMe app, the lists are empty to begin with. This is because with MakeQuiz and TakeQuiz, all data is created by the user of the app (it is <em>user-generated</em>). </p>
+<h4 class="ai-header">Handle the User's entries</h4>
+<p>The first behavior you'll build is for handling the user's input. Specifically, when the user enters a question and answer and clicks submit, you'll use <span class="listblock">add item to list</span> blocks to update the QuestionList and AnswerList.</p>
+<p>You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="basicblock">SubmitButton.Click </span></td>
+<td>SubmitButton</td>
+<td>This event is triggered when the user clicks this button.</td>
+</tr><tr><td><span class="listblock">add items to list</span> (2)</td>
+<td>Lists</td>
+<td>Use these to add the data entered by the user to the lists</td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>Plug into <b>list</b> slot of <u>first</u> <span class="listblock">add items to list</span></td>
+</tr><tr><td><span class="argblock">QuestionText.Text</span></td>
+<td>QuestionText</td>
+<td>User's entry; plug it into <b>item</b> slot of <u>first</u> <span class="listblock">add items to list</span></td>
+</tr><tr><td><span class="argblock">global AnswerList</span></td>
+<td>My Definitions</td>
+<td>Plug into <b>list</b> slot of <u>second</u> <span class="listblock">add items to list</span></td>
+</tr><tr><td><span class="argblock">AnswerText.Text</span></td>
+<td>AnswerText</td>
+<td>User's entry; plug it into <b>item</b> slot of <u>second</u> <span class="listblock">add items to list</span></td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/submitNoDisplay.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p><span class="listblock">add items to list</span> appends each item to the end of a list. Here, the app takes the text the user has entered in the QuestionText and AnswerText text boxes and appends each to the corresponding list.</p>
+<p>The behavior updates the hidden QuestionList and AnswerList variables, but the changes are not shown to the user. To display these lists, create a procedure "displayQAs" which makes a text object with both lists and places it into the QuestionsAnswersLabel. Then make sure to call the procedure at the bottom of <span class="basicblock">SubmitButton.Click</span>. You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="callblock">procedure</span> "displayQAs"</td>
+<td>Definitions</td>
+<td>Put the code to display questions and answers here</td>
+</tr><tr><td><span class="setblock">set QuestionsAnswersLabel.Text to</span></td>
+<td>QuestionsAnswersLabel</td>
+<td>Display the lists in this label.</td>
+</tr><tr><td><span class="textblock">make text</span></td>
+<td>Text</td>
+<td>Make a text object out of two lists and a colon separator</td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>Plug into <span class="textblock">make text</span></td>
+</tr><tr><td><span class="textblock">text</span> (":")</td>
+<td>Text</td>
+<td>Plug into <span class="textblock">make text</span></td>
+</tr><tr><td><span class="argblock">global AnswerList</span></td>
+<td>My Definitions</td>
+<td>Plug into <span class="textblock">make text</span></td>
+</tr><tr><td><span class="callblock">call displayQAs</span></td>
+<td>My Definitions</td>
+<td>Place in the bottom of the SubmitButton.Click event-handler</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/displayQAs1.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>The displayQAs procedure is called after the lists are modified in <span class="basicblock">SubmitButton.Click</span>. The QuestionsAnswersLabel is modified to display the two lists separated by a colon. By default, App Inventor displays lists with surrounding parenthesis and spaces between items:</p>
+<p style="color:grey;">(item1 item2 item3)</p>
+<p>Of course, this is not the ideal way to display the lists, but it will allow you to test your behavior for now. Later, you'll modify the displayQAs procedure to display a list on separate lines, and to display each question together with its corresponding answer.</p>
+<pre class="ai-testing"><b>Test this behavior.</b> On the phone, enter a question and answer and click Submit. The app should display the single entry in the QuestionList, a colon, and then the single entry in the AnswerList. Add a second question and answer to make sure the lists are being created correctly.</pre><h4 class="ai-header">Blanking Out the Question and Answer</h4>
+<p>When a user submits a question-answer pair, you should clear the QuestionText and AnswerText text boxes so they're ready for a new entry.</p>
+<p>You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="setblock">set QuestionText.Text to</span></td>
+<td>QuestionText</td>
+<td>To blank out question </td>
+</tr><tr><td><span class="setblock">set AnswerText.Text to</span></td>
+<td>AnswerText</td>
+<td>To blank out answer</td>
+</tr><tr><td><span class="textblock">text</span> (2 blank ones)</td>
+</tr></table><p>Here's how the blocks for the updated event handler should look:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/submitWithBlank.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>When the user submits a new question and answer, they are added to their respective lists. At that point, the text in the QuestionText and AnswerText is "blanked out" with empty text blocks (you create an empty text block by clicking on the the block's text and pressing the delete button).</p>
+<pre class="ai-testing"><b>Test the behavior.</b> Add some questions and answers. When you submit them, the QuestionText and AnswerText should show only their hint (when a TextBox's Text property is empty it shows the hint until the user clicks it).</pre><h4 class="ai-header">Storing the questions and answers in a database</h4>
+<p>As is, the app records the questions and answers entered by the user, but only in the phone's temporary memory. All variables in App Inventor are transient data-- they are stored on the phone and the data only "lives" through one run of an app. When the user closes the app, the data is lost.</p>
+<p>The <span style="color:green;">MakeQuiz</span> app needs to record the questions and answers in a database. This will allow the quiz creator (teacher) to always edit the latest update of the quiz. It will also allow the <span style="color:green;">TakeQuiz</span> app to load the quiz and administer it to the student.</p>
+<p>You'll use the <b>TinyWebDB</b> component to store and retrieve the QuestionList and AnswerList to and from a database. TinyWebDB allows you to store data in AppInventor-compliant databases that live on the web instead of on the phone.</p>
+<p>The general scheme for storing a list persistently is the following: each time a new item is added to the list, use TinyWebDB to update the database version of the list. Then each time the app is opened (<span class="callblock">Screen1.Initialize</span> event), reload the database version of the list into the variable.</p>
+<p>Start by storing the QuestionList and AnswerList in the database each time the user enters a new pair. You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="callblock">TinyWebDB1.StoreValue</span></td>
+<td>TinyWebDB1</td>
+<td>for storing questions in the database </td>
+</tr><tr><td><span class="textblock">text</span> ("questions")</td>
+<td>Text</td>
+<td>Plug in "questions" as the tag of <span class="callblock">StoreValue</span></td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>Plug into the value slot of <span class="callblock">StoreValue</span></td>
+</tr><tr><td><span class="callblock">TinyWebDB1.StoreValue</span></td>
+<td>TinyWebDB1</td>
+<td>For storing answers in the database</td>
+</tr><tr><td><span class="textblock">text</span> ("answers")</td>
+<td>Text</td>
+<td>Plug in "answers" as the tag of <span class="callblock">StoreValue</span></td>
+</tr><tr><td><span class="argblock">global AnswerList</span></td>
+<td>My Definitions</td>
+<td>Plug into the value slot of <span class="callblock">StoreValue</span></td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/submitWithStore.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>The last two rows of blocks store data in the database. The tag arguments label the data being stored so that you can retrieve it later. The QuestionList is stored with a tag of "questions" while the AnswerList is stored with a tag of "answers".</p>
+<p>Although our example uses "questions" as the tag, you should actually use your own tag, e.g., "DavesQuestions", because by default, the database entries of all App Inventor programs share the same namespace and so your list of questions may get confused with someone else's list of questions since you both used the same tag. For more information, see <a href="../content/custom-tinywebdb-service.html">Creating a Custom TinyWebDB service</a>.</p>
+<pre class="ai-testing"><b>Test this behavior.</b> TinyWebDB stores information on the web, so you can open a browser page to test whether this behavior is working. By default, TinyWebDB stores information at http://appinvtinywebdb.appspot.com . Browse there to check if your data was stored as desired. There will be many entries, as the default service is for testing and is used by many programmers. If you search on the page, you should find the tag-value pairs you just stored.
+
+Because the default service is shared amongst programmers and apps, it is only for testing. Fortunately, setting up your own database service is straight forward. For more information, see <a href="../content/custom-tinywebdb-service.html">Creating a Custom TinyWebDB service</a>.</pre><h4 class="ai-header">Loading Data from the Database</h4>
+<p>Once the blocks for storing the lists are working, you can add the blocks for loading the lists back in each time the app begins.</p>
+<p>Loading data from a TinyWebDB database is a two-step process. First, you request the data by calling <span class="callblock">TinyWebDB.GetValue</span> and providing a tag.</p>
+<p><span class="callblock">GetValue</span> only requests the data from the web service. After the request is made, your app can do other things, such as responding to user actions, while it waits for the TinyWebDB web service to send the data. When the data arrives, a <span class="basicblock">TinyWebDB.GotValue</span> event is triggered. When that event occurs, the data requested is in a variable named "valueFromWebDB". The tag you requested is in the variable "tagFromWebDB". You can access these variables in the <span class="basicblock">TinyWebDB.GotValue</span> event handler.</p>
+<p>In this case, the app needs to request two things from the TinyWebDB web service, the questions and the answers, so the <span class="basicblock">Screen1.Initialize</span> will make two calls to <span class="callblock">getValue</span>. When the data arrives and the <span class="basicblock">GotValue</span> event-handler is triggered, the app should check the tag to see which request has arrived, and then load the corresponding list. Once the lists are both loaded, <span class="callblock">displayQAs</span> can be called to display them. </p>
+<p>You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="basicblock">Screen1.Initialize</span></td>
+<td>Screen1</td>
+<td>Event handler triggered when app begins </td>
+</tr><tr><td><span class="callblock">TinyWebDB.GetValue</span> (2)</td>
+<td>TinyWebDB</td>
+<td>To request the stored QuestionList and AnswerList</td>
+</tr><tr><td><span class="textblock">text</span> ("questions")</td>
+<td>Text</td>
+<td>use as the tag to retrieve QuestionList</td>
+</tr><tr><td><span class="textblock">text</span> ("answers")</td>
+<td>Text</td>
+<td>use as the tag to retrieve AnswerList</td>
+</tr><tr><td><span class="basicblock">TinyWebDB.GotValue</span></td>
+<td>TinyWebDB1</td>
+<td>Event handler triggered when data arrives</td>
+</tr><tr><td><span class="controlblock">ifelse</span></td>
+<td>Control</td>
+<td>Need to ask which GetValue request arrived</td>
+</tr><tr><td><span class="basicblock">=</span> block</td>
+<td>Math</td>
+<td>Compare tagFromWebDB to "questions"</td>
+</tr><tr><td><span class="textblock">text</span> ("questions")</td>
+<td>Text</td>
+<td>This is the tag that was used to store QuestionList</td>
+</tr><tr><td><span class="argblock">value TagFromWebDB</span></td>
+<td>My Definitions</td>
+<td>An argument of GotValue, specifies which request</td>
+</tr><tr><td><span class="setblock">set QuestionList to</span></td>
+<td>My Definitions</td>
+<td>If TagFromWebDB is "questions" this list will be set</td>
+</tr><tr><td><span class="setblock">set AnswerList to</span></td>
+<td>My Definitions</td>
+<td>If TagFromWebDB is not "questions" this list will be set</td>
+</tr><tr><td><span class="argblock">value ValueFromWebDB</span> (2)</td>
+<td>My Definitions</td>
+<td>This holds the value returned from database</td>
+</tr><tr><td><span class="controlblock">if</span></td>
+<td>Control</td>
+<td>Check if both the lists are loaded before displaying</td>
+</tr><tr><td><span class="basicblock">=</span> block</td>
+<td>Math</td>
+<td>Compare the lengths of the lists</td>
+</tr><tr><td><span class="listblock">length of list</span> (2)</td>
+<td>Lists</td>
+<td>Check if the length of the lists are the same</td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>Plug into one of the <span class="listblock">length of list</span> blocks</td>
+</tr><tr><td><span class="argblock">global AnswerList</span></td>
+<td>My Definitions</td>
+<td>Plug into the other <span class="listblock">length of list</span> blocks</td>
+</tr><tr><td><span class="callblock">call displayQAs</span></td>
+<td>My Definitions</td>
+<td>Display the newly loaded questions and answers</td>
+</tr></table><p>The blocks should look like:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/gotValue.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>When the app begins, the <span class="basicblock">Screen1.Initialize</span> event is triggered. The app calls <span class="callblock">TinyWebDB1.GetValue</span> twice, once to request the stored QuestionList and once to request the stored AnswerList. After requesting the data, the app can handle other events while it waits for the web database to answer the request.
+</p><p>When the data arrives from the web database, the <span class="basicblock">TinyWebDB1.GotValue</span> event is triggered. Since two requests were made, it will be triggered twice, once for each list.</p>
+<p>In the <span class="basicblock">GotValue</span> event-handler, the value returned is in the variable valueFromWebDB . The corresponding tag is in tagFromWebDB . The blocks first check to see which request has returned (even though the request for "questions" is made first in <span class="basicblock">Screen1.Initialize</span>, there is no guarantee that the QuestionList will arrive first). If the tag is "questions", the valueFromWebDB is put into the variable QuestionList. Otherwise (else) it is placed in the AnswerList.</p>
+<p>At the bottom of <span class="basicblock">GotValue</span>, the app checks to see if both lists have been loaded-- one way to check is to see if the lengths of the lists are the same. If they are, displayQAs is called to display them on the phone.</p>
+<pre class="ai-testing"><b>Test this behavior.</b> Select Restart Phone in the Blocks Editor. When the app initializes, it should display the previously entered questions and answers. If you close the app and restart again, the previous quiz should still appear.</pre><p>The version of <span style="color:green;">MakeQuiz</span> you've created so far works: the user can create a quiz and it will be stored persistently in the database. If you can accept the fact that the quiz is displayed in an inelegant way, you can proceed to creating the sister app, <span style="color:green;">TakeQuiz</span>, which lets a user step through the quiz and answer the questions.</p>
+<p>If you'd like to learn how to display list data in a more elegant fashion, step through the steps directly below.</p>
+<h4 class="ai-header">Displaying a List on Multiple Lines</h4>
+<p>In the app you've built so far, the question and answer lists are displayed separately and with the default list display format, e.g.,</p>
+<p style="color:grey;">(question1 question2 question3): (answer1 answer2 answer3)</p>
+<p>In this section, you'll modify the app so that the newly entered question-answer pairs are displayed in tandem, one on each line:</p>
+<p style="color:grey;">question1:answer1<br />
+question2:answer2<br />
+question3:answer3</p>
+<p>Displaying the data in this way is non-trivial, so you'll start by first displaying a single list, the QuestionList, with each item on a separate line.</p>
+<pre class="ai-box">To display a list on separate lines, you must serialize it . This means to build a single text object with all the items of the list in it and a special character, '\n', between each item. A "\n" within a text object appears as a newline character when displayed. 
+
+For example, suppose the user has entered two questions, "What is the capital of California?" and "What is the capital of New York?" and these have succesfully been added to the QuestionList . Your displayQAs procedure should build a text object from QuestionList that looks like:
+
+<span style="color:black;">"\nWhat is the capital of California\nWhat is the capital of New York?"</span>
+
+When displayed on the phone, such text would appear as: 
+
+<span style="color:black;">What is the capital of California? 
+What is the capital of New York?</span></pre><p>All the changes will occur in the procedure <span class="callblock">displayQAs</span>. You'll remove the blocks within that procedure, and use a <span class="controlblock">foreach</span> block to build the text by successively adding each question. The blocks within the foreach should add the current item (question) to the end of the text object (QuestionsAnswersLabel) you are building. You'll need the following blocks: </p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="setblock">set QuestionsAnswersLabel.Text to</span></td>
+<td>QuestionsAnswersLabel</td>
+<td>Initialize the label to empty before repeatedly adding to it</td>
+</tr><tr><td><span class="textblock">text</span> (blank)</td>
+<td>Text</td>
+<td>plug into <span class="setblock">set QuestionsAnswersLabel.Text to</span></td>
+</tr><tr><td><span class="controlblock">foreach</span></td>
+<td>Control</td>
+<td>For each item in list, you'll concatenate it to the QuestionsAnswersLabel</td>
+</tr><tr><td><span class="argblock">name var</span></td>
+<td>already in foreach</td>
+<td>The current item of <span class="controlblock">foreach</span>; rename it to "question"</td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>Plug this into "in list" slot of <span class="controlblock">foreach</span></td>
+</tr><tr><td><span class="setblock">set QuestionsAnswersLabel.Text to</span></td>
+<td>QuestionsAnswersLabel</td>
+<td>Iteratively build the text</td>
+</tr><tr><td><span class="textblock">make text</span></td>
+<td>Text</td>
+<td>build a text object</td>
+</tr><tr><td><span class="argblock">QuestionsAnswersLabel.Text</span></td>
+<td>QuestionsAnswersLabel</td>
+<td>Plug into make text</td>
+</tr><tr><td><span class="argblock">value question</span></td>
+<td>My Definitions</td>
+<td>Plug into make text (make sure you've renamed foreach variable to "question")</td>
+</tr><tr><td><span class="textblock">text</span> ("/n")</td>
+<td>Text</td>
+<td>New-line character so following text on another line</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/displayQA1.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>When the procedure is called, the <span class="setblock">QuestionsAnswersLabel.Text</span> is first set to the empty text. This is in preparation for the <span class="controlblock">foreach</span> block that comes next, which will build the text in <span class="setblock">QuestionsAnswersLabel.Text</span> incrementally.</p>
+<p>The <span class="controlblock">foreach</span> block specifies that the blocks within it are to be executed once for every item in QuestionList. If there are three questions, then the inner blocks will be executed three times. Within the foreach, the current item being processed is named question.</p>
+<p>On each iteration, <span class="argblock">QuestionsAnswersLabel.Text</span> is modified. Each time it is set to its previous value, along with the newline character, "\n" and the current question being processed.</p>
+<p>When the <span class="controlblock">foreach</span> completes, <span class="argblock">QuestionsAnswersLabel.Text</span> will be text string with all the items separated by newline characters. As the app is processing each iteration of the foreach , the phone display doesn't change. But when it completes, the text in <span class="argblock">QuestionsAnswersLabel.Text</span> is displayed on the phone and the items appear on separate lines.</p>
+<pre class="ai-testing"><b>Test the behavior.</b> On the phone, add another question and answer and click Submit. Now, only the questions should be displayed and they should be displayed on separate lines.</pre><h4 class="ai-header">Including the answer in DisplayQAs</h4>
+<p>The displayQAs procedure you've created ignores answers and only displays questions. In the next version of displayQAs , you'll display the data as question-answer pairs, e.g., </p>
+<p style="color:grey;">What is the capital of California?: Sacramento<br />
+What is the capital of New York?: Albany </p>
+<p>Modify displayQAs. Use an index variable to access each answer as the foreach block walks through the questions. You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Block type
+</td>
+<td>
+Drawer
+</td>
+<td>
+Purpose
+</td>
+</tr><tr><td><span class="setblock">def var</span> ("answer")</td>
+<td>Definitions</td>
+<td>To temporarily store each answer</td>
+</tr><tr><td><span class="setblock">def var</span> ("answerIndex")</td>
+<td>Definitions</td>
+<td>To keep track of which answer (and question) you're on</td>
+</tr><tr><td><span class="textblock">text</span> ("text")</td>
+<td>Text</td>
+<td>Initialize the variable answer to text.</td>
+</tr><tr><td><span class="basicblock">number</span> (1)</td>
+<td>Math</td>
+<td>Initialize the variable answerIndex to 1</td>
+</tr><tr><td><span class="setblock">set answerIndex to</span></td>
+<td>My Definitions</td>
+<td>Re-initialize answerIndex each time displayQAs called</td>
+</tr><tr><td><span class="basicblock">number</span> (1)</td>
+<td>Math</td>
+<td>To re-initialize answerIndex to 1</td>
+</tr><tr><td><span class="setblock">set answer to</span></td>
+<td>My Definitions</td>
+<td>set this variable each time in the <span class="controlblock">foreach</span></td>
+</tr><tr><td><span class="listblock">select list item</span></td>
+<td>Lists</td>
+<td>select from the list AnswerList</td>
+</tr><tr><td><span class="argblock">global AnswerList</span></td>
+<td>My Definitions</td>
+<td>plug into list slot of <span class="listblock">select list item</span></td>
+</tr><tr><td><span class="argblock">global answerIndex</span></td>
+<td>My Definitions</td>
+<td>Plug into index slot of <span class="listblock">select list item</span></td>
+</tr><tr><td><span class="listblock">set answerIndex to</span></td>
+<td>My Definitions</td>
+<td>In order to increment it each iteration through loop</td>
+</tr><tr><td><span class="argblock">global answerIndex</span></td>
+<td>My Definitions</td>
+<td>To increment answerIndex , add 1 to itself.</td>
+</tr><tr><td><span class="basicblock">number</span> (1)</td>
+<td>Math</td>
+<td>To increment answerIndex</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/displayQAsWithAnswers.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>The <span class="controlblock">foreach</span> only allows you to iterate through one list. In this case, there are two lists and you need to step through and select each answer as you proceed through the questions. The strategy is to use an index variable, as was done with the currentQuestionIndex in the QuizMe tutorial.</p>
+<p>For this behavior, the index is a position in the AnswerList, so its named answerIndex. The index is set to 1 before the <span class="controlblock">foreach</span> begins. Within the foreach, it is used to select the current answer from the AnswerList, and then it is incremented.</p>
+<pre class="ai-testing"><b>Test this behavior.</b> On the phone, add some more question/answer pairs. The display should now show each question with its corresponding answer, and each question:answer pair on separate lines.</pre><h4 class="ai-header">Final MakeQuiz App</h4>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/makeQuizFinal.png" /></p>
+<h4 class="ai-header">Scan the Sample App to your Phone</h4>
+<p>Scan the following barcode onto your phone to install and run MakeQuiz.
+</p><p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/MakeQuizBarcode.png" /></p>
+<p>Or <a href="http://explore.appinventor.mit.edu/sites/all/files/tutorials/makeQuizTakeQuiz/MakeQuiz.apk">download the source code</a></p>
+<p>.</p>
+<h4 class="ai-header">TakeQuiz</h4>
+<p><a href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/TakeQuiz.zip"><img src="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/downloadTakeQuizButton.PNG" style="float:right; width: 200px;" /></a></p>
+<p>Building TakeQuiz is simpler; it can be built with a few modifications to the <a href="http://explore.appinventor.mit.edu/content/quizme">QuizMe</a> app you completed earlier (if you have not completed that tutorial, do so now before continuing).</p>
+<p>Begin by opening your QuizMe app, choosing SaveAs, and naming the new project "TakeQuiz." This will leave your QuizMe app as is and allow you to use a copy of it as the basis for TakeQuiz. </p>
+<p>This version of MakeQuiz/TakeQuiz does not handle images, so first remove the images from the TakeQuiz app: </p>
+<ol><li>In the Component Designer, choose each image from the media palette and delete it. Also delete the Image1 component, which will remove all references to it from the Blocks Editor.</li>
+<li>In the Blocks Editor, drag the PictureList to the trash.</li>
+</ol><p>Since TakeQuiz will work with database data, drag a TinyWebDB component into the Component Designer viewer.</p>
+<p>Now modify the blocks so that the quiz given to the user is the one from the database. First, since there are no fixed questions and answers, remove all of the actual question and answer text blocks from the make a list blocks within the QuestionList and AnswerList. The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/emptylists.png" /></p>
+<p>Now modify your <span class="basicblock">Screen1.Initialize</span> so that it calls <span class="spanblock">TinyWebDB.GetValue</span> twice to load the lists. The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/screenInit.png" /></p>
+<p>Finally, drag out a <span class="basicblock">TinyWebDB.GotValue</span> event-handler. This event-handler should look similar to the one used in MakeQuiz, but here you only want to show the first question and none of the answers. The blocks should look like this:</p>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/TakeQuizGotValue.png" /></p>
+<h4 class="ai-header">How the Blocks Work</h4>
+<p>When the app begins, <span class="basicblock">Screen1.Initialize</span> is triggered and the app requests the questions and the answers from the web database. When each of those requests arrives, the <span class="basic">TinyWebDB.GotValue</span> event-handler is triggered. The app asks which request has come in, using tagFromWebDB , and places the valueFromWebDB into the appropriate list. If it is the QuestionList being loaded, the first question is selected from QuestionList and displayed.</p>
+<pre class="ai-testing"><b>Test the behavior.</b> Click <b>Restart Phone App</b>. Does the first question from the quiz you created with MakeQuiz appear? Can you take the quiz just as you did with QuizMe (except for the pictures)?</pre><h4 class="ai-header">Final Program (Take Quiz)</h4>
+<p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/takequizfinal.png" /></p>
+<h4 class="ai-header">Scan the Sample App to your Phone</h4>
+<p>Scan the following barcode onto your phone to install and run Take Quiz.
+</p><p><img src="../sites/all/files/tutorials/makeQuizTakeQuiz/TakeQuizBarcode.png" /></p>
+<p>Or <a href="http://explore.appinventor.mit.edu/sites/all/files/tutorials/makeQuizTakeQuiz/TakeQuiz.apk">download the source code</a>.</p>
+<h4 class="ai-header">Variations</h4>
+<p>Once you get MakeQuiz and TakeQuiz working, you might want to explore some variations. For example,</p>
+<ul><li>Incorporate images into the apps. The images will need to be URLs from the web, and the test creator will need to specify these URLs as a third item in the MakeQuiz form.</li>
+<li>Allow the user to delete items from the questions and answers. You can let the user choose using the ListPicker component, and you can remove an item with the remove list item</li>
+<li>Allow multiple quizzes to be created. You'll need to conceptualize the list of quizzes as a list of lists.</li>
+</ul><h4 class="ai-header">Review</h4>
+<p>Here are some of the ideas covered in this tutorial: </p>
+<ul><li>You can store data persistently in a web database with the <b>TinyWebDB</b> component.</li>
+<li>You retrieve data from a TinyWebDB database by requesting it with GetValue . When the web database returns the data, the <span class="basicblock">TinyWebDB.GotValue</span> event is triggered. At that point, you can put the data in a list or process it in some way.</li>
+<li>TinyWebDB data can be shared amongst multiple phones and apps.</li>
+</ul><pre class="ai-box">MIT and Google are grateful to <a href="http://www.appinventor.org/">Professor David Wolber</a>, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with <span style="color:black;">MakeQuiz</span> and <span style="color:black;">TakeQuiz</span>? Return to the other tutorials <a href="../tutorials.html">here</a>.</pre></div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Version:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-version/app-inventor-1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 1</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Difficulty:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-difficulty/advanced.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Advanced</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Type:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-type/data-storage.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Data Storage</a>      </li>
+
+    
+      <li class="field-item odd">
+        <a href="../tutorial-type/game.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Game</a>      </li>
+
+    
+  </ul>
+
+</section>
+  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from dev-explore.appinventor.mit.edu/node/313 by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 14 Nov 2013 04:45:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

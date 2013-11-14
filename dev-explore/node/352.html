@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta about="/ai2/support/troubleshooting" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../sites/dev-explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta content="Troubleshooting for App Inventor 2" about="/ai2/support/troubleshooting" property="dc:title" />
+<link rel="shortlink" href="352.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../ai2/support/troubleshooting.html" />
+  <title>Troubleshooting for App Inventor 2 | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.base00fa.css?mvt5b2");
+@import url("../modules/system/system.menus00fa.css?mvt5b2");
+@import url("../modules/system/system.messages00fa.css?mvt5b2");
+@import url("../modules/system/system.theme00fa.css?mvt5b2");</style>
+<style>@import url("../modules/comment/comment00fa.css?mvt5b2");
+@import url("../modules/field/theme/field00fa.css?mvt5b2");
+@import url("../modules/node/node00fa.css?mvt5b2");
+@import url("../modules/search/search00fa.css?mvt5b2");
+@import url("../modules/user/user00fa.css?mvt5b2");
+@import url("../sites/all/modules/extlink/extlink00fa.css?mvt5b2");
+@import url("../sites/all/modules/views/css/views00fa.css?mvt5b2");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctools00fa.css?mvt5b2");
+@import url("../sites/all/modules/panels/css/panels00fa.css?mvt5b2");
+@import url("../sites/all/libraries/superfish/css/superfish00fa.css?mvt5b2");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.base00fa.css?mvt5b2");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layout00fa.css?mvt5b2");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messages00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/html-elements00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/forms00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/tables00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/page00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/articles00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/comments00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/fields00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/blocks00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/navigation00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/color/colors00fa.css?mvt5b2");
+@import url("../sites/all/themes/sky/css/sky.settings.style00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme00fa.css?mvt5b2");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/reset00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/typography00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/layout00fa.css?mvt5b2");
+@import url("../sites/all/themes/appinventor/assets/css/drupal00fa.css?mvt5b2");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/print00fa.css?mvt5b2");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style00fa.css?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels00fa.css?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style00fa.html?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels00fa.html?mvt5b2" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/dev-explore.appinventor.mit.edu/files/at_css/appinventor.responsive.layout00fa.css?mvt5b2" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://dev-explore.appinventor.mit.edu/sites/dev-explore.appinventor.mit.edu/files/at_css/appinventor.lt-ie9.layout.css?mvt5b2" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupal00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/extlink/extlink00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/panels/js/panels00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/google_analytics/googleanalytics00fa.js?mvt5b2"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/libraries/superfish/jquery.hoverIntent.minified00fa.js?mvt5b2"></script>
+<script src="../sites/all/libraries/superfish/superfish00fa.js?mvt5b2"></script>
+<script src="../sites/all/libraries/superfish/supersubs00fa.js?mvt5b2"></script>
+<script src="../sites/all/modules/superfish/superfish00fa.js?mvt5b2"></script>
+<script src="../sites/all/themes/sky/js/scripts00fa.js?mvt5b2"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/video00fa.js?mvt5b2"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"xEGl02tJVF1ue1EpCzW0kDzB4TZr4Z7s-2F0Ye2rEDk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1,"public:\/\/at_css\/appinventor.responsive.layout.css":1,"public:\/\/at_css\/appinventor.lt-ie9.layout.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-352 page-type-page lang-en site-name-explore-mit-app-inventor section-ai2 color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor logo"/></a></div>
+          
+    </div>
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-superfish-1" class="block block-superfish block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix" role="navigation">
+              <h2 class="block-title element-invisible element-invisible">Simple_Nav</h2>
+            <ul id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-2 sf-single-items-1"><li id="menu-2892-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-no-children"><a href="../index-2.html" title="" class="sf-depth-1">Home</a></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">Blog ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">News &amp; Events</a></li><li id="menu-3039-1" class="last even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li></ul></li><li id="menu-2894-1" class="active-trail last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="../library.html" title="" class="sf-depth-1 menuparent">Support ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3104-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Library</a></li><li id="menu-3036-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-3038-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../forums.html" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="active-trail last even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2 active">Troubleshooting</a></li></ul></li></ul>  </nav>
+  </div>
+      <div class="region region-create">
+    <section id="block-block-21" class="block block-block block-odd block-count-2 block-region-create">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Create Button</h2>
+            <div class="block-content content">
+      <p><a href="http://ai2-test.appinventor.mit.edu/"><button>Create</button></a></p>
+    </div>
+  </div>
+</section>
+  </div>
+    </div>
+      <div class="region region-header">
+    <section id="block-block-23" class="block block-block block-odd block-count-3 block-region-header">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Social Icons</h2>
+            <div class="block-content content">
+      <p style="color:white;float:left;margin: 10px 5px;">
+Follow Us:</p>
+<p style="float:left;margin: 5px 10px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://twitter.com/AppInv"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="http://www.youtube.com/user/appinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>   <a href="mailto:do-not-reply@appinventor.mit.edu"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/gmail.png" style="width:25px;" /></a></p>
+    </div>
+  </div>
+</section>
+<div id="block-block-7" class="block block-block block-even block-count-4 block-region-header">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <script>
+  (function() {
+    var cx = '009943970440830858880:7m_hkyhma2q';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>    </div>
+  </div>
+</div>
+  </div>
+    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-5 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-352" class="article article-type-page article-lang-en odd article-full clearfix" about="/ai2/support/troubleshooting" typeof="foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      Troubleshooting for App Inventor 2                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><ul><li><a href="#install-drivers">Installing device drivers</a></li>
+<li><a href="#blocks">Using the Blocks Editor and loading projects</a></li>
+<li><a href="#Phone over wifi">Connecting the phone over wifi</a></li>
+<li><a href="#emulator-mac">Using the emulator.</a></li>
+<li><a href="#emulator-and-usb">Trouble using USB after using the emulator</a></li>
+<li><a href="#Apps">Running apps on the phone</a></li>
+<li><a href="#MultiScreens">Testing Apps With Multiple-Screens</a></li>
+<li><a href="#Sounds">Working with sounds and images</a></li>
+<li><a href="#Packaging">Packaging projects for a device</a></li>
+<li><a href="#Keystores">Keystores and Signing of Applications (".apk" files)</a></li>
+<li><a href="#Lost">I'm just lost!</a></li>
+</ul><h3 style="color:green;" id="install-drivers">Installing device drivers</h3>
+<p><strong>I ran the App Inventor Setup installer on Windows, but the phone device drivers do not install.</strong></p>
+<p>There are multiple reasons for this, and we're trying to track them all down. The <a href="http://explore.appinventor.mit.edu/content/windows-drivers">Windows driver installation instructions</a> in the App Inventor documentation contain our best advice, and we'll keep those current as we get more information from users.</p>
+<p>Note that the drivers included in with the App Inventor Setup software do not work on all Android devices, and you may need to get drivers from the manufacturers. See the <a href="http://explore.appinventor.mit.edu/content/windows-drivers">Windows driver installation instructions</a> for advice, and check the <a href="../forums.html">App Inventor Forum</a> to see if others have had similar issues with the version of Windows and the particular device you are using.</p>
+<p>Also, the driver issues around App Inventor are the same as for the Android SDK in general, so doing a Web search for driver issues around the Android SDK may also be worthwhile. It also might be worthwhile to search the <a href="https://groups.google.com/forum/?fromgroups#!forum/android-beginners">Android Beginners Google Group</a> and the <a href="https://groups.google.com/forum/?fromgroups#!forum/android-developers">Android Developers Google Group</a>.</p>
+<h3 style="color:green;" id="blocks">Using the Blocks Editor and loading projects</h3>
+<p><strong>My Blocks vanished from the Blocks Editor.</strong></p>
+<p>They may have scrolled off the window. Try moving the scrollbars. A way to move the scrollbar even more than it allows is to drag a block to the bottom or top of the scrollbar, release, and repeat.</p>
+<p><b>The Blocks Editor won't connect to the phone or media files don't show up on the phone.</b></p>
+<p>There are several possible causes for this, depending on the model phone you are using. Causes include (1) the settings on your phone and (2) interference from other applications running on your phone or your laptop. Take a look at the <a href="http://beta.appinventor.mit.edu/learn/connectionissues.html">connectivity troubleshooting page</a> for some things to try.</p>
+<p><b>I'm using Firefox and I get a message about being unable to access project definitions.</b></p>
+<p>If you are using Firefox and have the "noscript" extension installed, you'll need to disable it or else you'll see errors saying that the system cannot access your project definitions. Other tools and system configurations that restrict access to your computer (e.g., firewalls) may also interfere with App Inventor. You should check for these if you encounter errors about reading definitions or connecting to the phone.</p>
+<h3 style="color:green;" id="Phone over wifi">Connecting the phone over wifi</h3>
+<p><b>I'm using wireless and the phone won't connect to the blocks editor.</b></p>
+<p>Try the following steps to troubleshoot your wireless connection.</p>
+<ol><li>Try to reach <a href="http://rendezvous.appinventor.mit.edu/">http://rendezvous.appinventor.mit.edu</a> from your computer.</li>
+<li>Try to reach <a href="http://rendezvous.appinventor.mit.edu/">http://rendezvous.appinventor.mit.edu</a> from the phone itself.</li>
+<li>If the steps above both work, try using the "ping" command to ping to the IP Address of the phone (displayed by the MIT AICompanion in its startup window). If you are using windows, type "ping" + *IP address of the phone* in cmd.exe window, if you are using mac or linux, type type "ping" + *IP address of the phone* in terminal window. Detailed instruction see <a href="http://www.wikihow.com/Ping-an-IP-Address">http://www.wikihow.com/Ping-an-IP-Address</a></li>
+<li>If all of these steps succeed and Wireless App Inventor *still* doesn't work, then there may be a firewall between the computer and phone that is blocking ports 8001 and 9987. If you have a "telnet" program you can attempt to telnet from the computer to the phone on these ports. If the connection won't complete, then there is likely a firewall in place that is blocking connections to the phone.</li>
+</ol><p><b>I cannot find the MIT AICompanion App on the Google Play Store.</b></p>
+<p>If you cannot access the MIT AICompanion App via the Google Play Store, you may download it here <a href="http://appinventor.mit.edu/download/AppInventorCompanion.apk">AppInventorCompanionApp.apk</a> and install it directly onto your phone (note that to directly install, you will need to allow installation of non-market apps in your device's system settings). Directly loading App Inventor in this way means that the Play Store can not automatically update the App. When there is an App Inventor upgrade, you will need to manually update the Companion App.</p>
+<p><b> I installed the MIT AICompanion App before and it doesn't work now. </b></p>
+<p>You must use the latest version of the MIT AICompanion App. If you attempt to use an older version of the Companion App with App Inventor, you will be prompted to update it.</p>
+<p><b> I followed all the wireless instructions and my phone is connected to wifi, and I still cannot connect to App Inventor via wifi. </b></p>
+<p>If you have trouble connecting using these wireless instructions, make sure your phone is using WiFi and not the cell network. On some devices and in some locations, even with WiFi enabled, the phone continues to use the cell network for Internet connectivity. If this is happening to you, you can disable mobile networking (cell phone carrier based Internet connectivity) from your device's Android settings menu.</p>
+<h3 style="color:green;" id="emulator-mac">Running the Emulator</h3>
+<p><strong>I'm trying to use the emulator, and it's not working.</strong></p>
+<p>Any time that you want to use the emulator, you need to make sure that aiDaemon, a program that gets installed on your computer when you installed the initial setup package, is running.</p>
+<p>If this program is not running, you'll get an error message similar to the one below.</p>
+<p><img src="../sites/all/files/SetupAI2/troubleshooting/aidaemonhelper.png" /></p>
+<p>On a Mac, this program will be downloaded into your /Applications folder. If it's not, click <a href="../ai2/mac.html">here</a> to go back to the setup instructions for Mac.</p>
+<p>On GNU/Linux, this program is in /usr/local/bin.  You ought to be able to start it by typing <code>aiDaemon</code> from a terminal.</p>
+<h3 style="color:green;" id="emulator-and-usb">Using USB after using the emulator</h3>
+<p><strong>I'm was using the emulator and now I can't use the USB cable.</strong></p>
+<p>App Inventor sees only one connected device at a time.  If you were using the emulator, you'll need to quit the emulator program before you can connect phone<br />
+with USB.</p>
+<h3 style="color:green;" id="Apps">Running apps on the phone</h3>
+<p><b>I was developing an app and it crashed on the phone.</b></p>
+<p>Try clicking the button in the Blocks Editor that says "Disconnect from Companion" and then click "Connect to Companion" to restart. Ask for help from other users in the <a href="../forums.html">App Inventor Forum</a>.</p>
+<p><b>My phone doesn't seem to match what's in my program.</b></p>
+<p>First try clicking the Designer button then click back to the Blocks button. Sometimes the app is behind and needs to be updated to your phone. Switching between these two screens causes a refresh or update to happen.</p>
+<p><b>I was developing an app and I unplugged the phone, and the app disappeared from the phone.</b></p>
+<p>It's supposed to disappear. If you want to use the app when the phone is disconnected, you'll need to package it and download it to the phone.</p>
+<p><b>The code size for the apps I create is very large. Even the simplest apps have apk files that are larger than a Megabyte.</b></p>
+<p>App Inventor apk files are in fact very large. We're working to reduce their size.</p>
+<p><b>My app causes a virus warning.</b></p>
+<p>There is a known issue with certain virus protection software, in particular the "Dr. Web" anti-virus app. Any app that uses the texting component (SMS) will generate the virus warning "android.smssend.origin.247". This is a false positive virus detection that you can safely ignore.</p>
+<h3 style="color:green;" id="MultiScreens">Testing apps with multiple screens</h3>
+<p><b>I'm trying to test my app that has multiple screens and it's not working correctly</b></p>
+<p> Apps with multiple screens must be packaged and sent to the phone to test. If this is a problem for you due to wifi or other issues, follow these instructions:</p>
+<ol><li> Download the free app called ES File Explorer from the <a href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop&amp;hl=en">Google Play Store</a> on your Android device. </li>
+<li>Use Ap pInventor Designer Window to download the App to your Computer. (Your Blocks Editor Window must be launched for a successful package).</li>
+<li> Connect your Android device to your computer as a USB Device.</li>
+<li>Using your computer, navigate to your Computer, and find your device, and double click to navigate to its Download Folder.</li>
+<li> Drag and drop your app's .apk file from the Computer's Download Folder to your device's Download Folder.</li>
+<li>On your device, launch the ES File Explorer App. Using this app, you can then navigate to your tablet's Download Folder and double click on your appinventor app to launch it!</li>
+</ol><h3 style="color:green" id="Sounds">Working with sounds and images</h3>
+<p><b>I set the image property of a button (or other component) to an image file, but nothing shows on the phone.</b></p>
+<p>There are several possible causes for this, so there are several things to try:</p>
+<ul><li>Make sure your phone has an SD card and that the SD card is not full. App Inventor uses the SD card for temporary storage of images, and the phone needs to have an SD card in order to run App Inventor.</li>
+<li>Make sure your phone's USB connection mode is not mounting the SD card. For example, on the Droid, you should set the connection mode to "charge only".</li>
+<li>If you get an <strong>error message about <em>external storage</em></strong>, you'll need to check that your phone is not set for Mass Storage mode: Tap the Home button to go to your phone's Home screen, then Tap the Menu button, then tap Settings, then tap Connect to PC. Tap Connection Type and choose "Charge Only". Make sure that other choices are <strong>not selected</strong>. It is especially important that choices "Disk Drive" or "Mass Storage" are NOT selected (these words vary by phone and Android Operating System version).</li>
+<li>Try unplugging the phone and plugging it back in. Followed by clicking on the "Connect to Device" button.</li>
+<li>If that doesn't work, try packaging and downloading the app. Start up the downloaded app, and see if the image appears on the phone. If the image does appear, then you'll have to continue developing without the image showing on the phone. You'll see your app in its full glory only after you've packaged and downloaded it, not while you're developing the app live. Please ask about this in the <a href="../forums.html">App Inventor Forum.</a></li>
+<li>If your image does not appear in the packaged app either, then you should suspect that there is something wrong with the image file. Perhaps it is not really an image file: Try examining the file with some graphics software. Perhaps it's not an image in a format that App Inventor can process: App Inventor can handle JPG, PNG, or GIF. Maybe the file is too large: try using graphics software to cut its size down to less than 300K.</li>
+<li>If none of these things work, try asking for help in the <a href="../forums.html">Getting Set Up and Connecting Your Phone</a> User Discussion Forum.</li>
+<li>Tip: You can sometimes see complaints about the phone running out of storage by using the Android Debug Bridge to examine the Android system log.</li>
+</ul><p><b>I set the source property of a Sound or Player component, but there's no sound when I tell the phone to play.</b></p>
+<p>If you are working with the phone connected to the computer, make sure the phone really is connected. Try using "Do it" on a few blocks, including the block that tells the component to play. Also make sure the phone's media volume is not turned down!</p>
+<p>If this doesn't help, try some of same things as with images, above. Watch out for running out of storage. (See <a href="../content/accessing-images-and-sounds.html">Media</a> for information on media in App Inventor.) And make sure the audio file is a format the Android (and hence App Inventor) knows about. MP3 and PCM/WAV files should be OK, but there may be issues with other formats. See <a href="http://developer.android.com/guide/appendix/media-formats.html">http://developer.android.com/guide/appendix/media-formats.html</a> for a list of supported media formats. Warning: Not all WAV files are PCM/WAV.</p>
+<p><b>Hello Purr does not work on my Lenovo A1 Tablet -- the meow.mp3 file won't play.</b></p>
+<p>Change your blocks to use the Player component instead of the Sound component.</p>
+<h3 style="color:green;" id="Packaging">Packaging projects for a device</h3>
+<p><b>When I try to package my project, it fails with "unexpected problem generating Yail".</b></p>
+<p>This error occurs if packaging the project fails at the very last stage. This error message is a catch-all that covers "unexpected" errors where App Inventor hasn't provided a useful error message.</p>
+<p>There are several situations where this error has been observed.  One is with large projects that have multiple screens:  The individual screens build correctly, but the system runs out of space in putting all the screens together at the final packaging.   Another situation is where the project file is corrupted, for example by the user unzipping it making an edit and then re-zipping it. This can lead to spurious files being included in the new zip file, which confuse the compiler. Another might be bad names for figures or other assets, that can trip up the compiler.</p>
+<p>If your project gets this error, think about whether there could be causes like the two listed above.  If that doesn't help, try asking in the forum:  You'll need to attach your project source so that someone can try to diagnose the problem.</p>
+<h3 style="color:green;" id="Keystores">Keystores and Signing of Applications (".apk" files)</h3>
+<p><b>I'm seeing the error [INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES] when I try to download my app to my Android device</b></p>
+<p>If you get this error message you most likely are trying to reinstall an app on your device that you have previously packaged and installed with a different App Inventor service. For example, you might have packaged the app originally with the Google App Inventor service and now you are trying to re-package with the MIT App Inventor service, or with a service that someone else is running. If you don't have any data associated with the app on the device (e.g., in a TinyDB) the easiest solution is to remove the app from the device and then install the new version. If you need to preserve the data associated with the app, and you have a copy of the keystore that was used to package the app that is already installed, see below for how to upload the old <strong><em>keystore</em></strong> to the new service.</p>
+<p><strong>What is a <em>keystore</em> and why might I want to upload or download one?</strong></p>
+<p>Every Android app (".apk" file) needs to be signed with a key belonging to the user who creates the app (see <a href="http://developer.android.com/guide/publishing/app-signing.html">http://developer.android.com/guide/publishing/app-signing.html</a> for lots more information on signing apps). App Inventor generally handles this for you behind the scenes, so that most users don't need to think about app signing most of the time. However, you might run into a situation where you need to know about app signing if you move between different App Inventor services and you want to reinstall an application that was built on a different service while still preserving its local data. App Inventor keeps the key used to sign your apps in a file called a <strong><em>keystore</em></strong>. When you first start using an App Inventor service it creates a new keystore for you and uses that to sign any apps you package on the service. If you move to a different App Inventor service and want to keep using the same keystore to sign your apps (to avoid the <em>inconsistent certificates</em> problem mentioned above), you will need to download (or otherwise obtain) the keystore from the old service and upload that keystore into the new service. Options for downloading and uploading keystores can be found in the <strong>My Projects</strong> tab, under the <strong>More Actions</strong> menu. Note that the same keystore is used to sign all of a user's projects in a given App Inventor service, so you cannot designate one keystore for some apps and a different keystore for other apps.</p>
+<p><strong>How can I get the keystore that was used to package my apps in the original Google App Inventor service?</strong></p>
+<p>Most users of the original Google App Inventor service can find a copy of their app source zip files, as well as the keystore that was used to package their apps, in their Google Docs accounts:</p>
+<ul><li>In your browser, go to <a href="http://docs.google.com/">http://docs.google.com</a></li>
+<li>Search for <strong><em>All-App-Inventor-Projects.zip</em></strong>.</li>
+<li>Download the zip file by clicking on <strong><em>Download</em></strong> under <strong><em>File</em></strong>.</li>
+<li>Unzip the downloaded file and you will find a directory called <strong><em>keystore</em></strong> containing a file called <strong><em>android.keystore</em></strong>. This file contains the keystore that was used to sign the apps for that App Inventor account on the Google App Inventor service.</li>
+</ul><h3 style="color:green;" id="Lost">I'm just lost!</h3>
+<p>Ask other users for help on the <a href="../forums.html">App Inventor Forums</a>.<br /></p></div></div></div>  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+
+<!-- Mirrored from dev-explore.appinventor.mit.edu/node/352 by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 14 Nov 2013 04:09:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>
