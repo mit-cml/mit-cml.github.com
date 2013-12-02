@@ -89,7 +89,7 @@ text-wrap: suppress;
 &lt;/style&gt;&lt;div style=&quot;float:right;&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/pizza_party_screenshot.png&quot; style=&quot;border:none; padding-left:15;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT.aia&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/downloadSourcebutton.png&quot; style=&quot;border:none; padding-left:65;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;In this tutorial, you will create an app that lets people enter food orders for a pizza party. Orders are stored in a Fusion Table, providing one easy to access place for the data. By reading from the table, the app can easily display the orders that have been entered.&lt;/p&gt;
 &lt;p&gt;A &lt;a href=&quot;http://en.wikipedia.org/wiki/Google_Fusion_Tables&quot;&gt;Fusion Table&lt;/a&gt; is a Google service to support the gathering, managing, sharing, and visualizing of data. Data are stored in multiple tables on Google&#039;s &lt;a href=&quot;http://en.wikipedia.org/wiki/Cloud_computing&quot;&gt;cloud&lt;/a&gt;. Individual tables can be merged (or fused) if they contain a common column, and they can be easily visualized on maps and in various kinds of charts and graphs. All of the data are stored in a public table that can be accessed via Google Drive, and allows different users&lt;a href=&quot;#note&quot;&gt;**&lt;/a&gt; to add information to the tables. Coupled with a location sensor, an App Inventor app could post periodic updates of each user&#039;s location to a public fusion table. Users could post notes to mark noteworthy locations. For example, a team of botanists could use a Fusion Table app to create an annotated catalog of the trees or plants within a certain geographical area.&lt;/p&gt;
-&lt;hr /&gt;&lt;p&gt;This tutorial introduces:&lt;/p&gt;
+&lt;p&gt;This tutorial introduces:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Using the &lt;b&gt;FusionTables&lt;/b&gt; component&lt;/li&gt;
 &lt;li&gt;Using a &lt;b&gt;WebViewer&lt;/b&gt; component&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify the app&#039;s behavior. If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;/ai2/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
@@ -104,7 +104,7 @@ text-wrap: suppress;
 &lt;li&gt;You will see that the new table automatically comes with four columns. Change the column names for your Pizza app by going to &lt;strong&gt;Edit &amp;gt; Change Columns&lt;/strong&gt;.You&#039;ll rename the four default columns to &lt;em&gt;Date&lt;/em&gt; (type=Date), &lt;em&gt;Name&lt;/em&gt; (type=Text), &lt;em&gt;Pizza&lt;/em&gt; (type=Text), &lt;em&gt;Drink&lt;/em&gt; (type=Text). Click save and then add a fifth column by going to the &lt;strong&gt;Edit &amp;gt; Add Column&lt;/strong&gt;. Name this fifth column &lt;em&gt;Comment&lt;/em&gt; (type=Text). .&lt;/li&gt;
 &lt;li&gt;Leave this window open so that you can come back and get the URL, which you&#039;ll need when you set up the properties of the WebViewer component in your app.&lt;/li&gt;
 &lt;li&gt;Click on the &lt;strong&gt;Share&lt;/strong&gt; button (top right) to modify the table&#039;s permissions. For this tutorial, you can specify a few friends who will use the app. Only people who are explicitly given permission will be able to enter pizza party preferences through your app.&lt;/li&gt;
-&lt;/ol&gt;&lt;pre class=&quot;ai-box&quot;&gt;&lt;img src=&quot;/sites/all/files/tutorials/pizzaParty/FusionTables_GoogleDrive.png&quot; style=&quot;float:right;padding:15px;&quot; /&gt;Another way to create a new table: go to Google Drive. Click the &lt;strong&gt;Create&lt;/strong&gt; button, then go to &lt;strong&gt;More &amp;gt; Fusion Table&lt;/strong&gt;. The picture at right shows what the Create button&#039;s menu should look like. If you do not see Fusion Table in your menu, then you may need to contact your school&#039;s network administrator. (See Troubleshooting section at the bottom of this page.) &lt;/pre&gt;&lt;p&gt;&lt;strong&gt;&lt;a name=&quot;note&quot; id=&quot;note&quot;&gt;NOTE&lt;/a&gt; about Sharing Fusion Tables:&lt;/strong&gt; To share a FusionTable with others, you have to invite each person individually, the same way you would share a private google doc. There is no way to share write privileges to a FusionTable with the public. Public access is restricted to read-only.&lt;/p&gt;
+&lt;/ol&gt;&lt;pre class=&quot;ai-box&quot;&gt;&lt;img src=&quot;/sites/all/files/tutorials/pizzaParty/FusionTables_GoogleDrive.png&quot; style=&quot;float:right;padding:15px;&quot; /&gt;Another way to create a new table: go to Google Drive. Click the &lt;strong&gt;Create&lt;/strong&gt; button, then go to &lt;strong&gt;More &amp;gt; Fusion Table&lt;/strong&gt;. The picture at right shows what the Create button&#039;s menu should look like. If you do not see Fusion Table in your menu, then you may need to contact your school&#039;s network administrator. (See Troubleshooting section at the bottom of this page.) &lt;/pre&gt;&lt;p&gt;&lt;strong&gt;&lt;a name=&quot;note&quot; id=&quot;note&quot;&gt;NOTE&lt;/a&gt; about Sharing Fusion Tables:&lt;/strong&gt; To share a FusionTable with others, you have to share it with each person individually, or you can share with a Google Group (see footnote at the end of this tutorial), the same way you would share a private google doc.  There is no way to share write privileges to a FusionTable with the public. Public access is restricted to read-only.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Getting an API Key&lt;/h4&gt;
 &lt;p&gt;In order to use the FusiontablesControl Component you need to acquire a Google Applications Programming Interface (API) key, an API Key. To get an API key, follow these instructions:&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;Go to your &lt;a href=&quot;https://code.google.com/apis/console/&quot;&gt;Google APIs Console&lt;/a&gt; and login if necessary.&lt;/li&gt;
@@ -112,15 +112,14 @@ text-wrap: suppress;
 &lt;li&gt;In the list of services, find the &lt;strong&gt;Fusion Tables API&lt;/strong&gt; service and click the toggle button that currently says &quot;off&quot;.&lt;/li&gt;
 &lt;li&gt;Read and agree to the terms of service. When you return to the APIs Console page you&#039;ll see that the on/off switch next to Fusion Tables API is now &quot;On&quot; and green.&lt;/li&gt;
 &lt;li&gt;Go back up the menu on the upper left of the screen and select the &lt;strong&gt;API Access&lt;/strong&gt; item.&lt;/li&gt;
-&lt;li&gt;Underneath a section called &quot;Simple API Access&quot;, You should see a list of four buttons: Create new Browser key, Create new Server key, Create new Android key, and Create new iOS key. Click &lt;em&gt;Create new Android key&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Your API Key will now be in the rectangular box in that section. You will need set the &quot;API Key&quot; property of the Fusiontables Control component in any app that you make that uses Fusion Tables. (More info below.)&lt;/li&gt;
+&lt;li&gt;Your API Key will be in the rectangular box in the section called &quot;Simple API Access&quot;. You will need set the &quot;API Key&quot; property of the Fusiontables Control component in any app that you make that uses Fusion Tables. (More info below.)&lt;/li&gt;
 &lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Building the App&lt;/h4&gt;
 &lt;p&gt;Connect to the App Inventor web site and start a new project. Name the new project PizzaParty, set the screen&#039;s orientation to Portrait and uncheck the Screen&#039;s scrollable property. You may also wish to set the Screen&#039;s Title property to something other than &#039;Screen 1&#039;.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;The User Interface&lt;/h4&gt;
 &lt;p&gt;In addition to the FusiontablesControl component, the Pizza Party app makes use of several other types of components. It is assumed that you have learned how to use these in previous lessons. Use the component designer to create the interface for the Search Party. When completed, the designer should look like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/designer.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The components are: &lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -249,7 +248,7 @@ Settings of Component
 &lt;li&gt;The Table ID of the fusion table is contained within the URL after the plus sign. Look for &quot;from+&quot; and then copy all of the characters after the plus. This is the Table&#039;s ID. You can also find the Table ID by browsing to your table, then selecting &lt;b&gt;File&amp;gt;About this table&lt;/b&gt; in the menu.&lt;/li&gt;
 &lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Blocks Editor&lt;/h4&gt;
 &lt;p&gt;Open the Blocks Editor so you can program the app&#039;s behavior. First, you will describe the app&#039;s variables. Variables whose names are ALL_CAPS are constants -- that is, variables whose values do not change while the program is running. It is good to get into the habit of using this naming convention. Define the following variables and give them the initial values shown in the table.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Variable Name
 &lt;/td&gt;
 &lt;td&gt;
@@ -307,7 +306,7 @@ Purpose
 &lt;p&gt;&lt;b&gt;Inserting Data into the Fusion Table&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;The FusiontablesControl component is used to send the data to the Fusion Table. This action will create a new row in the Fusion Table, setting the values of the various columns involved. App Inventor makes this easy to do, but you have to be careful that the insert query is formatted correctly.&lt;/p&gt;
 &lt;p&gt;This procedure involves two steps: (1) constructing the insert query and then (2) sending the query to Google&#039;s Fusion Table service. The query we want to send will take this format:&lt;/p&gt;
-&lt;p&gt;INSERT INTO&lt;br /&gt;&lt;tableid&gt; (&lt;column1&gt;, &lt;column2&gt;, ...) VALUES (&lt;value1&gt;, &lt;value2&gt;, ...)&lt;/value2&gt;&lt;/value1&gt;&lt;/column2&gt;&lt;/column1&gt;&lt;/tableid&gt;&lt;/p&gt;
+&lt;p&gt;INSERT INTO&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; id=&quot;&quot;&gt; (&lt;column1&gt;, &lt;column2&gt;, ...) VALUES (&lt;value1&gt;, &lt;value2&gt;, ...)
 &lt;p&gt;The words in CAPS are part of the query&#039;s syntax. The words in parentheses are values that we need to plug in. First there is a list of (column names) followed by VALUES followed by a list of (value names). The order of the column names and value names must be in the same order so that they match up. An example of what this might look like is shown below. Notice that the values must be enclosed in single quotes:&lt;/p&gt;
 &lt;p&gt;INSERT INTO 191GHtZ_B2 (Name, Date) VALUES (&#039;Sam&#039;, &#039;10/10/2012&#039;)&lt;/p&gt;
 &lt;p&gt;First, setup a new &lt;span class=&quot;callblock-ai2&quot;&gt;Procedure With Result&lt;/span&gt; that takes a string and returns it surrounded by single quotes. The procedure &lt;span class=&quot;callblock-ai2&quot;&gt;quotify&lt;/span&gt; is used in the InsertDataInTable procedure to place quotes around all of the values in the query. It also takes care of &quot;escaping&quot; any single quotes or apostrophes that are input by the user. You can send single apostrophes as part of a value in the query, so the &quot;replace all&quot; block adds an extra single quote. Two single quotes in a row are interpreted as one single quote.&lt;/p&gt;
@@ -331,9 +330,10 @@ Purpose
 &lt;p&gt;If you are using a Google Apps for Education account, and you are not able to create a new fusion table (in the &quot;Create&quot; menu of Google Drive you won&#039;t even see an option for Fusion Tables), you will need to ask your system administrator to turn this option on for you. Or, you can switch to a standard gmail account. Fusion Tables are not automatically turned on for Google Apps for Education Accounts, your system administrator must make Fusion Tables available to the accounts in your domain.&lt;/p&gt;
 &lt;p&gt;If you are receiving errors when trying to submit to the Fusion Table, especially if the error mentions Authentication, be sure that you have put the correct API Key into the API Key property field on the FusionTables component in the Design Window.&lt;/p&gt;
 &lt;p&gt;To familiarize yourself with fusion tables, have a look around the &lt;a href=&quot;http://support.google.com/fusiontables/bin/answer.py?hl=en&amp;amp;answer=2571232&quot;&gt;Fusion Tables Web Site&lt;/a&gt;. Check out the example gallery to see what kinds of things are possible. Work through this &lt;a href=&quot;http://earth.google.com/outreach/tutorial_fusion_sample.html&quot;&gt;Fusion Table tutorial&lt;/a&gt;, which shows how import some data, create a Fusion Table, and view the data on a map with your browser. You&#039;ll need to log in with your Google account.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To share a FusionTable with many people&lt;/strong&gt;, rather than by entering email addresses individually, you can &lt;strong&gt;create a dedicated Google Group for your app and let all the app users know how to join the group&lt;/strong&gt; (maybe through the web page for your app). From the moment you create your app, you share the Fusion Table once with your Google Group (using its email address), and &lt;strong&gt;make sure to give to the group editing rights&lt;/strong&gt;. Every user who joins the group will inherit the editing rights automatically.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;&lt;span style=&quot;color:black;&quot;&gt;Done with PizzaParty?&lt;/span&gt; &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;Return to the other tutorials&lt;/a&gt;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;. Remember to add in your API KEY and Fusion Table information in the Designer and blocks.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+&lt;/value2&gt;&lt;/value1&gt;&lt;/column2&gt;&lt;/column1&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
   
@@ -402,7 +402,7 @@ Purpose
 &lt;p&gt;We&#039;ll build this app in stages, adding a little bit of the game at a time. Log into App Inventor and start a new project. Name it &quot;MiniGolf&quot;. When the Design window opens notice that App Inventor automatically names the screen &quot;Screen1&quot;, but you can set the Title of the screen, which will show up in the top bar of the app. Think of a title related to Mini Golf, or feel free to use the suggested title &quot;Fling It Mini Golf&quot;, and type it into the Properties pane on the right side of the Designer.&lt;/p&gt;
 &lt;p&gt;In the Screen Properties (shown in right-hand pane): Uncheck the checkbox labeled &quot;Scrollable&quot; so that the screen will not scroll when the app is running. Screens that are set to scroll do not have a height. We’ll need our screen to have a defined height in order to set up the golf course properly.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Add the following components in the Designer:&lt;/strong&gt;&lt;/p&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -511,7 +511,7 @@ Purpose
 &lt;p&gt;Games are more fun if you have a way to see how you’re doing. Let’s add a stroke counter. In mini golf your score goes up as you take more strokes. The goal is to have the lowest score possible. Let’s show the player how many strokes she or he has taken on this hole. Let’s also show the number of strokes taken during the whole game.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Go back to the Designer and set up the following components:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot; id=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;2&quot; id=&quot;2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot; id=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;2&quot; id=&quot;2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -576,7 +576,7 @@ Purpose
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong&gt;Test the behavior.&lt;/strong&gt; With these new changes, you should have a &quot;Total Strokes&quot; count and &quot;This Hole&quot; count at the top of the screen. When you fling the ball, the &quot;This Hole&quot; count  and &quot;Total Strokes&quot; count should both increase by one, and when you make the ball go into the hole the &quot;This Hole&quot; count should reset to 0.&lt;/pre&gt;&lt;h3&gt;Part III: Positioning Ball on Tee using TouchUp and TouchDown events&lt;/h3&gt;
 &lt;p&gt;Ok, so now you’ve got a working game! Now let’s make it a little more interesting and fun. First we’ll add a Tee and let the player position the golf ball on the tee before they fling the ball.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Go back to the Designer and add three new image sprite components:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot; id=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;1&quot; id=&quot;1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot; id=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;1&quot; id=&quot;1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -658,7 +658,7 @@ Purpose
 &lt;p&gt;As the blocks above show, after verifying that the StrokeCount is 0, you then want to proceed to move the golf ball left or right depending on which arrow is being pressed. &lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong&gt;Test the behavior.&lt;/strong&gt; Make sure your app is doing what you expect: play the game on your device or emulator. Before you tee off, are you able to move the ball left and right on the tee by using the left and right arrows? After you tee off, you should no longer be able to use the left and right arrows (pressing them will do nothing). After the ball goes into the hole and the screen resets, you should then be able to move the ball left and right on the tee before teeing off again.&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Keep track of the number of holes played, and allow a game reset&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The game is working pretty well now, but what about giving the player a way to reset the game? Also, it would be nice to give the player some instructions so they know how to play the game. While we’re at it, let’s also give an indication of how many holes the player has completed. Add the following components in the Designer:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot; id=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;3&quot; id=&quot;3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot; id=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;3&quot; id=&quot;3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -741,7 +741,7 @@ Purpose
 &lt;p&gt;Most mini golf courses have obstacles on them. Let’s add a simple rectangular obstacle that will randomly position itself on the course somewhere between the Tee and the Hole. Each time a new course is presented, the obstacle will move, just the same way the Hole moves each time a new course is set up.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Add the following component in the Designer:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;981d9864ae92d2e44bbc01311278b4463bf01a1e&quot; id=&quot;981d9864ae92d2e44bbc01311278b4463bf01a1e&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;4&quot; id=&quot;4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -939,7 +939,7 @@ text-wrap: suppress;
 &lt;p&gt;Use the component designer to create the user interface.  When you are done, it should look something like the picture below.  Additional instructions are below the picture.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/components1.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Create the following components by dragging them from the Palette into the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -976,7 +976,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;Web1&lt;/td&gt;
 &lt;td&gt;To request and receive the stock quote&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Stick with the default properties except for the following changes:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
 &lt;td&gt;Action&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;StockSymbolTextBox&lt;/b&gt;&lt;/td&gt;
 &lt;td&gt;Set its &lt;b style=&quot;color:green;&quot;&gt;Hint&lt;/b&gt; property to &quot;Enter a stock symbol&quot;. Clear its &lt;b style=&quot;color:green;&quot;&gt;Text&lt;/b&gt; property by deleting or backspacing over the contents.&lt;/td&gt;
@@ -991,7 +991,7 @@ Purpose of Component
 &lt;h5 class=&quot;ai-header&quot;&gt;Requesting the Data&lt;/h5&gt;
 &lt;p&gt;The blocks to make the web request are shown here and detailed below:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/request-data.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1029,7 +1029,7 @@ Purpose
 &lt;li&gt;&lt;b&gt;responseContent&lt;/b&gt;: the data being returned, such as “511.5”.&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;Here are a picture and table of the blocks you need to create:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/receive-data.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1242,7 +1242,7 @@ text-wrap: suppress;
 &lt;p&gt;Use the component designer to create the interface for the &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt;. When completed, the designer should look similar to the snapshot below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/videoWall/setupcomponents.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;First, you need to upload the video files. Click on the Add... button and select a video file downloaded earlier. Repeat this step to add the other two video files. Now create the interface by dragging and dropping the components from the Palette to the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1333,7 +1333,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;FullScreenButton3&lt;/td&gt;
 &lt;td&gt;Shows the VideoPlayer3 video in fullscreen&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties as described below:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
 &lt;td&gt;Action&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
 &lt;td&gt;Set Width to Fill parent...&lt;/td&gt;
@@ -1352,7 +1352,7 @@ Purpose of Component
 &lt;td&gt;Set Source to sintel.3gp , set Width to Fill parent... , and set Height to 36 pixels&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h4&gt;
 &lt;p&gt;The interface is complete, but the buttons don&#039;t resize the videos yet. Open the Blocks Editor to add the behavior to the buttons. First, you&#039;ll define three variable blocks to keep track of the size of the VideoPlayers:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
@@ -1367,7 +1367,7 @@ Purpose of Component
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The three variables should like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/flagblocks.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Create the &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block. There are three VideoPlayers in the app, but you&#039;ll use one Procedure block to resize all three. To accomplish this simplicity, you will use the Any Component blocks component &lt;strong&gt;Any VideoPlayer&lt;/strong&gt; blocks. Create the &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block using the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;Procedure&lt;/span&gt;&lt;/td&gt;
@@ -1405,7 +1405,7 @@ Purpose of Component
 &lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; block will be explained later after you create the blocks for responding to button clicks.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Create the Click Blocks&lt;/h4&gt;
 &lt;p&gt;The blocks you will create respond to clicks on the ResizeButton buttons. To build the three blocks, you will need the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;eventblock&quot;&gt;ResizeButton1.Click&lt;/span&gt;&lt;/td&gt;
@@ -1467,7 +1467,7 @@ Purpose of Component
 &lt;p&gt;Setting the Width and Height property for a VideoPlayer works exactly the same way as setting the Width and Height of a Button. For whatever positive number is set, the video playing will resize its appearance to fit that value. There are two values that are exceptions to the using positive values rule: -1 and -2. Setting VideoPlayer.Width or VideoPlayer.Height to -1 is like setting the Width or Height to &lt;em&gt;Fill parent&lt;/em&gt; in the designer. Setting VideoPlayer.Width or VideoPlayer.Height to -2 is like setting the Width or Height to &lt;em&gt;Automatic&lt;/em&gt; in the designer.&lt;/p&gt;
 &lt;pre class=&quot;ai-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt; You can set the VideoPlayer Width and Height to any positive number you want. The VideoPlayer will change its size to match the values you set; but on some devices, the VideoPlayer does not change its size correctly. The behavior on such devices is usually unpredictable.&lt;/pre&gt;&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Click on the Grow button below the BigBuckBunny video. The video&#039;s size should expand, and the text of the button should change to &quot;Shrink&quot;. Click on the Shrink button below the BigBuckBunny video. The video&#039;s size should shrink back to its original size and the text should change back to &quot;Grow&quot;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Create the blocks for showing fullscreen video&lt;/h4&gt;
 &lt;p&gt;You will now add the blocks for showing the videos in fullscreen mode. Use the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;logicblock-ai2&quot;&gt;true&lt;/span&gt; (x3)&lt;/td&gt;
@@ -1506,7 +1506,7 @@ Purpose of Component
 &lt;li&gt;Expand the resizeVideoPlayer procedure to resize VideoPlayers by small increments to create an animation effect. You could use multiple Clocks to start the resizeVideoPlayer procedure and animate multiple VideoPlayers at once.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;&lt;b&gt;If you distribute your app to others, make sure you respect any license requirements for the videos you use.&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Below are the attributions to the video files included in this demo app. The creators of the source videos that these clips are from do not endorse App Inventor.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Video File&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Video File&lt;/td&gt;
 &lt;td&gt;Information&lt;/td&gt;
 &lt;td&gt;Attribution&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bigbuckbunny.3gp&lt;/td&gt;
@@ -1686,7 +1686,7 @@ text-wrap: suppress;
 &lt;p&gt;The user interface will contain a total of 6 ImageSprites: 5 unmoving holes and 1 mole, which will move on top of the holes. Use the component designer to create the user interface. When you are done, it should look something like the picture below. Don&#039;t worry about lining up the holes evenly. You will specify their locations through their &lt;b style=&quot;color:green;&quot;&gt;X&lt;/b&gt; and &lt;b style=&quot;color:green;&quot;&gt;Y&lt;/b&gt; properties. Additional instructions are below the picture.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/designer1.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Create the following components by dragging them from the Palette into the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1747,7 +1747,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;Buzzer&lt;/td&gt;
 &lt;td&gt;To vibrate when the mole is touched&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Make the following changes to the components&#039; properties:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component
 &lt;/td&gt;
 &lt;td&gt;
@@ -1798,7 +1798,7 @@ Action
 &lt;h4 class=&quot;ai-header&quot;&gt;Creating Variables&lt;/h4&gt;
 &lt;p&gt;Create the variables &lt;b style=&quot;color:green;&quot;&gt;holes&lt;/b&gt; and &lt;b style=&quot;color:green;&quot;&gt;currentHole&lt;/b&gt;. For now, we will give them &quot;dummy&quot; initial values; we&#039;ll set their real initial values in the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event handler, which is run when the app starts. (For technical reasons, components cannot be referred to in def blocks, which are run before the app has started.) Here is a picture and list of the blocks you will need:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks1.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1824,7 +1824,7 @@ Purpose
 &lt;p&gt;The first event to occur in any program in &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt;, so we will put start-up code in that handler. Specifically, we will add the hole components to the list holes, set each hole&#039;s &lt;b style=&quot;color:green;&quot;&gt;Picture&lt;/b&gt; property to &quot;hole.png&quot;, and call &lt;span class=&quot;callblock&quot;&gt;MoveMole&lt;/span&gt;. Since we have not yet written MoveMole, we will create an empty procedure with that name, which we will fill in later.&lt;/p&gt;
 &lt;p&gt;Below are a picture and table of the blocks you need to create. Note that the &quot;Any ImageSprite&quot; drawer is found under the &quot;Advanced&quot; tab to the right of &quot;Built-In&quot; and &quot;My Blocks&quot; in the Blocks Editor.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks2.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1887,7 +1887,7 @@ Purpose
 &lt;h4 class=&quot;ai-header&quot;&gt;Moving the Mole&lt;/h4&gt;
 &lt;p&gt;Now let&#039;s fill in the body of the procedure MoveMole, which we&#039;ll call when the program starts, when the mole gets touched, and when our timer goes off every second. What we want it to do is to pick a random hole and move the mole on top of it. Here are a picture and list of the new blocks:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks4.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;line-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1922,7 +1922,7 @@ Purpose
 &lt;td&gt;...the chosen hole.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;We now need to specify that MoveMole should be called whenever MoleClock&#039;s Timer goes off. We just need two blocks to accomplish that:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks5.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1944,7 +1944,7 @@ Purpose
 &lt;li&gt;Move the mole.&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;We can easily translate these to blocks:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks6.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -2171,7 +2171,7 @@ text-wrap: suppress;
 &lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/GetTheGold/GetTheGoldDesigner.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -2220,7 +2220,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
 &lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components as described below:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;  &lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ResetButton&lt;/span&gt;

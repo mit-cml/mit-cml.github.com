@@ -110,7 +110,7 @@ text-wrap: suppress;
 &lt;p&gt;Use the component designer to create the interface for the &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt;. When completed, the designer should look similar to the snapshot below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/videoWall/setupcomponents.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;First, you need to upload the video files. Click on the Add... button and select a video file downloaded earlier. Repeat this step to add the other two video files. Now create the interface by dragging and dropping the components from the Palette to the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -201,7 +201,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;FullScreenButton3&lt;/td&gt;
 &lt;td&gt;Shows the VideoPlayer3 video in fullscreen&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties as described below:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
 &lt;td&gt;Action&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
 &lt;td&gt;Set Width to Fill parent...&lt;/td&gt;
@@ -220,7 +220,7 @@ Purpose of Component
 &lt;td&gt;Set Source to sintel.3gp , set Width to Fill parent... , and set Height to 36 pixels&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h4&gt;
 &lt;p&gt;The interface is complete, but the buttons don&#039;t resize the videos yet. Open the Blocks Editor to add the behavior to the buttons. First, you&#039;ll define three variable blocks to keep track of the size of the VideoPlayers:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
@@ -235,7 +235,7 @@ Purpose of Component
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The three variables should like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/flagblocks.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Create the &lt;span class=&quot;callblock&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block. There are three VideoPlayers in the app, but you&#039;ll use one Procedure block to resize all three. To accomplish this simplicity, you will use the Any Component blocks component &lt;strong&gt;Any VideoPlayer&lt;/strong&gt; blocks. Create the &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block using the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;Procedure&lt;/span&gt;&lt;/td&gt;
@@ -273,7 +273,7 @@ Purpose of Component
 &lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; block will be explained later after you create the blocks for responding to button clicks.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Create the Click Blocks&lt;/h4&gt;
 &lt;p&gt;The blocks you will create respond to clicks on the ResizeButton buttons. To build the three blocks, you will need the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;eventblock&quot;&gt;ResizeButton1.Click&lt;/span&gt;&lt;/td&gt;
@@ -335,7 +335,7 @@ Purpose of Component
 &lt;p&gt;Setting the Width and Height property for a VideoPlayer works exactly the same way as setting the Width and Height of a Button. For whatever positive number is set, the video playing will resize its appearance to fit that value. There are two values that are exceptions to the using positive values rule: -1 and -2. Setting VideoPlayer.Width or VideoPlayer.Height to -1 is like setting the Width or Height to &lt;em&gt;Fill parent&lt;/em&gt; in the designer. Setting VideoPlayer.Width or VideoPlayer.Height to -2 is like setting the Width or Height to &lt;em&gt;Automatic&lt;/em&gt; in the designer.&lt;/p&gt;
 &lt;pre class=&quot;ai-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt; You can set the VideoPlayer Width and Height to any positive number you want. The VideoPlayer will change its size to match the values you set; but on some devices, the VideoPlayer does not change its size correctly. The behavior on such devices is usually unpredictable.&lt;/pre&gt;&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Click on the Grow button below the BigBuckBunny video. The video&#039;s size should expand, and the text of the button should change to &quot;Shrink&quot;. Click on the Shrink button below the BigBuckBunny video. The video&#039;s size should shrink back to its original size and the text should change back to &quot;Grow&quot;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Create the blocks for showing fullscreen video&lt;/h4&gt;
 &lt;p&gt;You will now add the blocks for showing the videos in fullscreen mode. Use the following blocks:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
 &lt;td&gt;Drawer&lt;/td&gt;
 &lt;td&gt;Purpose&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;logicblock-ai2&quot;&gt;true&lt;/span&gt; (x3)&lt;/td&gt;
@@ -374,7 +374,7 @@ Purpose of Component
 &lt;li&gt;Expand the resizeVideoPlayer procedure to resize VideoPlayers by small increments to create an animation effect. You could use multiple Clocks to start the resizeVideoPlayer procedure and animate multiple VideoPlayers at once.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;&lt;b&gt;If you distribute your app to others, make sure you respect any license requirements for the videos you use.&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Below are the attributions to the video files included in this demo app. The creators of the source videos that these clips are from do not endorse App Inventor.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Video File&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Video File&lt;/td&gt;
 &lt;td&gt;Information&lt;/td&gt;
 &lt;td&gt;Attribution&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bigbuckbunny.3gp&lt;/td&gt;

@@ -22,7 +22,7 @@
 &lt;p&gt;We&#039;ll build this app in stages, adding a little bit of the game at a time. Log into App Inventor and start a new project. Name it &quot;MiniGolf&quot;. When the Design window opens notice that App Inventor automatically names the screen &quot;Screen1&quot;, but you can set the Title of the screen, which will show up in the top bar of the app. Think of a title related to Mini Golf, or feel free to use the suggested title &quot;Fling It Mini Golf&quot;, and type it into the Properties pane on the right side of the Designer.&lt;/p&gt;
 &lt;p&gt;In the Screen Properties (shown in right-hand pane): Uncheck the checkbox labeled &quot;Scrollable&quot; so that the screen will not scroll when the app is running. Screens that are set to scroll do not have a height. We’ll need our screen to have a defined height in order to set up the golf course properly.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Add the following components in the Designer:&lt;/strong&gt;&lt;/p&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -131,7 +131,7 @@
 &lt;p&gt;Games are more fun if you have a way to see how you’re doing. Let’s add a stroke counter. In mini golf your score goes up as you take more strokes. The goal is to have the lowest score possible. Let’s show the player how many strokes she or he has taken on this hole. Let’s also show the number of strokes taken during the whole game.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Go back to the Designer and set up the following components:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot; id=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;2&quot; id=&quot;2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot; id=&quot;84f417a34cd2d904669a10a8f96b32bf41ae274b&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;2&quot; id=&quot;2&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -196,7 +196,7 @@
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong&gt;Test the behavior.&lt;/strong&gt; With these new changes, you should have a &quot;Total Strokes&quot; count and &quot;This Hole&quot; count at the top of the screen. When you fling the ball, the &quot;This Hole&quot; count  and &quot;Total Strokes&quot; count should both increase by one, and when you make the ball go into the hole the &quot;This Hole&quot; count should reset to 0.&lt;/pre&gt;&lt;h3&gt;Part III: Positioning Ball on Tee using TouchUp and TouchDown events&lt;/h3&gt;
 &lt;p&gt;Ok, so now you’ve got a working game! Now let’s make it a little more interesting and fun. First we’ll add a Tee and let the player position the golf ball on the tee before they fling the ball.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Go back to the Designer and add three new image sprite components:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot; id=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;1&quot; id=&quot;1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot; id=&quot;f32e9ebd8bb0c367ac6b009ebba0af05e4eb1b4e&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;1&quot; id=&quot;1&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -278,7 +278,7 @@
 &lt;p&gt;As the blocks above show, after verifying that the StrokeCount is 0, you then want to proceed to move the golf ball left or right depending on which arrow is being pressed. &lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong&gt;Test the behavior.&lt;/strong&gt; Make sure your app is doing what you expect: play the game on your device or emulator. Before you tee off, are you able to move the ball left and right on the tee by using the left and right arrows? After you tee off, you should no longer be able to use the left and right arrows (pressing them will do nothing). After the ball goes into the hole and the screen resets, you should then be able to move the ball left and right on the tee before teeing off again.&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Keep track of the number of holes played, and allow a game reset&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The game is working pretty well now, but what about giving the player a way to reset the game? Also, it would be nice to give the player some instructions so they know how to play the game. While we’re at it, let’s also give an indication of how many holes the player has completed. Add the following components in the Designer:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot; id=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;3&quot; id=&quot;3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot; id=&quot;0899df2ccc45cb7f22bfe41d004593ed854f9f2c&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;3&quot; id=&quot;3&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -361,7 +361,7 @@
 &lt;p&gt;Most mini golf courses have obstacles on them. Let’s add a simple rectangular obstacle that will randomly position itself on the course somewhere between the Tee and the Hole. Each time a new course is presented, the obstacle will move, just the same way the Hole moves each time a new course is set up.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Add the following component in the Designer:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#&quot; name=&quot;981d9864ae92d2e44bbc01311278b4463bf01a1e&quot; id=&quot;981d9864ae92d2e44bbc01311278b4463bf01a1e&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#&quot; name=&quot;4&quot; id=&quot;4&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 &lt;p&gt;&lt;strong&gt;Component Type&lt;/strong&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;
@@ -726,7 +726,7 @@ text-wrap: suppress;
 &lt;p&gt;The user interface will contain a total of 6 ImageSprites: 5 unmoving holes and 1 mole, which will move on top of the holes. Use the component designer to create the user interface. When you are done, it should look something like the picture below. Don&#039;t worry about lining up the holes evenly. You will specify their locations through their &lt;b style=&quot;color:green;&quot;&gt;X&lt;/b&gt; and &lt;b style=&quot;color:green;&quot;&gt;Y&lt;/b&gt; properties. Additional instructions are below the picture.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/designer1.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Create the following components by dragging them from the Palette into the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -787,7 +787,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;Buzzer&lt;/td&gt;
 &lt;td&gt;To vibrate when the mole is touched&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Make the following changes to the components&#039; properties:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component
 &lt;/td&gt;
 &lt;td&gt;
@@ -838,7 +838,7 @@ Action
 &lt;h4 class=&quot;ai-header&quot;&gt;Creating Variables&lt;/h4&gt;
 &lt;p&gt;Create the variables &lt;b style=&quot;color:green;&quot;&gt;holes&lt;/b&gt; and &lt;b style=&quot;color:green;&quot;&gt;currentHole&lt;/b&gt;. For now, we will give them &quot;dummy&quot; initial values; we&#039;ll set their real initial values in the &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt; event handler, which is run when the app starts. (For technical reasons, components cannot be referred to in def blocks, which are run before the app has started.) Here is a picture and list of the blocks you will need:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks1.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -864,7 +864,7 @@ Purpose
 &lt;p&gt;The first event to occur in any program in &lt;span class=&quot;basicblock&quot;&gt;Screen1.Initialize&lt;/span&gt;, so we will put start-up code in that handler. Specifically, we will add the hole components to the list holes, set each hole&#039;s &lt;b style=&quot;color:green;&quot;&gt;Picture&lt;/b&gt; property to &quot;hole.png&quot;, and call &lt;span class=&quot;callblock&quot;&gt;MoveMole&lt;/span&gt;. Since we have not yet written MoveMole, we will create an empty procedure with that name, which we will fill in later.&lt;/p&gt;
 &lt;p&gt;Below are a picture and table of the blocks you need to create. Note that the &quot;Any ImageSprite&quot; drawer is found under the &quot;Advanced&quot; tab to the right of &quot;Built-In&quot; and &quot;My Blocks&quot; in the Blocks Editor.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks2.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -927,7 +927,7 @@ Purpose
 &lt;h4 class=&quot;ai-header&quot;&gt;Moving the Mole&lt;/h4&gt;
 &lt;p&gt;Now let&#039;s fill in the body of the procedure MoveMole, which we&#039;ll call when the program starts, when the mole gets touched, and when our timer goes off every second. What we want it to do is to pick a random hole and move the mole on top of it. Here are a picture and list of the new blocks:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks4.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;line-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -962,7 +962,7 @@ Purpose
 &lt;td&gt;...the chosen hole.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;We now need to specify that MoveMole should be called whenever MoleClock&#039;s Timer goes off. We just need two blocks to accomplish that:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks5.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -984,7 +984,7 @@ Purpose
 &lt;li&gt;Move the mole.&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;We can easily translate these to blocks:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks6.png&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Block type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1211,7 +1211,7 @@ text-wrap: suppress;
 &lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;GetTheGold&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/GetTheGold/GetTheGoldDesigner.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer.&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
 &lt;td&gt;
@@ -1260,7 +1260,7 @@ Purpose of Component
 &lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
 &lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components as described below:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;  &lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ResetButton&lt;/span&gt;
