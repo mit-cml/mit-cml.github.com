@@ -427,10 +427,14 @@
                             if (this.status == 200) {
                                 var result = goog.json.parse(this.response);
                                 if (result.status == "OK") {
-                                    document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter detected!</h1>";
-                                    isUSB();
-                                    return;
+                                    if (result.version) {
+                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter v" + result.version + " detected!</h1>";
+                                    } else {
+                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter detected! but your setup tools are out of date.</h1>";
+                                    }
                                 }
+                                isUSB();
+                                return;
                             }
                             document.getElementById("status").innerHTML="<h1 id='no'>NO: Please make sure you have the aiStarter application running. <a href=\"http://appinventor.mit.edu/explore/ai2/connection-help.html\">Get aiStarter Help</a></h1>";
                         }
