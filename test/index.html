@@ -420,6 +420,7 @@
               goog.require('goog.net.XmlHttp');
               goog.require('goog.json');
                 var ping = function() {
+                    var version = "2.1";
                     var xhr = goog.net.XmlHttp();
                     xhr.open('GET', 'http://127.0.0.1:8004/ping/', true);
                     xhr.onreadystatechange = function() {
@@ -427,10 +428,10 @@
                             if (this.status == 200) {
                                 var result = goog.json.parse(this.response);
                                 if (result.status == "OK") {
-                                    if (result.version) {
+                                    if (result.version && result.version == version) {
                                     	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter v" + result.version + " detected!</h1>";
                                     } else {
-                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter detected! but your setup tools are out of date.</h1>";
+                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter detected! but your setup tools are out of date. Please download and install latest <a href = '/explore/ai2/setup-emulator.html' target=_blank'>setup tools </a></h1>";
                                     }
                                 }
                                 isUSB();
