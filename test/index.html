@@ -429,15 +429,15 @@
                                 var result = goog.json.parse(this.response);
                                 if (result.status == "OK") {
                                     if (result.version && result.version == version) {
-                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter v" + result.version + " detected!</h1>";
+                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter v" + result.version + " running!</h1>";
                                     } else {
-                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter detected! but your setup tools are out of date. Please download and install latest <a href = '/explore/ai2/setup-emulator.html' target=_blank'>setup tools </a></h1>";
+                                    	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter is running! <br><br> But, your setup tools are out of date, download and install latest <a href = '/explore/ai2/update-setup-software.html' target=_blank'>setup tools </a></h1>";
                                     }
                                 }
                                 isUSB();
                                 return;
                             }
-                            document.getElementById("status").innerHTML="<h1 id='no'>NO: Please make sure you have the aiStarter application running. <a href=\"http://appinventor.mit.edu/explore/ai2/connection-help.html\">Get aiStarter Help</a></h1>";
+                            document.getElementById("status").innerHTML="<h1 id='no'>NO, aiStarter is not running! <br><br> Please make sure the aiStarter application is running. <a href=\"http://appinventor.mit.edu/explore/ai2/aistarter-help.html\">Get aiStarter Help</a></h1>";
                         }
                         return;
                     }
@@ -452,11 +452,11 @@
                             if (this.status == 200) {
                                 var result = goog.json.parse(this.response);
                                 if (result.status == "OK") {
-                                    document.getElementById("isphone").innerHTML="<h1 id='yes'>YES, phone detected!</h1>";
+                                    document.getElementById("isphone").innerHTML="<h1 id='yes'>YES, your phone is connected via USB!</h1>";
                                     return;
                                 }
                             }
-                            document.getElementById("isphone").innerHTML="<h1 id='no'>NO: Your phone is not detected. <a href=\"http://appinventor.mit.edu/explore/ai2/connection-help.html\">Get USB Connection Help</h1>";
+                            document.getElementById("isphone").innerHTML="<h1 id='no'>NO, your phone is not connected via USB! <a href=\"http://appinventor.mit.edu/explore/ai2/connection-help.html\">Get USB Connection Help</h1>";
                         }
                         return;
                     }
@@ -494,48 +494,30 @@
                 <div class="region region-content">
                   <!-- Content ----------------------- -->
 
-<h1 property="dc:title" datatype="" class="article-title" style="text-align: center;">MIT App
-    Inventor 2 Connection Test</h1>
-
-<div class="article-content">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded">
-        <p>
-        <h1>Is aiStarter running? </h1><div id=status>Not yet, standby...</div>
-
-        <h1>Is your phone connected? </h1><div id=isphone>Not yet, standby...</div>
-
-        </p>
-        </div>
+                  <h1 property="dc:title" datatype="" class="article-title" style="text-align: center;">MIT App Inventor 2 Connection Test</h1>
+                  <p>
+                  <h1>Is aiStarter running? </h1>
+                  <div id=status>Not yet, standby...</div>
+                  <h1>Is your phone connected via USB?</h1>
+                  <div id=isphone>Not yet, standby...</div>
+                  </p>
+                
                   <!-- Content ----------------------- -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer role="contentinfo"> </footer>
-      <div class="region region-footer">
-        <div class="block block-block block-odd block-count-8 block-region-footer"
-          id="block-block-3">
-          <div class="block-inner clearfix">
-            <div class="block-content content no-title">
-              <p style="text-align: center;"><a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/"
-                  rel="license"><img src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"
-                    alt="Creative Commons License" /></a<br /> <br />
-                This work is licensed under a <a target="_blank" class="ext" href="http://creativecommons.org/licenses/by-sa/3.0/"
-                  rel="license">Creative Commons Attribution-ShareAlike 3.0
-                  Unported
-                  License</a><span class="ext"></span></p>
-              <p style="text-align: center;">© 2012-2013 <a target="_blank" class="ext"
-                  href="http://web.mit.edu/">Massachusetts
-                  Institute of Technology</a><span class="ext"></span></p>
-              <p style="text-align: center;"><a href="http://appinventor.mit.edu/explore/contact.html">Contact
-                  Us</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+            <footer role="contentinfo">
+
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-8 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="contact.html">Contact Us</a></p>
     </div>
+  </div>
+</div>
+  </div>
+    </footer>
     <table cellspacing="0" cellpadding="0" style="width: 183px; display: none; top: 110px; position: absolute; left: 924px;"
       class="gstl_50 gssb_c">
       <tbody>
@@ -551,4 +533,3 @@
     </table>
   </body>
 </html>
-
