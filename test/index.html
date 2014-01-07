@@ -428,7 +428,7 @@
                             if (this.status == 200) {
                                 var result = goog.json.parse(this.response);
                                 if (result.status == "OK") {
-                                    if (result.version && result.version == version) {
+                                    if (result.version && result.version >= version) {
                                     	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter v" + result.version + " running!</h1>";
                                     } else {
                                     	document.getElementById("status").innerHTML="<h1 id='yes'>YES, aiStarter is running! <br><br> But, your setup tools are out of date, download and install latest <a href = '/explore/ai2/update-setup-software.html' target=_blank'>setup tools </a></h1>";
