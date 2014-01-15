@@ -14,7 +14,8 @@ body {
 	margin:0;
 }
 
-#top_bar, #top_bar_background {
+#top_bar, 
+#top_bar_background {
 	top:0;
 	min-height: 40px;
 	width:100%;
@@ -169,7 +170,6 @@ h2.block-title{
 }
 .gsc-control-searchbox-only {
 	float:right;
-	margin: 5px;
 }
 
 /* MAIN PAGE*/
@@ -367,6 +367,10 @@ tr td:last-child {
   border-right: none !important;
 }
 
+.article-content td,
+.view-content td {
+  padding: 10px;
+}
 
 /*
 Tutorial Layout

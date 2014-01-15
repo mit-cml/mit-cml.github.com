@@ -56,7 +56,7 @@ ol {
 }
 
 ul {
-  list-style: disc;
+  list-style: disc inside none;
 }
 
 li {

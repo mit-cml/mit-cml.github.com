@@ -14,7 +14,8 @@ img {
   background-color: #f1f6e4;
 }
 
-.block-region-top-menu, .block-region-top-menu ul.menu {
+.block-region-top-menu, 
+.block-region-top-menu ul.menu {
   background-color: #f1f6e4;
   text-align: right;
   float: right;
@@ -23,27 +24,34 @@ img {
 #user-login-block-form-fields label {
   text-align: center;
 }
+
 .front-page-story-list-row img { 
   float:left;
   margin: 0 5px 0 0; 
 }
+
 .stories-row img {
   float:left;
   margin: 0 5px 10px 0;
 }
+
 .stories-row {
   clear: both;;
 }
+
 .views-row-even > stories-row img {
   background-color: #e5e2da;
 }
+
 #cml_logo {
   width: automatic;
 }
+
 #cml_logo img {
   clear: both;
   float: right;
 }
+
 .article-type-people > field-item img {
   float: left;
 }
@@ -80,17 +88,6 @@ img {
   white-space: nowrap;
 
 }
-.callblock-ai2 {
-  border: 1px dashed #000000;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #8F6997;
-  font-size: 9pt;
-  white-space: nowrap;
-  color: white;
-}
 
 .argblock {
   border: 1px dashed #000000;
@@ -103,6 +100,7 @@ img {
   white-space: nowrap;
 
 }
+
 .textblock {
   border: 1px dashed #000000;
   padding-left: 4px;
@@ -128,6 +126,7 @@ img {
 
 .componentsetblock {
   border: 1px dashed #000000;
+  color: #fff;
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 1px;
@@ -182,51 +181,53 @@ img {
   color:white;
 }
 
-.mathblock-ai2 {
-  border: 1px dashed #000000;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #4F86C2;
+/* AI2 Block Styling */
+.controlblock-ai2,
+.logicblock-ai2,
+.mathblock-ai2,
+.textblock-ai2,
+.listblock-ai2,
+.colorblock-ai2,
+.variableblock-ai2,
+.callblock-ai2 {
+  border: 1px dashed #000;
+  padding: 1px 4px;
   font-size: 9pt;
   white-space: nowrap;
-  color:white;
-  }
+  color: white;
+}
 
 .controlblock-ai2 {
-  border: 1px dashed #000000;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #C49D3B;
-  font-size: 9pt;
-  white-space: nowrap;
-  color:white;
+  background-color: #cfad4c;
 }
+
 .logicblock-ai2 {
-  border: 1px dashed #000000;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #77AB41;
-  font-size: 9pt;
-  white-space: nowrap;
-  color:white;
+  background-color: #88b653;
 }
+
+.mathblock-ai2 {
+  background-color: #4f86bf;
+}
+
 .textblock-ai2 {
-  border: 1px dashed #000000;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #C24471;
-  font-size: 9pt;
-  white-space: nowrap;
-  color:white;
-  }
+  background-color: #c24571;
+}
+
+.listblock-ai2 {
+  background-color: #58b6dc;
+}
+
+.colorblock-ai2 {
+  background-color: #909090;
+}
+
+.variableblock-ai2 {
+  background-color: #db743a;
+}
+
+.callblock-ai2 {
+  background-color: #8f6a96;
+}
 
 .ai-box {
   color: green;
@@ -249,14 +250,14 @@ img {
 }
 
 .ai-testing {
-border: 2px solid #ABABAB;
-color: #888;
-font-size:12px;
-font-family: Lucida Sans Unicode;
-background-position :left bottom;
-background-repeat: no-repeat;
-background-image: url('../../../files/callout_icons/testicon2.png');
-padding-left: 90px;
+  border: 2px solid #ABABAB;
+  color: #888;
+  font-size:12px;
+  font-family: Lucida Sans Unicode;
+  background-position :left bottom;
+  background-repeat: no-repeat;
+  background-image: url('../../../files/callout_icons/testicon2.png');
+  padding-left: 90px;
 }
 
 .ai-warning {
@@ -277,7 +278,6 @@ padding-left: 90px;
     margin: 20px auto;
 
 }
-
 
 a.setup-buttonSetup{
     display: block;
@@ -337,7 +337,8 @@ a.setup-buttonHeader{
   color:#4b8ef9;
 }
 
-h1.article-title a, .view-header p a  {
+h1.article-title a,
+.view-header p a  {
   color: #32590a;
 }
 .tutorials-view p a {
@@ -371,16 +372,13 @@ a.buttonSetup {
 .gray:hover { background: #E7FFCD; }
 
 /*global style*/
-h2 {
-border-bottom: 1px solid #82ac38;
-padding: 10px 0 5px 0;
+h2,
+h3,
+h2.setup,
+h3.setup {
+  border-bottom: 1px solid #82ac38;
+  padding: 10px 0 5px 0;
 }
-
-h3 {
-border-bottom: 1px solid #82ac38;
-padding: 10px 0 5px 0;
-}
-
 
 /* setup-gray */
 .setup-gray,.setup-gray:hover {
@@ -414,16 +412,7 @@ padding: 10px 0 5px 0;
 
 }
 
-/*global style*/
-h2.setup{
-border-bottom: 1px solid #82ac38;
-padding: 10px 0 5px 0;
-}
 
-h3.setup{
-border-bottom: 1px solid #82ac38;
-padding: 10px 0 5px 0;
-}
 
 
 /*Style adjustments for Google Custom Search*/
@@ -541,12 +530,14 @@ ul.menu {
   display:inline-block;
 }
 
-.tutorials-view .bef-checkboxes .form-item,.tutorials-view .bef-select-as-radios .form-radios .form-item {
+.tutorials-view .bef-checkboxes .form-item,
+.tutorials-view .bef-select-as-radios .form-radios .form-item {
   display:inline-block;
   width:20%;
   float:left;
 
 }
+
 /* Line up multi-line options nicely */
 .tutorials-view .bef-checkboxes .form-item,
 .tutorials-view .bef-select-as-radios .form-radios .form-item {
@@ -609,7 +600,8 @@ a.active:hover {
 /*******
  * Login Page
  *******/
-.not-logged-in .tabs.primary.clearfix li:first-child, .not-logged-in .tabs.primary.clearfix li:last-child{
+.not-logged-in .tabs.primary.clearfix li:first-child, 
+.not-logged-in .tabs.primary.clearfix li:last-child {
   display:none;
   visibility: hidden;
 }
@@ -617,7 +609,6 @@ a.active:hover {
 /*******
  * CSS for the my-workbench page.
  *******/
-
 div.admin.my-workbench .left {
   width: 30%;
 }
