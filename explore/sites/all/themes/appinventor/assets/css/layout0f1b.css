@@ -379,3 +379,13 @@ Tutorial Layout
 .form-item.form-type-bef-checkbox.form-item-edit-field-version-tid-60{
 	width:50%;
 }
+
+/*
+App Inventor Classic
+*/
+.ai-classic-header{
+	background: #99CC00;
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	top: 0;
+}
