@@ -821,18 +821,18 @@ Action
 &lt;li&gt;When the app starts:
 &lt;ol&gt;&lt;li&gt;Populate the list of holes.&lt;/li&gt;
 &lt;li&gt;Set each hole&#039;s &lt;b style=&quot;color:green;&quot;&gt;Picture&lt;/b&gt; property to &quot;hole.png&quot;.&lt;/li&gt;
-&lt;li&gt;Call procedure &lt;span class=&quot;callblock&quot;&gt;MoveMole&lt;/span&gt; (below).&lt;/li&gt;
+&lt;li&gt;Call procedure &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; (below).&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;Create a procedure &lt;span class=&quot;callblock&quot;&gt;MoveMole&lt;/span&gt; to:
+&lt;li&gt;Create a procedure &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; to:
 &lt;ol&gt;&lt;li&gt;Set &lt;b style=&quot;color:green;&quot;&gt;currentHole&lt;/b&gt; to a random hole from the list &lt;b style=&quot;color:green;&quot;&gt;holes&lt;/b&gt;.&lt;/li&gt;
 &lt;li&gt;Move the mole to the location of &lt;b style=&quot;color:green;&quot;&gt;currentHole&lt;/b&gt;.&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;Make &lt;b&gt;MoleClock&lt;/b&gt; call &lt;span class=&quot;callblock&quot;&gt;MoveMole&lt;/span&gt; whenever its timer goes off (every second).
+&lt;li&gt;Make &lt;b&gt;MoleClock&lt;/b&gt; call &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt; whenever its timer goes off (every second).
 &lt;/li&gt;
 &lt;li&gt;Implement a handler that does the following when the mole is touched:
 &lt;ol&gt;&lt;li&gt;Add one to the score.&lt;/li&gt;
 &lt;li&gt;Make the phone briefly vibrate.&lt;/li&gt;
-&lt;li&gt;Call &lt;span class=&quot;callblock&quot;&gt;MoveMole&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Call &lt;span class=&quot;callblock-ai2&quot;&gt;MoveMole&lt;/span&gt;.&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;To proceed, switch to the Blocks Editor.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Creating Variables&lt;/h4&gt;
@@ -918,7 +918,7 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;call MoveMole&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Procedures&lt;/td&gt;
 &lt;td&gt;Call MoveMole to make the first placement of the mole.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Compare the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block to the equivalent blocks that would be necessary without it:&lt;/p&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Compare the &lt;span class=&quot;controlblock-ai2&quot;&gt;for each&lt;/span&gt; block to the equivalent blocks that would be necessary without it:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks_new_old.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Not only is the left set of blocks shorter, it is less repetitious, sparing the programmer from semi-mindless copy-and-pasting and making it easier to modify, for example, if the name of the picture is changed.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Moving the Mole&lt;/h4&gt;
@@ -933,29 +933,29 @@ Drawer
 &lt;td&gt;
 Purpose
 &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set currentHole to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;set global currentHole to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
 &lt;td&gt;Save the...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock&quot;&gt;call pick random item&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;pick a random item&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Lists&lt;/td&gt;
 &lt;td&gt;...randomly selected...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;holes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global holes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
 &lt;td&gt;...hole.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;call Mole.MoveTo&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;call Mole.MoveTo&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Mole&lt;/td&gt;
 &lt;td&gt;Move the mole to the...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;ImageSprite.X&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Advanced/ImageSprite&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;ImageSprite.X&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Any ImageSprite&lt;/td&gt;
 &lt;td&gt;..x-coordinate of...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;currentHole&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentHole&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
 &lt;td&gt;...the chosen hole...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;ImageSprite.Y&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Advanced/ImageSprite&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;ImageSprite.Y&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Any ImageSprite&lt;/td&gt;
 &lt;td&gt;...and the y-coordinate of...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;current Hole&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentHole&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
 &lt;td&gt;...the chosen hole.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;We now need to specify that MoveMole should be called whenever MoleClock&#039;s Timer goes off. We just need two blocks to accomplish that:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks5.png&quot; /&gt;&lt;/p&gt;
@@ -968,11 +968,11 @@ Drawer
 &lt;td&gt;
 Purpose
 &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;MoleClock.Timer&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;MoleClock.Timer&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;MoleClock&lt;/td&gt;
 &lt;td&gt;When the timer goes off...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;call MoveMole&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;call MoveMole&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Procedures&lt;/td&gt;
 &lt;td&gt;...move the mole.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Registering Touches&lt;/h4&gt;
 &lt;p&gt;Finally, we need to specify what happens when the mole is touched. Specifically, we want to:&lt;/p&gt;
@@ -990,29 +990,29 @@ Drawer
 &lt;td&gt;
 Purpose
 &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;Mole.Touched&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;Mole.Touched&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Mole&lt;/td&gt;
 &lt;td&gt;When the mole is touched...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setblock&quot;&gt;set ScoreValueLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;set ScoreValueLabel.Text to&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;ScoreValueLabel&lt;/td&gt;
 &lt;td&gt;...update the visible score to...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt; block&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;      +      &lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Math&lt;/td&gt;
 &lt;td&gt;...the result of adding...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; (1)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; 1 &lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Math&lt;/td&gt;
 &lt;td&gt;...1 [and]...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;argblock&quot;&gt;ScoreValueLabel.Text&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;componentsetblock&quot;&gt;ScoreValueLabel.Text&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;ScoreValueLabel&lt;/td&gt;
 &lt;td&gt;...the previous score.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;call Buzzer.Vibrate&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;call Buzzer.Vibrate&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Buzzer&lt;/td&gt;
 &lt;td&gt;Make the phone vibrate for...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;basicblock&quot;&gt;number&lt;/span&gt; (100)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; 100 &lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Math&lt;/td&gt;
 &lt;td&gt;...100 milliseconds.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock&quot;&gt;call MoveMole&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;My Definitions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;call MoveMole&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Procedures&lt;/td&gt;
 &lt;td&gt;Move the mole to a new location.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Final Program&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash2/blocks-final.png&quot; /&gt;&lt;/p&gt;
@@ -1026,7 +1026,7 @@ Purpose
 &lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
 &lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Putting components in a &lt;b&gt;List&lt;/b&gt;.&lt;/li&gt;
-&lt;li&gt;Performing an operation on every component in a &lt;b&gt;List&lt;/b&gt; using the &lt;span class=&quot;controlblock&quot;&gt;foreach&lt;/span&gt; block and Advanced features.&lt;/li&gt;
+&lt;li&gt;Performing an operation on every component in a &lt;b&gt;List&lt;/b&gt; using the &lt;span class=&quot;controlblock-ai2&quot;&gt;for each&lt;/span&gt; block and Advanced features.&lt;/li&gt;
 &lt;li&gt;Placing an &lt;b&gt;ImageSprite&lt;/b&gt; on top of another, using their &lt;b style=&quot;color:green;&quot;&gt;Z&lt;/b&gt; properties to control which goes in front.&lt;/li&gt;
 &lt;li&gt;Using the &lt;b&gt;Clock&lt;/b&gt; component to control game play.&lt;/li&gt;
 &lt;li&gt;Creating a procedure and calling it from multiple places.&lt;/li&gt;
