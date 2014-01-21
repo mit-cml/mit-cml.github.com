@@ -36,7 +36,7 @@
 <!-- JNLP File for Notepad -->
 
 <jnlp spec="1.0+"
-      codebase="http://docs.oracle.com/javase/tutorialJWS/deployment/webstart/examples/" 
+      codebase="http://docs.oracle.com/javase/tutorialJWS/samples/deployment/NotepadJWSProject" 
       href="Notepad.jnlp">
    <information>
       <title>Notepad Demo</title>
