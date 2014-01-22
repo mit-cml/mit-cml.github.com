@@ -189,7 +189,9 @@ img {
 .listblock-ai2,
 .colorblock-ai2,
 .variableblock-ai2,
-.callblock-ai2 {
+.callblock-ai2,
+.getcomponent-ai2,
+.setcomponent-ai2 {
   border: 1px dashed #000;
   padding: 1px 4px;
   font-size: 9pt;
@@ -198,35 +200,43 @@ img {
 }
 
 .controlblock-ai2 {
-  background-color: #cfad4c;
+	background-color: #cfad4c;
 }
 
 .logicblock-ai2 {
-  background-color: #88b653;
+	background-color: #88b653;
 }
 
 .mathblock-ai2 {
-  background-color: #4f86bf;
+	background-color: #4f86bf;
 }
 
 .textblock-ai2 {
-  background-color: #c24571;
+	background-color: #c24571;
 }
 
 .listblock-ai2 {
-  background-color: #58b6dc;
+	background-color: #58b6dc;
 }
 
 .colorblock-ai2 {
-  background-color: #909090;
+	background-color: #909090;
 }
 
 .variableblock-ai2 {
-  background-color: #db743a;
+	background-color: #db743a;
 }
 
 .callblock-ai2 {
-  background-color: #8f6a96;
+	background-color: #8f6a96;
+}
+
+.getcomponent-ai2 {
+	background-color: #439a70;
+}
+
+.setcomponent-ai2 {
+	background-color: #286543;
 }
 
 .ai-box {
