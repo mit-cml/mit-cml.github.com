@@ -8,85 +8,7 @@
 <item>
  <title>Pizza Party with Fusion Tables for App Inventor 2</title>
  <link>http://explore.appinventor.mit.edu/ai2/pizzaparty</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-li {
-padding-bottom: 7px;
-}
-
-.basicblock {
-border: 1px dashed #7AA81C;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E7F2CB;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.callblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E0D1FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.argblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E5E5FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.textblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FADAA0;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.setblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #C1D5F8;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-.controlblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FAEDBB;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;div style=&quot;float:right;&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/pizza_party_screenshot.png&quot; style=&quot;border:none; padding-left:15;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT.aia&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/downloadSourcebutton.png&quot; style=&quot;border:none; padding-left:65;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;float:right;&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/pizza_party_screenshot.png&quot; style=&quot;border:none; padding-left:15;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT_2014.aia&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/downloadSourcebutton.png&quot; style=&quot;border:none; padding-left:65;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;In this tutorial, you will create an app that lets people enter food orders for a pizza party. Orders are stored in a Fusion Table, providing one easy to access place for the data. By reading from the table, the app can easily display the orders that have been entered.&lt;/p&gt;
 &lt;p&gt;A &lt;a href=&quot;http://en.wikipedia.org/wiki/Google_Fusion_Tables&quot;&gt;Fusion Table&lt;/a&gt; is a Google service to support the gathering, managing, sharing, and visualizing of data. Data are stored in multiple tables on Google&#039;s &lt;a href=&quot;http://en.wikipedia.org/wiki/Cloud_computing&quot;&gt;cloud&lt;/a&gt;. Individual tables can be merged (or fused) if they contain a common column, and they can be easily visualized on maps and in various kinds of charts and graphs. All of the data are stored in a public table that can be accessed via Google Drive, and allows different users&lt;a href=&quot;#note&quot;&gt;**&lt;/a&gt; to add information to the tables. Coupled with a location sensor, an App Inventor app could post periodic updates of each user&#039;s location to a public fusion table. Users could post notes to mark noteworthy locations. For example, a team of botanists could use a Fusion Table app to create an annotated catalog of the trees or plants within a certain geographical area. &lt;a href=&quot;https://developers.google.com/fusiontables/docs/v1/sql-reference&quot;&gt;See the Google Documentation on Fusion Tables for more information.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This tutorial introduces:&lt;/p&gt;
@@ -95,24 +17,21 @@ text-wrap: suppress;
 &lt;/ul&gt;&lt;p&gt;This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify the app&#039;s behavior. If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;/ai2/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
 &lt;hr /&gt;&lt;p&gt;&lt;strong&gt;IF YOU DOWNLOAD THE SOURCE CODE&lt;/strong&gt; you will need to supply your own API KEY, your own Table ID, and your own TABLE URL in the global variables in the blocks editor. This source code will not work without these additions.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Creating your own Fusion Table&lt;/h4&gt;
-&lt;p&gt;Creating your own Fusion Tables is as easy as creating a Google document, if you are familiar with that process.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/pizzaParty/MoreEvenMoreFusion.jpg&quot; style=&quot;float:right&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Creating your own Fusion Tables is as easy as creating a Google document.&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;On the web, login to your Gmail account or any other Google service (e.g., Drive, YouTube).&lt;/li&gt;
-&lt;li&gt;Select the &lt;strong&gt;More &amp;gt; Even more&lt;/strong&gt; menu and scroll to the bottom of the page of Google services where you will find the Fusion Tables service under &quot;Innovation&quot;, click on the Fusion Tables link.&lt;/li&gt;
-&lt;li&gt;Click &quot;Create New Table&quot;&lt;/li&gt;
-&lt;li&gt;You will be given three options for the new table: &quot;From this computer&quot;, &quot;Google Spreadsheets&quot;, or &quot;Create an empty table&quot;. For the purposes of this tutorial, select &lt;b&gt;Create an empty table&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;Go to Google Drive and click the red &lt;strong&gt;Create&lt;/strong&gt; button, you will see &lt;strong&gt;Fusion Table&lt;/strong&gt; in the list of choices. Click Fusion Table. (If you do not see Fusion Table in the Google Drive Create menu, click Connect more apps. Scroll down until you find Fusion Table and click on it. Click the + Connect button, then click ok. Now, when you click on the Create button, Fusion Table should appear.  If not, then you may need to contact your school&#039;s network administrator. See Troubleshooting section at the bottom of this page.) &lt;/li&gt;
+&lt;li&gt;You will be given a few different options for the new table. Select &lt;b&gt;Create an empty table&lt;/b&gt;.&lt;/li&gt;
 &lt;li&gt;You will see that the new table automatically comes with four columns. Change the column names for your Pizza app by going to &lt;strong&gt;Edit &amp;gt; Change Columns&lt;/strong&gt;.You&#039;ll rename the four default columns to &lt;em&gt;Date&lt;/em&gt; (type=Date), &lt;em&gt;Name&lt;/em&gt; (type=Text), &lt;em&gt;Pizza&lt;/em&gt; (type=Text), &lt;em&gt;Drink&lt;/em&gt; (type=Text). Click save and then add a fifth column by going to the &lt;strong&gt;Edit &amp;gt; Add Column&lt;/strong&gt;. Name this fifth column &lt;em&gt;Comment&lt;/em&gt; (type=Text). .&lt;/li&gt;
 &lt;li&gt;Leave this window open so that you can come back and get the URL, which you&#039;ll need when you set up the properties of the WebViewer component in your app.&lt;/li&gt;
-&lt;li&gt;Click on the &lt;strong&gt;Share&lt;/strong&gt; button (top right) to modify the table&#039;s permissions. For this tutorial, you can specify a few friends who will use the app. Only people who are explicitly given permission will be able to enter pizza party preferences through your app.&lt;/li&gt;
-&lt;/ol&gt;&lt;pre class=&quot;ai-box&quot;&gt;&lt;img src=&quot;/sites/all/files/tutorials/pizzaParty/FusionTables_GoogleDrive.png&quot; style=&quot;float:right;padding:15px;&quot; /&gt;Another way to create a new table: go to Google Drive. Click the &lt;strong&gt;Create&lt;/strong&gt; button, then go to &lt;strong&gt;More &amp;gt; Fusion Table&lt;/strong&gt;. The picture at right shows what the Create button&#039;s menu should look like. If you do not see Fusion Table in your menu, then you may need to contact your school&#039;s network administrator. (See Troubleshooting section at the bottom of this page.) &lt;/pre&gt;&lt;p&gt;&lt;strong&gt;&lt;a name=&quot;note&quot; id=&quot;note&quot;&gt;NOTE&lt;/a&gt; about Sharing Fusion Tables:&lt;/strong&gt; To share a FusionTable with others, you have to share it with each person individually, or you can share with a Google Group (&lt;a href=&quot;#footnote&quot;&gt;see footnote at the end of this tutorial&lt;/a&gt;), the same way you would share a private google doc.  There is no way to share write privileges to a FusionTable with the public. Public access is restricted to read-only.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Getting an API Key&lt;/h4&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Share&lt;/strong&gt; button (top right) to modify the table&#039;s permissions. For this tutorial, you can specify a few friends who will use the app. Only people who are explicitly given permission will be able to enter pizza party preferences through your app. (See note box immediately below this.)&lt;/li&gt;
+&lt;/ol&gt;&lt;pre class=&quot;ai-box&quot;&gt;&lt;strong&gt;&lt;a name=&quot;note&quot; id=&quot;note&quot;&gt;NOTE&lt;/a&gt; about Sharing Fusion Tables:&lt;/strong&gt; To share a FusionTable with others, you have to share it with each person individually, or you can share with a Google Group (&lt;a href=&quot;#footnote&quot;&gt;see footnote at the end of this tutorial&lt;/a&gt;), the same way you would share a private google doc.  There is no way to share write privileges to a FusionTable with the public. Public access is restricted to read-only.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Getting an API Key&lt;/h4&gt;
 &lt;p&gt;In order to use the FusiontablesControl Component you need to acquire a Google Applications Programming Interface (API) key, an API Key. To get an API key, follow these instructions:&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt;Go to your &lt;a href=&quot;https://code.google.com/apis/console/&quot;&gt;Google APIs Console&lt;/a&gt; and login if necessary.&lt;/li&gt;
-&lt;li&gt;Select the &lt;strong&gt;Services&lt;/strong&gt; item from the menu on the upper left.&lt;/li&gt;
-&lt;li&gt;In the list of services, find the &lt;strong&gt;Fusion Tables API&lt;/strong&gt; service and click the toggle button that currently says &quot;off&quot;.&lt;/li&gt;
-&lt;li&gt;Read and agree to the terms of service. When you return to the APIs Console page you&#039;ll see that the on/off switch next to Fusion Tables API is now &quot;On&quot; and green.&lt;/li&gt;
-&lt;li&gt;Go back up the menu on the upper left of the screen and select the &lt;strong&gt;API Access&lt;/strong&gt; item.&lt;/li&gt;
-&lt;li&gt;Your API Key will be in the rectangular box in the section called &quot;Simple API Access&quot;. You will need set the &quot;API Key&quot; property of the Fusiontables Control component in any app that you make that uses Fusion Tables. (More info below.)&lt;/li&gt;
+&lt;ol&gt;&lt;li&gt;Go to your &lt;a href=&quot;http://code.google.com/apis/console&quot; target=&quot;blank&quot;&gt;Google APIs Console&lt;/a&gt; and log in with a google account if not already logged in.&lt;/li&gt;
+&lt;li&gt;On the left-hand menu, select the &lt;strong&gt;APIs &amp;amp; auth&lt;/strong&gt; item. The top sub-item &quot;APIs&quot; should be selected. If not, select it.&lt;/li&gt;
+&lt;li&gt;In the list of APIs, scroll down to find the &lt;strong&gt;Fusion Tables API&lt;/strong&gt; and click the toggle button to &quot;on&quot; (if it already says &quot;on&quot; then leave it as is.)&lt;/li&gt;
+&lt;li&gt;If prompted, read and agree to the terms of service. On the Devlopers Console API page you&#039;ll see that the on/off switch next to Fusion Tables API is now &quot;On&quot; and green.&lt;/li&gt;
+&lt;li&gt;Go back to the menu on the left of the screen and select the &lt;strong&gt;Credentials&lt;/strong&gt; sub-item under &quot;APIs &amp;amp; auth.&lt;/li&gt;
+&lt;li&gt;Your API key will show up under &quot;Public API Access&quot;. If you do not see an API key, click the red button &quot;Create New Key&quot; and then click the &quot;Android Key&quot; button in the popup box. Don&#039;t worry about the pop-up box asking about SHA keys. Just click the &quot;Create&quot; button. Your API Key will be show up under &quot;Key for Android applications&quot;. You will need set the &quot;API Key&quot; property of the Fusiontables Control component in any app that you make that uses Fusion Tables. (More info below.)&lt;/li&gt;
 &lt;/ol&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Building the App&lt;/h4&gt;
 &lt;p&gt;Connect to the App Inventor web site and start a new project. Name the new project PizzaParty, set the screen&#039;s orientation to Portrait and uncheck the Screen&#039;s scrollable property. You may also wish to set the Screen&#039;s Title property to something other than &#039;Screen 1&#039;.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;The User Interface&lt;/h4&gt;
@@ -268,16 +187,16 @@ Purpose
 &lt;td&gt;Initialize this global variable to your own API Key for Google Fusion Tables. See instructions above.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2 &quot;&gt;initialize global UserName&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Records the name of the user.&lt;/td&gt;
+&lt;td&gt;Records the name of the user. (Starts off as an empty text string.)&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2 &quot;&gt;initialize global pizza&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Stores the pizza choice input by the user.&lt;/td&gt;
+&lt;td&gt;Stores the pizza choice input by the user. (Starts off as an empty text string.)&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2 &quot;&gt;initialize global drink&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Stores the drink choice input by the user.&lt;/td&gt;
+&lt;td&gt;Stores the drink choice input by the user. (Starts off as an empty text string.)&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2 &quot;&gt;initialize global comment&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Stores the comment input by the user.&lt;/td&gt;
+&lt;td&gt;Stores the comment input by the user. (Starts off as an empty text string.)&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Initializing the App&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;It is important to perform some initialization steps whenever the app is started. These are done in the &lt;span class=&quot;eventblock&quot;&gt;Screen1.Initialize&lt;/span&gt; block. For this app we need to set the initial values for the FusionTable component&#039;s API Key property (set to global API_KEY) and the WebViewer component&#039;s HomeURL property (set to global TABLE_URL). We also tell the app to forget the user&#039;s login credentials. This will prompt the user to login to their Google account and give permission to the app to access the Fusion Table. This authentication step will happen only once when the app first tries to access the Fusion Table. Remember, Fusion Tables are only writeable by users who have been given permission by the table&#039;s owner. You specify this in the Sharing settings for the Fusion Table (easy to do from the Google Drive webpage.)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/initialblocks.png&quot; /&gt;&lt;/p&gt;
@@ -299,7 +218,7 @@ Purpose
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/quotify_param.png&quot; /&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/pizzaParty/quotify.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;To construct the query we use App Inventor&#039;s join text block. &lt;strong&gt;Be sure to PUT SPACES where needed, such as before and after the words INSERT INTO and VALUES:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/pizzaParty/insertTable.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Did you remember to put a space after the word INTO?&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Did you remember to put a space after the word INTO and before and after the word VALUES?&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;For this app, the column names must match the column names of the table we created earlier (with columns Date, Name, Pizza, Drink, Comment). Their respective values are taken from the procedure&#039;s global variables.  Note: If you did not use these exact words for your table&#039;s columns, then be sure to use your table&#039;s column names when you build your query.&lt;/p&gt;
 &lt;p&gt;Don&#039;t forget the &lt;span class=&quot;callblock-ai2&quot;&gt;FusiontablesControl.SendQuery&lt;/span&gt; command at the very end of this procedure. It&#039;s small in size compared to rest of the procedure, but very important.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Handling the Response from the Fusion Tables Service&lt;/b&gt;&lt;/p&gt;
@@ -319,7 +238,7 @@ Purpose
 &lt;p&gt;To familiarize yourself with fusion tables, have a look around the &lt;a href=&quot;http://support.google.com/fusiontables/bin/answer.py?hl=en&amp;amp;answer=2571232&quot;&gt;Fusion Tables Web Site&lt;/a&gt;. Check out the example gallery to see what kinds of things are possible. Work through this &lt;a href=&quot;http://earth.google.com/outreach/tutorial_fusion_sample.html&quot;&gt;Fusion Table tutorial&lt;/a&gt;, which shows how import some data, create a Fusion Table, and view the data on a map with your browser. You&#039;ll need to log in with your Google account.&lt;/p&gt;
 &lt;p&gt;&lt;a name=&quot;footnote&quot; id=&quot;footnote&quot;&gt;NOTE about Sharing:&lt;/a&gt; &lt;strong&gt;To share a FusionTable with many people&lt;/strong&gt;, rather than by entering email addresses individually, you can &lt;strong&gt;create a dedicated Google Group for your app and let all the app users know how to join the group&lt;/strong&gt; (maybe through the web page for your app). From the moment you create your app, you share the Fusion Table once with your Google Group (using its email address), and &lt;strong&gt;make sure to give to the group editing rights&lt;/strong&gt;. Every user who joins the group will inherit the editing rights automatically.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;&lt;span style=&quot;color:black;&quot;&gt;Done with PizzaParty?&lt;/span&gt; &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;Return to the other tutorials&lt;/a&gt;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;. Remember to add in your API KEY and Fusion Table information in the Designer and blocks.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT_2014.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;/value2&gt;&lt;/value1&gt;&lt;/column2&gt;&lt;/column1&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -963,17 +882,17 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 &lt;p&gt;&lt;strong&gt;Program the behavior of the clock:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt; Use timer event to slow ball down so it doesn’t bounce around forever.&lt;/p&gt;
 &lt;p&gt;Each time the clock fires, it will reduce the speed of the ball slightly. Notice that if the ball is not moving then these blocks will do nothing. If you don’t have this then the ball will just bounce forever.&lt;/p&gt;
-&lt;p&gt;You&#039;ll need to use the if mutator function to change the if block into an if-else block. For a summary of mutators, check out the &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/support/concepts/mutators&quot;&gt;Mutators page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You&#039;ll need to use the if mutator function to change the &lt;span class=&quot;controlblock-ai2&quot;&gt;if&lt;/span&gt; block into an &lt;span class=&quot;controlblock-ai2&quot;&gt;if-else&lt;/span&gt; block. For a summary of mutators, check out the &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/support/concepts/mutators&quot;&gt;Mutators page&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/clock1.timer.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Program a new procedure called SetupNewHole:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This procedure will be called when a hole is scored and the ball has to be placed back at the starting point. Note that the &lt;span class=&quot;callblock&quot;&gt;Hole.MoveTo&lt;/span&gt; block sets the hole up in a new random location for the next play.&lt;/p&gt;
+&lt;p&gt;This procedure will be called when a hole is scored and the ball has to be placed back at the starting point. Note that the &lt;span class=&quot;callblock-ai2&quot;&gt;Hole.MoveTo&lt;/span&gt; block sets the hole up in a new random location for the next play.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/setupNewHole.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Program the Behavior of the Hole: &lt;/strong&gt;&lt;span&gt;When the ball collides with the hole, the ball disappears and resets at the bottom of the screen.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Note: When you first drag out the &lt;span class=&quot;eventblock&quot;&gt;GolfBall.CollidedWith&lt;/span&gt; event handler, the named parameter is called &quot;other&quot;. Notice that the &lt;span class=&quot;controlblock-ai2&quot;&gt;if then&lt;/span&gt; block tests to see if the object involved in the collision with the golf ball (&lt;span class=&quot;variableblock&quot;&gt;other&lt;/span&gt;) is the black ball sprite representing the hole. You can&#039;t just put a text block with the word &quot;Hole&quot; in it, you must use the &lt;span class=&quot;componentsetblock&quot;&gt;component Hole&lt;/span&gt;&lt;span&gt; block, that can be found in the drawer for the Hole image sprite. Do not use a &lt;span class=&quot;textblock-ai2&quot;&gt;text block&lt;/span&gt; here.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Note: When you first drag out the &lt;span class=&quot;controlblock-ai2&quot;&gt;GolfBall.CollidedWith&lt;/span&gt; event handler, the named parameter is called &quot;other&quot;. Notice that the &lt;span class=&quot;controlblock-ai2&quot;&gt;if then&lt;/span&gt; block tests to see if the object involved in the collision with the golf ball (&lt;span class=&quot;variableblock-ai2&quot;&gt;other&lt;/span&gt;) is the black ball sprite representing the hole. You can&#039;t just put a text block with the word &quot;Hole&quot; in it, you must use the &lt;span class=&quot;getcomponent-ai2&quot;&gt;component Hole&lt;/span&gt;&lt;span&gt; block, that can be found in the drawer for the Hole image sprite. Do not use a &lt;span class=&quot;textblock-ai2&quot;&gt;text block&lt;/span&gt; here.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/golfball.collidedwith.png&quot; /&gt;&lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong&gt;Test this Behavior.&lt;/strong&gt; Connect your device to AppInventor, or start the emulator to load your app. When you fling the ball it should move in the direction of your fling, with a speed similar to the strength of your fling. The ball should slow down as it moves, eventually stopping. When the ball hits the hole, the ball should reset at the bottom of the screen and the hole should move to a new random location.&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Does your ball get stuck if it hits the edge? &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This is easy to fix with the when &lt;span class=&quot;eventblock&quot;&gt;EdgeReached&lt;/span&gt; event. Note that you can find the &quot;edge&quot; value block by using a &lt;span class=&quot;variableblock&quot;&gt;get&lt;/span&gt; block and selecting &quot;edge&quot; from the dropdown.&lt;/p&gt;
+&lt;p&gt;This is easy to fix with the when &lt;span class=&quot;controlblock-ai2&quot;&gt;EdgeReached&lt;/span&gt; event. Note that you can find the &quot;edge&quot; value block by using a &lt;span class=&quot;variableblock-ai2&quot;&gt;get&lt;/span&gt; block and selecting &quot;edge&quot; from the dropdown.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/golfBall.edgeReached.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Double check to make sure your code is right: fling the ball a few times and see that that ball now bounces off the edges of the course.&lt;/p&gt;
 &lt;h3&gt;Part II: Keeping Score&lt;/h3&gt;
@@ -1036,9 +955,9 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 &lt;p&gt;Displays the stroke count for the hole the player is currently on&lt;/p&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;In the Blocks Editor, you can program updates to the Score and Stroke labels. First, set two new global variables called &lt;span class=&quot;variableblock&quot;&gt;StrokeCount&lt;/span&gt; and &lt;span class=&quot;variableblock&quot;&gt;Score&lt;/span&gt;, and set their initial values to 0.&lt;/p&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;In the Blocks Editor, you can program updates to the Score and Stroke labels. First, set two new global variables called &lt;span class=&quot;variableblock-ai2&quot;&gt;StrokeCount&lt;/span&gt; and &lt;span class=&quot;variableblock-ai2&quot;&gt;Score&lt;/span&gt;, and set their initial values to 0.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/scoreto0.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Then add the following blocks to the &lt;span class=&quot;eventblock&quot;&gt;GolfBall.Flung&lt;/span&gt; event (red rectangle indicates new blocks):&lt;/p&gt;
+&lt;p&gt;Then add the following blocks to the &lt;span class=&quot;controlblock-ai2&quot;&gt;GolfBall.Flung&lt;/span&gt; event (red rectangle indicates new blocks):&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/golfball.flung_final.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Next add the following blocks to the Event that handles the ball hitting the hole:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/golfball_collidewith.png&quot; /&gt;&lt;/p&gt;
@@ -1120,9 +1039,9 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 &lt;p&gt;&lt;em&gt;Note: if blocks look different in this image than on your own screen, this is because they were aligned differently. If you right click on the blocks, a list of options will appear and one of them is external inputs. When you select this, it will change how the blocks are configured. It does not change how the blocks function. If you want to change this, right click again and select internal inputs.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/moveBallOnTee.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;MoveBallOnCourse Procedure&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Note that the blocks that we had inside the &lt;span class=&quot;basicblock&quot;&gt;Clock1.Timer&lt;/span&gt; event are now moved over to a new procedure called &lt;span class=&quot;callblock-ai2&quot;&gt; moveBallOnCourse: &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Note that the blocks that we had inside the &lt;span class=&quot;controlblock-ai2&quot;&gt;Clock1.Timer&lt;/span&gt; event are now moved over to a new procedure called &lt;span class=&quot;callblock-ai2&quot;&gt; moveBallOnCourse: &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/moveBallOnCourse.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;On each new course, players can position the ball on the tee before attempting to fling the ball toward the hole. To program this, you first have to check to make sure this is a new course and the ball has not been flung yet. If &lt;span class=&quot;variableblock&quot;&gt;StrokeCount&lt;/span&gt; = 0 then we know this course is brand new and the player has not yet attempted to get the ball into the hole.&lt;/p&gt;
+&lt;p&gt;On each new course, players can position the ball on the tee before attempting to fling the ball toward the hole. To program this, you first have to check to make sure this is a new course and the ball has not been flung yet. If &lt;span class=&quot;variableblock-ai2&quot;&gt;StrokeCount&lt;/span&gt; = 0 then we know this course is brand new and the player has not yet attempted to get the ball into the hole.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/miniGolf/timer_final.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;As the blocks above show, after verifying that the StrokeCount is 0, you then want to proceed to move the golf ball left or right depending on which arrow is being pressed. &lt;/p&gt;
 &lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong&gt;Test the behavior.&lt;/strong&gt; Make sure your app is doing what you expect: play the game on your device or emulator. Before you tee off, are you able to move the ball left and right on the tee by using the left and right arrows? After you tee off, you should no longer be able to use the left and right arrows (pressing them will do nothing). After the ball goes into the hole and the screen resets, you should then be able to move the ball left and right on the tee before teeing off again.&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Keep track of the number of holes played, and allow a game reset&lt;/strong&gt;&lt;/p&gt;
@@ -1255,7 +1174,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 &lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/miniGolf/MiniGolfBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/miniGolf/MiniGolf_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/miniGolf/MiniGolf_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;&lt;span style=&quot;color:black;&quot;&gt;Done with Mini Golf?&lt;/span&gt; &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;Return to the other tutorials&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -1363,7 +1282,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/paintPot2/PaintPot2Barcode.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Or &lt;a href=&quot;/sites/all/files/ai2tutorials/paintPot2/PaintPot2.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/paintPot2/PaintPot2.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/paintPot2/PaintPot2.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;PaintPot&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -1458,7 +1377,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;/ul&gt;&lt;pre class=&quot;ai-box&quot; style=&quot;background-image: url(&#039;/sites/all/files/ai2tutorials/picCall/android-warning-30x30.gif&quot;&gt;&lt;strong&gt;Tip&lt;/strong&gt;: The list that comes up when you run the phone number picker does not show the pictures associated with your contacts, on some Android systems. Even though the image isn&#039;t shown, the &quot;Picture&quot; property will still return a picture that will show up when you run the app, provided that the phone has a picture for that contact.&lt;/pre&gt;&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/picCall/PicCall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/picCall/PicCall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;PicCall&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -1554,11 +1473,11 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;p&gt;Click the Blocks button to switch to the Blocks Editor. First you will set up the buttons that change the paint color. Later you will add blocks to decide what happens when someone touches or drags the screen.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Add button event handlers&lt;/h4&gt;
 &lt;p&gt;In the Blocks Editor:&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt;Open the drawer for &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonRed&lt;/span&gt; and drag out the &lt;span class=&quot;basicblock&quot;&gt;when ButtonRed.Click &lt;/span&gt; block.&lt;/li&gt;
-&lt;li&gt;Open the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer. Drag out the &lt;span class=&quot;setblock&quot;&gt;set DrawingCanvas.PaintColor to &lt;/span&gt; block (remember that the set block of components is a &lt;a href=&quot;/concepts/dropdowns&quot;&gt;dropdown&lt;/a&gt; so PaintColor is a selection in the dropdown) and place it in the &lt;span class=&quot;basicblock&quot;&gt;do&lt;/span&gt; section of &lt;span class=&quot;basicblock&quot;&gt;when ButtonRed.Click &lt;/span&gt;.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/paintPot1/canvasdropdown.gif&quot; /&gt;&lt;/li&gt;
-&lt;li&gt;Open the Colors drawer and drag out the block for the color Red and put it into &lt;span class=&quot;componentsetblock&quot;&gt;set DrawingCanvas.PaintColor to &lt;/span&gt;. (Clicking on a color block after it&#039;s been placed will display a table of colors that you can select from.)&lt;/li&gt;
+&lt;ol&gt;&lt;li&gt;Open the drawer for &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonRed&lt;/span&gt; and drag out the &lt;span class=&quot;controlblock-ai2&quot;&gt;when ButtonRed.Click &lt;/span&gt; block.&lt;/li&gt;
+&lt;li&gt;Open the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer. Drag out the &lt;span class=&quot;setcomponent-ai2&quot;&gt;set DrawingCanvas.PaintColor to &lt;/span&gt; block (remember that the set block of components is a &lt;a href=&quot;/ai2/concepts/dropdowns&quot;&gt;dropdown&lt;/a&gt; so PaintColor is a selection in the dropdown) and place it in the &lt;span class=&quot;controlblock-ai2&quot;&gt;do&lt;/span&gt; section of &lt;span class=&quot;controlblock-ai2&quot;&gt;when ButtonRed.Click &lt;/span&gt;.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/paintPot1/canvasdropdown.gif&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Open the Colors drawer and drag out the block for the color Red and put it into &lt;span class=&quot;setcomponent-ai2&quot;&gt;set DrawingCanvas.PaintColor to &lt;/span&gt;. (Clicking on a color block after it&#039;s been placed will display a table of colors that you can select from.)&lt;/li&gt;
 &lt;li&gt;Repeat steps 2-4 for the blue and green buttons.&lt;/li&gt;
-&lt;li&gt;The final button to set up is the Wipe button. Make a click event handler for &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonWipe&lt;/span&gt; by dragging &lt;span class=&quot;eventblock&quot;&gt;when ButtonWipe.Click &lt;/span&gt; from the &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonWipe&lt;/span&gt; drawer. From the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer, drag &lt;span class=&quot;callblock&quot;&gt;call DrawingCanvas.Clear &lt;/span&gt; and place it in the &lt;span class=&quot;eventblock&quot;&gt;do&lt;/span&gt; area of the &lt;span class=&quot;eventblock&quot;&gt;when ButtonWipe.Click&lt;/span&gt; block.&lt;/li&gt;
+&lt;li&gt;The final button to set up is the Wipe button. Make a click event handler for &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonWipe&lt;/span&gt; by dragging &lt;span class=&quot;controlblock-ai2&quot;&gt;when ButtonWipe.Click &lt;/span&gt; from the &lt;span style=&quot;font-style:italic;&quot;&gt;ButtonWipe&lt;/span&gt; drawer. From the &lt;span style=&quot;font-style:italic;&quot;&gt;DrawingCanvas&lt;/span&gt; drawer, drag &lt;span class=&quot;callblock-ai2&quot;&gt;call DrawingCanvas.Clear &lt;/span&gt; and place it in the &lt;span class=&quot;controlblock-ai2&quot;&gt;do&lt;/span&gt; area of the &lt;span class=&quot;controlblock-ai2&quot;&gt;when ButtonWipe.Click&lt;/span&gt; block.&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;The blocks for the buttons should look like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/paintPot1/buttonsclick.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Add Touch-event Handlers&lt;/h4&gt;
@@ -1569,7 +1488,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;/ul&gt;&lt;p&gt;On the right side of the &lt;span class=&quot;callblock&quot;&gt;call DrawingCanvas.DrawCircle&lt;/span&gt; block are three sockets where you must specify values for the x and y coordinates where the circle should be drawn, and &lt;strong&gt;r&lt;/strong&gt;, which is the radius of the circle. For &lt;strong&gt;x&lt;/strong&gt; and &lt;strong&gt;y&lt;/strong&gt;, you&#039;ll use values of the arguments that were supplied to the Touched handler:&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;Open the Variables drawer. Find the &lt;span class=&quot;getblock&quot;&gt;get&lt;/span&gt; block.&lt;/li&gt;
 &lt;li&gt;Drag out two &lt;span class=&quot;getblock&quot;&gt;get&lt;/span&gt; blocks and plug them into the corresponding sockets in the &lt;span class=&quot;eventblock&quot;&gt;when DrawingCanvas.Touched&lt;/span&gt; block. Click on the dropdown to select &lt;strong&gt;x&lt;/strong&gt; and &lt;strong&gt;y&lt;/strong&gt; in the corresponding block.&lt;/li&gt;
-&lt;li&gt;You&#039;ll also need to specify the radius of the circle to draw. Five (pixels) is a good value for this app. Click in a blank area of the screen and type the number 5 followed by return to create a number block with a value of 5. Typing on the blank area of the screen is called &lt;a href=&quot;/concepts/typeblocking&quot;&gt;typeblocking&lt;/a&gt; and is a useful shortcut to know. This can be done for any block, not just numbers. Plug the block for 5 into the radius slot.&lt;/li&gt;
+&lt;li&gt;You&#039;ll also need to specify the radius of the circle to draw. Five (pixels) is a good value for this app. Click in a blank area of the screen and type the number 5 followed by return to create a number block with a value of 5. Typing on the blank area of the screen is called &lt;a href=&quot;/tips/typeblocking&quot;&gt;typeblocking&lt;/a&gt; and is a useful shortcut to know. This can be done for any block, not just numbers. Plug the block for 5 into the radius slot.&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;Here&#039;s how the touch event handler should look:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/paintPot1/PaintPotTouchHandler.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Try out what you have so far on the phone. Touch a color button. Now touch the canvas, and your finger should leave a spot at each place you touch. Touching the Wipe button should clear your drawing.&lt;/p&gt;
@@ -1601,7 +1520,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/tutorials/paintPot1/PaintPotBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Or &lt;a href=&quot;/sites/all/files/ai2tutorials/paintPot1/PaintPot.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/paintPot1/PaintPot.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/paintPot1/PaintPot.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -1745,7 +1664,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMashBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMash.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/moleMash/MoleMash.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;MoleMash&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -1817,17 +1736,17 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;ul&gt;&lt;li&gt;A selection of images and sounds are available at the &lt;a href=&quot;/media-library&quot;&gt;App Inventor Media Library&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Optional supporting hard copy materials for the original App Inventor version of this tutorial such as the &lt;a href=&quot;/media-library&quot;&gt;App Inventor Overview Handouts&lt;/a&gt;, and the &lt;a href=&quot;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxhcHBpbnZlbnRvcmxlc3NvbnN8Z3g6MjJkNmViOGQ3MDNmZWYwZQ&quot;&gt;PDF version&lt;/a&gt; of this lesson.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3&gt;Outline&lt;/h3&gt;
-&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;/content/setup&quot;&gt;Set up&lt;/a&gt; computers and phones or emulators. (Suggestion: do this ahead of time)&lt;/li&gt;
-&lt;li&gt;Part One:&lt;a href=&quot;#m8one&quot;&gt;Click a Button, Hear a Sound&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Part Two: &lt;a href=&quot;#m8two&quot;&gt;Click the Button, Get a Prediction + Hear a Sound&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Part Three: &lt;a href=&quot;#m8three&quot;&gt;Shake the Phone, Get a Prediction + Hear a Sound&lt;/a&gt; &lt;/li&gt;
+&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;/ai2/setup&quot;&gt;Set up&lt;/a&gt; computers and phones or emulators. (Suggestion: do this ahead of time)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#m8one&quot;&gt;Part One: Click a Button, Hear a Sound&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#m8two&quot;&gt;Part Two: Click the Button, Get a Prediction + Hear a Sound&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#m8three&quot;&gt;Part Three: Shake the Phone, Get a Prediction + Hear a Sound&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#m8four&quot;&gt;Suggestions for further exploration:&lt;/a&gt;  Text-to-Speech, Rotating image, Custom prediction lists&lt;/li&gt;
 &lt;/ol&gt;&lt;h3&gt;&lt;a name=&quot;m8one&quot; id=&quot;m8one&quot;&gt;Part One: Click a Button, Hear a Sound&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The final Magic 8-Ball App will deliver a prediction from a list that you have designed. To get started, first we&#039;ll make a button with a picture on it, and program it to play a sound when the button is clicked.&lt;/p&gt;
 &lt;p style=&quot;color:green;&quot;&gt;DESIGN: App Inventor Designer&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;To open the App Inventor Designer window, go to &lt;a href=&quot;http://newblocks.appinventor.mit.edu&quot;&gt;http://newblocks.appinventor.mit.edu&lt;/a&gt;. See setup instructions above if you are not sure how to sign in.&lt;/li&gt;
 &lt;li&gt;If you have already made an app (such as Hello Purr), you will automatically be directed to the Designer with the last project you worked on showing. Click &quot;My Projects&quot; in the upper left corner of the screen, which will take you to your list of projects. Click &quot;New&quot; and name your project something like &quot;Magic8Ball&quot;(note: spaces are not allowed).&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/newproject.png&quot; /&gt;&lt;/li&gt;
-&lt;li&gt;Download one image and one sound file from below to be used in your app.  Right click (control-click) on the link of the image or sound, then choose &quot;Download&quot; or &quot;Save As&quot;. Save the media files to a convenient location that you will remember.
+&lt;li&gt;Download &lt;b&gt;one&lt;/b&gt; image and &lt;b&gt;one&lt;/b&gt; sound file from below to be used in your app.  Right click (control-click) on the link of the image or sound, then choose &quot;Download&quot; or &quot;Save As&quot;. Save the media files to a convenient location that you will remember.
 &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://dl.dropbox.com/u/90819513/Cha_Ching_Sound.mp3&quot;&gt;ChaChing Sound&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://dl.dropbox.com/u/90819513/Clinking_Teaspoon_Sound.mp3&quot;&gt;Clinking Teaspoon Sound&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://dl.dropbox.com/u/90819513/Ta%20Da%20sound.mp3&quot;&gt;Tada Sound&lt;/a&gt;&lt;/li&gt;
@@ -1853,7 +1772,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;p style=&quot;color:green;&quot;&gt;TEST: Phone/Emulator&lt;/p&gt;
 &lt;p&gt;You have now built an app! To test that it works, you either have to launch an emulator, or connect to a phone. Go back to the &lt;a href=&quot;/ai2/setup&quot;&gt;Setup Instructions&lt;/a&gt; if you do not have a phone or an emulator running.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Emulator&lt;/b&gt;: click on the picture, you will hear the sound play.&lt;br /&gt;&lt;b&gt;Phone&lt;/b&gt;: tap the picture, you will hear the sound play.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;Note: If you don&#039;t hear the sound, first be sure you have the volume turned up on your device (or computer if using emulator). Also, make sure your device has an SD card. App Inventor stores media files to the SD card. In some devices, the Play component does not work correctly. You will need to use the Player component instead of the Sound component.&lt;/pre&gt;&lt;h3&gt;&lt;a name=&quot;#m8two&quot; id=&quot;#m8two&quot;&gt;Part Two&lt;/a&gt;: Output a Prediction&lt;/h3&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;Note: If you don&#039;t hear the sound, first be sure you have the volume turned up on your device (or computer if using emulator). Also, make sure your device has an SD card. App Inventor stores media files to the SD card. In some devices, the Play component does not work correctly. You will need to use the Player component instead of the Sound component.&lt;/pre&gt;&lt;h3&gt;&lt;a name=&quot;m8two&quot; id=&quot;m8two&quot;&gt;Part Two: Click the Button, Get a Prediction + Hear a Sound&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Now that we&#039;ve gotten the button to perform an action (play a sound), we want to extend that action to include giving the user a prediction. First we&#039;ll need two labels: Label1 will display the instructions, and Label2 will display the chosen prediction. We&#039;ll use blocks to program a &quot;list picker&quot; to choose from a list of predictions. Each time the button is clicked, the app will change the text of Label2 to display the chosen prediction.&lt;/p&gt;
 &lt;p style=&quot;color:green;&quot;&gt;DESIGN: App Inventor&lt;/p&gt;
 &lt;p&gt;Go back to the Designer window in your browser and add some new things to your app.&lt;/p&gt;
@@ -1866,19 +1785,19 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;p&gt;Now it’s time to go back into the Blocks Editor to program the components you just added to your project.&lt;/p&gt;
 &lt;p style=&quot;color:green;&quot;&gt;BUILD: Blocks Editor&lt;/p&gt;
 &lt;p&gt;Now for the fun part! You&#039;re going to make a list of predictions and program the button to pick one item from the list and display it inside Label2. The button will also still play the sound that you programmed in Part One. Here&#039;s how to do it...&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt;From the blocks palette, click on Label2 drawer to see all of its associated blocks. Drag over the green &lt;span class=&quot;componentsetblock&quot;&gt;set Label2.BackgroundColor&lt;/span&gt; and insert it just above the &lt;span class=&quot;callblock&quot;&gt;Sound1.Play&lt;/span&gt; block. Notice that the &lt;span class=&quot;eventblock&quot;&gt;when Button1.Click&lt;/span&gt; block automatically gets bigger to accomodate the new block.&lt;/li&gt;
-&lt;li&gt;Clicking on the word &quot;BackgroundColor&quot; will allow you to change the property that is being set. We want to change the Text so our block will look like &lt;span class=&quot;componentsetblock&quot;&gt;set Label2.Text&lt;/span&gt;. This is called a &lt;a href=&quot;/support/concepts/mutators&quot;&gt;mutator&lt;/a&gt; block.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/Label2.Text.png&quot; /&gt;&lt;/li&gt;
-&lt;li&gt;From the Built-In palette, click on the Lists drawer. Drag over the &lt;span class=&quot;listblock&quot;&gt;pick random item&lt;/span&gt; block and connect it to the open socket of the &lt;span class=&quot;componentsetblock&quot;&gt;set Label2.Text&lt;/span&gt; block.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/Listdrawer.png&quot; /&gt;&lt;/li&gt;
-&lt;li&gt;From the Built-In palette, click on Lists again, then drag out the &lt;span class=&quot;listblock&quot;&gt;make a list&lt;/span&gt; block and plug it into the &quot;list&quot; socket on the right side of the &lt;span class=&quot;listblock&quot;&gt;pick random item&lt;/span&gt; block.&lt;/li&gt;
-&lt;li&gt;From the Built-In palette, click on the Text drawer, drag out a &lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; block and connect it to the item socket of the &lt;span class=&quot;listblock&quot;&gt;make a list&lt;/span&gt; block. Click directly on the word “text” so that it gets highlighted. You can then type in new text there. Think about the sayings you want in your list of predictions for the Magic 8-Ball.  Type the first prediction into this new text block.&lt;/li&gt;
-&lt;li&gt;Notice after you plug in two text blocks, there are no more sockets to add more responses. To create more sockets, you need to click the blue plus button. &lt;span class=&quot;listblock&quot;&gt;make a list&lt;/span&gt; is a &lt;a href=&quot;/support/concepts/mutators&quot;&gt;mutator&lt;/a&gt; block and thus can be expanded or shrunk by clicking the blue plus sign.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/UserGuide/blocks/lists/makealist.gif&quot; /&gt;&lt;/li&gt;
+&lt;ol&gt;&lt;li&gt;From the blocks palette, click on Label2 drawer to see all of its associated blocks. Drag over the green &lt;span class=&quot;componentsetblock&quot;&gt;set Label2.BackgroundColor&lt;/span&gt; and insert it just above the &lt;span class=&quot;callblock-ai2&quot;&gt;Sound1.Play&lt;/span&gt; block. Notice that the &lt;span class=&quot;eventblock&quot;&gt;when Button1.Click&lt;/span&gt; block automatically gets bigger to accomodate the new block.&lt;/li&gt;
+&lt;li&gt;Clicking on the word &quot;BackgroundColor&quot; will allow you to change the property that is being set. We want to change the Text so our block will look like &lt;span class=&quot;componentsetblock&quot;&gt;set Label2.Text&lt;/span&gt;.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/Label2.Text.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;From the Built-In palette, click on the Lists drawer. Drag over the &lt;span class=&quot;listblock-ai2&quot;&gt;pick random item&lt;/span&gt; block and connect it to the open socket of the &lt;span class=&quot;setcomponent-ai2&quot;&gt;set Label2.Text&lt;/span&gt; block.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/Listdrawer.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;From the Built-In palette, click on Lists again, then drag out the &lt;span class=&quot;listblock-ai2&quot;&gt;make a list&lt;/span&gt; block and plug it into the &quot;list&quot; socket on the right side of the &lt;span class=&quot;listblock-ai2&quot;&gt;pick random item&lt;/span&gt; block.&lt;/li&gt;
+&lt;li&gt;From the Built-In palette, click on the Text drawer, drag out a &lt;span class=&quot;textblock&quot;&gt;text&lt;/span&gt; block and connect it to the item socket of the &lt;span class=&quot;listblock-ai2&quot;&gt;make a list&lt;/span&gt; block. Click directly on the word “text” so that it gets highlighted. You can then type in new text there. Think about the sayings you want in your list of predictions for the Magic 8-Ball.  Type the first prediction into this new text block.&lt;/li&gt;
+&lt;li&gt;Notice after you plug in two text blocks, there are no more sockets to add more responses. To create more sockets, you need to click the blue plus button. &lt;span class=&quot;listblock-ai2&quot;&gt;Make a list&lt;/span&gt; is called a mutator block and thus can be expanded or shrunk by clicking the blue button in the upper left corner.  For a summary of mutators, check out the &lt;a href=&quot;/ai2/support/concepts/mutators&quot;&gt;Mutators page&lt;/a&gt;&lt;br /&gt;&lt;img src=&quot;/sites/all/files/UserGuide/blocks/lists/makealist.gif&quot; /&gt;&lt;/li&gt;
 &lt;li&gt; Plug each text block into the &lt;span class=&quot;ai-blocks&quot;&gt;pick random item&lt;/span&gt; block. (Ideas for answers: &lt;a href=&quot;http://en.wikipedia.org/wiki/Magic_8-Ball&quot;&gt;http://en.wikipedia.org/wiki/Magic_8-Ball&lt;/a&gt;)&lt;/li&gt;
 &lt;/ol&gt;&lt;p&gt;Blocks should look something like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/finalblocks.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;You&#039;ve got a Magic 8-Ball App! Now your app is fully functional and will predict the future with absolute certainty. Test out that this works, and then come back for some challenge tasks to make the app even more fun.&lt;/p&gt;
 &lt;p style=&quot;color:green;&quot;&gt;TEST: Emulator or Phone&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Emulator&lt;/b&gt;: Click on the picture of the 8-Ball, you should see one of your answers displayed in the Label2.Text field, followed by the sound.&lt;br /&gt;&lt;b&gt;Phone&lt;/b&gt;: Tap on the picture of the 8-Ball, you should see one of your answers displayed in the Label2.Text field, followed by the sound.&lt;/p&gt;
-&lt;h3&gt;&lt;a name=&quot;#m8three&quot; id=&quot;#m8three&quot;&gt;Part Three&lt;/a&gt;: Shake the Phone, Get a Prediction&lt;/h3&gt;
+&lt;h3&gt;&lt;a name=&quot;m8three&quot; id=&quot;m8three&quot;&gt;Part Three: Shake the Phone, Get a Prediction + Hear a Sound&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Even though you have a working Magic 8-Ball app, there is a way to make it even more fun. You can use the accelerometer component to make the phone respond to shaking instead of responding to a button click. This will make the app much more like a real Magic 8-Ball toy. &lt;em&gt;Note: This part can only be done with an actual phone or tablet equipped with an accelerometer. If you are using an emulator, skip this part and go to Challenge 1 instead.&lt;/em&gt;&lt;/p&gt;
 &lt;p style=&quot;color;green;&quot;&gt;DESIGN: App Inventor&lt;/p&gt;
 &lt;p&gt;From the Sensors palette, drag over an &lt;b&gt;AccelerometerSensor&lt;/b&gt; sensor component. Notice that it automatically drops down to the “Non-visible components” area of the Viewer window. This is the only new component you need, so go on over to the Blocks Editor to change your program.&lt;/p&gt;
@@ -1894,7 +1813,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;p&gt;Your app would disappear if you were to disconnect your phone from the Blocks Editor. This is because the app is still stored on the App Inventor server and not on your phone. Follow &lt;a href=&quot;/support/packaging-apps&quot;&gt;these instructions&lt;/a&gt; to package your app to your phone or to make an &quot;.apk&quot; file that can be installed on any android phone. Or, if you want to make your app even cooler, try the challenges below.&lt;/p&gt;
 &lt;h3&gt;Challenge 1: Make the Magic 8-Ball Speak&lt;/h3&gt;
 &lt;p&gt;Instead of (or in addition to) making the prediction appear as text, can you make the 8-Ball speak it aloud? Hint: the text-to-speech component is under the &lt;b&gt;Other Stuff&lt;/b&gt; palette in the Designer. &lt;em&gt;Note: Most Android devices have the text-to-speech (TTS) capability, but if you have trouble getting the TTS component in App Inventor to work, you may need to find out how to install TTS and/or enable TTS on your device.&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;a name=&quot;#m8four&quot; id=&quot;#m8four&quot;&gt;Suggestions for Further Exploration&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a name=&quot;m8four&quot; id=&quot;m8four&quot;&gt;Suggestions for Further Exploration&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;
 &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Make the image rotate when the phone is shaken or have several images that the app rotates through while the phone is shaken. You could use this technique to make it look like the triangle piece inside the 8-ball window is surfacing. You could also make different images for different predictions and display the correct image for each prediction.&lt;/li&gt;
 &lt;li&gt;Make a similar app but for a different purpose. The phone could be used in place of dice or yahtzee letters. It could simulate a coin toss or a random number or color generator for investigating probability.&lt;/li&gt;
@@ -1907,7 +1826,7 @@ Finally, define a global variable &lt;span class=&quot;variableblock&quot;&gt;do
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/magic8ball/Magic8BallBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Or &lt;a href=&quot;/sites/all/files/ai2tutorials/magic8ball/Magic8Ball.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/magic8ball/Magic8Ball.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/magic8ball/Magic8Ball.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
@@ -2198,7 +2117,7 @@ Purpose
 &lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/stockQuotes/StockQuotesBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/stockQuotes/stockQuotes.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/stockQuotes/stockQuotes.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Credits&lt;/h4&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;This tutorial is based on &lt;a href=&quot;http://appinventorblog.com/2011/06/02/app-inventor-has-a-new-component-the-web/&quot;&gt;an app created by Prof. David Wolber&lt;/a&gt; and relies on the Yahoo! Finance API.
 
@@ -2637,7 +2556,7 @@ Purpose of Component
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/videoWall/VideoWallBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/VideoWall.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/videoWall/VideoWall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/videoWall/VideoWall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT is grateful to &lt;a href=&quot;http://explore.appinventor.mit.edu/people/vance-turnewitsch&quot;&gt;Vance Turnewitsch&lt;/a&gt; for developing this tutorial.
 
 Done with &lt;span style=&quot;color:black;&quot;&gt;VideoWall&lt;/span&gt;? Return to the other App Inventor 2 tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
