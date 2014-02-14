@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta content="NFC Cup Game for AI2" about="/ai2/cup-game" property="dc:title" />
+<link rel="canonical" href="cup-game.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="../node/473.html" />
+  <title>NFC Cup Game for AI2 | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.basef301.css?n0zynt");
+@import url("../modules/system/system.menusf301.css?n0zynt");
+@import url("../modules/system/system.messagesf301.css?n0zynt");
+@import url("../modules/system/system.themef301.css?n0zynt");</style>
+<style>@import url("../sites/all/modules/date/date_api/datef301.css?n0zynt");
+@import url("../modules/field/theme/fieldf301.css?n0zynt");
+@import url("../modules/node/nodef301.css?n0zynt");
+@import url("../modules/search/searchf301.css?n0zynt");
+@import url("../modules/user/userf301.css?n0zynt");
+@import url("../sites/all/modules/extlink/extlinkf301.css?n0zynt");
+@import url("../sites/all/modules/views/css/viewsf301.css?n0zynt");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctoolsf301.css?n0zynt");
+@import url("../sites/all/modules/lightbox2/css/lightboxf301.css?n0zynt");
+@import url("../sites/all/modules/panels/css/panelsf301.css?n0zynt");
+@import url("../sites/all/libraries/superfish/css/superfishf301.css?n0zynt");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.basef301.css?n0zynt");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layoutf301.css?n0zynt");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messagesf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/html-elementsf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/formsf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/tablesf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/pagef301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/articlesf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/commentsf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/fieldsf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/blocksf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/navigationf301.css?n0zynt");
+@import url("../sites/all/themes/newexploretheme/color/colorsf301.css?n0zynt");
+@import url("../sites/all/themes/sky/css/sky.settings.stylef301.css?n0zynt");
+@import url("../sites/all/themes/newexploretheme/css/NewExplorethemef301.css?n0zynt");
+@import url("../sites/all/themes/newexploretheme/video-js/video-jsf301.css?n0zynt");
+@import url("../sites/all/themes/appinventor/assets/css/resetf301.css?n0zynt");
+@import url("../sites/all/themes/appinventor/assets/css/typographyf301.css?n0zynt");
+@import url("../sites/all/themes/appinventor/assets/css/layoutf301.css?n0zynt");
+@import url("../sites/all/themes/appinventor/assets/css/drupalf301.css?n0zynt");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/printf301.css?n0zynt");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.stylef301.css?n0zynt" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanelsf301.css?n0zynt" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.stylef301.css?n0zynt" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanelsf301.css?n0zynt" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/at_css/appinventor.responsive.layoutf301.css?n0zynt" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/at_css/appinventor.lt-ie9.layout.css?n0zynt" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupalf301.js?n0zynt"></script>
+<script src="../sites/all/modules/extlink/extlinkf301.js?n0zynt"></script>
+<script src="../sites/all/modules/lightbox2/js/lightboxf301.js?n0zynt"></script>
+<script src="../sites/all/modules/google_analytics/googleanalyticsf301.js?n0zynt"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-sliderf301.js?n0zynt"></script>
+<script src="../sites/all/libraries/superfish/jquery.hoverIntent.minifiedf301.js?n0zynt"></script>
+<script src="../sites/all/libraries/superfish/sfsmallscreenf301.js?n0zynt"></script>
+<script src="../sites/all/libraries/superfish/superfishf301.js?n0zynt"></script>
+<script src="../sites/all/libraries/superfish/supersubsf301.js?n0zynt"></script>
+<script src="../sites/all/modules/superfish/superfishf301.js?n0zynt"></script>
+<script src="../sites/all/themes/sky/js/scriptsf301.js?n0zynt"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/videof301.js?n0zynt"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"K8Zt4yZ1RRo_HnwKAUYr-pzqPAjk6cWinr0E8oL0clY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"\/sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1,"public:\/\/at_css\/appinventor.responsive.layout.css":1,"public:\/\/at_css\/appinventor.lt-ie9.layout.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Simple_Nav"},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-473 page-type-tutorial lang-en site-name-explore-mit-app-inventor section-ai2 color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor logo"/></a></div>
+          
+    </div>
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-superfish-1" class="block block-superfish block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix" role="navigation">
+              <h2 class="block-title element-invisible element-invisible">Simple_Nav</h2>
+            <ul id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-2 sf-single-items-1"><li id="menu-2892-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-no-children"><a href="../index-2.html" title="" class="sf-depth-1">Home</a></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">Blog ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">News &amp; Events</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-3239-1" class="last odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../blog.html" title="" class="sf-depth-2">Team Blog</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="../library.html" title="" class="sf-depth-1 menuparent">Support ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3036-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Library</a></li><li id="menu-3038-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../forums.html" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li><li id="menu-3174-1" class="last odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="../support.html" title="Information about App Inventor version 1" class="sf-depth-2">AI Classic (v1)</a></li></ul></li></ul>  </nav>
+  </div>
+      <div class="region region-create">
+    <section id="block-block-21" class="block block-block block-odd block-count-2 block-region-create">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Create Button</h2>
+            <div class="block-content content">
+      <p><a href="http://ai2.appinventor.mit.edu/" target="new"><button>Create</button></a></p>
+    </div>
+  </div>
+</section>
+  </div>
+    </div>
+      <div class="region region-header">
+    <section id="block-block-23" class="block block-block block-odd block-count-3 block-region-header">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Social Icons</h2>
+            <div class="block-content content">
+      <p style="color:white;float:left;margin: 10px 5px;">
+Follow Us:</p>
+<p style="float:left;margin: 5px 10px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://twitter.com/AppInv"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="http://www.youtube.com/user/appinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>   <a href="mailto:app-inventor-mgr@mit.edu"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/gmail.png" style="width:25px;" /></a></p>
+    </div>
+  </div>
+</section>
+<div id="block-block-7" class="block block-block block-even block-count-4 block-region-header">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+
+    </div>
+  </div>
+</div>
+  </div>
+    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-5 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <article id="article-473" class="article article-type-tutorial article-lang-en odd article-full clearfix" about="/ai2/cup-game" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 property="dc:title" datatype="" class="article-title">
+                      NFC Cup Game for AI2                  </h1>
+      
+      
+    </header>
+    
+  <div class="article-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><h2 class="ai-header">Introduction</h2>
+<p> This tutorial will demonstrate App Inventor's Near Field Communication (NFC) capabilities. You'll build an application that will simulate the shell game by writing messages to NFC tags in setup mode and reading them in play mode. In order to get the full experience from this application, you will need to purchase readable, writable, NFC tags. </p>
+<pre class="ai-box">IMPORTANT: Applications built with the NFC component will not respond to tags while in live development mode. <strong>To test your application, you must build your app and download the APK to your phone</strong>. (<a href="share.html">How do I build an APK?</a>)</pre><h2 class="ai-header">Getting Started</h2>
+<p>Go to the App Inventor website, begin a new project titled 'BallShuffle', and connect your phone. Download the following images onto your computer and upload them into your project. (Right-click or ctrl-click and choose Save Image. Remember where you put them!)</p>
+<ul><li> <a href="../sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg" target="blank">Ping Pong Ball Image</a><img src="../sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg" style="width:30px;height:30px" /></li>
+<li> <a href="../sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png" target="blank">Question Mark Image</a><img src="../sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png" style="width:30px;height:30px" /></li>
+<li> <a href="../sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg" target="blank">Red Cup Image</a><img src="../sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg" style="width:30px;height:30px" /></li>
+</ul><h2 class="ai-header">Set up the Components</h2>
+<p>The user interface will consist of a menu at the top that lets you switch between the “setup” and “play” modes, a menu that will appear during setup mode and disappear during play mode, and in image that will change based on NFC input and output.</p>
+<p><img src="../sites/all/files/ai2tutorials/nfccupgame/nfcComponentSetup.png" /></p>
+<table cellpadding="0" cellspacing="0"><tr style="background-color:#EFEFEF; font-weight: bold;"><td>Component Type</td>
+<td>Palette Group</td>
+<td>What You'll Name It</td>
+<td>Purpose of Component</td>
+<td>Component Settings</td>
+</tr><tr><td><strong>Label</strong></td>
+<td>User Interface</td>
+<td style="color:green">MainMenuLabel</td>
+<td>Title bar for main menu</td>
+<td><span class="ButtonText">Text</span>: Main Menu; <span class="ButtonText">Font</span>: Bold; <span class="ButtonText">Fontsize</span>: 16</td>
+</tr><tr><td><strong>HorizontalArrangement</strong></td>
+<td>Layout</td>
+<td style="color:green">MainMenuArrangement</td>
+<td>Line up two "mode" buttons side by side</td>
+<td><span class="ButtonText">Width</span>: Fill Parent; <span class="ButtonText">Height</span>: Automatic</td>
+</tr><tr><td><strong>Button</strong></td>
+<td>User Interface</td>
+<td style="color:green">SetupModeButton</td>
+<td>Change to setup mode</td>
+<td><span class="ButtonText">Text</span>: Setup; <span class="ButtonText">Width</span>: Fill Parent</td>
+</tr><tr><td><strong>Button</strong></td>
+<td>User Interface</td>
+<td style="color:green">PlayModeButton</td>
+<td>Change to play mode</td>
+<td><span class="ButtonText">Text</span>: Play; <span class="ButtonText">Width</span>: Fill Parent</td>
+</tr><tr><td><strong>VerticalArrangement</strong></td>
+<td>Layout</td>
+<td style="color:green">SetupArrangement</td>
+<td></td>
+<td><span class="ButtonText">Width</span>: Fill Parent; <span class="ButtonText">Height</span>: Fill Parent</td>
+</tr><tr><td><strong>VerticalArrangement</strong></td>
+<td>Layout</td>
+<td style="color:green">SetupMenuArrangement</td>
+<td>Line up the setup menu options</td>
+<td><span class="ButtonText">Width</span>: Fill Parent; <span class="ButtonText">Height</span>: Fill Parent</td>
+</tr><tr><td><strong>Label</strong></td>
+<td>User Interface</td>
+<td style="color:green">SetupMenuLabel</td>
+<td>Title bar for setup menu</td>
+<td><span class="ButtonText">Text</span>: SetupMenu; <span class="ButtonText">Font</span>: Bold</td>
+</tr><tr><td><strong>HorizontalArrangement</strong></td>
+<td>Layout</td>
+<td style="color:green">SetupButtonArrangement</td>
+<td>Hold the buttons for setup menu</td>
+<td><span class="ButtonText">Width</span>: Fill Parent; <span class="ButtonText">Height</span>: Fill Parent</td>
+</tr><tr><td><strong>Button</strong></td>
+<td>User Interface</td>
+<td style="color:green">BallButton</td>
+<td>Lets user define NFC tag as "ball"</td>
+<td><span class="ButtonText">Text</span>: Ball; <span class="ButtonText">Width</span>: Fill Parent</td>
+</tr><tr><td><strong>Button</strong></td>
+<td>User Interface</td>
+<td style="color:green">CupButton</td>
+<td>Lets user define NFC tag as "cup"</td>
+<td><span class="ButtonText">Text</span>: Cup; <span class="ButtonText">Width</span>: Fill Parent</td>
+</tr><tr><td><strong>Label</strong></td>
+<td>User Interface</td>
+<td style="color:green">InstructionLabel</td>
+<td>Give the user instructions for the mode they are in</td>
+<td><span class="ButtonText">Text</span>: -; <span class="ButtonText">Width</span>: Fill Parent</td>
+</tr><tr><td><strong>Image</strong></td>
+<td>User Interface</td>
+<td style="color:green">Image1</td>
+<td>Place holder for images</td>
+<td><span class="ButtonText">Height</span>: 200 pixels; <span class="ButtonText">Width</span>: Fill Parent; <span class="ButtonText">Picture</span>: questionmark.png</td>
+</tr><tr><td><strong>Horizontal Arrangement</strong></td>
+<td>Layout</td>
+<td style="color:green">ImageArrangement</td>
+<td>Allows you to center the image</td>
+<td><span class="ButtonText">AlignHorizontal</span>: Center; <span class="ButtonText">Width</span>: Fill Parent; </td>
+</tr><tr><td><strong>Label</strong></td>
+<td>User Interface</td>
+<td style="color:green">ResultsLabel</td>
+<td>Show results of user's actions</td>
+<td><span class="ButtonText">Text</span>: -; <span class="ButtonText">Width</span>: Fill Parent</td>
+</tr><tr><td><strong>NearField</strong></td>
+<td>Sensors</td>
+<td style="color:green">NearField1</td>
+<td>Gives access to NFC capabilities</td>
+<td><span class="ButtonText">ReadMode</span>: checked;</td>
+</tr></table><h2 class="ai-header">Add Behaviors to the Components</h2>
+<p>We're going to build all of the menus and make the menus work, then we'll modify them to incorperate the NearField component.</p>
+<p>To start, we're going to create several variables to make it easier to reference text that will be reused throughout the application:</p>
+<p><a href="../sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png"><img src="../sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png" /></a></p>
+<p>Next we're going to define the initialization behavior and define the button behavior:</p>
+<p>When the screen is initialized, we want the app to display the question mark picture and the setup instructions. Since the SetupMenuArrangement is initially set to visible, we don't have to address it in the Screen1.Initialize block. When the user clicks on the SetupModeButton or on the PlayModeButton, then we want to change the SetupMenuArrangement to visible or invisible respectively. In addition, when the user clicks one of these two buttons, we want to make sure that the correct instructions for that mode is displayed and that the image resets to the question mark picture. When the user clicks on BallButton, we want the image to a change picture of the ball and the CupButton should change the image to a picture of the cup. </p>
+<p> The blocks should look like the image below and the buttons should correctly toggle all of the images</p>
+<p><a href="../sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png"><img src="../sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png" /></a></p>
+<p>Now that the interface works correctly, we're going to add the NFC functionality to the app. We're going to modify the 5 blocks by adding the correct NFC behavior to each one. This will make the buttons turn on read mode when the </p>
+<p><a href="../sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png"><img src="../sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png" /></a></p>
+<p>Now, we define the app's behavior when a tag is written. When the app writes a tag, we want the the instructions to update, we want the picture to reset, and we want to change NearField1.ReadMode to true so that the tag isn't accidentally overwritten.</p>
+<p><a href="../sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png"><img src="../sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png" /></a></p>
+<p>Finally, we're going to define the tag read block which contains the majority of the logic for the app. If the app is in play mode and it reads a tag that says "ball," then it will display the victory message and show a picture of a ball. If it reads "cup," then it will display the loss message and show a picture of a cup. Finally, if it doesn't recognize the message, it will display an error message and append the message to the end.</p>
+<p><a href="../sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png"><img src="../sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png" /></a></p>
+<p> Finally, here's a screen shot of the entire completed app </p>
+<p><a href="../sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png"><img src="../sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png" /></a></p>
+<h4 class="ai-header">Download Source Code</h4>
+<p>If you'd like to work with this sample in App Inventor, download the <a href="../sites/all/files/ai2tutorials/nfccupgame/cup_game.aia">source code</a> to your computer, then open App Inventor, go to the My Projects page, and choose <b>More Actions | Upload Source</b>.</p>
+<p>Done with <span style="color:black;">CupGame</span>? Return to to the other App Inventor 2 tutorials <a href="tutorials.html">here</a>.</p>
+</div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Version:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        <a href="../tutorial-version/app-inventor-2.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 2</a>      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Difficulty:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        Advanced      </li>
+
+    
+  </ul>
+
+</section>
+<section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full clearfix">
+
+      <h2 class="field-label">Tutorial Type:&nbsp;</h2>
+  
+  <ul class="field-items">
+
+    
+      <li class="field-item even">
+        NFC (Near Field Comm.)      </li>
+
+    
+      <li class="field-item odd">
+        Game      </li>
+
+    
+  </ul>
+
+</section>
+  </div>
+
+  
+  
+</article>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+}
+
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><strong>Home</strong></li>
+<li><a href="../people.html">People</a></li>
+</ul><ul><li><strong>Blog</strong></li>
+<li><a href="../news-events.html">News + Events</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../blog.html">Team Blog</a></li>
+</ul><ul><li><strong>Using AI2</strong></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../library.html">Library</a></li>
+<li><a href="tutorials.html">Tutorials</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="../forums.html">Forums</a></li>
+</ul><ul><li><strong>Support</strong></li>
+<li><a href="setup.html">Setup</a></li>
+<li><a href="support/troubleshooting.html">Troubleshooting</a></li>
+<li style="margin-top: 38px"><a href="../support.html">App Inventor Classic</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2014 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

@@ -6,6 +6,169 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>NFC Cup Game for AI2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/cup-game</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt; This tutorial will demonstrate App Inventor&#039;s Near Field Communication (NFC) capabilities. You&#039;ll build an application that will simulate the shell game by writing messages to NFC tags in setup mode and reading them in play mode. In order to get the full experience from this application, you will need to purchase readable, writable, NFC tags. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;IMPORTANT: Applications built with the NFC component will not respond to tags while in live development mode. &lt;strong&gt;To test your application, you must build your app and download the APK to your phone&lt;/strong&gt;. (&lt;a href=&quot;/ai2/share&quot;&gt;How do I build an APK?&lt;/a&gt;)&lt;/pre&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Go to the App Inventor website, begin a new project titled &#039;BallShuffle&#039;, and connect your phone. Download the following images onto your computer and upload them into your project. (Right-click or ctrl-click and choose Save Image. Remember where you put them!)&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg&quot; target=&quot;blank&quot;&gt;Ping Pong Ball Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png&quot; target=&quot;blank&quot;&gt;Question Mark Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg&quot; target=&quot;blank&quot;&gt;Red Cup Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h2&gt;
+&lt;p&gt;The user interface will consist of a menu at the top that lets you switch between the “setup” and “play” modes, a menu that will appear during setup mode and disappear during play mode, and in image that will change based on NFC input and output.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcComponentSetup.png&quot; /&gt;&lt;/p&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr style=&quot;background-color:#EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component Type&lt;/td&gt;
+&lt;td&gt;Palette Group&lt;/td&gt;
+&lt;td&gt;What You&#039;ll Name It&lt;/td&gt;
+&lt;td&gt;Purpose of Component&lt;/td&gt;
+&lt;td&gt;Component Settings&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;MainMenuLabel&lt;/td&gt;
+&lt;td&gt;Title bar for main menu&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Main Menu; &lt;span class=&quot;ButtonText&quot;&gt;Font&lt;/span&gt;: Bold; &lt;span class=&quot;ButtonText&quot;&gt;Fontsize&lt;/span&gt;: 16&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;MainMenuArrangement&lt;/td&gt;
+&lt;td&gt;Line up two &quot;mode&quot; buttons side by side&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Automatic&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupModeButton&lt;/td&gt;
+&lt;td&gt;Change to setup mode&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Setup; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;PlayModeButton&lt;/td&gt;
+&lt;td&gt;Change to play mode&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Play; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;VerticalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupArrangement&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;VerticalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupMenuArrangement&lt;/td&gt;
+&lt;td&gt;Line up the setup menu options&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupMenuLabel&lt;/td&gt;
+&lt;td&gt;Title bar for setup menu&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: SetupMenu; &lt;span class=&quot;ButtonText&quot;&gt;Font&lt;/span&gt;: Bold&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupButtonArrangement&lt;/td&gt;
+&lt;td&gt;Hold the buttons for setup menu&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;BallButton&lt;/td&gt;
+&lt;td&gt;Lets user define NFC tag as &quot;ball&quot;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Ball; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;CupButton&lt;/td&gt;
+&lt;td&gt;Lets user define NFC tag as &quot;cup&quot;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Cup; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;InstructionLabel&lt;/td&gt;
+&lt;td&gt;Give the user instructions for the mode they are in&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: -; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Image&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;Image1&lt;/td&gt;
+&lt;td&gt;Place holder for images&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: 200 pixels; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt;: questionmark.png&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Horizontal Arrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;ImageArrangement&lt;/td&gt;
+&lt;td&gt;Allows you to center the image&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;AlignHorizontal&lt;/span&gt;: Center; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;ResultsLabel&lt;/td&gt;
+&lt;td&gt;Show results of user&#039;s actions&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: -; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;NearField&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Sensors&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;NearField1&lt;/td&gt;
+&lt;td&gt;Gives access to NFC capabilities&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;ReadMode&lt;/span&gt;: checked;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h2&gt;
+&lt;p&gt;We&#039;re going to build all of the menus and make the menus work, then we&#039;ll modify them to incorperate the NearField component.&lt;/p&gt;
+&lt;p&gt;To start, we&#039;re going to create several variables to make it easier to reference text that will be reused throughout the application:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next we&#039;re going to define the initialization behavior and define the button behavior:&lt;/p&gt;
+&lt;p&gt;When the screen is initialized, we want the app to display the question mark picture and the setup instructions. Since the SetupMenuArrangement is initially set to visible, we don&#039;t have to address it in the Screen1.Initialize block. When the user clicks on the SetupModeButton or on the PlayModeButton, then we want to change the SetupMenuArrangement to visible or invisible respectively. In addition, when the user clicks one of these two buttons, we want to make sure that the correct instructions for that mode is displayed and that the image resets to the question mark picture. When the user clicks on BallButton, we want the image to a change picture of the ball and the CupButton should change the image to a picture of the cup. &lt;/p&gt;
+&lt;p&gt; The blocks should look like the image below and the buttons should correctly toggle all of the images&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now that the interface works correctly, we&#039;re going to add the NFC functionality to the app. We&#039;re going to modify the 5 blocks by adding the correct NFC behavior to each one. This will make the buttons turn on read mode when the &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now, we define the app&#039;s behavior when a tag is written. When the app writes a tag, we want the the instructions to update, we want the picture to reset, and we want to change NearField1.ReadMode to true so that the tag isn&#039;t accidentally overwritten.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Finally, we&#039;re going to define the tag read block which contains the majority of the logic for the app. If the app is in play mode and it reads a tag that says &quot;ball,&quot; then it will display the victory message and show a picture of a ball. If it reads &quot;cup,&quot; then it will display the loss message and show a picture of a cup. Finally, if it doesn&#039;t recognize the message, it will display an error message and append the message to the end.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; Finally, here&#039;s a screen shot of the entire completed app &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/nfccupgame/cup_game.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;CupGame&lt;/span&gt;? Return to to the other App Inventor 2 tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Advanced      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        NFC (Near Field Comm.)      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Game      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 07 Feb 2014 22:43:37 +0000</pubDate>
+ <dc:creator>michaelphox</dc:creator>
+ <guid isPermaLink="false">473 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Pizza Party with Fusion Tables for App Inventor 2</title>
  <link>http://explore.appinventor.mit.edu/ai2/pizzaparty</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;float:right;&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/pizza_party_screenshot.png&quot; style=&quot;border:none; padding-left:15;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/pizzaParty/PizzaParty_MIT_2014.aia&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/pizzaParty/downloadSourcebutton.png&quot; style=&quot;border:none; padding-left:65;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
@@ -289,7 +452,6 @@ Purpose
  <pubDate>Thu, 08 Aug 2013 15:19:00 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">381 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/pizzaparty#comments</comments>
 </item>
 <item>
  <title>Colored Dots for App Inventor 2</title>
@@ -694,13 +856,13 @@ Component Settings
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/screen1listpicker.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Blocks for the &lt;b&gt;Brush_Picker&lt;/b&gt; screen&lt;/h4&gt;
 &lt;p&gt;The main job of &lt;b&gt;Brush_Picker&lt;/b&gt; is to create a color from the red-green-blue values entered in the text boxes and provide that color to &lt;b&gt;Screen1&lt;/b&gt;. One thing the &lt;b&gt;Brush_Picker&lt;/b&gt; needs to check is that it&#039;s using good values for colors and dot size. Each of the red, green, blue values should be a number between 0 and 255. But you could have entered anything in those text boxes. The &lt;span class=&quot;callblock-ai2&quot;&gt;checkColor&lt;/span&gt; procedure takes a value and limits its range to between 0 and 255. If it&#039;s less than 0 (or not a number at all) the result will be 0. If it&#039;s greater than 255, the result will be 255. &lt;/p&gt;
-&lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;checkColor&lt;/span&gt; procedure calls the &lt;span class=&quot;callblock-ai2&quot;&gt;LimitRange&lt;/span&gt; procedure. This is a general procedure that takes an input, a lower limit, and an upper limit, and restricts the input to lie within that range (and it returns the lower limit if the input is not a number). The procedure is simple, but tricky: To restrict the range, take the maximum of the input and the lower limit, then take the minimum of the result and the upper limit. This programming &quot;trick&quot; has little to do with multiple screens or App Inventor. You might want to take a few moments to convince yourself that it really works.&lt;/p&gt;
-&lt;p&gt;Here are the blocks for &lt;span class=&quot;callblock-ai2&quot;&gt;checkColor&lt;/span&gt; and &lt;span class=&quot;callblock-ai2&quot;&gt;LimitRange&lt;/span&gt; :&lt;/p&gt;
+&lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;checkColor&lt;/span&gt; procedure calls the &lt;span class=&quot;callblock-ai2&quot;&gt;limitRange&lt;/span&gt; procedure. This is a general procedure that takes an input, a lower limit, and an upper limit, and restricts the input to lie within that range (and it returns the lower limit if the input is not a number). The procedure is simple, but tricky: To restrict the range, take the maximum of the input and the lower limit, then take the minimum of the result and the upper limit. This programming &quot;trick&quot; has little to do with multiple screens or App Inventor. You might want to take a few moments to convince yourself that it really works.&lt;/p&gt;
+&lt;p&gt;Below are the blocks for &lt;span class=&quot;callblock-ai2&quot;&gt;checkColor&lt;/span&gt; and &lt;span class=&quot;callblock-ai2&quot;&gt;limitRange&lt;/span&gt;. Remember that procedures are mutator blocks and we can use the mutator button to add (and change the names of) parameters to our procedure. To review mutators, check out the &lt;a href=&quot;/ai2/support/concepts/mutators&quot;&gt;mutators page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/checkColor.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/LimitRange.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Now, we will use those two procedures to create the rest of the blocks for &lt;b&gt;Brush_Picker&lt;/b&gt;. When you click ReturnToPainting the new color, the new dot size (taken from the RadiusTextBox), and the total number of colors are returned to &lt;b&gt;Screen1&lt;/b&gt; as a three-item list. As mentioned before, when &lt;b&gt;Brush_Picker&lt;/b&gt; is open, &lt;b&gt;Screen1&lt;/b&gt; passes its values of the current color, the number of colors, and the current dot radius size. &lt;b&gt;Brush_Picker&lt;/b&gt; uses &lt;span class=&quot;controlblock-ai2&quot;&gt;get start value&lt;/span&gt; when it is initialized to access these values.&lt;/p&gt;
+&lt;p&gt;Now, we will use those two procedures to create the rest of the blocks for &lt;b&gt;Brush_Picker&lt;/b&gt;. When you click ReturnToPainting, the new color, the new dot size (taken from the RadiusTextBox), and the total number of colors are returned to &lt;b&gt;Screen1&lt;/b&gt; as a three-item list. As mentioned before, when &lt;b&gt;Brush_Picker&lt;/b&gt; is open, &lt;b&gt;Screen1&lt;/b&gt; passes its values of the current color, the number of colors, and the current dot radius size. &lt;b&gt;Brush_Picker&lt;/b&gt; uses &lt;span class=&quot;controlblock-ai2&quot;&gt;get start value&lt;/span&gt; when it is initialized to access these values.&lt;/p&gt;
 &lt;p&gt;When you click the TestColorButton, the color is created for you as the background of LabelTestColorSample and the Canvas shows a circle of the appropriate size and color. To return the list to &lt;b&gt;Screen1&lt;/b&gt;, &lt;b&gt;Brush_Picker&lt;/b&gt; uses &lt;span class=&quot;controlblock-ai2&quot;&gt;close screen with value&lt;/span&gt;, which takes as an argument the value to be returned (in this case, the list). When a screen closes, the app returns to the screen that opened it.&lt;/p&gt;
-&lt;p&gt;Here are the blocks that do this. &lt;b&gt;Brush_Picker&lt;/b&gt; uses the procedures &lt;span class=&quot;callblock-ai2&quot;&gt;CheckColor&lt;/span&gt; and &lt;span class=&quot;callblock-ai2&quot;&gt;LimitRange&lt;/span&gt; to ensure that the values entered in the text boxes are valid numbers for colors and dot size. We&#039;ll examine these procedure below. Remember that procedures are mutator blocks and we can use the mutator button to add (and change the names of) parameters to our procedure. To review mutators, check out the &lt;a href=&quot;/ai2/support/concepts/mutators&quot;&gt;Mutators page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are the blocks that do this. &lt;b&gt;Brush_Picker&lt;/b&gt; uses the procedures &lt;span class=&quot;callblock-ai2&quot;&gt;CheckColor&lt;/span&gt; and &lt;span class=&quot;callblock-ai2&quot;&gt;LimitRange&lt;/span&gt; to ensure that the values entered in the text boxes are valid numbers for colors and dot size.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/brushpicker_init.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;When TestColorButton is clicked, is displays the created color. Notifier1 is then used to give you a choice to save the color or cancel using the &lt;span class=&quot;eventblock&quot;&gt;Notifier1.ShowChooseDialog&lt;/span&gt; block. The response from this will trigger further Notifier events so that you can save the color.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/testcolorbutton.png&quot; /&gt;&lt;/p&gt;
@@ -774,7 +936,6 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
  <pubDate>Wed, 07 Aug 2013 19:18:33 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">380 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/colored-dots#comments</comments>
 </item>
 <item>
  <title>Mini Golf: Fling, TouchUp, TouchDown Gestures for App Inventor 2</title>
@@ -1232,7 +1393,6 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
  <pubDate>Wed, 07 Aug 2013 14:13:24 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">379 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/minigolf#comments</comments>
 </item>
 <item>
  <title>PaintPot (Part 2) for App Inventor 2</title>
@@ -1332,7 +1492,6 @@ Finally, define a global variable &lt;span class=&quot;variableblock-ai2&quot;&g
  <pubDate>Tue, 16 Jul 2013 14:33:50 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">364 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/paintpot-part2#comments</comments>
 </item>
 <item>
  <title>PicCall for App Inventor 2</title>
@@ -1413,7 +1572,6 @@ Finally, define a global variable &lt;span class=&quot;variableblock-ai2&quot;&g
  <pubDate>Wed, 03 Jul 2013 14:50:54 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">358 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/piccall#comments</comments>
 </item>
 <item>
  <title>PaintPot (Part 1) for App Inventor 2</title>
@@ -1571,7 +1729,6 @@ Finally, define a global variable &lt;span class=&quot;variableblock-ai2&quot;&g
  <pubDate>Wed, 03 Jul 2013 14:47:23 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">357 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/paintpot-part1#comments</comments>
 </item>
 <item>
  <title>MoleMash for App Inventor 2</title>
@@ -1723,7 +1880,6 @@ Finally, define a global variable &lt;span class=&quot;variableblock-ai2&quot;&g
  <pubDate>Wed, 03 Jul 2013 14:29:42 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">356 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/molemash#comments</comments>
 </item>
 <item>
  <title>Magic 8-ball for App Inventor 2</title>
@@ -1877,7 +2033,6 @@ Finally, define a global variable &lt;span class=&quot;variableblock-ai2&quot;&g
  <pubDate>Tue, 02 Jul 2013 20:43:39 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">355 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/magic-8-ball#comments</comments>
 </item>
 <item>
  <title>StockQuotes for App Inventor 2</title>
@@ -1963,7 +2118,7 @@ text-wrap: suppress;
 &lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;StockQuotes&lt;/span&gt;&lt;/h2&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
 &lt;p&gt;Just like you can access web pages from your phone -- for example, to look up a stock price -- so can App Inventor.  This app enables the user to enter a stock symbol, then looks up the price of the stock on Yahoo! Finance and displays the price on the phone.&lt;/p&gt;
-&lt;p&gt;This tutorial assumes that you are familiar with the basics of App Inventor -- using the Component Designer to build a user interface and using the Blocks Editor to specify event handlers.  If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://explore.appinventor.mit.edu/content/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes that you are familiar with the basics of App Inventor -- using the Component Designer to build a user interface and using the Blocks Editor to specify event handlers.  If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;This tutorial includes&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;Accepting text input from the user to specify the stock symbol.&lt;/li&gt;
@@ -2077,9 +2232,9 @@ Purpose
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;Web1.GotText&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Web1&lt;/td&gt;
 &lt;td&gt;Specify what to do when the reply comes back from the web.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;ifelse&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;if then&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Control&lt;/td&gt;
-&lt;td&gt;Provide different behavior depending on whether the request succeeded.&lt;/td&gt;
+&lt;td&gt;Provide different behavior depending on whether the request succeeded. Use the mutator to add an else statement.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get responseCode&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Variables&lt;/td&gt;
 &lt;td&gt;Gets the response code returned for the web request, which...&lt;/td&gt;
@@ -2171,445 +2326,6 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;StockQuotes&lt;/span&gt;? R
  <pubDate>Tue, 02 Jul 2013 20:35:01 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">354 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/stockquotes#comments</comments>
-</item>
-<item>
- <title>VideoWall for App Inventor 2</title>
- <link>http://explore.appinventor.mit.edu/ai2/videowall</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-li {
-padding-bottom: 7px;
-}
-
-.basicblock {
-border: 1px dashed #7AA81C;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E7F2CB;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.callblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E0D1FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.argblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E5E5FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.textblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FADAA0;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.setblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #C1D5F8;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-.controlblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FAEDBB;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
-&lt;p&gt;The VideoWall app tutorial demonstrates how you can control the size of a video playing in an app by using the &lt;strong&gt;Video Player&lt;/strong&gt; component&#039;s &lt;b style=&quot;color:green;&quot;&gt;Width&lt;/b&gt;, &lt;b style=&quot;color:green;&quot;&gt;Height&lt;/b&gt;, and &lt;b style=&quot;color:green;&quot;&gt;FullScreen&lt;/b&gt; features. The VideoWall uses media assets (videos stored in the app itself), but you can use the app to display videos from the internet as well.&lt;/p&gt;
-&lt;p&gt;This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify the app&#039;s behavior. If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
-&lt;p&gt;Connect to the App Inventor web site and start a new project. Name the new project VideoWall and set the screen&#039;s Orientation to Landscape.&lt;/p&gt;
-&lt;p&gt;Download the following video files* for use later on:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/videoWall/bigbuckbunny.3gp&quot;&gt;BigBuckBunny (bigbuckbunny.3gp)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/videoWall/nasa.3gp&quot;&gt;NASA (nasa.3gp)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/videoWall/sintel.3gp&quot;&gt;Sintel (sintel.3gp)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;*Attributions for these videos are included at the end of this tutorial.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
-&lt;p&gt;The finished VideoWall app will display a wall of three videos that can be expanded to their true size and then shrunk back down again. The app will also allow you to display the videos in fullscreen. This tutorial assumes you have followed earlier tutorials to learn how the following blocks work:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;Variables&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;Procedures&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;Button.Click blocks&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;Control (if-else) blocks&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;This tutorial introduces the following:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Resizing the VideoPlayer&lt;/li&gt;
-&lt;li&gt;Showing the VideoPlayer video in fullscreen mode&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
-&lt;p&gt;Use the component designer to create the interface for the &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt;. When completed, the designer should look similar to the snapshot below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/videoWall/setupcomponents.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;First, you need to upload the video files. Click on the Upload File... button and select a video file downloaded earlier. Repeat this step to add the other two video files. Now create the interface by dragging and dropping the components from the Palette to the Viewer.&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Component Type
-&lt;/td&gt;
-&lt;td&gt;
-Palette Group
-&lt;/td&gt;
-&lt;td&gt;
-What you&#039;ll name it
-&lt;/td&gt;
-&lt;td&gt;
-Purpose of Component
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;HorizontalArrangement&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
-&lt;td&gt;Holds all other components: makes the three vertical arrangements line up side by side&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;VerticalArrangement&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;VerticalArrangement1&lt;/td&gt;
-&lt;td&gt;Holds the left-most VideoPlayer and controls&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;VerticalArrangement&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;VerticalArrangement2&lt;/td&gt;
-&lt;td&gt;Holds the middle VideoPlayer and controls&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;VerticalArrangement&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;VerticalArrangement3&lt;/td&gt;
-&lt;td&gt;Holds the right-most VideoPlayer and controls&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;VideoPlayer&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Media&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;VideoPlayer1&lt;/td&gt;
-&lt;td&gt;Displays the BigBuckBunny video&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;VideoPlayer&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Media&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;VideoPlayer2&lt;/td&gt;
-&lt;td&gt;Displays the NASA video&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;VideoPlayer&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Media&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;VideoPlayer3&lt;/td&gt;
-&lt;td&gt;Displays the Sintel video&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;ResizeButton1&lt;/td&gt;
-&lt;td&gt;Resizes VideoPlayer1&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;ResizeButton2&lt;/td&gt;
-&lt;td&gt;Resizes VideoPlayer2&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;ResizeButton3&lt;/td&gt;
-&lt;td&gt;Resizes VideoPlayer3&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;FullScreenButton1&lt;/td&gt;
-&lt;td&gt;Shows the VideoPlayer1 video in fullscreen&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;FullScreenButton2&lt;/td&gt;
-&lt;td&gt;Shows the VideoPlayer2 video in fullscreen&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Button&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;FullScreenButton3&lt;/td&gt;
-&lt;td&gt;Shows the VideoPlayer3 video in fullscreen&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties as described below:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component&lt;/td&gt;
-&lt;td&gt;Action&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
-&lt;td&gt;Set Width to Fill parent...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;VerticalArrangement1, VerticalArrangement2, &lt;span style=&quot;color:black;&quot;&gt;and&lt;/span&gt; VerticalArrangement3&lt;/td&gt;
-&lt;td&gt;Set Width to Fill parent...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;ResizeButton1, ResizeButton2, &lt;span style=&quot;color:black;&quot;&gt;and&lt;/span&gt; ResizeButton3&lt;/td&gt;
-&lt;td&gt;Set Text to &quot;Grow&quot; and set Width to Fill parent...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;FullScreenButton1, FullScreenButton2, &lt;span style=&quot;color:black;&quot;&gt;and&lt;/span&gt; FullScreenButton3
-&lt;/td&gt;
-&lt;td&gt;Set Text to &quot;Show Full Screen&quot; and set Width to Fill parent...&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;VideoPlayer1&lt;/td&gt;
-&lt;td&gt;Set Source to bigbuckbunny.3gp , set Width to Fill parent... , and set Height to 36 pixels&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;VideoPlayer2&lt;/td&gt;
-&lt;td&gt;Set Source to nasa.3gp , set Width to Fill parent... , and set Height to 36 pixels&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:green;&quot;&gt;VideoPlayer3&lt;/td&gt;
-&lt;td&gt;Set Source to sintel.3gp , set Width to Fill parent... , and set Height to 36 pixels&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h4&gt;
-&lt;p&gt;The interface is complete, but the buttons don&#039;t resize the videos yet. Open the Blocks Editor to add the behavior to the buttons. First, you&#039;ll define three variable blocks to keep track of the size of the VideoPlayers:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
-&lt;td&gt;Drawer&lt;/td&gt;
-&lt;td&gt;Purpose&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Defines the vid1_zoomed variable (rename it)&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Defines the vid2_zoomed variable (rename it)&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Defines the vid3_zoomed variable (rename it)&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The three variables should like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/flagblocks.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Create the &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block. There are three VideoPlayers in the app, but you&#039;ll use one Procedure block to resize all three. To accomplish this simplicity, you will use the Any Component blocks component &lt;strong&gt;Any VideoPlayer&lt;/strong&gt; blocks. Create the &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer Procedure&lt;/span&gt; block using the following blocks:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
-&lt;td&gt;Drawer&lt;/td&gt;
-&lt;td&gt;Purpose&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;Procedure&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Procedures&lt;/td&gt;
-&lt;td&gt;Defines the resizeVideoPlayer procedure. Use the mutator ability of the procedure to add three arguments: x, x2, x3.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;ifelse&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Control&lt;/td&gt;
-&lt;td&gt;Defines the ifelse block that chooses whether the VideoPlayer is shrunk or expanded&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;logicblock-ai2&quot;&gt;=&lt;/span&gt; block&lt;/td&gt;
-&lt;td&gt;Logic&lt;/td&gt;
-&lt;td&gt;Defines the equals block for testing if the zoomed block is true&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;logicblock-ai2&quot;&gt;true&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Logic&lt;/td&gt;
-&lt;td&gt;Defines the block that zoomed is compared to&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;VideoPlayer.Width&lt;/span&gt; (x2)&lt;/td&gt;
-&lt;td&gt;Any VideoPlayer&lt;/td&gt;
-&lt;td&gt;Sets the VideoPlayer Width to a number&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;Number (-1)&lt;/span&gt; (x2)&lt;/td&gt;
-&lt;td&gt;Math&lt;/td&gt;
-&lt;td&gt;Width to set VideoPlayer to&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;VideoPlayer.Height &lt;/span&gt; (x2)&lt;/td&gt;
-&lt;td&gt;Any VideoPlayer&lt;/td&gt;
-&lt;td&gt;Sets the VideoPlayer Height to a number&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;Number&lt;/span&gt; (x2), values of 36 and 144&lt;/td&gt;
-&lt;td&gt;Math&lt;/td&gt;
-&lt;td&gt;Height to set VideoPlayer to&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;Button.text&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Any Button&lt;/td&gt;
-&lt;td&gt;Changes the button text&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;Text&lt;/span&gt; (x2)&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;td&gt;Text to set button to. Make one text block text&#039;s Shrink and the other&#039;s Grow.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; block should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/resize_block.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; block will be explained later after you create the blocks for responding to button clicks.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Create the Click Blocks&lt;/h4&gt;
-&lt;p&gt;The blocks you will create respond to clicks on the ResizeButton buttons. To build the three blocks, you will need the following blocks:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
-&lt;td&gt;Drawer&lt;/td&gt;
-&lt;td&gt;Purpose&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;ResizeButton1.Click&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;ResizeButton1&lt;/td&gt;
-&lt;td&gt;Defines the block for responding to clicks on ResizeButton1&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;ResizeButton2.Click&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;ResizeButton2&lt;/td&gt;
-&lt;td&gt;Defines the block for responding to clicks on ResizeButton2&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;ResizeButton3.Click&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;ResizeButton3&lt;/td&gt;
-&lt;td&gt;Defines the block for responding to clicks on ResizeButton3&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; (x3)&lt;/td&gt;
-&lt;td&gt;Procedures&lt;/td&gt;
-&lt;td&gt;Starts the resizeVideoPlayer block for resizing a VideoPlayer&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;logicblock-ai2&quot;&gt;not&lt;/span&gt; (x3)&lt;/td&gt;
-&lt;td&gt;Logic&lt;/td&gt;
-&lt;td&gt;Defines the block for switching the various zoomed block values&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;set global vid1_zoomed&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Sets the vid1_zoomed block to a different value&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;set global vid2_zoomed&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Sets the vid2_zoomed block to a different value&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;set global vid3_zoomed&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Sets the vid3_zoomed block to a different value&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;global vid1_zoomed&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Used to change the vid1_zoomed value.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;global vid2_zoomed&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Used to change the vid2_zoomed value.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;global vid3_zoomed&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Variables&lt;/td&gt;
-&lt;td&gt;Used to change the vid3_zoomed value.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;component ResizeButton1&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;ResizeButton1&lt;/td&gt;
-&lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;component ResizeButton2&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;ResizeButton2&lt;/td&gt;
-&lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;component ResizeButton3&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;ResizeButton3&lt;/td&gt;
-&lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;component VideoPlayer1&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;VideoPlayer1&lt;/td&gt;
-&lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;component VideoPlayer2&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;VideoPlayer2&lt;/td&gt;
-&lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;component VideoPlayer3&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;VideoPlayer3&lt;/td&gt;
-&lt;td&gt;Passed to the resizeVideoPlayer procedure&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/resize_blocks.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Most blocks in App Inventor require you to know exactly what component your app will manipulate when you design the app. For some apps, you will have several of the same type of component and you want to program the same behavior for all of the similar components (like the VideoPlayer blocks in this app). The blocks in the Any component section allow you to build some general manipulation on some type of component. When you built the &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer procedure&lt;/span&gt; block, you didn&#039;t know specifically which VideoPlayer would be used in the procedure. The &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; works on VideoPlayers; but not until the &lt;span class=&quot;callblock-ai2&quot;&gt;resizeVideoPlayer&lt;/span&gt; block is used in the &lt;span class=&quot;eventblock&quot;&gt;ResizeButton1.Click&lt;/span&gt; block (for example) is the specific VideoPlayer known.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; The &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt; app could have been designed with a specific resizing procedure for each VideoPlayer. By using the Advanced blocks in a single resizing procedure, the app is much simpler.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;Setting the Width and Height property for a VideoPlayer works exactly the same way as setting the Width and Height of a Button. For whatever positive number is set, the video playing will resize its appearance to fit that value. There are two values that are exceptions to the using positive values rule: -1 and -2. Setting VideoPlayer.Width or VideoPlayer.Height to -1 is like setting the Width or Height to &lt;em&gt;Fill parent&lt;/em&gt; in the designer. Setting VideoPlayer.Width or VideoPlayer.Height to -2 is like setting the Width or Height to &lt;em&gt;Automatic&lt;/em&gt; in the designer.&lt;/p&gt;
-&lt;pre class=&quot;ai-warning&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt; You can set the VideoPlayer Width and Height to any positive number you want. The VideoPlayer will change its size to match the values you set; but on some devices, the VideoPlayer does not change its size correctly. The behavior on such devices is usually unpredictable.&lt;/pre&gt;&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Test this behavior.&lt;/b&gt; Click on the Grow button below the BigBuckBunny video. The video&#039;s size should expand, and the text of the button should change to &quot;Shrink&quot;. Click on the Shrink button below the BigBuckBunny video. The video&#039;s size should shrink back to its original size and the text should change back to &quot;Grow&quot;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Create the blocks for showing fullscreen video&lt;/h4&gt;
-&lt;p&gt;You will now add the blocks for showing the videos in fullscreen mode. Use the following blocks:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
-&lt;td&gt;Drawer&lt;/td&gt;
-&lt;td&gt;Purpose&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;logicblock-ai2&quot;&gt;true&lt;/span&gt; (x3)&lt;/td&gt;
-&lt;td&gt;Logic&lt;/td&gt;
-&lt;td&gt;Value to set FullScreen as&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;FullScreenButton1.Click&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;FullScreenButton1&lt;/td&gt;
-&lt;td&gt;Responds to clicks on FullScreenButton1&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set VideoPlayer1.FullScreen&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;VideoPlayer1&lt;/td&gt;
-&lt;td&gt;Used to show fullscreen video&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;FullScreenButton2.Click&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;FullScreenButton2&lt;/td&gt;
-&lt;td&gt;Responds to clicks on FullScreenButton2&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set VideoPlayer2.FullScreen&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;VideoPlayer2&lt;/td&gt;
-&lt;td&gt;Used to show fullscreen video&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;FullScreenButton3.Click&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;FullScreenButton3&lt;/td&gt;
-&lt;td&gt;Responds to clicks on FullScreenButton3&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set VideoPlayer3.FullScreen&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;VideoPlayer3&lt;/td&gt;
-&lt;td&gt;Used to show fullscreen video&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/fullscreen_blocks.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
-&lt;p&gt;The &lt;span class=&quot;setcomponent-ai2&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; block takes a true/false value (also called a boolean) to tell it whether to go full screen or not. Setting a &lt;span class=&quot;setcomponent-ai2&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; block to true causes that VideoPlayer to be displayed in fullscreen mode. If there is another VideoPlayer in fullscreen mode, that VideoPlayer&#039;s .FullScreen value is set to false and it is replaced with the current VideoPlayer. If a &lt;span class=&quot;setcomponent-ai2&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; is true, setting a &lt;span class=&quot;setcomponent-ai2&quot;&gt;VideoPlayer.FullScreen&lt;/span&gt; block to false causes the fullscreen mode to be exited and the app&#039;s interface to display. Test this behavior. Start playing the BigBuckVideo, and click on the Show FullScreen button below the BigBuckBunny video. The app&#039;s interface should disappear and some media controls with the BigBuckBunny video should appear. Use the Back button on your device or the emulator to exit fullscreen. The app&#039;s interface should appear.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Final Program&lt;/h4&gt;
-&lt;p&gt;VideoWall Final Version&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/blockseditor_full.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Package the final version of the app by choosing &lt;b&gt;Package For Phone | Barcode&lt;/b&gt; from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app. &lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
-&lt;p&gt;Now that you have finished the first &lt;span style=&quot;color:green;&quot;&gt;VideoWall&lt;/span&gt; app, you might want to build some variations. For example:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Get more video files and add a second row to create a real VideoWall&lt;/li&gt;
-&lt;li&gt;Use videos from an online server.&lt;/li&gt;
-&lt;li&gt;Expand the resizeVideoPlayer procedure to resize VideoPlayers by small increments to create an animation effect. You could use multiple Clocks to start the resizeVideoPlayer procedure and animate multiple VideoPlayers at once.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;b&gt;If you distribute your app to others, make sure you respect any license requirements for the videos you use.&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Below are the attributions to the video files included in this demo app. The creators of the source videos that these clips are from do not endorse App Inventor.&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Video File&lt;/td&gt;
-&lt;td&gt;Information&lt;/td&gt;
-&lt;td&gt;Attribution&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bigbuckbunny.3gp&lt;/td&gt;
-&lt;td&gt;A clip from the full length film&lt;/td&gt;
-&lt;td&gt;(c) copyright 2008, Blender Foundation / &lt;a href=&quot;http://www.bigbuckbunny.org&quot;&gt;http://www.bigbuckbunny.org&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nasa.3gp&lt;/td&gt;
-&lt;td&gt;A formatted version of the Mars&#039; Whirling Dust Devil clip.&lt;/td&gt;
-&lt;td&gt;Here is the &lt;a&gt;original video.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sintel.3gp&lt;/td&gt;
-&lt;td&gt;A clip from the full length film
-&lt;/td&gt;
-&lt;td&gt;(c) copyright Blender Foundation | &lt;a href=&quot;http://durian.blender.org&quot;&gt;http://durian.blender.org&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
-&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
-&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/videoWall/VideoWallBarcode.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/videoWall/VideoWall.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/videoWall/VideoWall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;MIT is grateful to &lt;a href=&quot;http://explore.appinventor.mit.edu/people/vance-turnewitsch&quot;&gt;Vance Turnewitsch&lt;/a&gt; for developing this tutorial.
-
-Done with &lt;span style=&quot;color:black;&quot;&gt;VideoWall&lt;/span&gt;? Return to the other App Inventor 2 tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Video      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
- <pubDate>Tue, 02 Jul 2013 20:18:30 +0000</pubDate>
- <dc:creator>aaron</dc:creator>
- <guid isPermaLink="false">353 at http://explore.appinventor.mit.edu</guid>
- <comments>http://explore.appinventor.mit.edu/ai2/videowall#comments</comments>
 </item>
 </channel>
 </rss>
