@@ -270,7 +270,7 @@ text-wrap: suppress;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/app.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt; By building the &lt;span style=&quot;color:green;&quot;&gt;Space Invaders App&lt;/span&gt; you will get practice with using Clock components and Timers, using Animation components such as Image Sprites and the Canvas, setting visibility, and detecting collisions in App Inventor. You&#039;ll program an application that has a shooter ship whose goal is to shoot all the flying saucers on the screen.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
-&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;SpaceInvaders&quot;. Switch to the Blocks view and connect to a device or emulator.&lt;/p&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;SpaceInvaders&quot;. Connect to a device or emulator.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;This tutorial introduces the following skills, useful for future game development:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Using the Clock component&lt;/li&gt;
@@ -284,7 +284,7 @@ text-wrap: suppress;
 &lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
 &lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/SpaceInvadersDesigner.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer.&lt;/p&gt;
+&lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer and set the properties of the components as described below:&lt;/p&gt;
 &lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
 Component Type
 &lt;/td&gt;
@@ -297,100 +297,53 @@ What you&#039;ll name it
 &lt;td&gt;
 Purpose of Component
 &lt;/td&gt;
+&lt;td&gt;
+Action
+&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Canvas&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;Drawing and Animation&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
 &lt;td&gt;The background that we will be putting our sprites on&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt; property to &quot;Fill parent&quot; and &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt; property to 300. Set the &lt;span class=&quot;ButtonText&quot;&gt;BackgroundColor&lt;/span&gt; property to Black.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;Drawing and Animation&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;RocketSprite&lt;/td&gt;
 &lt;td&gt;The rocket ship in our game&lt;/td&gt;
+&lt;td&gt;Upload the rocketship image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;rocket.png&quot;. Set the &lt;span class=&quot;ButtonText&quot;&gt;Y&lt;/span&gt; property to 230. This will place the rocket at the bottom of the canvas.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;Drawing and Animation&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;SaucerSprite&lt;/td&gt;
 &lt;td&gt;The flying saucer in our game&lt;/td&gt;
+&lt;td&gt;Upload the saucer image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;saucer.png&quot;.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;BallSprite&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;Drawing and Animation&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;Bullet&lt;/td&gt;
 &lt;td&gt;The bullet from the rocket ship.&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;PaintColor&lt;/span&gt; to Green and set the &lt;span class=&quot;ButtonText&quot;&gt;Radius&lt;/span&gt; property to 8.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Clock&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
 &lt;td&gt;We use the Clock for its Timer method to move the the saucer&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; property to 3000.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Horizontal Arrangement&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;Layout&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
-&lt;td&gt;To contain the Score Label&lt;/td&gt;
+&lt;td&gt;To contain Label1 and ScoreLabel &lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;Label1&lt;/td&gt;
 &lt;td&gt;To contain the word &quot;Score: &quot;&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Score: &quot;.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/td&gt;
 &lt;td&gt;To contain the current numerical score&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;0&quot;.&lt;/td&gt;
 &lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Basic&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
 &lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
 &lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Set the properties of the components as described below:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Action&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;  &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;Canvas1&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Change &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt; property to &quot;Fill parent&quot;.
-&lt;/td&gt;
-&lt;td&gt;
-Change &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt; property to 300.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ResetButton&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Reset&quot;.
-&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;RocketSprite&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Upload the rocketship image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;rocket.png&quot;.
-&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;p&gt;Set the &lt;span class=&quot;ButtonText&quot;&gt;Y&lt;/span&gt; property to 230. This will place the rocket at the bottom of the canvas.&lt;/p&gt;
-&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;SaucerSprite&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Upload the saucer image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;saucer.png&quot;.
-&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;Bullet&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Upload the saucer image and set the &lt;span class=&quot;ButtonText&quot;&gt;Radius&lt;/span&gt; property to 8.
-&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;Label1&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Score: &quot;.
-&lt;/td&gt;
-&lt;td&gt;
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;0&quot;.
-&lt;/td&gt;
-&lt;td&gt;
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color:green;&quot;&gt;Clock&lt;/span&gt;
-&lt;/td&gt;
-&lt;td&gt;
-Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; property to 3000.
-&lt;/td&gt;
-&lt;td&gt;
-&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Reset&quot;.&lt;/td&gt;
 &lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Now that you have all the essential properties configured, feel free to change the colors of any components that you want to.&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Moving the rocket &lt;/h4&gt;
 &lt;p&gt;In this game, the user will move the rocket from side to side. This means we will only be changing the X-direction of the rocket sprite. To do this we will use the &lt;span class=&quot;eventblock&quot;&gt;RocketSprite.Dragged&lt;/span&gt; event handler. When the rocket is dragged, we will adjust it&#039;s X property to be the currentX that we dragged the sprite to.&lt;/p&gt;
