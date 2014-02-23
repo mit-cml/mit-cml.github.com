@@ -1105,7 +1105,7 @@ Component Settings
 &lt;p&gt;Here&#039;s how this happens: when the Customize Brush button is pressed, &lt;b&gt;Screen1&lt;/b&gt; uses &lt;span class=&quot;controlblock-ai2&quot;&gt;open another screen with start value&lt;/span&gt; to open &lt;b&gt;Brush_Picker&lt;/b&gt;. When the user finishes with Brush_Picker, it will signal the other screen closed event, which provides the name of the screen (here Brush_Picker) and the value returned (here the three-element list). The event handler for &lt;b&gt;Screen1&lt;/b&gt; extracts the three items from the list and sets the ColorSample background and the DotSizeValue text properties. Here are the blocks:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/screen1more.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;ColoredDots uses &lt;span class=&quot;controlblock-ai2&quot;&gt;open another screen with value&lt;/span&gt; to open &lt;b&gt;Brush_Picker&lt;/b&gt; with values passed to it from &lt;b&gt;Screen1&lt;/b&gt;. The other screen then accesses these opening values using &lt;span class=&quot;controlblock-ai2&quot;&gt;get start value&lt;/span&gt; blocks. In general, a screen opens another screen with &lt;span class=&quot;controlblock-ai2&quot;&gt;open another screen&lt;/span&gt; and gets a result back through the &lt;span class=&quot;controlblock-ai2&quot;&gt;when other screen closed&lt;/span&gt; event. In this case, the values are passed from &lt;b&gt;Screen1&lt;/b&gt; to &lt;b&gt;Brush_Picker&lt;/b&gt; so the app can keep track of how many colors are stored and what the current values are.&lt;/p&gt;
-&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt; App Inventor 2 allows multi-screen app testing during live development! You used to have to package the app to your phone or emulator to test the multi-screen switching behavior. That is no longer the case. Happy Inventing!&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Sharing data via TinyDB&lt;/h4&gt;
+&lt;pre class=&quot;ai-warning&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt; App Inventor 2 allows multi-screen app testing during live development, however it is not fully functional when passing values between screens. For this reason, &lt;strong&gt;you actually have to &lt;a href=&quot;/ai2/share&quot; target=&quot;blank&quot;&gt;package the app to your phone or emulator&lt;/a&gt; to test the multi-screen switching behavior&lt;/strong&gt;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Sharing data via TinyDB&lt;/h4&gt;
 &lt;p&gt;Besides opening screens and returning values, the different screens in a multiple screen app can communicate through TinyDB. To do this, give every screen its individual TinyDB component. Even though these will be &quot;different&quot; TinyDB components, they will in fact all share the same keys and values: If one screen stores a value under a key, the other screen can get that value by using the same key.&lt;/p&gt;
 &lt;p&gt;ColoredDots uses TinyDB to let you name the colors you create and save them to later use. The saving and naming will be done in &lt;b&gt;Brush_Picker&lt;/b&gt;, as shown in the blocks later. When you open ListPicker (labelled Stored Color) in &lt;b&gt;Screen1&lt;/b&gt;, the app uses opens the list of colors that you have stored for you to choose one and then sets the drawing color to the result. The elements are added to this list by creating the procedure &lt;span class=&quot;callblock-ai2&quot;&gt;populateList&lt;/span&gt;. As shown in these blocks, &lt;span class=&quot;callblock-ai2&quot;&gt;populateList&lt;/span&gt; iterates through the all of the stored entries in the database up to the number of stored colors and adds them to the list tinyDBlist. It returns this list, which ListPicker1 points to.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/screen1populatelist.png&quot; /&gt;&lt;/p&gt;
@@ -1133,7 +1133,7 @@ Component Settings
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/reset.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Comments on multiple screens&lt;/h4&gt;
 &lt;p&gt;You can have many screens in an App Inventor app, but a screen always returns to the screen that opened it. On the other hand, you can get the effect of screens switching to arbitrary other screen by setting up a &quot;manager screen&quot; that is used for opening all the other screens. When a screen wants to switch, it returns to the manager with a value saying which screen to open next.&lt;/p&gt;
-&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt; Go ahead and test out your app. Note that in the new version of App Inventor (AI2), it is now possible to test a multiple-screen app in live development mode!&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Further exploration&lt;/h4&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;b&gt;Testing the behavior.&lt;/b&gt; App Inventor 2 allows multi-screen app testing during live development, however it is not fully functional when passing values between screens. REMEMBER, &lt;strong&gt;you actually have to &lt;a href=&quot;/ai2/share&quot; target=&quot;blank&quot;&gt;package the app to your phone or emulator&lt;/a&gt; to test the multi-screen switching behavior&lt;/strong&gt;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Further exploration&lt;/h4&gt;
 &lt;p&gt;Now that you are able to create your own colors and access them for drawing, try some variations!&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;Make Brush_Picker warn the user if they are trying to store a color with the same name as something that has already been stored (e.g. don&#039;t let them make two colors named &quot;red&quot;).
 &lt;/li&gt;&lt;li&gt;Have the starting color be the last one that the user was using in the app instead of always starting with black.
@@ -1181,11 +1181,11 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Drawing Canvas      &lt;/li&gt;
+        Multiple Screens      &lt;/li&gt;
 
     
       &lt;li class=&quot;field-item odd&quot;&gt;
-        Multiple Screens      &lt;/li&gt;
+        Drawing Canvas      &lt;/li&gt;
 
     
   &lt;/ul&gt;
