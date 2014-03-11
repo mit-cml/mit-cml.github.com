@@ -1,0 +1,2096 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Events Calendar | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.basef604.css?n2838d");
+@import url("../modules/system/system.menusf604.css?n2838d");
+@import url("../modules/system/system.messagesf604.css?n2838d");
+@import url("../modules/system/system.themef604.css?n2838d");</style>
+<style>@import url("../sites/all/modules/calendar/css/calendar_multidayf604.css?n2838d");
+@import url("../sites/all/modules/date/date_api/datef604.css?n2838d");
+@import url("../sites/all/modules/date/date_repeat_field/date_repeat_fieldf604.css?n2838d");
+@import url("../modules/field/theme/fieldf604.css?n2838d");
+@import url("../modules/node/nodef604.css?n2838d");
+@import url("../modules/search/searchf604.css?n2838d");
+@import url("../modules/user/userf604.css?n2838d");
+@import url("../sites/all/modules/extlink/extlinkf604.css?n2838d");
+@import url("../sites/all/modules/views/css/viewsf604.css?n2838d");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctoolsf604.css?n2838d");
+@import url("../sites/all/modules/lightbox2/css/lightboxf604.css?n2838d");
+@import url("../sites/all/modules/panels/css/panelsf604.css?n2838d");
+@import url("../sites/all/modules/date/date_views/css/date_viewsf604.css?n2838d");
+@import url("../sites/all/libraries/superfish/css/superfishf604.css?n2838d");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.basef604.css?n2838d");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layoutf604.css?n2838d");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messagesf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/html-elementsf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/formsf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/tablesf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/pagef604.css?n2838d");
+@import url("../sites/all/themes/sky/css/articlesf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/commentsf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/fieldsf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/blocksf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/navigationf604.css?n2838d");
+@import url("../sites/all/themes/newexploretheme/color/colorsf604.css?n2838d");
+@import url("../sites/all/themes/sky/css/sky.settings.stylef604.css?n2838d");
+@import url("../sites/all/themes/newexploretheme/css/NewExplorethemef604.css?n2838d");
+@import url("../sites/all/themes/newexploretheme/video-js/video-jsf604.css?n2838d");
+@import url("../sites/all/themes/appinventor/assets/css/resetf604.css?n2838d");
+@import url("../sites/all/themes/appinventor/assets/css/typographyf604.css?n2838d");
+@import url("../sites/all/themes/appinventor/assets/css/layoutf604.css?n2838d");
+@import url("../sites/all/themes/appinventor/assets/css/drupalf604.css?n2838d");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/printf604.css?n2838d");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.stylef604.css?n2838d" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanelsf604.css?n2838d" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.stylef604.css?n2838d" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanelsf604.css?n2838d" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/at_css/appinventor.responsive.layoutf604.css?n2838d" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/at_css/appinventor.lt-ie9.layout.css?n2838d" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupalf604.js?n2838d"></script>
+<script src="../sites/all/modules/extlink/extlinkf604.js?n2838d"></script>
+<script src="../sites/all/modules/lightbox2/js/lightboxf604.js?n2838d"></script>
+<script src="../sites/all/modules/google_analytics/googleanalyticsf604.js?n2838d"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-sliderf604.js?n2838d"></script>
+<script src="../sites/all/libraries/superfish/jquery.hoverIntent.minifiedf604.js?n2838d"></script>
+<script src="../sites/all/libraries/superfish/sfsmallscreenf604.js?n2838d"></script>
+<script src="../sites/all/libraries/superfish/superfishf604.js?n2838d"></script>
+<script src="../sites/all/libraries/superfish/supersubsf604.js?n2838d"></script>
+<script src="../sites/all/modules/superfish/superfishf604.js?n2838d"></script>
+<script src="../sites/all/themes/sky/js/scriptsf604.js?n2838d"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/videof604.js?n2838d"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"YPceR7WM7iJVuMYbovjeapl2FvEHwha4mhO7ffr9SII","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"\/sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/date\/date_views\/css\/date_views.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1,"public:\/\/at_css\/appinventor.responsive.layout.css":1,"public:\/\/at_css\/appinventor.lt-ie9.layout.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Simple_Nav"},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-calendar-node-field-event-date page-calendar-node-field-event-date-year lang-en site-name-explore-mit-app-inventor section-calendar-node-field-event-date page-views color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor logo"/></a></div>
+          
+    </div>
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-superfish-1" class="block block-superfish block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix" role="navigation">
+              <h2 class="block-title element-invisible element-invisible">Simple_Nav</h2>
+            <ul id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-2 sf-single-items-1"><li id="menu-2892-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-no-children"><a href="../index-2.html" title="" class="sf-depth-1">Home</a></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">Blog ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">News &amp; Events</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-3239-1" class="last odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../blog.html" title="" class="sf-depth-2">Team Blog</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="../library.html" title="" class="sf-depth-1 menuparent">Support ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3036-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Library</a></li><li id="menu-3038-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../forums.html" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li><li id="menu-3174-1" class="last odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="../support.html" title="Information about App Inventor version 1" class="sf-depth-2">AI Classic (v1)</a></li></ul></li></ul>  </nav>
+  </div>
+      <div class="region region-create">
+    <section id="block-block-21" class="block block-block block-odd block-count-2 block-region-create">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Create Button</h2>
+            <div class="block-content content">
+      <p><a href="http://ai2.appinventor.mit.edu/" target="new"><button>Create</button></a></p>
+    </div>
+  </div>
+</section>
+  </div>
+    </div>
+      <div class="region region-header">
+    <section id="block-block-23" class="block block-block block-odd block-count-3 block-region-header">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Social Icons</h2>
+            <div class="block-content content">
+      <p style="color:white;float:left;margin: 10px 5px;">
+Follow Us:</p>
+<p style="float:left;margin: 5px 10px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://twitter.com/AppInv"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="http://www.youtube.com/user/appinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>   <a href="mailto:app-inventor-mgr@mit.edu"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/gmail.png" style="width:25px;" /></a></p>
+    </div>
+  </div>
+</section>
+<div id="block-block-7" class="block block-block block-even block-count-4 block-region-header">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+
+    </div>
+  </div>
+</div>
+  </div>
+    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                          <header>
+            <h1 id="page-title">Events Calendar</h1>
+          </header>
+                
+                  <div id="tasks" class="clearfix">
+                          <ul class="tabs primary clearfix"><li><a href="../calendar-node-field-event-date.html">Month</a></li>
+<li><a href="week.html">Week</a></li>
+<li><a href="day.html">Day</a></li>
+<li class="active"><a href="year.html" class="active">Year<span class="element-invisible">(active tab)</span></a></li>
+</ul>
+                                              </div>
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-5 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <div class="view view-events-calendar view-id-events_calendar view-display-id-page view-dom-id-c40768e65ae31c6c777b77068df70c38">
+            <div class="view-header">
+      <div class="date-nav-wrapper clearfix">
+  <div class="date-nav item-list">
+    <div class="date-heading">
+      <h3>2014</h3>
+    </div>
+    <ul class="pager">
+          <li class="date-prev">
+        <a href="year/2013.html" title="Navigate to previous year" rel="nofollow">&laquo; Prev</a>      &nbsp;</li>
+              <li class="date-next">&nbsp;
+        <a href="year/2015.html" title="Navigate to next year" rel="nofollow">Next &raquo;</a>      </li>
+        </ul>
+  </div>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+      
+<div class="calendar-calendar"><div class="year-view">
+<table >
+  <tbody>
+    <tr><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-01.html" title="View full page month">January</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2013-12-29" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2013-12-30" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2013-12-31" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-01" class="wed mini past has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-02" class="thu mini past has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-03" class="fri mini past has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-04" class="sat mini past has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-01-05" class="sun mini past has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-06" class="mon mini past has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-07" class="tue mini past has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-08" class="wed mini past has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-09" class="thu mini past has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-10" class="fri mini past has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-11" class="sat mini past has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-01-12" class="sun mini past has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-13" class="mon mini past has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-14" class="tue mini past has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-15" class="wed mini past has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-16" class="thu mini past has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-17" class="fri mini past has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-18" class="sat mini past has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-01-19" class="sun mini past has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-20" class="mon mini past has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-21" class="tue mini past has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-22" class="wed mini past has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-23" class="thu mini past has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-24" class="fri mini past has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-25" class="sat mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-01-25.html">25</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-01-26" class="sun mini past has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-27" class="mon mini past has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-28" class="tue mini past has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-29" class="wed mini past has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-30" class="thu mini past has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-31" class="fri mini past has-no-events">
+            <div class="year mini-day-off"> 31 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-01" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-02.html" title="View full page month">February</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-01-26" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-27" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-28" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-29" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-30" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-01-31" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-01" class="sat mini past has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-02-02" class="sun mini past has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-03" class="mon mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-03.html">3</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-04" class="tue mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-04.html">4</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-05" class="wed mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-05.html">5</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-06" class="thu mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-06.html">6</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-07" class="fri mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-07.html">7</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-08" class="sat mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-08.html">8</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-02-09" class="sun mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-09.html">9</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-10" class="mon mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-10.html">10</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-11" class="tue mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-11.html">11</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-12" class="wed mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-12.html">12</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-13" class="thu mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-13.html">13</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-14" class="fri mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-14.html">14</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-15" class="sat mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-15.html">15</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-02-16" class="sun mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-16.html">16</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-17" class="mon mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-17.html">17</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-18" class="tue mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-18.html">18</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-19" class="wed mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-19.html">19</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-20" class="thu mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-20.html">20</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-21" class="fri mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-21.html">21</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-22" class="sat mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-22.html">22</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-02-23" class="sun mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-23.html">23</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-24" class="mon mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-24.html">24</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-25" class="tue mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-25.html">25</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-26" class="wed mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-26.html">26</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-27" class="thu mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-27.html">27</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-28" class="fri mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-02-28.html">28</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-01" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-03.html" title="View full page month">March</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-02-23" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-24" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-25" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-26" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-27" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-02-28" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-01" class="sat mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-01.html">1</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-03-02" class="sun mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-02.html">2</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-03" class="mon mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-03.html">3</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-04" class="tue mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-04.html">4</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-05" class="wed mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-05.html">5</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-06" class="thu mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-06.html">6</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-07" class="fri mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-07.html">7</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-08" class="sat mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-08.html">8</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-03-09" class="sun mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-09.html">9</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-10" class="mon mini past has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-10.html">10</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-11" class="tue mini today has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-11.html">11</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-12" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-12.html">12</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-13" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-13.html">13</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-14" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-14.html">14</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-15" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-15.html">15</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-03-16" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-16.html">16</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-17" class="mon mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-17.html">17</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-18" class="tue mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-18.html">18</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-19" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-19.html">19</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-20" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-20.html">20</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-21" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-21.html">21</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-22" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-22.html">22</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-03-23" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-23.html">23</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-24" class="mon mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-24.html">24</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-25" class="tue mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-25.html">25</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-26" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-26.html">26</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-27" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-27.html">27</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-28" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-28.html">28</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-29" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-29.html">29</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-03-30" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-30.html">30</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-31" class="mon mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-03-31.html">31</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-01" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-02" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-03" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-04" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-05" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td></tr>  
+    <tr><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-04.html" title="View full page month">April</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-03-30" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-03-31" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-01" class="tue mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-01.html">1</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-02" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-02.html">2</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-03" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-03.html">3</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-04" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-04.html">4</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-05" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-05.html">5</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-04-06" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-06.html">6</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-07" class="mon mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-07.html">7</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-08" class="tue mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-08.html">8</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-09" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-09.html">9</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-10" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-10.html">10</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-11" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-11.html">11</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-12" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-12.html">12</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-04-13" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-13.html">13</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-14" class="mon mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-14.html">14</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-15" class="tue mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-15.html">15</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-16" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-16.html">16</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-17" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-17.html">17</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-18" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-18.html">18</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-19" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-19.html">19</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-04-20" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-20.html">20</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-21" class="mon mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-21.html">21</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-22" class="tue mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-22.html">22</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-23" class="wed mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-23.html">23</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-24" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-24.html">24</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-25" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-25.html">25</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-26" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-04-26.html">26</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-04-27" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-28" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-29" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-30" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-01" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-02" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-03" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-05.html" title="View full page month">May</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-04-27" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-28" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-29" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-04-30" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-01" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-02" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-03" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-05-04" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-05" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-06" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-07" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-08" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-09" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-10" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-05-11" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-12" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-13" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-14" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-15" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-16" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-17" class="sat mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-05-17.html">17</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-05-18" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-19" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-20" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-21" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-22" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-23" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-24" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-05-25" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-26" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-27" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-28" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-29" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-30" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-05-31" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 31 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-06.html" title="View full page month">June</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-06-01" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-02" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-03" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-04" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-05" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-06" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-07" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-06-08" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-09" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-10" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-11" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-12" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-13" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-14" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-06-15" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-16" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-17" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-18" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-19" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-20" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-21" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-06-22" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-23" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-24" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-25" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-26" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-27" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-28" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-06-29" class="sun mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-06-29.html">29</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-30" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-01" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-02" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-03" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-04" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-05" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td></tr>  
+    <tr><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-07.html" title="View full page month">July</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-06-29" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-06-30" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-01" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-02" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-03" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-04" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-05" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-07-06" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-07" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-08" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-09" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-10" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-11" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-12" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-07-13" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-14" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-15" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-16" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-17" class="thu mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-07-17.html">17</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-18" class="fri mini future has-events">
+            <div class="year mini-day-on"> <a href="day/2014-07-18.html">18</a> </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-19" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-07-20" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-21" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-22" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-23" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-24" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-25" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-26" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-07-27" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-28" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-29" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-30" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-31" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 31 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-01" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-02" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-08.html" title="View full page month">August</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-07-27" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-28" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-29" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-30" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-07-31" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-01" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-02" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-08-03" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-04" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-05" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-06" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-07" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-08" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-09" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-08-10" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-11" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-12" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-13" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-14" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-15" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-16" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-08-17" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-18" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-19" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-20" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-21" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-22" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-23" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-08-24" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-25" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-26" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-27" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-28" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-29" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-08-30" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-08-31" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 31 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-01" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-02" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-03" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-04" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-05" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-06" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-09.html" title="View full page month">September</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-08-31" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-01" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-02" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-03" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-04" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-05" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-06" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-09-07" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-08" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-09" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-10" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-11" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-12" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-13" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-09-14" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-15" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-16" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-17" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-18" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-19" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-20" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-09-21" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-22" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-23" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-24" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-25" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-26" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-27" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-09-28" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-29" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-30" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-01" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-02" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-03" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-04" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td></tr>  
+    <tr><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-10.html" title="View full page month">October</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-09-28" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-29" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-09-30" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-01" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-02" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-03" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-04" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-10-05" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-06" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-07" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-08" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-09" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-10" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-11" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-10-12" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-13" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-14" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-15" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-16" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-17" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-18" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-10-19" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-20" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-21" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-22" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-23" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-24" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-25" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-10-26" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-27" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-28" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-29" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-30" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-31" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 31 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-01" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-11.html" title="View full page month">November</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-10-26" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-27" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-28" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-29" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-30" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-10-31" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-01" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-11-02" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-03" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-04" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-05" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-06" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-07" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-08" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-11-09" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-10" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-11" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-12" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-13" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-14" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-15" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-11-16" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-17" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-18" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-19" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-20" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-21" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-22" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-11-23" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-24" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-25" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-26" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-27" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-28" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-11-29" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-11-30" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-01" class="mon mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-02" class="tue mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-03" class="wed mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-04" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-05" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-06" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td><td><div class="calendar-calendar"><div class="month-view">
+<div class="date-nav-wrapper clear-block">
+  <div class="date-nav">
+    <div class="date-heading">
+      <a href="month/2014-12.html" title="View full page month">December</a>    </div>
+  </div>
+</div> 
+ 
+<table class="mini">
+  <thead>
+    <tr>
+              <th class="days sun">
+          S        </th>
+              <th class="days mon">
+          M        </th>
+              <th class="days tue">
+          T        </th>
+              <th class="days wed">
+          W        </th>
+              <th class="days thu">
+          T        </th>
+              <th class="days fri">
+          F        </th>
+              <th class="days sat">
+          S        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="events_calendar-2014-11-30" class="sun mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-01" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 1 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-02" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 2 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-03" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 3 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-04" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 4 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-05" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 5 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-06" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 6 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-12-07" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 7 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-08" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 8 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-09" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 9 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-10" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 10 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-11" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 11 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-12" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 12 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-13" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 13 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-12-14" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 14 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-15" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 15 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-16" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 16 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-17" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 17 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-18" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 18 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-19" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 19 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-20" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 20 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-12-21" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 21 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-22" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 22 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-23" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 23 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-24" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 24 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-25" class="thu mini future has-no-events">
+            <div class="year mini-day-off"> 25 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-26" class="fri mini future has-no-events">
+            <div class="year mini-day-off"> 26 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-27" class="sat mini future has-no-events">
+            <div class="year mini-day-off"> 27 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+          <tr>
+                  <td id="events_calendar-2014-12-28" class="sun mini future has-no-events">
+            <div class="year mini-day-off"> 28 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-29" class="mon mini future has-no-events">
+            <div class="year mini-day-off"> 29 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-30" class="tue mini future has-no-events">
+            <div class="year mini-day-off"> 30 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2014-12-31" class="wed mini future has-no-events">
+            <div class="year mini-day-off"> 31 </div><div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2015-01-01" class="thu mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2015-01-02" class="fri mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+                  <td id="events_calendar-2015-01-03" class="sat mini empty">
+            <div class="calendar-empty">&nbsp;</div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div></td></tr>  
+  </tbody>
+</table>
+</div></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+}
+
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><strong>Home</strong></li>
+<li><a href="../people.html">People</a></li>
+</ul><ul><li><strong>Blog</strong></li>
+<li><a href="../news-events.html">News + Events</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../blog.html">Team Blog</a></li>
+</ul><ul><li><strong>Using AI2</strong></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../library.html">Library</a></li>
+<li><a href="../ai2/tutorials.html">Tutorials</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="../forums.html">Forums</a></li>
+</ul><ul><li><strong>Support</strong></li>
+<li><a href="../ai2/setup.html">Setup</a></li>
+<li><a href="../ai2/support/troubleshooting.html">Troubleshooting</a></li>
+<li style="margin-top: 38px"><a href="../support.html">App Inventor Classic</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2014 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>
