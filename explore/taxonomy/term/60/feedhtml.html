@@ -8,7 +8,7 @@
 <item>
  <title>Map It: Displaying Locations on a Google Map</title>
  <link>http://explore.appinventor.mit.edu/displaying-maps</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;What will be covered in this tutorial?  &lt;/strong&gt;&lt;/span&gt;In this tutorial, you will learn the basics of:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;List manipulation – creating lists, appending items to lists&lt;/li&gt;
 &lt;li&gt;ListPicker – adding items to lists, persisting to database&lt;/li&gt;
@@ -19,15 +19,14 @@
 &lt;li&gt;Misc. – text manipulation, basic validation&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;We will be working toward the design shown in figure blow:&lt;/p&gt;
 &lt;p&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/11802627bed54efd937a6a06052ac260.jpg&quot; width=&quot;416&quot; height=&quot;369&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Below figure is showing you, at high level, how the components are arranged in our design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier). that are used in the sample app.&lt;/p&gt;
+&lt;p&gt;Below figure is showing you, at high level, how the components are arranged in our design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier) that are used in the sample app.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/43cf9f2e694c4a87ba0c6375406c48ec.jpg&quot; width=&quot;601&quot; height=&quot;550&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;Assumption:&lt;/strong&gt;&lt;/span&gt; This tutorial assumes you know the basics of App Inventor. For additional tutorials, please see &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;App Inventor Blocks&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;We define 2 global variables.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;em&gt;tagAddress&lt;/em&gt;  a variable is a constant and will be used, as a tag, for storing / retrieving data from our database.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;listLocations&lt;/em&gt; – a variable that be used to store / manipulate list of addresses&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We now create a procedure that can be invoked when the app is started (initialized). The procedure sets up the initial state of some of the components. Some of these settings could have been done from the design editor, but for demo purpose and clarification, we are using a procedure. In the procedure, we also check our database to find out if there are any stored addresses. If no data, then we just use an empty list&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;tagAddress&lt;/em&gt; – a variable that is a constant and will be used, as a tag, for storing and retrieving data from our database.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;listLocations&lt;/em&gt; – a variable that can be used to store and manipulate list of addresses.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;We now create a procedure that can be invoked when the app is started (initialized). The procedure sets up the initial state of some of the components. Some of these settings could have been done from the design editor, but for demo purpose and clarification, we are using a procedure. In the procedure, we also check our database to find out if there are any stored addresses. If no data, then we just use an empty list.&lt;/p&gt;
 &lt;p&gt;&lt;img style=&quot;font-size:14px;line-height:1.5em;&quot; alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/c8e4949dc8384ed4a486dea87fa872c8.jpg&quot; width=&quot;650&quot; height=&quot;250&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;Viewing stored locations&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;We use a button, btnViewLocations, that user can tap to view all user-specified addresses in a ListPicker. If validation goes through (e.g. address list not empty), this button will invoke our ListPicker.Open to display the addresses. The ListPicker component has been set to not-visible (see our init procedure in top figure). The blocks for the clicked event of this button is shown below. When button is clicked, we check to see if our listLocations contains any data. If not, display error message, otherwise we open our ListPicker using ListPicker1.Open block:&lt;/p&gt;
@@ -48,7 +47,7 @@
 &lt;p&gt;&lt;strong&gt;Viewing current location on the map&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We have dropped in a button, btnMyLocation ‘My location on the map’ that can be clicked to view current location on the map. It will use LocationSensor to get the current address and will use blocks below to show current location on the map:&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/f55b50c47c2c4bda807b59b46f7f0b63.jpg&quot; width=&quot;650&quot; height=&quot;162&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Download the Source File for this app here: &lt;a href=&quot;http://www.3nportal.com/tutorials/TutorialGoogleMap.apk&quot;&gt;SOURCE (.aia) FILE&lt;/a&gt; for uploading to App Inventor as a new project. &lt;a href=&quot;/ai2/share&quot;&gt;How to upload a new project.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download the Source File for this app here: &lt;a href=&quot;http://www.3nportal.com/tutorials/TutorialGoogleMap.aia&quot;&gt;SOURCE (.aia) FILE&lt;/a&gt; for uploading to App Inventor as a new project. &lt;a href=&quot;/ai2/share&quot;&gt;How to upload a new project.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Download the Android App File here: &lt;a href=&quot;http://www.3nportal.com/tutorials/TutorialGoogleMap.apk&quot;&gt;ANDROID (.apk) FILE&lt;/a&gt; for installing on an Android device. &lt;a href=&quot;/ai2/share&quot;&gt;How to install an APK&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;Many thanks to M. Hossein Amerkashi for writing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
@@ -72,7 +71,7 @@
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
+        Advanced      &lt;/li&gt;
 
     
   &lt;/ul&gt;
@@ -112,88 +111,9 @@
 <item>
  <title>Android, Where&#039;s My Car? for App Inventor 2</title>
  <link>http://explore.appinventor.mit.edu/ai2/android-wheres-my-car</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-li {
-padding-bottom: 7px;
-}
-
-.basicblock {
-border: 1px dashed #7AA81C;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E7F2CB;
-font-size: 9pt;
-text-wrap: suppress;
-	
-}
-
-.callblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E0D1FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.argblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E5E5FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.textblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FADAA0;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.setblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #C1D5F8;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-.controlblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FAEDBB;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;&lt;/h2&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/sites/all/files/tutorials/wheresMyCar/wheresMyCar.zip&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/android-where.jpg&quot; style=&quot;float:right; width:250px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch7AndroidWhere.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You parked somewhere near the stadium or bar, but when the concert/party ends you don&#039;t have a clue where the car is. The friends you came with are equally as clueless.&lt;/p&gt;
+&lt;p&gt;You parked somewhere near the stadium, but when the concert ends you don&#039;t have a clue where the car is. The friends you came with are equally as clueless.&lt;/p&gt;
 &lt;p&gt;Fortunately you haven&#039;t lost your Android phone that never forgets anything, and you remember you have the hot new app, &lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;. With this app, you click a button when you park your car, and the Android uses its location sensor to record the car&#039;s GPS coordinates and address. Later, when you reopen the app, it shows you a map from where you are to the remembered location-- problem solved!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dailylifeofmojo/4128596089/&quot;&gt;Photo&lt;/a&gt; licensed under &lt;a href=&quot;http://creativecommons.org/licenses/by/2.0/deed.en&quot;&gt;Creative Commons&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
@@ -243,6 +163,7 @@ text-wrap: suppress;
 &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/wheresMyCar/AndroidBarcode.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/wheresMyCar/AndroidWheresMyCar_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch7AndroidWhere.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
