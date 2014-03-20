@@ -1834,7 +1834,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
+        Intermediate      &lt;/li&gt;
 
     
   &lt;/ul&gt;
@@ -1848,15 +1848,15 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Clock Timer      &lt;/li&gt;
+        Sprites      &lt;/li&gt;
 
     
       &lt;li class=&quot;field-item odd&quot;&gt;
-        Game      &lt;/li&gt;
+        Clock Timer      &lt;/li&gt;
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Sprites      &lt;/li&gt;
+        Game      &lt;/li&gt;
 
     
   &lt;/ul&gt;
@@ -1866,6 +1866,86 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
  <pubDate>Wed, 07 Aug 2013 14:13:24 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">379 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>PicCall for App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/piccall</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; shows you how you can use App Inventor to make apps that do actual things, like calling friends.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes that you have completed the &lt;a href=&quot;/ai2/setup&quot;&gt;Set Up&lt;/a&gt; process.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Before starting&lt;/h4&gt;
+&lt;p&gt;To run &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt;, your phone must be set up and activated for making phone calls. If it isn&#039;t you can still build &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; for practice, but the phone won&#039;t actually make the calls.&lt;/p&gt;
+&lt;pre class=&quot;ai-warning&quot;&gt;Warning: &lt;span style=&quot;color:black;&quot;&gt;PicCall&lt;/span&gt; does not work on all Android phones in the current implementation of App Inventor: you&#039;ll get an error notice on some phones when you try to pick a phone number. Also, you won&#039;t see all your contacts — only those created from Gmail. These limitations will be removed in the future.&lt;/pre&gt;&lt;p&gt;In this tutorial, unlike &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt;, you&#039;ll give names to components, rather than just using the default names that App Inventor provides (like &quot;Button1&quot;). Using meaningful names is good programming practice: it helps you keep your programs straight in your own mind, and it helps others understand your programs.&lt;/p&gt;
+&lt;p&gt;Your phone should also contain a few contacts with pictures. You can use the Contacts app to save pictures for your contacts. You can also click on Contacts in your Gmail account on your computer and add pictures there.&lt;/p&gt;
+&lt;p&gt;Make sure your computer and your phone are set up to use App Inventor. Start a new project in the Designer window. Name it &quot;PicCall&quot; and change the screen &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt;. Open the Blocks Editor, click &lt;strong&gt;Connect to Companion&lt;/strong&gt;, and check that the phone has started the App Inventor app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting started&lt;/h4&gt;
+&lt;p&gt;Start out just like in &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt; by placing a button on the screen. Make the button 150 pixels wide and 150 pixels high. Set button&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Image&lt;/strong&gt; to a picture. You may as well use the picture of the kitty if it&#039;s handy -- you&#039;ll be changing the picture soon. Set the &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; of the button to &quot;Press to Call&quot;, although you&#039;ll be changing that soon as well.&lt;/p&gt;
+&lt;p&gt;Change the name of the Button component to &quot;TopButton&quot; (you&#039;ll make one called &quot;BottomButton&quot; later in the tutorial). To change a component&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Name&lt;/strong&gt;, click the &lt;strong&gt;Rename&lt;/strong&gt; button in the Components panel and enter the new name.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;In this tutorial, unlike &lt;span style=&quot;color:black;&quot;&gt;HelloPurr&lt;/span&gt;, you&#039;ll give names to components, rather than just using the default names that App Inventor provides (like &quot;Button1&quot;). Using meaningful names is good programming practice: it helps you keep your programs straight in your own mind, and it helps others understand your programs.Don&#039;t confuse the &lt;strong style=&quot;color:black;&quot;&gt;Name&lt;/strong&gt; of a component with the &lt;strong style=&quot;color:black;&quot;&gt;Text&lt;/strong&gt; of a component. The &lt;strong style=&quot;color:black;&quot;&gt;Text&lt;/strong&gt; is what appears on the screen. The &lt;strong style=&quot;color:black;&quot;&gt;Name&lt;/strong&gt; is the name your program uses to refer to the component. You&#039;ll see the name in the Components structure list in the Designer and on the drawers in the Blocks editor.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Making phone calls&lt;/h4&gt;
+&lt;p&gt;In &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt;, you made the phone play a sound when the button was clicked. &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; in almost the same, except that instead of playing a sound, the phone makes a call.&lt;/p&gt;
+&lt;p&gt;App Inventor&#039;s &lt;strong&gt;PhoneCall&lt;/strong&gt; component makes phone calls. You can find PhoneCall in the Social section of the Palette. Open that section and drag out a PhoneCall into the viewer. It will go into the Non-visible components area. Name it &quot;TopCall&quot;. The PhoneCall&#039;s &lt;strong style=&quot;color:green;&quot;&gt;PhoneNumber&lt;/strong&gt; property determines the number to call. Set that to some 10-digit phone number you&#039;d like to call. Here&#039;s how the Designer should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now switch to the Blocks Editor and pull out the &lt;span class=&quot;eventblock&quot;&gt;when TopButton.Click do&lt;/span&gt; block. In the &lt;span class=&quot;eventblock&quot;&gt;do&lt;/span&gt; slot, place a &lt;span class=&quot;callblock-ai2&quot;&gt;call TopCall.MakePhoneCall&lt;/span&gt; block from the TopCall drawer, so that the event handler looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallWhenClick.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Go ahead and test what you have so far on the phone: Press the button and make the call. You could package this up as an app right now. It would be a pretty limited app, always calling the same fixed number, some people might find that useful.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Phone contact information&lt;/h4&gt;
+&lt;p&gt;In addition to making phone calls, App Inventor apps can also get information from the phone&#039;s contact list. You do this with the &lt;strong&gt;PhoneNumberPicker&lt;/strong&gt; component.&lt;/p&gt;
+&lt;p&gt;Pull out a PhoneNumberPicker component from the Social section of the Palette, place it under &lt;span style=&quot;color:green;&quot;&gt;TopButton&lt;/span&gt;. A PhoneNumberPicker is a kind of button: when you press it, it brings up your phone contacts list and lets you pick someone. Change the name of the PhoneNumberPicker to &quot;TopPick&quot;, and change its &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; to &quot;Press to pick a number to call&quot;. Try it by pressing the picker on your phone: you should see your contacts come up, and you can pick one. Nothing will happen after you pick, because you haven&#039;t yet told the components to do anything. You&#039;ll do that next.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Using the picker&lt;/h4&gt;
+&lt;p&gt;Switch to the Blocks window and open the drawer for &lt;span style=&quot;color:green;&quot;&gt;TopPick&lt;/span&gt;. Drag out the &lt;span class=&quot;controlblock-ai2&quot;&gt;when TopPick.AfterPicking do&lt;/span&gt; block. This lets you define an event handler that says what to do after you&#039;ve picked a number from your contacts.&lt;/p&gt;
+&lt;p&gt;Now open the &lt;span style=&quot;color:green;&quot;&gt;TopCall&lt;/span&gt; drawer and drag out &lt;span class=&quot;setcomponent-ai2&quot;&gt;set TopCall.PhoneNumber to&lt;/span&gt; and fit it into the slot in the &lt;span class=&quot;controlblock-ai2&quot;&gt;when TopPick.AfterPicking do&lt;/span&gt; block. Now drag out &lt;span class=&quot;getcomponent-ai2&quot;&gt;TopPick.PhoneNumber&lt;/span&gt; from the &lt;span style=&quot;color:green;&quot;&gt;TopPick&lt;/span&gt; drawer and plug it into the empty socket. Here&#039;s how your event handler should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallAfterPicking.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Try it on the phone: Press the picker, choose a contact and a phone number. Then press the phone call button to make the call. Add a command to the event handler to set &lt;span style=&quot;color:green;&quot;&gt;TopButton&lt;/span&gt;&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; property to &lt;span class=&quot;getcomponent-ai2&quot;&gt;TopPick.PhoneNumber:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallAfterPicking2.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Pictures&lt;/h4&gt;
+&lt;p&gt;If you have a picture stored with your contacts, you can make the button show that along with the phone number, rather than always using the picture of the kitty. To do this, add an command to the event handler, to set the &lt;strong style=&quot;color:green;&quot;&gt;Image&lt;/strong&gt; property of &lt;span style=&quot;color:green;&quot;&gt;TopButton&lt;/span&gt; to be the the &lt;strong style=&quot;color:green;&quot;&gt;Picture&lt;/strong&gt; property of &lt;span style=&quot;color:green;&quot;&gt;TopPick&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallAfterPicking3.png&quot; /&gt;&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;PhoneNumberPicker has two properties that are easy to confuse: &lt;strong style=&quot;color:black;&quot;&gt;Picture&lt;/strong&gt; and &lt;strong style=&quot;color:black;&quot;&gt;Image&lt;/strong&gt;. &lt;strong style=&quot;color:black;&quot;&gt;Picture&lt;/strong&gt; is the picture associated with the contact that&#039;s picked. &lt;strong style=&quot;color:black;&quot;&gt;Image&lt;/strong&gt; is the image of the PhoneNumberPicker component as it appears in the Designer and on the phone.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Enhancements&lt;/h4&gt;
+&lt;p&gt;Here are some variations for you to try:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Add a second button, &lt;span style=&quot;color:green;&quot;&gt;BottomButton&lt;/span&gt;, and a second PhoneNumberPicker, so that your app gives you the choice of two numbers.&lt;/li&gt;
+&lt;li&gt;Add a label with instructions on how to use the app.&lt;/li&gt;
+&lt;li&gt;Show the name of the person being called in addition to the phone number. Use an extra label to show the additional information.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Using PicCall&lt;/h4&gt;
+&lt;p&gt;You can package &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; and download it to the phone so you can use it when you&#039;re not connected to the computer. But there&#039;s a big limitation: Every time you restart &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt;, it starts fresh and does not remember what you picked last time. Later, we&#039;ll see how to use the &lt;strong&gt;TinyDB&lt;/strong&gt; component to create apps that can remember information from one time to the next. Such information is called &lt;em&gt;persistent data&lt;/em&gt;.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are the key ideas covered in this tutorial:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You can name components by means of the &lt;strong&gt;Rename&lt;/strong&gt; button.&lt;/li&gt;
+&lt;li&gt;App Inventor has components that can use information stored on the phone. The &lt;strong&gt;PhoneNumberPicker&lt;/strong&gt; can get phone numbers and pictures for your contacts, and &lt;strong&gt;PhoneCall&lt;/strong&gt; can make calls.&lt;/li&gt;
+&lt;/ul&gt;&lt;pre class=&quot;ai-box&quot; style=&quot;background-image: url(&#039;/sites/all/files/ai2tutorials/picCall/android-warning-30x30.gif&quot;&gt;&lt;strong&gt;Tip&lt;/strong&gt;: The list that comes up when you run the phone number picker does not show the pictures associated with your contacts, on some Android systems. Even though the image isn&#039;t shown, the &quot;Picture&quot; property will still return a picture that will show up when you run the app, provided that the phone has a picture for that contact.&lt;/pre&gt;&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/picCall/PicCall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;PicCall&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Basic      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Thu, 04 Jul 2013 14:50:54 +0000</pubDate>
+ <dc:creator>aaron</dc:creator>
+ <guid isPermaLink="false">358 at http://explore.appinventor.mit.edu</guid>
 </item>
 <item>
  <title>PaintPot (Part 2) for App Inventor 2</title>
@@ -1962,89 +2042,9 @@ Finally, define a global variable &lt;span class=&quot;variableblock-ai2&quot;&g
 
 &lt;/section&gt;
 </description>
- <pubDate>Tue, 16 Jul 2013 14:33:50 +0000</pubDate>
+ <pubDate>Wed, 03 Jul 2013 15:33:50 +0000</pubDate>
  <dc:creator>joanie</dc:creator>
  <guid isPermaLink="false">364 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>PicCall for App Inventor 2</title>
- <link>http://explore.appinventor.mit.edu/ai2/piccall</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; shows you how you can use App Inventor to make apps that do actual things, like calling friends.&lt;/p&gt;
-&lt;p&gt;This tutorial assumes that you have completed the &lt;a href=&quot;/ai2/setup&quot;&gt;Set Up&lt;/a&gt; process.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Before starting&lt;/h4&gt;
-&lt;p&gt;To run &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt;, your phone must be set up and activated for making phone calls. If it isn&#039;t you can still build &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; for practice, but the phone won&#039;t actually make the calls.&lt;/p&gt;
-&lt;pre class=&quot;ai-warning&quot;&gt;Warning: &lt;span style=&quot;color:black;&quot;&gt;PicCall&lt;/span&gt; does not work on all Android phones in the current implementation of App Inventor: you&#039;ll get an error notice on some phones when you try to pick a phone number. Also, you won&#039;t see all your contacts — only those created from Gmail. These limitations will be removed in the future.&lt;/pre&gt;&lt;p&gt;In this tutorial, unlike &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt;, you&#039;ll give names to components, rather than just using the default names that App Inventor provides (like &quot;Button1&quot;). Using meaningful names is good programming practice: it helps you keep your programs straight in your own mind, and it helps others understand your programs.&lt;/p&gt;
-&lt;p&gt;Your phone should also contain a few contacts with pictures. You can use the Contacts app to save pictures for your contacts. You can also click on Contacts in your Gmail account on your computer and add pictures there.&lt;/p&gt;
-&lt;p&gt;Make sure your computer and your phone are set up to use App Inventor. Start a new project in the Designer window. Name it &quot;PicCall&quot; and change the screen &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt;. Open the Blocks Editor, click &lt;strong&gt;Connect to Companion&lt;/strong&gt;, and check that the phone has started the App Inventor app.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Getting started&lt;/h4&gt;
-&lt;p&gt;Start out just like in &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt; by placing a button on the screen. Make the button 150 pixels wide and 150 pixels high. Set button&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Image&lt;/strong&gt; to a picture. You may as well use the picture of the kitty if it&#039;s handy -- you&#039;ll be changing the picture soon. Set the &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; of the button to &quot;Press to Call&quot;, although you&#039;ll be changing that soon as well.&lt;/p&gt;
-&lt;p&gt;Change the name of the Button component to &quot;TopButton&quot; (you&#039;ll make one called &quot;BottomButton&quot; later in the tutorial). To change a component&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Name&lt;/strong&gt;, click the &lt;strong&gt;Rename&lt;/strong&gt; button in the Components panel and enter the new name.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;In this tutorial, unlike &lt;span style=&quot;color:black;&quot;&gt;HelloPurr&lt;/span&gt;, you&#039;ll give names to components, rather than just using the default names that App Inventor provides (like &quot;Button1&quot;). Using meaningful names is good programming practice: it helps you keep your programs straight in your own mind, and it helps others understand your programs.Don&#039;t confuse the &lt;strong style=&quot;color:black;&quot;&gt;Name&lt;/strong&gt; of a component with the &lt;strong style=&quot;color:black;&quot;&gt;Text&lt;/strong&gt; of a component. The &lt;strong style=&quot;color:black;&quot;&gt;Text&lt;/strong&gt; is what appears on the screen. The &lt;strong style=&quot;color:black;&quot;&gt;Name&lt;/strong&gt; is the name your program uses to refer to the component. You&#039;ll see the name in the Components structure list in the Designer and on the drawers in the Blocks editor.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Making phone calls&lt;/h4&gt;
-&lt;p&gt;In &lt;span style=&quot;color:green;&quot;&gt;HelloPurr&lt;/span&gt;, you made the phone play a sound when the button was clicked. &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; in almost the same, except that instead of playing a sound, the phone makes a call.&lt;/p&gt;
-&lt;p&gt;App Inventor&#039;s &lt;strong&gt;PhoneCall&lt;/strong&gt; component makes phone calls. You can find PhoneCall in the Social section of the Palette. Open that section and drag out a PhoneCall into the viewer. It will go into the Non-visible components area. Name it &quot;TopCall&quot;. The PhoneCall&#039;s &lt;strong style=&quot;color:green;&quot;&gt;PhoneNumber&lt;/strong&gt; property determines the number to call. Set that to some 10-digit phone number you&#039;d like to call. Here&#039;s how the Designer should look:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallDesigner.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Now switch to the Blocks Editor and pull out the &lt;span class=&quot;eventblock&quot;&gt;when TopButton.Click do&lt;/span&gt; block. In the &lt;span class=&quot;eventblock&quot;&gt;do&lt;/span&gt; slot, place a &lt;span class=&quot;callblock-ai2&quot;&gt;call TopCall.MakePhoneCall&lt;/span&gt; block from the TopCall drawer, so that the event handler looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallWhenClick.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Go ahead and test what you have so far on the phone: Press the button and make the call. You could package this up as an app right now. It would be a pretty limited app, always calling the same fixed number, some people might find that useful.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Phone contact information&lt;/h4&gt;
-&lt;p&gt;In addition to making phone calls, App Inventor apps can also get information from the phone&#039;s contact list. You do this with the &lt;strong&gt;PhoneNumberPicker&lt;/strong&gt; component.&lt;/p&gt;
-&lt;p&gt;Pull out a PhoneNumberPicker component from the Social section of the Palette, place it under &lt;span style=&quot;color:green;&quot;&gt;TopButton&lt;/span&gt;. A PhoneNumberPicker is a kind of button: when you press it, it brings up your phone contacts list and lets you pick someone. Change the name of the PhoneNumberPicker to &quot;TopPick&quot;, and change its &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; to &quot;Press to pick a number to call&quot;. Try it by pressing the picker on your phone: you should see your contacts come up, and you can pick one. Nothing will happen after you pick, because you haven&#039;t yet told the components to do anything. You&#039;ll do that next.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Using the picker&lt;/h4&gt;
-&lt;p&gt;Switch to the Blocks window and open the drawer for &lt;span style=&quot;color:green;&quot;&gt;TopPick&lt;/span&gt;. Drag out the &lt;span class=&quot;controlblock-ai2&quot;&gt;when TopPick.AfterPicking do&lt;/span&gt; block. This lets you define an event handler that says what to do after you&#039;ve picked a number from your contacts.&lt;/p&gt;
-&lt;p&gt;Now open the &lt;span style=&quot;color:green;&quot;&gt;TopCall&lt;/span&gt; drawer and drag out &lt;span class=&quot;setcomponent-ai2&quot;&gt;set TopCall.PhoneNumber to&lt;/span&gt; and fit it into the slot in the &lt;span class=&quot;controlblock-ai2&quot;&gt;when TopPick.AfterPicking do&lt;/span&gt; block. Now drag out &lt;span class=&quot;getcomponent-ai2&quot;&gt;TopPick.PhoneNumber&lt;/span&gt; from the &lt;span style=&quot;color:green;&quot;&gt;TopPick&lt;/span&gt; drawer and plug it into the empty socket. Here&#039;s how your event handler should look:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallAfterPicking.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Try it on the phone: Press the picker, choose a contact and a phone number. Then press the phone call button to make the call. Add a command to the event handler to set &lt;span style=&quot;color:green;&quot;&gt;TopButton&lt;/span&gt;&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Text&lt;/strong&gt; property to &lt;span class=&quot;getcomponent-ai2&quot;&gt;TopPick.PhoneNumber:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallAfterPicking2.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Pictures&lt;/h4&gt;
-&lt;p&gt;If you have a picture stored with your contacts, you can make the button show that along with the phone number, rather than always using the picture of the kitty. To do this, add an command to the event handler, to set the &lt;strong style=&quot;color:green;&quot;&gt;Image&lt;/strong&gt; property of &lt;span style=&quot;color:green;&quot;&gt;TopButton&lt;/span&gt; to be the the &lt;strong style=&quot;color:green;&quot;&gt;Picture&lt;/strong&gt; property of &lt;span style=&quot;color:green;&quot;&gt;TopPick&lt;/span&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallAfterPicking3.png&quot; /&gt;&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;PhoneNumberPicker has two properties that are easy to confuse: &lt;strong style=&quot;color:black;&quot;&gt;Picture&lt;/strong&gt; and &lt;strong style=&quot;color:black;&quot;&gt;Image&lt;/strong&gt;. &lt;strong style=&quot;color:black;&quot;&gt;Picture&lt;/strong&gt; is the picture associated with the contact that&#039;s picked. &lt;strong style=&quot;color:black;&quot;&gt;Image&lt;/strong&gt; is the image of the PhoneNumberPicker component as it appears in the Designer and on the phone.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Enhancements&lt;/h4&gt;
-&lt;p&gt;Here are some variations for you to try:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Add a second button, &lt;span style=&quot;color:green;&quot;&gt;BottomButton&lt;/span&gt;, and a second PhoneNumberPicker, so that your app gives you the choice of two numbers.&lt;/li&gt;
-&lt;li&gt;Add a label with instructions on how to use the app.&lt;/li&gt;
-&lt;li&gt;Show the name of the person being called in addition to the phone number. Use an extra label to show the additional information.&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Using PicCall&lt;/h4&gt;
-&lt;p&gt;You can package &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt; and download it to the phone so you can use it when you&#039;re not connected to the computer. But there&#039;s a big limitation: Every time you restart &lt;span style=&quot;color:green;&quot;&gt;PicCall&lt;/span&gt;, it starts fresh and does not remember what you picked last time. Later, we&#039;ll see how to use the &lt;strong&gt;TinyDB&lt;/strong&gt; component to create apps that can remember information from one time to the next. Such information is called &lt;em&gt;persistent data&lt;/em&gt;.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
-&lt;p&gt;Here are the key ideas covered in this tutorial:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;You can name components by means of the &lt;strong&gt;Rename&lt;/strong&gt; button.&lt;/li&gt;
-&lt;li&gt;App Inventor has components that can use information stored on the phone. The &lt;strong&gt;PhoneNumberPicker&lt;/strong&gt; can get phone numbers and pictures for your contacts, and &lt;strong&gt;PhoneCall&lt;/strong&gt; can make calls.&lt;/li&gt;
-&lt;/ul&gt;&lt;pre class=&quot;ai-box&quot; style=&quot;background-image: url(&#039;/sites/all/files/ai2tutorials/picCall/android-warning-30x30.gif&quot;&gt;&lt;strong&gt;Tip&lt;/strong&gt;: The list that comes up when you run the phone number picker does not show the pictures associated with your contacts, on some Android systems. Even though the image isn&#039;t shown, the &quot;Picture&quot; property will still return a picture that will show up when you run the app, provided that the phone has a picture for that contact.&lt;/pre&gt;&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
-&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/picCall/PicCallBarcode.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/picCall/PicCall.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;PicCall&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Basic      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
- <pubDate>Wed, 03 Jul 2013 14:50:54 +0000</pubDate>
- <dc:creator>aaron</dc:creator>
- <guid isPermaLink="false">358 at http://explore.appinventor.mit.edu</guid>
 </item>
 <item>
  <title>PaintPot (Part 1) for App Inventor 2</title>
