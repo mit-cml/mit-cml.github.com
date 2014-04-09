@@ -118,8 +118,9 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 <item>
  <title>Map It: Displaying Locations on a Google Map</title>
  <link>http://explore.appinventor.mit.edu/displaying-maps</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;What will be covered in this tutorial?  &lt;/strong&gt;&lt;/span&gt;In this tutorial, you will learn the basics of:&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. &lt;strong&gt;For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial introduces:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;List manipulation – creating lists, appending items to lists&lt;/li&gt;
 &lt;li&gt;ListPicker – adding items to lists, persisting to database&lt;/li&gt;
 &lt;li&gt;LocationSensor – detecting current location for displaying on Google Maps&lt;/li&gt;
@@ -128,38 +129,37 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 &lt;li&gt;TinyDB – persisting data (lists) into database&lt;/li&gt;
 &lt;li&gt;Misc. – text manipulation, basic validation&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;We will be working toward the design shown in figure blow:&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;aligncenter&quot; alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/11802627bed54efd937a6a06052ac260.jpg&quot; width=&quot;416&quot; height=&quot;369&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/design.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Below figure is showing you, at high level, how the components are arranged in our design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier) that are used in the sample app.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/43cf9f2e694c4a87ba0c6375406c48ec.jpg&quot; width=&quot;601&quot; height=&quot;550&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/mapItDesigner.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;App Inventor Blocks&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Blocks&lt;/h4&gt;
 &lt;p&gt;We define 2 global variables.&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;&lt;em&gt;tagAddress&lt;/em&gt; – a variable that is a constant and will be used, as a tag, for storing and retrieving data from our database.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;listLocations&lt;/em&gt; – a variable that can be used to store and manipulate list of addresses.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;We now create a procedure that can be invoked when the app is started (initialized). The procedure sets up the initial state of some of the components. Some of these settings could have been done from the design editor, but for demo purpose and clarification, we are using a procedure. In the procedure, we also check our database to find out if there are any stored addresses. If no data, then we just use an empty list.&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;font-size:14px;line-height:1.5em;&quot; alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/c8e4949dc8384ed4a486dea87fa872c8.jpg&quot; width=&quot;650&quot; height=&quot;250&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;Viewing stored locations&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;We use a button, btnViewLocations, that user can tap to view all user-specified addresses in a ListPicker. If validation goes through (e.g. address list not empty), this button will invoke our ListPicker.Open to display the addresses. The ListPicker component has been set to not-visible (see our init procedure in top figure). The blocks for the clicked event of this button is shown below. When button is clicked, we check to see if our listLocations contains any data. If not, display error message, otherwise we open our ListPicker using ListPicker1.Open block:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/43b5e42a6c464a13b265a86094476f82.jpg&quot; width=&quot;650&quot; height=&quot;219&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Adding new addresses:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;To add a new address, we have dropped a button (btnAddLocation ‘Add Location’). We also use a button (btnCancel ‘Cancel’) to cancel the process of adding.  We also use a button btnAddLocatoinhelp ‘Location Help’) to display what type of addresses can be entered. The blocks looks like below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/e1d599a96fbf4b11b93d0993626f5e50.jpg&quot; width=&quot;650&quot; height=&quot;275&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When btnAddLocation is clicked, we make our address data entry visible (using screen arrangement), allowing user to enter address. If user clicks on cancel, we make the arrangement hidden again. Using this approach, we keep the screen simple and avoid the clutter. We also provide a button (btnSubmit ‘Submit’), allow user to indicate that they want to store data. The data entry arrangement looks like below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/3a15415087314564a2936142b2cece28.jpg&quot; width=&quot;650&quot; height=&quot;244&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When user taps on btnSubmit ‘Submit’ button, we perform basic validation to ensure data has been submitted. If validation does not pass, we display error message. Otherwise, we invoke a procedure that appends the new address to our list. We also store the updated list into our database. Once address is added, we hide our arrangement again.  Blocks below shows how this logic is done:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/b513b42908374a66bb6a3af827143a3a.jpg&quot; width=&quot;650&quot; height=&quot;248&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When user selects an address from the opened ListPicker, we display the address in the device and allow user to tap on btnViewMap ‘View on Map’ to see the selected address on the Google Map — see figure below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/07fbb7ef939d4d9cbdeccd72d0f7a84f.jpg&quot; width=&quot;650&quot; height=&quot;455&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When the btnViewMap ‘View on Map’, we validate to ensure that an address already has been selected. If not, display error message otherwise we use blocks below to show address:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/77e0694f1bac4c608af544465c432c04.jpg&quot; width=&quot;604&quot; height=&quot;388&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/InitializeScreen1blocks.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Adding a New Addresses&lt;/h4&gt;
+&lt;p&gt;We use AddLocationButton to add a new address, CancelButton to cancel the process of adding, and LocationHelpButton to display what type of addresses can be entered. The blocks to make these actions work are here:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/AddingNewAddresses.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When AddLocationButton is clicked, we make our address data entry visible (using screen arrangement), allowing user to enter address. If user clicks on Cancel, we make the arrangement hidden again. Using this approach, we keep the screen simple and avoid the clutter. We also provide the SubmitButton to allow the user to indicate that they want to store data.&lt;/p&gt;
+&lt;p&gt;When the user clicks on SubmitButton, we perform basic validation to ensure data has been submitted. If validation does not pass, we display an error message. Otherwise, we invoke a procedure that appends the new address to our list. We also store the updated list into our database. Once address is added, we hide our arrangement again.  The blocks below show how this logic is done:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/SubmittingNewAddresses.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Selecting an Addresses&lt;/h4&gt;
+&lt;p&gt;When the user clicks on ListPicker1 ‘Select Location’ and selects an address, this action calls the blocks below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/ListPicker1AfterPicking.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This displays the address in the device and allow the user to tap on ViewOnMapButton to see the blocks selected address on the Google Map — see the figure below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/SelectAddress.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When ViewOnMapButton is clicked, we validate to ensure that an address already has been selected. If not, an error message is displayed. Otherwise, we use blocks below to show address:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/ViewOnMapBlocks.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The above blocks will open the map and the output will be like image below:&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;font-size:14px;line-height:1.5em;&quot; alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/c769edcdc74d4867a47cf830befa0518.jpg&quot; width=&quot;222&quot; height=&quot;395&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Viewing current location on the map&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We have dropped in a button, btnMyLocation ‘My location on the map’ that can be clicked to view current location on the map. It will use LocationSensor to get the current address and will use blocks below to show current location on the map:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;image&quot; src=&quot;http://pp2.s3.amazonaws.com/2e1debd698334564/f55b50c47c2c4bda807b59b46f7f0b63.jpg&quot; width=&quot;650&quot; height=&quot;162&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Download the Source File for this app here: &lt;a href=&quot;http://www.3nportal.com/tutorials/TutorialGoogleMap.aia&quot;&gt;SOURCE (.aia) FILE&lt;/a&gt; for uploading to App Inventor as a new project. &lt;a href=&quot;/ai2/share&quot;&gt;How to upload a new project.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Download the Android App File here: &lt;a href=&quot;http://www.3nportal.com/tutorials/TutorialGoogleMap.apk&quot;&gt;ANDROID (.apk) FILE&lt;/a&gt; for installing on an Android device. &lt;a href=&quot;/ai2/share&quot;&gt;How to install an APK&lt;/a&gt;&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;Many thanks to M. Hossein Amerkashi for writing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/Map.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Viewing Current Location On the Map&lt;/h4&gt;
+&lt;p&gt;We have dropped in a button, MyLocationButton ‘My location On the Map’ that can be clicked to view one&#039;s current location. It will use &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/MyLocationButtonBlocks.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/mapIt/MapIt_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
   
@@ -195,19 +195,19 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Activity Starter      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
         Data Storage      &lt;/li&gt;
 
     
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Activity Starter      &lt;/li&gt;
+
+    
       &lt;li class=&quot;field-item even&quot;&gt;
-        GPS      &lt;/li&gt;
+        External API      &lt;/li&gt;
 
     
       &lt;li class=&quot;field-item odd&quot;&gt;
-        External API      &lt;/li&gt;
+        GPS      &lt;/li&gt;
 
     
   &lt;/ul&gt;
