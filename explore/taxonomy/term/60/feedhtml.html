@@ -119,18 +119,18 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
  <title>Map It: Displaying Locations on a Google Map</title>
  <link>http://explore.appinventor.mit.edu/displaying-maps</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. &lt;strong&gt;For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;This tutorial introduces:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;List manipulation – creating lists, appending items to lists&lt;/li&gt;
-&lt;li&gt;ListPicker – adding items to lists, persisting to database&lt;/li&gt;
+&lt;li&gt;ListPicker – adding items to lists, saving list data&lt;/li&gt;
 &lt;li&gt;LocationSensor – detecting current location for displaying on Google Maps&lt;/li&gt;
 &lt;li&gt;ActivityStarter – used to start-up Google Maps for current or predefined address&lt;/li&gt;
 &lt;li&gt;Notifier – displaying messages&lt;/li&gt;
-&lt;li&gt;TinyDB – persisting data (lists) into database&lt;/li&gt;
+&lt;li&gt;TinyDB – saving data into a persistent database&lt;/li&gt;
 &lt;li&gt;Misc. – text manipulation, basic validation&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;We will be working toward the design shown in figure blow:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/design.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Below figure is showing you, at high level, how the components are arranged in our design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier) that are used in the sample app.&lt;/p&gt;
+&lt;p&gt;The figure below shows how the components are arranged in the design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier) that are used in the app.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/mapItDesigner.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Blocks&lt;/h4&gt;
@@ -159,7 +159,7 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/MyLocationButtonBlocks.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/mapIt/MapIt_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
   
