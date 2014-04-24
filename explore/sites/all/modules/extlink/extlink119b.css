@@ -1,9 +1,13 @@
 span.ext {
-  background: url(extlink.png) right center no-repeat;
+  background: url(extlink_s.png) 2px center no-repeat;
+  width: 10px;
+  height: 10px;
   padding-right: 12px;
 }
 span.mailto {
-  background: url(mailto.png) right center no-repeat;
+  background: url(extlink_s.png) -20px center no-repeat;
+  width: 10px;
+  height: 10px;
   padding-right: 12px;
 }
 

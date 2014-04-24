@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Tutorials for App Inventor 2 | Explore MIT App Inventor</title>
+  <style>@import url("../modules/system/system.base3956.css?n46lcy");
+@import url("../modules/system/system.menus3956.css?n46lcy");
+@import url("../modules/system/system.messages3956.css?n46lcy");
+@import url("../modules/system/system.theme3956.css?n46lcy");</style>
+<style>@import url("../misc/ui/jquery.ui.core3956.css?n46lcy");
+@import url("../misc/ui/jquery.ui.theme3956.css?n46lcy");
+@import url("../misc/ui/jquery.ui.accordion3956.css?n46lcy");</style>
+<style>@import url("../sites/all/modules/date/date_api/date3956.css?n46lcy");
+@import url("../sites/all/modules/date/date_repeat_field/date_repeat_field3956.css?n46lcy");
+@import url("../modules/field/theme/field3956.css?n46lcy");
+@import url("../modules/node/node3956.css?n46lcy");
+@import url("../modules/search/search3956.css?n46lcy");
+@import url("../modules/user/user3956.css?n46lcy");
+@import url("../sites/all/modules/extlink/extlink3956.css?n46lcy");
+@import url("../sites/all/modules/views/css/views3956.css?n46lcy");</style>
+<style>@import url("../sites/all/modules/ctools/css/ctools3956.css?n46lcy");
+@import url("../sites/all/modules/lightbox2/css/lightbox3956.css?n46lcy");
+@import url("../sites/all/modules/panels/css/panels3956.css?n46lcy");
+@import url("../sites/all/libraries/superfish/css/superfish3956.css?n46lcy");</style>
+<style>@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.base3956.css?n46lcy");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.layout3956.css?n46lcy");
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/css/at.messages3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/html-elements3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/forms3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/tables3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/page3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/articles3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/comments3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/fields3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/blocks3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/navigation3956.css?n46lcy");
+@import url("../sites/all/themes/newexploretheme/color/colors3956.css?n46lcy");
+@import url("../sites/all/themes/sky/css/sky.settings.style3956.css?n46lcy");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme3956.css?n46lcy");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js3956.css?n46lcy");
+@import url("../sites/all/themes/appinventor/assets/css/reset3956.css?n46lcy");
+@import url("../sites/all/themes/appinventor/assets/css/typography3956.css?n46lcy");
+@import url("../sites/all/themes/appinventor/assets/css/layout3956.css?n46lcy");
+@import url("../sites/all/themes/appinventor/assets/css/drupal3956.css?n46lcy");</style>
+<style media="print">@import url("../sites/all/themes/sky/css/print3956.css?n46lcy");</style>
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style3956.css?n46lcy" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels3956.css?n46lcy" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style3956.css?n46lcy" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels3956.css?n46lcy" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/at_css/appinventor.responsive.layout3956.css?n46lcy" media="all" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/at_css/appinventor.lt-ie9.layout.css?n46lcy" media="all" />
+<![endif]-->
+  <script src="../misc/jquery1cc4.js?v=1.4.4"></script>
+<script src="../misc/jquery.once7839.js?v=1.2"></script>
+<script src="../misc/drupal3956.js?n46lcy"></script>
+<script src="../misc/ui/jquery.ui.core.mina7b0.js?v=1.8.7"></script>
+<script src="../misc/ui/jquery.ui.widget.mina7b0.js?v=1.8.7"></script>
+<script src="../misc/ui/jquery.effects.core.mina7b0.js?v=1.8.7"></script>
+<script src="../misc/ui/jquery.ui.accordion.mina7b0.js?v=1.8.7"></script>
+<script src="../sites/all/modules/extlink/extlink3956.js?n46lcy"></script>
+<script src="../sites/all/modules/lightbox2/js/lightbox3956.js?n46lcy"></script>
+<script src="../sites/all/modules/better_exposed_filters/better_exposed_filters3956.js?n46lcy"></script>
+<script src="../sites/all/modules/google_analytics/googleanalytics3956.js?n46lcy"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31803258-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-slider3956.js?n46lcy"></script>
+<script src="../sites/all/libraries/superfish/jquery.hoverIntent.minified3956.js?n46lcy"></script>
+<script src="../sites/all/libraries/superfish/sfsmallscreen3956.js?n46lcy"></script>
+<script src="../sites/all/libraries/superfish/superfish3956.js?n46lcy"></script>
+<script src="../sites/all/libraries/superfish/supersubs3956.js?n46lcy"></script>
+<script src="../sites/all/modules/superfish/superfish3956.js?n46lcy"></script>
+<script src="../sites/all/themes/sky/js/scripts3956.js?n46lcy"></script>
+<script src="../sites/all/themes/newexploretheme/video-js/video3956.js?n46lcy"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"ZnFNtq4gCz-mmwtwp5223xIg53YlxG_QAR3YEZ46Rtg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.effects.core.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"\/sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1,"public:\/\/at_css\/appinventor.responsive.layout.css":1,"public:\/\/at_css\/appinventor.lt-ie9.layout.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":0,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"better_exposed_filters":{"datepicker":false,"slider":false,"settings":[]},"extlink":{"extTarget":"_blank","extTargetValue":"","extClass":"ext","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":false,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Simple_Nav"},"supposition":false,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-ai2 page-ai2-tutorials lang-en site-name-explore-mit-app-inventor section-ai2 page-views color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html" title="Home page"><img src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor logo"/></a></div>
+          
+    </div>
+      <div id="menu-bar" class="nav clearfix">
+      <nav id="block-superfish-1" class="block block-superfish block-odd block-count-1 block-region-menu-bar menu-wrapper clearfix" role="navigation">
+              <h2 class="block-title element-invisible element-invisible">Simple_Nav</h2>
+            <ul id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-3 sf-single-items-0"><li id="menu-2892-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="../index-2.html" title="" class="sf-depth-1 menuparent">Home ▾</a><ul><li id="menu-3783-1" class="firstandlast odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../teach.html" title="" class="sf-depth-2">Teach</a></li></ul></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">Blog ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">News &amp; Events</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-3239-1" class="last odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../blog.html" title="" class="sf-depth-2">Team Blog</a></li></ul></li><li id="menu-2894-1" class="active-trail last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="../library.html" title="" class="sf-depth-1 menuparent">Support ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3036-1" class="active-trail middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2 active">Tutorials</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Library</a></li><li id="menu-3038-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="https://groups.google.com/forum/#!forum/mitappinventortest" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li><li id="menu-3174-1" class="last odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="../support.html" title="Information about App Inventor version 1" class="sf-depth-2">AI Classic (v1)</a></li></ul></li></ul>  </nav>
+  </div>
+      <div class="region region-create">
+    <section id="block-block-21" class="block block-block block-odd block-count-2 block-region-create">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Create Button</h2>
+            <div class="block-content content">
+      <p><a href="http://ai2.appinventor.mit.edu/" target="new"><button>Create</button></a></p>
+    </div>
+  </div>
+</section>
+  </div>
+    </div>
+      <div class="region region-header">
+    <section id="block-block-23" class="block block-block block-odd block-count-3 block-region-header">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Social Icons</h2>
+            <div class="block-content content">
+      <p style="color:white;float:left;margin: 10px 5px;">
+Follow Us:</p>
+<p style="float:left;margin: 5px 10px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://twitter.com/AppInv"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="http://www.youtube.com/user/appinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>   <a href="mailto:app-inventor-mgr@mit.edu"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/gmail.png" style="width:25px;" /></a></p>
+    </div>
+  </div>
+</section>
+<div id="block-block-7" class="block block-block block-even block-count-4 block-region-header">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+
+    </div>
+  </div>
+</div>
+  </div>
+    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                          <header>
+            <h1 id="page-title">Tutorials for App Inventor 2</h1>
+          </header>
+                
+        
+        <div id="content">  <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd block-count-5 block-region-content">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <div class="view view-tutorials-ai2 view-id-tutorials_ai2 view-display-id-page tutorials-view view-dom-id-30ac20402d06eac13f928ccf65716c7a">
+            <div class="view-header">
+      <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.portal{
+    float: left;
+    margin: 1% 2%;
+    width:180px;
+    position: relative;
+    margin-bottom:2%;
+}
+.portal_img{
+    float: left;
+    width:95%;
+    overflow: hidden;
+}
+.portal_info{
+    float:right;
+    width:16%;
+    padding-left:4%;
+    padding-bottom:2%;
+}
+.portal button{
+    position: absolute;
+    bottom: 0;
+}
+.portal_info p{
+    padding-bottom:2%;
+}
+.hidden {
+    display: none;
+}
+
+/*--><!]]>*/
+</style><div>
+<div class="portal">
+<div class="portal_img"><a href="beginner-videos.html"><img src="../sites/all/files/ai2tutorials/beginner.jpg" style="width:145;height:165" title="Build starter apps that speak to you, play ball, and doodle (video)" /></a></div>
+</div>
+<div class="portal">
+<div class="portal_img"><a href="paintpot-part1.html"><img src="../sites/all/files/ai2tutorials/paintpot.jpg" title="Doodle on a picture with your finger." style="width:145;height:165" /></a></div>
+</div>
+<div class="portal">
+<div class="portal_img"><a href="molemash.html"><img src="../sites/all/files/ai2tutorials/molemash.jpg" title="Build a Whack-a-Mole game that keeps score. Learn about touch and timer events." style="width:145;height:165" /></a></div>
+</div>
+<div class="portal">
+<div class="portal_img"><a href="http://appinventor.org/"><img src="../sites/all/files/ai2tutorials/ai-org.jpg" title="Courses, videos, tutorials, and free book chapters on appinventor.org." style="width:145;height:165" /></a></div>
+</div>
+<p><br /></p>
+<hr /><h3>There are many more tutorials available below. Scroll down to browse the list, or check the appropriate boxes and click"Filter": </h3>
+<p> </p></div>
+    </div>
+  
+      <div class="view-filters">
+      <form action="http://explore.appinventor.mit.edu/ai2/tutorials" method="get" id="views-exposed-form-tutorials-ai2-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-tutorial-type-tid-wrapper" class="views-exposed-widget views-widget-filter-field_tutorial_type_tid">
+                  <label for="edit-field-tutorial-type-tid">
+            Filter by Tutorial Topic          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-tutorial-type-tid">
+ <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-69">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-69" value="69"  /> <label class='option' for='edit-field-tutorial-type-tid-69'>Sprites</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-64">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-64" value="64"  /> <label class='option' for='edit-field-tutorial-type-tid-64'>Drawing Canvas</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-73">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-73" value="73"  /> <label class='option' for='edit-field-tutorial-type-tid-73'>Multiple Screens</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-74">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-74" value="74"  /> <label class='option' for='edit-field-tutorial-type-tid-74'>Clock Timer</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-66">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-66" value="66"  /> <label class='option' for='edit-field-tutorial-type-tid-66'>Game</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-70">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-70" value="70"  /> <label class='option' for='edit-field-tutorial-type-tid-70'>SMS Texting</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-77">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-77" value="77"  /> <label class='option' for='edit-field-tutorial-type-tid-77'>Camera</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-71">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-71" value="71"  /> <label class='option' for='edit-field-tutorial-type-tid-71'>Video</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-75">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-75" value="75"  /> <label class='option' for='edit-field-tutorial-type-tid-75'>Activity Starter</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-92">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-92" value="92"  /> <label class='option' for='edit-field-tutorial-type-tid-92'>ListPicker</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-61">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-61" value="61"  /> <label class='option' for='edit-field-tutorial-type-tid-61'>Accelerometer</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-93">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-93" value="93"  /> <label class='option' for='edit-field-tutorial-type-tid-93'>File Sharing</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-63">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-63" value="63"  /> <label class='option' for='edit-field-tutorial-type-tid-63'>Data Storage</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-65">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-65" value="65"  /> <label class='option' for='edit-field-tutorial-type-tid-65'>External API</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-91">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-91" value="91"  /> <label class='option' for='edit-field-tutorial-type-tid-91'>Location Sensor</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-67">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-67" value="67"  /> <label class='option' for='edit-field-tutorial-type-tid-67'>GPS</label>
+</div>
+<div class="form-item form-type-bef-checkbox form-item-edit-field-tutorial-type-tid-76">
+ <input type="checkbox" name="field_tutorial_type_tid[]" id="edit-field-tutorial-type-tid-76" value="76"  /> <label class='option' for='edit-field-tutorial-type-tid-76'>NFC (Near Field Comm.)</label>
+</div>
+</div></div>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-tutorials-ai2" name="" value="Filter" class="form-submit" />    </div>
+          <div class="views-exposed-widget views-reset-button">
+        <input type="submit" id="edit-reset" name="op" value="Reset" class="form-submit" />      </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+      <table class="views-table cols-2" >
+         <thead>
+      <tr>
+                  <th class="views-field views-field-title active views-align-left" >
+            <a href="tutorials482c.html?page=2&amp;&amp;order=title&amp;sort=desc" title="sort by Tutorial" class="active">Tutorial<img typeof="foaf:Image" src="../misc/arrow-desc.png" width="13" height="13" alt="sort descending" title="sort descending" /></a>          </th>
+                  <th class="views-field views-field-field-tutorial-difficulty views-align-center" >
+            Level          </th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr class="odd views-row-first">
+                  <td class="views-field views-field-title active views-align-left fix-width-80" >
+            <a href="stockquotes.html">StockQuotes for App Inventor 2</a><p>This tutorial demonstrates how to use the Web component to make an app call a web service (Yahoo! Finance) with a simple application programmer interface (API).</p>
+          </td>
+                  <td class="views-field views-field-field-tutorial-difficulty views-align-center" >
+            Intermediate          </td>
+              </tr>
+          <tr class="even views-row-last">
+                  <td class="views-field views-field-title active views-align-left fix-width-80" >
+            <a href="videowall.html">VideoWall for App Inventor 2</a><p>The Video Wall app demonstrates how you can control the size of a video playing in an app by using the Video Player component's Width, Height, and FullScreen features. The VideoWall uses media assets (videos stored in the app itself), but you can use the app to display videos from the internet as well.</p>
+          </td>
+                  <td class="views-field views-field-field-tutorial-difficulty views-align-center" >
+            Intermediate          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first even first"><a title="Go to first page" href="tutorialsf112.html?&amp;order=title&amp;sort=asc">« first</a></li><li class="pager-previous odd"><a title="Go to previous page" href="tutorialscefa.html?&amp;page=1&amp;order=title&amp;sort=asc">‹ previous</a></li><li class="pager-item even"><a title="Go to page 1" href="tutorialsf112.html?&amp;order=title&amp;sort=asc">1</a></li><li class="pager-item odd"><a title="Go to page 2" href="tutorialscefa.html?&amp;page=1&amp;order=title&amp;sort=asc">2</a></li><li class="pager-current even last">3</li></ul></div>  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+        
+      </section>
+
+      
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+              <div class="region region-footer">
+    <div id="block-block-3" class="block block-block block-odd block-count-6 block-region-footer">
+  <div class="block-inner clearfix">
+                <div class="block-content content no-title">
+      <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+}
+
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><strong>Home</strong></li>
+<li><a href="../people.html">People</a></li>
+</ul><ul><li><strong>Blog</strong></li>
+<li><a href="../news-events.html">News + Events</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../blog.html">Team Blog</a></li>
+</ul><ul><li><strong>Using AI2</strong></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../library.html">Library</a></li>
+<li><a href="tutorials.html">Tutorials</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="https://groups.google.com/forum/#!categories/mitappinventortest" target="_blank">Forums</a></li>
+</ul><ul><li><strong>Support</strong></li>
+<li><a href="setup.html">Setup</a></li>
+<li><a href="support/troubleshooting.html">Troubleshooting</a></li>
+<li style="margin-top: 38px"><a href="../support.html">App Inventor Classic</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2014 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+    </div>
+  </div>
+</div>
+  </div>
+    </footer>
+  
+</div>
+
+  </body>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+</html>
