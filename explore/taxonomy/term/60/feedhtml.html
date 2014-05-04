@@ -2030,7 +2030,7 @@ Component Settings
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/screen1populatelist.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Now that &lt;span class=&quot;callblock-ai2&quot;&gt;populateList&lt;/span&gt; has been created, add the following to &lt;span class=&quot;controlblock-ai2&quot;&gt;Screen1.Initialize&lt;/span&gt; and &lt;span class=&quot;controlblock-ai2&quot;&gt;Screen1.OtherScreenClosed&lt;/span&gt; :&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/screen1addedblocks.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When ListPicker is opened, you will see a list of all the colors you created. &lt;span class=&quot;controlblock-ai2&quot;&gt;ListPicker1.AfterPicking&lt;/span&gt; sets the Color value stored for that name to be the current drawing color, as shown here. &lt;/p&gt;
+&lt;p&gt;When ListPicker is opened, you will see a list of all the colors you created. &lt;span class=&quot;controlblock-ai2&quot;&gt;ListPicker1.AfterPicking&lt;/span&gt; sets the Color value stored for that name to be the current drawing color and then sets the current color swatch to that color, as shown here. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/screen1listpicker.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Blocks for the &lt;b&gt;Brush_Picker&lt;/b&gt; screen&lt;/h4&gt;
 &lt;p&gt;The main job of &lt;b&gt;Brush_Picker&lt;/b&gt; is to create a color from the red-green-blue values entered in the text boxes and provide that color to &lt;b&gt;Screen1&lt;/b&gt;. One thing the &lt;b&gt;Brush_Picker&lt;/b&gt; needs to check is that it&#039;s using good values for colors and dot size. Each of the red, green, blue values should be a number between 0 and 255. But you could have entered anything in those text boxes. The &lt;span class=&quot;callblock-ai2&quot;&gt;checkColor&lt;/span&gt; procedure takes a value and limits its range to between 0 and 255. If it&#039;s less than 0 (or not a number at all) the result will be 0. If it&#039;s greater than 255, the result will be 255. &lt;/p&gt;
@@ -2046,7 +2046,7 @@ Component Settings
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/testcolorbutton.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The next blocks show how Brush_Picker associates a name with a color for use by Screen1. The &lt;span class=&quot;eventblock&quot;&gt;Notifier1.ShowChooseDialog&lt;/span&gt; block triggers a &lt;span class=&quot;eventblock&quot;&gt;Notifier1.AfterChoosing&lt;/span&gt; event. In these blocks, the &lt;span class=&quot;controlblock-ai2&quot;&gt;ifelse&lt;/span&gt; block checks the response to whether or not the color should be saved. If the response is &quot;OK,&quot; &lt;span class=&quot;eventblock&quot;&gt;Notifier1.AfterChoosing&lt;/span&gt; calls &lt;span class=&quot;eventblock&quot;&gt;Notifier1.ShowTextDialog&lt;/span&gt; which prompts you to store a name for this color.&lt;/p&gt;
 &lt;p&gt;Once you make your entry, the color is stored with two tags two ways in TinyDB1. First, it stores the name with the current number of colors as the key. This is used when iterating through the list of colors for ListPicker in &lt;b&gt;Screen1&lt;/b&gt; so that the names will be displayed for the user. Secondly, the color is stored in TinyDB, using the name you entered as a key. &lt;b&gt;Screen1&lt;/b&gt; can then retrieve the color using its own TinyDB component and access it via the stored name as chosen in ListPicker.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/notifier.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/notifier.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/notifier2.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The Reset button allows the user to clear all of the entries in the red, green, and blue fields so they can start over easily. The blocks for this are shown here:&lt;/p&gt;
 &lt;p&gt;Note: you can use copy paste (ctl-v and ctl-c) after creating the first set Red.Text then you can use the dropdown to change from red to green to blue.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/coloredDots/reset.png&quot; /&gt;&lt;/p&gt;
@@ -2100,11 +2100,15 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Colored Dots&lt;/span&gt;? 
 
     
       &lt;li class=&quot;field-item even&quot;&gt;
-        Multiple Screens      &lt;/li&gt;
+        Drawing Canvas      &lt;/li&gt;
 
     
       &lt;li class=&quot;field-item odd&quot;&gt;
-        Drawing Canvas      &lt;/li&gt;
+        Multiple Screens      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Data Storage      &lt;/li&gt;
 
     
   &lt;/ul&gt;
