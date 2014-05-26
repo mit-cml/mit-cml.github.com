@@ -36,12 +36,13 @@
 .region-sidebar-second {width: 180px; margin-left: -180px; clear: none;}
 .container {width: 500px;}
 }
-/* Standard layout three-col-grail */
+/* Standard layout three-col-right */
 @media only screen and (min-width:1025px) {
-.two-sidebars .content-inner {margin-left: 180px; margin-right: 180px;}
-.sidebar-first .content-inner {margin-left: 180px; margin-right: 0;}
+.two-sidebars .content-inner {margin-right: 360px; margin-left: 0;}
+.sidebar-first .content-inner {margin-right: 180px; margin-left: 0;}
 .sidebar-second .content-inner {margin-right: 180px; margin-left: 0;}
-.region-sidebar-first {width: 180px; margin-left: -100%;}
+.region-sidebar-first {width: 180px; margin-left: -360px;}
 .region-sidebar-second {width: 180px; margin-left: -180px; clear: none;}
+.sidebar-first .region-sidebar-first {width: 180px; margin-left: -180px;}
 .container {width: 960px;}
 }
