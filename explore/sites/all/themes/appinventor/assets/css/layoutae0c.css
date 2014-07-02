@@ -103,7 +103,10 @@ body {
         color: #000;
 }
 #menu-bar li a:hover{
-
+	color: rgb(143,194,2);
+}
+#menu-bar li ul li a:hover{
+	color: rgb(143,194,2);
 }
 
 #superfish-1 li {background:none;}
@@ -126,6 +129,7 @@ body {
 }
 #menu-bar ul a, #menu-bar ul a:visited, #menu-bar ul a:hover{
         background-color:transparent;
+
 }
 h2.block-title{
         display:none;
@@ -465,8 +469,9 @@ New Front Page
 .gsc-control-searchbox-only.gsc-control-searchbox-only-en td{
         padding: 0 10px;
 }
-
-
 .sidebar-calendar-row-settings a:hover{
 	color: blue;
+}
+#menu-2893-1 ul li{
+	width: 250px !important;
 }
