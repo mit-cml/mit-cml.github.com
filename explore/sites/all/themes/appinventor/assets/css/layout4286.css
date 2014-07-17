@@ -148,7 +148,7 @@ h2.block-title{
         font-size:20px;
 }
 .region-create button:hover{
-        background:#FF941A;
+        background:#FF9419 !important;
 }
 .region-create .block{
         margin:0;
@@ -474,4 +474,50 @@ New Front Page
 }
 #menu-2893-1 ul li{
 	width: 250px !important;
+}
+#columns{
+	margin-bottom: -20px;
+}
+
+/*news-events*/
+#article-450 header{
+        display: none;        
+}
+span.ext{
+        display: none;
+}
+.submit_content2{
+        float: right;
+        margin-top: -105px;
+        height: 30px;
+        width: 170px;
+        font-family:helvetica;
+        background-color: #000099;
+}        
+.submit_content2:hover{
+
+        background-color: #1919A3;        
+}
+
+.submit_content2 p{
+        text-align:center;
+        font-weight:bold;
+        line-height: 30px;
+        color: #FFF;
+}    
+
+.news_header_format header{
+	color: black;
+}
+#article-450 h2 a{
+	color: #5e526c !important;
+}
+#article-450 h2 a:hover{
+	text-decoration: underline;
+}
+/*
+about-us
+*/
+#article-535 header{
+	display: none;
 }
