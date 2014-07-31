@@ -515,6 +515,31 @@ span.ext{
 #article-450 h2 a:hover{
 	text-decoration: underline;
 }
+.AppInventor-Stories-format img{
+	float: right;
+	border: solid 2px black;
+        margin-left:10px;
+}
+.AppInventor-Stories-format .views-field-title{
+	width: 200px;
+}
+.App-Of-Month-format img{
+	border: solid 2px black;
+}
+.team-blog-row{
+        width:95% !important;
+        margin-top: -30px;
+}
+#article-548 .article-content{ 
+        margin-bottom: -20px;
+.team-blog-row li{
+        margin-top: -10px !important; 
+}
+.team-blog-row img{
+	float: left;
+}
+
+
 /*
 about-us
 */
