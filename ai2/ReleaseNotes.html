@@ -440,6 +440,70 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
+                        <h2>Changes between nb136 and nb137 (September 14, 2014)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.22ai2zx1</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Reverted the change to minSdk. The minSdk is now 3 again.
+                              This change had caused some unexpected behavior to Balls,
+                              Canvas and Sprites. We are working on resolving these problems
+                              and will re-introduce this change when it is finished and
+                              completely tested.</li>
+                            </ul>
+                          </p>
+                        <h2>Changes between nb135 and nb136 (September 12, 2014)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.21ai2zx1</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Updates and bugfixes to Date and Time Picker. You can now
+                              set the time/date to be displayed when the Picker is opened.</li>
+                            <li>Require an open project before permitting a Companion connection.
+                              This avoids a confusion when new users, who have no projects, attempts
+                              to start their session by connecting to the Companion when they have no
+                              project.</li>
+                            <li>The “About this Application” can now have line breaks in the displayed
+                              message.</li>
+                            <li>Screens are now not scrollable by default. You can still set the scrollable
+                              property in the Designer.</li>
+                            <li>Fixes to the Twitter Component: The Camera can now be used to take pictures
+                              to be tweeted. We now send images directly to Twitter instead of Twitpic, which
+                              is shutting down on September 25, 2014.</li>
+                            <li>The Companion now has a “settings” page where you can set the location of
+                              the “rendezvous” server. The rendezvous server is used by App Inventor to help
+                              the Companion and the Browser find each other. By default the server at MIT is
+                              used. This option permits local site operators to run their own server if the
+                              network path to MIT is poor.</li>
+                            <li>Add ability to configure the Companion connect QR Code to specify the rendezvous
+                              server to use.</li>
+                            <li>You can now export the current project as a “.aia” file while working on the
+                              project. You no longer have to explicitly go the “My Projects” page and select
+                              it.</li>
+                            <li>Added Internationalization support to the App Inventor service. App Inventor
+                              can now be translated into other languages. We have deployed Chinese with this
+                              release.</li>
+                            <li>The Fusion Tables component has been upgraded so you can provide “service”
+                              credentials. Previously end-users had to authenticate to Google in order to
+                              access certain tables. Now your App can authenticate to Google so end-users
+                              don’t have to authenticate (or even have a Google Account). The old behavior
+                              is still supported as well.</li>
+                            <li>When you discard more then 3 blocks at a time into the trash can you will be
+                              requested to confirm the deletion. This is to prevent accidental deletion of
+                              blocks when you drag them over the trashcan (and you didn’t intend to
+                              delete them).</li>
+                            <li>Make sure the Runtime Error dialog box isn’t so large that it covers the
+                              blocks area. This could happen if the error message to be displayed was exceedingly
+                              long.</li>
+                            <li>Provide a dialog box via (Help->Companion Information) where the most recent
+                              Companion can be downloaded via a link and QR Code.</li>
+                            <li>ListPicker will now close an open keyboard when an item is picked. The
+                              keyboard might otherwise have been left open if the ListPicker filter bar
+                              feature was used.</li>
+                            <li>Update minSdk to 4. This deprecates the use of Android 1.5 (aka Cupcake) and
+                              permits different screen sizes to be supported. This is particularly useful for
+                              writing applications for tablets.</li>
+                            <li>Bugfixes both to the code and documentation.</li>
+                          </ul>
+                        </p>
                         <h2>Changes between nb134b and nb135 (July 5, 2014)</h2>
                         <p>
                           <ul>
