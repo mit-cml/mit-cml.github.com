@@ -1,0 +1,884 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8" />
+      <meta about="/front_page" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+      <meta content="Front Page" about="/front_page" property="dc:title" />
+      <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+      <title>Release Notes for MIT App Inventor 2 (Beta)</title>
+      <style>
+
+        body{
+        background: url("http://ai2.appinventor.mit.edu/images/squairy_light.png") repeat scroll center top;
+        margin-top:0;
+        }
+        #page{
+        width: 960px;
+        margin: 0 auto;
+        }
+        #branding, #menu-bar, #create-button,#region-create{
+        display: inline-block;
+
+        }
+        #branding{
+        width:25%;
+        margin:0;
+        }
+
+        #top_bar, #top_bar_background {
+        top:0;
+        min-height: 40px;
+        width:100%;
+        margin-bottom: 4px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: #f2f2f2;
+        background-image: -moz-linear-gradient(top, #f2f2f2, #f3f3f3);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#f3f3f3));
+        background-image: -webkit-linear-gradient(top, #f2f2f2, #f3f3f3);
+        background-image: -o-linear-gradient(top, #f2f2f2, #f3f3f3);
+        background-image: linear-gradient(to bottom, #f2f2f2, #f3f3f3);
+        background-repeat: repeat-x;
+        border: 1px solid #d4d4d4;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+        *zoom: 1;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+        position: relative;
+        }
+
+        #top_bar, #top_bar_background{
+        width:100%;
+        height: 70px;
+        /*position:absolute;*/
+        margin:0 auto;
+        left:0;
+        right:0;
+        top:0;
+        }
+
+        #header{
+        width:960px;
+        margin:0 auto;
+        height:50px;
+        position: relative;
+        }
+        /* LOGO */
+        #logo {
+        margin: 8px 4px 4px 4px;
+        float: left;
+        padding: 0 20px;
+
+        }
+        #logo img{
+        /*background: url(../images/logo_text.png) no-repeat;*/
+        width: auto;
+        height: 50px;
+        display: block;
+        }
+        #logo img:hover {
+        -webkit-filter: drop-shadow(0px 0px 3px #eee);
+        filter:         drop-shadow(0px 0px 3px #eee);
+        }
+
+        button {
+        border-radius:0 !important;
+        color:#FFF;
+        border:none;
+        padding: 0.5em 1em;
+        }
+        button:hover{
+        color:#FFF;
+        border:none;
+        border-radius:0 !important;
+        }
+
+        #branding, #create-button, #region-create, #menu-bar li{
+        display: inline-block;
+        }
+        #menu-bar{
+        margin: 0;
+        padding-top:10px;
+        position: absolute;
+        top: 0;
+        }
+        #menu-bar li{
+        margin:0;
+
+        }
+        #menu-bar li a{
+        font-family: 'Roboto Light', Helvetica, sans-serif;
+        font-weight:300;
+        font-size: 22px;
+        text-decoration: none;
+        color: #3D3D3D;
+        background:transparent !important;
+        border-radius:0 !important;
+        display: block;
+        line-height: 2.5em;
+        padding: 0 1em;
+        white-space: nowrap;
+        }
+        #menu-bar li a.active{
+        color: #000;
+        }
+        #menu-bar li a:hover{
+        color: #8fc202;
+        }
+        .create-button{
+        float:right;
+        margin:8px 25px 10px 10px;
+        }
+        .create-button button:hover{
+        cursor: pointer;
+        background: #ffa033;
+        }
+        .create-button button{background: #FF8800 !important;
+        border: none !important;
+        color: #FFF;
+        font-weight: 300;
+        border-radius: 0;
+        font-family: 'Roboto',Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        }
+        #content-column {
+        background: #F7F9F2;
+        border-radius: 2px;
+        margin-top: 0px;
+        padding: 15px 20px;
+        }
+        footer{
+        background-color: #e3e1df;
+        color: #010101;
+        padding: 20px 0;
+        margin-top: 25px;
+        }
+        /*################TYPOGRAPHY##################*/
+        /* html elements */
+        html {
+        font-size: 81.3%; /* 16px x 81.3% = 13px */
+        }
+        body {
+        font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+        line-height: 1.6em;
+        margin: 0;
+        padding: 0;
+        }
+        /* Sizes match proper font scaling. */
+        h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        line-height: 1em;
+        padding: 0;
+        margin: 24px 0 12px 0;
+        }
+        h1 { font-size: 2.153em; } /* 28px */
+        h2 { font-size: 1.692em; } /* 22px */
+        h3 { font-size: 1.385em; } /* 18px */
+        h4 { font-size: 1.231em; } /* 16px */
+        h5 { font-size: 1.077em; } /* 14px */
+        h6 { font-size: 1em; }
+        img,
+        a img {
+        border:none;
+        }
+        img {
+        max-width: 100%;
+        height: auto;
+        }
+        p {
+        margin: 0 0 1.5em;
+        padding: 0;
+        }
+        em,
+        dfn {
+        font-style: italic;
+        }
+        ins {
+        border-bottom: none;
+        text-decoration: none;
+        }
+        abbr, acronym {
+        border-bottom: 1px dotted;
+        cursor: help;
+        white-space: nowrap;
+        }
+        pre,
+        code,
+        tt,
+        samp,
+        kbd,
+        var {
+        font-size: 0.846em;
+        font-family: Monaco, "DejaVu Sans Mono", monospace, sans-serif; /* Safari hack */
+        }
+        blockquote,
+        q {
+        font-style:italic;
+        quotes:"" "";
+        }
+        blockquote,
+        p {
+        margin: 1.5em 0;
+        }
+        p:first-child,
+        p.first-child {
+        margin-top: 0;
+        }
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+        content:"";
+        }
+        strong,
+        dfn,
+        caption,
+        th {
+        font-weight: 700;
+        }
+        pre,
+        div.codeblock {
+        background-color: #f5f5f5;
+        border: solid 1px #ddd;
+        border-bottom-color: #ccc;
+        border-right-color: #ccc;
+        padding: 1em;
+        white-space: pre-wrap;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        }
+
+        /* Lists */
+        ul,
+        ol {
+        margin: 0 0 1.5em 1em;
+        padding:0;
+        }
+        .item-list ul,
+        .item-list ol {
+        margin: 0 0 0 1em;
+        padding: 0;
+        }
+        ul ul,
+        ul ol,
+        ol ol,
+        ol ul,
+        .block ul ul,
+        .block ul ol,
+        .block ol ol,
+        .block ol ul,
+        .item-list ul ul,
+        .item-list ul ol,
+        .item-list ol ol,
+        .item-list ol ul {
+        margin-bottom: 0;
+        }
+        ul {
+        list-style-type: disc;
+        }
+        ul ul ul {
+        list-style-type: square;
+        }
+        ol {
+        list-style-type: decimal;
+        }
+        ol ol {
+        list-style-type: lower-alpha;
+        }
+        ol ol ol {
+        list-style-type: lower-roman;
+        }
+        ul ul,
+        ul ul ul ul {
+        list-style-type: circle;
+        }
+        dl {
+        margin: 1em 0;
+        padding: 0;
+        }
+        dt {
+        font-size: 1.231em;
+        }
+        dd {
+        margin: 0 0 0.4em 0;
+        padding: 0 0 0 2em;
+        }
+        dd:last-child {
+        border-bottom: 0;
+        }
+        dl dl {
+        margin-left: 1em;
+        }
+
+        body {
+        font: 13px/1.5 'Roboto','Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif !important;
+        color: #3D3D3D;
+        }
+
+        pre,
+        code {
+        font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+        }
+
+        hr {
+        border: 0 #ccc solid;
+        border-top-width: 1px;
+        clear: both;
+        height: 0;
+        }
+
+        /* `Headings
+        ----------------------------------------------------------------------------------------------------*/
+
+        h1 {
+        font-size: 20px;
+        line-height: 22px;
+        }
+
+        h2 {
+        font-size: 18px;
+        line-height: 20px;
+        }
+
+        h3 {
+        font-size: 16px;
+        line-height: 18px;
+        }
+
+        h4 {
+        font-size: 14px;
+        line-height: 16px;
+        }
+
+        h5 {
+        font-size: 12px;
+        line-height: 14px;
+        }
+
+        h6 {
+        font-size: 12px;
+        line-height: 14px;
+        }
+
+        /* `Spacing
+        ----------------------------------------------------------------------------------------------------*/
+
+        ol {
+        list-style: decimal;
+        }
+
+        ul {
+        list-style: disc;
+        }
+
+        li {
+        margin-left: 30px;
+        }
+
+        p,
+        dl,
+        hr,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ol,
+        ul,
+        pre,
+        table,
+        address,
+        fieldset,
+        figure {
+        margin-bottom: 10px;
+        }
+
+        address { font-style: normal; }
+
+
+
+      </style>
+    </head>
+
+
+    <body>
+
+      <div id="page" class="container">
+        <header class="clearfix" role="banner">
+          <div id="top_bar">
+            <div id="branding">
+              <div id="logo"><a href="http://appinventor.mit.edu" title="Home page" class="active"><img src="../logo2.png" alt="Explore MIT App Inventor logo"></a></div>
+              </div>
+
+              <div id="menu-bar" class="nav clearfix">
+                <nav role="navigation">
+                  <ul>
+                    <li><a href="http://appinventor.mit.edu">Home</a></li>
+                    <li><a href="http://appinventor.mit.edu/explore/news-events">Blog ▾</a></li>
+                    <li><a href="http://appinventor.mit.edu/explore/ai2/user-guide">Support ▾</a></li></ul>
+                </nav>
+              </div>
+
+              <div class="create-button">
+
+                <a href="http://ai2.appinventor.mit.edu/"><button>Create</button></a>
+
+              </div>
+            </div>
+          </header>
+
+
+          <div id="columns" class="no-menu-bar" style="margin-top:15px;"><div class="columns-inner clearfix">
+
+
+              <div id="content-column"><div class="content-inner">
+                  <section id="main-content" role="main">
+                    <div id="content">  <div class="region region-content">
+                        <h2>Release Notes for MIT App Inventor 2 (Beta!)</h2>
+                        <p>Changes in MIT App Inventor 2 are
+                        documented on this page. Note: Versions that
+                        end with a letter (for example: nb117c) are
+                        bugfix releases.</p>
+                        <h2>SPECIAL TESTING of API4 – Version api4t1</h2>
+                        <ul>
+                          <li>Update minSDK to 4 and scale canvases and images.
+                            “Pixels” are now density independent “dp”s.</li>
+                        </ul>
+                        <h2>Changes between nb137 and nb138 (October 21, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Added Spanish Language Translation.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb136 and nb137 (September 14, 2014)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.22ai2zx1</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Reverted the change to minSdk. The minSdk is now 3 again.
+                              This change had caused some unexpected behavior to Balls,
+                              Canvas and Sprites. We are working on resolving these problems
+                              and will re-introduce this change when it is finished and
+                              completely tested.</li>
+                            </ul>
+                          </p>
+                        <h2>Changes between nb135 and nb136 (September 12, 2014)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.21ai2zx1</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Updates and bugfixes to Date and Time Picker. You can now
+                              set the time/date to be displayed when the Picker is opened.</li>
+                            <li>Require an open project before permitting a Companion connection.
+                              This avoids a confusion when new users, who have no projects, attempts
+                              to start their session by connecting to the Companion when they have no
+                              project.</li>
+                            <li>The “About this Application” can now have line breaks in the displayed
+                              message.</li>
+                            <li>Screens are now not scrollable by default. You can still set the scrollable
+                              property in the Designer.</li>
+                            <li>Fixes to the Twitter Component: The Camera can now be used to take pictures
+                              to be tweeted. We now send images directly to Twitter instead of Twitpic, which
+                              is shutting down on September 25, 2014.</li>
+                            <li>The Companion now has a “settings” page where you can set the location of
+                              the “rendezvous” server. The rendezvous server is used by App Inventor to help
+                              the Companion and the Browser find each other. By default the server at MIT is
+                              used. This option permits local site operators to run their own server if the
+                              network path to MIT is poor.</li>
+                            <li>Add ability to configure the Companion connect QR Code to specify the rendezvous
+                              server to use.</li>
+                            <li>You can now export the current project as a “.aia” file while working on the
+                              project. You no longer have to explicitly go the “My Projects” page and select
+                              it.</li>
+                            <li>Added Internationalization support to the App Inventor service. App Inventor
+                              can now be translated into other languages. We have deployed Chinese with this
+                              release.</li>
+                            <li>The Fusion Tables component has been upgraded so you can provide “service”
+                              credentials. Previously end-users had to authenticate to Google in order to
+                              access certain tables. Now your App can authenticate to Google so end-users
+                              don’t have to authenticate (or even have a Google Account). The old behavior
+                              is still supported as well.</li>
+                            <li>When you discard more then 3 blocks at a time into the trash can you will be
+                              requested to confirm the deletion. This is to prevent accidental deletion of
+                              blocks when you drag them over the trashcan (and you didn’t intend to
+                              delete them).</li>
+                            <li>Make sure the Runtime Error dialog box isn’t so large that it covers the
+                              blocks area. This could happen if the error message to be displayed was exceedingly
+                              long.</li>
+                            <li>Provide a dialog box via (Help->Companion Information) where the most recent
+                              Companion can be downloaded via a link and QR Code.</li>
+                            <li>ListPicker will now close an open keyboard when an item is picked. The
+                              keyboard might otherwise have been left open if the ListPicker filter bar
+                              feature was used.</li>
+                            <li>Update minSdk to 4. This deprecates the use of Android 1.5 (aka Cupcake) and
+                              permits different screen sizes to be supported. This is particularly useful for
+                              writing applications for tablets.</li>
+                            <li>Bugfixes both to the code and documentation.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb134b and nb135 (July 5, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Updated aimerger tool for AI2.  This is a tool that lets people merge screens from different projects to form a single project.  Documentation is at <a href="http://appinventor.mit.edu/explore/resources/ai2-project-merger.html" target="_blank">http://appinventor.mit.edu/explore/resources/ai2-project-merger.html</a>.</li>
+                            <li>Add "Templates":  A feature where projects can be imported from a "repository" of projects. The initial version supports a currently small built in template (more projects to be added in the future) as well as importing your own templates.  See the link to “App Inventor Templates” at <a href="http://appinventor.mit.edu/explore/library.html" target="_blank">http://appinventor.mit.edu/explore/library.html</a>.</li>
+                            <li>Twitter Component should now work properly again.</li>
+                            <li>Permit Companion to pass values between screens during live development.</li>
+                            <li>Changed clock component category from “User Interface” to “Sensors”.</li>
+                            <li>Created a helper script to create new components (useful for AI developers).</li>
+                            <li>Fixed TimePicker to show the current time by default when picker is opened.</li>
+                            <li>Fixed DatePicker to show the current date by default when picker is opened.</li>
+                            <li>Changes the Player component so playing is stopped when a phone call is incoming or other audio event occurs.</li>
+                            <li>Added new events to PhoneCall Component for reacting to incoming and outgoing phone calls.</li>
+                            <li>Made updates to ContactPicker, EmailAddressPicker and PhoneNumberPicker to work on newer versions of Android, particularly on Samsung devices.</li>
+                            <li>Change the button order in the Notifier components to be yes|no|cancel.</li>
+                            <li>Minor Bugfixes and Documentation Improvements.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb134 and nb134a (June 4, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Update blocks editor, should improve performance and reliability</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb133 and nb134 (May 26, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Modify the (new) DatePicker component to returns months in the range 1-12 instead of 0-11</li>
+                            <li>Documentation updates</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb132 and nb133 (May 18, 2014)</h2>
+                        <p>Note: This release adds new components. There is a new
+                          Companion (Version 2.18ai2zx1) which is necessary to do
+                          incremental development with the new components.</p>
+                        <p>The new Companion is in the Google Play Store and will
+                          auto-update if you have that feature turned on.</p>
+                        <p>We are not triggering an auto-update for the emulator.
+                          To update the emulator, do a “Hard Reset”. Once you do this
+                          the next time you start the emulator it will update its
+                          internal copy of the Companion to the latest version.</p>
+                        <p>
+                          <ul>
+                            <li>WebViewer: You can now communicate with the Javascript environment in the WebViewer by providing a string it can read</li>
+                            <li>Spinner: We added the “Spinner” component that lets you use an <a href="https://developer.android.com/guide/topics/ui/controls/spinner.html" target="_blank">Android Spinner</a></li>
+                            <li>ListView: Added the ListView Component similar to the ListPicker, but runs in the current screen</li>
+                            <li>TextToSpeech: Added a pitch and rate control.</li>
+                            <li>Sharing: Added error handling</li>
+                            <li>Added the “TimePicker” and “DatePicker” components to choose dates and times</li>
+                            <li>Added a “File” component to permit reading and writing of files on the device</li>
+                            <li>Added the “YandexTranslator” component that permits translation of text strings using the Yandex service</li>
+                            <li>Button Enhancements: You can now setup events for Touch Down and Touch Up as well as Click</li>
+                            <li>Bugfixes and Stability improvements</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb131 and nb132 (April 11, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Add Checkbox to Camera Component to select front facing camera on supported devices.</li>
+                            <li>In most cases the soft keyboard will no longer obscure the text box where you are typing</li>
+                            <li>Add a volume control to the Video Player</li>
+                            <li>Fixed more links to documentation that were broken</li>
+                            <li>Added checksums to loading project files to detect changes made by filter and proxy servers</li>
+                            <li>Added a “Sharing” Component that makes it easy to share content with other applications</li>
+                            <li>Note: A New Companion (version
+                            2.17ai2zx1) is required for incremental
+                            development involving new features. This
+                            Companion is now in the Google Play Store
+                            and people with auto-update selected will
+                            automatically receive it. The Companion
+                            links on our setup pages also point to the
+                            new version. We are not triggering an
+                            auto-update to this version if you are
+                            using the Emulator, but we will likely
+                            soon</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb130 and nb131 (March 29, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Bugfix to the counting of block warnings (on the Blocks frame).</li>
+                            <li>Long file names are now truncated differently when displayed in the designer.</li>
+                            <li>You can now use one account on multiple browsers (again), but a warning is generated about the risk of damaging your projects.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb129 and nb130 (March 24, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Restore missing Sound Component Documentation</li>
+                            <li>Old Sessions now receive a dialog
+                            explaining they are out of date, instead
+                            of the “red bar” they received in the last
+                            release</li>
+                            <li>Prevent or delay switching screens and
+                            projects while a project auto-save is in
+                            process. This is part of our efforts to
+                            keep blocks from mysteriously
+                            disappearing.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb128 and nb129 (March 19, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Generate a warning when more then three blocks would be deleted by hitting backspace or delete.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb127 and nb128 (March 16, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Fix Help menu items in the blocks editor</li>
+                            <li>Only one browser (the most recent login) can update blocks. This is to avoid project corruption.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb126 and nb127 (March 11, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Performance/Efficiency Improvement when loading projects</li>
+                            <li>Provide better error handling for rpc version mismatch (only an issue during some MIT App Inventor updates)</li>
+                            <li>Improvements in how we start the Emulator, should permit the Emulator to run on slower computers</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb125 and nb126 (March 10, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Add a timeout to Emulator Companion startup</li>
+                            <li>Add scrollbars to documentation popups</li>
+                            <li>Add “Hard Reset” Connection Menu Item to reset Setup tools to “factory default”</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb124 and nb125 (March 4, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>This release is mostly bugfixes and
+                            performance improvements in the backend
+                            server.
+                            </li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb123 and nb124 (February 26, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Modify Auto-Update to work in
+                              locations behind a proxy. Remove dependency on separate download
+                              server. If you can reach ai2.appinventor.mit.edu, you should be able
+                              to take the update.</li>
+                            <li>Remove the “Dismiss” button from the
+                              Build Progress bar. People thought it
+                              would cancel the build, but it
+                              doesn't. The Progress bar will now dismiss
+                              itself when the build is finished. If
+                              there is an error in the build, then it
+                              will not auto-dismiss and the “Dismiss”
+                              button will be shown.</li>
+                            <li>Bugfixes</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb122 and nb123 (February 12, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Provide for Auto-Update of Companion both on Devices and in the Emulator</li>
+                            <li>Bugfixes</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb122 and nb121 (February 8, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Remove Support for IE (likely temporary, Windows Users should install Chrome)</li>
+                            <li>Modified the text chooser to close the keyboard after use</li>
+                            <li>“Reset Connection” Menu now always active even if you are not connected, useful to reset the Emulator</li>
+                            <li>Add an “About Screen” Property to Screen. Adds an “About” menu item</li>
+                            <li>Changes so the Companion is offered to Tablets from Google Play</li>
+                            <li>Make the “code” display larger in the Connect Companion Dialog (easier to read)</li>
+                            <li>Companion can now scan QR Code of Build output and install packaged app. Eases installation of packaged apps. Make sure you have version 2.15ai2zx1 or newer.</li>
+                            <li>Bugfixes</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb120 and nb121 (January 21, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Fix to the Twitter Component to deal with API changes made by Twitter</li>
+                            <li>Backend Bugfixes and Performance Improvements</li>
+                            <li>Backend now stores large files in the Google Cloud Store (should be more reliable)</li>
+                            <li>Performance Improvements in block moving on larger projects (still more work to do here)</li>
+                            <li>Bugfixes</li>
+                            <li>Fix to make packaged applications larger then 8Mb work (nb121a on 2/2/2014)</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb120 and nb119 (January 17, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Significant performance and stability improvements</li>
+                            <li>Warning Message when attempting to use
+                            an old Companion App or old Setup Tools
+                            (but you can still use them). People
+                            should upgrade their Companion and Setup
+                            Tools if they see the warning, as the
+                            upgrade will soon be mandatory.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb119 and nb118 (January 9, 2014)</h2>
+                        <p>
+                          <ul>
+                            <li>Duplicate component event handlers will now be flagged as an error (red triangle)</li>
+                            <li>Added internal caching in the buildserver, builds should run much faster now</li>
+                            <li>Added a Property to the List Picker component to set the Title displayed when the picker is active</li>
+                            <li>Build Failures now return a displayable error</li>
+                            <li>Added BLUETOOTH_ADMIN permission to the Bluetooth components, needed in some phones</li>
+                            <li>Renamed the labels in the Projects and Build menus</li>
+                            <li>When you Package an App and display a QR Code, the resulting code can be used by anyone, not just
+                              the account that did the build. However the code expires in two hours</li>
+                            <li>Packaged Apps with unicode characters will now display them properly</li>
+                            <li>Bugfixes</li>
+                          </ul>
+                        <h2>Changes between nb118 and nb117 (December
+                        17, 2013)</h2>
+                        <p>
+                          <ul>
+                            <li>Added Support for the Test Page as a simple way to determine if correct setup software is installed</li>
+                            <li>Better handling of “reset” menu, shutdown emulator and make sure internal state is reset.</li>
+                            <li>Improvements to better support the emulator on slower computers</li>
+                            <li>Generation QR Codes in the build menu ourselves instead of using the deprecated Google Chart API</li>
+                            <li>Support for auto-updating the Companion including the Companion embedded in the setup tools so they do not need to be updated as often</li>
+                            <li>Bugfixes, particularly for the Twitter Component</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb117 and nb116 (December
+                        3, 2013)</h2>
+                        <p>
+                          <ul>
+                            <li>Limit file name length display in the Media Upload Box</li>
+                            <li>Bugfix to permit both a phone and emulator to be used in the same</li>
+                            <li>session</li>
+                            <li>MIT AI2 Companion now available in the Google Play Store</li>
+                            <li>Change semantics for the “for-each” block to execute 0 times on a bad</li>
+                            <li>range of values instead of causing a runtime error</li>
+                            <li>Bugfixes and documentation fixes</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb116 and nb115 (November
+                        20, 2013)</h2>
+                        <p>
+                          <ul>
+                            <li>The aiDaemon has been renamed “aiStarter”</li>
+                            <li>Bugfixes</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb115 and nb114 (November 14, 2013)</h2>
+                        <p>
+                          <ul>
+                            <li>Officially go from “Alpha” to “Beta” release.</li>
+                            <li>Added a “Report an Issue” link to make it easy to provide feedback.</li>
+                            <li>Reflect runtime errors to the blocks editor during debugging.</li>
+                            <li>Support unicode characters in the companion.</li>
+                            <li>Code to upgrade projects when new releases come out.</li>
+                            <li>Modified internal format of project storage (added code to upgrade projects on load).</li>
+                            <li>Global variables now have their names prefixed with the word “global”</li>
+                            <li>Hovering over a variable name in its
+                              declaration gives a box where you can
+                              pull down the appropriate getter and setter block for the variable</li>
+                            <li>Updating documentation as we prepare for formal launch of AI2</li>
+                            <li>BugReporter page which appears when an internal error is detected</li>
+                            <li>UI Layout Changes</li>
+                            <li>Bugfixes</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb114 and
+                          nb113 (September 12, 2013)</h2>
+                        <p>Note: New Companion and Setup
+                          Tools are required. The old
+                          Companion may work, but new
+                          features (see below) will not.</p>
+                        <ul>
+                          <li>Added support for “Do It” on
+                            blocks. If connected to the
+                            Companion (or Emulator) you will
+                            be able to select “Do It” from
+                            the right click menu on most
+                            blocks. The results of the “Do
+                            It” will appear in the comment
+                            bubble.<br />
+                            Note: Performing “Do It” on
+                            event defining (or procedure
+                            defining) blocks just
+                            re-defines the event (or
+                            procedure) which isn’t
+                            particularly interesting...
+                          </li>
+                          <li>
+                            Added support for the
+                            Companion to permit
+                            applications to switch
+                            screens. If you have a block
+                            that switches to another
+                            screen, the Companion can now
+                            do the switch. When the block
+                            runs, your blocks editor will
+                            also switch.<br />
+                            <i>Currently passing and
+                              returning arguments to other
+                              screens is not yet supported.</i>
+                          </li>
+                          <li>
+                            Added support for Connection
+                            via USB. Note: You will need
+                            to have the latest Setup Tools
+                            (Version 1.6) installed and
+                            the “aiDaemon” process
+                            running. <i>This is currently
+                              only supported for the
+                              Macintosh, but we expect to
+                              have support for Windows and
+                              Linux shortly.</i>
+                          </li>
+                        </ul>
+                        <h2>Changes between nb112 and nb113 (August 21, 2013)</h2>
+                        <p>All changes in this release are
+                          bugfixes. No new Companion is required.</p>
+                        <ul>
+                          <li>Corrected a fault that can occur when a component is deleted with the designer.</li>
+                          <li>Fix a bug that causes Screen1.Initialize to run twice in the Companion.</li>
+                          <li>Fix a bug in the networking code that could cause blocks to be loaded to the Companion in the wrong order to
+                            slow networks.</li>
+                        </ul>
+                        <h2>Changes between nb111 and nb112 (August 2, 2013)</h2>
+                        <ul>
+                          <li>Spaces are removed from variable names (they only caused errors).</li>
+                          <li>More cleanup to communication with the Companion: The Companion now updates faster and even when the
+                            blocks editor is in the "Designer."</li>
+                          <li>Various bugfixes and interface tweaks.</li>
+                        </ul>
+                        <h2>Changes between nb110 and nb111 (July 24, 2013)</h2>
+                        <ul>
+                          <li>The Components Panel has been moved to the right of "Viewer" when in the designer panel. This makes it easier
+                            to add items from the UI Palette to the Viewer mockup of the phone.</li>
+                          <li>When connected to the Companion App for incremental development, changes now take effect even when in the
+                            Designer panel. Previously you had to change to the Blocks panel for changes to be seen on the connected phone or
+                            emulator.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+              </div></div>
+          </div></div>
+
+          <footer role="contentinfo">
+            <div class="region region-footer">
+              <div id="block-block-3" class="block block-block block-odd block-count-8 block-region-footer">
+                <div class="block-inner clearfix">
+                  <div class="block-content content no-title">
+                    <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a> <br>
+                          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" class="ext" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a><span class="ext"></span></p>
+                        <p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/" class="ext" target="_blank">Massachusetts Institute of Technology</a><span class="ext"></span></p>
+                        <p style="text-align: center;"><a href="http://dev-explore.appinventor.mit.edu/contact">Contact Us</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+
+            </div>
+
+            <table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c"
+                   style="width: 183px; display: none; top: 110px; position: absolute;
+                          left: 924px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e"
+                                                                               style="width: 100%;"></td></tr></tbody></table></body>
+        </html>
+
