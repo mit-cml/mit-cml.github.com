@@ -251,12 +251,12 @@ Follow Us:</p>
 function ajax_get_json(){
     var results = document.getElementById("results")
     var hr = new XMLHttpRequest();
-    hr.open("GET", "http://storage.googleapis.com/appinventordata/ai2data.json", true);
+    hr.open("GET", "http://128.52.180.87/stats.json", true);
     hr.setRequestHeader("Content-type", "application/json", true);
     hr.onreadystatechange = function() {
 	    if(hr.readyState == 4 && hr.status == 200) {
 		    var data = JSON.parse(hr.responseText);
-		    var header = "Monthly Active Users: "+"<span>210K</span>"+" Weekly Active Users: "+"<span>"+data.weekly+"</span>"+" Total Registered Users: "+"<span>"+data.users+"</span>"+"<p> Countries: "+"<span>195</span>"+ " Apps Built: "+"<span>"+data.projects+"</span>";
+		    var header = "Monthly Active Users: "+"<span>" +data.monthly + "</span>"+" Weekly Active Users: "+"<span>"+data.weekly+"</span>"+" Total Registered Users: "+"<span>"+data.users+"</span>"+"<p> Countries: "+"<span>195</span>"+ " Apps Built: "+"<span>"+data.projects+"</span>";
 		    results.innerHTML = header; 
 		    
 	    }
