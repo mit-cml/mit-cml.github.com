@@ -142,10 +142,11 @@ h2.block-title{
         background:#FF8800 !important;
         border:none !important;
         color:#FFF;
-        font-weight:300;
+        font-weight:bold;
         border-radius:0;
         font-family: 'Roboto',Helvetica,Arial,sans-serif;
         font-size:20px;
+        box-shadow: 5px 5px 5px #888888;
 }
 .region-create button:hover{
         background:#FF9419 !important;
