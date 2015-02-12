@@ -440,6 +440,107 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
+                        <h2>Changes between nb139 and nb140 (February 11, 2015)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.24</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Added the “IgnoreSslError” property to
+                            the Web Component. This permits you to
+                            fetch SSL protected content from sites
+                            that have self signed certificates. Note:
+                            This introduces a security concern when
+                            used, as invalid certificates may be
+                            accepted as well.</li>
+
+                            <li>Added the “Deobsfucate Text”
+                              block. This block lets you put a text
+                              string into a packaged App that is
+                              obscured from casual observation. This
+                              may be useful for putting API keys and
+                              other quasi-secret information into an
+                              App. Note: This is not a fail safe
+                              approach, as a determined interloper can
+                              still extract the text, but it does
+                              require some effort.</li>
+
+                            <li>Cancelling a text input notifier will
+                              now automatically hide the soft
+                              keyboard</li>
+
+                            <li>Added the Proximity Sensor component.</li>
+
+                            <li>Padding was added around text labels
+                            (the “HasMargins” property was added to
+                            the label component). By default new
+                            labels will have padding. Existing labels
+                            in existing projects will not
+                            automatically get this extra padding.</li>
+
+                            <li>The BarcodeScanner component has had
+                            the ZXing scanning code added to it. The
+                            new property “UseExternalScanner” was
+                            added. If true, the default, an external
+                            scanning program is still used. However if
+                            false, the internal scanner will be used
+                            and an external program is no longer
+                            required. Note: The internal scanner is
+                            not as flexible as many external scanning
+                            programs, be sure it works in your
+                            situation before relying upon it.</li>
+
+                            <li>Error handling in the
+                              FusionTablesControl component was
+                              improved. You can now catch Fusion
+                              Tables errors and handle them in your
+                              own code.</li>
+
+                            <li>The “AppName” property was added to
+                            Screen1. This property is used as the
+                            Application Name for packaged Apps in the
+                            Launcher. This means that the name
+                            displayed on someone’s phone is no longer
+                            tied to the project name and can have
+                            spaces in it.</li>
+
+                            <li>Text written onto a Canvas can now be
+                            left, center or right aligned.</li>
+
+                            <li>Fix a bug in the Spinner component
+                            that would result in an extra
+                            “AfterPicking” event being fired during
+                            incremental development.</li>
+
+                            <li>The ListPicker component can now have
+                            its background and text color set.</li>
+
+                            <li>The ListView component has a new
+                            “TextSize” property which lets you adjust
+                            the size of displayed text.</li>
+
+                            <li>Added the “RequestFocus” method to
+                            TextBoxes. When invoked the target textbox
+                            will become the default location for
+                            keyboard input.</li>
+
+                            <li>The “ClearCaches” method was added to
+                            the WebViewer component. When invoked any
+                            cached content in the WebViewer is
+                            discarded, ensuring that contact from the
+                            server is fetched and loaded.</li>
+
+                            <li>The Companion should now load changes
+                            made in the designer faster. Changing
+                            screens during development should be
+                            faster as well.</li>
+
+                            <li>Bugfixes and documentation
+                            improvements as well as server
+                            improvements that make it easier for us to
+                            operate the MIT App Inventor service.</li>
+
+                          </ul>
+                        </p>
+
                         <h2>Changes between nb138 and nb139 (November 20, 2014)</h2>
                         <p><i>Companion Version to use:</i>&nbsp;<b>2.23ai2zx1</b>.</p>
                         <p>
