@@ -168,7 +168,7 @@ h2.block-title{
         background-color: #C4C4C4;
         padding-top:55px;
         float:none;
-        height:53px;
+        height: 0px;
 }
 #block-block-7{
         width:33%;
@@ -443,12 +443,12 @@ New Front Page
 }
         
 .footer-style a p{
-        color: #4b8ef9;
+        color: #C4C4C4;
         margin-left: 238px;
         margin-top: -4px;
 }
 .footer-style2 a p {
-        color: #4b8ef9;
+        color: #C4C4C4;
         margin-left: 238px;
         margin-top: 13px;
         margin-bottom: -10px;
