@@ -226,9 +226,9 @@ h2.block-title{
 
 #portals {
         float: left;
-        height: 120px;
+        /*height: 120px;
         padding: 10px 10px;
-        margin: 10px 0;
+        margin: 10px 0;*/
         position: relative;
 }
 #portals tbody tr td{
@@ -236,7 +236,7 @@ h2.block-title{
 }
 #portals td p{
         text-align: left;
-        padding-bottom:5px;
+        /*padding-bottom:5px;*/
         font-weight:400;
         color:#303030;
 }
@@ -284,28 +284,29 @@ button:hover{
         border-radius:0 !important;
 }
 .orange {
-        background:#FF8800;
+        background:#F6881F;
 }
 .orange:hover{
-        background:#FFBB33;
+        background:#F9AC62;
 }
 .green {
-        background:#669900;
+        background:#8DC63F;
+        /*box-shadow: 5px 5px 5px #888888;*/
 }
 .green:hover {
-        background:#99CC00;
+        background:#AFD779;
 }
 .blue {
-        background:#0099CC ;
+        background:#1C75BC ;
 }
 .blue:hover {
-        background:#33B5E5 ;
+        background:#609ED0 ;
 }
 .purple {
-        background:#9933CC;
+        background:#91379F;
 }
 .purple:hover {
-        background:#AA66CC;
+        background:#B273BC;
 }
 .red {
         background: #CC0000;
