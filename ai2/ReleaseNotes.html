@@ -440,6 +440,24 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
+                        <h2>Changes between nb140b and nb141 (March 27, 2015)</h2>
+                        <p>
+                          <ul>
+                            <li>Improved error reporting from Fusion Tables.</li>
+                            <li>Deprecated the “DoQuery” method in Fusion Tables. It has been obsolete since 2012. It will no longer be available from the blocks draw and any projects loaded which have a “DoQuery” method block will find that block disabled upon load, and highlighted with a red border to indicate that is a deprecated (and now not working) block.</li>
+                            <li>Added a “Thumb Enabled” property to the Slider Component. This permits the slider to also be used as a “Progress Bar.”.</li>
+                            <li>Improve reporting of Runtime errors (arguments to the failed function are now in square brackets to make them easier to read).</li>
+                            <li>A Progress Dialog method has been added to the Notifier component.</li>
+                            <li>EmailPickers and PasswordText boxes can now request keyboard focus.</li>
+                            <li>Added properites to the TextToSpeech component to retrieve the list of supported languages and countries at runtime..</li>
+                            <li>Added Italian translation to App Inventor, altered the language menu so instead of a “Ball” icon, it is now the name of the current language with a down “caret”. When selected this menu provides a list of supported languages.</li>
+                            <li>Bugfix to “lookup in pairs” so that lookup keys treat numbers and their text representations in the same fashion.</li>
+                            <li>Rational numbers are now always supplied as fractions. Prior to this change they may have been displayed as actual fractions (i.e., we will now display 0.11764 instead of 2/17).</li>
+                            <li>Unicode can now be provided in an App Name.</li>
+                            <li>Documentation updates and fixes.</li>
+                            <li>Improvements to the build system used to build App Inventor from its sources.</li>
+                          </ul>
+                        </p>
                         <h2>Changes between nb140b and nb140c (March 24, 2015)</h2>
                         <p>
                           <ul>
