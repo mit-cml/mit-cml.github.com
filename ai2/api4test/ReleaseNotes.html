@@ -408,7 +408,7 @@
         <header class="clearfix" role="banner">
           <div id="top_bar">
             <div id="branding">
-              <div id="logo"><a href="http://appinventor.mit.edu" title="Home page" class="active"><img src="../logo2.png" alt="Explore MIT App Inventor logo"></a></div>
+              <div id="logo"><a href="http://appinventor.mit.edu" title="Home page" class="active"><img src="logo2.png" alt="Explore MIT App Inventor logo"></a></div>
               </div>
 
               <div id="menu-bar" class="nav clearfix">
@@ -440,16 +440,240 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
-                        <h2>SPECIAL TESTING of API4 – Version api4t2</h2>
+                        <h2>SPECIAL TEST Release api4t5 (April 30, 2015)</h2>
+                        <p>Percentages are now against the size of the Screen. Compatibility Mode
+                          should work as expected. There are still corner cases.
+                        </p>
+                        <h2>Changes between nb143 and nb143c (April 28, 2015)</h2>
                         <ul>
-                          <li>Updated to latest normal release (nb139).</li>
-                          <li>Added ability to set lengths and widths in terms of percentage of parent container.</li>
+                          <li>Bugfixes related to GWT update</li>
+                          <li>Minor UI Improvements to the Gallery</li>
+                          <li>Gallery Apps now are required to have an Image and description</li>
                         </ul>
-                        <h2>SPECIAL TESTING of API4 – Version api4t1</h2>
+                        <h2>Changes beteen nb142 and nb143 (April 26, 2015)</h2>
                         <ul>
-                          <li>Update minSDK to 4 and scale canvases and images.
-                            “Pixels” are now density independent “dp”s.</li>
+                          <li>MIT App Inventor Gallery Enabled</li>
+                          <li>Minor User Interface fixes</li>
+                          <li>Minor documentation updates</li>
+                          <li>Update from Google Web Toolkit (GWT) Version 2.5.1 to Version 2.7</li>
                         </ul>
+                        <h2>Changes between nb141 and nb142 (March 29, 2015)</h2>
+                        <p>
+                          <ul>
+                            <li>
+                              Set printing of decimals so that period
+                              is the decimal separator, regardless of
+                              the locale.  Make integer values print
+                              without ".0" at the end.
+                            </li>
+                            <li>Fix to typeblocks when using the Safari Browser.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb140b and nb141 (March 27, 2015)</h2>
+                        <p>
+                          <ul>
+                            <li>Improved error reporting from Fusion Tables.</li>
+                            <li>Deprecated the “DoQuery” method in Fusion Tables. It has been obsolete since 2012. It will no longer be available from the blocks draw and any projects loaded which have a “DoQuery” method block will find that block disabled upon load, and highlighted with a red border to indicate that is a deprecated (and now not working) block.</li>
+                            <li>Added a “Thumb Enabled” property to the Slider Component. This permits the slider to also be used as a “Progress Bar.”.</li>
+                            <li>Improve reporting of Runtime errors (arguments to the failed function are now in square brackets to make them easier to read).</li>
+                            <li>A Progress Dialog method has been added to the Notifier component.</li>
+                            <li>EmailPickers and PasswordText boxes can now request keyboard focus.</li>
+                            <li>Added properites to the TextToSpeech component to retrieve the list of supported languages and countries at runtime..</li>
+                            <li>Added Italian translation to App Inventor, altered the language menu so instead of a “Ball” icon, it is now the name of the current language with a down “caret”. When selected this menu provides a list of supported languages.</li>
+                            <li>Bugfix to “lookup in pairs” so that lookup keys treat numbers and their text representations in the same fashion.</li>
+                            <li>Rational numbers are now always supplied as fractions. Prior to this change they may have been displayed as actual fractions (i.e., we will now display 0.11764 instead of 2/17).</li>
+                            <li>Unicode can now be provided in an App Name.</li>
+                            <li>Documentation updates and fixes.</li>
+                            <li>Improvements to the build system used to build App Inventor from its sources.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb140b and nb140c (March 24, 2015)</h2>
+                        <p>
+                          <ul>
+                            <li>BUGFIX: fix an issue that can sometimes lead to project corruption when a component is renamed.
+                            </li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb140a and nb140b (February 22, 2015)</h2>
+                        <p>
+                          <ul>
+                            <li>Added some more documentation pages to Google Docs so they can be commented on.</li>
+                            <li>Arranged for documentation pages to not require logging in.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb140 and nb140a (February 20, 2015)</h2>
+                        <p>
+                          This is primarily a bugfix release. No new
+                          Companion App is needed. However this
+                          release deprecates the 2.23ai2zx1 Companion
+                          in the Emulator. People running version
+                          2.23ai2zx1 and earlier will be prompted to
+                          auto-update their Companion. Although this
+                          step can be skipped, we strongly recommend
+                          performing the update. The current Companion
+                          is version 2.24.
+                        </p>
+                        <p>
+                          <ul>
+                            <li>Bugfix to &ldquo;Typeblocks&rdquo;
+                            (where you type in blocks instead of
+                            pulling them from drawers). The
+                            &ldquo;make a list&rdquo; block will now
+                            contain two empty sockets when typed, the
+                            same as when it is pulled from the drawer.
+                            This same fix applies to several other
+                            blocks that have mutators, for example,
+                            the &ldquo;+&rdquo; block which used to
+                            appear with no empty slots.</li>
+                            <li>We have updated how MIT App Inventor
+                              is cached and served. This should result
+                              in slightly quicker startup over slow
+                              network connections. It should also make
+                              for a more rational experience for
+                              people who are actively logged in when
+                              we perform a release. (Note: The more
+                              graceful transition may not be in effect
+                              for this release, but should be for
+                              future releases).</li>
+                            <li>We are migrating some of our
+                              documentation to Google Docs. In
+                              particular this is so that people can
+                              make comments and suggestions directly
+                              onto our source documents. Pages that
+                              have been updated will have a link near
+                              the top that says: &ldquo;Click here for
+                              a version of this page on which you can
+                              comment.&rdquo; So far, only a few pages
+                              have been migrated, but we plan to do
+                              more.</li>
+                            <li>We have resolved the issue where some
+                              versions of Chrome on Windows did not
+                              properly display Project Names as well
+                              as some menu items and buttons.</li>
+                          </ul>
+                        </p>
+                        <h2>Changes between nb139 and nb140 (February 11, 2015)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.24</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Added the “IgnoreSslError” property to
+                            the WebViewer Component. This permits you to
+                            fetch SSL protected content from sites
+                            that have self signed certificates. Note:
+                            This introduces a security concern when
+                            used, as invalid certificates may be
+                            accepted as well.</li>
+
+                            <li>Added the “Deobsfucate Text”
+                              block. This block lets you put a text
+                              string into a packaged App that is
+                              obscured from casual observation. This
+                              may be useful for putting API keys and
+                              other quasi-secret information into an
+                              App. Note: This is not a fail safe
+                              approach, as a determined interloper can
+                              still extract the text, but it does
+                              require some effort.</li>
+
+                            <li>Cancelling a text input notifier will
+                              now automatically hide the soft
+                              keyboard</li>
+
+                            <li>Added the Proximity Sensor component.</li>
+
+                            <li>Padding was added around text labels
+                            (the “HasMargins” property was added to
+                            the label component). By default new
+                            labels will have padding. Existing labels
+                            in existing projects will not
+                            automatically get this extra padding.</li>
+
+                            <li>The BarcodeScanner component has had
+                            the ZXing scanning code added to it. The
+                            new property “UseExternalScanner” was
+                            added. If true, the default, an external
+                            scanning program is still used. However if
+                            false, the internal scanner will be used
+                            and an external program is no longer
+                            required. Note: The internal scanner is
+                            not as flexible as many external scanning
+                            programs, be sure it works in your
+                            situation before relying upon it.</li>
+
+                            <li>Error handling in the
+                              FusionTablesControl component was
+                              improved. You can now catch Fusion
+                              Tables errors and handle them in your
+                              own code.</li>
+
+                            <li>The “AppName” property was added to
+                            Screen1. This property is used as the
+                            Application Name for packaged Apps in the
+                            Launcher. This means that the name
+                            displayed on someone’s phone is no longer
+                            tied to the project name and can have
+                            spaces in it.</li>
+
+                            <li>Text written onto a Canvas can now be
+                            left, center or right aligned.</li>
+
+                            <li>Fix a bug in the Spinner component
+                            that would result in an extra
+                            “AfterPicking” event being fired during
+                            incremental development.</li>
+
+                            <li>The ListPicker component can now have
+                            its background and text color set.</li>
+
+                            <li>The ListView component has a new
+                            “TextSize” property which lets you adjust
+                            the size of displayed text.</li>
+
+                            <li>Added the “RequestFocus” method to
+                            TextBoxes. When invoked the target textbox
+                            will become the default location for
+                            keyboard input.</li>
+
+                            <li>The “ClearCaches” method was added to
+                            the WebViewer component. When invoked any
+                            cached content in the WebViewer is
+                            discarded, ensuring that contact from the
+                            server is fetched and loaded.</li>
+
+                            <li>The Companion should now load changes
+                            made in the designer faster. Changing
+                            screens during development should be
+                            faster as well.</li>
+
+                            <li>Bugfixes and documentation
+                            improvements as well as server
+                            improvements that make it easier for us to
+                            operate the MIT App Inventor service.</li>
+
+                          </ul>
+                        </p>
+
+                        <h2>Changes between nb138 and nb139 (November 20, 2014)</h2>
+                        <p><i>Companion Version to use:</i>&nbsp;<b>2.23ai2zx1</b>.</p>
+                        <p>
+                          <ul>
+                            <li>Updates to the Companion to better support different companions for different versions of MIT App Inventor (not user visible).</li>
+                            <li>Minor bugfix to fix a race condition in the “templates” code (the code that permits you to load a “prototype” project from builtin or user supplied templates).</li>
+                            <li>Project Page now sorts project names in a case insensitive manner.</li>
+                            <li>The “Language” menu is now a globe icon on the upper left hand side of the screen</li>
+                            <li>Minor bugfix to the Yandex Translate component to better handle Latin and Asian characters.</li>
+                            <li>XML Decoding support has been added to the Web Component, with extended documentation in the Reference -> Other section</li>
+                            <li>Source code License had been changed from the MIT License to the Apache License</li>
+                            <li>The App Inventor Gallery has been merged into the code, but is currently disabled at runtime.</li>
+                            <li>The “lookup in pairs” block now has a default value provided for the “not found” socket.</li>
+                            <li>Minor fix to typeblocks to properly handle procedure calls.</li>
+                            <li>Component names can now contain unicode characters, supporting Latin and Asian character sets.</li>
+                            <li>New users will now see a Terms of Service confirmation page. Note: Initially *all* users will see this page, but once it is acknowledged it won’t appear again. (pending code review completion)</li>
+                            <li>Improved Chinese Translations</li>
+                            <li>Add Text Colors and Background Colors for the ListView Component.</li>
+                            <li>Minor bugfixes and Documentation updates/fixes.</li>
+                          </ul>
+                        </p>
                         <h2>Changes between nb137 and nb138 (October 21, 2014)</h2>
                         <p>
                           <ul>
