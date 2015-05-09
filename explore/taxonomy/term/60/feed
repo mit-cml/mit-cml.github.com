@@ -8,8 +8,12 @@
 <item>
  <title>Photo Booth App</title>
  <link>http://explore.appinventor.mit.edu/ai2/photo-booth-app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/edit#&quot;&gt;Go to the Photo Booth tutorial&lt;/a&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email.&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub&quot;&gt;Go to Photo Booth app&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;
+&lt;a href=&quot;https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/edit#heading=h.kbrjp69ave9s&quot;&gt;Click here&lt;/a&gt; for a copy of the Photo Booth app page on which you can make comments and suggest edits.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
 
       &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
