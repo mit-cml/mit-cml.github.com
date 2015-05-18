@@ -6,6 +6,20 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>NEW: Sharing and Remixing directly from MIT App Inventor’s Integrated Gallery!</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2015/05/18</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/blog/integrated_gallery.png&quot; align=&quot;right&quot; height=&quot;381&quot; width=&quot;286&quot; /&gt;The App Inventor team is happy to announce a new feature designed to encourage sharing and exploration of projects and the code behind them. &lt;/p&gt;
+&lt;p&gt;App Inventor now has an integrated gallery for sharing your apps and exploring the code of others’ apps! From within App Inventor, you can easily publish your projects to the gallery and with one click open any app to remix it. Sharing your apps and &quot;source blocks&quot; has never been easier. If you ever wondered “How did they build that”, now you’ll be able to explore and figure it out.&lt;/p&gt;
+&lt;p&gt;Try it out and take part in this new collaborative environment! Click on the &quot;Gallery&quot; item on the top toolbar at ai2.appinventor.mit.edu to browse and search the existing apps. To publish, go to your “My Projects” page, select one of your projects, then click Publish! You can even receive daily email notifications telling you how many times your app has been downloaded and liked, and get a share link that will take people directly to your app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;&lt;br /&gt;
+David Wolber’s Democratizing Computing Lab at the University of San Francisco led the development of the integrated gallery, with the support of the MIT team. Special thanks go to Bin Lu and Vincent Zhang, the USF students who were the main developers, and as always to MIT’s Jeff Schiller who reviewed, edited, and performed his usual magic for the project.&lt;br /&gt;
+We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Foundation&lt;/a&gt; for their generous support of this and other App Inventor related projects.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 18 May 2015 15:33:43 +0000</pubDate>
+ <dc:creator>josh</dc:creator>
+ <guid isPermaLink="false">590 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor at the White House</title>
  <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/04/a-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;For the second year in a row, a Verizon Innovative App Challenge Best-in-Nation student team was invited to the White House Science Fair to demonstrate their mobile app development done with MIT App Inventor.  This year, an all-girl high school team from Kennewick, Washington created Safe &amp;amp; Sound, a tool to help teens struggling with depression and stress. The app enables teens to seek help quickly and confidentially, and learn positive ways to cope with their emotions. The students were inspired to help others after a recent local school tragedy sparked conversations about anxiety and depression.&lt;/p&gt;
@@ -147,21 +161,6 @@ Director of Software Development, MIT App Inventor Project&lt;/p&gt;
  <pubDate>Wed, 07 Jan 2015 10:00:34 +0000</pubDate>
  <dc:creator>josh</dc:creator>
  <guid isPermaLink="false">569 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT App Inventor - now available with Chinese or Spanish Interface - More Languages to Come</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2015/01/mit</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Though some of you may have noticed late in 2014, we&#039;re now making the official announcement. MIT App Inventor has been used in many countries (more than 195 at last count) for some time, but now the interface for the programming environment, found at  &lt;a href=&quot;http://ai2.appinventor.mit.edu/&quot;&gt;http://ai2.appinventor.mit.edu/&lt;/a&gt;, is now available in more than just English. So far, we&#039;ve released Spanish and Chinese (simplified and traditional) translations, accessible by clicking the globe icon in the top menu bar of MIT App Inventor.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/blogs/additional_languages.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We&#039;re currently smoothing the rough edges from a process to allow volunteers to contribute to the translation efforts, either by improving existing translations or helping provide additional ones. We will publish additional information as soon as this process is ready for more widespread use. In the meantime, if you are interested in helping field test this translation process, please &lt;a href=&quot;https://docs.google.com/document/d/1v_Sy9u1Da4pmVo1KGR0691kq_AweZjguTJMI0nJA0eQ/pub&quot;&gt;start here&lt;/a&gt; or send an email to localize-app-inventor@mit.edu.&lt;/p&gt;
-
-&lt;p&gt;hAPPy Inventing!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 07 Jan 2015 09:44:53 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">568 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
