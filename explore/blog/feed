@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT Students create UMATI</title>
+ <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/05/mit</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT students Carolina Morgan, Fei Xu, Marcel Williams, and Rida Qadri created the mobile app, UMATI for the Urban Planning course 11.S938: Crowd Sourced City- Social Media, Technology and Planning Processes. The class enabled students to work with actual planning and advocacy organizations to develop digital technology solutions for planning problems. Since Matatus bus routes in Nairobi were not standardized - often created and changed by the whim of private drivers or as a result of traffic conditions - it was difficult to know which buses traveled which routes and where the buses stopped. The MIT Civic Design Lab, the University of Nairobi, the Center for Sustainable Urban Development and GroupShot helped to create maps using GPS, but the challenge that the MIT students tackled was: keeping the maps accurate and current. Their solution used App Inventor to create UMATI, a crowd sourced app to track riders routes and stops. They incentivize riders to collect data by offering them tokens (called MaTokens) giving discounts at local businesses.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.11.30%20PM.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.11.45%20PM.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.12.05%20PM.png&quot; /&gt;&lt;br /&gt;
+The MIT students are excited to share their app with University of Nairobi students to begin testing. Stay tuned for updates on this App Inventor project!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Screen%20Shot%202015-05-18%20at%208.11.30%20PM.png?itok=cMpPRHAg&quot; width=&quot;480&quot; height=&quot;216&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Screen%20Shot%202015-05-18%20at%208.11.45%20PM.png?itok=GhONZkke&quot; width=&quot;480&quot; height=&quot;276&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Screen%20Shot%202015-05-18%20at%208.12.05%20PM.png?itok=_P3Bwc0q&quot; width=&quot;480&quot; height=&quot;342&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 19 May 2015 00:26:43 +0000</pubDate>
+ <dc:creator>Felicia</dc:creator>
+ <guid isPermaLink="false">591 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>NEW: Sharing and Remixing directly from MIT App Inventor’s Integrated Gallery!</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2015/05/18</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/blog/integrated_gallery.png&quot; align=&quot;right&quot; height=&quot;381&quot; width=&quot;286&quot; /&gt;The App Inventor team is happy to announce a new feature designed to encourage sharing and exploration of projects and the code behind them. &lt;/p&gt;
@@ -150,17 +170,6 @@ Director of Software Development, MIT App Inventor Project&lt;/p&gt;
  <pubDate>Wed, 07 Jan 2015 10:14:57 +0000</pubDate>
  <dc:creator>josh</dc:creator>
  <guid isPermaLink="false">570 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT App Inventor - &quot;A Language the Pays&quot;</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2015/01/mit-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Thanks to Jeff Cogswell and the folks at dice.com for the nice mention of &lt;a href=&quot;http://news.dice.com/2015/01/05/little-known-programming-languages-that-pay/&quot;&gt;MIT App Inventor&lt;/a&gt; as a tool worth knowing about for building Android apps!&lt;/p&gt;
-
-&lt;p&gt;Thanks too, to the slashdotter who &lt;a href=&quot;http://developers.slashdot.org/story/15/01/06/1714242/little-known-programming-languages-that-actually-pay&quot;&gt;put the word out further&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 07 Jan 2015 10:00:34 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">569 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
