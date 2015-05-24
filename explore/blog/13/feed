@@ -6,6 +6,34 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor Classic to Shut Down on July 15</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2015/05/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;May 24, 2015 -- MIT App Inventor Classic will shut down on July 15, 2015.  After July 15, 2015,  you will not be able to access or edit your existing AI Classic projects.  It will be impossible to create new AI Classic projects. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+This shutdown applies only to AI Classic (AI1).  App Inventor 2 (AI2) will not be affected.
+&lt;p&gt;&lt;/p&gt;
+MIT will not automatically convert your AI1 projects to AI2 projects.  But MIT will provide a conversion tool that will help you convert the AI projects that are important to you into AI2 projects. We expect to release this converter in about 2 weeks (i.e., around June 8).  
+&lt;p&gt;&lt;/p&gt;
+The process of converting an AI1 project to an AI2 project has several steps. For each AI1 project you wish to convert to AI2, you will need to do the following (you can do the first two steps now):
+&lt;ol&gt;&lt;li&gt;Open your AI1 project in the most recent version of App Inventor Classic.
+&lt;/li&gt;&lt;li&gt;Download the AI1 project as an AI1 source file (.zip) to your computer.
+&lt;/li&gt;&lt;li&gt;Use the AI1 to AI2 conversion tool to convert the AI1 source file (.zip) to an AI2 source file (.aia). This tool is not yet available, but there will be an announcement in the App Inventor Forum when it becomes available.
+&lt;/li&gt;&lt;li&gt;Upload the converted AI2 source file (.aia) from your computer into App Inventor 2 as an AI2 project.
+&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;
+These steps are described in more detail in a &lt;a href=&quot;https://docs.google.com/document/d/1vY7yKofkMjn87GJfakjfSq1NzG-ZSVQh9Ql2gGALbZk/edit#heading=h.3aeuubibur31&quot;&gt;separate document&lt;/a&gt;. You must perform the first two steps before the AI1 shutdown on July 15, 2015. &lt;b&gt;We strongly recommend that AI Classic users begin to download their projects as .zip files now, so you will be ready to convert them when the converter becomes available. &lt;/b&gt; 
+&lt;p&gt;&lt;/p&gt;
+Because of differences between AI1 and AI2, some difficulties may be encountered in the conversion process.  It would be a good idea to try to convert important AI Classic projects well in advance of July 15, as soon as the converter becomes available, in order to have time to deal with these difficulties. 
+&lt;p&gt;&lt;/p&gt;
+You might also want to make screenshots of the designer screen and the blocks, in case your project needs to be rebuilt in AI2, or the result of the conversion needs to be extensively modified.  Keep in mind that AI Classic projects will not be accessible after July 15.  Developers must make their own AI1 to AI2 projects conversions.
+&lt;p&gt;&lt;/p&gt;
+Google announced this week that the Files API on which AI Classic depends is being withdrawn in July.  This makes it impossible to keep AI Classic running past then, and we regret the short notice for terminating AI Classic support.  Many AI Classic developers were aware of the impending demise of AI Classic since about October 2014 and were urged in the forums to manually convert important projects at that time.  We hope the conversion tool will simplify conversion for most developers.
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 24 May 2015 17:10:56 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">592 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor usage summary for 2014</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2015/02/app-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Here&#039;s a short report and graph showing App Inventor usage for 2014.&lt;/p&gt;
@@ -208,21 +236,6 @@ Some of the applications are familiar, some are novel.   But in general, but the
  <pubDate>Fri, 20 Jun 2014 01:35:23 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">523 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>2014 Technovation Challenge reaches 3500 young women</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2014/05/2014</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/InviernoRosa-705x470.jpg&quot; style=&quot;float:right; width:400px&quot; /&gt;From February to May of 2014, 3,500 young women from ages 10 to 23 spanning 45 countries around the globe signed up to create mobile apps to solve problems in their communities. They built prototypes using MIT App Inventor, wrote business plans, and pitched their mobile app &quot;startups&quot; to judges via YouTube, in competition for a trip to Silicon Vallley and part of $20,000 in seed funding. Over 12 weeks, the students worked closely with their teachers and mentors and ultimately delivered 350 app submissions. On June 18th, 2014, 10 finalist teams will pitch their apps at the World Pitch event at Intel Headquarters. Find out more at technovationchallenge.org&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/InviernoRosa-705x470.jpg?itok=D2HyWuEH&quot; width=&quot;480&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 09 May 2014 16:32:55 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">509 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

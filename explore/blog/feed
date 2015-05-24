@@ -6,6 +6,34 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor Classic to Shut Down on July 15</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2015/05/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;May 24, 2015 -- MIT App Inventor Classic will shut down on July 15, 2015.  After July 15, 2015,  you will not be able to access or edit your existing AI Classic projects.  It will be impossible to create new AI Classic projects. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+This shutdown applies only to AI Classic (AI1).  App Inventor 2 (AI2) will not be affected.
+&lt;p&gt;&lt;/p&gt;
+MIT will not automatically convert your AI1 projects to AI2 projects.  But MIT will provide a conversion tool that will help you convert the AI projects that are important to you into AI2 projects. We expect to release this converter in about 2 weeks (i.e., around June 8).  
+&lt;p&gt;&lt;/p&gt;
+The process of converting an AI1 project to an AI2 project has several steps. For each AI1 project you wish to convert to AI2, you will need to do the following (you can do the first two steps now):
+&lt;ol&gt;&lt;li&gt;Open your AI1 project in the most recent version of App Inventor Classic.
+&lt;/li&gt;&lt;li&gt;Download the AI1 project as an AI1 source file (.zip) to your computer.
+&lt;/li&gt;&lt;li&gt;Use the AI1 to AI2 conversion tool to convert the AI1 source file (.zip) to an AI2 source file (.aia). This tool is not yet available, but there will be an announcement in the App Inventor Forum when it becomes available.
+&lt;/li&gt;&lt;li&gt;Upload the converted AI2 source file (.aia) from your computer into App Inventor 2 as an AI2 project.
+&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;
+These steps are described in more detail in a &lt;a href=&quot;https://docs.google.com/document/d/1vY7yKofkMjn87GJfakjfSq1NzG-ZSVQh9Ql2gGALbZk/edit#heading=h.3aeuubibur31&quot;&gt;separate document&lt;/a&gt;. You must perform the first two steps before the AI1 shutdown on July 15, 2015. &lt;b&gt;We strongly recommend that AI Classic users begin to download their projects as .zip files now, so you will be ready to convert them when the converter becomes available. &lt;/b&gt; 
+&lt;p&gt;&lt;/p&gt;
+Because of differences between AI1 and AI2, some difficulties may be encountered in the conversion process.  It would be a good idea to try to convert important AI Classic projects well in advance of July 15, as soon as the converter becomes available, in order to have time to deal with these difficulties. 
+&lt;p&gt;&lt;/p&gt;
+You might also want to make screenshots of the designer screen and the blocks, in case your project needs to be rebuilt in AI2, or the result of the conversion needs to be extensively modified.  Keep in mind that AI Classic projects will not be accessible after July 15.  Developers must make their own AI1 to AI2 projects conversions.
+&lt;p&gt;&lt;/p&gt;
+Google announced this week that the Files API on which AI Classic depends is being withdrawn in July.  This makes it impossible to keep AI Classic running past then, and we regret the short notice for terminating AI Classic support.  Many AI Classic developers were aware of the impending demise of AI Classic since about October 2014 and were urged in the forums to manually convert important projects at that time.  We hope the conversion tool will simplify conversion for most developers.
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 24 May 2015 17:10:56 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">592 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT Students create UMATI</title>
  <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/05/mit</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT students Carolina Morgan, Fei Xu, Marcel Williams, and Rida Qadri created the mobile app, UMATI for the Urban Planning course 11.S938: Crowd Sourced City- Social Media, Technology and Planning Processes. The class enabled students to work with actual planning and advocacy organizations to develop digital technology solutions for planning problems. Since Matatus bus routes in Nairobi were not standardized - often created and changed by the whim of private drivers or as a result of traffic conditions - it was difficult to know which buses traveled which routes and where the buses stopped. The MIT Civic Design Lab, the University of Nairobi, the Center for Sustainable Urban Development and GroupShot helped to create maps using GPS, but the challenge that the MIT students tackled was: keeping the maps accurate and current. Their solution used App Inventor to create UMATI, a crowd sourced app to track riders routes and stops. They incentivize riders to collect data by offering them tokens (called MaTokens) giving discounts at local businesses.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.11.30%20PM.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.11.45%20PM.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.12.05%20PM.png&quot; /&gt;&lt;br /&gt;
@@ -32,7 +60,7 @@ The MIT students are excited to share their app with University of Nairobi stude
 &lt;p&gt;App Inventor now has an integrated gallery for sharing your apps and exploring the code of others’ apps! From within App Inventor, you can easily publish your projects to the gallery and with one click open any app to remix it. Sharing your apps and &quot;source blocks&quot; has never been easier. If you ever wondered “How did they build that”, now you’ll be able to explore and figure it out.&lt;/p&gt;
 &lt;p&gt;Try it out and take part in this new collaborative environment! Click on the &quot;Gallery&quot; item on the top toolbar at ai2.appinventor.mit.edu to browse and search the existing apps. To publish, go to your “My Projects” page, select one of your projects, then click Publish! You can even receive daily email notifications telling you how many times your app has been downloaded and liked, and get a share link that will take people directly to your app.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;&lt;br /&gt;
-David Wolber’s Democratizing Computing Lab at the University of San Francisco led the development of the integrated gallery, with the support of the MIT team. Special thanks go to Bin Lu and Vincent Zhang, the USF students who were the main developers, and as always to MIT’s Jeff Schiller who reviewed, edited, and performed his usual magic for the project.&lt;br /&gt;
+David Wolber’s &lt;a href=&quot;http://www.appinventor.org/dcl&quot;&gt;Democratizing Computing Lab&lt;/a&gt; at the University of San Francisco led the development of the integrated gallery, with the support of the MIT team. Special thanks go to Bin Lu and Vincent Zhang, the USF students who were the main developers, and as always to MIT’s Jeff Schiller who reviewed, edited, and performed his usual magic for the project.&lt;br /&gt;
 We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Foundation&lt;/a&gt; for their generous support of this and other App Inventor related projects.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Mon, 18 May 2015 15:33:43 +0000</pubDate>
@@ -156,20 +184,6 @@ Director of Software Development, MIT App Inventor Project&lt;/p&gt;
  <pubDate>Tue, 03 Feb 2015 21:11:44 +0000</pubDate>
  <dc:creator>andrew</dc:creator>
  <guid isPermaLink="false">572 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Verizon Innovative App Challenge announces 2015 Best In State Winners</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2015/01</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Congratulations to our collaborators from the Verizon Foundation and the Technology Student Association, and especially to the just announced &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/Best_In_State_Winners_2015.pdf&quot;&gt;Best In State winners of the 2015 Verizon Innovative App Challenge&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We&#039;re excited to learn about the great ideas coming from these winners, and look forward to sending out our MIT App Inventor Master Trainers in just a short while to work with the Best in Nation winners of this year&#039;s competition. Our Master Trainers will work with the Best In Nation teams to develop their ideas into working apps.&lt;/p&gt;
-
-&lt;p&gt;For a hint of what might be coming, check out &lt;a href=&quot;http://appchallenge.tsaweb.org/past-winners/2014-national-winners&quot;&gt;the Best In Nation winners from the 2014 competition&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Again, congratulations to the 2015 Best In State winners, and good luck as you all move into the next phase of competition!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 07 Jan 2015 10:14:57 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">570 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
