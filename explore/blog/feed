@@ -6,6 +6,16 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>College Board Announces Endorsement of Advanced Placement Mobile CSP Course</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2015/06</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Earlier this month, The College Board and the National Science Foundation (NSF) &lt;a href=&quot;https://www.collegeboard.org/releases/2015/college-board-and-nsf-to-bring-computer-science-classes-to-high-schools&quot;&gt;announced an extension of their partnership&lt;/a&gt; to support teachers and schools in offering the new Advanced Placement (AP®) Computer Science Principles (CSP) course in the fall of 2016. In their announcement, they endorsed the &lt;a href=&quot;http://mobile-csp.org/&quot;&gt;Mobile CSP course&lt;/a&gt; that uses MIT App Inventor, which was developed by App Inventor collaborator &lt;a href=&quot;http://internet2.trincoll.edu/FacProfiles/Default.aspx?fid=1000262&quot;&gt;Ralph Morelli&lt;/a&gt; and his team, based at &lt;a href=&quot;http://www.trincoll.edu/Pages/default.aspx&quot;&gt;Trinity College&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Congratulations to the Mobile CSP team! Thanks to them, we anticipate many more students will hAPPily Invent for years to come.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 23 Jun 2015 07:27:09 +0000</pubDate>
+ <dc:creator>josh</dc:creator>
+ <guid isPermaLink="false">595 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor Classic to MIT App Inventor 2 Converter Released</title>
  <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &lt;a href=&quot;http://convert.appinventor.mit.edu/&quot;&gt;converter tool&lt;/a&gt; designed to convert MIT App Inventor Classic projects to MIT App Inventor 2 projects has just been released. Note that it is carefully, and specifically designed to convert projects from the latest version of MIT App Inventor Classic to projects readable by MIT App Inventor 2 while maintaining the functionality, but necessarily not the same form of the projects. Make note, project files developed on other App Inventor systems may well not work with the converter tool and will not be supported by the MIT App Inventor team. &lt;/p&gt;
@@ -158,20 +168,6 @@ Director of Software Development, MIT App Inventor Project&lt;/p&gt;
  <pubDate>Sat, 07 Feb 2015 15:54:53 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">575 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor honored with 2015 MERLOT Classics Award</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/02/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;It’s exceedingly gratifying to learn that App Inventor has been honored with a 2015 Classics Award, presented by MERLOT (Multimedia Educational Resource for Learning and Online Teaching) Editorial and Professional Development Services.  MERLOT’s area editorial boards curate and review works that they designate as Exemplary Online Materials.  Each board annually selects one work to receive the Classics Award, as the best material reviewed in their area during the previous year.   The Classics Award to App Inventor is presented on the recommendation of MERLOT’s Information Technology Editorial Board.&lt;/p&gt;
-&lt;p&gt;The Board’s review of App Inventor observed:  “The content is excellent! It&#039;s very clean, there are a lot of tutorials, working through building your first app.  It’s helpful especially with all the step-by-step guides and community forums. There is a section for educators with additional instructions. It may even be helpful to professionals who are working with the site on their own.”&lt;/p&gt;
-&lt;p&gt;The reviews also noted:  “the videos and downloadable guides are well done and professional. This is an excellent module for giving the student a successful experience creating a meaningful app. This can serve as a motivating introduction to programming.”  &lt;/p&gt;
-&lt;p&gt;One concern raised was that loading the Android emulator is slow.  The Board also recommended providing more instructor guidance and suggested that there could be an attached wiki site on brainstorming for useful beginner app building.  These are great suggestions and good things to work on.&lt;/p&gt;
-&lt;p&gt;The award will be presented at the 2015 Emerging Technologies for Online Learning International Symposium in April.&lt;/p&gt;
-&lt;p&gt;We’re delighted and and proud to have been recognized in this way.   For those of us on the MIT App Inventor team, it’s a reminder of how much we rely on our collaborators and our user community to make App Inventor a success.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 03 Feb 2015 22:32:44 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">574 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

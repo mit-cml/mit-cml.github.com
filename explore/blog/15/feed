@@ -6,6 +6,16 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>College Board Announces Endorsement of Advanced Placement Mobile CSP Course</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2015/06</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Earlier this month, The College Board and the National Science Foundation (NSF) &lt;a href=&quot;https://www.collegeboard.org/releases/2015/college-board-and-nsf-to-bring-computer-science-classes-to-high-schools&quot;&gt;announced an extension of their partnership&lt;/a&gt; to support teachers and schools in offering the new Advanced Placement (AP®) Computer Science Principles (CSP) course in the fall of 2016. In their announcement, they endorsed the &lt;a href=&quot;http://mobile-csp.org/&quot;&gt;Mobile CSP course&lt;/a&gt; that uses MIT App Inventor, which was developed by App Inventor collaborator &lt;a href=&quot;http://internet2.trincoll.edu/FacProfiles/Default.aspx?fid=1000262&quot;&gt;Ralph Morelli&lt;/a&gt; and his team, based at &lt;a href=&quot;http://www.trincoll.edu/Pages/default.aspx&quot;&gt;Trinity College&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Congratulations to the Mobile CSP team! Thanks to them, we anticipate many more students will hAPPily Invent for years to come.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 23 Jun 2015 07:27:09 +0000</pubDate>
+ <dc:creator>josh</dc:creator>
+ <guid isPermaLink="false">595 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor Classic to MIT App Inventor 2 Converter Released</title>
  <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &lt;a href=&quot;http://convert.appinventor.mit.edu/&quot;&gt;converter tool&lt;/a&gt; designed to convert MIT App Inventor Classic projects to MIT App Inventor 2 projects has just been released. Note that it is carefully, and specifically designed to convert projects from the latest version of MIT App Inventor Classic to projects readable by MIT App Inventor 2 while maintaining the functionality, but necessarily not the same form of the projects. Make note, project files developed on other App Inventor systems may well not work with the converter tool and will not be supported by the MIT App Inventor team. &lt;/p&gt;
@@ -120,17 +130,6 @@ We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Fou
  <pubDate>Wed, 16 Jul 2014 23:48:35 +0000</pubDate>
  <dc:creator>josh</dc:creator>
  <guid isPermaLink="false">543 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Join us at the 2014 MIT App Inventor Summit! </title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2014/04/join</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://summit.appinventor.mit.edu/&quot;&gt;&lt;img style=&quot;float:right&quot; src=&quot;http://summit.appinventor.mit.edu/css/images/logo.png&quot; /&gt;&lt;/a&gt;Join us at MIT for the &lt;a href=&quot;http://summit.appinventor.mit.edu/&quot;&gt;third annual App Inventor Summit&lt;/a&gt; to be held July 17 &amp;amp; 18, 2014. &lt;/p&gt;
-&lt;p&gt;The MIT App Inventor Summit is the annual gathering of the world-wide App Inventor community. Hosted by the MIT Center for Mobile Learning and the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), this summit brings together a diverse range of individuals, including: research scientists; educators from formal and informal settings; NGO staff members; computer scientists; representatives from industry; entrepreneurs; and others. The intimate size, exhilarating program, and accomplished attendees make the MIT App Inventor Summit the ideal opportunity to share current work, form new collaborations, and stay abreast of the latest developments within the MIT App Inventor community.&lt;/p&gt;
-&lt;p&gt;Please plan to be here in Cambridge with many others from the community this July - there will be chances to share your work and stories, make new connections, and generally celebrate the wonderful things all of you are doing with App Inventor!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 29 Apr 2014 20:53:33 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">507 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
