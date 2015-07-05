@@ -6,6 +6,16 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Guangzhou conference on Mobile Learning and Computational Thinking based on App Inventor, June 13-15</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The 1st International Conference on Mobile Learning and Computational Thinking Education, based on App Inventor was held from June 13th to June 15th, 2015, in Guangzhou, China.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/edit&quot;&gt;Read more&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 05 Jul 2015 01:32:41 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">598 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Mobile CSP Team Holds App Inventor Workshop at ISTE 2015</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07/mobile</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Members of the Mobile CSP team traveled to Philadelphia on Sunday, June 28th,   to host a workshop at ISTE 2015 (International Society for Technology in Education) on building socially useful apps in App Inventor.  The workshop was attended by 30+ teachers, all of whom seemed to go away happy.    Mobile Computer Science Principles is a program the follows the College Board’s emerging advanced placement course in computer science, where students use App Inventor to build socially useful mobile apps.&lt;/p&gt;
@@ -151,15 +161,6 @@ Google announced this week that the Files API on which AI Classic depends is bei
  <pubDate>Tue, 26 Aug 2014 22:25:33 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">551 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT/Google China Summer Workshops reach teachers from 198 schools</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2014/08</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1h5e-iZfR0GVTGVWgpbR68U0C66b0MkYQ7IO-wWkV700/pub&quot;&gt;See the report&lt;/a&gt;,&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 19 Aug 2014 15:29:29 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">550 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
