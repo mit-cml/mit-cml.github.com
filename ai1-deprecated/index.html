@@ -1,6 +1,25 @@
+<script src="jquery-1.7.min.js"></script>
+<script>
+var days = function() {
+  var today = new Date();
+  var expire = new Date(2015, 6, 15);
+  var display;
+  var diff = (expire - today)/(24*3600000);
+  if (diff <= 0) {
+    display = '<font color=red>TODAY</font>';
+  } else {
+    display = 'IN <font color=red>' + (Math.floor(diff)+1) + ' days </font>';
+  }
+  return (display);
+};
+$('document').ready(function () {
+  $('#countdown').html(days());
+});
+</script>
 <p>
   The system at this web site is App Inventor Classic. App Inventor Classic is obsolete. 
 </p>
+<p><b>App Inventor Classic IS SHUTTING DOWN <span id=countdown ></span></b></p>
 <p><b>App Inventor Classic IS SHUTTING DOWN on July 15,
     2015.</b> <a href="https://docs.google.com/document/d/1qMPvzHosICyrZl_C1xhSo1dP-79Nb4W21wjrT23_fvg/pub" target="_blank">Important
     Information, Please Read</a></p>
