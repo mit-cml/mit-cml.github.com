@@ -6,14 +6,6 @@
  <description></description>
  <language>en</language>
 <item>
- <title>CSTA 2015 Blocks from MIT Raffle Entry</title>
- <link>http://explore.appinventor.mit.edu/csta15raffle</link>
- <description>&lt;div class=&quot;field field-name-field-optional-iframe field-type-iframe field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;iframe src=&quot;https://docs.google.com/forms/d/1Ews4zFilHZ1-IsPyhBlhHFPWF62b25j58UaRbXqzWSI/viewform?embedded=true&quot; url=&quot;https://docs.google.com/forms/d/1Ews4zFilHZ1-IsPyhBlhHFPWF62b25j58UaRbXqzWSI/viewform?embedded=true&quot; title=&quot;&quot; class=&quot;&quot; width=&quot;100%&quot; height=&quot;2700&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot; transparency=&quot;0&quot; tokensupport=&quot;0&quot; html=&quot;&quot;&gt;Your browser does not support iframes. But You can use the following link. &lt;a href=&quot;https://docs.google.com/forms/d/1Ews4zFilHZ1-IsPyhBlhHFPWF62b25j58UaRbXqzWSI/viewform?embedded=true&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 14 Jul 2015 15:48:59 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">603 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
  <title>College Board Announces Endorsement of Advanced Placement Mobile CSP Course</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2015/06</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Earlier this month, The College Board and the National Science Foundation (NSF) &lt;a href=&quot;https://www.collegeboard.org/releases/2015/college-board-and-nsf-to-bring-computer-science-classes-to-high-schools&quot;&gt;announced an extension of their partnership&lt;/a&gt; to support teachers and schools in offering the new Advanced Placement (AP®) Computer Science Principles (CSP) course in the fall of 2016. In their announcement, they endorsed the &lt;a href=&quot;http://mobile-csp.org/&quot;&gt;Mobile CSP course&lt;/a&gt; that uses MIT App Inventor, which was developed by App Inventor collaborator &lt;a href=&quot;http://internet2.trincoll.edu/FacProfiles/Default.aspx?fid=1000262&quot;&gt;Ralph Morelli&lt;/a&gt; and his team, based at &lt;a href=&quot;http://www.trincoll.edu/Pages/default.aspx&quot;&gt;Trinity College&lt;/a&gt;.&lt;/p&gt;
@@ -126,6 +118,18 @@ We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Fou
  <pubDate>Wed, 16 Jul 2014 23:53:44 +0000</pubDate>
  <dc:creator>josh</dc:creator>
  <guid isPermaLink="false">544 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Share Your Stories!</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2014/07/share</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We continue to hear about more and more people using App Inventor, but can&#039;t know about or keep up with everything that&#039;s going on by ourselves.&lt;/p&gt;
+&lt;p&gt;That&#039;s where you come in! Please write up a brief story of what you, your students, your company, or others you know are doing with App Inventor, include a picture or two if you can, and share the story(ies) with the community by posting them in the education section of the MIT App Inventor forum, at:&lt;br /&gt;&lt;a href=&quot;https://groups.google.com/forum/#!categories/mitappinventortest/educational-issues&quot;&gt;https://groups.google.com/forum/#!categories/mitappinventortest/educatio...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The MIT App Inventor team will curate stories posted there, and choose exemplars to be featured on our website.&lt;/p&gt;
+&lt;p&gt;Thanks for all you do, and hAPPy Inventing!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 16 Jul 2014 23:48:35 +0000</pubDate>
+ <dc:creator>josh</dc:creator>
+ <guid isPermaLink="false">543 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
