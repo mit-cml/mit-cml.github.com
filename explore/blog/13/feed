@@ -6,6 +6,14 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT App Inventor Classic RIP (Jan. 2012 - Jul.  2015)</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-field-optional-iframe field-type-iframe field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;iframe src=&quot;https://docs.google.com/document/d/1k4DY1I5t2lJn4K4YowWB_Dv9gZzmlC3z_OaR3icZ3Rc/edit&quot; url=&quot;https://docs.google.com/document/d/1k4DY1I5t2lJn4K4YowWB_Dv9gZzmlC3z_OaR3icZ3Rc/edit&quot; title=&quot;&quot; class=&quot;&quot; width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot; transparency=&quot;0&quot; tokensupport=&quot;0&quot; html=&quot;&quot;&gt;Your browser does not support iframes. But You can use the following link. &lt;a href=&quot;https://docs.google.com/document/d/1k4DY1I5t2lJn4K4YowWB_Dv9gZzmlC3z_OaR3icZ3Rc/edit&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 15 Jul 2015 12:52:39 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">605 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Guangzhou conference on Mobile Learning and Computational Thinking based on App Inventor, June 13-15</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The 1st International Conference on Mobile Learning and Computational Thinking Education, based on App Inventor was held from June 13th to June 15th, 2015, in Guangzhou, China.&lt;/p&gt;
@@ -151,15 +159,6 @@ Google announced this week that the Files API on which AI Classic depends is bei
  <pubDate>Tue, 18 Nov 2014 02:45:49 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">563 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>The creation of live programming in App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2014/08-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Mark Friedman, who led the implementation of App Inventor at Google, has written a note on how the Google App Inventor team implemented live programming, one of the key features of the App Inventor system.&lt;br /&gt;&lt;a href=&quot;http://furious-ideas.blogspot.com/2014/08/the-creation-of-live-programming-in-app.html&quot;&gt;See Mark&#039;s note here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 26 Aug 2014 22:25:33 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">551 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
