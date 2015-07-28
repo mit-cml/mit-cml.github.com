@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Samsung App Academy at MIT</title>
+ <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/07-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/blog/Samsung%20banner%20copy.jpg&quot; style=&quot;float: left; margin-right: 1%; margin-bottom: 0.5em;&quot; hspace=&quot;”5”&quot; vspace=&quot;”1”&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Samsung%20Noa.jpg&quot; style=&quot;float: left; width: 20%; margin-right: 1%; margin-bottom: 0.5em;&quot; hspace=&quot;”12”&quot; vspace=&quot;”1”&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Andre%20Samsung_2.jpg&quot; style=&quot;float: right; width: 20%; margin-right: 1%; margin-bottom: 0.5em;&quot; hspace=&quot;”12”&quot; vspace=&quot;”1”&quot; /&gt;&lt;img src=&quot;/sites/all/files/blog/Samsung%20guy.jpg&quot; style=&quot;width: 27%;&quot; hspace=&quot;”12”&quot; vspace=&quot;”1”&amp;quot;&quot; align=&quot;LEFT&quot; /&gt; In July, 60 local high school students converged upon MIT Sloan Business School to partake in the week long, free &lt;a href=&quot;http://www.scholastic.com/samsungacademy/index.aspx&quot;&gt;Samsung Mobile App Academy&lt;/a&gt;. Since the curriculum utilized MIT App Inventor to create mobile apps, no prior coding experience was required! The application process was based on GPA, AP coursework and an interest in mobile app technology. Students learned about app design through instructors, self-paced online course work, group work and guest speakers. At the end of the week, they collaborated in teams to create a Boston tourism app using the design-thinking process: Ideate &amp;gt; Plan &amp;gt; Calculate &amp;gt; Build. Then, they pitched their apps designs to expert panels. &lt;/p&gt;
+&lt;p&gt;
+Noa, a rising senior (pictured upper left), had this to say about her experience: &quot;Surrounded by so many talented programmers and students at the academy, it was easy to feel like my skills didn&#039;t really fit in. But, soon it became very clear that there is a very valuable place for people with less computer science based backgrounds in the world of technology and innovation.&quot;&lt;/p&gt;
+&lt;p&gt;Just because the week is over, doesn&#039;t mean their app building is! App Academy attendees have the opportunity to submit their app ideas to win $20,000 in scholarships. Submissions are due in October. The App Inventor team is looking forward to seeing the winning designs!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Andre%20Samsung_1.jpg?itok=XTcilp2B&quot; width=&quot;377&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Andre%20Samsung_2.jpg?itok=w_9iA18C&quot; width=&quot;390&quot; height=&quot;461&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 28 Jul 2015 15:56:22 +0000</pubDate>
+ <dc:creator>Felicia</dc:creator>
+ <guid isPermaLink="false">622 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor in Russian!</title>
  <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/07/app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;font color=&quot;Green&quot;&gt;&lt;strong&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;center&gt;Thank you (спасибо) to Boris Yarmakhov, Marina Livenets &amp;amp; Michael Semionenkov&lt;/center&gt;&lt;/strong&gt;&lt;a style=&quot;color: Green; white-space: nowrap:&quot;&gt;&lt;center&gt;for contributing to the Russian Translation Project.&lt;/center&gt;&lt;/a&gt;&lt;font color=&quot;Green&quot;&gt;&lt;strong&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/strong&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
@@ -203,26 +223,6 @@ Google announced this week that the Files API on which AI Classic depends is bei
  <pubDate>Sun, 24 May 2015 17:10:56 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">592 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT Students create UMATI</title>
- <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/05/mit</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT students Carolina Morgan, Fei Xu, Marcel Williams, and Rida Qadri created the mobile app, UMATI for the Urban Planning course 11.S938: Crowd Sourced City- Social Media, Technology and Planning Processes. The class enabled students to work with actual planning and advocacy organizations to develop digital technology solutions for planning problems. Since Matatus bus routes in Nairobi were not standardized - often created and changed by the whim of private drivers or as a result of traffic conditions - it was difficult to know which buses traveled which routes and where the buses stopped. The MIT Civic Design Lab, the University of Nairobi, the Center for Sustainable Urban Development and GroupShot helped to create maps using GPS, but the challenge that the MIT students tackled was: keeping the maps accurate and current. Their solution used App Inventor to create UMATI, a crowd sourced app to track riders routes and stops. They incentivize riders to collect data by offering them tokens (called MaTokens) giving discounts at local businesses.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.11.30%20PM.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.11.45%20PM.png&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202015-05-18%20at%208.12.05%20PM.png&quot; /&gt;&lt;br /&gt;
-The MIT students are excited to share their app with University of Nairobi students to begin testing. Stay tuned for updates on this App Inventor project!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Screen%20Shot%202015-05-18%20at%208.11.30%20PM.png?itok=cMpPRHAg&quot; width=&quot;480&quot; height=&quot;216&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Screen%20Shot%202015-05-18%20at%208.11.45%20PM.png?itok=GhONZkke&quot; width=&quot;480&quot; height=&quot;276&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Screen%20Shot%202015-05-18%20at%208.12.05%20PM.png?itok=_P3Bwc0q&quot; width=&quot;480&quot; height=&quot;342&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 19 May 2015 00:26:43 +0000</pubDate>
- <dc:creator>Felicia</dc:creator>
- <guid isPermaLink="false">591 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
