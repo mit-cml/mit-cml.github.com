@@ -6,6 +6,25 @@
  <description></description>
  <language>en</language>
 <item>
+ <title> App Inventor Extension Components available for testing</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2015/08/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT App Inventor team is delighted to announce the availability of Extension Components for testing. We hope the Extension Components will prove to be a major enhancement to App Inventor: Extensions provide a way for anyone to build their own App Inventor components, which others can then use in creating apps.&lt;/p&gt;
+&lt;p .=&quot;&quot;&gt;
+ App Inventor is free and open software, so people have always been able to build personal systems and install their own components. But until now, the only way to make those components available to others has been to create and maintain a personal App Inventor server that has those components built in. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+Extension components, in contrast, can be loaded dynamically into any App Inventor system, so they can be shared and imported into projects as needed. For example, educators and educational software developers to provide extension components tailored to specific lessons and activities, so that students can have these available in building apps. Examples might be simulations or tools for large-scale data analysis, or image recognition. Those features might be unfeasible to implement with the built-in App Inventor blocks, either because of processing speed or programming complexity. But the same capability might be readily implemented using extension components that encapsulate the necessary processing. 
+&lt;p&gt;&lt;/p&gt;
+Anyone can create extension components. This requires gaining some familiarity with the App Inventor source code (located on Github) and programming in Java. Once you create an extension component, you can share it with anyone for use in their App Inventor projects. Extension components can be housed anywhere on the Web. They need not be stored at MIT or any other special place, although MIT hosts a repository where people can make extension components available for sharing and public use. 
+&lt;p&gt;&lt;/p&gt;
+Today, we’re releasing a test server for App Inventor that supports the Extension Components feature. You can find it at extension-test.appinventor.mit.edu. There&#039;s also a document called App Inventor Extensions that explains how to create and use Extension Components. Once we&#039;ve accumulated enough feedback, we&#039;ll make extension components a regular part of App Inventor. With extensions, the range of App Inventor features can be expanded enormously. We hope that people will explore this tool to build new capabilities for App Inventor and their creations. 
+&lt;p&gt;&lt;/p&gt;
+The implementation of App Inventor Extension Components is the work students who participated with the MIT App Inventor team in through Google Summer of Code: Ethan Hon, Justus Raju, and Mouhamadou Sall. Other summer GSoC App Inventor participants in 2015 are Devid Farinelli, Yucun Li, and Shruti Rijhwani. All of them are extraordinarily talented, and the entire App Inventor community is in their debt.
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 04 Aug 2015 13:52:13 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">624 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>French Translation</title>
  <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/07-1</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;font color=&quot;Purple&quot;&gt;✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠&lt;/font&gt; Due to the hard work and dedication of &lt;strong&gt; &lt;font color=&quot;Purple&quot;&gt;Adel Kassah&lt;/font&gt;&lt;/strong&gt;, a middle school computer science teacher in Tunisia, the App Inventor platform is now translated into &lt;font color=&quot;Purple&quot;&gt;French&lt;/font&gt;! He has worked over the years on &lt;a style=&quot;color: Purple&quot; href=&quot;https://docs.google.com/document/d/1cPz4kPKKGqXKUSdcJezWluDjGtUtPtEg_nEgSrSrMPA/edit?usp=sharing&quot;&gt;many coding translation projects&lt;/a&gt;, and most recently served as a coach and judge for the Technovation App Challenge. Adele&#039;s next project? App Inventor into Arabic! On behalf of the entire App Inventor community, merci beaucoup!&lt;br /&gt;&lt;font color=&quot;Purple&quot;&gt;✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠&lt;/font&gt;                 &lt;/p&gt;
@@ -199,17 +218,6 @@ A gracious thank you to all of our hosts in China: Marjorie Yang, Tessa Yang, Dr
  <pubDate>Thu, 18 Jun 2015 15:01:14 +0000</pubDate>
  <dc:creator>josh</dc:creator>
  <guid isPermaLink="false">594 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT App Inventor usage triples over the 2014-2015 academic year</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/05/mit-app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Here&#039;s a short report and graph showing App Inventor usage for the 2014-2015 academic year.&lt;/p&gt;
-&lt;p&gt;Briefly, AI2 use tripled, and there was a slow decline in use of AI Classic.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1v7tp5bRyQgen7i569JkbaUSFbZCoVcX9YJFdrsJdhug/pub&quot;&gt;See report&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 25 May 2015 01:45:08 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">593 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
