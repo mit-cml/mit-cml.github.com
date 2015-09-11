@@ -6,6 +6,22 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Exciting News from Boise State University</title>
+ <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We just heard some very exciting news from our good friend Yu-Chang Hsu at Boise State University:&lt;/p&gt;
+&lt;p&gt;The National Science Foundation Directorate of Education and Human Resources has awarded Boise State University a $163,660 supplemental funding grant to support using App Inventor to help STEM students learn trigonometry by developing their own math learning apps through team-based learning.&lt;/p&gt;
+&lt;p&gt;The project title is, &quot;Boise State University Pilot: Using Student-Developed Apps to Frame Mathematics, Science, and Engineering Learning.&quot; The interdisciplinary project team includes,&lt;/p&gt;
+&lt;p&gt;Doug Bullock (Department of Mathematics)&lt;br /&gt;
+Janet Callahan (Department of Materials Science and Engineering)&lt;br /&gt;
+Yu-Hui Ching (Department of Educational Technology)&lt;br /&gt;
+Yu-Chang Hsu (Department of Educational Technology)&lt;/p&gt;
+&lt;p&gt;The students will learn to use App Inventor 2 to collaboratively develop apps that require applying trigonometry knowledge and help peers learn trigonometry. The students will use their own apps as refresher in the following advanced STEM (science, technology, engineering, and math) courses. These apps will benefit the trigonometry class and other cohort of STEM students. The students will strengthen their math knowledge by applying it to app development with real-world impact, and engage in computational thinking as well as problem solving tasks.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Sep 2015 14:26:18 +0000</pubDate>
+ <dc:creator>admin_explore</dc:creator>
+ <guid isPermaLink="false">630 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MOSTEC</title>
  <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(184,0,92);&quot;&gt;MOSTEC&lt;/span&gt;&lt;/strong&gt; (MIT Online Science, Technology, and Engineering Community) is a six-month program for eligible rising seniors offered through the MIT Office of Engineering Outreach Programs. It combines online curriculum with a week long on-site project-based workshop at MIT. One of the tracts offered was mobile app development with App Inventor! After 3 weeks of learning App Inventor online and one week of collaborative group work on campus, MOTSEC students presented their original app designs to an auditorium full of science and engineering enthusiasts. The results were quite impressive! &lt;/p&gt;
@@ -233,16 +249,6 @@ A gracious thank you to all of our hosts in China: Marjorie Yang, Tessa Yang, Dr
  <pubDate>Fri, 03 Jul 2015 01:11:41 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">597 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>College Board Announces Endorsement of Advanced Placement Mobile CSP Course</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2015/06</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Earlier this month, The College Board and the National Science Foundation (NSF) &lt;a href=&quot;https://www.collegeboard.org/releases/2015/college-board-and-nsf-to-bring-computer-science-classes-to-high-schools&quot;&gt;announced an extension of their partnership&lt;/a&gt; to support teachers and schools in offering the new Advanced Placement (AP®) Computer Science Principles (CSP) course in the fall of 2016. In their announcement, they endorsed the &lt;a href=&quot;http://mobile-csp.org/&quot;&gt;Mobile CSP course&lt;/a&gt; that uses MIT App Inventor, which was developed by App Inventor collaborator &lt;a href=&quot;http://internet2.trincoll.edu/FacProfiles/Default.aspx?fid=1000262&quot;&gt;Ralph Morelli&lt;/a&gt; and his team, based at &lt;a href=&quot;http://www.trincoll.edu/Pages/default.aspx&quot;&gt;Trinity College&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Congratulations to the Mobile CSP team! Thanks to them, we anticipate many more students will hAPPily Invent for years to come.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 23 Jun 2015 07:27:09 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">595 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

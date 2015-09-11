@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>admin_explore&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/adminexplore</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Exciting News from Boise State University</title>
+ <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We just heard some very exciting news from our good friend Yu-Chang Hsu at Boise State University:&lt;/p&gt;
+&lt;p&gt;The National Science Foundation Directorate of Education and Human Resources has awarded Boise State University a $163,660 supplemental funding grant to support using App Inventor to help STEM students learn trigonometry by developing their own math learning apps through team-based learning.&lt;/p&gt;
+&lt;p&gt;The project title is, &quot;Boise State University Pilot: Using Student-Developed Apps to Frame Mathematics, Science, and Engineering Learning.&quot; The interdisciplinary project team includes,&lt;/p&gt;
+&lt;p&gt;Doug Bullock (Department of Mathematics)&lt;br /&gt;
+Janet Callahan (Department of Materials Science and Engineering)&lt;br /&gt;
+Yu-Hui Ching (Department of Educational Technology)&lt;br /&gt;
+Yu-Chang Hsu (Department of Educational Technology)&lt;/p&gt;
+&lt;p&gt;The students will learn to use App Inventor 2 to collaboratively develop apps that require applying trigonometry knowledge and help peers learn trigonometry. The students will use their own apps as refresher in the following advanced STEM (science, technology, engineering, and math) courses. These apps will benefit the trigonometry class and other cohort of STEM students. The students will strengthen their math knowledge by applying it to app development with real-world impact, and engage in computational thinking as well as problem solving tasks.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Sep 2015 14:26:18 +0000</pubDate>
+ <dc:creator>admin_explore</dc:creator>
+ <guid isPermaLink="false">630 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>
