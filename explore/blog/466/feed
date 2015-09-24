@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Ryan&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/ryan</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>My First Impression of App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/ryan/2015/09/my</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Have you ever caught yourself thinking “I wish there was an app for that”? Maybe you wished there was a one-click rimshot on your phone to punctuate your bad jokes, or perhaps you’ve always wanted an interactive grocery list that knows all your favorite foods so you don’t have to write them down every time. At this point, let’s be honest: that app probably already exists. Just use your Google Play store and run a search, you’ll probably find what you’re looking for.&lt;/p&gt;
+&lt;p&gt;But what if your search yields no results? What if your app hasn’t already been created? What if your idea is so original, no one has thought to make anything like it before? Well, in that case, you’re in luck, because there’s a simple way to build that app yourself and it doesn’t require years of software engineering experience or schooling. All it requires is putting blocks together.&lt;/p&gt;
+&lt;p&gt;MIT App Inventor is an innovative beginner&#039;s introduction to programming and app creation for Android that transforms the complex language of text-based coding into visual, drag-and-drop building blocks. The simplistic graphical interface grants even an inexperienced novice the ability to create a basic, fully functional app within an hour or less.&lt;/p&gt;
+&lt;p&gt;The limits of MIT App Inventor are established only by the imagination of the user. While the format&#039;s simplicity allows newcomers to easily understand the basics of programming, it does not inhibit more advanced app creation; children and professionals alike can take advantage of App Inventor&#039;s potential. Whether it&#039;s something simple like creating an app that reminds you you&#039;re beautiful &lt;a href=&quot;https://youtu.be/sNjGAiOrX-o&quot;&gt;any time you take a picture&lt;/a&gt;, or something more complex like &lt;a href=&quot;https://medium.com/@Arjuninventor/lateralogics-launches-locatera-pro-the-most-innovative-mobile-app-solution-to-track-children-in-38f54709b081&quot;&gt;tracking bus and student information&lt;/a&gt;, MIT App Inventor supplies the necessary building blocks to create any app imaginable.&lt;/p&gt;
+&lt;p&gt;Because of the game-like quality of MIT App Inventor’s block-based construction process, the program is highly conducive to engaging young audiences and encouraging them to transition from consumers of technology to creators of it. Children from all over the world are picking up the program with no knowledge of software engineering and constructing &lt;a href=&quot;http://medford.wickedlocal.com/article/20150817/NEWS/150817161&quot;&gt;incredible apps&lt;/a&gt;. One group of students from Los Fresnos, Texas was invited to the 2014 White House Science Fair for the development of an app entitled &lt;a href=&quot;http://www.brownsvilleherald.com/news/local/article_d68ff3de-e227-11e3-8ae3-0017a43b2370.html&quot;&gt;Hello, Navi!&lt;/a&gt; This app was designed to assist the visually impaired in navigating their school.&lt;/p&gt;
+&lt;p&gt;Whether building practical apps geared toward helping a great deal of people with everyday challenges, or just finding news ways to make people smile, MIT App Inventor has limitless potential for users of all skill levels. With nearly 3 millions users in 195 countries having created over 7 million apps to date, the numbers are only growing, and based on the results so far that can only mean great things for the future of MIT App Inventor, and for the world.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 14 Sep 2015 13:37:19 +0000</pubDate>
+ <dc:creator>Ryan</dc:creator>
+ <guid isPermaLink="false">631 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>
