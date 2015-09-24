@@ -6,6 +6,32 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Upcoming App Contests</title>
+ <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/09</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;span style=&quot;font-family:Arial; font-size:18px; color:#2BB12B; font-weight:bold;&quot;&gt;Are you a budding mobile app developer who:&lt;/span&gt;&lt;span style=&quot;font-family:Arial; font-size:13px; color:#ec008c;&quot;&gt;&lt;br /&gt;
+• has made apps for family and friends, but is now looking to reach a wider audience?&lt;br /&gt;
+• wants to get feedback from users around the globe?&lt;br /&gt;
+• is wondering what it takes to have a successful or best selling app?&lt;/span&gt;&lt;/center&gt;&lt;br /&gt;&lt;td&gt;&lt;center&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Enter%20Contests.jpg&quot; width=&quot;300px&quot; /&gt;&lt;/center&gt; &lt;/td&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;span style=&quot;font-family:Arial; font-size:18px; color:#2BB12B; font-weight:bold;&quot;&gt;Contests are a great way to:&lt;/span&gt;&lt;span style=&quot;font-family:Arial; font-size:13px; color:#ec008c; &quot;&gt;&lt;br /&gt;
+• expand your creativity&lt;br /&gt;
+• hone your app development skills&lt;br /&gt;
+• become inspired&lt;br /&gt;
+• gain exposure&lt;br /&gt;
+• learn about entrepreneurship&lt;br /&gt;
+• win prizes &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family:Arial; font-size:18px; color:#2BB12B; font-weight:bold;&quot;&gt;&lt;br /&gt;
+Here are some upcoming opportunities:&lt;/span&gt;&lt;span style=&quot;font-family:Arial; font-size:13px; color:#FF0066;&quot;&gt;&lt;br /&gt;&lt;a href=&quot;http://mobileappsshowdown.com/#sthash.o0eXJEfx.dpbs&quot;&gt;Mobile Apps Showdown&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://appchallenge.tsaweb.org/&quot;&gt;Verizon Innovative App Challenge&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.technovationchallenge.org/home/&quot;&gt;Technovation (girls only)&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.congressionalappchallenge.us/about-2/&quot;&gt;Congressional App Challenge&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://soic.iupui.edu/about/high-school-programs/mobile-app-competition/&quot;&gt;Mobile App Competition for Indiana High School Students&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.usfirst.org/roboticsprograms/frc/kickoff&quot;&gt;First Robotics Kickoffs and Competitions&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.arabmobilechallenge.com/&quot;&gt;Arab Mobile App Challenge&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://appinventor.mit.edu/explore/app-month-program.html&quot;&gt;MIT App of the Month!&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/center&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Enter%20Contests.jpg?itok=dzfLxHX4&quot; width=&quot;480&quot; height=&quot;142&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 24 Sep 2015 18:39:53 +0000</pubDate>
+ <dc:creator>Felicia</dc:creator>
+ <guid isPermaLink="false">638 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>My First Impression of App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/ryan/2015/09/my</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Have you ever caught yourself thinking “I wish there was an app for that”? Maybe you wished there was a one-click rimshot on your phone to punctuate your bad jokes, or perhaps you’ve always wanted an interactive grocery list that knows all your favorite foods so you don’t have to write them down every time. At this point, let’s be honest: that app probably already exists. Just use your Google Play store and run a search, you’ll probably find what you’re looking for.&lt;/p&gt;
@@ -244,15 +270,6 @@ A gracious thank you to all of our hosts in China: Marjorie Yang, Tessa Yang, Dr
  <pubDate>Mon, 06 Jul 2015 20:30:35 +0000</pubDate>
  <dc:creator>Felicia</dc:creator>
  <guid isPermaLink="false">602 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Guangzhou conference on Mobile Learning and Computational Thinking based on App Inventor, June 13-15</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The 1st International Conference on Mobile Learning and Computational Thinking Education, based on App Inventor was held from June 13th to June 15th, 2015, in Guangzhou, China.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-optional-iframe field-type-iframe field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;iframe src=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/pub&quot; url=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/pub&quot; title=&quot;&quot; class=&quot;&quot; width=&quot;100%&quot; height=&quot;3835&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot; transparency=&quot;0&quot; tokensupport=&quot;0&quot; html=&quot;&quot;&gt;Your browser does not support iframes. But You can use the following link. &lt;a href=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/pub&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sun, 05 Jul 2015 01:32:41 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">598 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
