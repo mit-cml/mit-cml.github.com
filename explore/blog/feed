@@ -6,6 +6,29 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Making the Hilltop Sunset App Part 3: Linking Websites and Changing Colors</title>
+ <link>http://explore.appinventor.mit.edu/blogs/ryan/2015/10/maki-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;After figuring out how to add all my lyrics, and display them in an easy-to-read format, I was finally starting to get the hang of navigating all the different block types MIT App Inventor had to offer, and getting a strong sense of what they did and what they were capable of. I kept wanting to expand the app and make it more complex, so I had to think of other functions that could benefit me or someone interested in my music. &lt;/p&gt;
+&lt;p&gt;The first thing that came to my mind was creating a button that linked straight to my main web page, where there are links to all my social media, songs I have uploaded, blog posts I’ve written, and many other things. Making a link to a webpage turned out to be pretty simple: first, I created a button that read “Website.” Then I jumped over the the Blocks tab, found my Website button, pulled out the “when .Click” block, and set it down. &lt;/p&gt;
+&lt;p&gt;But before I could make the button link to my website, I had to hop back over to the Designer tab momentarily, because I’d forgotten a necessary step. Under Connectivity in the lefthand Palette there is an option called ActivityStarter. I had to drag that over and drop it onto my app, thereby setting a new, non-visible component that showed below the preview screen. &lt;/p&gt;
+&lt;p&gt;Once that was done, I went back to the Blocks tab and located the new Activity Starter menu, which had everything I needed: set ActivityStarter DataUri, set ActivityStarter Action, and call ActivityStarter .StartActivity. I set these into the “when Website .Click” block in the order I mentioned them from top to bottom. For the DataUri block, I connected a blank textbox and input my website’s URL. The Action block needed to have a textbox with the text “android.intent.action.VIEW” in order to function properly, and the .StartActivity block needed no additions. &lt;/p&gt;
+&lt;p&gt;At this point I felt like I basically had everything I wanted, but just to take it a step further, I decided to update the Wheel-O-Songs to include two extra buttons--one for each of my albums. So I took the simple steps from Part 1, making buttons with my album titles above and below the main Wheel-O-Songs button in the middle. When clicked, I set it changed the text on the middle button to a random song within the album clicked. To do this I just established two separate lists containing only songs from the respective albums. The middle button still caused the randomizer to select a random song from either album, which I liked. &lt;/p&gt;
+&lt;p&gt;And with that, my app was all done! At least, mechanically. I tested all the functions as I went, made sure they worked as they were supposed to, and once I was sure things were working as intended, I decided I wasn’t happy with the default colors offered by MIT App Inventor; they were all very bright and clashing. I wanted to manually select a few colors to keep a consistent color scheme with my main website. &lt;/p&gt;
+&lt;p&gt;Unfortunately I was not able to find any easy way to establish a new color palette for my app. The only way I could see to do it was to change every aspect of every screen individually, piece by piece. So I did. I used this website to find the codes for the colors I wanted to use, and proceeded to meticulously set the colors for my backgrounds, texts, buttons, and labels using the “make color” block under Colors. I used the “when .Initialize” block under the screen options for every screen to make the colors set themselves immediately upon each screen opening. I connected my phone to App Inventor, checked every screen to make sure I’d changed all the colors and that the new colors were correct, and was done!&lt;/p&gt;
+&lt;p&gt;After researching tutorials and info from the MIT App Inventor site directly and experimenting on my own for several hours a day over 4 or 5 days, my android app was finally complete. Despite my lack of pre-existing knowledge or experience with programming, I had successfully put together enough puzzle pieces to call myself an app inventor. &lt;/p&gt;
+&lt;p&gt;Overall, my first experience with MIT App Inventor was a great success. I’m really happy with the program, and with my app, and I definitely encourage anyone else who enjoyed problem solving to give MIT App Inventor a try! Not only was it fun, but it produced a useful tool that I now have forever. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Main%20Page.png?itok=S0MTDuGg&quot; width=&quot;288&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 14 Oct 2015 17:26:45 +0000</pubDate>
+ <dc:creator>Ryan</dc:creator>
+ <guid isPermaLink="false">651 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Reactions to a CS10k Webinar: Block Party</title>
  <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015-1</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;Note: This post is re-blogged from &lt;a href=&quot;https://csforhumanity.wordpress.com/2015/10/12/reactions-to-a-cs10k-webinar-block-party/&quot;&gt;https://csforhumanity.wordpress.com/2015/10/12/reactions-to-a-cs10k-webinar-block-party/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -166,22 +189,6 @@ Here are some upcoming opportunities:&lt;/span&gt;&lt;span style=&quot;font-fami
  <pubDate>Mon, 14 Sep 2015 13:37:19 +0000</pubDate>
  <dc:creator>Ryan</dc:creator>
  <guid isPermaLink="false">631 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Exciting News from Boise State University</title>
- <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We just heard some very exciting news from our good friend Yu-Chang Hsu at Boise State University:&lt;/p&gt;
-&lt;p&gt;The National Science Foundation Directorate of Education and Human Resources has awarded Boise State University a $163,660 supplemental funding grant to support using App Inventor to help STEM students learn trigonometry by developing their own math learning apps through team-based learning.&lt;/p&gt;
-&lt;p&gt;The project title is, &quot;Boise State University Pilot: Using Student-Developed Apps to Frame Mathematics, Science, and Engineering Learning.&quot; The interdisciplinary project team includes,&lt;/p&gt;
-&lt;p&gt;Doug Bullock (Department of Mathematics)&lt;br /&gt;
-Janet Callahan (Department of Materials Science and Engineering)&lt;br /&gt;
-Yu-Hui Ching (Department of Educational Technology)&lt;br /&gt;
-Yu-Chang Hsu (Department of Educational Technology)&lt;/p&gt;
-&lt;p&gt;The students will learn to use App Inventor 2 to collaboratively develop apps that require applying trigonometry knowledge and help peers learn trigonometry. The students will use their own apps as refresher in the following advanced STEM (science, technology, engineering, and math) courses. These apps will benefit the trigonometry class and other cohort of STEM students. The students will strengthen their math knowledge by applying it to app development with real-world impact, and engage in computational thinking as well as problem solving tasks.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 11 Sep 2015 14:26:18 +0000</pubDate>
- <dc:creator>admin_explore</dc:creator>
- <guid isPermaLink="false">630 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
