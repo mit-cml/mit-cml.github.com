@@ -6,7 +6,32 @@
  <description></description>
  <language>en</language>
 <item>
- <title>YouTuber Tutorials This Week!</title>
+ <title>NSF Award to Team from Boise State to Research with App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2015/11/nsf</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;This is a guest blog post by Dr. Yu-Chang Hsu from Boise State University&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Our team at Boise State University is really excited to have been awarded a grant recently by the National Science Foundation. Our project and research focus on enhancing undergraduate STEM majors’ learning in mathematics, particularly trigonometry, through mobile app programming. Through our proposed project, we will develop and offer a one-credit course, Introduction to Mobile App Programming, for undergraduate STEM majors who concurrently take a trigonometry course. The enrolled students will collaboratively develop mobile apps by revisiting and applying mathematics knowledge during the programming processes. The mobile apps developed by students can serve as math review tools (e.g., quizzes or games) or help to serve as practical tools (e.g., measuring buildings height at construction site) for daily life or business.&lt;/p&gt;
+&lt;p&gt;The students can enhance and deepen their math learning by constructing tangible artifacts through collaboration with peers in class. Working toward a common outcome will also connect students and provide a space for complex problem-solving and discussions. This will not only help students review math for learning, but also help them see the value of what they have learned due to the real-world outcome and impact of the mobile apps they will be developing. We hope that our research on knowledge retention, motivation, and computational thinking can help provide the community useful insight into students’ learning processes. The curriculum and evaluation can also lead to implications for curriculum design for STEM learning, programming, and collaborative problem solving.&lt;/p&gt;
+&lt;p&gt;We are also very excited to incorporate App Inventor 2 into our curriculum for teaching mobile app programming through which students will strengthen their math learning. I have been collaborating with the App Inventor team and the Center for Mobile Learning at the Media Lab through various venues for a few years. I also have extensive experiences with App Inventor. I have taught the online graduate course on mobile app design at Boise State University since 2011. I have also taught app development to underrepresented students in face-to-face camp since 2011 by partnering with TRiO program at Boise State. I have been invited to present at the App Inventor Summit at MIT for three years in a row. I was also selected and invited to help coach the best-in-nation middle school and high school teams from the Verizon Innovative App Challenge in 2014 and 2015.&lt;/p&gt;
+&lt;p&gt;Over the past few years of teaching, I have received countless compliments from my students on App Inventor as a wonderful tool. Most of my graduate students are K-12 teachers on various subjects and they like how AI can facilitate their own thinking during their design problem solving. My students also see great potential of teaching mobile app programming with App Inventor to students in the classroom because the abstraction and algorithmic thinking the young students can experience by developing apps with AI. &lt;/p&gt;
+&lt;p&gt;With our offering of the new course for STEM students, there will be new app development tutorials and sample apps created with a focus on using math/trigonometry for programming. The educational resources generated from our project such as course modules and framework will also benefit the greater App Inventor education community. We also hope to share, through our research, about students’ experiences in developing math-related mobile apps this new course.&lt;/p&gt;
+&lt;p&gt;I look forward to learning and giving more through our wonderful App Inventor and STEM education community!&lt;/p&gt;
+&lt;p&gt;Yu-Chang Hsu, Ph.D.&lt;br /&gt;
+Associate Professor&lt;br /&gt;
+Department of Educational Technology&lt;br /&gt;
+Boise State University&lt;br /&gt;&lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ &lt;!--
+  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#104;&amp;#115;&amp;#117;&amp;#64;&amp;#98;&amp;#111;&amp;#105;&amp;#115;&amp;#101;&amp;#115;&amp;#116;&amp;#97;&amp;#116;&amp;#101;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;&amp;#104;&amp;#115;&amp;#117;&amp;#64;&amp;#98;&amp;#111;&amp;#105;&amp;#115;&amp;#101;&amp;#115;&amp;#116;&amp;#97;&amp;#116;&amp;#101;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&#039;;
+// --&gt; 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 04 Nov 2015 20:51:54 +0000</pubDate>
+ <dc:creator>josh</dc:creator>
+ <guid isPermaLink="false">659 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>YouTuber Tutorials - Week of October 26, 2015</title>
  <link>http://explore.appinventor.mit.edu/blogs/ryan/2015/10-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span id=&quot;docs-internal-guid-cae3bd25-a453-70d4-c47f-278cc07c37fe&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: Cambria; color: rgb(46, 46, 46); font-style: italic; white-space: pre-wrap; background-color: transparent;&quot;&gt;Bubble Sorting&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;margin-top:0pt;margin-bottom:0pt;&quot;&gt; &lt;/p&gt;
@@ -187,35 +212,6 @@ On your mobile device: &lt;a style=&quot;color: #3ebbbd; white-space: nowrap:&qu
  <pubDate>Fri, 25 Sep 2015 17:36:57 +0000</pubDate>
  <dc:creator>Felicia</dc:creator>
  <guid isPermaLink="false">639 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Upcoming App Contests</title>
- <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/09</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;table border=&quot;1&quot; style=&quot;width:100%&quot;&gt;&lt;tr&gt;&lt;td&gt;
-&lt;center&gt;&lt;span style=&quot;font-family:Arial; font-size:18px; color:#2BB12B; font-weight:bold;&quot;&gt;Are you a budding mobile app developer who:&lt;/span&gt;&lt;span style=&quot;font-family:Arial; font-size:13px; color:#ec008c;&quot;&gt;&lt;br /&gt;
-• has made apps for family and friends, but is now looking to reach a wider audience?&lt;br /&gt;
-• wants to get feedback from users around the globe?&lt;br /&gt;
-• is wondering what it takes to have a successful or best selling app?&lt;/span&gt;&lt;/center&gt;&lt;br /&gt;&lt;center&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Enter%20Contests.jpg&quot; width=&quot;300px&quot; /&gt;&lt;/center&gt;&lt;br /&gt;&lt;center&gt;&lt;span style=&quot;font-family:Arial; font-size:18px; color:#2BB12B; font-weight:bold;&quot;&gt;Contests are a great way to:&lt;/span&gt;&lt;span style=&quot;font-family:Arial; font-size:13px; color:#ec008c; &quot;&gt;&lt;br /&gt;
-• expand your creativity&lt;br /&gt;
-• hone your app development skills&lt;br /&gt;
-• become inspired&lt;br /&gt;
-• gain exposure&lt;br /&gt;
-• learn about entrepreneurship&lt;br /&gt;
-• win prizes &lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family:Arial; font-size:18px; color:#2BB12B; font-weight:bold;&quot;&gt;&lt;br /&gt;
-Here are some upcoming opportunities:&lt;/span&gt;&lt;span style=&quot;font-family:Arial; font-size:13px; color:#FF0066;&quot;&gt;&lt;br /&gt;&lt;a href=&quot;http://app.gzjkw.net/GAIC2015/&quot;&gt;2nd National App Inventor contest in China&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.arabmobilechallenge.com/&quot;&gt;Arab Mobile App Challenge&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.technovationchallenge.org/home/&quot;&gt;Technovation (High School Girls)&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.usfirst.org/roboticsprograms/frc/kickoff&quot;&gt;First Robotics Kickoffs and Competitions&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://appchallenge.tsaweb.org/&quot;&gt;Verizon Innovative App Challenge (US Middle and High School Students)&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.congressionalappchallenge.us/about-2/&quot;&gt;Congressional App Challenge (US High School Students)&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://soic.iupui.edu/about/high-school-programs/mobile-app-competition/&quot;&gt;Mobile App Competition for Indiana High School Students&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://appinventor.mit.edu/explore/app-month-program.html&quot;&gt;MIT App of the Month!&lt;/a&gt;&lt;br /&gt;&lt;/span&gt;&lt;/center&gt;
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Enter%20Contests.jpg?itok=dzfLxHX4&quot; width=&quot;480&quot; height=&quot;142&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 24 Sep 2015 18:39:53 +0000</pubDate>
- <dc:creator>Felicia</dc:creator>
- <guid isPermaLink="false">638 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
