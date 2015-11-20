@@ -1307,3 +1307,9 @@ Action
 </item>
 </channel>
 </rss>
+<h1>Uncaught exception thrown in shutdown function.</h1><p>PDOException: SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction: DELETE FROM {semaphore} 
+WHERE  (value = :db_condition_placeholder_0) ; Array
+(
+    [:db_condition_placeholder_0] =&amp;gt; 108061031564e75578d44f1.55712121
+)
+ in lock_release_all() (line 269 of /var/www/includes/lock.inc).</p><hr />
