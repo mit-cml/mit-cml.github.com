@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>iVolunteer for Chennai</title>
+ <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015-2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;Indian Youth Builds App to Mobilize Resources for Disaster Relief&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/iVolunteerLogo.png&quot; align=&quot;right&quot; /&gt;When &lt;a href=&quot;http://www.bbc.com/news/world-asia-india-34988142&quot;&gt;deadly floods hit the Indian city of Chennai&lt;/a&gt; (Madras) in early December 2015, the &lt;a href=&quot;/stories/k-8-division-international-app-winner&quot;&gt;award winning app inventor&lt;/a&gt;, Arjun Kumar put on his inventor’s hat once again, to build his newest app, iVolunteer for Chennai.&lt;/p&gt;
+&lt;p&gt;Currently available in the Google Play Store, iVolunteer for Chennai coordinates aid between those offering aid and those in need of such aid.&lt;/p&gt;
+&lt;p&gt;We commend Arjun for springing to action and hope that his work and others’ use of his app will help the people of Chennai affected by the recent flooding.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/iVolunteerLogo.png?itok=HDNhtxp8&quot; width=&quot;300&quot; height=&quot;300&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/MichelleSunBBC.jpg?itok=Sb6Q8Hz3&quot; width=&quot;480&quot; height=&quot;300&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 14 Dec 2015 16:34:41 +0000</pubDate>
+ <dc:creator>josh</dc:creator>
+ <guid isPermaLink="false">680 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>NSF Award to Team from Boise State to Research with App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2015/11/nsf</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;This is a guest blog post by Dr. Yu-Chang Hsu from Boise State University&lt;/em&gt;&lt;/p&gt;
@@ -141,15 +161,6 @@ We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Fou
  <pubDate>Wed, 07 Jan 2015 09:44:53 +0000</pubDate>
  <dc:creator>josh</dc:creator>
  <guid isPermaLink="false">568 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>OSU Student Reinvents The Wheel (And Uses MIT App Inventor to Control It)</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2014/12/osu</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Thanks to our friend Arta Szathmary who passed on the story of &lt;a href=&quot;http://www.botsfromscratch.com/&quot; target=&quot;new&quot;&gt;Carter Hurd&lt;/a&gt;, a sophomore at The Ohio State University, who built a robot with innovative transformable wheels, and used an app built with MIT App Inventor to control it from a distance, according to &lt;a href=&quot;http://3dprint.com/23604/transforming-robot-wheel/&quot; target=&quot;new&quot;&gt;a writeup at 3dprint.com&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 23 Dec 2014 15:08:43 +0000</pubDate>
- <dc:creator>josh</dc:creator>
- <guid isPermaLink="false">566 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
