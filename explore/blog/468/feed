@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
- <title>karen&#039;s blog</title>
+ <title>Karen&#039;s blog</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen</link>
  <description></description>
  <language>en</language>
@@ -18,7 +18,7 @@ For the full article (in Spanish) about the project , see &lt;a href=&quot;http:
 &lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Wed, 16 Dec 2015 16:00:28 +0000</pubDate>
- <dc:creator>karen</dc:creator>
+ <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">681 at http://explore.appinventor.mit.edu</guid>
 </item>
 <item>
@@ -45,7 +45,7 @@ Technical and Robot judging: They designed a robot and programmed mission runs, 
 &lt;/div&gt;
 &lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Wed, 09 Dec 2015 20:01:43 +0000</pubDate>
- <dc:creator>karen</dc:creator>
+ <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">679 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
