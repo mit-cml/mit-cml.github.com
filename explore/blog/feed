@@ -6,7 +6,7 @@
  <description></description>
  <language>en</language>
 <item>
- <title>US FIRST Robotics Uses App Inventor for Robot Controller Apps</title>
+ <title>US FIRST Robotics Uses App Inventor to Design Robot Controllers</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/01/us</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by Thomas Eng, US FIRST&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/thomas-eng.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;FIRST is a non-profit organization, founded by inventor Dean Kamen, with a mission to inspire young people to pursue careers in science and technology.  FIRST engages children with exciting, Mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well rounded life capabilities including self-confidence, communication, and leadership.
@@ -14,19 +14,19 @@
 &lt;p&gt;
 The FIRST Tech Challenge group organizes robotics competitions for children in grades 7 through 12.  Teams build robots from a kit of parts.  Teams use these robots to compete in themed competitions around the world.  For 2015-2016 season, teams are building robots to compete in the official FIRST Res-Q game, which models its challenges after mountain rescue situations.
 &lt;/p&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first1.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;This season’s game, FIRST Res-Q, models its tasks after mountain rescue situations&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first1.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;This season’s game, FIRST Res-Q, models its tasks after mountain rescue situations&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;
 Each team uses an Android Smartphone as the primary controller for their competition robot.  Teams can use a special branch of the MIT App Inventor to program their robot controllers and to create customized behaviors for their competition bots.
 &lt;/p&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first2.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;Teams build robots that are controlled by Android smartphones&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first2.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;Teams build robots that are controlled by Android smartphones&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;
 Teams can use the MIT App Inventor to design their robot controller apps using special FTC-specific design components.  These FTC-specific design components allow the users to communicate with and control the hardware devices (motors, servos and sensors) that are installed on a robot.  The FTC-specific design blocks were implemented by an engineer from Google, Liz Looney, who was introduced to FIRST by Hal Abelson and his CSAIL team from MIT.
 &lt;/p&gt;
 &lt;p&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first3.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first4.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first3.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first4.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;
 Because teams often do not have access to the Cloud at the competition venues for the FIRST Tech Challenge events, a solution was implemented that allows teams to run the MIT App Inventor locally, on their team laptops, using VirtualBox.  Teams design and build their robot controller apps with their local MIT App Inventor servers, and then the transfer and install them (typically using a USB cable) to their Android smartphones.
 &lt;/p&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first5.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align: center;&quot;&gt;Teams use VirtualBox to run the MIT App Inventor application locally on the laptops&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first5.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align: center;&quot;&gt;Teams use VirtualBox to run the MIT App Inventor application locally on the laptops&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;
 The MIT App Inventor has been very well received by the FIRST community.  App Inventor’s user friendly, visual interface and the easy-to-understand Blockly programming language makes the programming tasks more accessible and manageable, especially for novice programmers.
 &lt;/p&gt;
