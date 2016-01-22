@@ -6,6 +6,54 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>US FIRST Robotics Uses App Inventor for Robot Controller Apps</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/01/us</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by Thomas Eng, US FIRST&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/thomas-eng.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;FIRST is a non-profit organization, founded by inventor Dean Kamen, with a mission to inspire young people to pursue careers in science and technology.  FIRST engages children with exciting, Mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well rounded life capabilities including self-confidence, communication, and leadership.
+&lt;/p&gt;
+&lt;p&gt;
+The FIRST Tech Challenge group organizes robotics competitions for children in grades 7 through 12.  Teams build robots from a kit of parts.  Teams use these robots to compete in themed competitions around the world.  For 2015-2016 season, teams are building robots to compete in the official FIRST Res-Q game, which models its challenges after mountain rescue situations.
+&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first1.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;This season’s game, FIRST Res-Q, models its tasks after mountain rescue situations&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;
+Each team uses an Android Smartphone as the primary controller for their competition robot.  Teams can use a special branch of the MIT App Inventor to program their robot controllers and to create customized behaviors for their competition bots.
+&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first2.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;Teams build robots that are controlled by Android smartphones&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;
+Teams can use the MIT App Inventor to design their robot controller apps using special FTC-specific design components.  These FTC-specific design components allow the users to communicate with and control the hardware devices (motors, servos and sensors) that are installed on a robot.  The FTC-specific design blocks were implemented by an engineer from Google, Liz Looney, who was introduced to FIRST by Hal Abelson and his CSAIL team from MIT.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first3.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first4.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;
+Because teams often do not have access to the Cloud at the competition venues for the FIRST Tech Challenge events, a solution was implemented that allows teams to run the MIT App Inventor locally, on their team laptops, using VirtualBox.  Teams design and build their robot controller apps with their local MIT App Inventor servers, and then the transfer and install them (typically using a USB cable) to their Android smartphones.
+&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/first5.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align: center;&quot;&gt;Teams use VirtualBox to run the MIT App Inventor application locally on the laptops&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;
+The MIT App Inventor has been very well received by the FIRST community.  App Inventor’s user friendly, visual interface and the easy-to-understand Blockly programming language makes the programming tasks more accessible and manageable, especially for novice programmers.
+&lt;/p&gt;
+&lt;div style=&quot;display: block; margin: auto; width: 60%;&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;
+“The MIT App Inventor has been a particularly huge hit in the under-served areas… The students were joyful that they now had been empowered to make the robot move by themselves.  Thank-you.”
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p style=&quot;text-align: right; margin-right: 15%;&quot;&gt;
+                    Keith Hall&lt;br /&gt;
+                    FIRST Senior Mentor, Indiana
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+For more information about the FIRST Tech Challenge visit the following link:&lt;br /&gt;&lt;a href=&quot;http://www.firstinspires.org/robotics/ftc&quot;&gt;http://www.firstinspires.org/robotics/ftc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For more information about FIRST, visit the official FIRST website:&lt;br /&gt;&lt;a href=&quot;http://www.firstinspires.org/&quot;&gt;http://www.firstinspires.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/thomas-eng.jpg?itok=WgxeKmt7&quot; width=&quot;300&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 21 Jan 2016 20:17:57 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">694 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Students Win App Competition in Hong Kong with App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/01</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by AU Hoi Kin, Head of Academic Department, Pak Kau College, Hong Kong&lt;/i&gt;&lt;/p&gt;
@@ -187,26 +235,6 @@ Technical and Robot judging: They designed a robot and programmed mission runs, 
  <pubDate>Fri, 20 Nov 2015 00:54:08 +0000</pubDate>
  <dc:creator>Felicia</dc:creator>
  <guid isPermaLink="false">672 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>The 9th UNESCO Youth Forum</title>
- <link>http://explore.appinventor.mit.edu/blogs/felicia/2015/11/9th</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/Screen%20Shot%202015-11-18%20at%202.34.04%20PM_0.png&quot; style=&quot;float: left; margin-right: 2%; margin-bottom: 0.5em;&quot; hspace=&quot;”5”&quot; vspace=&quot;”1”&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;At the end of October, I traveled to Paris, France for the &lt;strong&gt;&lt;span style=&quot;color: #912125; white-space: nowrap;&quot;&gt;9th UNESCO Youth Forum conference&lt;/span&gt;&lt;/strong&gt;. This year’s theme, “Young Global Citizens for a Sustainable Planet,” united over 500 young people, ages 18-25, from 159 member states who are transforming their communities.  Participants were nominated by their national commission offices or local organizations and recognized as individuals whose leadership, efforts and voices are contributing to positively impacting global citizenship in their region. Conclusions and recommendations from participants of the Youth Forum can be found &lt;strong&gt;&lt;a style=&quot;color: #337bb2; white-space: nowrap;&quot; href=&quot;http://unesdoc.unesco.org/images/0023/002351/235185e.pdf&quot;&gt;here&lt;/a&gt;&lt;/strong&gt; (English version).&lt;/p&gt;
-&lt;p&gt;I spoke at the workshop: &lt;strong&gt;&lt;span style=&quot;color: #912125;&quot;&gt;YouthMobile- Building Your Own Mobile Apps For Sustainable Development&lt;/span&gt;&lt;/strong&gt;. The YouthMobile project aim is to empower at least 25,000 young people (particularly young women) to resolve issues related to sustainable development with digital solutions. By learning to code, this demographic can develop, promote, and sell socially impactful mobile apps that directly address challenging local issues that they themselves have identified.  &lt;/p&gt;
-&lt;p&gt;I had the privilege of meeting some of these youth leaders and hearing their inspiring stories of mobile technology projects launched in Korea, India, Columbia and Africa. Many determined to carry-on despite obstacles like too few devices or spotty WiFi. &lt;strong&gt;&lt;a style=&quot;color: #337bb2&quot; href=&quot;https://www.globalshapers.org/shapers/grace-ihejiamaizu&quot;&gt;Grace Ihejiamaizu&lt;/a&gt;,&lt;/strong&gt; a youth educator who lives in Nigeria, was the Technovation mentor to the 2015 Technovation Challenge winning team that created Discardious, a waste disposal app made with MIT App Inventor. “We think the platform is very easy to use, the puzzle pieces make it easy to teach young people. It’s very intuitive; it allows you to feel like an expert. App Inventor has had a lot of impact in Africa and we want to scale it up to reach people who are not yet coding.”&lt;br /&gt;&lt;br /&gt;
-Despite gallant efforts by young trailblazers such as Grace, the fact remains that only 20% of people in mobile computing (or computer science education/fields) are female. (The gender gap also exists with users of App Inventor.) This is a global problem in need of global solutions.&lt;br /&gt;
-In an effort to transform the digital divide into digital inclusion, UNESCO launched the project &lt;strong&gt;&lt;a style=&quot;color: #912125;&quot;&gt;Searching for Martha&lt;/a&gt;&lt;/strong&gt;, during the YouthMobile conference. &lt;strong&gt;&lt;a style=&quot;color: #337bb2;&quot; href=&quot;http://www.nation.co.ke/lifestyle/women/Visa-denial-opens-up-new-world-for-teenager/-/1950830/2437048/-/3ncuxo/-/index.html&quot;&gt;  Martha Chumo&lt;/a&gt;&lt;/strong&gt; is a 21-year-old self-taught Kenyan coder who founded the Nairobi Developer School, the first Kenyan hacker school when she was 19. Through tech meet-ups, hackathons and workshops all over Africa, she has taught over 1000 people to program mobile apps with MIT App Inventor. The goal is to find 1000 Marthas so that each one can in turn empower 1000 young women with programming skills by teaching them MIT App Inventor.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;span style=&quot;color: #912125; white-space: nowrap;&quot;&gt;Thus, the Searching for Martha projects seeks to:&lt;/span&gt;&lt;/strong&gt;
-&lt;/p&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;Identify 1000 young African women entrepreneurs currently skilled in mobile computing education &lt;/li&gt;
-&lt;li&gt;Provide them with capital and arm them with business, leadership and entrepreneurial skills&lt;/li&gt;
-&lt;li&gt;Enlist their expertise to train 1000 young women in mobile app development&lt;/li&gt;
-&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color: #912125; white-space: nowrap;&quot;&gt;The goal&lt;/span&gt;&lt;/strong&gt;: to empower 1 million young African women in mobile app development by 2017&lt;br /&gt;&lt;br /&gt;
-Immediately prior to the Youth Forum conference, the Rwanda ICT Chamber hosted an initial brainstorming workshop at the 2015 Transform Africa Summit. A collaborative endeavor by UNESCO field offices in South Sudan, Kenya, Ethiopia, and Rwanda and co-facilitated by the Her2Voice NGO (Rwanda), the two-day workshop gathered 20 female entrepreneurs in mobile programming ((including Grace Ihejiamaizu) from regions all over Africa to identify ways to sustain and expand female entrepreneur role models, leadership and expertise.&lt;/p&gt;
-&lt;p&gt;More information on the 9th UNESCO Youth Forum can be found &lt;strong&gt;&lt;a style=&quot;color: #337bb2; white-space: nowrap;&quot; href=&quot;http://www.unesco.org/new/en/communication-and-information/resources/news-and-in-focus-articles/in-focus-articles/2015/mobile-apps-for-sustainable-development&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 18 Nov 2015 19:44:08 +0000</pubDate>
- <dc:creator>Felicia</dc:creator>
- <guid isPermaLink="false">670 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
