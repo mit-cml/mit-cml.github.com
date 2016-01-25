@@ -269,7 +269,7 @@ background: #609ED0;
 function ajax_get_json(){
     var results = document.getElementById("results")
     var hr = new XMLHttpRequest();
-    hr.open("GET", "http://128.52.180.87/stats.json", true);
+    hr.open("GET.html", "http://128.52.180.87/stats.json", true);
     hr.setRequestHeader("Content-type", "application/json", true);
     hr.onreadystatechange = function() {
 	    if(hr.readyState == 4 && hr.status == 200) {
