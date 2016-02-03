@@ -6,6 +6,16 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Verizon App Challenge Best in Nation Winners Announced</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/02</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/press-room/BestNation-pdf%20for%20website1-flat.pdf&quot; target=&quot;_blank&quot;&gt;Best in Nation Finalists&lt;/a&gt; for the &lt;a href=&quot;http://appchallenge.tsaweb.org/Verizon&quot; target=&quot;_blank&quot;&gt;Verizon App Challenge&lt;/a&gt; were announced today. Congratulations to all the winners, not only of the Best in Nation, but &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/press-room/BestState-2016%20pdf%20for%20website-flat.pdf&quot; target=&quot;_blank&quot;&gt;Best in State&lt;/a&gt;, and &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/press-room/BestRegion-2016-pdf%20for%20website-flat.pdf&quot; target=&quot;_blank&quot;&gt;Best in Region&lt;/a&gt;&lt;a&gt;&lt;/a&gt;. Middle school and high school teams from around the nation developed ideas for apps that addressed a need in their school or community. They wrote essays describing their design process, their app’s functionality, and its potential impact or outcome. In addition, each team produced a 3 minute video describing the app and its impact. &lt;/p&gt;
+&lt;p&gt;Best in Nation Team Winners receive a $15,000 grant to build the app from their winning design and to enhance STEM education at their schools or site. MIT App Inventor Master Trainers will be working with the nine national finalists in person and virtually to develop their app over the next few months. Winning teams will present their apps at the TSA National Conference in Nashville, TN, in June. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 03 Feb 2016 17:12:03 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">699 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Two App Inventor tablets for under $100</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/01/two-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;I recently tested App Inventor with two low-priced tablets, the Kindle Fire 7&quot; and the HP 7 G2. Both of these work fine with App Inventor.  They could be reasonable choices for school or personal use, provided you have WiFi don&#039;t need phone calls or cellular connections. Here are instructions on how to set up these tablets for use with App Inventor 
@@ -192,26 +202,6 @@ For the full article (in Spanish) about the project , see &lt;a href=&quot;http:
  <pubDate>Wed, 16 Dec 2015 16:00:28 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">681 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>iVolunteer for Chennai</title>
- <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;Indian Youth Builds App to Mobilize Resources for Disaster Relief&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/iVolunteerLogo.png&quot; align=&quot;right&quot; /&gt;When &lt;a href=&quot;http://www.bbc.com/news/world-asia-india-34988142&quot;&gt;deadly floods hit the Indian city of Chennai&lt;/a&gt; (Madras) in early December 2015, the &lt;a href=&quot;/stories/k-8-division-international-app-winner&quot;&gt;award winning app inventor&lt;/a&gt;, Arjun Kumar put on his inventor’s hat once again, to build his newest app, iVolunteer for Chennai.&lt;/p&gt;
-&lt;p&gt;Currently available in the Google Play Store, iVolunteer for Chennai coordinates aid between those offering aid and those in need of such aid.&lt;/p&gt;
-&lt;p&gt;We commend Arjun for springing to action and hope that his work and others’ use of his app will help the people of Chennai affected by the recent flooding.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/iVolunteerLogo.png?itok=HDNhtxp8&quot; width=&quot;300&quot; height=&quot;300&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/MichelleSunBBC.jpg?itok=Sb6Q8Hz3&quot; width=&quot;480&quot; height=&quot;300&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 14 Dec 2015 16:34:41 +0000</pubDate>
- <dc:creator>Josh</dc:creator>
- <guid isPermaLink="false">680 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
