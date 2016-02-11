@@ -6,6 +6,33 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New Release Coming (nb147)</title>
+ <link>http://explore.appinventor.mit.edu/blogs/jeff/2016/02/new</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We will be deploying a new release of MIT App Inventor on Thursday&lt;br /&gt;
+afternoon on February 18th (2016-02-19 02:00:00 UTC). The details are&lt;br /&gt;
+in the &lt;a href=&quot;https://docs.google.com/document/d/1w_QMUBTmHGFGyekjF1OiBz6cNpSyZ5oPenUigwlZmj8/pub&quot; target=&quot;_blank&quot;&gt;Release Notes (DRAFT).&lt;/a&gt;&lt;/p&gt;
+&lt;!-- break --&gt;&lt;p&gt;This release adds new Components and Features to MIT App Inventor&lt;br /&gt;
+and we will be deploying a new Companion App along with the&lt;br /&gt;
+release. However the current Companion (version 2.35) will continue to&lt;br /&gt;
+work, but new features will require an upgrade.&lt;/p&gt;
+&lt;p&gt;If you have downloaded the Companion from the Google Play Store and&lt;br /&gt;
+set it to auto-update, the update should be seamless.&lt;/p&gt;
+&lt;p&gt;However if you “side loaded” the Companion, or are using the&lt;br /&gt;
+emulator, then you will need to update the Companion manually. We will&lt;br /&gt;
+not be triggering an “Auto Update.” So people running classes on&lt;br /&gt;
+Friday the 19th will not get a surprise when they attempt to use the&lt;br /&gt;
+emulator in class. We have added a new menu choice under the “Help”&lt;br /&gt;
+menu (you won’t see it until the release) which will permit you to&lt;br /&gt;
+upgrade your companion “on the fly” on a schedule of your&lt;br /&gt;
+choosing. Again, if you downloaded the Companion from the Google Play&lt;br /&gt;
+Store, and auto-update is set, you will get the upgrade without having&lt;br /&gt;
+to take any action.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 11 Feb 2016 20:08:52 +0000</pubDate>
+ <dc:creator>jeff</dc:creator>
+ <guid isPermaLink="false">703 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>One Computer At a Time</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2014/03/one</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor is designed to be used by an individual using only one computer at a time. If you open a project on one computer and then open the same project on a second computer (or even in a second browser window) you can cause your project to become corrupted.&lt;/p&gt;
