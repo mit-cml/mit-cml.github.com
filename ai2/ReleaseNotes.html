@@ -440,6 +440,100 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
+                        <h2>Changes between nb146k and nb147 (February 18, 2016)</h2>
+                        <p>NOTE: This is a component release which will have a new Companion to
+                          take advantage of new features. The older Companion should still
+                          function, but not everything will work correctly.</p>
+                        <ul>
+                          <li>
+                            UI Improvements:
+                            <ul>
+                              <li>Welcome to App Inventor 2 Dialog
+                                will no longer prevent the “Start
+                                Project” button from working.</li>
+                              <li>Additional validation of new project
+                                names to ensure they are valid
+                                names.</li>
+                              <li>Fix an issue where the project
+                                “Start” button can be pushed multiple
+                                times before a new project is created
+                                (this can happen on a slow network)
+                                which results confusion.</li>
+                              <li>Various features that open a
+                                documentation page from the system
+                                will now open in a fully functional
+                                new window or tab instead of a
+                                pop-up.</li>
+                              <li>The Backpack icon has been updated
+                                to better show when it contains blocks
+                                or is empty</li>
+                              <li>Add a new Menu Item to the Help Menu
+                                to facilitate downloading andinstalling the latest companion.</li>
+                              <li>“ScalePictureToFit” property on an
+                                image will scale it both on the device
+                                and in the UI Designer</li>
+                            </ul>
+                          </li>
+                          <li>Clock Component Update: Additional
+                            functions for computing timeintervals and otherwise manipulating dates and times.</li>
+                          <li>Documentation Updates</li>
+                          <li>Updates the Portuguese (Brazilian) Translation</li>
+                          <li>Gallery Improvements: Better search results</li>
+                          <li>Add the new “Firebase” Component:<br/>
+                            <p>This is an experimental prototype
+                              release of the Firebase component.  Feel
+                              free to use it for personal apps, but be
+                              aware that the component is under active
+                              development, and may change in a way
+                              that could make your apps stop
+                              working.</p>
+                            <p>The Firebase component provides a
+                              mechanism similar toTinyWebDB. However
+                              it is hosted using a Firebase database
+                              (<a href="http://firebase.com" target="_blank">firebase.com</a>) and supports updates to
+                              variables from different copies of an
+                              application, when multiple copies of an
+                              application are running on different
+                              devices which are connected to the
+                              network. When one device updates a
+                              variable the other will get a
+                              “DataChanged” event with the new
+                              value. This permits a form of “cloud
+                              variable.”</p>
+                            <p>The use of Firebase normally requires
+                              an account at firebase.com, but by
+                              default an account sponsored by MIT is
+                              configured (via “branding” commits which
+                              are not public) for the MIT sponsored
+                              service.</p>
+                            <p>See
+                              <a href="http://ai2.appinventor.mit.edu/reference/other/firebaseIntro.html" target="_blank">
+                                http://ai2.appinventor.mit.edu/reference/other/firebaseIntro.html</a>
+                              for more information.<p>
+                            <p><b>Note: The Emulator that we distribute
+                              does not support the Firebase Component
+                              at this time.</b></p>
+                          </li>
+                          <li>Camera Component: The UseFront property
+                            was removed, it no longer functions on
+                            newer versions of Android. Projects that
+                            set it in the Designer will receive a
+                            warning the first time they are loaded
+                            into the system and the property will be
+                            removed. Any blocks that reference it will
+                            be disabled and marked “bad” (they will
+                            have a red border and will need to be
+                            discarded).</li>
+                          <li>Location Component: Do not fire the
+                            “LocationChanged” event if the location is
+                            invalid.</li>
+                          <li>The GyroscopeSensor component was
+                            added.</li>
+                          <li>The “HideKeyboard” function was added
+                            the the “Screen” component. It is still
+                            present in the TextBox component as
+                            well.</li>
+                        </ul>
                         <h2>Changes between nb146j and nb146k (January 8, 2016)</h2>
                         <ul>
                           <li>Portuguese (Brazilian) Translation</li>
