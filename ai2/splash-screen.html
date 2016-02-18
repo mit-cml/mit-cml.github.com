@@ -1,4 +1,26 @@
 <html>
+<head>
+<script src="jquery-1.7.min.js"></script>
+<script>
+var when = function() {
+  var now = new Date();
+  var deploy = Date.UTC(2016, 1, 19, 2, 0, 0);
+  var display;
+  var hours = Math.floor((deploy - now)/(3600000));
+  var mins = Math.round(((deploy - now)/60000) % 60);
+  if (now > deploy) {
+    display = 'is deployed!';
+  } else {
+    display = 'will be deployed in ' + hours + ' hours and ' + mins +
+  ' minutes.';
+  }
+  return (display);
+};
+$('document').ready(function () {
+  $('#countdown').html(when());
+});
+</script>
+</head>
 <body link='#0099CC' >
 <div style="font-family:arial,sans-serif;font-size:16px;text-align:center;">
 <span style="color:#669900;font-size:20px">Welcome to MIT App Inventor 2</span><br/><br/>
@@ -15,6 +37,7 @@
     #ffffff;">
      New Release (nb147) Next Thursday<br />
      February 18, 2016<br />
+     <p>The Release <span id=countdown>will be deployed soon</span>.</p>
      <p><a href="http://appinventor.mit.edu/explore/blogs/jeff/2016/02/new.html" target="_blank">More Information</a></p>
       </font>
     </td>
