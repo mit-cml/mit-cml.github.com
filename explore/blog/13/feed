@@ -6,6 +6,16 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT App Inventor Update February 25, 2016</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/02/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/10I8wpwIyVs_TmupTdxoYEUN-zsqdniGqGALqQRGdqVU/pub&quot;&gt;&lt;br /&gt;
+Click here to see blog entry.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 27 Feb 2016 15:00:18 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">711 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Two App Inventor tablets for under $100</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/01/two-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;I recently tested App Inventor with two low-priced tablets, the Kindle Fire 7&quot; and the HP 7 G2. Both of these work fine with App Inventor.  They could be reasonable choices for school or personal use, provided you have WiFi don&#039;t need phone calls or cellular connections. Here are instructions on how to set up these tablets for use with App Inventor 
@@ -128,16 +138,6 @@ Google announced this week that the Files API on which AI Classic depends is bei
  <pubDate>Tue, 03 Feb 2015 22:32:44 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">574 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Welcome Felicia Kamriani to the MIT App Inventor Team!</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2014/12/welcome</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT App Inventor Team welcomes our newest member: Felicia Kamriani, who has joined us as Education and Business Development Associate. Felicia comes to MIT with 20 years of experience in the field of education, with roles ranging from conducting research and developing online courses at HarvardX to training educators at Stanford University to developing local educational initiatives through TEDxSantaMonica and TEDxHGSE. She received her Ed.M. from the Harvard Graduate School of Education&#039;s Technology, Innovation and Education Program last spring and holds another Master&#039;s in Education from Stanford University and a Bachelor&#039;s degree from U.C. Berkeley. Felicia is passionate about informal learning through play and using art as a teaching tool. She founded &lt;a href=&quot;www.felittlepeople.com&quot; target=&quot;new&quot;&gt;The Felittle Group&lt;/a&gt; which empowers kids through art with positive messages.&lt;/p&gt;
-&lt;p&gt;Felicia will be working closely with Josh Sheldon on App Inventor education and outreach to the educator community.  She is a wonderful addition to the team and we look forward to her great contributions.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sun, 14 Dec 2014 18:10:24 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">565 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
