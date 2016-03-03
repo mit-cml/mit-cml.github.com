@@ -6,6 +6,27 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Altona Middle School Team Builds Diction Defender App</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/03</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver1.jpg&quot; align=&quot;right&quot; style=&quot;width: 30%; margin-left: 10px;&quot; /&gt;Last weekend, I had the pleasure of meeting the Altona Middle School team from Longmont, Colorado, who is one of the eight Best in Nation Verizon App Challenge winners. They were beginning their App Inventor training to learn the skills necessary to develop their app, Diction Defender, over the next few months. In the morning, MIT Master Trainer, Ann Root, took the students through the storyboarding process where the students designed the order and layout of the various app screens. The afternoon was spent working directly with App Inventor. Each student worked on a separate App Inventor tutorials, each with a different focus or feature. Then the students came together to share what they have learned with the group. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver2.jpg&quot; align=&quot;left&quot; style=&quot;width: 30%; margin-right: 10px;&quot; /&gt;&lt;br /&gt;
+The app is intended to help students become better writers by leading them through a game that features a series of grammar questions with increasing degrees of difficulty. The game theme is a journey through different landscapes on an island, with pitfalls if the user answers incorrectly. Their mentor and computer science teacher, Mollie Kelleher, a former English teacher, is helping the team with the grammar side of things. The game is highly visual, so the artistic abilities of team members will be a big part of the user interface. There are some tricky technical algorithms for the students to work out, but they appear to be up for the challenge.&lt;/p&gt;
+&lt;p&gt;
+The enthusiasm and energy was high as the students began what will be an intensive few months of development. In June, they will present their app at National TSA Conference in Nashville, Tennessee. It was a great experience to see this team in action and I look forward to seeing and playing Diction Defender in June. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/denver1.jpg?itok=ZhPKSd_0&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/denver2.jpg?itok=xck4EnbA&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 03 Mar 2016 17:33:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">712 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor program in Germany receives 250.000 € from Google.org</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/02/app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by Diana Knodel, AppCamps Germany&lt;/i&gt;&lt;/p&gt;

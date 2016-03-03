@@ -6,6 +6,27 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Altona Middle School Team Builds Diction Defender App</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/03</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver1.jpg&quot; align=&quot;right&quot; style=&quot;width: 30%; margin-left: 10px;&quot; /&gt;Last weekend, I had the pleasure of meeting the Altona Middle School team from Longmont, Colorado, who is one of the eight Best in Nation Verizon App Challenge winners. They were beginning their App Inventor training to learn the skills necessary to develop their app, Diction Defender, over the next few months. In the morning, MIT Master Trainer, Ann Root, took the students through the storyboarding process where the students designed the order and layout of the various app screens. The afternoon was spent working directly with App Inventor. Each student worked on a separate App Inventor tutorials, each with a different focus or feature. Then the students came together to share what they have learned with the group. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver2.jpg&quot; align=&quot;left&quot; style=&quot;width: 30%; margin-right: 10px;&quot; /&gt;&lt;br /&gt;
+The app is intended to help students become better writers by leading them through a game that features a series of grammar questions with increasing degrees of difficulty. The game theme is a journey through different landscapes on an island, with pitfalls if the user answers incorrectly. Their mentor and computer science teacher, Mollie Kelleher, a former English teacher, is helping the team with the grammar side of things. The game is highly visual, so the artistic abilities of team members will be a big part of the user interface. There are some tricky technical algorithms for the students to work out, but they appear to be up for the challenge.&lt;/p&gt;
+&lt;p&gt;
+The enthusiasm and energy was high as the students began what will be an intensive few months of development. In June, they will present their app at National TSA Conference in Nashville, Tennessee. It was a great experience to see this team in action and I look forward to seeing and playing Diction Defender in June. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/denver1.jpg?itok=ZhPKSd_0&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/denver2.jpg?itok=xck4EnbA&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 03 Mar 2016 17:33:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">712 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor Update February 25, 2016</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/02/mit-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/10I8wpwIyVs_TmupTdxoYEUN-zsqdniGqGALqQRGdqVU/pub&quot;&gt;&lt;br /&gt;
@@ -243,17 +264,6 @@ Tel: (852) 24482960&lt;/p&gt;
  <pubDate>Wed, 20 Jan 2016 14:51:32 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">692 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Russian Language App Inventor Education Site Launched</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2015/12-1</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by Boris Yarmakhov.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/BorisSquare.JPG&quot; style=&quot;float: left; margin-right: 2%; margin-bottom: 0.5em; width: 20%;&quot; hspace=&quot;”5”&quot; vspace=&quot;”1”&quot; /&gt;Mobile Apps Academy web site  - &lt;a href=&quot;http://appinvent.ru/&quot; target=&quot;_blank&quot;&gt;http://appinvent.ru&lt;/a&gt; was launched in Russia in December, 2015. The site is intended for Russian speaking school teachers who plan to teach development of Android apps with MIT App Inventor. The site contains manuals, presentations, lesson plans, a curriculum and media files, which a teacher might use to start teaching MIT App Inventor in their classroom. The materials can also be used by independent learners. Two initial cohorts of Russian teachers have already been instructed using the website materials. Several webinars and teacher training events were held this year and often was heard the question “What is next?” from teachers. So the Mobile Apps Academy website just announced a contest for Russian middle and high school students for the best app developed with MIT App Inventor. The contest committee will select the best project, taking into consideration its idea, design and code. If enough submissions are received, junior and senior subdivisions will be created. The deadline for submissions is May, 2016. The winner will receive a Samsung tablet as a prize.&lt;/p&gt;
-&lt;p&gt;В декабре 2015 г.  в России был запущен веб сайт Академия мобильных приложений - &lt;a href=&quot;http://appinvent.ru/&quot;&gt;http://appinvent.ru/&lt;/a&gt; . Сайт предназначен для школьных учителей и всех тех, кто хотят научиться разработке мобильных приложений для Android с помощью MIT App Inventor. На сайте находятся рекомендации, презентации, разработки уроков, учебная программа, а также мультимедийные файлы, необходимые для того, чтобы начать преподавать основы MIT App Inventor в школе. Две первые группы российских учителей уже прошли обучение на основе материалов сайта. Кроме того, на сайте можно найти информацию о конкурсе для российских школьников на разработку лучшего мобильного приложения для Android, созданного с помощью MIT App Inventor. Конкурс продлится до 15 мая 2016 года. Его победителя ждет планшет от компании Samsung.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 29 Dec 2015 16:04:06 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">689 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
