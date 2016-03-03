@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - Workshop</title>
+ <link>http://explore.appinventor.mit.edu/resource-type/workshop</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Magic 8-ball &amp; PaintPot Slides</title>
+ <link>http://explore.appinventor.mit.edu/resources/magic-8-ball-paintpot-slides</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT Students Tony Chen, Mitchell Kates, and Marcus Lowe created these slides for an App Inventor hackathon at a local community center. These slides include great images, descriptions, and helpful gifs.&lt;/p&gt;
+&lt;p&gt;Magic 8-Ball: &lt;a href=&quot;https://docs.google.com/presentation/d/11nDt5nwbe51txdNdAlX5bO03XMMNXSdMUmaKSAQwgac/edit#slide=id.gd2ac7880_025&quot;&gt;Link to Google Slides&lt;/a&gt;&lt;br /&gt;
+PaintPot: &lt;a href=&quot;https://docs.google.com/presentation/d/11nDt5nwbe51txdNdAlX5bO03XMMNXSdMUmaKSAQwgac/edit#slide=id.gd2ac7880_025&quot;&gt;Link to Google Slides&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Grade Level:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        6-8      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        9-12      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-difficulty-level field-type-taxonomy-term-reference field-label-inline clearfix view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Difficulty Level:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Basic      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Subject:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Computer Science      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Resource Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Tutorial      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Workshop      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Wed, 26 Jun 2013 20:46:02 +0000</pubDate>
+ <dc:creator>joanie</dc:creator>
+ <guid isPermaLink="false">339 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Empowering educators with Google&#039;s Android App Inventor: An online workshop in mobile app design</title>
+ <link>http://explore.appinventor.mit.edu/resources/empowering-educators-googles-android-app-inventor-online-workshop-mobile-app-design</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Authors: Yu-Chang Hsu, Kerry Rice, Lisa Dawley&lt;br /&gt;
+Published: British Journal of Educational Technology, Volume 43, Issue 1, pages E1–E5, January 2012&lt;/p&gt;
+&lt;p&gt;Abstract:&lt;br /&gt;
+Mobile devices, such as smartphones, are vastly gaining popularity (Johnson, Levine, Smith &amp;amp; Stone, 2010) because of their relatively strong computing capability built into small sizes, their Internet connectivity and the availability of various types and easy-to-use mobile software applications (“mobile apps”). It is estimated that by 2015, 80% of people accessing the Internet will do it through cell phones (Johnson, Smith, Willis, Levine &amp;amp; Haywood, 2011). Mobile technologies are now gaining increased attention and popularity across education sectors, which have led to innovation in mobile app design (Johnson et al, 2010).&lt;/p&gt;
+&lt;p&gt;Android OS has now caught up and led the mobile OS market within the US with 38.1% share (Haselton, 2011). Android OS has the advantage of being open-source, customizable and allows for multitasking. As of July 2011, there were 250 000 Android apps on the Android Market, with a total of 4.5 billion downloads (Wikipedia, 2011a). With the public release of App Inventor, building mobile apps without prior coding experiences is now a possibility.&lt;/p&gt;
+&lt;p&gt;In this report, the authors describe an introductory-level mobile app design workshop developed and offered over 6 weeks in Summer 2011. We also discuss the challenges and instructional implications derived from our experiences with this workshop.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-resource-url field-type-link-field field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Resource URL:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8535.2011.01241.x/abstract&quot;&gt;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8535.2011.01241.x/abstract&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Grade Level:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        9-12      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Undergraduate      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Master&amp;#039;s and Above      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-difficulty-level field-type-taxonomy-term-reference field-label-inline clearfix view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Difficulty Level:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Basic      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Subject:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Computer Science      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Resource Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Paper      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Workshop      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Wed, 29 Aug 2012 16:58:25 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">208 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>App Inventor Training for the Kentucky Academy of Technology Education</title>
+ <link>http://explore.appinventor.mit.edu/resources/app-inventor-training-kentucky-academy-technology-education</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;In response to interest in App Inventor from Kentucky’s Students Technology Leadership Program, the Kentucky Academy of Technology Education (KATE) hosted two, two day, App Inventor trainings. To demonstrate a range of App Inventor’s features in a manner inclusive to teachers of a variety of subjects and grade levels, I selected two topics that arise in all classrooms: classroom management and vocabulary building.&lt;/p&gt;
+&lt;p&gt;On day one a slight tweak to the Hello Purr app, commonly used as an introduction to App Inventor, enabled educators to build a basic classroom management application within an hour. From there participants were introduced to several common CS concepts and App Inventor features to enhance their classroom management applications.&lt;/p&gt;
+&lt;p&gt;The following day educators built an application that helps students keep track of new vocabulary words and definitions. Participants learned how to store and retrieve data with a TinyDB component, as well as how an activity starter can link an app directly to a website, such as an online dictionary.&lt;/p&gt;
+&lt;p&gt;Participants left the conference with at least three functional apps for their Android phones. Perhaps more importantly, they returned to their sites with ideas on how to utilize App Inventor to engage students and assist teachers.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-resource-url field-type-link-field field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Resource URL:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://docs.google.com/document/d/1L7PEy_NdiiRTfIIEADHTBTMYO-ifHIPD-WkzgvabaEk/edit&quot;&gt;https://docs.google.com/document/d/1L7PEy_NdiiRTfIIEADHTBTMYO-ifHIPD-WkzgvabaEk/...&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Grade Level:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Master&amp;#039;s and Above      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-difficulty-level field-type-taxonomy-term-reference field-label-inline clearfix view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Difficulty Level:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Basic      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Subject:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Computer Science      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Resource Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Workshop      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Sat, 12 May 2012 13:39:22 +0000</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">214 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>

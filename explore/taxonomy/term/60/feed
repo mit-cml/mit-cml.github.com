@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/tutorial-version/app-inventor-2</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Photo Booth App</title>
+ <link>http://explore.appinventor.mit.edu/ai2/photo-booth-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email. &lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub&quot;&gt;Go to Photo Booth app&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Camera      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 01 May 2015 02:28:06 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">584 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Oh My Spikes</title>
+ <link>http://explore.appinventor.mit.edu/ai2/oh-my-spikes</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial by Saj Dutta shows how to create a complete game from scratch.  The game is variant of the popular spikes games and uses App Inventor sprites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.imagnity.com/android/oh-my-spikes-create-a-game-from-scratch-using-app-inventor/&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Advanced      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Game      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Sat, 06 Sep 2014 16:38:08 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">556 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Sharing Component: send files and text with the app of your choice</title>
+ <link>http://explore.appinventor.mit.edu/ai2/file-sharing</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;In this &lt;strong&gt;3-minute video&lt;/strong&gt;, App Inventor Developer José Dominguez shows you how to use the File Sharing component to share text and/or files from your App Inventor app to any capable service on your device (e.g. Gmail, Twitter, G+, WhatsApp, Messaging, etc.).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/embed/fCdxtYj09Zw&quot; rel=&quot;lightframe[|width:760px; height:480px;]&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/file_sharing_screenshot.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        File Sharing      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Tue, 22 Apr 2014 16:02:53 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">505 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>QuizMe for App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/quizme</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/quizOnEmulator.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt; is a trivia game about baseball, but you can use it as a template to build quizzes on any topic. With &lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The user steps through a series of questions, clicking a button to proceed to the next question.&lt;/li&gt;
+&lt;li&gt;The user enters an answer for each question and the app reports whether each answer is correct or not.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;With &lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;, the quiz questions are always the same unless you, the programmer, change them. Later, you can create &lt;a href=&quot;/ai2/makequiztakequiz&quot;&gt;MakeQuiz &amp;amp; TakeQuiz&lt;/a&gt;, an app that lets users of the app create and modify the quiz questions.&lt;/p&gt;
+&lt;p&gt;This tutorial assumes you are familiar with the basics of App Inventor -- using the Component Designer to build a user interface, and using the Blocks Editor to specify event-handlers. If you are not familiar with the basics, try stepping through some of the &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;basic tutorials&lt;/a&gt; before continuing.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;QuizMe&quot;. Open the Blocks Editor and connect to the phone.&lt;/p&gt;
+&lt;p&gt;Also download the following pictures of baseball players and save them on your computer. Later, you&#039;ll load these images into your project.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/Larsenberra.jpg&quot;&gt;Larsenberra.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/dallasbraden.jpg&quot;&gt;Dallasbraden.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/cyyoung.jpg&quot;&gt;Cyyoung.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/nolanryan.jpg&quot;&gt;Nolanryan.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;You&#039;ll design the quiz game so that the user proceeds from question to question by clicking a Next button, and receives simple correct/incorrect feedback on each answer.&lt;/p&gt;
+&lt;p&gt;This tutorial introduces:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Defining and displaying lists of information.&lt;/li&gt;
+&lt;li&gt;Sequencing through a list using an index variable -- a variable that keeps track of a position in a list.&lt;/li&gt;
+&lt;li&gt;Conditional behaviors-- performing certain operations only when a condition is met.&lt;/li&gt;
+&lt;li&gt;Switching an image to show a different picture at different times.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;. When you finish, it should look something like the snapshot below (there are also more detailed instructions below the snapshot).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/designer.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To create this interface, first load the images you downloaded into the project. Click on the &quot;Upload File...&quot; button in the Media area and select one of the downloaded files (e.g., Larsenberra.jpg). Then do the same for the other three images.&lt;/p&gt;
+&lt;p&gt;Next, create the following components by dragging them from the Palette into the Viewer and et the properties of the components as described below:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Action
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;strong&gt;Image&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Image1&lt;/td&gt;
+&lt;td&gt;Set its &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;Larsenberra.jpg&quot;. This is the first picture that should appear.&lt;/td&gt;
+&lt;td&gt;The picture part of the question&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;QuestionLabel&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Question:&quot;&lt;/td&gt;
+&lt;td&gt;Displays the current question&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Organizes the AnswerPrompt and Text&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;AnswerPromptLabel&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Enter Answer:&quot;. On the Viewer screen, move this label into &lt;span style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/span&gt;.&lt;/td&gt;
+&lt;td&gt;Text prompting for an anwer&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;TextBox&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;AnswerText&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Hint&lt;/span&gt; to &quot;Please Enter an Answer&quot;. On the Viewer screen, move &lt;span style=&quot;color:green;&quot;&gt;AnswerText&lt;/span&gt; into &lt;span style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/span&gt;.&lt;/td&gt;
+&lt;td&gt;User will enter answer here.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;RightWrongLabel&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Correct/Incorrect&quot;.&lt;/td&gt;
+&lt;td&gt;Correct/Incorrect is displayed here.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Organizes the AnswerButton and NextButton&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;AnswerButton&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Submit&quot;. On the Viewer, move the button into &lt;span style=&quot;color:green;&quot;&gt;HorizontalArrangment2.&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;User clicks to submit an answer&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;NextButton&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Next&quot;. Move the button into &lt;span style=&quot;color:green;&quot;&gt;HorizontalArrangement2&lt;/span&gt;.&lt;/td&gt;
+&lt;td&gt;User clicks to proceed to the next answer&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h4&gt;
+&lt;p&gt;Open the Blocks Editor to add the behaviors for the app. First, you&#039;ll define two list variables, &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt; to hold the list of questions, and &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt; to hold the list of corresponding answers.&lt;/p&gt;
+&lt;p&gt;To define the two list variables, you&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Defines the &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt; variable (rename it)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Defines the &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt; variable (rename it)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;make a list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Used to insert the items of the &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;&quot;  &quot;&lt;/span&gt; (3 of them)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;The actual questions&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;make a list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Used to insert the items of the &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;&quot;  &quot;&lt;/span&gt; (3 of them)&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;The actual answers&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;You create global variables by dragging in a &lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt; block from the Variables drawer and double-clicking the default name &quot;name&quot; to change its name. The &lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt; block has a slot for the initial value of the variable. The variable can represent a number or text, or even a list, for which you can plug in a &lt;span class=&quot;listblock-ai2&quot;&gt;make a list&lt;/span&gt; block into the variable definition.&lt;/p&gt;
+&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/QuestionListAnswerList.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Define the Hidden Index Variable&lt;/h4&gt;
+&lt;p&gt;Each time the user clicks the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; to proceed through the quiz, the app needs to remember which question it is on. In programming, to remember something, you define a new variable.  In this case, the app needs to remember the current question number -- the index into the list &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;To create the variable &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;, you&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;initialize global name to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Defines the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; variable (rename it)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;0&lt;/span&gt; (1)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Set the initial value of &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; to 1 (renumber it)&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/index.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Display the first question&lt;/h4&gt;
+&lt;p&gt;To start, you&#039;ll ignore the answers and just work on the behavior to sequence through the questions. The desired behavior is the following: when the app starts, the first question should appear in the label named &lt;span style=&quot;color:green;&quot;&gt;QuestionLabel&lt;/span&gt;. When the user clicks the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt;, the second question should appear. When the user clicks again, the third should appear. When the last question is reached, clicking the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; should result in the first question once again appearing in the &lt;span color=&quot;color:green;&quot;&gt;QuestionLabel&lt;/span&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;With App Inventor, you select particular items in a list with the &lt;span class=&quot;listblock-ai2&quot;&gt;select list item&lt;/span&gt; block. The block asks you to specify the list and an index--a position in the list. If a list has three items, the indexes 1, 2, and 3 are valid.&lt;/pre&gt;&lt;p&gt;For &lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;, when the app starts, the app should choose the first question in the list and display it in the &lt;span style=&quot;color:green;&quot;&gt;QuestionLabel&lt;/span&gt; component.&lt;/p&gt;
+&lt;p&gt;For this app initialization behavior, you&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;when Screen1.Initialize&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Screen1&lt;/td&gt;
+&lt;td&gt;When the app begins, this event-handler is triggered.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set QuestionLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;QuestionLabel&lt;/td&gt;
+&lt;td&gt;Need to put the first question in &lt;span style=&quot;color:green;&quot;&gt;QuestionLabel&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Need to select the first question from &lt;span style=&quot;color:green;&quot;&gt;QuestionLabel&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;The list to select from. Select &quot;global QuestionList&quot;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;0&lt;/span&gt; (1)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Select the first question by using an index of 1. Set the value to be 1.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/screenInit.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
+&lt;p&gt;The &lt;span class=&quot;controlblock-ai2&quot;&gt;when Screen1.Initialize&lt;/span&gt; event is triggered when the app begins. The first item of the variable &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt; is selected and placed into &lt;span class=&quot;setcomponent-ai2&quot;&gt;set QuestionLabel.Text&lt;/span&gt;. So when the app begins, the user will see the first question.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong style=&quot;color:black;&quot;&gt;Test this behavior.&lt;/strong&gt; Click &lt;span style=&quot;color:black;&quot;&gt;Connect Phone&lt;/span&gt; if your phone is not already connected. What appears on the phone? If you created the &lt;span style=&quot;color:black;&quot;&gt;QuestionList&lt;/span&gt; as described above, the first item of &lt;span style=&quot;color:black;&quot;&gt;QuestionList&lt;/span&gt;, &quot;Who pitched a perfect game in the World Series?&quot;, should appear in the &lt;span style=&quot;color:black;&quot;&gt;QuestionLabel&lt;/span&gt;.&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Iterating Through the Questions&lt;/h4&gt;
+&lt;p&gt;Now program the behavior of the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt;. You&#039;ve already defined the &lt;span class=&quot;variableblock-ai2&quot;&gt;currentQuestionIndex&lt;/span&gt; to remember the question the user is on. When &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked, the app needs to increment this variable, e.g., change it from 1 to 2 or from 2 to 3, etc., and then use the resulting value to select the new &quot;current&quot; question. For this behavior, you&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;NextButton&lt;/td&gt;
+&lt;td&gt;When user clicks Next, this event-handler is triggered.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;set currentQuestionIndex to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Need to put the first question in &lt;span style=&quot;color:green;&quot;&gt;QuestionLabel&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; + &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;Used to increment &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentQuestionIndex&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;New value will be old value + 1&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;0&lt;/span&gt; (1)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;For the + 1&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set QuestionLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;QuestionLabel&lt;/td&gt;
+&lt;td&gt;Need to display the next question here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;Need to select the first question from &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global QuestionList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Plug into &lt;span style=&quot;color:green;&quot;&gt;list&lt;/span&gt; slot of call select list item&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentQuestionIndex&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;Plug into &lt;span style=&quot;color:green;&quot;&gt;index&lt;/span&gt; slot of call select list item, we want nth item&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/firstNext.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The first row of blocks increments the variable &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;. If &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; has a 1 in it, it is changed to 2. If it has a 2, it is changed to 3, and so on. Once the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; variable has been changed, the app uses it to select the &quot;current&quot; question.&lt;/p&gt;
+&lt;p&gt;Recall that in the &lt;span class=&quot;controlblock-ai2&quot;&gt;Screen.Initialize&lt;/span&gt; event-handler, the app selected the first question to display:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/selectFirst.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked, the app doesn&#039;t choose the first item in the list, or the 2nd or 3rd, it chooses the &lt;span class=&quot;variableblock-ai2&quot;&gt;currentQuestionIndex&lt;/span&gt;-th item.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/chooseCurrent.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The blocks are executed in a right-to-left manner. The app first evaluates the index parameter of &lt;span class=&quot;listblock-ai2&quot;&gt;select list item&lt;/span&gt;, which is the variable &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;. The number is stored in &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; is used as the index when the select list item is executed.&lt;/p&gt;
+&lt;p&gt;When the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked for the first time, the increment blocks will set &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; from 1 to 2, so the app will select the second item from &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;, &quot;who pitched the first perfect game of 2010?&quot;. The second time &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked, &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; will be set from 2 to 3, and the app will select the 3rd question in the list, &quot;who pitched the first perfect game of the modern era?&quot;&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong style=&quot;color:black;&quot;&gt;Test this behavior.&lt;/strong&gt; Test the behavior of the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; to see if the app is working correctly thus far. To test, play the role of the user and click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; on the phone. Does the phone display the second question, &quot;Who pitched the first perfect game of 2010?&quot; It should, and the third question should appear when you click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; again. If this is working, pat yourself on the back quickly, and then go on.
+
+Try clicking the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; again (a third time). You should see an error: &quot;Attempting to get item 4 of a list of length 3&quot;. The app has a bug-- do you know what the problem is?&lt;/pre&gt;&lt;p&gt;The problem with the app is that it always increments the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; variable when the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked.  When &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; is already 3 and the user clicks the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt;, the app changes &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; from 3 to 4, then calls select list item to get the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;-th , or in this case, the 4th item. Since there are only three items in the variable &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;, Android complains.&lt;/p&gt;
+&lt;p&gt;What the app needs to do is ask a question-- check a condition-- when the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked, and execute different blocks dependending on the answer. One way to ask the question is to ask, &quot;is the variable &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; already 3?&quot; If the answer is yes, you should set &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; back to 0 so the user is taken back to the first question.&lt;/p&gt;
+&lt;p&gt;You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;if then&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;To ask if user is on last question&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; = &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;to test if &lt;span class=&quot;listblock&quot;&gt;currentQuestionIndex&lt;/span&gt; is 3&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentQuestionIndex&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; 0 &lt;/span&gt; (3)&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;3 is number of items in the list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;set currentQuestionIndex to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;set to 0 to go back to first question&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt;0&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;set to 0 because next blocks will increment to 1&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The modified &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt; event-handler should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/nextif3.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the blocks work&lt;/h4&gt;
+&lt;p&gt;When the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked, the app first checks to see if &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; has a 3 in it. If it does, &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; is set back to 0 so that when 1 is added to it with the blocks below, it will be 1 and the quiz will loop back to display the first question. Note that only the blocks inset within the &lt;span class=&quot;controlblock-ai2&quot;&gt;if-then&lt;/span&gt; block are dependent on the condition-- the increment and set &lt;span class=&quot;setcomponent-ai2&quot;&gt;set QuestionLabel.Text to&lt;/span&gt; blocks are executed under all conditions.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;A Maintainable App: Making it Easy to Modify the Questions&lt;/h4&gt;
+&lt;p&gt;Next, you&#039;ll modify the app to make it easy to add and remove elements from the list. You&#039;ll rewrite the blocks so that they&#039;ll work on any list, not just one with exactly three items. To begin, add a fourth question to &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt; and another answer into &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt;. To do this, you will first need to expand the number of available slots by using the mutator. For more information on how to use the mutator, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/support/concepts/mutators&quot;&gt;click here&lt;/a&gt;. The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/listsWith4.png&quot; /&gt;&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong style=&quot;color:black;&quot;&gt;Test the modified app.&lt;/strong&gt; Click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; a number of times. You should see that the fourth question never appears, no matter how many times you click &lt;span style=&quot;color:black;&quot;&gt;Next&lt;/span&gt;.&lt;/pre&gt;&lt;p&gt;The problem is that the test to see if the user is on the last question is too specific: it asks if the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; variable is 3:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/if3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You could just change the number 3 to a 4, and the app would again work correctly. The problem with this solution, however, is that each time you modify the questions and answers, you also have to remember to make this change. Such dependencies in a computer program often lead to bugs, especially as an app grows in complexity. It&#039;s much better to set the program up so that it will work no matter how many questions there are. Such generality is even more important when the list you are working with changes dynamically, e.g., a quiz app that allows the user to add new questions.&lt;/p&gt;
+&lt;p&gt;The better solution is to ask the question in a more general way. You really want to know if the current question the user is on-- the value of &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; -- is as large as the number of items in &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;. If the app asks the question in this more general manner, it will work even when you add to or remove items from the &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;. To modify the &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt; event-handler you&#039;ll replace the previous test that referred directly to 3. You&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;length of list&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;asks how many items are in &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global QuestionList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;put into list slot of &lt;span class=&quot;listblock-ai2&quot;&gt;length of list&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Your &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt; event-handler should now appear as:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/nextWithLength.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The &lt;span class=&quot;controlblock-ai2&quot;&gt;if&lt;/span&gt; now compares the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; to the length of the &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt;. So if &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; has a 4 in it, and the length of the &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt; is 4, then the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; will be set to 0 (and then 1 after the increment operation in the first row of blocks after the if). Note that, because the blocks no longer refer to 3 or any specific size, the behavior will work no matter how many items are in the list.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong style=&quot;color:black;&quot;&gt;Test the modified behavior.&lt;/strong&gt; When you click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt;, does the app now sequence through the four questions, moving to the first one after the fourth?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Switching the Image for Each Question&lt;/h4&gt;
+&lt;p&gt;The current app shows the same image, no matter what question is being asked. You can change this so an image pertaining to each question appears when the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked. Earlier, you added four pictures as media for the project. Now, you&#039;ll create a third list, &lt;span style=&quot;color:green;&quot;&gt;PictureList&lt;/span&gt;, with the names of the image files as its items. and you&#039;ll modify the &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt; event-handler to switch the picture each time.&lt;/p&gt;
+&lt;p&gt;First, create a &lt;span style=&quot;color:green;&quot;&gt;PictureList&lt;/span&gt; and initialize it with the names of the image files. Be sure that the names are exactly the same as the names of the files that were loaded in to the media of the project. Here&#039;s how the blocks for the &lt;span style=&quot;color:green;&quot;&gt;PictureList&lt;/span&gt; should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/pictureList.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, you need to modify the &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt; event-handler so that it modifies the picture depending on what question the user is on. If you set the &lt;strong style=&quot;color:green;&quot;&gt;Image.Picture&lt;/strong&gt; property to a file name of an image that has been loaded, that image will appear. To modify &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.Click&lt;/span&gt;, you&#039;ll need the following blocks:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set Image1.Picture to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Image1&lt;/td&gt;
+&lt;td&gt;set this to change the picture&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;need to select the picture corresponding to current question&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global PictureList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;select a file name from this list&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentQuestionIndex&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;select the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;-th item&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Here is how the blocks should look:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/nextWithImageSwitch.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; serves as the index for the &lt;span style=&quot;color:green;&quot;&gt;QuestionList&lt;/span&gt; and the &lt;span style=&quot;color:green;&amp;gt;PictureList&amp;lt;/span&amp;gt;. When &amp;lt;span style=&quot; color:green=&quot;&quot;&gt;currentQuestionIndex&lt;/span&gt; is 1, the app selects the first question and the first picture. When &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; is 2, the app selects the second question and second picture. Of course this scheme depends on the lists being in sync and indeed they are. For instance, the first picture, LarsenBerra.jpg, is a picture of Don Larsen, and Don Larsen is the answer to the first question, &quot;Who pitched a perfect game in the World Series?&quot; Test the modified behavior. Does a different image appear each time you click the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt;?&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Evaluating Answers&lt;/h4&gt;
+&lt;p&gt;Next, you&#039;ll add blocks that report whether the user has answered a question correctly or not. The user enters the answer in &lt;span style=&quot;color:green;&quot;&gt;AnswerText&lt;/span&gt; and then clicks the &lt;span style=&quot;color:green;&quot;&gt;AnswerButton&lt;/span&gt;. The app must compare the user&#039;s entry with the answer to the &quot;current&quot; question, using an &lt;span class=&quot;controlblock-ai2&quot;&gt;if then&lt;/span&gt; block to check. The &lt;span style=&quot;color:green;&quot;&gt;RightWrongLabel&lt;/span&gt; should be modified to report whether or not the answer is correct. You&#039;ll need the following blocks for this behavior:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;when AnswerButton.Click&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;AnswerButton&lt;/td&gt;
+&lt;td&gt;the behavior is triggered when user clicks the &lt;span style=&quot;color:green;&quot;&gt;AnswerButton&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;if then&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Control&lt;/td&gt;
+&lt;td&gt;Use the mutator to add an else. If answer is correct, do one thing, else do another&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;mathblock-ai2&quot;&gt; = &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Math&lt;/td&gt;
+&lt;td&gt;to ask if answer is correct&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;getcomponent-ai2&quot;&gt;AnswerText.Text&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;AnswerText&lt;/td&gt;
+&lt;td&gt;the user&#039;s answer is in this textbox&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;listblock-ai2&quot;&gt;select list item&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Lists&lt;/td&gt;
+&lt;td&gt;to select the current answer from &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global AnswerList&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;The list to select from&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;variableblock-ai2&quot;&gt;get global currentQuestionIndex&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Variables&lt;/td&gt;
+&lt;td&gt;the question number (and answer number) the user is on&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set RightWrongLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;RightWrongLabel&lt;/td&gt;
+&lt;td&gt;report the answer here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;&quot; &quot;&lt;/span&gt; &quot;Correct!&quot;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;if answer is right&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set RightWrongLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;RightWrongLabel&lt;/td&gt;
+&lt;td&gt;report the answer here&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;&quot; &quot;&lt;/span&gt; &quot;Incorrect&quot;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;if answer is wrong&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/answerButton.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;The &lt;span class=&quot;controlblock-ai2&quot;&gt;if&lt;/span&gt; test reads, &quot;is the user&#039;s answer (&lt;strong style=&quot;color:green;&quot;&gt;AnswerText.Text&lt;/strong&gt;) equal to the &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt;-th item in the &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt;?&quot; If &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; is 1, the app will compare the user&#039;s answer with the first item in &lt;span style=&quot;color:green;&quot;&gt;AnswerList&lt;/span&gt;, &quot;Don Larsen&quot;. If &lt;span style=&quot;color:green;&quot;&gt;currentQuestionIndex&lt;/span&gt; is 2, the app will compare the user&#039;s answer with the second answer in the list, &quot;Dallas Braden&quot;, and so on. If the test result is positive, the &lt;span class=&quot;controlblock-ai2&quot;&gt;then&lt;/span&gt; blocks are executed and the &lt;span style=&quot;color:green;&quot;&gt;RightWrongLabel&lt;/span&gt; is set to &quot;Correct!&quot;. If the test is false, the &lt;span class=&quot;controlblock-ai2&quot;&gt;else&lt;/span&gt; blocks are executed and the &lt;span style=&quot;color:green;&quot;&gt;RightWrongLabel&lt;/span&gt; is set to &quot;Incorrect&quot;.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong style=&quot;color:black;&quot;&gt;Test the modified app.&lt;/strong&gt; Try answering one of the questions. It should report whether or not you answered the question exactly as is specified in the &lt;span style=&quot;color:black;&quot;&gt;AnswerList&lt;/span&gt;. Test with both a correct and incorrect answer (because text is being compared, the test is case-sensitive).
+
+Click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; and answer a second question. Does it still work? It should, but you might notice that when you click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt;, the &quot;correct&quot;/&quot;incorrect&quot; text and the previous answer are still there. Though it&#039;s fairly innocuous, such user interface issues will definitely be noticed by the users of your app.&lt;/pre&gt;&lt;p&gt;To blank out the &lt;span style=&quot;color:green;&quot;&gt;RightWrongLabel&lt;/span&gt; and the &lt;span style=&quot;color:green;&quot;&gt;AnswerText&lt;/span&gt;, you&#039;ll put the following blocks within the &lt;span class=&quot;controlblock-ai2&quot;&gt;when NextButton.click&lt;/span&gt; event-handler:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Block Type&lt;/td&gt;
+&lt;td&gt;Drawer&lt;/td&gt;
+&lt;td&gt;Purpose&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set RightWrongLabel.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;RightWrongLabel&lt;/td&gt;
+&lt;td&gt;the label to blank out&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;When &lt;span style=&quot;color:green;&quot;&gt;Next&lt;/span&gt; is clicked, erase old answer critique&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;setcomponent-ai2&quot;&gt;set AnswerText.Text to&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;AnswerText&lt;/td&gt;
+&lt;td&gt;the user&#039;s answer from previous question&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;When &lt;span style=&quot;color:green;&quot;&gt;Next&lt;/span&gt; is clicked, erase old answer&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The blocks should look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/nextButtonFinal.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;How the Blocks Work&lt;/h4&gt;
+&lt;p&gt;When the &lt;span style=&quot;color:green;&quot;&gt;NextButton&lt;/span&gt; is clicked, the user is moving on to the next question, so the top two rows of the event-handler blank out the &lt;span style=&quot;color:green;&quot;&gt;RightWrongLabel&lt;/span&gt; and the &lt;span style=&quot;color:green;&quot;&gt;AnswerText&lt;/span&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-testing&quot;&gt;&lt;strong style=&quot;color:black;&quot;&gt;Test this behavior.&lt;/strong&gt; Answer a question and click &lt;span style=&quot;color;black;&quot;&gt;Submit&lt;/span&gt;, then click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt;. Does your previous answer and the apps critique disappear?&lt;/pre&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Final Program&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;! Final Version:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/quizmeFinal.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Package the final version of the app by choosing &lt;strong&gt;Build | App (provide QR code for .apk)&lt;/strong&gt; from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;p&gt;Once you get a quiz working, you might want to explore some variations. For example,&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Instead of just showing images for each question, try playing a sound clip or a short video. With sound, you can turn your quiz app into a &lt;span style=&quot;color:green;&quot;&gt;Name That Tune&lt;/span&gt; app.&lt;/li&gt;
+&lt;li&gt;The quiz is very rigid in terms of what is accepted as a valid answer. There are a number of ways to modify this. One is to use the text.contains block to see if the user&#039;s answer is contained in the actual answer. Another is to provide multiple answers for each question, and check by iterating (using &lt;span class=&quot;controlblock-ai2&quot;&gt;for each&lt;/span&gt;) through them to see if any match.&lt;/li&gt;
+&lt;li&gt;Transform the quiz so that it is multiple-choice. The list of answers will need to be a list of lists, with each sub-list holding the answer choices. Use the &lt;strong&gt;ListPicker&lt;/strong&gt; component to allow the user to choose an answer.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Apps can be written in a general manner so that they work with any data list.&lt;/li&gt;
+&lt;li&gt;Index variables are used to track the current position within a list. When you increment them, be careful about reaching the end of the list.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app. (or tap on the barcode if you&#039;re viewing this webpage on an Android device)
+&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/QuizMe/QuizMe_MIT.apk&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/QuizMe/QuizMeBarcode.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/QuizMe/QuizMe_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;Project | Import project (.aia) from my computer ...&lt;/b&gt;.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with &lt;span style=&quot;color:black;&quot;&gt;QuizMe&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;style&gt;&lt;/style&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Mon, 14 Apr 2014 17:33:28 +0000</pubDate>
+ <dc:creator>emily_c</dc:creator>
+ <guid isPermaLink="false">504 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>No Text While Driving for AI2</title>
+ <link>http://explore.appinventor.mit.edu/no-text-while-driving-ai2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img style=&quot;float:right;width:25%;height:25%&quot; src=&quot;http://www.appinventor.org/apps2/notext/hero.png&quot; /&gt;&lt;br /&gt;
+This tutorial, available on our partner site Appinventor.org, will demonstrate how to respond to an incoming text by sending an automatic text response, and also using Text-to-Speech to read the message out loud. &lt;/p&gt;
+&lt;p&gt;The following link will open a new window and take you away from MIT&#039;s site.&lt;br /&gt;&lt;a href=&quot;http://www.appinventor.org/notext-steps&quot;&gt;http://www.appinventor.org/notext-steps&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        SMS Texting      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Tue, 08 Apr 2014 18:10:12 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">502 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Exploring with Location Sensor in AI2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/location-sensor</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Advanced      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Location Sensor      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        GPS      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Sat, 22 Mar 2014 14:38:17 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">498 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Map It: Displaying Locations on a Google Map</title>
+ <link>http://explore.appinventor.mit.edu/displaying-maps</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. &lt;strong&gt;For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial introduces:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;List manipulation – creating lists, appending items to lists&lt;/li&gt;
+&lt;li&gt;ListPicker – adding items to lists, saving list data&lt;/li&gt;
+&lt;li&gt;LocationSensor – detecting current location for displaying on Google Maps&lt;/li&gt;
+&lt;li&gt;ActivityStarter – used to start-up Google Maps for current or predefined address&lt;/li&gt;
+&lt;li&gt;Notifier – displaying messages&lt;/li&gt;
+&lt;li&gt;TinyDB – saving data into a persistent database&lt;/li&gt;
+&lt;li&gt;Misc. – text manipulation, basic validation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;We will be working toward the design shown in figure blow:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/design.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The figure below shows how the components are arranged in the design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier) that are used in the app.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/mapItDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Blocks&lt;/h4&gt;
+&lt;p&gt;We define 2 global variables.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;tagAddress&lt;/em&gt; – a variable that is a constant and will be used, as a tag, for storing and retrieving data from our database.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;listLocations&lt;/em&gt; – a variable that can be used to store and manipulate list of addresses.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;We now create a procedure that can be invoked when the app is started (initialized). The procedure sets up the initial state of some of the components. Some of these settings could have been done from the design editor, but for demo purpose and clarification, we are using a procedure. In the procedure, we also check our database to find out if there are any stored addresses. If no data, then we just use an empty list.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/InitializeScreen1blocks.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Adding a New Addresses&lt;/h4&gt;
+&lt;p&gt;We use AddLocationButton to add a new address, CancelButton to cancel the process of adding, and LocationHelpButton to display what type of addresses can be entered. The blocks to make these actions work are here:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/AddingNewAddresses.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When AddLocationButton is clicked, we make our address data entry visible (using screen arrangement), allowing user to enter address. If user clicks on Cancel, we make the arrangement hidden again. Using this approach, we keep the screen simple and avoid the clutter. We also provide the SubmitButton to allow the user to indicate that they want to store data.&lt;/p&gt;
+&lt;p&gt;When the user clicks on SubmitButton, we perform basic validation to ensure data has been submitted. If validation does not pass, we display an error message. Otherwise, we invoke a procedure that appends the new address to our list. We also store the updated list into our database. Once address is added, we hide our arrangement again.  The blocks below show how this logic is done:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/SubmittingNewAddresses.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Selecting an Addresses&lt;/h4&gt;
+&lt;p&gt;When the user clicks on ListPicker1 ‘Select Location’ and selects an address, this action calls the blocks below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/ListPicker1AfterPicking.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This displays the address in the device and allow the user to tap on ViewOnMapButton to see the blocks selected address on the Google Map — see the figure below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/SelectAddress.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When ViewOnMapButton is clicked, we validate to ensure that an address already has been selected. If not, an error message is displayed. Otherwise, we use blocks below to show address:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/ViewOnMapBlocks.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The above blocks will open the map and the output will be like image below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/Map.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Viewing Current Location On the Map&lt;/h4&gt;
+&lt;p&gt;We have dropped in a button, MyLocationButton ‘My location On the Map’ that can be clicked to view one&#039;s current location. It will use &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/MyLocationButtonBlocks.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/mapIt/MapIt_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Advanced      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        ListPicker      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Data Storage      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Activity Starter      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        External API      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Location Sensor      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        GPS      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Thu, 27 Feb 2014 14:16:47 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">487 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Android, Where&#039;s My Car? for App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/android-wheres-my-car</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/tutorials/wheresMyCar/wheresMyCar.zip&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/android-where.jpg&quot; style=&quot;float:right; width:250px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You parked somewhere near the stadium, but when the concert ends you don&#039;t have a clue where the car is. The friends you came with are equally as clueless.&lt;/p&gt;
+&lt;p&gt;Fortunately you haven&#039;t lost your Android phone that never forgets anything, and you remember you have the hot new app, &lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;. With this app, you click a button when you park your car, and the Android uses its location sensor to record the car&#039;s GPS coordinates and address. Later, when you reopen the app, it shows you a map from where you are to the remembered location-- problem solved!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dailylifeofmojo/4128596089/&quot;&gt;Photo&lt;/a&gt; licensed under &lt;a href=&quot;http://creativecommons.org/licenses/by/2.0/deed.en&quot;&gt;Creative Commons&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;The app demonstrates how to communicate with the Android location sensor, how to record data in the phone&#039;s long-term memory (database), and how you can open the Google Maps app from your app to show directions from one one location to another. It makes use of the following App Inventor components:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;Location Sensor&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;TinyDB&lt;/b&gt; -- to store the data&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;ActivityStarter&lt;/b&gt; -- to open a map&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The User Interface&lt;/h4&gt;
+&lt;p&gt;Here are the components for the &lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt; app, as shown in the Component Designer:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/WheresMyCarDesign.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The user interface consists of labels to show location data and buttons to initiate events. Some labels just show static text, e.g., GPSLabel is the text &quot;GPS:&quot; that appears in the user interface. Others, such as CurrentLatLabel, will display dynamic data one the location sensor gets its readings. For these labels, a default value is set (0) here in the Component Designer.&lt;/p&gt;
+&lt;p&gt;The ActivityStarter1 component is used to launch the map when the user asks for directions. Its properties are only partially shown above. Here is how they should be specified:&lt;/p&gt;
+&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Property&lt;/td&gt;
+&lt;td&gt;Value&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;Action&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;android.intent.action.VIEW&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;ActivityClass&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;com.google.android.maps.MapsActivity&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;ActivityPackage&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;com.google.android.apps.maps&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The App&#039;s Behavior&lt;/h4&gt;
+&lt;p&gt;Here are the blocks for the &lt;span style=&quot;color: green;&quot;&gt;Android, Where&#039;s My Car&lt;/span&gt; app (the yellow annotations will also appear when you load this app into App Inventor):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/WheresMyCarBlocks.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Let&#039;s examine the four different event-handlers of the app, starting in the top-left and working around in counter-clockwise order.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;LocationSensor1.LocationChanged&lt;/span&gt;: This event occurs when the phone&#039;s location sensor first gets a reading, or when the phone is moved to produce a new reading. The event-handler just places the readings--latitude, longitude, and current (street) address-- into the corresponding &quot;Current&quot; labels so that they appear on the phone. The RememberButton is also enabled in this event-handler. Its enabled setting should be unchecked in the Component Designer because there is nothing for the user to remember until the sensor gets a reading.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;RememberButton.Click&lt;/span&gt;: When the user clicks the RememberButton , the location sensor&#039;s current readings are put into the &quot;remember&quot; labels and stored to the database as well. The DirectionsButton is enabled as it now makes sense for the user click on it to see a map (though it will make more sense once the user changes location).&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;DirectionsButton.Click&lt;/span&gt;: When the user clicks the DirectionsButton , the event-handler builds a URL for a map and calls ActivityStarter to launch the Maps application and load the map. &lt;span class=&quot;textblock-ai2&quot;&gt;join&lt;/span&gt; is used to build the URL to send to the Maps application. The resulting URL consists of the Maps domain along with two crucial parameters, saddr and daddr , which specify the start and destination for the directions. For this app, the saddr is set to the latitude and longitude of the current location, and the daddr is set to the latitude and longitude of the location that was &quot;remembered&quot; (the location of your car!).&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;Screen1.Initialize&lt;/span&gt;: This event is always triggered when an app opens. To understand it, you have to envision the user recording the location of the car, then closing the app, then later re-opening the app. When the app re-opens, the user expects that the location remembered earlier should appear on the phone. To facilitate this, the event-handler queries the database (&lt;span class=&quot;callblock-ai2&quot;&gt;call TinyDB.GetValue&lt;/span&gt;). If there is indeed a remembered address stored in the database-- the length of the stored address is greater than zero--the remembered latitude, longitude, and street addres are placed in the corresponding labels.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Create &quot;Android, Where is Everyone?&quot;, an app that lets a group of people track each other&#039;s whereabouts. Whether your hiking or at the park, this app could help save time and even lives.&lt;/li&gt;
+&lt;li&gt;Create a &quot;breadcrumb&quot; app that tracks your (phone&#039;s) whereabouts by recording each location change. One interesting refinement would be to only record a new &quot;breadcrumb&quot; if the location has changed by a certain amount.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
+&lt;p&gt;Lines and paragraphs break automatically.&lt;/p&gt;
+&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The &lt;b&gt;LocationSensor&lt;/b&gt; component can report the phone&#039;s latitude, longitude, and current street address. Its LocationChanged event is triggered when sensor gets its first reading and when the reading changes (the phone has moved).&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;ActivityStarter&lt;/b&gt; component can launch any app including Google Maps. For Maps, you set the DataUri property to the URL of the map you want to display. If you want to show directions, the URL will be of the form: &lt;a href=&quot;http://maps.google.com/maps/?saddr=0.1,0.1&amp;amp;daddr=0.2,0.2&quot;&gt;http://maps.google.com/maps/?saddr=0.1,0.1&amp;amp;daddr=0.2,0.2&lt;/a&gt;, where the numbers are GPS coordinates.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;join&lt;/span&gt; is used to piece together (concatenate) separate text items into a single text object. It allows you to concatenate dynamic data with static text. With the Maps URL, the GPS coordinates are the dynamic data.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;TinyDB&lt;/b&gt; allows you to store data persistently in the phone&#039;s database. Whereas the data in a variable or property is lost when an app closes, the data you store in the database can be loaded into your app each time it is opened.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/wheresMyCar/AndroidBarcode.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/wheresMyCar/AndroidWheresMyCar_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch7AndroidWhere.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Advanced      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Activity Starter      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Data Storage      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        GPS      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Mon, 24 Feb 2014 21:59:40 +0000</pubDate>
+ <dc:creator>emily_c</dc:creator>
+ <guid isPermaLink="false">486 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>NFC Cup Game for AI2</title>
+ <link>http://explore.appinventor.mit.edu/ai2/cup-game</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt; This tutorial will demonstrate App Inventor&#039;s Near Field Communication (NFC) capabilities. You&#039;ll build an application that will simulate the shell game by writing messages to NFC tags in setup mode and reading them in play mode. In order to get the full experience from this application, you will need to purchase readable, writable, NFC tags. &lt;/p&gt;
+&lt;pre class=&quot;ai-box&quot;&gt;IMPORTANT: Applications built with the NFC component will not respond to tags while in live development mode. &lt;strong&gt;To test your application, you must build your app and download the APK to your phone&lt;/strong&gt;. (&lt;a href=&quot;/ai2/share&quot;&gt;How do I build an APK?&lt;/a&gt;)&lt;/pre&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Go to the App Inventor website, begin a new project titled &#039;BallShuffle&#039;, and connect your phone. Download the following images onto your computer and upload them into your project. (Right-click or ctrl-click and choose Save Image. Remember where you put them!)&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg&quot; target=&quot;blank&quot;&gt;Ping Pong Ball Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png&quot; target=&quot;blank&quot;&gt;Question Mark Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg&quot; target=&quot;blank&quot;&gt;Red Cup Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h2&gt;
+&lt;p&gt;The user interface will consist of a menu at the top that lets you switch between the “setup” and “play” modes, a menu that will appear during setup mode and disappear during play mode, and in image that will change based on NFC input and output.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcComponentSetup.png&quot; /&gt;&lt;/p&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr style=&quot;background-color:#EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component Type&lt;/td&gt;
+&lt;td&gt;Palette Group&lt;/td&gt;
+&lt;td&gt;What You&#039;ll Name It&lt;/td&gt;
+&lt;td&gt;Purpose of Component&lt;/td&gt;
+&lt;td&gt;Component Settings&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;MainMenuLabel&lt;/td&gt;
+&lt;td&gt;Title bar for main menu&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Main Menu; &lt;span class=&quot;ButtonText&quot;&gt;Font&lt;/span&gt;: Bold; &lt;span class=&quot;ButtonText&quot;&gt;Fontsize&lt;/span&gt;: 16&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;MainMenuArrangement&lt;/td&gt;
+&lt;td&gt;Line up two &quot;mode&quot; buttons side by side&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Automatic&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupModeButton&lt;/td&gt;
+&lt;td&gt;Change to setup mode&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Setup; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;PlayModeButton&lt;/td&gt;
+&lt;td&gt;Change to play mode&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Play; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;VerticalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupArrangement&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;VerticalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupMenuArrangement&lt;/td&gt;
+&lt;td&gt;Line up the setup menu options&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupMenuLabel&lt;/td&gt;
+&lt;td&gt;Title bar for setup menu&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: SetupMenu; &lt;span class=&quot;ButtonText&quot;&gt;Font&lt;/span&gt;: Bold&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;SetupButtonArrangement&lt;/td&gt;
+&lt;td&gt;Hold the buttons for setup menu&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;BallButton&lt;/td&gt;
+&lt;td&gt;Lets user define NFC tag as &quot;ball&quot;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Ball; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;CupButton&lt;/td&gt;
+&lt;td&gt;Lets user define NFC tag as &quot;cup&quot;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Cup; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;InstructionLabel&lt;/td&gt;
+&lt;td&gt;Give the user instructions for the mode they are in&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: -; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Image&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;Image1&lt;/td&gt;
+&lt;td&gt;Place holder for images&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: 200 pixels; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt;: questionmark.png&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Horizontal Arrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;ImageArrangement&lt;/td&gt;
+&lt;td&gt;Allows you to center the image&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;AlignHorizontal&lt;/span&gt;: Center; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;ResultsLabel&lt;/td&gt;
+&lt;td&gt;Show results of user&#039;s actions&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: -; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;NearField&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Sensors&lt;/td&gt;
+&lt;td style=&quot;color:green&quot;&gt;NearField1&lt;/td&gt;
+&lt;td&gt;Gives access to NFC capabilities&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;ReadMode&lt;/span&gt;: checked;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h2&gt;
+&lt;p&gt;We&#039;re going to build all of the menus and make the menus work, then we&#039;ll modify them to incorperate the NearField component.&lt;/p&gt;
+&lt;p&gt;To start, we&#039;re going to create several variables to make it easier to reference text that will be reused throughout the application:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next we&#039;re going to define the initialization behavior and define the button behavior:&lt;/p&gt;
+&lt;p&gt;When the screen is initialized, we want the app to display the question mark picture and the setup instructions. Since the SetupMenuArrangement is initially set to visible, we don&#039;t have to address it in the Screen1.Initialize block. When the user clicks on the SetupModeButton or on the PlayModeButton, then we want to change the SetupMenuArrangement to visible or invisible respectively. In addition, when the user clicks one of these two buttons, we want to make sure that the correct instructions for that mode is displayed and that the image resets to the question mark picture. When the user clicks on BallButton, we want the image to a change picture of the ball and the CupButton should change the image to a picture of the cup. &lt;/p&gt;
+&lt;p&gt; The blocks should look like the image below and the buttons should correctly toggle all of the images&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now that the interface works correctly, we&#039;re going to add the NFC functionality to the app. We&#039;re going to modify the 5 blocks by adding the correct NFC behavior to each one. This will make the buttons turn on read mode when the &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now, we define the app&#039;s behavior when a tag is written. When the app writes a tag, we want the the instructions to update, we want the picture to reset, and we want to change NearField1.ReadMode to true so that the tag isn&#039;t accidentally overwritten.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Finally, we&#039;re going to define the tag read block which contains the majority of the logic for the app. If the app is in play mode and it reads a tag that says &quot;ball,&quot; then it will display the victory message and show a picture of a ball. If it reads &quot;cup,&quot; then it will display the loss message and show a picture of a cup. Finally, if it doesn&#039;t recognize the message, it will display an error message and append the message to the end.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; Finally, here&#039;s a screen shot of the entire completed app &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/nfccupgame/cup_game.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;CupGame&lt;/span&gt;? Return to to the other App Inventor 2 tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Advanced      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        NFC (Near Field Comm.)      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Game      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 07 Feb 2014 22:43:37 +0000</pubDate>
+ <dc:creator>michaelphox</dc:creator>
+ <guid isPermaLink="false">473 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Space Invaders</title>
+ <link>http://explore.appinventor.mit.edu/ai2/space-invaders</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+.ButtonText {
+color:green;
+font-weight: bold;
+}
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/app.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt; By building the &lt;span style=&quot;color:green;&quot;&gt;Space Invaders App&lt;/span&gt; you will get practice with using Clock components and Timers, using Animation components such as Image Sprites and the Canvas, setting visibility, and detecting collisions in App Inventor. You&#039;ll program an application that has a shooter ship whose goal is to shoot all the flying saucers on the screen.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
+&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;SpaceInvaders&quot;. Connect to a device or emulator.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;This tutorial introduces the following skills, useful for future game development:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Using the Clock component&lt;/li&gt;
+&lt;li&gt;Using Clock.Timer to move sprites&lt;/li&gt;
+&lt;li&gt;Using Sprite.Flung to move a sprite &lt;/li&gt;
+&lt;li&gt;Using collision detection&lt;/li&gt;
+&lt;li&gt;Setting visibility of sprites&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Getting Ready&lt;/h4&gt;
+&lt;p&gt;For this game, you will have two types of sprites: an imagesprite represented by a shooter ship and flying saucers represented by a ball sprite. Click below to download the image files for your rocket ship sprite and flying saucer sprite.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/rocket.png&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/rocket.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/saucer.png&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/saucer.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
+&lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/SpaceInvadersDesigner.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer and set the properties of the components as described below:&lt;/p&gt;
+&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
+Component Type
+&lt;/td&gt;
+&lt;td&gt;
+Palette Group
+&lt;/td&gt;
+&lt;td&gt;
+What you&#039;ll name it
+&lt;/td&gt;
+&lt;td&gt;
+Purpose of Component
+&lt;/td&gt;
+&lt;td&gt;
+Action
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Canvas&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Drawing and Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
+&lt;td&gt;The background that we will be putting our sprites on&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt; property to &quot;Fill parent&quot; and &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt; property to 300. Set the &lt;span class=&quot;ButtonText&quot;&gt;BackgroundColor&lt;/span&gt; property to Black.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Drawing and Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;RocketSprite&lt;/td&gt;
+&lt;td&gt;The rocket ship in our game&lt;/td&gt;
+&lt;td&gt;Upload the rocketship image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;rocket.png&quot;. Set the &lt;span class=&quot;ButtonText&quot;&gt;Y&lt;/span&gt; property to 230. This will place the rocket at the bottom of the canvas.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Drawing and Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;SaucerSprite&lt;/td&gt;
+&lt;td&gt;The flying saucer in our game&lt;/td&gt;
+&lt;td&gt;Upload the saucer image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;saucer.png&quot;.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;BallSprite&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Drawing and Animation&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Bullet&lt;/td&gt;
+&lt;td&gt;The bullet from the rocket ship.&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;PaintColor&lt;/span&gt; to Green and set the &lt;span class=&quot;ButtonText&quot;&gt;Radius&lt;/span&gt; property to 8.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Clock&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
+&lt;td&gt;We use the Clock for its Timer method to move the the saucer&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; property to 3000.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Horizontal Arrangement&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Layout&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
+&lt;td&gt;To contain Label1 and ScoreLabel &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;Label1&lt;/td&gt;
+&lt;td&gt;To contain the word &quot;Score: &quot;&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Score: &quot;.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/td&gt;
+&lt;td&gt;To contain the current numerical score&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;0&quot;.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;User Interface&lt;/td&gt;
+&lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
+&lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
+&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Reset&quot;.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Now that you have all the essential properties configured, feel free to change the colors of any components that you want to.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Moving the rocket &lt;/h4&gt;
+&lt;p&gt;In this game, the user will move the rocket from side to side. This means we will only be changing the X-direction of the rocket sprite. To do this we will use the &lt;span class=&quot;eventblock&quot;&gt;RocketSprite.Dragged&lt;/span&gt; event handler. When the rocket is dragged, we will adjust it&#039;s X property to be the currentX that we dragged the sprite to.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/rocketdragged.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once you put these blocks together, connect your phone and test this feature out!&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Programming the Bullet&#039;s Behavior&lt;/h4&gt;
+&lt;p&gt;There are several features we want our bullet to have in this game. We want it to shoot from the rocket, collide with the saucer, and be invisible after the collision and before being shot.&lt;/p&gt;
+&lt;p&gt;Let&#039;s start by using the &lt;span class=&quot;eventblock&quot;&gt;Screen1.initialize&lt;/span&gt; block. When the screen is initialized, we will program the bullet to be invisible. We do this by setting the bullet&#039;s visibility property to False.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/invisiblebullet.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, we want to make sure that the bullet appears again when we shoot from the rocket. When we touch the rocket, we want the bullet to start heading towards the saucer. We will do this by using the &lt;span class=&quot;eventblock&quot;&gt;RocketSprite.Touched&lt;/span&gt; event handler. When the rocket is touched, we not only want to set the rocket to be visible, but we also want to set the speed and heading of the rocket. Heading is a value from 0 to 360 that indicates what direction the sprite should be moving towards. 0/360 is to the left, 90 is up, 180 is right, and 270 is down. The speed is measured in pixels/sec.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/usingthebullet.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The last thing we need to program is what happens when the bullet hits the saucer. We will use the &lt;span class=&quot;eventblock&quot;&gt;Bullet.CollidedWith&lt;/span&gt; event handler. This event is called whenever the bullet collides with another sprite. Since our rocket sprite is locked into a Y at the bottom of the screen, the bullet will never collide with the rocket and only with the saucer. On collision we want two things to happen. 1. The score should increase by 1. 2. The bullet should become invisible.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/bulletcollides.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you have started testing this game out, you may have noticed that once you shoot the bullet, it doesn&#039;t appear to let you shoot it again. We need to program the bullet to return to the place in front of the rocket when we shoot it. We can do this using the &lt;span class=&quot;callblock&quot;&gt;Bullet.MoveTo&lt;/span&gt; block.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/movebullet.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now, test it out!&lt;/p&gt;
+&lt;p&gt;You may have noticed that if you miss the saucer, the bullet moves to the top of the screen and gets stuck there until you try shooting again. To make the bullet disappear when it hits the top edge of our canvas, we need to use the &lt;span class=&quot;eventblock&quot;&gt;Bullet.EdgeReached&lt;span&gt; event handler.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/edgereached.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Programming the Reset Button&lt;/h4&gt;
+&lt;p&gt;Sometimes, users might want to restart the game and reset their score. When this happens, we need to set the score back to 0.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/resetscore.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Increasing the Difficulty -- Changing the Position of the Saucer&lt;/h4&gt;
+&lt;p&gt;Let&#039;s make the game a little more challenging! Now, when the bullet collides with the saucer, let&#039;s change the location of the saucer. The saucer will keep the same Y value so we&#039;ll only have to change the X. We can do this by using the random block.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/movesaucer.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To make it even more difficult, we&#039;ll also change the position of the saucer when the Timer goes off.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/timer.png&quot; /&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Complete Program&lt;/h4&gt;
+&lt;p&gt;Here&#039;s the complete &lt;strong&gt;SpaceInvaders&lt;/strong&gt; program.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/completeprogram.png&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Sprites      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item odd&quot;&gt;
+        Drawing Canvas      &lt;/li&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Game      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 31 Jan 2014 22:18:58 +0000</pubDate>
+ <dc:creator>joanie</dc:creator>
+ <guid isPermaLink="false">466 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>
