@@ -6,6 +6,15 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Major computational thinking research project and new MIT staff positions</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/03/major</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1sN9A7hMLCgXX42eWXWfqikGayFirawvZAq6wE8IdC78&quot; target=&quot;_blank&quot;&gt;See here for details&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 06 Mar 2016 17:19:01 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">715 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor Update February 25, 2016</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/02/mit-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/10I8wpwIyVs_TmupTdxoYEUN-zsqdniGqGALqQRGdqVU/pub&quot;&gt;&lt;br /&gt;
@@ -124,20 +133,6 @@ Google announced this week that the Files API on which AI Classic depends is bei
  <pubDate>Sat, 07 Feb 2015 15:54:53 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">575 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor honored with 2015 MERLOT Classics Award</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/02/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;It’s exceedingly gratifying to learn that App Inventor has been honored with a 2015 Classics Award, presented by MERLOT (Multimedia Educational Resource for Learning and Online Teaching) Editorial and Professional Development Services.  MERLOT’s area editorial boards curate and review works that they designate as Exemplary Online Materials.  Each board annually selects one work to receive the Classics Award, as the best material reviewed in their area during the previous year.   The Classics Award to App Inventor is presented on the recommendation of MERLOT’s Information Technology Editorial Board.&lt;/p&gt;
-&lt;p&gt;The Board’s review of App Inventor observed:  “The content is excellent! It&#039;s very clean, there are a lot of tutorials, working through building your first app.  It’s helpful especially with all the step-by-step guides and community forums. There is a section for educators with additional instructions. It may even be helpful to professionals who are working with the site on their own.”&lt;/p&gt;
-&lt;p&gt;The reviews also noted:  “the videos and downloadable guides are well done and professional. This is an excellent module for giving the student a successful experience creating a meaningful app. This can serve as a motivating introduction to programming.”  &lt;/p&gt;
-&lt;p&gt;One concern raised was that loading the Android emulator is slow.  The Board also recommended providing more instructor guidance and suggested that there could be an attached wiki site on brainstorming for useful beginner app building.  These are great suggestions and good things to work on.&lt;/p&gt;
-&lt;p&gt;The award will be presented at the 2015 Emerging Technologies for Online Learning International Symposium in April.&lt;/p&gt;
-&lt;p&gt;We’re delighted and and proud to have been recognized in this way.   For those of us on the MIT App Inventor team, it’s a reminder of how much we rely on our collaborators and our user community to make App Inventor a success.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 03 Feb 2015 22:32:44 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">574 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
