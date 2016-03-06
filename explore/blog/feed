@@ -6,6 +6,15 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Major computational thinking research project and new MIT staff positions</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/03/major</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1sN9A7hMLCgXX42eWXWfqikGayFirawvZAq6wE8IdC78&quot; target=&quot;_blank&quot;&gt;See here for details&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 06 Mar 2016 17:19:01 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">715 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Altona Middle School Team Builds Diction Defender App</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/03</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver1.jpg&quot; align=&quot;right&quot; style=&quot;width: 30%; margin-left: 10px;&quot; /&gt;Last weekend, I had the pleasure of meeting the Altona Middle School team from Longmont, Colorado, who is one of the eight Best in Nation Verizon App Challenge winners. They were beginning their App Inventor training to learn the skills necessary to develop their app, Diction Defender, over the next few months. In the morning, MIT Master Trainer, Ann Root, took the students through the storyboarding process where the students designed the order and layout of the various app screens. The afternoon was spent working directly with App Inventor. Each student worked on a separate App Inventor tutorials, each with a different focus or feature. Then the students came together to share what they have learned with the group. &lt;/p&gt;
@@ -226,44 +235,6 @@ For more information about the FIRST Tech Challenge visit the following link:&lt
  <pubDate>Thu, 21 Jan 2016 20:17:57 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">694 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Students Win App Competition in Hong Kong with App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/01</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by AU Hoi Kin, Head of Academic Department, Pak Kau College, Hong Kong&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chineseappwinners.jpg&quot; style=&quot;float: right; margin-left: 2%; margin-bottom: 0.5em; width: 30%;&quot; hspace=&quot;”5”&quot; vspace=&quot;”1”&quot; /&gt;Chiu Wai Hang, Chan Pak Long and Ho Kai Yui from Pak Kau College in Hong Kong were recent winners of an app development competition &lt;a href=&quot;http://hkaast.org.hk/%E9%97%9C%E6%84%9B%E7%94%9F%E6%B4%BB&quot; target=&quot;_blank&quot;&gt;Creative Invention - Mobile Apps&lt;/a&gt; held by The Hong Kong Association for the Advancement of Science and Technology. The students built an app to help people with intellectual disabilities who have trouble communicating with others and navigating when travelling.&lt;/p&gt;
-&lt;p&gt;
-The mobile application developed by the team contains two major functions. The first function helps persons with intellectual disabilities express a variety of emotions and ordinary conversation by using twelve simple and clear icons. The application provides pre-recorded soundtracks that play when users click selected icons. For example, users can click the police station icon to ask for help from passersby when they are lost.
-&lt;/p&gt;
-&lt;p&gt;
-The second major function is positioning. Supervisors can set a permissible area of travel for app users. The system will send an automatic message to the supervisor if the user is outside of the permissible travel area and will continuously report their position to the supervisor. This could be a useful function for elderly people too.
-&lt;/p&gt;
-&lt;p&gt;
-The theme of the app competition was assisting a socially vulnerable group. There were four target social groups, with two round eliminations resulting in a champion, first runner-up and second runner-up in each group.
-&lt;/p&gt;
-&lt;p&gt;
-The three team members, who are Secondary 4 students at Pak Kau College, admitted that there were many difficulties in creating their app. They needed to read many books and references and tried to “learn by doing”. One of the major difficulties they had was with the accuracy of the global positioning system (GPS). Although the positioning system was precise, there were some issues. For example, the positioning system can locate the users within a building but cannot determine which floor he/she is on. Therefore, their families cannot find them quickly using the app. To bolster the app’s functionality, the students added the communication feature. The users can take advantage of pre-recorded dialogue to communicate with others for help.
-&lt;/p&gt;
-&lt;p&gt;
-The team had another major difficulty a few days before the competition. After finishing the final version of the app, they inadvertently deleted all their code. Since the program runs in the cloud, changes were auto saved. Sadly, the efforts of two months came to naught. Nevertheless, the students encouraged each other and bounced back. In the final days before the competition, they rewrote the code of the crude older version and finished the program. They learned a lot in the competition, especially mobile app programming and English.
-&lt;/p&gt;
-&lt;p&gt;
-Since the competition, the students have continued to improve the app in appearance and function, such as using a simple smiling face to be the image representing happy. The students want to add the function of daily conversation in addition to the current ability to ask for directions. The students would like to invite interested parties to try the app and test the difficulty level of operation. Then, the students can modify the app and make it more suitable and friendly to users. Hopefully, it can change people’s lives.
-&lt;/p&gt;
-&lt;p&gt;Contact Information: &lt;br /&gt;
-Website: &lt;a href=&quot;http://www.pakkau.edu.hk&quot; target=&quot;_blank&quot;&gt;www.pakkau.edu.hk&lt;/a&gt;&lt;br /&gt;
-Email: &lt;a href=&quot;mailto:enquiries@pakkau.edu.hk&quot;&gt;enquiries@pakkau.edu.hk&lt;/a&gt;,&lt;a href=&quot;mailto:auhoikin@pakkau.edu.hk&quot;&gt;auhoikin@pakkau.edu.hk&lt;/a&gt;&lt;br /&gt;
-Tel: (852) 24482960&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chineseappwinners.jpg?itok=u3HR8SRq&quot; width=&quot;480&quot; height=&quot;303&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 20 Jan 2016 14:51:32 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">692 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
