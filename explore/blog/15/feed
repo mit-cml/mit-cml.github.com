@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Seeking Applicants for Positions on App Inventor Team</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2016/03</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;As part of a major initiative we&#039;ll be undertaking with collaborators from Hong Kong and sponsored by the generosity of the Hong Kong Jockey Club Charities Trust, the MIT App Inventor team is seeking applicants for three new staff positions.&lt;/p&gt;
+&lt;p&gt;Though this post is mostly an update to &lt;a href=&quot;https://docs.google.com/document/d/1sN9A7hMLCgXX42eWXWfqikGayFirawvZAq6wE8IdC78/edit?usp=sharing&quot;&gt;Hal&#039;s notification&lt;/a&gt; of a few weeks ago, the jobs are now officially open in the MIT system and we are very actively seeking applicants:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;/sites/all/files/jobs/MIT App Inventor - Reseach Scientist - March 2016.pdf&quot;&gt;Research Scientist&lt;/a&gt; (Job no. 13330)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/sites/all/files/jobs/MIT App Inventor - Postdoctoral Associate - March 2016.pdf&quot;&gt;Postdoctoral Associate&lt;/a&gt; (Job no. 13331)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/sites/all/files/jobs/MIT App Inventor - Software Developer - March 2016.pdf&quot;&gt;Software Engineer&lt;/a&gt; (Job no. 13332)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;PDF copies of the job descriptions are linked above for your convenience, but to apply, please go to &lt;a href=&quot;http://careers.mit.edu/&quot;&gt;http://careers.mit.edu/&lt;/a&gt; and search by job number.&lt;/p&gt;
+&lt;p&gt;From Hal&#039;s earlier post, a bit more about the project:&lt;/p&gt;
+&lt;div style=&quot;margin-left: 40px;&quot;&gt;&lt;strong&gt;Major computational thinking research project and new staff positions with MIT App Inventor&lt;/strong&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-left: 40px;&quot;&gt; &lt;/div&gt;
+&lt;div style=&quot;margin-left: 40px;&quot;&gt;The MIT Computer Science and Artificial Intelligence Laboratory is collaborating in an ambitious four-year research effort to explore the use Scratch and App Inventor to foster programming knowledge and computational thinking for students in grades 4 through 6.  The work will engage 20,000 students from 32 Hong Kong primary schools and several community organizations.  It is sponsored by the Hong Kong Jockey Club Charities Trust.  Other collaborators are the Hong Kong Institute of Education, City University of Hong Kong and Dalberg Global Development Advisors.&lt;/div&gt;
+&lt;div style=&quot;margin-left: 40px;&quot;&gt; &lt;/div&gt;
+&lt;div style=&quot;margin-left: 40px;&quot;&gt;As a result of launching this project, MIT has immediate full-time staff openings for a post-doctoral associate, an educational researcher and a software developer.  This is a chance to contribute to a major research project on computational thinking aimed at significant impact in one of the world&#039;s great cities and beyond.&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 21 Mar 2016 22:31:35 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">724 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor Translated to Brazilian Portuguese</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2016/01/mit-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by &lt;a href=&quot;http://blog.eduardovalle.com/&quot;&gt;Eduardo Valle&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;
@@ -154,20 +174,6 @@ We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Fou
  <pubDate>Thu, 12 Mar 2015 17:57:15 +0000</pubDate>
  <dc:creator>Josh</dc:creator>
  <guid isPermaLink="false">580 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Verizon Innovative App Challenge announces 2015 Best In State Winners</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2015/01</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Congratulations to our collaborators from the Verizon Foundation and the Technology Student Association, and especially to the just announced &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/Best_In_State_Winners_2015.pdf&quot;&gt;Best In State winners of the 2015 Verizon Innovative App Challenge&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We&#039;re excited to learn about the great ideas coming from these winners, and look forward to sending out our MIT App Inventor Master Trainers in just a short while to work with the Best in Nation winners of this year&#039;s competition. Our Master Trainers will work with the Best In Nation teams to develop their ideas into working apps.&lt;/p&gt;
-
-&lt;p&gt;For a hint of what might be coming, check out &lt;a href=&quot;http://appchallenge.tsaweb.org/past-winners/2014-national-winners&quot;&gt;the Best In Nation winners from the 2014 competition&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Again, congratulations to the 2015 Best In State winners, and good luck as you all move into the next phase of competition!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 07 Jan 2015 10:14:57 +0000</pubDate>
- <dc:creator>Josh</dc:creator>
- <guid isPermaLink="false">570 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
