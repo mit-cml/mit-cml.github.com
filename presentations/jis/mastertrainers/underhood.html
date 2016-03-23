@@ -1,0 +1,297 @@
+<section>
+<h2> MIT App Inventor: A Look Under the Hood</h2>
+  <p>
+    Jeffrey I. Schiller
+    MIT App Inventor
+    Developer, Guru, Fixer of Broken Things
+    Code Monkey
+  </p>
+</div>
+</div>
+</section>
+<section>
+  <h2> MIT App Inventor is Large</h2>
+    <ul>
+      <li>And Growing&hellip;
+      </li>
+      <li>Some Numbers
+        <ul>
+          <li>2.8 Million Unique Users
+          </li>
+          <li>50,000 Daily Users
+          </li>
+          <li>350,000 Monthly Users
+          </li>
+          <li>10 Million Projects
+          </li>
+          <li>8 Terra Bytes of Storage
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> The Pieces</h2>
+    <ul>
+      <li>The App Inventor Server
+        <ul>
+          <li>Deployed in Google’s “App Engine”
+            Scales as needed
+          </li>
+          <li>Serves up the App Inventor code
+          </li>
+          <li>Stores people’s projects
+          </li>
+        </ul>
+      </li>
+      <li>The Build Server
+        <ul>
+          <li>Handles the packaging of Finished Apps
+          </li>
+          <li>Cannot run in App Engine due to limitations of App Engine
+          </li>
+          <li>We currently deploy 72 CPU Codes across 9 Servers
+          </li>
+        </ul>
+      </li>
+      <li>Your Device –
+        Your favorite Android Device (or emulator)
+      </li>
+      <li>Your Computer
+      </li>
+      <li>The Rendezvous Server
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Login Flow</h2>
+    <p>
+      <img src="./drawing1.png"  alt="./drawing1.png" />
+    </p>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Login Flow</h2>
+    <ul>
+      <li>Your Computer Contacts App Engine (ai2.appinventor.mit.edu)
+      </li>
+      <li>Google determines if you are logged in and puts up the Login page
+        if not
+      </li>
+      <li>The App Inventor Client loads into your browser
+        <ul>
+          <li>App Inventor is really a full blown application that does most of
+            its work in your browser!
+          </li>
+          <li>The Server is just used to download the client and to store
+            projects
+          </li>
+        </ul>
+      </li>
+      <li>The list of projects you own is loaded into your browser
+      </li>
+      <li>Your most recent project is then loaded and opened
+      </li>
+      <li>You work!
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Incremental Development</h2>
+    <ul>
+      <li>Three ways to do incremental development
+        <ul>
+          <li>A Phone/Tablet via a WiFi network
+          </li>
+          <li>A Phone/Tablet connected via the USB Cable
+          </li>
+          <li>An emulator running on your computer
+          </li>
+        </ul>
+      </li>
+      <li>What we support
+        <ul>
+          <li>We support devices to Android 1.6 (Donut)
+            <ul>
+              <li>But we recommend at least Gingerbread (2.3)
+              </li>
+              <li>Newer features require newer devices
+              </li>
+            </ul>
+          </li>
+          <li>The Emulator is currently emulating 2.2 (Froyo)
+            <ul>
+              <li>We would like to use a newer version, but they load
+                even slower (!!)
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Using a Real device (Phone/Tablet) works best
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Incremental Development – Connecting</h2>
+    <ul>
+      <li>WiFi Connection
+        <ul>
+          <li>The trick is finding the right device!
+          </li>
+          <li>When your phone is on WiFi it has an Internet Address (IP)
+          </li>
+          <li>Your computer needs to learn the phone’s IP Address
+          </li>
+          <li>This is done with the Rendezvous Server
+          </li>
+          <li>When you “Connect-&gt;AI Companion” your computer generates a six
+            character code which is displayed to you along with an equivalent
+            QR Code
+          </li>
+          <li>When you scan the code (or enter the code) in your phone it is
+            sent to the Rendezvous Server along with the phone’s IP Address
+          </li>
+          <li>The Computer polls once per second to find the IP Address
+          </li>
+          <li>Once the Computer learns the IP address of the phone, it talks
+            directly to the phone
+            <ul>
+              <li>The phone is actually running a small webserver
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Incremental Development – Connecting</h2>
+    <p>
+      <img src="./drawing2.png"  alt="./drawing2.png" />
+    </p>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Trouble Shooting</h2>
+    <ul>
+      <li>There are three ways things can go wrong
+        <ul>
+          <li>The phone cannot reach the Rendezvous Server
+          </li>
+          <li>The computer cannot reach the Rendezvous Server
+          </li>
+          <li>The computer cannot reach the phone
+          </li>
+        </ul>
+      </li>
+      <li>If the QR Code does not dismiss (go away)
+        <ul>
+          <li>Try going to <a href="http://rendezvous.appinventor.mit.edu/rendezvous/test">http://rendezvous.appinventor.mit.edu/rendezvous/test</a>
+            <ul>
+              <li>Both from the phone and computer
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>If the QR Code does dismiss
+        <ul>
+          <li>Then the computer cannot reach the phone
+          </li>
+          <li>Make sure port 8001 isn’t blocked
+            <ul>
+              <li>Often firewall software on the computer can block this port
+              </li>
+              <li>Often WiFi networks are configured to block connections to
+                devices
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Packaging Apps</h2>
+    <ul>
+      <li>This is the job of the Buildserver
+      </li>
+      <li>Too much computation for App Engine
+      </li>
+      <li>We have 9 buildservers each with 8 cores behind a load balancer
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Packaging Apps</h2>
+    <p>
+      <img src="./drawing3.png"  alt="./drawing3.png" />
+    </p>
+  </div>
+</div>
+</section>
+<section>
+  <h2> The Magic behind Incremental Development</h2>
+    <ul>
+      <li>Blocks get compiled to “Scheme” code
+        <ul>
+          <li>Scheme is a Lisp like language
+          </li>
+          <li>(+ 3 4)
+          </li>
+          <li>(define (fact x)
+            (if (= x 0) 1
+            (* x (fact (- x 1)))))
+          </li>
+        </ul>
+      </li>
+      <li>When you define an event handler
+        <ul>
+          <li>For example: Button1.Click
+            <ul>
+              <li>It defines a Scheme function which performs the blocks
+              </li>
+            </ul>
+          </li>
+          <li>The scheme definition is sent to the phone
+          </li>
+        </ul>
+      </li>
+      <li>The Magic is that when you update the blocks, you update the
+        definition of the function which is sent to the phone and replaces
+        the previous definition. Result: New behavior in real-time
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
+<section>
+  <h2> Packaging Apps</h2>
+    <ul>
+      <li>Compile the blocks to Scheme
+      </li>
+      <li>Compile the Scheme to Java Byte-Code
+      </li>
+      <li>“Dex” it to Dalvik/ART Code
+      </li>
+      <li>Apps run at native Android speed
+      </li>
+    </ul>
+</section>
