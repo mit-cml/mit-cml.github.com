@@ -134,6 +134,36 @@ Code Monkey
 + “Dex” it to Dalvik/ART Code
 + Apps run at native Android speed
 
+* Recent Changes to the System
++ Firebase Component
+  + Behaves like TinyWebDB
+  + But fires and event when a “tag” is changed
+    by another instance of the application
+  + Can be used to hold high scores from games
+  + We built a simple chat app based on it
+  + Lots of possibilities
+  + Much easier to use then Fusion Tables!
+* Upcoming Changes
+  + Today Components are all builtin
+    + Additional functionality requiring Java has to be built into a
+      custom version of App Inventor
+      + Painful...
+  + Extensions – Ability to write components in Java
+    + These can then be loaded into a project on our public system
+      + Incremental Development will work with external components
+      + Packaged Apps work as well
+* More on Extensions
+  + Currently a bit difficult to build
+  + Much easier to use – Just add the component “.aix” file to your
+    project
+  + Extensions are still experimental
+    + Upgrading external components is still a work in progress
+    + External components might break and need to be re-compiled
+  + But lots of possibilities
+    + Right now, if you need something special, you wind up
+      rebuilding your App without App Inventor
+    + With extensions you can add the needed features and continue to
+      use App Inventor for most of your app
 * Questions
 
 

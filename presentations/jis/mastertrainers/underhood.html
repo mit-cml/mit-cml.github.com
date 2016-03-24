@@ -1,297 +1,653 @@
-<section>
-<h2> MIT App Inventor: A Look Under the Hood</h2>
-  <p>
-    Jeffrey I. Schiller
-    MIT App Inventor
-    Developer, Guru, Fixer of Broken Things
-    Code Monkey
-  </p>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>MIT App Inventor: A Look Under the Hood</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="title" content="MIT App Inventor: A Look Under the Hood"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2016-03-24T09:19-0400"/>
+<meta name="author" content="Jeffrey Schiller"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">MIT App Inventor: A Look Under the Hood</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 MIT App Inventor: A Look Under the Hood</a></li>
+<li><a href="#sec-2">2 MIT App Inventor is Large</a></li>
+<li><a href="#sec-3">3 The Pieces</a></li>
+<li><a href="#sec-4">4 Login Flow</a></li>
+<li><a href="#sec-5">5 Login Flow</a></li>
+<li><a href="#sec-6">6 Incremental Development</a></li>
+<li><a href="#sec-7">7 Incremental Development – Connecting</a></li>
+<li><a href="#sec-8">8 Incremental Development – Connecting</a></li>
+<li><a href="#sec-9">9 Trouble Shooting</a></li>
+<li><a href="#sec-10">10 Packaging Apps</a></li>
+<li><a href="#sec-11">11 Packaging Apps</a></li>
+<li><a href="#sec-12">12 The Magic behind Incremental Development</a></li>
+<li><a href="#sec-13">13 Packaging Apps</a></li>
+<li><a href="#sec-14">14 Recent Changes to the System</a></li>
+<li><a href="#sec-15">15 Upcoming Changes</a></li>
+<li><a href="#sec-16">16 More on Extensions</a></li>
+<li><a href="#sec-17">17 Questions</a></li>
+</ul>
 </div>
 </div>
-</section>
-<section>
-  <h2> MIT App Inventor is Large</h2>
-    <ul>
-      <li>And Growing&hellip;
-      </li>
-      <li>Some Numbers
-        <ul>
-          <li>2.8 Million Unique Users
-          </li>
-          <li>50,000 Daily Users
-          </li>
-          <li>350,000 Monthly Users
-          </li>
-          <li>10 Million Projects
-          </li>
-          <li>8 Terra Bytes of Storage
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> MIT App Inventor: A Look Under the Hood</h2>
+<div class="outline-text-2" id="text-1">
+
+
+<p>
+Jeffrey I. Schiller
+MIT App Inventor
+Developer, Guru, Fixer of Broken Things
+Code Monkey
+</p>
 </div>
-</section>
-<section>
-  <h2> The Pieces</h2>
-    <ul>
-      <li>The App Inventor Server
-        <ul>
-          <li>Deployed in Google’s “App Engine”
-            Scales as needed
-          </li>
-          <li>Serves up the App Inventor code
-          </li>
-          <li>Stores people’s projects
-          </li>
-        </ul>
-      </li>
-      <li>The Build Server
-        <ul>
-          <li>Handles the packaging of Finished Apps
-          </li>
-          <li>Cannot run in App Engine due to limitations of App Engine
-          </li>
-          <li>We currently deploy 72 CPU Codes across 9 Servers
-          </li>
-        </ul>
-      </li>
-      <li>Your Device –
-        Your favorite Android Device (or emulator)
-      </li>
-      <li>Your Computer
-      </li>
-      <li>The Rendezvous Server
-      </li>
-    </ul>
-  </div>
+
 </div>
-</section>
-<section>
-  <h2> Login Flow</h2>
-    <p>
-      <img src="./drawing1.png"  alt="./drawing1.png" />
-    </p>
-  </div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> MIT App Inventor is Large</h2>
+<div class="outline-text-2" id="text-2">
+
+<ul>
+<li>And Growing&hellip;
+</li>
+<li>Some Numbers
+<ul>
+<li>2.8 Million Unique Users
+</li>
+<li>50,000 Daily Users
+</li>
+<li>350,000 Monthly Users
+</li>
+<li>10 Million Projects
+</li>
+<li>8 Terra Bytes of Storage
+</li>
+</ul>
+
+</li>
+</ul>
+
+
 </div>
-</section>
-<section>
-  <h2> Login Flow</h2>
-    <ul>
-      <li>Your Computer Contacts App Engine (ai2.appinventor.mit.edu)
-      </li>
-      <li>Google determines if you are logged in and puts up the Login page
-        if not
-      </li>
-      <li>The App Inventor Client loads into your browser
-        <ul>
-          <li>App Inventor is really a full blown application that does most of
-            its work in your browser!
-          </li>
-          <li>The Server is just used to download the client and to store
-            projects
-          </li>
-        </ul>
-      </li>
-      <li>The list of projects you own is loaded into your browser
-      </li>
-      <li>Your most recent project is then loaded and opened
-      </li>
-      <li>You work!
-      </li>
-    </ul>
-  </div>
+
 </div>
-</section>
-<section>
-  <h2> Incremental Development</h2>
-    <ul>
-      <li>Three ways to do incremental development
-        <ul>
-          <li>A Phone/Tablet via a WiFi network
-          </li>
-          <li>A Phone/Tablet connected via the USB Cable
-          </li>
-          <li>An emulator running on your computer
-          </li>
-        </ul>
-      </li>
-      <li>What we support
-        <ul>
-          <li>We support devices to Android 1.6 (Donut)
-            <ul>
-              <li>But we recommend at least Gingerbread (2.3)
-              </li>
-              <li>Newer features require newer devices
-              </li>
-            </ul>
-          </li>
-          <li>The Emulator is currently emulating 2.2 (Froyo)
-            <ul>
-              <li>We would like to use a newer version, but they load
-                even slower (!!)
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>Using a Real device (Phone/Tablet) works best
-      </li>
-    </ul>
-  </div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> The Pieces</h2>
+<div class="outline-text-2" id="text-3">
+
+
+<ul>
+<li>The App Inventor Server
+<ul>
+<li>Deployed in Google’s “App Engine”
+    Scales as needed
+</li>
+<li>Serves up the App Inventor code
+</li>
+<li>Stores people’s projects
+</li>
+</ul>
+
+</li>
+<li>The Build Server
+<ul>
+<li>Handles the packaging of Finished Apps
+</li>
+<li>Cannot run in App Engine due to limitations of App Engine
+</li>
+<li>We currently deploy 72 CPU Codes across 9 Servers
+</li>
+</ul>
+
+</li>
+<li>Your Device –
+  Your favorite Android Device (or emulator)
+</li>
+<li>Your Computer
+</li>
+<li>The Rendezvous Server
+</li>
+</ul>
+
 </div>
-</section>
-<section>
-  <h2> Incremental Development – Connecting</h2>
-    <ul>
-      <li>WiFi Connection
-        <ul>
-          <li>The trick is finding the right device!
-          </li>
-          <li>When your phone is on WiFi it has an Internet Address (IP)
-          </li>
-          <li>Your computer needs to learn the phone’s IP Address
-          </li>
-          <li>This is done with the Rendezvous Server
-          </li>
-          <li>When you “Connect-&gt;AI Companion” your computer generates a six
-            character code which is displayed to you along with an equivalent
-            QR Code
-          </li>
-          <li>When you scan the code (or enter the code) in your phone it is
-            sent to the Rendezvous Server along with the phone’s IP Address
-          </li>
-          <li>The Computer polls once per second to find the IP Address
-          </li>
-          <li>Once the Computer learns the IP address of the phone, it talks
-            directly to the phone
-            <ul>
-              <li>The phone is actually running a small webserver
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+
 </div>
-</section>
-<section>
-  <h2> Incremental Development – Connecting</h2>
-    <p>
-      <img src="./drawing2.png"  alt="./drawing2.png" />
-    </p>
-  </div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Login Flow</h2>
+<div class="outline-text-2" id="text-4">
+
+
+<p>
+<img src="./drawing1.png"  alt="./drawing1.png" />
+</p>
 </div>
-</section>
-<section>
-  <h2> Trouble Shooting</h2>
-    <ul>
-      <li>There are three ways things can go wrong
-        <ul>
-          <li>The phone cannot reach the Rendezvous Server
-          </li>
-          <li>The computer cannot reach the Rendezvous Server
-          </li>
-          <li>The computer cannot reach the phone
-          </li>
-        </ul>
-      </li>
-      <li>If the QR Code does not dismiss (go away)
-        <ul>
-          <li>Try going to <a href="http://rendezvous.appinventor.mit.edu/rendezvous/test">http://rendezvous.appinventor.mit.edu/rendezvous/test</a>
-            <ul>
-              <li>Both from the phone and computer
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>If the QR Code does dismiss
-        <ul>
-          <li>Then the computer cannot reach the phone
-          </li>
-          <li>Make sure port 8001 isn’t blocked
-            <ul>
-              <li>Often firewall software on the computer can block this port
-              </li>
-              <li>Often WiFi networks are configured to block connections to
-                devices
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+
 </div>
-</section>
-<section>
-  <h2> Packaging Apps</h2>
-    <ul>
-      <li>This is the job of the Buildserver
-      </li>
-      <li>Too much computation for App Engine
-      </li>
-      <li>We have 9 buildservers each with 8 cores behind a load balancer
-      </li>
-    </ul>
-  </div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Login Flow</h2>
+<div class="outline-text-2" id="text-5">
+
+
+<ul>
+<li>Your Computer Contacts App Engine (ai2.appinventor.mit.edu)
+</li>
+<li>Google determines if you are logged in and puts up the Login page
+  if not
+</li>
+<li>The App Inventor Client loads into your browser
+<ul>
+<li>App Inventor is really a full blown application that does most of
+    its work in your browser!
+</li>
+<li>The Server is just used to download the client and to store
+    projects
+</li>
+</ul>
+
+</li>
+<li>The list of projects you own is loaded into your browser
+</li>
+<li>Your most recent project is then loaded and opened
+</li>
+<li>You work!
+</li>
+</ul>
+
+
 </div>
-</section>
-<section>
-  <h2> Packaging Apps</h2>
-    <p>
-      <img src="./drawing3.png"  alt="./drawing3.png" />
-    </p>
-  </div>
+
 </div>
-</section>
-<section>
-  <h2> The Magic behind Incremental Development</h2>
-    <ul>
-      <li>Blocks get compiled to “Scheme” code
-        <ul>
-          <li>Scheme is a Lisp like language
-          </li>
-          <li>(+ 3 4)
-          </li>
-          <li>(define (fact x)
-            (if (= x 0) 1
-            (* x (fact (- x 1)))))
-          </li>
-        </ul>
-      </li>
-      <li>When you define an event handler
-        <ul>
-          <li>For example: Button1.Click
-            <ul>
-              <li>It defines a Scheme function which performs the blocks
-              </li>
-            </ul>
-          </li>
-          <li>The scheme definition is sent to the phone
-          </li>
-        </ul>
-      </li>
-      <li>The Magic is that when you update the blocks, you update the
-        definition of the function which is sent to the phone and replaces
-        the previous definition. Result: New behavior in real-time
-      </li>
-    </ul>
-  </div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Incremental Development</h2>
+<div class="outline-text-2" id="text-6">
+
+
+<ul>
+<li>Three ways to do incremental development
+<ul>
+<li>A Phone/Tablet via a WiFi network
+</li>
+<li>A Phone/Tablet connected via the USB Cable
+</li>
+<li>An emulator running on your computer
+</li>
+</ul>
+
+</li>
+<li>What we support
+<ul>
+<li>We support devices to Android 1.6 (Donut)
+<ul>
+<li>But we recommend at least Gingerbread (2.3)
+</li>
+<li>Newer features require newer devices
+</li>
+</ul>
+
+</li>
+<li>The Emulator is currently emulating 2.2 (Froyo)
+<ul>
+<li>We would like to use a newer version, but they load
+      even slower (!!)
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+<li>Using a Real device (Phone/Tablet) works best
+</li>
+</ul>
+
+
 </div>
-</section>
-<section>
-  <h2> Packaging Apps</h2>
-    <ul>
-      <li>Compile the blocks to Scheme
-      </li>
-      <li>Compile the Scheme to Java Byte-Code
-      </li>
-      <li>“Dex” it to Dalvik/ART Code
-      </li>
-      <li>Apps run at native Android speed
-      </li>
-    </ul>
-</section>
+
+</div>
+
+<div id="outline-container-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Incremental Development – Connecting</h2>
+<div class="outline-text-2" id="text-7">
+
+
+<ul>
+<li>WiFi Connection
+<ul>
+<li>The trick is finding the right device!
+</li>
+<li>When your phone is on WiFi it has an Internet Address (IP)
+</li>
+<li>Your computer needs to learn the phone’s IP Address
+</li>
+<li>This is done with the Rendezvous Server
+</li>
+<li>When you “Connect-&gt;AI Companion” your computer generates a six
+    character code which is displayed to you along with an equivalent
+    QR Code
+</li>
+<li>When you scan the code (or enter the code) in your phone it is
+    sent to the Rendezvous Server along with the phone’s IP Address
+</li>
+<li>The Computer polls once per second to find the IP Address
+</li>
+<li>Once the Computer learns the IP address of the phone, it talks
+    directly to the phone
+<ul>
+<li>The phone is actually running a small webserver
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> Incremental Development – Connecting</h2>
+<div class="outline-text-2" id="text-8">
+
+
+<p>
+<img src="./drawing2.png"  alt="./drawing2.png" />
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-9" class="outline-2">
+<h2 id="sec-9"><span class="section-number-2">9</span> Trouble Shooting</h2>
+<div class="outline-text-2" id="text-9">
+
+
+<ul>
+<li>There are three ways things can go wrong
+<ul>
+<li>The phone cannot reach the Rendezvous Server
+</li>
+<li>The computer cannot reach the Rendezvous Server
+</li>
+<li>The computer cannot reach the phone
+</li>
+</ul>
+
+</li>
+<li>If the QR Code does not dismiss (go away)
+<ul>
+<li>Try going to <a href="http://rendezvous.appinventor.mit.edu/rendezvous/test">http://rendezvous.appinventor.mit.edu/rendezvous/test</a>
+<ul>
+<li>Both from the phone and computer
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+<li>If the QR Code does dismiss
+<ul>
+<li>Then the computer cannot reach the phone
+</li>
+<li>Make sure port 8001 isn’t blocked
+<ul>
+<li>Often firewall software on the computer can block this port
+</li>
+<li>Often WiFi networks are configured to block connections to
+      devices
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-10" class="outline-2">
+<h2 id="sec-10"><span class="section-number-2">10</span> Packaging Apps</h2>
+<div class="outline-text-2" id="text-10">
+
+
+<ul>
+<li>This is the job of the Buildserver
+</li>
+<li>Too much computation for App Engine
+</li>
+<li>We have 9 buildservers each with 8 cores behind a load balancer
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-11" class="outline-2">
+<h2 id="sec-11"><span class="section-number-2">11</span> Packaging Apps</h2>
+<div class="outline-text-2" id="text-11">
+
+
+<p>
+<img src="./drawing3.png"  alt="./drawing3.png" />
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-12" class="outline-2">
+<h2 id="sec-12"><span class="section-number-2">12</span> The Magic behind Incremental Development</h2>
+<div class="outline-text-2" id="text-12">
+
+
+<ul>
+<li>Blocks get compiled to “Scheme” code
+<ul>
+<li>Scheme is a Lisp like language
+</li>
+<li>(+ 3 4)
+</li>
+<li>(define (fact x)
+         (if (= x 0) 1
+             (* x (fact (- x 1)))))
+</li>
+</ul>
+
+</li>
+<li>When you define an event handler
+<ul>
+<li>For example: Button1.Click
+<ul>
+<li>It defines a Scheme function which performs the blocks
+</li>
+</ul>
+
+</li>
+<li>The scheme definition is sent to the phone
+</li>
+</ul>
+
+</li>
+<li>The Magic is that when you update the blocks, you update the
+  definition of the function which is sent to the phone and replaces
+  the previous definition. Result: New behavior in real-time
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-13" class="outline-2">
+<h2 id="sec-13"><span class="section-number-2">13</span> Packaging Apps</h2>
+<div class="outline-text-2" id="text-13">
+
+
+<ul>
+<li>Compile the blocks to Scheme
+</li>
+<li>Compile the Scheme to Java Byte-Code
+</li>
+<li>“Dex” it to Dalvik/ART Code
+</li>
+<li>Apps run at native Android speed
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-14" class="outline-2">
+<h2 id="sec-14"><span class="section-number-2">14</span> Recent Changes to the System</h2>
+<div class="outline-text-2" id="text-14">
+
+<ul>
+<li>Firebase Component
+<ul>
+<li>Behaves like TinyWebDB
+</li>
+<li>But fires and event when a “tag” is changed
+    by another instance of the application
+</li>
+<li>Can be used to hold high scores from games
+</li>
+<li>We built a simple chat app based on it
+</li>
+<li>Lots of possibilities
+</li>
+<li>Much easier to use then Fusion Tables!
+</li>
+</ul>
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-15" class="outline-2">
+<h2 id="sec-15"><span class="section-number-2">15</span> Upcoming Changes</h2>
+<div class="outline-text-2" id="text-15">
+
+<ul>
+<li>Today Components are all builtin
+<ul>
+<li>Additional functionality requiring Java has to be built into a
+      custom version of App Inventor
+<ul>
+<li>Painful&hellip;
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+<li>Extensions – Ability to write components in Java
+<ul>
+<li>These can then be loaded into a project on our public system
+<ul>
+<li>Incremental Development will work with external components
+</li>
+<li>Packaged Apps work as well
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-16" class="outline-2">
+<h2 id="sec-16"><span class="section-number-2">16</span> More on Extensions</h2>
+<div class="outline-text-2" id="text-16">
+
+<ul>
+<li>Currently a bit difficult to build
+</li>
+<li>Much easier to use – Just add the component “.aix” file to your
+    project
+</li>
+<li>Extensions are still experimental
+<ul>
+<li>Upgrading external components is still a work in progress
+</li>
+<li>External components might break and need to be re-compiled
+</li>
+</ul>
+
+</li>
+<li>But lots of possibilities
+<ul>
+<li>Right now, if you need something special, you wind up
+      rebuilding your App without App Inventor
+</li>
+<li>With extensions you can add the needed features and continue to
+      use App Inventor for most of your app
+</li>
+</ul>
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="outline-container-17" class="outline-2">
+<h2 id="sec-17"><span class="section-number-2">17</span> Questions</h2>
+<div class="outline-text-2" id="text-17">
+
+
+
+
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="date">Date: 2016-03-24T09:19-0400</p>
+<p class="author">Author: Jeffrey Schiller</p>
+<p class="creator"><a href="http://orgmode.org">Org</a> version 7.9.3f with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>
