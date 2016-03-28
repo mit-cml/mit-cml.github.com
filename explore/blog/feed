@@ -6,6 +6,22 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Welcome 30 New Master Trainers in Mobile Educational Computing</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2016/03-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/blogs/master_trainers_group.JPG&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We had an spectacular experience this past week – we had 30 people, from 18 countries, come together to be trained as MIT Master Trainers in Mobile Educational Computing (with MIT App Inventor), put together jointly with the MIT Professional Education Short Programs group.&lt;/p&gt;
+
+&lt;p&gt;Together with the amazing folks who’ve been master trainers with the Verizon program, we now have ~40 Master Trainers, &amp; they are wonderful - we will soon have a full listing of these folks and their contact information so you can begin to take advantage of their awesome skills.&lt;/p&gt;
+
+&lt;p&gt;Huge thanks and congratulations to Karen Lang and Marsha Gordon and her Short Programs staff, all of whom did an enormous amount of work for this, and to Dave Wolber, who flew cross country and provided amazing guidance and instruction. Thanks as always to Hal, for his leadership and inspired opening talk. And of course, thanks to Jeff &amp; Andrew for their presentations &amp; answers to MANY questions. Thanks too, to Cynthia Solomon, for her inspiration, guidance, and thoughtful presentation. And without Marisol Diaz, we wouldn’t have had the logistics or amazing reception on Thursday evening. Finally, thanks to Mel Robinson for making sure all the final details were taken care of.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/blogs/happy_hal.JPG&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 28 Mar 2016 16:20:45 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">726 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Seeking Applicants for Positions on App Inventor Team</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2016/03</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;As part of a major initiative we&#039;ll be undertaking with collaborators from Hong Kong and sponsored by the generosity of the Hong Kong Jockey Club Charities Trust, the MIT App Inventor team is seeking applicants for three new staff positions.&lt;/p&gt;
@@ -187,26 +203,6 @@ I&#039;m a Computer Engineering professore at UNICAMP, one of the most important
  <pubDate>Tue, 26 Jan 2016 17:01:58 +0000</pubDate>
  <dc:creator>Josh</dc:creator>
  <guid isPermaLink="false">697 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Google App Inventor Competition in China a Huge Success</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/01-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by Kathy Deng, Google China&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kathy_deng.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;We just wrapped up the 2015 App Inventor contest for high school and middle school students in China [&lt;a href=&quot;http://app.gzjkw.net/GAIC2015/&quot; target=&quot;_blank&quot;&gt;contest website in Chinese&lt;/a&gt;], which rolled out in June. This is the 2nd year we ran this nationwide App Inventor contest. The goals were (1) to encourage high school students, middle school students, and upperclassmen at primary school to learn Computational Thinking, (2) to let students gain hands-on mobile application development experience through App Inventor and (3) to boost CS education among young students.&lt;/p&gt;
-&lt;p&gt;As the result of the collaboration between MIT, the Guangzhou Education Information Center and South China University of Technology, users in China can now access the local App Inventor server [&lt;a href=&quot;http://app.gzjkw.net/login/&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;].&lt;/p&gt;
-&lt;p&gt;Here is the list of the highlights from this year’s contest:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Diversity:&lt;/strong&gt; A team of two female students took home with the first prize in the middle school group. Out of the 20 student teams selected for the final onsite competition, five were female student teams.&lt;br /&gt;&lt;strong&gt;Quantity &amp;amp; quality:&lt;/strong&gt; The number of submissions this year is 1,095, more than doubling last year’s numbers. We were told by the MIT App Inventor team judge that there was significant improvement in the quality of submitted apps. And he added this is the direct result from the promotion of App Inventor in China for the past three years.&lt;br /&gt;&lt;strong&gt;More schools:&lt;/strong&gt; the contest got submissions from 258 schools which is an 80% increase compared to last year’s number. We found out more and more high and middle schools are interested in having opportunities for their students to learn CS in China.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/google_china_comp.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;On November 15, we held the onsite competition and awards ceremony at the Google Shanghai office. There were 10 high school teams, 10 middle school teams, parents and teachers in attendance.&lt;/p&gt;
-&lt;p&gt;We invited &lt;strong&gt;Prof. Hal Abelson from MIT&lt;/strong&gt; to give a welcome speech to more than 70 attendees via Google Hangout video conference at the beginning of the event. Hal mentioned that when he created App Inventor at Google and MIT, he hoped that talented students could use mobile computing to make apps which are both creative and beautiful. This year’s submissions reaffirmed his goal. He was so proud of the students and offered a warm congratulation to students, parents, and teachers.&lt;/p&gt;
-&lt;p&gt;Each finalist presented and demoed their applications to the judges, which included Google engineers and Weihua Li from the MIT App Inventor team. Below are the winning apps:&lt;/p&gt;
-&lt;p&gt;●      First prize in high school group: Xushi (virtual robot assistant)&lt;br /&gt;
-●      First prize in middle school group: Eyes Care (eye exam chart on app)&lt;br /&gt;
-●      Other winning applications: Swap, iHouse, Fresh Food, Go to School, Run, BarCodeRegister, My Handbook, Fuxidashi (exam review master), XHTXQ (reminder), F1 Car Race, Calculator, Fighting, Foodline, Grader, Labyrinth, Life Assistant, SAT II Biology Helper, HalliGalli&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/chinese_comp_apps.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;br /&gt;
-This was great teamwork from Google, MIT App Inventor team, South China University of Technology (local partner), and Guangzhou Education Information Center (hosting local App Inventor server). All parties have contributed to this contest in different ways.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 25 Jan 2016 16:23:42 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">695 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
