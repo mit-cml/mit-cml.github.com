@@ -6,6 +6,39 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor Clicker App Makes a Difference in the Classroom</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by Ken Masters, of Sultan Qaboos University in Oman&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/clicker-app-being-used.png&quot; style=&quot;display: block; margin: auto; width: 95%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both&quot;&gt;
+I had to make quite big changes to the way in which I presented my course, and the end result was delivering 2-hour lectures to a class of 150+ students. Some problems:
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/clicker-app.png&quot; style=&quot;float: right; width: 30%; margin-left: 10px;&quot; /&gt;&lt;li&gt;How to keep variations in teaching methods and student engagement for 2 hours with such a large class?  &lt;/li&gt;
+&lt;li&gt;As I move through the lesson, how to ensure that the students are following me (without asking a general &quot;do you understand&quot;, which will just get a universal nod, and without asking individual students,, which would be embarrassing for them if they were lost.)&lt;/li&gt;
+&lt;li&gt;Quite a bit of the stuff was in the text book, but harder technical stuff interspersed with easier stuff (most of my students are not mother-tongue English speakers).&lt;/li&gt;
+&lt;p&gt;
+I decided to go for clicker technology, but that introduced its own problem: No budget, and no clickers.
+&lt;/p&gt;
+&lt;p&gt;
+Mm. So I wrote a simple clicker app in App Inventor that utilizes Fusion Tables. I can now intersperse my lecture with various questions, and display the results to the class (using charts drawn in the fusion Table area), and get a quick handle on the students&#039; understanding. It&#039;s also anonymous (I collect no id info),  and so those who are struggling and getting any questions wrong can still participate without feeling silly in front of the large class, and can quickly gauge their own level of understanding as the class progresses.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class-with-google-hangout.png&quot; style=&quot;float: left; width: 30%; margin-right: 10px;&quot; /&gt;&lt;br /&gt;
+I had to go away urgently during the semester, and there was a lecture that I simply could not re-schedule, so I gave it live using Google Hangouts with the video feed of me and my presentation. The advantage of the app over clickers was that, from 5,000 kms (3,100 miles) away, I was still able to use my app with the questions, because the students&#039; answers were simply being sent to the Fusion Table via wifi, and I could display those charts to them in the same way that I was displaying the presentation. It took about 5 mins of my practising moving between screens beforehand, but, once I had the knack of it, it was straight-forward.&lt;/p&gt;
+&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/clicker-app.png?itok=c2IE1dhe&quot; width=&quot;378&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class-with-google-hangout.png?itok=xVIUuXkF&quot; width=&quot;480&quot; height=&quot;345&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/clicker-app-being-used.png?itok=8PoXIzxx&quot; width=&quot;480&quot; height=&quot;242&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 08 Apr 2016 15:11:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">729 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>BusBudE Secure Travel Notification System</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by the BusBudE team, South Fayette Township School District, Pennsylvania&lt;/i&gt;&lt;/p&gt;
@@ -266,18 +299,6 @@ Diana Knodel&lt;br /&gt;&lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1
  <pubDate>Wed, 03 Feb 2016 17:12:03 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">699 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Two App Inventor tablets for under $100</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2016/01/two-app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;I recently tested App Inventor with two low-priced tablets, the Kindle Fire 7&quot; and the HP 7 G2. Both of these work fine with App Inventor.  They could be reasonable choices for school or personal use, provided you have WiFi don&#039;t need phone calls or cellular connections. Here are instructions on how to set up these tablets for use with App Inventor 
-&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1osjY0wsZbZ0Bt_JT153f-ZH4cmA9mcc0MXKhMely4aU/edit#heading=h.sm3824vkq394&quot;&gt;Installing App Inventor on the Amazon Kindle Fire Tablet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1eYipj_mqblnqcSoFnmkS8q_l3WCh0WnxVKIU95M2ks0/edit#&quot;&gt;Installing App Inventor on the HP 7G2 Tablet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;   &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 29 Jan 2016 22:05:38 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">698 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
