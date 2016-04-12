@@ -6,9 +6,33 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor part of Science on Saturday at MIT</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/app-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT EECS department presented Science on Saturday, Circuits and Computers edition, at the Kresge Auditorium in conjunction with the MIT Museum on Saturday, April 2. Over 1000 people attended the event, which featured on-stage demos by various EECS faculty and staff on electricity, energy, motion and App Inventor. After the on-stage demos, visitors were able to try hands-on demos in the lobby of the auditorium. Karen Lang and Aubrey Colter from the MIT App Inventor team demonstrated how to create simple apps and assisted young people trying App Inventor for the first time. The youngest app inventor was four years old! More pictures of the event can be seen &lt;a href=&quot;http://www.eecs.mit.edu/news-events/media/science-saturday-circuits-and-computers&quot; target=&quot;_&amp;quot;blank&amp;quot;&quot;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;float: left; width: 45%;&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/crowd-at-kresge.jpeg&quot; /&gt;&lt;br /&gt;&lt;img style=&quot;float left; width: 45%; margin-top: -20px;&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/sos1.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&quot;width: 45%; float: left;&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/sos2.jpg&quot; /&gt;&lt;br /&gt;&lt;img style=&quot;width: 45%; float: left; margin-top: -20px&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/sos3.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/sos3.jpeg?itok=A8iQsEWx&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/sos2.jpg?itok=629IWbqS&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/crowd-at-kresge.jpeg?itok=ChSPHFdj&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/sos1.jpg?itok=gwQFNjvG&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 12 Apr 2016 16:48:09 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">731 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor Clicker App Makes a Difference in the Classroom</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by Ken Masters, of Sultan Qaboos University in Oman&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by Ken Masters, of Sultan Qaboos University in Oman&lt;/i&gt;&lt;br /&gt;&lt;i&gt;All photos courtesy of Salim Al-Harthi&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/clicker-app-being-used.png&quot; style=&quot;display: block; margin: auto; width: 95%;&quot; /&gt;&lt;/p&gt;
 &lt;p style=&quot;clear:both&quot;&gt;
 I had to make quite big changes to the way in which I presented my course, and the end result was delivering 2-hour lectures to a class of 150+ students. Some problems:
@@ -289,16 +313,6 @@ Diana Knodel&lt;br /&gt;&lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1
  <pubDate>Wed, 10 Feb 2016 14:21:53 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">700 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Verizon App Challenge Best in Nation Winners Announced</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/02</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/press-room/BestNation-pdf%20for%20website1-flat.pdf&quot; target=&quot;_blank&quot;&gt;Best in Nation Finalists&lt;/a&gt; for the &lt;a href=&quot;http://appchallenge.tsaweb.org/Verizon&quot; target=&quot;_blank&quot;&gt;Verizon App Challenge&lt;/a&gt; were announced today. Congratulations to all the winners, not only of the Best in Nation, but &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/press-room/BestState-2016%20pdf%20for%20website-flat.pdf&quot; target=&quot;_blank&quot;&gt;Best in State&lt;/a&gt;, and &lt;a href=&quot;http://appchallenge.tsaweb.org/sites/appchallenge.tsaweb.org/files/press-room/BestRegion-2016-pdf%20for%20website-flat.pdf&quot; target=&quot;_blank&quot;&gt;Best in Region&lt;/a&gt;&lt;a&gt;&lt;/a&gt;. Middle school and high school teams from around the nation developed ideas for apps that addressed a need in their school or community. They wrote essays describing their design process, their app’s functionality, and its potential impact or outcome. In addition, each team produced a 3 minute video describing the app and its impact. &lt;/p&gt;
-&lt;p&gt;Best in Nation Team Winners receive a $15,000 grant to build the app from their winning design and to enhance STEM education at their schools or site. MIT App Inventor Master Trainers will be working with the nine national finalists in person and virtually to develop their app over the next few months. Winning teams will present their apps at the TSA National Conference in Nashville, TN, in June. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 03 Feb 2016 17:12:03 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">699 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
