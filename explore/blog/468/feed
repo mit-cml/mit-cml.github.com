@@ -6,6 +6,28 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>A Great Initiative to Teach App inventor in Bangla By Niloy Shuvo</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/great</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Anisul Haque&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/shikkhok.PNG&quot; style=&quot;display:block; margin:auto;&quot; /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.shikkhok.com&quot; target=&quot;_blank&quot;&gt;SHIKKHOK.COM&lt;/a&gt;, a well known platform for teaching in the Bengali language, won a 2013 Google Rise Award, 2013 The Bobs user award, ISIF Award and so on. SHIKKHOK means Teacher in English. For 3 years this website has provided important lessons on various important topics. Ragib Hasan, Assistant Professor of Computer Security, University of Alabama at Birmingham, started this platform, shikkhok.com. Now this platform is very popular in Bangladesh and West Bengal, India.&lt;/p&gt;
+&lt;p&gt;A year ago a medical student, Niloy Sharma Shuvo, started a course on App Inventor to increase interest in young people about programming and making apps that will help in their workplace, school and college. The people of Bangladesh and West Bengal, India have many ideas, but many of them have no idea how to build app, or how to put their idea into action.&lt;/p&gt;
+&lt;p&gt;This course has 11 lectures based on a good syllabus. This is the first initiative on App Inventor for Bengali speaking people. About 1500 students registered for the course. They are interested in making apps with their own ideas. This course planted an interest in programming and increased problem solving skills in students in schools, colleges, and also universities.&lt;br /&gt;
+Using quality video tutorials, the teacher of this course, Niloy Sharma Shuvo, introduced MIT App Inventor to the students.&lt;/p&gt;
+&lt;p&gt;This course centers on real projects and there are some lectures/tutorials on making mini games. Teenagers are attracted by this option. Many young people build games and upload them to the Google Play store.&lt;/p&gt;
+&lt;p&gt;There are very basic examples of how App Inventor visual components work, along with downloadable App Inventor real project files. This initiative helped many young people to develop their own apps. After the course, he also helped students with their own projects, or explained the function of components by email.&lt;/p&gt;
+&lt;p&gt;The impact of this online course on Bangladesh is noticeable. Some students have shared their story of winning science fairs, and many competed in national competitions by making apps with App Inventor.&lt;/p&gt;
+&lt;p&gt;One student who is studying in Dhaka University said &quot; Now I can make my own apps though I don&#039;t have a little knowledge of programming. I&#039;m not a CSE student but I made an app &#039;Class Note&#039; where I can save my lecture notes. The course on shikkhok.com about App Inventor guided me to build my app with my own idea.&quot;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/shikkhok.PNG?itok=dvRCJwaY&quot; width=&quot;480&quot; height=&quot;154&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 14 Apr 2016 14:07:23 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">733 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor part of Science on Saturday at MIT</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/app-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT EECS department presented Science on Saturday, Circuits and Computers edition, at the Kresge Auditorium in conjunction with the MIT Museum on Saturday, April 2. Over 1000 people attended the event, which featured on-stage demos by various EECS faculty and staff on electricity, energy, motion and App Inventor. After the on-stage demos, visitors were able to try hands-on demos in the lobby of the auditorium. Karen Lang and Aubrey Colter from the MIT App Inventor team demonstrated how to create simple apps and assisted young people trying App Inventor for the first time. The youngest app inventor was four years old! More pictures of the event can be seen &lt;a href=&quot;http://www.eecs.mit.edu/news-events/media/science-saturday-circuits-and-computers&quot; target=&quot;_&amp;quot;blank&amp;quot;&quot;&gt;here&lt;/a&gt;.
@@ -347,17 +369,6 @@ Tel: (852) 24482960&lt;/p&gt;
  <pubDate>Wed, 20 Jan 2016 14:51:32 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">692 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Russian Language App Inventor Education Site Launched</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2015/12-1</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by Boris Yarmakhov.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/BorisSquare.JPG&quot; style=&quot;float: left; margin-right: 2%; margin-bottom: 0.5em; width: 20%;&quot; hspace=&quot;”5”&quot; vspace=&quot;”1”&quot; /&gt;Mobile Apps Academy web site  - &lt;a href=&quot;http://appinvent.ru/&quot; target=&quot;_blank&quot;&gt;http://appinvent.ru&lt;/a&gt; was launched in Russia in December, 2015. The site is intended for Russian speaking school teachers who plan to teach development of Android apps with MIT App Inventor. The site contains manuals, presentations, lesson plans, a curriculum and media files, which a teacher might use to start teaching MIT App Inventor in their classroom. The materials can also be used by independent learners. Two initial cohorts of Russian teachers have already been instructed using the website materials. Several webinars and teacher training events were held this year and often was heard the question “What is next?” from teachers. So the Mobile Apps Academy website just announced a contest for Russian middle and high school students for the best app developed with MIT App Inventor. The contest committee will select the best project, taking into consideration its idea, design and code. If enough submissions are received, junior and senior subdivisions will be created. The deadline for submissions is May, 2016. The winner will receive a Samsung tablet as a prize.&lt;/p&gt;
-&lt;p&gt;В декабре 2015 г.  в России был запущен веб сайт Академия мобильных приложений - &lt;a href=&quot;http://appinvent.ru/&quot;&gt;http://appinvent.ru/&lt;/a&gt; . Сайт предназначен для школьных учителей и всех тех, кто хотят научиться разработке мобильных приложений для Android с помощью MIT App Inventor. На сайте находятся рекомендации, презентации, разработки уроков, учебная программа, а также мультимедийные файлы, необходимые для того, чтобы начать преподавать основы MIT App Inventor в школе. Две первые группы российских учителей уже прошли обучение на основе материалов сайта. Кроме того, на сайте можно найти информацию о конкурсе для российских школьников на разработку лучшего мобильного приложения для Android, созданного с помощью MIT App Inventor. Конкурс продлится до 15 мая 2016 года. Его победителя ждет планшет от компании Samsung.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 29 Dec 2015 16:04:06 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">689 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
