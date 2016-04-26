@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Hundreds Try App Inventor at MIT Open House 2016</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;figure style=&quot;float:left; margin-right: 20px; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/app-inventor-at-mit-open-house.jpeg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align: center;&quot;&gt;Family tries Digital Face Painting app at MIT Open House&lt;/figcaption&gt;&lt;/figure&gt;&lt;br /&gt;
+Over 40,000 people flocked to Cambridge on Saturday, April 23 to check out the &lt;a href=&quot;http://mit2016.mit.edu/openhouse&quot; target=&quot;_blank&quot;&gt;MIT Under the Dome Open House&lt;/a&gt; event. Attendees were able to view over 380 exhibits around campus involving 80 different departments. The MIT App Inventor team was part of the CSAIL exhibit housed in a large white tent on North Court outside of the Stata Center. Visitors streamed through the tent all day long and hundreds of visitors came by the App Inventor table to learn more about App Inventor. A Digital Face Painting app was available on several tablets for visitors to try. The app allowed the user to take his/her picture, then draw on the picture to simulate face painting. By pressing a Send button, the face images were uploaded to a web server for display on a large monitor. Visitors were also able to get a printed copy of their digital face painting art to take home with them. Thanks to Lyn Turbak and Eni Mustafaraj of Wellesley College who shared their app with us. Thanks also to Jeff Schiller of MIT for creating the server space for uploading of images.
+&lt;/p&gt;
+&lt;p&gt;
+Most of the visitors had not heard of App Inventor, so were very curious to learn more and and to understand the possibilities. Many were surprised at how easy it is to become an app creator, instead of just an app user.
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/app-inventor-at-mit-open-house.jpeg?itok=H7thIDgh&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 26 Apr 2016 19:27:17 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">735 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>The Tech Girls of Dharavi Slum, Mahim, Mumbai, India</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/tech</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by the Dharavi Tech Girls&lt;/i&gt;&lt;/p&gt;
@@ -312,54 +332,6 @@ This was great teamwork from Google, MIT App Inventor team, South China Universi
  <pubDate>Mon, 25 Jan 2016 16:23:42 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">695 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>US FIRST Robotics Uses App Inventor to Design Robot Controllers</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/01/us</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest post by Thomas Eng, US FIRST&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/thomas-eng.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;FIRST is a non-profit organization, founded by inventor Dean Kamen, with a mission to inspire young people to pursue careers in science and technology.  FIRST engages children with exciting, Mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well rounded life capabilities including self-confidence, communication, and leadership.
-&lt;/p&gt;
-&lt;p&gt;
-The FIRST Tech Challenge group organizes robotics competitions for children in grades 7 through 12.  Teams build robots from a kit of parts.  Teams use these robots to compete in themed competitions around the world.  For 2015-2016 season, teams are building robots to compete in the official FIRST Res-Q game, which models its challenges after mountain rescue situations.
-&lt;/p&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first1.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;This season’s game, FIRST Res-Q, models its tasks after mountain rescue situations&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;
-Each team uses an Android Smartphone as the primary controller for their competition robot.  Teams can use a special branch of the MIT App Inventor to program their robot controllers and to create customized behaviors for their competition bots.
-&lt;/p&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 50%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first2.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align:center;&quot;&gt;Teams build robots that are controlled by Android smartphones&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;
-Teams can use the MIT App Inventor to design their robot controller apps using special FTC-specific design components.  These FTC-specific design components allow the users to communicate with and control the hardware devices (motors, servos and sensors) that are installed on a robot.  The FTC-specific design blocks were implemented by an engineer from Google, Liz Looney, who was introduced to FIRST by Hal Abelson and his CSAIL team from MIT.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first3.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first4.png&quot; style=&quot;display:block; margin: auto; width: 60%;&quot; /&gt;&lt;br /&gt;
-Because teams often do not have access to the Cloud at the competition venues for the FIRST Tech Challenge events, a solution was implemented that allows teams to run the MIT App Inventor locally, on their team laptops, using VirtualBox.  Teams design and build their robot controller apps with their local MIT App Inventor servers, and then the transfer and install them (typically using a USB cable) to their Android smartphones.
-&lt;/p&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin: auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/first5.png&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align: center;&quot;&gt;Teams use VirtualBox to run the MIT App Inventor application locally on the laptops&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;
-The MIT App Inventor has been very well received by the FIRST community.  App Inventor’s user friendly, visual interface and the easy-to-understand Blockly programming language makes the programming tasks more accessible and manageable, especially for novice programmers.
-&lt;/p&gt;
-&lt;div style=&quot;display: block; margin: auto; width: 60%;&quot;&gt;
-&lt;blockquote&gt;&lt;p&gt;
-“The MIT App Inventor has been a particularly huge hit in the under-served areas… The students were joyful that they now had been empowered to make the robot move by themselves.  Thank-you.”
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p style=&quot;text-align: right; margin-right: 15%;&quot;&gt;
-                    Keith Hall&lt;br /&gt;
-                    FIRST Senior Mentor, Indiana
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;
-For more information about the FIRST Tech Challenge visit the following link:&lt;br /&gt;&lt;a href=&quot;http://www.firstinspires.org/robotics/ftc&quot;&gt;http://www.firstinspires.org/robotics/ftc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For more information about FIRST, visit the official FIRST website:&lt;br /&gt;&lt;a href=&quot;http://www.firstinspires.org/&quot;&gt;http://www.firstinspires.org/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/thomas-eng.jpg?itok=WgxeKmt7&quot; width=&quot;300&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 21 Jan 2016 20:17:57 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">694 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
