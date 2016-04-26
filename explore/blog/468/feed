@@ -6,9 +6,9 @@
  <description></description>
  <language>en</language>
 <item>
- <title>Hundreds Try App Inventor at MIT Open House 2016</title>
+ <title>Hundreds Try App Inventor at MIT Open House</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;figure style=&quot;float:left; margin-right: 20px; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/app-inventor-at-mit-open-house.jpeg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;figcaption style=&quot;text-align: center;&quot;&gt;Family tries Digital Face Painting app at MIT Open House&lt;/figcaption&gt;&lt;/figure&gt;&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/app-inventor-at-mit-open-house.jpeg&quot; style=&quot;float: left; margin-right: 20px; width: 45%;&quot; /&gt;&lt;br /&gt;
 Over 40,000 people flocked to Cambridge on Saturday, April 23 to check out the &lt;a href=&quot;http://mit2016.mit.edu/openhouse&quot; target=&quot;_blank&quot;&gt;MIT Under the Dome Open House&lt;/a&gt; event. Attendees were able to view over 380 exhibits around campus involving 80 different departments. The MIT App Inventor team was part of the CSAIL exhibit housed in a large white tent on North Court outside of the Stata Center. Visitors streamed through the tent all day long and hundreds of visitors came by the App Inventor table to learn more about App Inventor. A Digital Face Painting app was available on several tablets for visitors to try. The app allowed the user to take his/her picture, then draw on the picture to simulate face painting. By pressing a Send button, the face images were uploaded to a web server for display on a large monitor. Visitors were also able to get a printed copy of their digital face painting art to take home with them. Thanks to Lyn Turbak and Eni Mustafaraj of Wellesley College who shared their app with us. Thanks also to Jeff Schiller of MIT for creating the server space for uploading of images.
 &lt;/p&gt;
 &lt;p&gt;
@@ -279,11 +279,11 @@ The enthusiasm and energy was high as the students began what will be an intensi
 &lt;p&gt;Our goal is to reach 15.000 students within the next two years and to grow the App Inventor community in German speaking countries. We will also develop additional courses on App development and other topics. The funding from the Google Impact Challenge helps us to continue what we do. It would be great if you support us and vote for us:&lt;br /&gt;&lt;a href=&quot;https://impactchallenge.withgoogle.com/deutschland/charity/app_camps&quot; target=&quot;_blank&quot;&gt;https://impactchallenge.withgoogle.com/deutschland/charity/app_camps&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you are interested in our free learning resources, check them out &lt;a href=&quot;https://www.appcamps.de/course_apps&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.  (this is also great way to practice your German skills).&lt;/p&gt;
 &lt;p&gt;Contact Details:&lt;br /&gt;
-Diana Knodel&lt;br /&gt;&lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+Diana Knodel&lt;br /&gt;&lt;span id=&quot;f27deb562d912bee070e222199916a83d683e193&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
 &lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
  &lt;!--
-  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#100;&amp;#105;&amp;#97;&amp;#110;&amp;#97;&amp;#64;&amp;#97;&amp;#112;&amp;#112;&amp;#99;&amp;#97;&amp;#109;&amp;#112;&amp;#115;&amp;#46;&amp;#100;&amp;#101;&quot;&gt;&amp;#100;&amp;#105;&amp;#97;&amp;#110;&amp;#97;&amp;#64;&amp;#97;&amp;#112;&amp;#112;&amp;#99;&amp;#97;&amp;#109;&amp;#112;&amp;#115;&amp;#46;&amp;#100;&amp;#101;&#039;;
+  document.getElementById(&#039;f27deb562d912bee070e222199916a83d683e193&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#100;&amp;#105;&amp;#97;&amp;#110;&amp;#97;&amp;#64;&amp;#97;&amp;#112;&amp;#112;&amp;#99;&amp;#97;&amp;#109;&amp;#112;&amp;#115;&amp;#46;&amp;#100;&amp;#101;&quot;&gt;&amp;#100;&amp;#105;&amp;#97;&amp;#110;&amp;#97;&amp;#64;&amp;#97;&amp;#112;&amp;#112;&amp;#99;&amp;#97;&amp;#109;&amp;#112;&amp;#115;&amp;#46;&amp;#100;&amp;#101;&#039;;
 // --&gt; 
 //--&gt;&lt;!]]&gt;
 &lt;/script&gt;&lt;p&gt;
