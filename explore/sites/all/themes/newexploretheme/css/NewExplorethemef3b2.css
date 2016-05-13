@@ -1,6 +1,6 @@
 /**
  * newexploretheme NewExploretheme.css
- * 
+ *
  * Use this file to add your custom styles.
  *
  * You can change the name of this file, just
@@ -8,13 +8,13 @@
  * as well..
  */
 img {
-  border:none;  
+  border:none;
 }
 .region-top-menu {
   background-color: #f1f6e4;
 }
 
-.block-region-top-menu, 
+.block-region-top-menu,
 .block-region-top-menu ul.menu {
   background-color: #f1f6e4;
   text-align: right;
@@ -25,9 +25,9 @@ img {
   text-align: center;
 }
 
-.front-page-story-list-row img { 
+.front-page-story-list-row img {
   float:left;
-  margin: 0 5px 0 0; 
+  margin: 0 5px 0 0;
 }
 
 .stories-row img {
@@ -244,7 +244,7 @@ img {
   font-size:12px;
   font-family: Lucida Sans Unicode;
   background-position :left center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-image: url('../../../files/callout_icons/android-notice-30x30.gif');
   padding-left: 60px;
 }
@@ -572,7 +572,7 @@ ul.menu {
 #edit-field-resource-lesson-type-tid-wrapper {
   width:35%;
 }
-.form-item-field-resource-lesson-type-tid .form-type-bef-checkbox{ 
+.form-item-field-resource-lesson-type-tid .form-type-bef-checkbox{
   float:left;
   width:48%;
 }
@@ -610,7 +610,7 @@ a.active:hover {
 /*******
  * Login Page
  *******/
-.not-logged-in .tabs.primary.clearfix li:first-child, 
+.not-logged-in .tabs.primary.clearfix li:first-child,
 .not-logged-in .tabs.primary.clearfix li:last-child {
   display:none;
   visibility: hidden;
@@ -626,3 +626,60 @@ div.admin.my-workbench .left {
 div.admin.my-workbench .right {
   width: 60%;
 }
+
+
+
+
+/*******
+ * Masonry News CSS
+ *******/
+
+.view-masonry-news .views-row {
+/*  float: left;
+  background: #fff;
+  margin: 10px;
+  width: 30%;
+  padding: 10px;
+  -moz-box-shadow: 0px 0px 5px #aaa;
+  -webkit-box-shadow: 0px 0px 5px #aaa;
+  box-shadow: 0px 0px 5px #aaa;*/
+}
+
+.view-masonry-news .views-row .article-title { font-size: 1.3em; }
+
+.view-masonry-news .views-row .submitted {
+  font-size: 0.7em;
+  color: #ddd;
+}
+
+.view-masonry-news .views-row .article-content {
+  font-size: 1em;
+  padding: 0.8em 0;
+}
+
+.views-row .article-content img {
+  padding: 0;
+  max-height: 300px;
+}
+
+ul.pager--infinite-scroll {
+  margin: 10px !important;
+}
+
+.pager--infinite-scroll .pager__item a{
+  background-color: #32590a;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  transition: background-color 0.5s ease;
+  margin-top: 10px;
+}
+
+.pager--infinite-scroll .pager__item a:hover {
+  background-color: white;
+  color: #32590a;
+  border: 1px solid #32590a;
+}
+
