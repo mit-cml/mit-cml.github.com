@@ -1,0 +1,628 @@
+/**
+ * newexploretheme NewExploretheme.css
+ * 
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well..
+ */
+img {
+  border:none;  
+}
+.region-top-menu {
+  background-color: #f1f6e4;
+}
+
+.block-region-top-menu, 
+.block-region-top-menu ul.menu {
+  background-color: #f1f6e4;
+  text-align: right;
+  float: right;
+}
+
+#user-login-block-form-fields label {
+  text-align: center;
+}
+
+.front-page-story-list-row img { 
+  float:left;
+  margin: 0 5px 0 0; 
+}
+
+.stories-row img {
+  float:left;
+  margin: 0 5px 10px 0;
+}
+
+.stories-row {
+  clear: both;;
+}
+
+.views-row-even > stories-row img {
+  background-color: #e5e2da;
+}
+
+#cml_logo {
+  width: automatic;
+}
+
+#cml_logo img {
+  clear: both;
+  float: right;
+}
+
+.article-type-people > field-item img {
+  float: left;
+}
+
+.ai-blocks {
+  border: 2px dashed #7AA81C;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #F3F6EC;
+}
+
+.basicblock {
+  border: 1px dashed #7AA81C;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #E7F2CB;
+  font-size: 9pt;
+  white-space: nowrap;
+
+}
+
+.callblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #E0D1FF;
+  font-size: 9pt;
+  white-space: nowrap;
+
+}
+
+.argblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #E5E5FF;
+  font-size: 9pt;
+  white-space: nowrap;
+
+}
+
+.textblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FADAA0;
+  font-size: 9pt;
+  white-space: nowrap;
+
+}
+
+.setterblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #C1D5F8;
+  font-size: 9pt;
+  white-space: nowrap;
+}
+
+.componentsetblock {
+  border: 1px dashed #000000;
+  color: #fff;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #439970;
+  font-size: 9pt;
+  white-space: nowrap;
+}
+
+.controlblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FAEDBB;
+  font-size: 9pt;
+  white-space: nowrap;
+}
+
+.colorblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #BDBDBD;
+  font-size: 9pt;
+  white-space: nowrap;
+}
+
+.variableblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FAAC58;
+  font-size: 9pt;
+  white-space: nowrap;
+}
+
+.eventblock {
+  border: 1px dashed #000000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #CFAC4B;
+  font-size: 9pt;
+  white-space: nowrap;
+  color:white;
+}
+
+/* AI2 Block Styling */
+.controlblock-ai2,
+.logicblock-ai2,
+.mathblock-ai2,
+.textblock-ai2,
+.listblock-ai2,
+.colorblock-ai2,
+.variableblock-ai2,
+.callblock-ai2,
+.getcomponent-ai2,
+.setcomponent-ai2 {
+  border: 1px dashed #000;
+  padding: 1px 4px;
+  font-size: 9pt;
+  white-space: nowrap;
+  color: white;
+}
+
+.controlblock-ai2 {
+	background-color: #cfad4c;
+}
+
+.logicblock-ai2 {
+	background-color: #88b653;
+}
+
+.mathblock-ai2 {
+	background-color: #4f86bf;
+}
+
+.textblock-ai2 {
+	background-color: #c24571;
+}
+
+.listblock-ai2 {
+	background-color: #58b6dc;
+}
+
+.colorblock-ai2 {
+	background-color: #909090;
+}
+
+.variableblock-ai2 {
+	background-color: #db743a;
+}
+
+.callblock-ai2 {
+	background-color: #8f6a96;
+}
+
+.getcomponent-ai2 {
+	background-color: #439a70;
+}
+
+.setcomponent-ai2 {
+	background-color: #286543;
+}
+
+.ai-box {
+  color: green;
+  font-size:12px;
+  font-family: Lucida Sans Unicode;
+  background-position :left center;
+  background-repeat: no-repeat; 
+  background-image: url('../../../files/callout_icons/android-notice-30x30.gif');
+  padding-left: 60px;
+}
+
+.ai-box a{
+  color: #4b8ef9;
+}
+
+
+.ai-header {
+  border-bottom: 1px solid #CDCDCD;
+  padding: 10px 0 5px 0;
+}
+
+.ai-testing {
+  border: 2px solid #ABABAB;
+  color: #888;
+  font-size:12px;
+  font-family: Lucida Sans Unicode;
+  background-position :left bottom;
+  background-repeat: no-repeat;
+  background-image: url('../../../files/callout_icons/testicon2.png');
+  padding-left: 90px;
+}
+
+.ai-warning {
+        border: 2px solid #F44;
+        color: #F33;
+        font-size:12px;
+        font-family: Lucida Sans Unicode;
+        background: #FDD;
+        background-position :left center;
+        background-repeat: no-repeat;
+        background-image: url('../../../files/callout_icons/android-warning-30x30.gif');
+        padding-left: 90px;
+}
+
+/*CSS code for the setup instructions pages*/
+
+.setup-buttonWrapper{
+    margin: 20px auto;
+
+}
+
+a.setup-buttonSetup{
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 120px;
+    margin: 30px auto;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.setup-buttonWrapper{
+    margin: 20px auto;
+
+}
+
+a.setup-buttonHeader{
+    display: block;
+    float:left;
+    position: relative;
+    height: 40px;
+    /*width: 120px;*/
+    padding: 0px 1em 0px 1em;
+    margin: 10px;
+    text-decoration: none;
+    font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.blob {
+  padding: 0px 20px 20px 20px;
+  margin: 30px 20px 20px 20px;
+  background-color: #F8FEF0;
+
+}
+
+/*hyplink colors*/
+.link-override{
+  color: #32590a;
+}
+.content-inner p a, .content-inner li a   {
+  color: #1c6ea0;
+}
+
+.content-inner a:hover, .link-override:hover{
+  color: #663399;
+}
+
+.region-sidebar-second a{
+  color:#4b8ef9;
+}
+
+h1.article-title a,
+.view-header p a  {
+  color: #32590a;
+}
+.tutorials-view p a {
+  color: #4b8ef9;
+}
+
+
+/*buttons*/
+
+a.buttonSetup {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    margin: 30px auto;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.gray,.gray:hover {
+    color: #356600;
+    border-bottom: 4px solid #356600;
+    background: #d8dfb1;
+}
+
+.gray:hover { background: #E7FFCD; }
+
+/*global style*/
+h2,
+h3,
+h2.setup,
+h3.setup {
+  border-bottom: 1px solid #82ac38;
+  padding: 10px 0 5px 0;
+}
+
+/* setup-gray */
+.setup-gray,.setup-gray:hover {
+    color: #356600;
+    border-bottom: 4px solid #356600;
+    background: #d8dfb1;
+}
+
+.setup-gray:hover { background: #E7FFCD; }
+
+
+.setup-lightGreen{
+    color: #555;
+    border-bottom: 4px solid #356600;
+    background: #F6ECB1;
+}
+
+.setup-lightGreen:hover { background: #82ac38; }
+
+.setup-blob {
+  padding: 0px 20px 20px 20px;
+  margin: 30px 20px 20px 20px;
+  background-color: #F8FEF0;
+
+}
+
+.blob {
+  padding: 0px 20px 20px 20px;
+  margin: 30px 20px 20px 20px;
+  background-color: #F8FEF0;
+
+}
+
+
+
+
+/*Style adjustments for Google Custom Search*/
+.gstl_0, .gsc-search-box {
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+.gsib_b, .gsib_a {
+  vertical-align: top !important;
+}
+
+
+
+/******
+ * Coloring for Invent menu item.
+ ******/
+.menu-item-527 > a, .menu-item-2420 > a {
+        background-color: #de7345 !important;
+        color: #fffa55 !important;
+}
+.menu-item-527 > a:hover, .menu-item-527 > a:focus, .menu-item-527 > a.active,
+.menu-item-2420 > a:hover, .menu-item-2420 > a:focus, .menu-item-2420 > a.active {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+/******
+ * Coloring for Get Setup menu item.
+ ******/
+.menu-item-1346 > a, .menu-item-2421 > a {
+        background-color: #6c1f6f !important;
+        color: #fffa55 !important;
+}
+.menu-item-1346 > a:hover, a:focus, a.active, a.active-trail,
+.menu-item-2421 > a:hover, a:focus, a.active, a.active-trail {
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+/******
+ * Coloring for Teach menu item.
+ ******/
+.menu-item-2106 > a, .menu-item-2428 > a {
+        background-color: #74aaca !important;
+        color: #fffa55 !important;
+}
+.menu-item-2106 > a:hover, a:focus, a.active, a.active-trail,
+.menu-item-2428 > a:hover, a:focus, a.active, a.active-trail{
+        background-color: #ffffff !important;
+        color: #3b5732 !important;
+}
+
+/*********
+ * Front Page Title Bar
+ ********/
+#article-47 .article-title {
+  font-size: 36px;
+  margin: 0 10px 0 10px;
+}
+#article-47 .clearfix {
+  border: none;
+}
+#front_page_logo, #cml_front_page_logo {
+  vertical-align: middle;
+  margin-bottom: 5 px;
+}
+
+/********
+ * Back Page Logo placement
+ ********/
+#cml_logo_back {
+  margin-left: 10px;
+}
+
+/*******
+ * Make the panes of views have less top whitespace
+ *******/
+h2.pane-title {
+  margin-top: 0;
+}
+
+/*******
+ * Change top menu appearance
+ *******/
+ul.menu {
+  font-size: 13px !important;
+}
+#menu-bar .menu-wrapper li a,
+#menu-bar .menu-wrapper .menu li a {
+  display: block;
+  line-height: 2.5em;
+  padding: 0 1em;
+  white-space: nowrap;
+}
+
+/*******
+ * Create scrollable checkboxes on views
+ *******/
+
+#edit-field-tutorial-type-tid-wrapper {
+  width: 100%;
+}
+
+.tutorials-view .bef-checkboxes,
+.tutorials-view .bef-select-as-radios .form-radios {
+  /*
+   * Setting the height and overflow creates a scrollable <div> for the radio/checkbox elements.
+   * The border is just for looks -- adjust or remove as needed.
+   */
+  height: auto;
+  /*float:left;*/
+  width: 100%;
+  /*background-color:red;*/
+  /*border: 1px solid #AAAAAA;*/
+  padding-right: 5px;
+  display:inline-block;
+}
+
+.tutorials-view .bef-checkboxes .form-item,
+.tutorials-view .bef-select-as-radios .form-radios .form-item {
+  display:inline-block;
+  width:20%;
+  float:left;
+
+}
+
+/* Line up multi-line options nicely */
+.tutorials-view .bef-checkboxes .form-item,
+.tutorials-view .bef-select-as-radios .form-radios .form-item {
+  text-indent: -24px;
+  margin-left: 24px;
+}
+
+.views-exposed-widget.views-submit-button{
+  clear:both;
+  width:50px;
+  float:left;
+  padding: 0 1em 1em 0;
+}
+
+.views-exposed-widget.views-reset-button{
+  width:40%;
+  float:left;
+  padding: 0 0 1em 0;
+  clear:none;
+}
+
+#edit-field-resource-lesson-type-tid-wrapper {
+  width:35%;
+}
+.form-item-field-resource-lesson-type-tid .form-type-bef-checkbox{ 
+  float:left;
+  width:48%;
+}
+.views-exposed-widget{
+  width:25%;
+}
+
+/*******
+ * Fixes column width on views
+ *******/
+.fix-width-40{
+  width:40%;
+}
+.fix-width-50{
+  width:50%;
+}
+.fix-width-80{
+  width:80%;
+}
+
+tr.even {
+  background: #F7F7F7;
+}
+
+a.active:hover {
+  text-decoration: underline;
+  color:#663399;
+}
+
+.field-label {
+  padding:0;
+}
+
+
+/*******
+ * Login Page
+ *******/
+.not-logged-in .tabs.primary.clearfix li:first-child, 
+.not-logged-in .tabs.primary.clearfix li:last-child {
+  display:none;
+  visibility: hidden;
+}
+
+/*******
+ * CSS for the my-workbench page.
+ *******/
+div.admin.my-workbench .left {
+  width: 30%;
+}
+
+div.admin.my-workbench .right {
+  width: 60%;
+}
