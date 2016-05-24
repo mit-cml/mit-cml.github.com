@@ -6,57 +6,6 @@
  <description></description>
  <language>en</language>
 <item>
- <title>The Science Temple</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-1</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/chen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT App Inventor Master Trainer Xiangqun Chen.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Every year we have two Disciplines Festivals; the autumn term is Art Festival, the spring term is Science Festival. So this term is Science Festival. The junior and senior parts of our school have different activities. In the junior part, one of the activities of the Science Festival is a &quot;Science Temple&quot;, a gathering of all students to take part in a lot of interesting games within half a day. &lt;/p&gt;
-&lt;div style=&quot;width:100%; clear:both;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/01Board.jpg&quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/10board_math1.jpg &quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/11board_math2.jpg &quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/05Physics2.jpg&quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;/div&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;Of course our computer science discpline is one of the most attractive areas! The students lined up for playing games. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/08Online.jpg&quot; style=&quot;margin:auto; width: 50%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So happy to play the fruit piano!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/students-with-apps.jpg &quot; style=&quot;margin:auto; width: 50%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Our robotic club designed some interesting games to attract their classmates to play.&lt;/p&gt;
-&lt;p&gt;
-The spinwin: Using Arduino robot kits. When you press the green button, the spinwin begins to whirl, then you press the red button, the spinwin whirls down slowly, and finally stops in an area which indicates the game you should play: Tank, Elephant, Fruit Piano, Stamp and Try again. &lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/SoeVAoiNO1M&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Touch the fruit to play a note, create your own song!&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/dODM4fNQ2dM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Lego Tank: You have only 60 seconds to push four items into a goal. If you push one item into a goal, you can get one stamp on your game card, and so on.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/tRV0METcv3A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Lego Elephant: Make the elephant to roll up a candy stick then put it into the blue fence. If you succeed, you can get a stamp on your card.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/_wMct7UXe10&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Students use apps installed on the smart phone to control the LEGO Robots. The apps are written by our robotic club members, using the App Inventor Platform. But the edition is a bit different from the official one. We cooperate with Shenzhen Institute of Information Technology to develop a local server edition, and add LEGO EV3 and Arduino components in the designer. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/LocalHost_AI2.jpg&quot; style=&quot;margin:auto; width: 80%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; Blocks of Tank:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/LocalHost_AI2Blocks.jpg&quot; style=&quot;margin:auto; width: 80%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So exciting to know that the new release of App Inventor coming soon will also add Components to support LEGO EV3 Robots. I&#039;ll ask my students to test it. They will love it!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/01Board.jpg?itok=lPvB610X&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/10board_math1.jpg?itok=0Eppxbd9&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/11board_math2.jpg?itok=ZyJXuCXA&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/05Physics2.jpg?itok=frMEl5Lz&quot; width=&quot;360&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/08Online.jpg?itok=fNTBPltX&quot; width=&quot;320&quot; height=&quot;240&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/students-with-apps.jpg?itok=0_0ijXnP&quot; width=&quot;320&quot; height=&quot;213&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/LocalHost_AI2.jpg?itok=AwkFvHRh&quot; width=&quot;480&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/LocalHost_AI2Blocks.jpg?itok=5rk8O-ZF&quot; width=&quot;480&quot; height=&quot;270&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 19 May 2016 19:08:31 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">745 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
  <title>Celebrating International Girls in ICT day in Europe</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/gtf-group.jpg&quot; style=&quot;margin: auto; width: 90%; display: block;&quot; /&gt;&lt;/p&gt;
@@ -374,6 +323,27 @@ Parv Shrivastava, 8th Grade; Joe Cavanaugh, 11th Grade; Sam Cohen, 11th Grade; N
  <pubDate>Mon, 04 Apr 2016 20:01:25 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">728 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Altona Middle School Team Builds Diction Defender App</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/03</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver1.jpg&quot; align=&quot;right&quot; style=&quot;width: 30%; margin-left: 10px;&quot; /&gt;Last weekend, I had the pleasure of meeting the Altona Middle School team from Longmont, Colorado, who is one of the eight Best in Nation Verizon App Challenge winners. They were beginning their App Inventor training to learn the skills necessary to develop their app, Diction Defender, over the next few months. In the morning, MIT Master Trainer, Ann Root, took the students through the storyboarding process where the students designed the order and layout of the various app screens. The afternoon was spent working directly with App Inventor. Each student worked on a separate App Inventor tutorials, each with a different focus or feature. Then the students came together to share what they have learned with the group. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/denver2.jpg&quot; align=&quot;left&quot; style=&quot;width: 30%; margin-right: 10px;&quot; /&gt;&lt;br /&gt;
+The app is intended to help students become better writers by leading them through a game that features a series of grammar questions with increasing degrees of difficulty. The game theme is a journey through different landscapes on an island, with pitfalls if the user answers incorrectly. Their mentor and computer science teacher, Mollie Kelleher, a former English teacher, is helping the team with the grammar side of things. The game is highly visual, so the artistic abilities of team members will be a big part of the user interface. There are some tricky technical algorithms for the students to work out, but they appear to be up for the challenge.&lt;/p&gt;
+&lt;p&gt;
+The enthusiasm and energy was high as the students began what will be an intensive few months of development. In June, they will present their app at National TSA Conference in Nashville, Tennessee. It was a great experience to see this team in action and I look forward to seeing and playing Diction Defender in June. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/denver1.jpg?itok=ZhPKSd_0&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/denver2.jpg?itok=xck4EnbA&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 03 Mar 2016 17:33:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">712 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
