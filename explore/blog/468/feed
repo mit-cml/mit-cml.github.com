@@ -6,6 +6,63 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Integrating MIT App Inventor into Hoa Sen University IT Curriculum</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nguyen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog post by MIT App Inventor Master Trainer Khoi Nguyen Tran Minh, a lecturer at Hoa Sen University, Vietnam&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;
+It is good news that after attending the MIT Master Trainers Program in Educational Mobile Computing, I am able to persuade my senior managers at The Faculty of Science and Technology, Hoa Sen University, Vietnam to introduce a new course, Introduction CS Principles with MIT App Inventor, into our IT curriculum. We developed our course based on &lt;a href=&quot;http://www.mobile-csp.org/&quot; target=&quot;_blank&quot;&gt;Mobile CSP&lt;/a&gt;, which focuses on building mobile apps with MIT App Inventor and is among &lt;a href=&quot;http://apcsp.org/index.php/courses&quot; target=&quot;_blank&quot;&gt;five pilot courses&lt;/a&gt; fully addressing the AP Computer Science Principles Curriculum Framework components. &lt;/p&gt;
+&lt;p&gt;
+The approval is mainly based on the fact that nearly 100 US colleges and universities have considered the CS Principles Framework as a &lt;a href=&quot;https://advancesinap.collegeboard.org/stem/computer-science-principles/higher-ed-support&quot; target=&quot;_blank&quot;&gt;college-level computing course&lt;/a&gt;. As a matter of fact, many of them have &lt;a href=&quot;http://www.csprinciples.org/home/pilot-sites&quot; target=&quot;_blank&quot;&gt;piloted a program&lt;/a&gt; to teach Seven Big Ideas and the Six Computational Thinking Practices to university students.&lt;/p&gt;
+&lt;p&gt;
+While MIT App Inventor has been utilised as a tool for many CS principles courses, it appears to me that it has potential for a great deal of other subjects, especially Data Structures and Algorithms. Take “The Tower of Hanoi” app (with &lt;a href=&quot;https://drive.google.com/folderview?id=0B8MPX-KrJRMuRFRDQVFFSXhmMDQ&amp;amp;usp=sharing&quot; target=&quot;_blank&quot;&gt;tutorial&lt;/a&gt;) in the &lt;a href=&quot;ai2.appinventor.mit.edu/?galleryId=6007560209694720&quot; target=&quot;_blank&quot;&gt;App Inventor Gallery&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.TheTowerofHanoi_Final&quot; target=&quot;_blank&quot;&gt;Google Play&lt;/a&gt; as an example. I developed this app to push MIT App Inventor beyond its comfort zone and saw that it has the capability to develop complicated apps as easy as any text-based programming language, if not more conveniently and in less time.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/tower-of-hanoi.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Additionally, I was able to use MIT App Inventor to complete all &lt;a href=&quot;https://drive.google.com/file/d/0B8MPX-KrJRMua2I1R0dVVUlyYlE/view?usp=sharing&quot; target=&quot;_blank&quot;&gt;week 2 assignments&lt;/a&gt; of the &lt;a href=&quot;https://www.coursera.org/learn/algorithmic-toolbox&quot; target=&quot;_blank&quot;&gt;Coursera Algorithmic Toolbox&lt;/a&gt;, course 1 of 6 in the Data Structures and Algorithms Specialization. Here are the links to the apps in the Google Play:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Fibonaccinumber_Final&amp;amp;hl=en&quot; target=&quot;_blank&quot;&gt;Compute a huge Fibonacci number&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;4&lt;/sup&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fibonacci-sequence.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Last_Digit_of_a_Huge_Fibonacci_Number&quot; target=&quot;_blank&quot;&gt;Compute the last digit of a large Fibonacci number&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;7&lt;/sup&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fibonacci-lastdigit.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Fibonacci_Mod_M&quot; target=&quot;_blank&quot;&gt;Compute a huge Fibonacci number modulo m&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;18&lt;/sup&gt; 2 &amp;amp;le m &amp;amp;le 10&lt;sup&gt;5&lt;/sup&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/huge-fibonacci.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.The_greates_common_divisor_of_two_integers&quot; target=&quot;_blank&quot;&gt;Compute the greatest common divisor of two integers&lt;/a&gt; (1 ≤ a, b ≤ 2 * 10&lt;sup&gt;9&lt;/sup&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/gcd.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.The_least_common_multiple_of_two_integers_Final&quot; target=&quot;_blank&quot;&gt;Compute the least commond multiple of two integers&lt;/a&gt; (1 ≤ a, b ≤ 2 * 10&lt;sup&gt;9&lt;/sup&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/lcd.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+Admittedly, these problems are not hard to solve. However, the obstacle is how long it would take to calculate huge numbers, such as the 10,000th Fibonacci number or the last digit of the 1,000,000,000th one. While a carefully-designed algorithm can solve these problems within seconds, its not-so-good counterparts can take hundred or thousand years to complete the computation.&lt;/p&gt;
+&lt;p&gt;Not surprisingly, I found that MIT App Inventor is a kind of pseudocode which is intended for human reading, yet it still delivers a fully functional app with a variety of algorithms without any difficulties at all. It is my goal to use MIT App Inventor to produce more algorithm-related apps before writing a book titled “Data Structures and Algorithms with MIT App Inventor”.&lt;/p&gt;
+&lt;p&gt;
+Intelligent Tutoring System is a field that I really want to explore further with AI2 and hopefully can I demo my app in the Summit in June. In the meantime, I will post some information about it in my next article.&lt;/p&gt;
+&lt;p&gt;I would love to receive feedback as well as comments and can be reached at   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ &lt;!--
+  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#107;&amp;#104;&amp;#111;&amp;#105;&amp;#46;&amp;#110;&amp;#103;&amp;#117;&amp;#121;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#97;&amp;#110;&amp;#109;&amp;#105;&amp;#110;&amp;#104;&amp;#64;&amp;#104;&amp;#111;&amp;#97;&amp;#115;&amp;#101;&amp;#110;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&amp;#46;&amp;#118;&amp;#110;&quot;&gt;&amp;#107;&amp;#104;&amp;#111;&amp;#105;&amp;#46;&amp;#110;&amp;#103;&amp;#117;&amp;#121;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#97;&amp;#110;&amp;#109;&amp;#105;&amp;#110;&amp;#104;&amp;#64;&amp;#104;&amp;#111;&amp;#97;&amp;#115;&amp;#101;&amp;#110;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&amp;#46;&amp;#118;&amp;#110;&#039;;
+// --&gt; 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/tower-of-hanoi.png?itok=T9mEfol1&quot; width=&quot;480&quot; height=&quot;175&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-sequence.png?itok=FMKG-b7G&quot; width=&quot;470&quot; height=&quot;237&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-last-digit.png?itok=bGWkFlzI&quot; width=&quot;480&quot; height=&quot;181&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/huge-fibonacci.png?itok=dkREDyCH&quot; width=&quot;480&quot; height=&quot;245&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/lcd.png?itok=aYzcHqet&quot; width=&quot;469&quot; height=&quot;243&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/gcd.png?itok=1NobvU6s&quot; width=&quot;478&quot; height=&quot;253&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-lastdigit.png?itok=V1yvIXBg&quot; width=&quot;480&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 27 May 2016 12:52:04 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">749 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>The Science Temple</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-1</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/chen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT App Inventor Master Trainer Xiangqun Chen.&lt;/i&gt;&lt;/p&gt;
@@ -282,98 +339,6 @@ I had to go away urgently during the semester, and there was a lecture that I si
  <pubDate>Fri, 08 Apr 2016 15:11:58 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">729 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>BusBudE Secure Travel Notification System</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by the BusBudE team, South Fayette Township School District, Pennsylvania&lt;/i&gt;&lt;/p&gt;
-&lt;div style=&quot;width: 55%; margin: auto; display: block; padding-top: 20px;&quot;&gt;
-&lt;cite&gt;&lt;q&gt;&lt;b&gt;Every problem has its solution. You just have to be creative enough to find it.&lt;/b&gt;&lt;/q&gt;&lt;/cite&gt;
-&lt;p style=&quot;float:right&quot;&gt;&lt;i&gt;Travis Kalanick - Co-founder of Uber&lt;/i&gt; &lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;container&quot; style=&quot;display:block; margin:auto; clear:both; width: 95%;&quot;&gt;
-&lt;div style=&quot;float:left; width=&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude1.png&quot; /&gt;&lt;/div&gt;
-&lt;div style=&quot;float:right; width=&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude2.png&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;Each year nationwide, there are reports of young children being dropped off of school buses in the wrong neighborhoods, unable to find their way home, and widespread reports in the media of children who are inadvertently left on the bus alone, posing a dangerous health risk. Most children live in households where families work, making it difficult for parents to be home to ensure the safe departure and arrival of their children. School notification systems contact parents during the first hours of school if their child has an unreported absence. Parents often are not aware if their children have returned home at the appropriate time until parents discover them missing hours later. The significant lapse in time can mean the difference between life and death. We put our creativity to the test to find a solution for this problem and created BusBudE Secure Travel Notification System.&lt;/p&gt;
-&lt;p&gt;We are the BusBudE Team, middle school and high school students from South Fayette Township School District near Pittsburgh, Pennsylvania. Each member has their own individual role and duty that helps our team stay organized and efficient. Our team includes: Co-project Managers: Joe Cavanaugh (grade: 11), Parv Shrivastava (grade: 8); Director of Computer Programming: Sam Cohen (grade: 11); Computer Programming Team: Anish Thangavelu (grade: 8), Vinay Pedapati (grade: 9); and Director of Business Marketing: Meghan Banerjee (grade: 12). We are part of the Emerging Innovation Leaders Program led by South Fayette’s Director of Technology and Innovation, Aileen Owens. Our goal for BusBudE is to create a system that helps young students board the bus safely and allows parents peace of mind knowing their child is safe.  &lt;/p&gt;
-&lt;p&gt;BusBudE is a product designed to help keep students safe while traveling to and from school on the school bus. Currently we are beta testing our product design. Our plan for the future is to create system for parents to register their young children for this service. Currently during beta testing our children receive a tag and small device attached to their backpack. As children enter the bus they scan their BusBudE tag to the mobile device on the bus. Immediately a text message is sent to the child’s parents alerting them as to the date, time, and location that their child enters and leaves the bus. Parents know exactly where their children are when they enter and exit the bus. The BusBude application is designed to increase students’ safety and decrease parents’ fears and apprehension.&lt;/p&gt;
-&lt;h3&gt;Technical Aspects&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude-screenshot.png&quot; style=&quot;float:right; margin-left: 10px;&quot; /&gt;BusBudE uses a variety of technology within a cohesive system to keep children safe.  Currently, the major components of BusBudE are near field communication (NFC) tags and a NFC-capable phone.  We envision every bus outfitted with a phone that has NFC capabilities. Each participating student will receive a tag with customized information specific to each child and a custom designed tag holder. When the students enter the bus, they will scan their NFC tag to the NFC reader on the phone. Each phone is loaded with the BusBudE application which takes in the student’s information and puts it into a text that is sent to his or her parents.  Here is an example of a text message:  Sara is getting off bus 10 at 77 Massachusetts Ave, Cambridge, MA 02139.&lt;/p&gt;
-&lt;p&gt;
-We designed the prototype app for BusBudE using App Inventor. The app has a variety of features. The features include an accurate location and time based algorithm that detects whether the student is getting on or off the bus in the morning or the afternoon.  With this algorithm, bus drivers do not have to manually select whether a student is getting on or off the bus as we did in an earlier iteration.  Additionally, a notification sounds when the phone as read the tag to notify the student if his or her NFC tag has been scanned, a necessary feature that we added after our first beta test.&lt;/p&gt;
-&lt;p&gt;Featured below is a small snippet of the code that takes the name of the student and phone number from the NFC tag.  It shows the BusBudE logo and a counter that increases by 1 every time the student has scanned their tag.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude-blocks.png&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Design Stages&lt;/h3&gt;
-&lt;p&gt;Once we designed the prototype version of the device and programmed the tags and the reader, we decided to beta test the application with a small group of students and their parents. We selected 5 students in 1st and 2nd grade from Bus 10 and ran the first beta test in March 2015.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude-diagram.png&quot; style=&quot;float:right; width: 30%; margin-left: 10px;&quot; /&gt;The test concentrated on specific research questions to help develop the app to meet our user needs. We focused on analyzing the technical facets of the device and the students’ responses. The questions we focused on included:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Would the technical aspects of the device work effectively and efficiently?&lt;/li&gt;
-&lt;li&gt;Would there be any time restraints or issues scanning and receiving text messages? &lt;/li&gt;
-&lt;li&gt;Would the device be easy for the students to use?&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We held a parent-student training session with five students and their parents from 1st and 2nd grade to explain exactly what the product was intended to do. After distributing the individual badges, we ran through a practice run with the students to set expectations and explain how to scan their badges through role-playing. During the first beta test the device had the capacity to send a text to the student’s parent or guardian with a notification to let parents know that their childe had entered or exited the bus. We provided training for the bus driver and with her assistance located the best placement for the device on the bus.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude-team.png&quot; style=&quot;float:left; margin-right: 10px;&quot; /&gt;On the morning and afternoon of the beta test, Aileen Owens rode the bus and monitored the students, observing and taking notes. After each alert was received, parents texted back to Aileen’s cell phone to let her know that they received the alert. She could then see in real time when students scanned and when the text was received. Parents reported that they received the texts and provided enthusiastic and positive feedback. The first beta test was a success.&lt;/p&gt;
-&lt;p&gt;Some of the lessons we learned from this beta test were:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Scanning cards was easy for the students and was accomplished quickly without significant delay to the bus schedule.&lt;/li&gt;
-&lt;li&gt;The reading device on the bus was positioned right for the elementary school children to scan without difficulty. &lt;/li&gt;
-&lt;li&gt;The parents really loved the fact that they were receiving texts that alerted them to the fact that their children were safely riding the bus at the right times.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Potential areas for improvement were also discovered.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;There was no visual cue on the reading device that allowed students to see that their card had been scanned. As a result, some students scanned multiple times since they were not sure if their scan had been completed. As a result, some parents received multiple text messages.&lt;/li&gt;
-&lt;li&gt;Another area for improvement was the handling of the reading device on the bus. The Bus driver suggested that the device be switched on at the start of the route and switched off at the end of the route, so that the driver did not have to touch the device at any time during the trip. If the driver were to touch the device anytime in between, it could potentially send repeat messages to parents, and cause confusion.&lt;/li&gt;
-&lt;li&gt;The driver also recommended that the text message sends an alert to parents stating the bus number that the students entered. She explained that one of the biggest challenges for elementary students is learning to board the correct bus. There are times that students take a different bus route home from school when traveling to parents living in separate households.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;
-The first beta test presented us with several areas for improvement which we incorporated into the second iteration of the product.&lt;/p&gt;
-&lt;p&gt;
-The responses and results of this test were reported to Josh Sheldon, an App Inventor team member from MIT. One of his suggestions was to program the device to include the location of the student when entering and exiting the bus. Josh explained to the team how to use the location sensor feature on the App Inventor program.
-&lt;/p&gt;
-&lt;p&gt;
-The team made this addition to the device, upgraded to a higher data plan, and tested the second iteration of the program through a second beta test. This beta test was also successful.  Our team began preparing to expand the device to accommodate more students, and to make adjustments to the badge size and look, with the idea of theoretically scaling-up for implementation for our school transportation department.&lt;/p&gt;
-&lt;h3&gt;Beta Tests&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude-screenshot2.png&quot; style=&quot;float:right&quot; /&gt;After the original beta test that took place in mid-2015 with children in grades K-2, the BusbudE team took the opportunity to test an alternate use of the design and to consider product flexibility. South Fayette belongs to Digital Promise, League of Innovative Schools, a nationwide organization designed to accelerate innovation in education. The League hosts meetings twice a year in different parts of the country. In October 2015 they chose to host their meeting in Pittsburgh and visit three League schools including South Fayette. Our BusBudE team prepared 70 tags for visitors. Each visitor was assigned to one of four groups and each group followed a different schedule for the day. When visitors entered the bus to travel from downtown Pittsburgh to South Fayette they scanned their tags and their specific schedule, as well as information and web site links about South Fayette’s computational thinking and STEAM program, was texted to their phone. &lt;/p&gt;
-
-&lt;p&gt;
-This beta test of the product provided excellent results. We were able to show that BusBudE could be adapted and configured for other uses. From this beta test we were able to move through another iteration of the application and promptly moved back to development for the intended age group in order to complete a larger beta test in early 2016.
-&lt;/p&gt;
-&lt;p&gt;
-The beta test that was completed in March 2016 included 38 students in 1st – 5th grade riding Bus 10. This beta test was a user-centered interaction test with a larger population specifically designed for the following reasons. We changed the plastic 3D printing device that holds the NFC tag and needed to discover: (1) were the devices designed appropriately for small hands, (2) could students use the device effectively, (3) would larger numbers of students scanning tags significantly delay or affect the bus schedule, and (4) to discover any additional challenges or obstacles that must be addressed. During this third test, we encountered our first issue with the system. In the morning students scanned when entering the bus but their parents did not receive the text alert. However, the afternoon test worked well. Parents received the text alerts when students entered and exited the bus. &lt;/p&gt;
-&lt;p&gt;
-From this test we learned that we need to build a failsafe system into the BusBudE application. We realize that before the phone was attached to the bus it was dropped down several stairs of the bus. The phone must have turned off but because of the way the case was designed there was no way to visually see that the phone was disconnected. The team is working on a re-design to address this issue. In addition, the team is working on a way to design the app so that students can scan without touching the device to make the scanning process faster. &lt;/p&gt;
-&lt;h3&gt;The Future of BusBudE&lt;/h3&gt;
-&lt;p&gt;
-Currently BusBudE is in its beta stages, thus there are many aspects that need to be altered and adapted before our product can truly be finished.  In terms of upgrading our system, we would like to integrate a clear light and sound indication for the students.  This would allow them to recognize if their tag scanned and if they are on the correct bus by using a green light and a sound notification for the correct bus and a red light with a sound alert if they are on the wrong bus.  We are also looking into the addition of an external display indicating the status of the scanned NFC tag as a solution to this problem.  Also, we are currently working to edit our code to enable more features such as precise GPS location notification and to further enhance the reach of the application. &lt;/p&gt;
-&lt;p&gt;
-The NFC tags we had purchased for previous beta tests weren&#039;t cost effective and were a temporary solution, thus we have started collaborating with an Australian based start-up to lower costs for mass orders and integrate our logo onto each tag.  We currently use a phone for our NFC scanner, yet in future iterations we would like to change it to a customized scanner specifically for BusBudE to include increased proximity and reliability.
-&lt;/p&gt;
-&lt;p&gt;
-We have already conducted several beta tests, yet with every revision to BusBudE we would like to hold at least one beta test to observe the effect of each specific change in our product. In the future we hope to include full functionality and use of the application serving every student within the South Fayette School District.  From this point, assuming the implementation is successful, we would like to begin to expand to other districts and potentially become an entrepreneurship venture.&lt;/p&gt;
-&lt;h2 style=&quot;text-align: center&quot;&gt;Meet the BusBudE Team from South Fayette Township School District
-&lt;div style=&quot;width: 80%; display: block; margin: auto;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/busbude-team2.png&quot; /&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Anish Thangavelu, 8th Grade; Meghan Banerjee, 12th Grade; Vinay Pedapati, 9th Grade;&lt;br /&gt;
-Parv Shrivastava, 8th Grade; Joe Cavanaugh, 11th Grade; Sam Cohen, 11th Grade; Nick Wilke, 11th Grade&lt;/p&gt;
-&lt;/div&gt;
-&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude1.png?itok=RWJlcGn_&quot; width=&quot;423&quot; height=&quot;322&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude2.png?itok=aG0UU645&quot; width=&quot;422&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude-screenshot.png?itok=uMA6pk3F&quot; width=&quot;300&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude-diagram.png?itok=sOK4Isgj&quot; width=&quot;444&quot; height=&quot;333&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude-blocks.png?itok=YGVjuCdI&quot; width=&quot;480&quot; height=&quot;190&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude-team.png?itok=gz6UbING&quot; width=&quot;358&quot; height=&quot;267&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude-team2.png?itok=pK2U-AuO&quot; width=&quot;480&quot; height=&quot;359&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/busbude-screenshot2.png?itok=E7mTnNVe&quot; width=&quot;436&quot; height=&quot;312&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 04 Apr 2016 20:01:25 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">728 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
