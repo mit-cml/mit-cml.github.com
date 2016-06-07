@@ -6,6 +6,39 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Guangzhou Education Information Center(GEIC) Stages App Inventor Robot Contest</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/06</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Zanjian Li, from the GuangZhou Education Information Center&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;On May 8th, the “Robot Competition for Primary school and Secondary School Students of Guangzhou 2016” was successfully held by the Guangzhou Education Information Center (GEIC). 305 teams from 166 schools participated in the competition. The competition consisted of 15 different programs, such as App Inventor Robot Contest, Robot Designing, FIRST LEGO League(FLL), Robot Football, Robot Basketball etc.&lt;/p&gt;
+&lt;div style=&quot;padding:0; margin:0; width: 100%&quot;&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots1.jpg&quot; style=&quot;float: left; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots3.jpg&quot; style=&quot;float: left; position: relative; top: -20px; width: 48%;&quot; /&gt;&lt;/div&gt;
+&lt;p&gt; The highlight of the competition was the App Inventor Robot Contest, which was designed by GEIC and was the first contest combining App Inventor and robotic technology in China. &lt;/p&gt;
+&lt;p&gt;The theme of the contest game was “Getting the treasures on the map”. In the game, the players needed to assemble a small robot without a controller, design a controller app using App Inventor, download and install it onto a cellphone, then fix the cellphone on the robotic chassis, to make a fully working robot. The cellphone directed had to execute the task automatically, including finding the path on the map by color blocks, searching for the QR code(treasure), scanning it, and sending the scanning result to the cellphone of judges.&lt;/p&gt;
+&lt;div style=&quot;padding:0; margin:0; width: 100%&quot;&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots4.jpg&quot; style=&quot;float: left; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots2.jpg&quot; style=&quot;float: left; position: relative; top: -20px; width: 48%;&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;The Contest is a part of plan by GEIC to promote the use of App Inventor in China. GEIC spent months in preparation for the App Inventor Robot Contest; they  saw the contest as one of the follow-up measures from the Memorandum of Understanding between MIT and South China University of Technology (SCUT) signed in 2015, and hopes 0the contest will be a good example for other cities.  The contest also drew the interest of several news media outlets in China -  the Guangdong TV station and some local newspapers reported on the contest.&lt;/p&gt;
+&lt;p&gt;  5月8日， 由广州市教育信息中心组织的“2016年广州市中小学电脑机器人竞赛活动”成功举办，共有来自166所学校的305支队伍参加了本次竞赛，竞赛共包括15个项目：如App Inventor机器人竞赛、机器人设计、乐高机器人、机器足球、机器人篮球等。&lt;/p&gt;
+&lt;p&gt; 本次竞赛的亮点在于“App Inventor机器人竞赛”项目，这一项目由广州市教育信息中心设计，是国内首内结合App Inventor和机器人技术的区域性竞赛活动。&lt;/p&gt;
+&lt;p&gt;　竞赛的主题为“地图寻宝”，在竞赛过程中，选手们需要组装一台没有控制器的小型机器人，在App Inventor平台上进行程序设计，安装到一台手机上，再把手机固定到机器人上，使其成为机器人的控制器。这一台携带手机的机器人将自动完成竞赛任务，包括在搭载手机在地图上通过判断颜色寻找路径、搜索和查找二维码（宝藏）、把二维码发送到裁判手机上等。&lt;/p&gt;
+&lt;p&gt; 本次竞赛是广州市教育信息中心推动App Inventor在全国应用的计划的一部分，已准备了数月，并将其视为去年与MIT及华南理工大学签订合作备忘录的后续动作之一，并希望这一竞赛为其它城市起到示范作用。本次活动还吸引了不少新闻媒体，广东电视台和几家报纸对其进行了报导。&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots1.jpg?itok=TqK80WWU&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots2.jpg?itok=0mA4rJcl&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots3.jpg?itok=PBvKr8JX&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots4.jpg?itok=dW-KNjC-&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 03 Jun 2016 16:04:35 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">752 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Integrating MIT App Inventor into Hoa Sen University IT Curriculum</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-2</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nguyen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog post by MIT App Inventor Master Trainer Khoi Nguyen Tran Minh, a lecturer at Hoa Sen University, Vietnam&lt;/i&gt;&lt;/p&gt;
@@ -306,39 +339,6 @@ Using quality video tutorials, the teacher of this course, Niloy Sharma Shuvo, i
  <pubDate>Tue, 12 Apr 2016 16:48:09 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">731 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor Clicker App Makes a Difference in the Classroom</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog post by Ken Masters, of Sultan Qaboos University in Oman&lt;/i&gt;&lt;br /&gt;&lt;i&gt;All photos courtesy of Salim Al-Harthi&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/clicker-app-being-used.png&quot; style=&quot;display: block; margin: auto; width: 95%;&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;clear:both&quot;&gt;
-I had to make quite big changes to the way in which I presented my course, and the end result was delivering 2-hour lectures to a class of 150+ students. Some problems:
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/clicker-app.png&quot; style=&quot;float: right; width: 30%; margin-left: 10px;&quot; /&gt;&lt;li&gt;How to keep variations in teaching methods and student engagement for 2 hours with such a large class?  &lt;/li&gt;
-&lt;li&gt;As I move through the lesson, how to ensure that the students are following me (without asking a general &quot;do you understand&quot;, which will just get a universal nod, and without asking individual students,, which would be embarrassing for them if they were lost.)&lt;/li&gt;
-&lt;li&gt;Quite a bit of the stuff was in the text book, but harder technical stuff interspersed with easier stuff (most of my students are not mother-tongue English speakers).&lt;/li&gt;
-&lt;p&gt;
-I decided to go for clicker technology, but that introduced its own problem: No budget, and no clickers.
-&lt;/p&gt;
-&lt;p&gt;
-Mm. So I wrote a simple clicker app in App Inventor that utilizes Fusion Tables. I can now intersperse my lecture with various questions, and display the results to the class (using charts drawn in the fusion Table area), and get a quick handle on the students&#039; understanding. It&#039;s also anonymous (I collect no id info),  and so those who are struggling and getting any questions wrong can still participate without feeling silly in front of the large class, and can quickly gauge their own level of understanding as the class progresses.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class-with-google-hangout.png&quot; style=&quot;float: left; width: 30%; margin-right: 10px;&quot; /&gt;&lt;br /&gt;
-I had to go away urgently during the semester, and there was a lecture that I simply could not re-schedule, so I gave it live using Google Hangouts with the video feed of me and my presentation. The advantage of the app over clickers was that, from 5,000 kms (3,100 miles) away, I was still able to use my app with the questions, because the students&#039; answers were simply being sent to the Fusion Table via wifi, and I could display those charts to them in the same way that I was displaying the presentation. It took about 5 mins of my practising moving between screens beforehand, but, once I had the knack of it, it was straight-forward.&lt;/p&gt;
-&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/clicker-app.png?itok=c2IE1dhe&quot; width=&quot;378&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class-with-google-hangout.png?itok=xVIUuXkF&quot; width=&quot;480&quot; height=&quot;345&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/clicker-app-being-used.png?itok=8PoXIzxx&quot; width=&quot;480&quot; height=&quot;242&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 08 Apr 2016 15:11:58 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">729 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
