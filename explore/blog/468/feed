@@ -6,6 +6,21 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New App Inventor for Educators Site Launched</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/06/new</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/aieducators.png&quot; style=&quot;float: left; margin-right: 10px; width: 40%;&quot; /&gt;In an effort build a productive and positive educational community around the use of MIT App Inventor, a new website has now launched. &lt;a href=&quot;http://teach.appinventor.mit.edu&quot;&gt;teach.appinventor.mit.edu&lt;/a&gt; is a site where educators can share ideas, search and post resources, and ask questions about App Inventor. Due to the number and wide range of users for App Inventor, the main App Inventor site can be overwhelming and hard to navigate when specifically looking for educational content. If you are an educator who uses App Inventor and would like to join our community, please go to the site, register, and join the conversation!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/aieducators.png?itok=sc4yPBlY&quot; width=&quot;300&quot; height=&quot;86&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 13 Jun 2016 20:42:14 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">756 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Guangzhou Education Information Center(GEIC) Stages App Inventor Robot Contest</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/06</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Zanjian Li, from the GuangZhou Education Information Center&lt;/i&gt;&lt;/p&gt;
@@ -315,30 +330,6 @@ Using quality video tutorials, the teacher of this course, Niloy Sharma Shuvo, i
  <pubDate>Thu, 14 Apr 2016 14:07:23 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">733 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor part of Science on Saturday at MIT</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/04/app-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT EECS department presented Science on Saturday, Circuits and Computers edition, at the Kresge Auditorium in conjunction with the MIT Museum on Saturday, April 2. Over 1000 people attended the event, which featured on-stage demos by various EECS faculty and staff on electricity, energy, motion and App Inventor. After the on-stage demos, visitors were able to try hands-on demos in the lobby of the auditorium. Karen Lang and Aubrey Colter from the MIT App Inventor team demonstrated how to create simple apps and assisted young people trying App Inventor for the first time. The youngest app inventor was four years old! More pictures of the event can be seen &lt;a href=&quot;http://www.eecs.mit.edu/news-events/media/science-saturday-circuits-and-computers&quot; target=&quot;_&amp;quot;blank&amp;quot;&quot;&gt;here&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;float: left; width: 45%;&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/crowd-at-kresge.jpeg&quot; /&gt;&lt;br /&gt;&lt;img style=&quot;float left; width: 45%; margin-top: -20px;&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/sos1.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;width: 45%; float: left;&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/sos2.jpg&quot; /&gt;&lt;br /&gt;&lt;img style=&quot;width: 45%; float: left; margin-top: -20px&quot; src=&quot;/sites/explore.appinventor.mit.edu/files/blog/sos3.jpeg&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/sos3.jpeg?itok=A8iQsEWx&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/sos2.jpg?itok=629IWbqS&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/crowd-at-kresge.jpeg?itok=ChSPHFdj&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/sos1.jpg?itok=gwQFNjvG&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 12 Apr 2016 16:48:09 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">731 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

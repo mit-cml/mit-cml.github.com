@@ -6,6 +6,18 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New Release Features Extensions, Bluetooth LE &amp; LEGO EV3</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2016/06/new</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Late the evening of June 15, EDT, the MIT App Inventor team pushed a significant component release to its live, public-facing main instance. &lt;a href=&quot;https://docs.google.com/document/d/1x6WvQPEZblkrhfroO5q3vbNKiaWyaWGB58r5Se2H8Q4/pub&quot;&gt;More information about the release is available.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/blogs/Intel_logo.png&quot; align=&quot;right&quot; /&gt;This release enables extension components, which for now are non-visible components only, which may be written by anyone (with sufficient Java know-how) and then used with the MIT App Inventor service, without cluttering the component palettes for other users.&lt;/p&gt;
+&lt;p&gt;The first officially recognized &amp;amp; supported extension component is a Bluetooth Low Energy (BLE) component, generously made possible in part by a grant given by the &lt;a href=&quot;http://www.intel.com/content/www/us/en/education/university/intel-university-program.html&quot;&gt;University Program Office at Intel Corporation&lt;/a&gt;. The BLE component will enable Internet of Things (IoT) applications, many of which will come from our community: we expect to be blown away by amazing examples!&lt;/p&gt;
+&lt;p&gt;Additionally, we are happy to announce and release LEGO EV3 components, generously shared with the wider community by &lt;a href=&quot;http://www.cavedu.com/&quot;&gt;CAVEDU&lt;/a&gt;, a robotics and computer education organization based in Taiwan, and workplace of Master Trainer David Tseng.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 16 Jun 2016 19:47:04 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">758 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Welcome 30 New Master Trainers in Mobile Educational Computing</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2016/03-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/blogs/master_trainers_group.JPG&quot;&gt;&lt;/p&gt;
@@ -157,20 +169,6 @@ Yu-Chang Hsu (Department of Educational Technology)&lt;/p&gt;
  <pubDate>Thu, 18 Jun 2015 15:01:14 +0000</pubDate>
  <dc:creator>Josh</dc:creator>
  <guid isPermaLink="false">594 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>NEW: Sharing and Remixing directly from MIT App Inventor’s Integrated Gallery!</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2015/05/18</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/blog/integrated_gallery.png&quot; align=&quot;right&quot; height=&quot;381&quot; width=&quot;286&quot; /&gt;The App Inventor team is happy to announce a new feature designed to encourage sharing and exploration of projects and the code behind them. &lt;/p&gt;
-&lt;p&gt;App Inventor now has an integrated gallery for sharing your apps and exploring the code of others’ apps! From within App Inventor, you can easily publish your projects to the gallery and with one click open any app to remix it. Sharing your apps and &quot;source blocks&quot; has never been easier. If you ever wondered “How did they build that”, now you’ll be able to explore and figure it out.&lt;/p&gt;
-&lt;p&gt;Try it out and take part in this new collaborative environment! Click on the &quot;Gallery&quot; item on the top toolbar at ai2.appinventor.mit.edu to browse and search the existing apps. To publish, go to your “My Projects” page, select one of your projects, then click Publish! You can even receive daily email notifications telling you how many times your app has been downloaded and liked, and get a share link that will take people directly to your app.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Credits&lt;/strong&gt;&lt;br /&gt;
-David Wolber’s &lt;a href=&quot;http://www.appinventor.org/dcl&quot;&gt;Democratizing Computing Lab&lt;/a&gt; at the University of San Francisco led the development of the integrated gallery, with the support of the MIT team. Special thanks go to Bin Lu and Vincent Zhang, the USF students who were the main developers, and as always to MIT’s Jeff Schiller who reviewed, edited, and performed his usual magic for the project.&lt;br /&gt;
-We also thank the &lt;a href=&quot;http://www.wmkeck.org/&quot;&gt;W.M. Keck Foundation&lt;/a&gt; for their generous support of this and other App Inventor related projects.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 18 May 2015 15:33:43 +0000</pubDate>
- <dc:creator>Josh</dc:creator>
- <guid isPermaLink="false">590 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
