@@ -440,6 +440,91 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
+                        <h2>Changes between nb148 and nb149 (June 15, 2016)</h2>
+                        <ul>
+                          <li>Update to Firebase: Add New
+                            Blocks:</li>
+                          <ul>
+                            <li>AppendValue: Takes a
+                              &ldquo;tag&rdquo; and a &ldquo;value.&rdquo; If tag points to a
+                              list, it will append the value onto the end of the list. If two
+                              devices attempt this at the same time, both will be added (instead
+                              of one being lost).</li>
+                            <li>RemoveFirst: This function
+                              instructs Firebase to remove the first element of the list pointed
+                              to by &ldquo;tag&rdquo;. It is returned in the new Event
+                              &ldquo;FirstRemoved.&rdquo;</li>
+                            <li>GetTagList: Useful when debugging.
+                              It gets a list of the known tags in your application. The list
+                              itself is returned as an argument to the &ldquo;TagList&rdquo;
+                              Event.</li>
+                            <li>ClearTag: This function takes a
+                              &ldquo;tag&rdquo; as argument and removes it from the Firebase
+                              system. It is analogous to TinyDB&rsquo;s ClearTag
+                              function.</li>
+                            <li>Persist: New Designer only
+                              property. When set to &ldquo;true&rdquo; Firebase will keep track
+                              of changes when there is no internet connection, even when the App
+                              exists. Upon next invocation, if there is an Internet connection
+                              variable changes will be uploaded.</li>
+                          </ul>
+                          <p>Firebase remains an experimental
+                            feature.</p>
+                          <li>App Inventor
+                            Extensions</li>
+                          <p>This is the first public release of
+                            MIT App Inventor that supports &ldquo;extension&rdquo; components
+                            written by users in Java. Extensions are built using the App
+                            Inventor sources and are packaged into &ldquo;.aix&rdquo; files.
+                            &ldquo;.aix&rdquo; files can then be added to projects to add
+                            functionality.</p>
+                          <p>Limitations</p>
+                          <p>Currently only non-visible
+                            components may be added. Apps with extensions loaded may not be
+                            uploaded to the App Inventor Gallery</p>
+                          <li>New Components</li>
+                          <ul>
+                            <li>BluetoothLE</li>
+                            <p>New BluetoothLE (Bluetooth Low Energy)
+                              Component: This component is actually our first official release of
+                              an MIT App Inventor supported extension. It is available for
+                              download from the following site. <a href=
+                                                                   "https://www.google.com/url?q=http://appinventor.mit.edu/extensions/&amp;sa=D&amp;ust=1466048907926000&amp;usg=AFQjCNEZbTm_-a94_4fddz0f-VhM12EVOg"
+                                                                   target="_blank">
+                                MIT App Inventor Extensions</a>.</p>
+                            <p>This extension supports a new protocol similar
+                              to classic Bluetooth except that it is designed to consume less
+                              power while maintaining comparable functionality. For this reason,
+                              Bluetooth LE is the preferred choice of communication with IoT
+                              (Internet of Things) devices that have limited power resources. We
+                              are currently in the process of creating a new page on our website
+                              that will provide documention, tutorials and other materials to
+                              help use and understand the new possibilities that this new
+                              component. A draft of this page can be found here:
+                              <a href=
+                                 "https://www.google.com/url?q=https://docs.google.com/document/d/1Y2Jk90BRskLKw3ex3yvftBmaEm7kyCcVCQy8yGAmtA4/pub&amp;sa=D&amp;ust=1466048907927000&amp;usg=AFQjCNFV6L-WuTOfUFOrKomBpVOO3sOjJA">
+                                BluetoothLE Documentation and Resources</a></p>
+                            <li>Pedometer</li>
+                            <p>New Pedometer Component: This
+                              component uses the accelerometer to determine the number of steps
+                              taken while walking with a device.</p>
+                            <li>Components to support LEGO
+                              Mindstorms&reg; EV3 Robots</li>
+                            <li>Other</li>
+                            <ul>
+                              <li>The system is now based on Android
+                                SDK 5.1.1: However we still support devices back to Android 2.2
+                                (though not all features of App Inventor will work with all
+                                versions of Android)</li>
+                              <li>Listview Update: Font size scales
+                                properly in &ldquo;Responsive&rdquo; mode.</li>
+                              <li>Labels can now contain a limited
+                                subset of HTML as well as text. Check the &ldquo;HTMLFormat&rdquo;
+                                designer property to enable this feature.</li>
+                              <li>Bugfixes and Documentation
+                                fixes</li>
+                            </ul>
+                          </ul>
                         <h2>Changes between nb148 and nb148a (April 25, 2016)</h2>
                         <ul>
                           <li>Bugfix to CheckBox handling</li>
