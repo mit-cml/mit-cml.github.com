@@ -6,6 +6,57 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>LEGO ®  EV3 Tilt-to-Drive Tutorial</title>
+ <link>http://explore.appinventor.mit.edu/ai2/lego-%C2%AE-ev3-tilt-drive</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial lets you make an app that drives around an EV3 LEGO robot by tilting a phone or tablet. Tilting forward makes the bot go forward, back --&amp;gt; back, right --&amp;gt; right, left --&amp;gt;left. A steeper pitch will make the robot drive faster… etc.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1KZF1785Kan2ZKHY90114lIXzhn-5SOX3g21h03fHRnA/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        LEGO® EV3      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Fri, 17 Jun 2016 15:13:19 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">759 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Photo Booth App</title>
  <link>http://explore.appinventor.mit.edu/ai2/photo-booth-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email. &lt;/p&gt;
@@ -1045,265 +1096,6 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
  <pubDate>Fri, 07 Feb 2014 22:43:37 +0000</pubDate>
  <dc:creator>michaelphox</dc:creator>
  <guid isPermaLink="false">473 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Space Invaders</title>
- <link>http://explore.appinventor.mit.edu/ai2/space-invaders</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-.ButtonText {
-color:green;
-font-weight: bold;
-}
-
-li {
-padding-bottom: 7px;
-}
-
-.basicblock {
-border: 1px dashed #7AA81C;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E7F2CB;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.callblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E0D1FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.argblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #E5E5FF;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.textblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FADAA0;
-font-size: 9pt;
-text-wrap: suppress;
-
-}
-
-.setblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #C1D5F8;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-.controlblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FAEDBB;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-.listblock {
-border: 1px dashed #000000;
-padding-left: 4px;
-padding-right: 4px;
-padding-top: 1px;
-padding-bottom: 1px;
-background-color: #FCF5D7;
-font-size: 9pt;
-text-wrap: suppress;
-}
-
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What You&#039;re Building&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/app.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; By building the &lt;span style=&quot;color:green;&quot;&gt;Space Invaders App&lt;/span&gt; you will get practice with using Clock components and Timers, using Animation components such as Image Sprites and the Canvas, setting visibility, and detecting collisions in App Inventor. You&#039;ll program an application that has a shooter ship whose goal is to shoot all the flying saucers on the screen.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
-&lt;p&gt;Connect to the App Inventor web site and start a new project. Name it &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;, and also set the screen&#039;s &lt;strong style=&quot;color:green;&quot;&gt;Title&lt;/strong&gt; to &quot;SpaceInvaders&quot;. Connect to a device or emulator.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
-&lt;p&gt;This tutorial introduces the following skills, useful for future game development:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Using the Clock component&lt;/li&gt;
-&lt;li&gt;Using Clock.Timer to move sprites&lt;/li&gt;
-&lt;li&gt;Using Sprite.Flung to move a sprite &lt;/li&gt;
-&lt;li&gt;Using collision detection&lt;/li&gt;
-&lt;li&gt;Setting visibility of sprites&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Getting Ready&lt;/h4&gt;
-&lt;p&gt;For this game, you will have two types of sprites: an imagesprite represented by a shooter ship and flying saucers represented by a ball sprite. Click below to download the image files for your rocket ship sprite and flying saucer sprite.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/rocket.png&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/rocket.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/saucer.png&quot;&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/saucer.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h4&gt;
-&lt;p&gt;Use the component designer to create the interface for &lt;span style=&quot;color:green;&quot;&gt;SpaceInvaders&lt;/span&gt;. When you finish, it should look something like the snapshot below (more detailed instructions below the snapshot).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/SpaceInvaders/SpaceInvadersDesigner.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;To create this interface, put the following components into the Designer by dragging them from the Component Palette into the Viewer and set the properties of the components as described below:&lt;/p&gt;
-&lt;table class=&quot;lined-table&quot;&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;
-Component Type
-&lt;/td&gt;
-&lt;td&gt;
-Palette Group
-&lt;/td&gt;
-&lt;td&gt;
-What you&#039;ll name it
-&lt;/td&gt;
-&lt;td&gt;
-Purpose of Component
-&lt;/td&gt;
-&lt;td&gt;
-Action
-&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Canvas&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Drawing and Animation&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;Canvas1&lt;/td&gt;
-&lt;td&gt;The background that we will be putting our sprites on&lt;/td&gt;
-&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt; property to &quot;Fill parent&quot; and &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt; property to 300. Set the &lt;span class=&quot;ButtonText&quot;&gt;BackgroundColor&lt;/span&gt; property to Black.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Drawing and Animation&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;RocketSprite&lt;/td&gt;
-&lt;td&gt;The rocket ship in our game&lt;/td&gt;
-&lt;td&gt;Upload the rocketship image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;rocket.png&quot;. Set the &lt;span class=&quot;ButtonText&quot;&gt;Y&lt;/span&gt; property to 230. This will place the rocket at the bottom of the canvas.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;ImageSprite&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Drawing and Animation&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;SaucerSprite&lt;/td&gt;
-&lt;td&gt;The flying saucer in our game&lt;/td&gt;
-&lt;td&gt;Upload the saucer image and set the &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt; property to &quot;saucer.png&quot;.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;BallSprite&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Drawing and Animation&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;Bullet&lt;/td&gt;
-&lt;td&gt;The bullet from the rocket ship.&lt;/td&gt;
-&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;PaintColor&lt;/span&gt; to Green and set the &lt;span class=&quot;ButtonText&quot;&gt;Radius&lt;/span&gt; property to 8.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Clock&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;Clock1&lt;/td&gt;
-&lt;td&gt;We use the Clock for its Timer method to move the the saucer&lt;/td&gt;
-&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; property to 3000.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Horizontal Arrangement&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;HorizontalArrangement1&lt;/td&gt;
-&lt;td&gt;To contain Label1 and ScoreLabel &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;Label1&lt;/td&gt;
-&lt;td&gt;To contain the word &quot;Score: &quot;&lt;/td&gt;
-&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Score: &quot;.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;ScoreLabel&lt;/td&gt;
-&lt;td&gt;To contain the current numerical score&lt;/td&gt;
-&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;0&quot;.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green;&quot;&gt;ResetButton&lt;/td&gt;
-&lt;td&gt;To reset the game so the player can play again&lt;/td&gt;
-&lt;td&gt;Change &lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt; property to &quot;Reset&quot;.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Now that you have all the essential properties configured, feel free to change the colors of any components that you want to.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Moving the rocket &lt;/h4&gt;
-&lt;p&gt;In this game, the user will move the rocket from side to side. This means we will only be changing the X-direction of the rocket sprite. To do this we will use the &lt;span class=&quot;eventblock&quot;&gt;RocketSprite.Dragged&lt;/span&gt; event handler. When the rocket is dragged, we will adjust it&#039;s X property to be the currentX that we dragged the sprite to.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/rocketdragged.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Once you put these blocks together, connect your phone and test this feature out!&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Programming the Bullet&#039;s Behavior&lt;/h4&gt;
-&lt;p&gt;There are several features we want our bullet to have in this game. We want it to shoot from the rocket, collide with the saucer, and be invisible after the collision and before being shot.&lt;/p&gt;
-&lt;p&gt;Let&#039;s start by using the &lt;span class=&quot;eventblock&quot;&gt;Screen1.initialize&lt;/span&gt; block. When the screen is initialized, we will program the bullet to be invisible. We do this by setting the bullet&#039;s visibility property to False.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/invisiblebullet.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Next, we want to make sure that the bullet appears again when we shoot from the rocket. When we touch the rocket, we want the bullet to start heading towards the saucer. We will do this by using the &lt;span class=&quot;eventblock&quot;&gt;RocketSprite.Touched&lt;/span&gt; event handler. When the rocket is touched, we not only want to set the rocket to be visible, but we also want to set the speed and heading of the rocket. Heading is a value from 0 to 360 that indicates what direction the sprite should be moving towards. 0/360 is to the left, 90 is up, 180 is right, and 270 is down. The speed is measured in pixels/sec.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/usingthebullet.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The last thing we need to program is what happens when the bullet hits the saucer. We will use the &lt;span class=&quot;eventblock&quot;&gt;Bullet.CollidedWith&lt;/span&gt; event handler. This event is called whenever the bullet collides with another sprite. Since our rocket sprite is locked into a Y at the bottom of the screen, the bullet will never collide with the rocket and only with the saucer. On collision we want two things to happen. 1. The score should increase by 1. 2. The bullet should become invisible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/bulletcollides.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;If you have started testing this game out, you may have noticed that once you shoot the bullet, it doesn&#039;t appear to let you shoot it again. We need to program the bullet to return to the place in front of the rocket when we shoot it. We can do this using the &lt;span class=&quot;callblock&quot;&gt;Bullet.MoveTo&lt;/span&gt; block.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/movebullet.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Now, test it out!&lt;/p&gt;
-&lt;p&gt;You may have noticed that if you miss the saucer, the bullet moves to the top of the screen and gets stuck there until you try shooting again. To make the bullet disappear when it hits the top edge of our canvas, we need to use the &lt;span class=&quot;eventblock&quot;&gt;Bullet.EdgeReached&lt;span&gt; event handler.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/edgereached.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Programming the Reset Button&lt;/h4&gt;
-&lt;p&gt;Sometimes, users might want to restart the game and reset their score. When this happens, we need to set the score back to 0.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/resetscore.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Increasing the Difficulty -- Changing the Position of the Saucer&lt;/h4&gt;
-&lt;p&gt;Let&#039;s make the game a little more challenging! Now, when the bullet collides with the saucer, let&#039;s change the location of the saucer. The saucer will keep the same Y value so we&#039;ll only have to change the X. We can do this by using the random block.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/movesaucer.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;To make it even more difficult, we&#039;ll also change the position of the saucer when the Timer goes off.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/timer.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Complete Program&lt;/h4&gt;
-&lt;p&gt;Here&#039;s the complete &lt;strong&gt;SpaceInvaders&lt;/strong&gt; program.&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/SpaceInvaders/completeprogram.png&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Sprites      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Drawing Canvas      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Game      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
- <pubDate>Fri, 31 Jan 2014 22:18:58 +0000</pubDate>
- <dc:creator>joanie</dc:creator>
- <guid isPermaLink="false">466 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
