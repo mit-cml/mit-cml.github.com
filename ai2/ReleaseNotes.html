@@ -440,6 +440,76 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                         bugfix releases.</p>
+                        <h2>Changes between nb149 and nb150 (July 26, 2016)</h2>
+                        <p>
+                          Note: This is a component release. The new Companion is version 2.38
+                          available directly from MIT App Inventor or via the Google Play Store.
+                          However if you do not use the Scrollable Horizontal and Vertical
+                          arrangements, you can continue to use the old Companion (version
+                          2.37). If you have a Companion older than version 2.37, you will be
+                          prompted to auto-update your Companion.
+                        </p>
+                        <ul>
+                          <li>Migrate to FusionTables version 2</li>
+                          <p>
+                            Google has deprecated FusionTables version 1. It will stop working on
+                            November 1, 2016. This update changes the FusionTablesControl
+                            component to make use of the version 2 API. No changes to programs are
+                            required. However packaged apps built with version nb149 or earlier
+                            will stop working in November. Repackage apps with this version to use
+                            version 2. If you distributed your Fusion Tables using applications,
+                            either directly or through the Google Play Store, you need to
+                            distribute a new version built with this version.
+                          </p>
+                          <li>Added Scrollable Horizontal and Vertical Arrangements</li>
+                          <p>
+                            We added two new Arrangements to provide scrolling versions of
+                            Horizontal and Vertical arrangements.
+                          </p>
+                          <li>Update Alignment Dropdowns in the Designer</li>
+                          <p>
+                            Today we have dropdowns in the Designer for selecting alignment
+                            values. However in the blocks you have to use numbers to represent the
+                            different kinds of alignment. This change places those numbers in the
+                            dropdown items as a convenience and reminder of those values.
+                          </p>
+                          <li>Add Comments to Block Save Images</li>
+                          <p>
+                            Fix a bug that causes images of blocks to not include any comments.
+                          </p>
+                          <li>Rewrite Extensions packaging scripts</li>
+                          <p>
+                            This change makes it a little easier for extension authors to build
+                            extensions.
+                          </p>
+                          <li>Support upgrading of extension components</li>
+                          <p>
+                            You can now load a new version of an extension, provided it has the
+                            same package name, over a previous version. Any incompatible block
+                            changes between the old and new version will result in the blocks
+                            being marked “bad”. The MIT App Inventor programmer then has to do
+                            some cleanup, but this is way better then having to delete the old
+                            component, which removes all associated blocks.
+                          </p>
+                          <li>Bugfixes to the MIT App Inventor Gallery</li>
+                          <li>Update to ListView</li>
+                          <p>
+                            SelectionIndex() will now return the correct value even when a filter
+                            is applied to the ListView.
+                          </p>
+                          <li>Update to ActivityStarter</li>
+                          <p>
+                            ActivityStarter will now generate an error if no intent “Action” is
+                            provided.
+                          </p>
+                          <li>We now signal an error on Divide by Zero</li>
+                          <p>
+                            If you attempt to divide a number by zero we will generate an
+                            error. This error can be caught by the MIT App Inventor Programmer
+                            using the Screen.ErrorOccurred event. If it is not caught a
+                            Notification is briefly displayed.
+                          </p>
+                        </ul>
                         <h2>Changes between nb148 and nb149 (June 15, 2016)</h2>
                         <ul>
                           <li>Update to Firebase: Add New
