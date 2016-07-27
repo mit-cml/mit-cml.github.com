@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT App Inventor and Youth Radio to launch the Youth News Network STEM desk</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/07/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+I’m exhilarated to announce that MIT App Inventor and Youth Radio (&lt;a href=&quot;https://youthradio.org/&quot;&gt;https://youthradio.org/&lt;/a&gt;)  are beginning a 3-year initiative to launch the STEM Desk for Youth News Network (YNN).  YNN will be a new nationwide model for STEM education based on youth-­driven, multimedia journalism and related app development with App Inventor.   This work is funded by the National Science Foundation’s Advanced Informal STEP Learning program.
+&lt;/p&gt;
+&lt;p&gt;
+Youth Radio trains young people in digital media and technology and launches them on career and education pathways.  Headquartered in Oakland, CA, it serves as National Public Radio’s Youth Desk and reports stories by and about young people across the U.S., bringing youth perspectives to issues of public concern.
+&lt;/p&gt;
+&lt;p&gt;
+YNN aims to overturn conventional beliefs about teens and their phones­­: that these devices are sources of distraction, addiction, abuse, and other forms of trouble.&lt;br /&gt;
+The centerpiece of YNN will be Youth Mobile Power, a series of stories about      young people using mobile technologies with creativity and purpose to empower themselves and their communities: activities such as tracking access to fresh water in poor communities, supporting effective autism treatment, and promoting safety on college campuses.  The stories will build on Youth Radio’s Peabody Award-­winning media production capabilities and MIT’s technology strengths to create powerful multimedia productions augmented by new mobile computing resources built on App Inventor.
+&lt;/p&gt;
+&lt;p&gt;The App Inventor team is tremendously excited by this opportunity to collaborate with Youth Radio.  We’ll be starting work on the project in September.  Watch for us over the next 3 years as we help support and promote the next generation of mobile STEM media innovators!
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 25 Jul 2016 22:08:37 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">780 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>AITech - Using Procedures and Any component blocks</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/07-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sjaak Bosman&lt;/i&gt;&lt;/p&gt;
@@ -490,45 +510,6 @@ A live coding workshop was installed at the entrance hall and 16 female students
  <pubDate>Tue, 10 May 2016 18:48:27 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">741 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Massachusetts Technovation Pitch Night a Great Success</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation-ma-group.jpg&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;
-Massachusetts Technovation Pitch Night took place on Wednesday, May 4, at the Microsoft NERD Center in Cambridge, MA. MassTLC worked with Technovation to organize and run the event.
-&lt;/p&gt;
-&lt;p&gt;
-Thirty-nine teams of girls from across the state presented their app and business plans to judges in a poster session. The top ten teams – seven high school and three middle school – were chosen by the first round judges to pitch to the audience. The crowd moved to the funky eleventh floor of the NERD Center to listen to three minute pitches by each of the ten teams. Each team did an excellent job of speaking about their app, its social impact, audience, and business potential. At the end of each pitch, the three finalist judges were able to ask questions of the team.
-&lt;/p&gt;
-&lt;p&gt;
-At the end of the night, the top three high school teams were chosen, and the top three middle school teams were ranked. Winners can be seen &lt;a href=&quot;http://masstlcef.org/technovation2016/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width:100%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation-middle-school-pitch.jpg&quot; style=&quot;float:left; width: 48%;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation-high-school-winners.jpg&quot; style=&quot;float:left; width: 48%;&quot; /&gt;&lt;/div&gt;
-&lt;div style=&quot;display:block; margin:auto; width:100%;&quot;&gt;
-&lt;div style=&quot;float: left; width:50%; text-align: center;&quot;&gt;
-&lt;p&gt;Middle school winners Electric Shock makes their pitch&lt;/p&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; width:50%; text-align: center;&quot;&gt;
-&lt;p&gt;High school winners Mango Drive celebrate&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-Every year, &lt;a href=&quot;http://www.technovationchallenge.org/&quot; target=&quot;_blank&quot;&gt;Technovation&lt;/a&gt; challenges girls all over the world to build a mobile app that will address a community problem. Since 2010, 5,000 girls from 28 countries have submitted to Technovation. Each team has a coach, usually a teacher or parent. In addition, mentors from the business community are assigned to teams to work with the girls through the Technovation twelve week curriculum in app design, coding in App Inventor, and entrepreneurship.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/technovation-ma-group.jpg?itok=Bc9ktNP6&quot; width=&quot;480&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/technovation-middle-school-pitch.jpg?itok=f2wNY0qs&quot; width=&quot;480&quot; height=&quot;319&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/technovation-high-school-winners.jpg?itok=a1eVYBPB&quot; width=&quot;480&quot; height=&quot;319&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 06 May 2016 16:40:08 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">739 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

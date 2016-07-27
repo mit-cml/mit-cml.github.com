@@ -6,6 +6,26 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT App Inventor and Youth Radio to launch the Youth News Network STEM desk</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/07/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+I’m exhilarated to announce that MIT App Inventor and Youth Radio (&lt;a href=&quot;https://youthradio.org/&quot;&gt;https://youthradio.org/&lt;/a&gt;)  are beginning a 3-year initiative to launch the STEM Desk for Youth News Network (YNN).  YNN will be a new nationwide model for STEM education based on youth-­driven, multimedia journalism and related app development with App Inventor.   This work is funded by the National Science Foundation’s Advanced Informal STEP Learning program.
+&lt;/p&gt;
+&lt;p&gt;
+Youth Radio trains young people in digital media and technology and launches them on career and education pathways.  Headquartered in Oakland, CA, it serves as National Public Radio’s Youth Desk and reports stories by and about young people across the U.S., bringing youth perspectives to issues of public concern.
+&lt;/p&gt;
+&lt;p&gt;
+YNN aims to overturn conventional beliefs about teens and their phones­­: that these devices are sources of distraction, addiction, abuse, and other forms of trouble.&lt;br /&gt;
+The centerpiece of YNN will be Youth Mobile Power, a series of stories about      young people using mobile technologies with creativity and purpose to empower themselves and their communities: activities such as tracking access to fresh water in poor communities, supporting effective autism treatment, and promoting safety on college campuses.  The stories will build on Youth Radio’s Peabody Award-­winning media production capabilities and MIT’s technology strengths to create powerful multimedia productions augmented by new mobile computing resources built on App Inventor.
+&lt;/p&gt;
+&lt;p&gt;The App Inventor team is tremendously excited by this opportunity to collaborate with Youth Radio.  We’ll be starting work on the project in September.  Watch for us over the next 3 years as we help support and promote the next generation of mobile STEM media innovators!
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 25 Jul 2016 22:08:37 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">780 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Major computational thinking research project and new MIT staff positions</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/03/major</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1sN9A7hMLCgXX42eWXWfqikGayFirawvZAq6wE8IdC78&quot; target=&quot;_blank&quot;&gt;See here for details&lt;/a&gt;&lt;/p&gt;
@@ -122,17 +142,6 @@ Google announced this week that the Files API on which AI Classic depends is bei
  <pubDate>Sun, 24 May 2015 17:10:56 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">592 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor usage summary for 2014</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/02/app-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Here&#039;s a short report and graph showing App Inventor usage for 2014.&lt;/p&gt;
-&lt;p&gt;Briefly, there was a large increase in use of AI2 and a slow decline in use of AI Classic.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1_677rcBxBhNIM0vTjW8NBspFgWXnQUMDRsi9Sec7zmU/pub&quot;&gt;See report&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sat, 07 Feb 2015 15:54:53 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">575 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
