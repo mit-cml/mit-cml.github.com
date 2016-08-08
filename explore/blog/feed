@@ -6,6 +6,106 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Heart Rate Monitor with Arduino/Genuino 101</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08/heart</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays, the number of connected devices available through the Internet has led to connected people. The infrastructure that supports all the communications between devices is also known as the Internet of Things(IoT).
+&lt;/p&gt;
+&lt;p&gt;
+The need to create apps that can handle IoT has contributed to the development of an extension for MIT App Inventor that provides an easy way to connect to devices.
+&lt;/p&gt;
+&lt;p&gt;
+This tutorial will teach you how to use the Arduino/Genuino 101 board to read data from a heart rate sensor using the Bluetooth Low Energy(BLE) component. If you don&#039;t have the original sensor you can emulate it by using a potentiometer or another analog sensor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/AnimatedGIFHeartRateMonitor.gif&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Arduino/Genuino 101 board&lt;/li&gt;
+&lt;li&gt;LED&lt;/li&gt;
+&lt;li&gt;Heart rate sensor, potentiometer or similar analog component&lt;/li&gt;
+&lt;li&gt;Arduino IDE (&lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;https://www.arduino.cc/en/Main/Software&lt;/a&gt;) with libraries BLE and CurieBLE&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;The Circuit&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fritzing.jpg&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Arduino/Genuino 101 sketch&lt;/h3&gt;
+&lt;p&gt;First, we will have to implement the standard Bluetooth Low Energy &quot;Heart Rate Monitor&quot; service using the Arduino IDE and loading a sketch into our board.&lt;/p&gt;
+&lt;p&gt;You can copy and paste the source code from:&lt;br /&gt;&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&quot; target=&quot;_blank&quot;&gt;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The following points show the operating mode of the sketch:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Declare the BLE peripheral device (our Arduino board) with its service and characteristic (heart rate sensor).
+&lt;/li&gt;&lt;li&gt;Wait for incoming connection with a central device (our smartphone or tablet with Bluetooth).&lt;/li&gt;
+&lt;li&gt;Switch on LED to indicate that the board is connected.&lt;/li&gt;
+&lt;li&gt;Read the analog sensor updating the value when it changes.&lt;/li&gt;
+&lt;li&gt;Switch off the LED when the connection finishes.&lt;/li&gt;
+&lt;/ol&gt;&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Designer view&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm-designer.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We will use the necessary arrangements to display an image of a heart that beats when the devices are bonded, a set of buttons and a label to show the status.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm-components.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We will read data from the sensor updating the text of the label once devices are linked. We will have to import the Bluetooth LE extension to be able to receive the values from the sensor.&lt;/p&gt;
+&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Blocks View&lt;/h3&gt;
+&lt;p&gt;First, we will initialize three global variables to store the address of our Arduino/Genuino 101 board, the standard &quot;Heart Rate Monitor&quot; service and its characteristic UUIDs. If you don&#039;t know the meaning of these concepts, you should review them on the &lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/IoT.html&quot; target=&quot;_blank&quot;&gt;MIT App Inventor IoT reference page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm0.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When the app starts, we will disable the button named &quot;btnDisconnect&quot; and the timer...it doesn&#039;t make sense if we don&#039;t have a link established.&lt;br /&gt;
+At first, the user will press the Scan button and will get a list of Bluetooth devices. We will use a list picker to select our Arduino/Genuino 101 board and connect to it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm1.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If all goes well we will update the status on the screen using the label. We will also enable the Disconnect button to be able to disconnect from the peripheral device and the timer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm2.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Every second, an event will trigger the clock and our app will check the connection. If all is OK, the app will play a sound of a heart beat and it will change the image while tries to get data from the sensor. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm3.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;i&gt;ByteValueChanged &lt;/i&gt;event will be triggered when our app detects a change. The new value will be assigned to the text of the label. We will have to use the math round function to convert the byte to a whole number and remove the least significant 0.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm4.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Finally, the buttons that will allow user to disconnect and exit...&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;That&#039;s all!&lt;br /&gt;
+Happy inventing!&lt;/p&gt;
+&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;You can download the source code from this link:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=0B0k5c5YtPa8EZWRfZWFIbkY3MG8&quot; target=&quot;_blank&quot;&gt;https://drive.google.com/open?id=0B0k5c5YtPa8EZWRfZWFIbkY3MG8&lt;/a&gt;&lt;/p&gt;
+&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;References:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&quot; target=&quot;_blank&quot;&gt;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/IoT.html&quot; target=&quot;_blank&quot;&gt;http://ai2.appinventor.mit.edu/reference/other/IoT.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm-designer.png?itok=gEGtvdFu&quot; width=&quot;480&quot; height=&quot;282&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm-components.png?itok=K4L1Rvbs&quot; width=&quot;184&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm-blocks.png?itok=l8TejI7g&quot; width=&quot;480&quot; height=&quot;287&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm.png?itok=57TaVPmH&quot; width=&quot;480&quot; height=&quot;177&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm4.png?itok=qntIcjdl&quot; width=&quot;480&quot; height=&quot;133&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm3.png?itok=Yp-vjFoM&quot; width=&quot;480&quot; height=&quot;292&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm2.png?itok=7bQHZLP2&quot; width=&quot;480&quot; height=&quot;279&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm1.png?itok=0gENQ3WL&quot; width=&quot;480&quot; height=&quot;210&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm0.png?itok=5SwBnLsp&quot; width=&quot;480&quot; height=&quot;81&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/AnimatedGIFHeartRateMonitor.gif?itok=fyODXpko&quot; width=&quot;285&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fritzing.jpg?itok=1g-6JFGy&quot; width=&quot;306&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/heart-rate-monitor.png?itok=VOrZBD-u&quot; width=&quot;290&quot; height=&quot;226&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 08 Aug 2016 15:48:03 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">786 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>App Inventor’s debt to Seymour Papert</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;To the App Inventor Community:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+I join in grief with my colleagues in computing and education at passing of Seymour Papert on July 31, 2016.   Papert was the world’s preeminent visionary in educational technology:  you can read testaments to his greatness in the obituaries in the New York Times and the MIT News.   Few people in the App Inventor community would have met him, and only some know his monumental book Mindstorms: Children, Computers, and Powerful Ideas.   But his genius has touched those of us who built App Inventor and everyone who uses it.
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1TpT96F8NG7-PBxd3KGjcnwsZ_fUlqdFBN42dZZpoqHU&quot;&gt;More ...&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 07 Aug 2016 14:39:32 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">783 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor and Youth Radio to launch the Youth News Network STEM desk</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/07/mit-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
@@ -411,105 +511,6 @@ Intelligent Tutoring System is a field that I really want to explore further wit
  <pubDate>Fri, 27 May 2016 12:52:04 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">749 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>The Science Temple</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-1</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/chen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT App Inventor Master Trainer Xiangqun Chen.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Every year we have two Disciplines Festivals; the autumn term is Art Festival, the spring term is Science Festival. So this term is Science Festival. The junior and senior parts of our school have different activities. In the junior part, one of the activities of the Science Festival is a &quot;Science Temple&quot;, a gathering of all students to take part in a lot of interesting games within half a day. &lt;/p&gt;
-&lt;div style=&quot;width:100%; clear:both;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/01Board.jpg&quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/10board_math1.jpg &quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/11board_math2.jpg &quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/05Physics2.jpg&quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;/div&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;Of course our computer science discipline is one of the most attractive areas! The students lined up for playing games. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/08Online.jpg&quot; style=&quot;margin:auto; width: 50%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So happy to play the fruit piano!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/students-with-apps.jpg &quot; style=&quot;margin:auto; width: 50%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Our robotic club designed some interesting games to attract their classmates to play.&lt;/p&gt;
-&lt;p&gt;
-The spinwin: Using Arduino robot kits. When you press the green button, the spinwin begins to whirl, then you press the red button, the spinwin whirls down slowly, and finally stops in an area which indicates the game you should play: Tank, Elephant, Fruit Piano, Stamp and Try again. &lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/SoeVAoiNO1M&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Touch the fruit to play a note, create your own song!&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/dODM4fNQ2dM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Lego Tank: You have only 60 seconds to push four items into a goal. If you push one item into a goal, you can get one stamp on your game card, and so on.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/tRV0METcv3A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Lego Elephant: Make the elephant to roll up a candy stick then put it into the blue fence. If you succeed, you can get a stamp on your card.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/_wMct7UXe10&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Students use apps installed on the smart phone to control the LEGO Robots. The apps are written by our robotic club members, using the App Inventor Platform. But the edition is a bit different from the official one. We cooperate with Shenzhen Institute of Information Technology to develop a local server edition, and add LEGO EV3 and Arduino components in the designer. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/LocalHost_AI2.jpg&quot; style=&quot;margin:auto; width: 80%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; Blocks of Tank:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/LocalHost_AI2Blocks.jpg&quot; style=&quot;margin:auto; width: 80%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So exciting to know that the new release of App Inventor coming soon will also add Components to support LEGO EV3 Robots. I&#039;ll ask my students to test it. They will love it!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/01Board.jpg?itok=lPvB610X&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/05Physics2.jpg?itok=frMEl5Lz&quot; width=&quot;360&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/08Online.jpg?itok=fNTBPltX&quot; width=&quot;320&quot; height=&quot;240&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/10board_math1.jpg?itok=0Eppxbd9&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/LocalHost_AI2.jpg?itok=AwkFvHRh&quot; width=&quot;480&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/LocalHost_AI2Blocks.jpg?itok=5rk8O-ZF&quot; width=&quot;480&quot; height=&quot;270&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/11board_math2.jpg?itok=ZyJXuCXA&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/students-with-apps.jpg?itok=0_0ijXnP&quot; width=&quot;320&quot; height=&quot;213&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 25 May 2016 13:31:06 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">746 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Celebrating International Girls in ICT day in Europe</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/gtf-group.jpg&quot; style=&quot;margin: auto; width: 90%; display: block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;This is a guest blog by MIT App Inventor Master Trainer Rosanna Kurrer.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kurrer.png&quot; style=&quot;margin: 0px 5px 0px 0px; padding; 0; width: 15%; float: left;&quot; /&gt;&lt;br /&gt;
-There is a growing awareness that increasing diversity and inclusion in the tech industry is indispensable to creating innovative solutions to tackle the complex challenges of the 21st century.
-&lt;/p&gt;
-&lt;p&gt;
-As diversity itself remains a challenge in all tech companies, celebrating the International Girls in ICT day is as relevant this year as it was five years ago when the member states of the International Telecommunications Union (ITU) started this initiative to encourage and empower girls and women to consider careers in the &lt;a href=&quot;http://girlsinict.org/what-girls-ict-day&quot; target=&quot;_blank&quot;&gt;ICT sector&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ecwc_workshop_2.jpg&quot; style=&quot;float: right; width: 35%; margin-left: 5px 1px;&quot; /&gt;&lt;br /&gt;
-A number of &lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/girls-ict-day&quot; target=&quot;_blank&quot;&gt;events&lt;/a&gt; were organised in Brussels, Belgium, the capital of the European Union, to give girls and women the chance to meet inspiring role-models as well as try their hand at digital skills such as 3D printing, coding and app development using the MIT App Inventor platform.
-&lt;/p&gt;
-&lt;p&gt;
-Over 500 women came to participate in the first-ever European Celebration of Women in Computing (&lt;a href=&quot;http://www.womenincomputing.eu/&quot;&gt;http://www.womenincomputing.eu/&lt;/a&gt;) conference which took place from the 25 - 26 April, and was supported by the European Commission and the Anita Borg Institute. The two days were filled with inspiring talks and interesting discussions, as well as a job fair and several workshops.
-&lt;/p&gt;
-&lt;p&gt;
-An App Inventor workshop proved very empowering for the student- and women participants who were surprised at how they could easily build interactive apps, and who have readily expressed their intention to continue learning and building.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ecwc_workshop_3.jpg&quot; style=&quot;float: left; width: 35%;margin-right: 5px;&quot; /&gt;&lt;br /&gt;
-On April 30, over 250 girls ages 11-15 years old took part in the first &lt;a href=&quot;https://gtfbru2016.eventbrite.com&quot; target=&quot;_blank&quot;&gt;Digital Muse Girl Tech Fest&lt;/a&gt; by the &lt;a href=&quot;http://dlii.org/girl-tech-fest-brussels-2016/ target=&quot; _blank=&quot;&quot;&gt;Digital Leadership Institute&lt;/a&gt; at the &lt;a href=&quot;http://www.eeb4.be/en target=&quot; _blank=&quot;&quot;&gt;European School of Brussels IV&lt;/a&gt;. It was a wonderful opportunity for the girls to learn about coding, 3d printing, artificial intelligence, robotics and virtual reality. It was an equally fulfilling experience for the women who ran workshops and gave inspiring talks to realise their importance as role-models in helping the girls overcome their hesitance in acquiring digital skills. After participating in the App Inventor workshop, the girls realised the potential their ideas could have if they could build the apps themselves.
-&lt;/p&gt;
-&lt;p&gt;
-The &lt;a href=&quot;http://www.womenandtech.eu/register/&quot; target=&quot;_blank&quot;&gt;Women &amp;amp; Tech Debating Europe conference&lt;/a&gt;  organised by Google on May 3rd aimed to start a discussion on the diversity problem in the tech industry and to share best practices on how to increase the inclusion of women in the sector. Speakers such as Matt Brittin, Google President for Europe and Vera Jourova, European Commissioner for Justice, Consumer Affairs and Gender Equality underlined the importance of ensuring the participation of more women in leadership roles. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/google-women-in-tech-3.jpg&quot; style=&quot;float: left; width: 35%;margin-right: 5px;&quot; /&gt;&lt;br /&gt;
-A live coding workshop was installed at the entrance hall and 16 female students (ages 11-17 years) were guided in building two Android apps using MIT App Inventor, one of them a translation app. After the workshop, the students were asked to demo their apps on stage to the speakers and audience, mostly made up of policy makers, journalists and EU officials. The audience was amazed and impressed at the apps they built, and some of the invited speakers even expressed their desire to learn how to build their own apps using App Inventor.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/ecwc_workshop_1.jpg?itok=8r7npeYS&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/ecwc_workshop_2.jpg?itok=LC2IqY2N&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/ecwc_workshop_3.jpg?itok=dfulEvMH&quot; width=&quot;480&quot; height=&quot;318&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/gtf-group.jpg?itok=E0f5xDs8&quot; width=&quot;480&quot; height=&quot;163&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/google-women-in-tech-3.jpg?itok=SjkZO_7u&quot; width=&quot;480&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 10 May 2016 18:48:27 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">741 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
