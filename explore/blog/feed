@@ -6,6 +6,20 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/welcome</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team&lt;/p&gt;
+&lt;p&gt;Those of us at MIT this summer already know Mike and Evan, but I&#039;d like to announce to the entire App Inventor community our delight at welcoming two our new members to the core MIT App Inventor team.&lt;/p&gt;
+&lt;p&gt;Mike Tissenbaum comes to App Inventor upon completing a postdoc in Madison at the School of Education, University Wisconsin, a position he took up after earning a Ph.D. at University of Toronto&#039;s Ontario Institute for Studies in Education.   Mike&#039;s work on design principles to support collaborative inquiry in smart classrooms was nominated as the best student paper at the 2014 International Conference for the Learning Sciences (ICLS). He&#039;s interested in formal and informal learning environments to support computational literacies, and in gaining insight into these through data mining and learning analytics.  Mike has developed and run several multi-week after-school Scratch programming Camps for kids 8-16, and he&#039;s looking forward to advancing research into blocks-based programming environments and how they support learners in developing socially relevant questions about the world.   At MIT, Mike is assuming the position of research scientist in App Inventor&#039;s project for the Hong Kong primary schools on computational thinking and coding education.&lt;/p&gt;
+&lt;p&gt;Our second new team member, Evan Patton, recently completed his doctorate at RPI.  Evan is new to the MIT team, but hardly new to App Inventor -- he&#039;s been a prime contributor to the Punya platform (an extension of App Inventor) and he developed the unit testing framework for Punya and App Inventor.   Beyond App Inventor, he’s been a consultant to startups in developing both Android and iOS applications.  He also administered and developed hardware to support Web applications with large user bases in the scientific community.  At MIT, Evan has now become a senior member of the App Inventor development team, and he has with special responsibility for our infrastructure with the Hong Kong project.&lt;/p&gt;
+&lt;p&gt;Mike and Evan bring enormous expertise and greatly increase capacity to the MIT team.&lt;/p&gt;
+&lt;p&gt;Welcome!
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 08 Aug 2016 23:39:27 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">787 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Heart Rate Monitor with Arduino/Genuino 101</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08/heart</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
@@ -454,63 +468,6 @@ In the future, I would make a connection with Shenzhen Education Bureau and let 
  <pubDate>Fri, 03 Jun 2016 16:04:35 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">752 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Integrating MIT App Inventor into Hoa Sen University IT Curriculum</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nguyen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog post by MIT App Inventor Master Trainer Khoi Nguyen Tran Minh, a lecturer at Hoa Sen University, Vietnam&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;
-It is good news that after attending the MIT Master Trainers Program in Educational Mobile Computing, I am able to persuade my senior managers at The Faculty of Science and Technology, Hoa Sen University, Vietnam to introduce a new course, Introduction CS Principles with MIT App Inventor, into our IT curriculum. We developed our course based on &lt;a href=&quot;http://www.mobile-csp.org/&quot; target=&quot;_blank&quot;&gt;Mobile CSP&lt;/a&gt;, which focuses on building mobile apps with MIT App Inventor and is among &lt;a href=&quot;http://apcsp.org/index.php/courses&quot; target=&quot;_blank&quot;&gt;five pilot courses&lt;/a&gt; fully addressing the AP Computer Science Principles Curriculum Framework components. &lt;/p&gt;
-&lt;p&gt;
-The approval is mainly based on the fact that nearly 100 US colleges and universities have considered the CS Principles Framework as a &lt;a href=&quot;https://advancesinap.collegeboard.org/stem/computer-science-principles/higher-ed-support&quot; target=&quot;_blank&quot;&gt;college-level computing course&lt;/a&gt;. As a matter of fact, many of them have &lt;a href=&quot;http://www.csprinciples.org/home/pilot-sites&quot; target=&quot;_blank&quot;&gt;piloted a program&lt;/a&gt; to teach Seven Big Ideas and the Six Computational Thinking Practices to university students.&lt;/p&gt;
-&lt;p&gt;
-While MIT App Inventor has been utilised as a tool for many CS principles courses, it appears to me that it has potential for a great deal of other subjects, especially Data Structures and Algorithms. Take “The Tower of Hanoi” app (with &lt;a href=&quot;https://drive.google.com/folderview?id=0B8MPX-KrJRMuRFRDQVFFSXhmMDQ&amp;amp;usp=sharing&quot; target=&quot;_blank&quot;&gt;tutorial&lt;/a&gt;) in the &lt;a href=&quot;ai2.appinventor.mit.edu/?galleryId=6007560209694720&quot; target=&quot;_blank&quot;&gt;App Inventor Gallery&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.TheTowerofHanoi_Final&quot; target=&quot;_blank&quot;&gt;Google Play&lt;/a&gt; as an example. I developed this app to push MIT App Inventor beyond its comfort zone and saw that it has the capability to develop complicated apps as easy as any text-based programming language, if not more conveniently and in less time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/tower-of-hanoi.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Additionally, I was able to use MIT App Inventor to complete all &lt;a href=&quot;https://drive.google.com/file/d/0B8MPX-KrJRMua2I1R0dVVUlyYlE/view?usp=sharing&quot; target=&quot;_blank&quot;&gt;week 2 assignments&lt;/a&gt; of the &lt;a href=&quot;https://www.coursera.org/learn/algorithmic-toolbox&quot; target=&quot;_blank&quot;&gt;Coursera Algorithmic Toolbox&lt;/a&gt;, course 1 of 6 in the Data Structures and Algorithms Specialization. Here are the links to the apps in the Google Play:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Fibonaccinumber_Final&amp;amp;hl=en&quot; target=&quot;_blank&quot;&gt;Compute a huge Fibonacci number&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;4&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fibonacci-sequence.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Last_Digit_of_a_Huge_Fibonacci_Number&quot; target=&quot;_blank&quot;&gt;Compute the last digit of a large Fibonacci number&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;7&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fibonacci-lastdigit.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Fibonacci_Mod_M&quot; target=&quot;_blank&quot;&gt;Compute a huge Fibonacci number modulo m&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;18&lt;/sup&gt; 2 &amp;amp;le m &amp;amp;le 10&lt;sup&gt;5&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/huge-fibonacci.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.The_greates_common_divisor_of_two_integers&quot; target=&quot;_blank&quot;&gt;Compute the greatest common divisor of two integers&lt;/a&gt; (1 ≤ a, b ≤ 2 * 10&lt;sup&gt;9&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/gcd.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.The_least_common_multiple_of_two_integers_Final&quot; target=&quot;_blank&quot;&gt;Compute the least commond multiple of two integers&lt;/a&gt; (1 ≤ a, b ≤ 2 * 10&lt;sup&gt;9&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/lcd.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;
-Admittedly, these problems are not hard to solve. However, the obstacle is how long it would take to calculate huge numbers, such as the 10,000th Fibonacci number or the last digit of the 1,000,000,000th one. While a carefully-designed algorithm can solve these problems within seconds, its not-so-good counterparts can take hundred or thousand years to complete the computation.&lt;/p&gt;
-&lt;p&gt;Not surprisingly, I found that MIT App Inventor is a kind of pseudocode which is intended for human reading, yet it still delivers a fully functional app with a variety of algorithms without any difficulties at all. It is my goal to use MIT App Inventor to produce more algorithm-related apps before writing a book titled “Data Structures and Algorithms with MIT App Inventor”.&lt;/p&gt;
-&lt;p&gt;
-Intelligent Tutoring System is a field that I really want to explore further with AI2 and hopefully can I demo my app in the Summit in June. In the meantime, I will post some information about it in my next article.&lt;/p&gt;
-&lt;p&gt;I would love to receive feedback as well as comments and can be reached at   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
- &lt;!--
-  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#107;&amp;#104;&amp;#111;&amp;#105;&amp;#46;&amp;#110;&amp;#103;&amp;#117;&amp;#121;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#97;&amp;#110;&amp;#109;&amp;#105;&amp;#110;&amp;#104;&amp;#64;&amp;#104;&amp;#111;&amp;#97;&amp;#115;&amp;#101;&amp;#110;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&amp;#46;&amp;#118;&amp;#110;&quot;&gt;&amp;#107;&amp;#104;&amp;#111;&amp;#105;&amp;#46;&amp;#110;&amp;#103;&amp;#117;&amp;#121;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#97;&amp;#110;&amp;#109;&amp;#105;&amp;#110;&amp;#104;&amp;#64;&amp;#104;&amp;#111;&amp;#97;&amp;#115;&amp;#101;&amp;#110;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&amp;#46;&amp;#118;&amp;#110;&#039;;
-// --&gt; 
-//--&gt;&lt;!]]&gt;
-&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/tower-of-hanoi.png?itok=T9mEfol1&quot; width=&quot;480&quot; height=&quot;175&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-sequence.png?itok=FMKG-b7G&quot; width=&quot;470&quot; height=&quot;237&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-last-digit.png?itok=bGWkFlzI&quot; width=&quot;480&quot; height=&quot;181&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/huge-fibonacci.png?itok=dkREDyCH&quot; width=&quot;480&quot; height=&quot;245&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/lcd.png?itok=aYzcHqet&quot; width=&quot;469&quot; height=&quot;243&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/gcd.png?itok=1NobvU6s&quot; width=&quot;478&quot; height=&quot;253&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-lastdigit.png?itok=V1yvIXBg&quot; width=&quot;480&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 27 May 2016 12:52:04 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">749 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

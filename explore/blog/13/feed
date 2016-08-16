@@ -6,6 +6,20 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/welcome</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team&lt;/p&gt;
+&lt;p&gt;Those of us at MIT this summer already know Mike and Evan, but I&#039;d like to announce to the entire App Inventor community our delight at welcoming two our new members to the core MIT App Inventor team.&lt;/p&gt;
+&lt;p&gt;Mike Tissenbaum comes to App Inventor upon completing a postdoc in Madison at the School of Education, University Wisconsin, a position he took up after earning a Ph.D. at University of Toronto&#039;s Ontario Institute for Studies in Education.   Mike&#039;s work on design principles to support collaborative inquiry in smart classrooms was nominated as the best student paper at the 2014 International Conference for the Learning Sciences (ICLS). He&#039;s interested in formal and informal learning environments to support computational literacies, and in gaining insight into these through data mining and learning analytics.  Mike has developed and run several multi-week after-school Scratch programming Camps for kids 8-16, and he&#039;s looking forward to advancing research into blocks-based programming environments and how they support learners in developing socially relevant questions about the world.   At MIT, Mike is assuming the position of research scientist in App Inventor&#039;s project for the Hong Kong primary schools on computational thinking and coding education.&lt;/p&gt;
+&lt;p&gt;Our second new team member, Evan Patton, recently completed his doctorate at RPI.  Evan is new to the MIT team, but hardly new to App Inventor -- he&#039;s been a prime contributor to the Punya platform (an extension of App Inventor) and he developed the unit testing framework for Punya and App Inventor.   Beyond App Inventor, he’s been a consultant to startups in developing both Android and iOS applications.  He also administered and developed hardware to support Web applications with large user bases in the scientific community.  At MIT, Evan has now become a senior member of the App Inventor development team, and he has with special responsibility for our infrastructure with the Hong Kong project.&lt;/p&gt;
+&lt;p&gt;Mike and Evan bring enormous expertise and greatly increase capacity to the MIT team.&lt;/p&gt;
+&lt;p&gt;Welcome!
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 08 Aug 2016 23:39:27 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">787 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor’s debt to Seymour Papert</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;To the App Inventor Community:&lt;/p&gt;
@@ -114,17 +128,6 @@ The implementation of App Inventor Extension Components is the work students who
  <pubDate>Fri, 03 Jul 2015 01:11:41 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">597 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT App Inventor usage triples over the 2014-2015 academic year</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/05/mit-app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Here&#039;s a short report and graph showing App Inventor usage for the 2014-2015 academic year.&lt;/p&gt;
-&lt;p&gt;Briefly, AI2 use tripled, and there was a slow decline in use of AI Classic.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1v7tp5bRyQgen7i569JkbaUSFbZCoVcX9YJFdrsJdhug/pub&quot;&gt;See report&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 25 May 2015 01:45:08 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">593 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
