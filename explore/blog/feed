@@ -6,6 +6,39 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Synchronizing Time With App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/interdonato.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rich Interdonato&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Synchronizing time across mobile devices is a very challenging problem for app makers.  The moment you try to use App Inventor to make something happen on more than one device at exactly the same time, you will discover that every device reports the current time to be (slightly) different from all others - even when the devices are each set to synchronize their time with the network, as shown below.
+ &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/synchronize-time.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can very easily demonstrate this for yourself by setting the same alarm (for some time in the future) on more than one device and then waiting for it to go off.  When the alarms are triggered, you will find that they actually fire at different times, even though they are set to go off simultaneously.  This is true even if the devices are set to synchronize their internal clocks with the network time.&lt;/p&gt;
+&lt;p&gt;
+ It turns out that the clocks used in mobile devices are not perfectly accurate.  What is more, the inaccuracy in timekeeping accumulates from the moment the clock is set, such that individual seconds are more accurate than individual minutes, which are more accurate than individual hours and so on.  For example, if the true duration of each second of time kept by a clock is off by .1 ms (.0001 seconds), then each minute will be off by 6 ms (.006 seconds), each hour will be off by 360 ms (.36 seconds), and each day will off by 8640 ms (8.64 seconds).  This explains why the alarms set for the same time on different phones go off at noticeably different times, even when the devices are all &quot;synchronized&quot; to the same network time.
+&lt;/p&gt;
+&lt;p&gt;
+In most cases, this is not a problem for App Inventors. However, if you are making a clock, a timer, or any other app that requires something to happen at a precise time (or at exactly the same moment on more than one device), then it is a very big problem indeed. For example, a student of mine wanted to create a simple app that caused the device&#039;s screen background color to be BLUE during every ODD second and to be RED during every EVEN second, in order to create a &quot;light show&quot; using many devices.  They were frustrated to discover that when the time was not the same on each device running their app, the colors didn&#039;t blink in unison, and so their app didn&#039;t really &quot;work&quot;.  Likewise, in more sophisticated multiplayer games where players (and their projectiles) move about the game worlds shared across multiple devices, if objects don&#039;t &quot;meet&quot; at the same time, these games don&#039;t really &quot;work&quot; either.  So what can we do?
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately there are a number of ways to synchronize time across multiple devices, but at present this feature is not built into App Inventor. App Inventor extensions allow you to get very accurate time if you want to write the Java code needed to communicate with a network time server, and this might be what you have to do if you require very precise timekeeping in your app. If you only need to approximately synchronize the time across devices, then you can choose any time source on the Internet as the &quot;official&quot; clock for your app.  Then you can  get the &quot;official&quot; time when your app starts, and calculate the difference between it and the device&#039;s internal time.  This time difference, called the &quot;offset&quot;, can then be used to adjust the device&#039;s time (forward or backward) to match to time reported by the &quot;official&quot; time source, more or less.
+&lt;/p&gt;
+&lt;p&gt;
+Until Internet communication is instantaneous for everyone, having a single source of time is not a perfect solution to the synchronization problem. This is because all the devices being synchronized have to send out requests for the &quot;official&quot; time and then wait for a response back from the time server.  Even if the time server could send out &quot;official&quot; time responses at the very instant it received the requests, the response messages still take time to travel back to the requestor and are incorrect by exactly that amount of time. As long as transit time through the Internet is unpredictable, time synchronization will be inexact.
+&lt;/p&gt;
+&lt;p&gt;
+Since the &quot;official&quot; time that is received by the app requesting it was only accurate at the moment the message was sent by the server, the receiver needs to adjust it in order to account for the time that elapsed during the message&#039;s transit.  Although the app receiving the &quot;official&quot; time does not know exactly when the time server sent the response, it does know when it originally made the request (according to its own clock), and therefore it can determine the &quot;round trip&quot; duration of the total request-response process.  If we assume that the time required to transmit the request is the same as the time required to receive a response, then half the &quot;round trip&quot; is the time taken by the message coming back from the server.  This additional amount of time should be added to the difference between the device&#039;s internal time and the &quot;official&quot; time, in order to improve the accuracy of the calculated offset.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/synchronize-time.png?itok=7cO86Wse&quot; width=&quot;273&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 29 Aug 2016 20:12:36 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">792 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Feel the Math with App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08/feel</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Angie Zhou&lt;/i&gt;&lt;/p&gt;
@@ -485,21 +518,6 @@ In the future, I would make a connection with Shenzhen Education Bureau and let 
  <pubDate>Thu, 16 Jun 2016 19:47:04 +0000</pubDate>
  <dc:creator>Josh</dc:creator>
  <guid isPermaLink="false">758 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>New App Inventor for Educators Site Launched</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/06/new</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/aieducators.png&quot; style=&quot;float: left; margin-right: 10px; width: 40%;&quot; /&gt;In an effort build a productive and positive educational community around the use of MIT App Inventor, a new website has now launched. &lt;a href=&quot;http://teach.appinventor.mit.edu&quot;&gt;teach.appinventor.mit.edu&lt;/a&gt; is a site where educators can share ideas, search and post resources, and ask questions about App Inventor. Due to the number and wide range of users for App Inventor, the main App Inventor site can be overwhelming and hard to navigate when specifically looking for educational content. If you are an educator who uses App Inventor and would like to join our community, please go to the site, register, and join the conversation!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/aieducators.png?itok=sc4yPBlY&quot; width=&quot;300&quot; height=&quot;86&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 13 Jun 2016 20:42:14 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">756 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
