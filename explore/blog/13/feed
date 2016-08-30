@@ -6,6 +6,19 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Experiments with Virtual Reality and MIT App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interest in virtual reality (VR) and augmented reality (AR) applications  is exploding.  Last month&#039;s Pokemon Go craze barely hints at what&#039;s coming.   Should we look forward to App Inventor creating  apps with  VR and AR?&lt;br /&gt;&lt;br /&gt;
+I want to give a shout- out to Kseniia Shumelchyk , who worked with MIT App Inventor this summer in Google&#039;s Summer of Code program,  creating App Inventor apps for Google&#039;s Cardboard viewer.  You can see her paper about this here:&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/vr.html&quot;&gt;Experiments with Virtual Reality and MIT App Inventor&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+Kseniia&#039;s paper presents two demo apps -- one that shows a panorama view and one that shows a 3D object.   You can run these demos, or build them for yourself and modify them.   Kseniia&#039;s project uses an auxiliary Java app that provides interface for the App Inventor ActiviyStarter to call the Google VR libraries.&lt;br /&gt;&lt;br /&gt;
+This work is only just starting:  There&#039;s a lot to do to integrate mode VR and AR capabilities into App Inventor, and even more to do in creating great App Inventor apps that use these capabilities.&lt;br /&gt;&lt;br /&gt;
+Thanks, Kseniia, for showing us how to get started!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 30 Aug 2016 01:42:06 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">793 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/welcome</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team&lt;/p&gt;
@@ -118,16 +131,6 @@ The implementation of App Inventor Extension Components is the work students who
  <pubDate>Sun, 05 Jul 2015 01:32:41 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">598 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Mobile CSP Team Holds App Inventor Workshop at ISTE 2015</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07/mobile</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Members of the Mobile CSP team traveled to Philadelphia on Sunday, June 28th,   to host a workshop at ISTE 2015 (International Society for Technology in Education) on building socially useful apps in App Inventor.  The workshop was attended by 30+ teachers, all of whom seemed to go away happy.    Mobile Computer Science Principles is a program the follows the College Board’s emerging advanced placement course in computer science, where students use App Inventor to build socially useful mobile apps.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1pGvELuE5t4Mt2d6KiBOD3BAz6K8v-JFRcf1zfUl2xNM/edit#heading=h.n6ya9zt1pkzn&quot;&gt;See full story&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 03 Jul 2015 01:11:41 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">597 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

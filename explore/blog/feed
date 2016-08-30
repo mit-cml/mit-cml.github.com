@@ -6,6 +6,19 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Experiments with Virtual Reality and MIT App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interest in virtual reality (VR) and augmented reality (AR) applications  is exploding.  Last month&#039;s Pokemon Go craze barely hints at what&#039;s coming.   Should we look forward to App Inventor creating  apps with  VR and AR?&lt;br /&gt;&lt;br /&gt;
+I want to give a shout- out to Kseniia Shumelchyk , who worked with MIT App Inventor this summer in Google&#039;s Summer of Code program,  creating App Inventor apps for Google&#039;s Cardboard viewer.  You can see her paper about this here:&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/vr.html&quot;&gt;Experiments with Virtual Reality and MIT App Inventor&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+Kseniia&#039;s paper presents two demo apps -- one that shows a panorama view and one that shows a 3D object.   You can run these demos, or build them for yourself and modify them.   Kseniia&#039;s project uses an auxiliary Java app that provides interface for the App Inventor ActiviyStarter to call the Google VR libraries.&lt;br /&gt;&lt;br /&gt;
+This work is only just starting:  There&#039;s a lot to do to integrate mode VR and AR capabilities into App Inventor, and even more to do in creating great App Inventor apps that use these capabilities.&lt;br /&gt;&lt;br /&gt;
+Thanks, Kseniia, for showing us how to get started!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 30 Aug 2016 01:42:06 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">793 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Synchronizing Time With App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/interdonato.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rich Interdonato&lt;/i&gt;&lt;/p&gt;
@@ -506,18 +519,6 @@ In the future, I would make a connection with Shenzhen Education Bureau and let 
  <pubDate>Thu, 14 Jul 2016 14:58:45 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">770 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>New Release Features Extensions, Bluetooth LE &amp; LEGO EV3</title>
- <link>http://explore.appinventor.mit.edu/blogs/josh/2016/06/new</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Late the evening of June 15, EDT, the MIT App Inventor team pushed a significant component release to its live, public-facing main instance. &lt;a href=&quot;https://docs.google.com/document/d/1x6WvQPEZblkrhfroO5q3vbNKiaWyaWGB58r5Se2H8Q4/pub&quot;&gt;More information about the release is available.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/blogs/Intel_logo.png&quot; align=&quot;right&quot; /&gt;This release enables extension components, which for now are non-visible components only, which may be written by anyone (with sufficient Java know-how) and then used with the MIT App Inventor service, without cluttering the component palettes for other users.&lt;/p&gt;
-&lt;p&gt;The first officially recognized &amp;amp; supported extension component is a Bluetooth Low Energy (BLE) component, generously made possible in part by a grant given by the &lt;a href=&quot;http://www.intel.com/content/www/us/en/education/university/intel-university-program.html&quot;&gt;University Program Office at Intel Corporation&lt;/a&gt;. The BLE component will enable Internet of Things (IoT) applications, many of which will come from our community: we expect to be blown away by amazing examples!&lt;/p&gt;
-&lt;p&gt;Additionally, we are happy to announce and release LEGO EV3 components, generously shared with the wider community by &lt;a href=&quot;http://www.cavedu.com/&quot;&gt;CAVEDU&lt;/a&gt;, a robotics and computer education organization based in Taiwan, and workplace of Master Trainer David Tseng.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 16 Jun 2016 19:47:04 +0000</pubDate>
- <dc:creator>Josh</dc:creator>
- <guid isPermaLink="false">758 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
