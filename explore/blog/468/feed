@@ -6,6 +6,60 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MOSTEC Inventors Showcase Summer Apps</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://oeop.mit.edu/programs/mostec&quot; target=&quot;_blank&quot;&gt;MOSTEC&lt;/a&gt;, the MIT Online Science, Technology, and Engineering Community program, allows rising high school seniors the opportunity for academic study in several areas of STEM during the summer, followed by several months of enrichment activities during the fall of their senior year.
+&lt;/p&gt;
+&lt;p&gt;
+Students choose to focus in one particular area, such as AstroPhysics, Aeronautical and Astronautical Engineering, and Mobile App Development. This July, MOSTEC participants took online classes in their chosen area for the entire month, then met as a larger group for a week of continued academic and social interaction in early August.
+&lt;/p&gt;
+&lt;p&gt;
+I had the opportunity to meet some of these talented young people during their week of residence at MIT in August. The Mobile App Computing class met all week refining apps that they had worked on virtually throughout the summer. Each student created their own app, and the entire class worked on a group app together.
+&lt;/p&gt;
+&lt;p&gt;
+Andrew McKinney, Director of Software Development for MIT App Inventor, and three visiting students - William Byrne from Northwestern University, and  Sauce and Andy from Hong Kong Polytechnic University - spent time with the class showing them the new Bluetooth Low Energy extension for App Inventor that allows users to create apps to interact with connected devices. Students got to see some neat demos of an app that tracked breathing capability by connecting to a spirometer, a bluetooth LE chat app, and an app that checks when a pill bottle is opened and closed.
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/name-game.png&quot; alt=&quot;Name Game app screenshot&quot; style=&quot;float: left; margin-right: 3px; width: 18%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/spanish-app.png&quot; alt=&quot;Spanish learning app screenshot&quot; style=&quot;float: left; margin-right: 3px; margin-top: -20px; width: 18%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/travel-app.png&quot; alt=&quot;Where Should I Travel app screenshot&quot; style=&quot;float: left; margin-right: 3px; margin-top: -40px; width: 18%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/shopper-app.png&quot; alt=&quot;Costco Wholesale+ app screenshot&quot; style=&quot;float: left; margin-right: 3px; margin-top: -60px; width: 18%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nyc-app.png&quot; alt=&quot;My NYC! app screenshot&quot; style=&quot;float: left; width: 18%; margin-top: -80px;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;
+The final day of the week, each MOSTEC class presented their work to the larger group. The Mobile App Development students presented on MIT App Inventor, the social impact of apps, and then demonstrated the apps they had created as part of the program, using App Inventor.
+&lt;/p&gt;
+&lt;p&gt;
+The group project, &lt;strong&gt;The Name Game&lt;/strong&gt;, was their method of learning each other’s names as their initial interactions were all virtual. The app enabled them to learn about each other before meeting face-to-face and also meant they had to collaborate to design, build, and test the app.
+&lt;/p&gt;
+&lt;p&gt;
+There were many other interesting and unique apps demonstrated by the MOSTEC students. Here is a sampling of some of the apps:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Read it, Write it, and Speak it! (Spanish Version)&lt;/strong&gt;, by Stacy Manrique, teaches the Spanish alphabet, some basic Spanish phrases, numbers, colors, months and days, and food. Besides teaching vocabulary by simply displaying the words translated to Spanish, it also allows the user to hear how words are pronounced. Additionally, it teaches users facts about the Spanish language and culture.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Where Should I Travel?&lt;/strong&gt;, by Sara Kolbehdari, is a neat app that quizzes the user in order to determine where they should travel. After answering a series of questions, the user gets to see what is the optimum destination for their next travel experience. The user can then view the destination on a map.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Costco Wholesale+&lt;/strong&gt;, by Pablo and Willy, connects shoppers with similar interests so they can partner to take advantage of bulk discounts. Users can search for like-minded shoppers by category, then see a thread of posts and contact each other via text.
+&lt;/p&gt;
+&lt;p&gt;
+Nicole Diaz and Melissa Aguirre used their extensive knowledge of the Big Apple to create &lt;strong&gt;Let’s Go NYC!&lt;/strong&gt; The app allows users to search and choose activities to do in New York. Aside from providing information about the activity, the app also provides directions to the activity. Users can search by age group and then by activity types. No way to be bored in NYC with this app!
+&lt;/p&gt;
+&lt;p&gt;
+All the students’ apps presented showed creative and thoughtful planning and implementation. They showed poise and enthusiasm for app creation and entrepreneurship. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 01 Sep 2016 20:39:21 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">796 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>WeTeach_CS Summit</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/roy.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Krishnendu Roy&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;
+The Center for STEM Education at The University of Texas at Austin hosted the first WeTeach_CS Summit during June 7-9, 2016 (&lt;a href=&quot;http://www.thetrc.org/cs-summit-2016/&quot;&gt;http://www.thetrc.org/cs-summit-2016/&lt;/a&gt;). In this K12 teachers workshop around 280 K12 teachers from all across Texas participated in three days of training and professional development activities in various computing related topics that will help them to offer new and improved computing courses and lessons in their classrooms. App Inventor was well covered in multiple sessions. App Inventor Master Trainer Dr. Krishnendu Roy presented a session titled “Introduction to MIT App Inventor”. In this session around 90 K12 teachers were introduced to App Inventor environment. Most of the participants in this session have never worked on App Inventor before. Dr. Ralph Morelli, Professor of Computer Science at Trinity College and App Inventor Master Trainer Pauline Lake presented a session on Mobile CSP titled “Mobile CS Principles: Learning CS By Building Socially Useful Mobile Apps” which also featured App Inventor.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 01 Sep 2016 19:27:46 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">795 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Synchronizing Time With App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/interdonato.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rich Interdonato&lt;/i&gt;&lt;/p&gt;
@@ -507,114 +561,6 @@ In the future, I would make a connection with Shenzhen Education Bureau and let 
  <pubDate>Fri, 03 Jun 2016 16:04:35 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">752 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Integrating MIT App Inventor into Hoa Sen University IT Curriculum</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nguyen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog post by MIT App Inventor Master Trainer Khoi Nguyen Tran Minh, a lecturer at Hoa Sen University, Vietnam&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;
-It is good news that after attending the MIT Master Trainers Program in Educational Mobile Computing, I am able to persuade my senior managers at The Faculty of Science and Technology, Hoa Sen University, Vietnam to introduce a new course, Introduction CS Principles with MIT App Inventor, into our IT curriculum. We developed our course based on &lt;a href=&quot;http://www.mobile-csp.org/&quot; target=&quot;_blank&quot;&gt;Mobile CSP&lt;/a&gt;, which focuses on building mobile apps with MIT App Inventor and is among &lt;a href=&quot;http://apcsp.org/index.php/courses&quot; target=&quot;_blank&quot;&gt;five pilot courses&lt;/a&gt; fully addressing the AP Computer Science Principles Curriculum Framework components. &lt;/p&gt;
-&lt;p&gt;
-The approval is mainly based on the fact that nearly 100 US colleges and universities have considered the CS Principles Framework as a &lt;a href=&quot;https://advancesinap.collegeboard.org/stem/computer-science-principles/higher-ed-support&quot; target=&quot;_blank&quot;&gt;college-level computing course&lt;/a&gt;. As a matter of fact, many of them have &lt;a href=&quot;http://www.csprinciples.org/home/pilot-sites&quot; target=&quot;_blank&quot;&gt;piloted a program&lt;/a&gt; to teach Seven Big Ideas and the Six Computational Thinking Practices to university students.&lt;/p&gt;
-&lt;p&gt;
-While MIT App Inventor has been utilised as a tool for many CS principles courses, it appears to me that it has potential for a great deal of other subjects, especially Data Structures and Algorithms. Take “The Tower of Hanoi” app (with &lt;a href=&quot;https://drive.google.com/folderview?id=0B8MPX-KrJRMuRFRDQVFFSXhmMDQ&amp;amp;usp=sharing&quot; target=&quot;_blank&quot;&gt;tutorial&lt;/a&gt;) in the &lt;a href=&quot;ai2.appinventor.mit.edu/?galleryId=6007560209694720&quot; target=&quot;_blank&quot;&gt;App Inventor Gallery&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.TheTowerofHanoi_Final&quot; target=&quot;_blank&quot;&gt;Google Play&lt;/a&gt; as an example. I developed this app to push MIT App Inventor beyond its comfort zone and saw that it has the capability to develop complicated apps as easy as any text-based programming language, if not more conveniently and in less time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/tower-of-hanoi.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Additionally, I was able to use MIT App Inventor to complete all &lt;a href=&quot;https://drive.google.com/file/d/0B8MPX-KrJRMua2I1R0dVVUlyYlE/view?usp=sharing&quot; target=&quot;_blank&quot;&gt;week 2 assignments&lt;/a&gt; of the &lt;a href=&quot;https://www.coursera.org/learn/algorithmic-toolbox&quot; target=&quot;_blank&quot;&gt;Coursera Algorithmic Toolbox&lt;/a&gt;, course 1 of 6 in the Data Structures and Algorithms Specialization. Here are the links to the apps in the Google Play:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Fibonaccinumber_Final&amp;amp;hl=en&quot; target=&quot;_blank&quot;&gt;Compute a huge Fibonacci number&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;4&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fibonacci-sequence.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Last_Digit_of_a_Huge_Fibonacci_Number&quot; target=&quot;_blank&quot;&gt;Compute the last digit of a large Fibonacci number&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;7&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fibonacci-lastdigit.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.Fibonacci_Mod_M&quot; target=&quot;_blank&quot;&gt;Compute a huge Fibonacci number modulo m&lt;/a&gt; (0 ≤ n ≤ 10&lt;sup&gt;18&lt;/sup&gt; 2 &amp;amp;le m &amp;amp;le 10&lt;sup&gt;5&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/huge-fibonacci.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.The_greates_common_divisor_of_two_integers&quot; target=&quot;_blank&quot;&gt;Compute the greatest common divisor of two integers&lt;/a&gt; (1 ≤ a, b ≤ 2 * 10&lt;sup&gt;9&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/gcd.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=appinventor.ai_khoi_ntm.The_least_common_multiple_of_two_integers_Final&quot; target=&quot;_blank&quot;&gt;Compute the least commond multiple of two integers&lt;/a&gt; (1 ≤ a, b ≤ 2 * 10&lt;sup&gt;9&lt;/sup&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/lcd.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;
-Admittedly, these problems are not hard to solve. However, the obstacle is how long it would take to calculate huge numbers, such as the 10,000th Fibonacci number or the last digit of the 1,000,000,000th one. While a carefully-designed algorithm can solve these problems within seconds, its not-so-good counterparts can take hundred or thousand years to complete the computation.&lt;/p&gt;
-&lt;p&gt;Not surprisingly, I found that MIT App Inventor is a kind of pseudocode which is intended for human reading, yet it still delivers a fully functional app with a variety of algorithms without any difficulties at all. It is my goal to use MIT App Inventor to produce more algorithm-related apps before writing a book titled “Data Structures and Algorithms with MIT App Inventor”.&lt;/p&gt;
-&lt;p&gt;
-Intelligent Tutoring System is a field that I really want to explore further with AI2 and hopefully can I demo my app in the Summit in June. In the meantime, I will post some information about it in my next article.&lt;/p&gt;
-&lt;p&gt;I would love to receive feedback as well as comments and can be reached at   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
- &lt;!--
-  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#107;&amp;#104;&amp;#111;&amp;#105;&amp;#46;&amp;#110;&amp;#103;&amp;#117;&amp;#121;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#97;&amp;#110;&amp;#109;&amp;#105;&amp;#110;&amp;#104;&amp;#64;&amp;#104;&amp;#111;&amp;#97;&amp;#115;&amp;#101;&amp;#110;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&amp;#46;&amp;#118;&amp;#110;&quot;&gt;&amp;#107;&amp;#104;&amp;#111;&amp;#105;&amp;#46;&amp;#110;&amp;#103;&amp;#117;&amp;#121;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#97;&amp;#110;&amp;#109;&amp;#105;&amp;#110;&amp;#104;&amp;#64;&amp;#104;&amp;#111;&amp;#97;&amp;#115;&amp;#101;&amp;#110;&amp;#46;&amp;#101;&amp;#100;&amp;#117;&amp;#46;&amp;#118;&amp;#110;&#039;;
-// --&gt; 
-//--&gt;&lt;!]]&gt;
-&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/tower-of-hanoi.png?itok=T9mEfol1&quot; width=&quot;480&quot; height=&quot;175&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-sequence.png?itok=FMKG-b7G&quot; width=&quot;470&quot; height=&quot;237&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-last-digit.png?itok=bGWkFlzI&quot; width=&quot;480&quot; height=&quot;181&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/huge-fibonacci.png?itok=dkREDyCH&quot; width=&quot;480&quot; height=&quot;245&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/lcd.png?itok=aYzcHqet&quot; width=&quot;469&quot; height=&quot;243&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/gcd.png?itok=1NobvU6s&quot; width=&quot;478&quot; height=&quot;253&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fibonacci-lastdigit.png?itok=V1yvIXBg&quot; width=&quot;480&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 27 May 2016 12:52:04 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">749 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>The Science Temple</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/05-1</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/chen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT App Inventor Master Trainer Xiangqun Chen.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Every year we have two Disciplines Festivals; the autumn term is Art Festival, the spring term is Science Festival. So this term is Science Festival. The junior and senior parts of our school have different activities. In the junior part, one of the activities of the Science Festival is a &quot;Science Temple&quot;, a gathering of all students to take part in a lot of interesting games within half a day. &lt;/p&gt;
-&lt;div style=&quot;width:100%; clear:both;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/01Board.jpg&quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/10board_math1.jpg &quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/11board_math2.jpg &quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/05Physics2.jpg&quot; style=&quot;float: left; padding: 0; margin: 3%; width: 40%;&quot; /&gt;&lt;/div&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;Of course our computer science discipline is one of the most attractive areas! The students lined up for playing games. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/08Online.jpg&quot; style=&quot;margin:auto; width: 50%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So happy to play the fruit piano!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/students-with-apps.jpg &quot; style=&quot;margin:auto; width: 50%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Our robotic club designed some interesting games to attract their classmates to play.&lt;/p&gt;
-&lt;p&gt;
-The spinwin: Using Arduino robot kits. When you press the green button, the spinwin begins to whirl, then you press the red button, the spinwin whirls down slowly, and finally stops in an area which indicates the game you should play: Tank, Elephant, Fruit Piano, Stamp and Try again. &lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/SoeVAoiNO1M&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Touch the fruit to play a note, create your own song!&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/dODM4fNQ2dM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Lego Tank: You have only 60 seconds to push four items into a goal. If you push one item into a goal, you can get one stamp on your game card, and so on.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/tRV0METcv3A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Lego Elephant: Make the elephant to roll up a candy stick then put it into the blue fence. If you succeed, you can get a stamp on your card.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; style=&quot;margin:auto; display: block;&quot; src=&quot;https://www.youtube.com/embed/_wMct7UXe10&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;Students use apps installed on the smart phone to control the LEGO Robots. The apps are written by our robotic club members, using the App Inventor Platform. But the edition is a bit different from the official one. We cooperate with Shenzhen Institute of Information Technology to develop a local server edition, and add LEGO EV3 and Arduino components in the designer. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/LocalHost_AI2.jpg&quot; style=&quot;margin:auto; width: 80%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; Blocks of Tank:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/LocalHost_AI2Blocks.jpg&quot; style=&quot;margin:auto; width: 80%; display:block;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;So exciting to know that the new release of App Inventor coming soon will also add Components to support LEGO EV3 Robots. I&#039;ll ask my students to test it. They will love it!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/01Board.jpg?itok=lPvB610X&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/05Physics2.jpg?itok=frMEl5Lz&quot; width=&quot;360&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/08Online.jpg?itok=fNTBPltX&quot; width=&quot;320&quot; height=&quot;240&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/10board_math1.jpg?itok=0Eppxbd9&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/LocalHost_AI2.jpg?itok=AwkFvHRh&quot; width=&quot;480&quot; height=&quot;269&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/LocalHost_AI2Blocks.jpg?itok=5rk8O-ZF&quot; width=&quot;480&quot; height=&quot;270&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/11board_math2.jpg?itok=ZyJXuCXA&quot; width=&quot;240&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/students-with-apps.jpg?itok=0_0ijXnP&quot; width=&quot;320&quot; height=&quot;213&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 25 May 2016 13:31:06 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">746 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
