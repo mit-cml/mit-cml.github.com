@@ -6,6 +6,142 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Google Translate API and App Inventor: An Alternative to Yandex</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-1</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/morin.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Yvon Morin&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays, the number of connected devices available through the Internet has led to connected people. The infrastructure that supports all the communications between devices is also known as the Internet of Things(IoT).
+&lt;/p&gt;
+&lt;p&gt;
+This blog is not intended to advertise Google API neither is its purpose to downplay the great features and capabilities of Yandex. It is only the author’s desire to share with the readers his experience that he thinks may serve a purpose as one may wish to know how to translate something in a language that may not be listed yet in the Yandex repertory or create an app with many different machine translator APIs for analysis and comparison.&lt;br /&gt;
+Our goal in this blog is to provide the user a better understanding about how to filter the result from the web using JSON parser block or the Text features of App Inventor. Of course, when using Yandex, App Inventor has already taken care of those issues so users don’t have to worry about them. But with APIs other than Yandex, you must know how to manipulate the strings to get the desired result; this is what we are about to show you.&lt;/p&gt;
+&lt;p&gt;
+For this purpose, we create an app with the following components for the GUI:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;A spinner button that will be used to select the desired language from a drop-down list. But the list only includes 4 languages for the purpose of this blog (French, Spanish, English and Haitian Creole)&lt;/li&gt;
+&lt;li&gt;A textbox used to receive user input for translation. The hint for this text box is set with steps to get the user started.&lt;/li&gt;
+&lt;li&gt;Two labels are used to show the output of the translated text from each server (Google and Yandex).&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/yandex-app.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To get started with using machine translator API, we need to setup an account for the service unless we are using the built-in Yandex Procedure or method created for this purpose in App Inventor. Since we are making use of Google Translate API and Yandex, we need at least an account for google which we already have. Once an account created, we need to get to the API console to create a project and enable API for that project. When getting API credential for the project, please select browser API key. If help is needed on this process, please follow the API documentation available on the user console. Now that the API key has been created, how do we use it? This is the question that we promise to answer next.
+&lt;/p&gt;
+&lt;p&gt;
+As mentioned before, one of the advantages of using Yandex is that App Inventor has already taken into account the method used to make a request to the web API and how to handle the response and moreover, no worries about creating an account. But when it comes to a custom API, you need to know how to handle it and this is what we are about to show you now. Before we do so, let’s take a look at the components involved in this app by looking at the list in the development interface.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/yandex-components.png&quot; style=&quot;display:block; margin:auto; width: 65%;&quot; /&gt;&lt;br /&gt;
+If you look at figure 1a on the left above, there are two non-visible components at the bottom. One is web component that will be use to access the Google API through a URL and the other is the Yandex component available in App Inventor to deal with those tasks. If we take a look at the Google Translate API documentation, we will see that to make a request for translating a text through Google Translate API, we have to use the following URL:&lt;a href=&quot;https://www.googleapis.com/language/translate/v2?parameters&quot; target=&quot;_blank&quot;&gt;https://www.googleapis.com/language/translate/v2?parameters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Where the parameters are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;API key: Use the key parameter to identify your application.&lt;/li&gt;
+&lt;li&gt;Target language: Use the target parameter to specify the language you want to translate into.&lt;/li&gt;
+&lt;li&gt;Source text string: Use the q parameter to specify the text to translate.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Here comes when we need to look back to where we left off when we were talking about creating a browser API Key and get credential for that key.&lt;/p&gt;
+&lt;p&gt;
+At this stage, we need to create three variables that will be combined by concatenation to make up the Google API Url needed to make sure we have a successful response (code 200).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/variables-api.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For security reasons, the API key shown above has been modified and therefore won’t work if used as is. &lt;/p&gt;
+&lt;p&gt;
+Let’s take a look at this block of code before we talk about the way we make the request to both APIs.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/afterselecting-block.png&quot; style=&quot;float: left; margin-right: 10px; width: 55%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This block of codes tells App Inventor that after the user select a language from the list:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Assign the corresponding code to the variable languagecode.&lt;/li&gt;
+&lt;li&gt;Hide the keyboard.&lt;/li&gt;
+&lt;li&gt;Set the Google API URL to the concatenated text in the join block.&lt;/li&gt;
+&lt;li&gt;Get the response.&lt;/li&gt;
+&lt;li&gt;Request the same translation from yandex.&lt;/li&gt;
+&lt;/ol&gt;&lt;p style=&quot;clear:both;&quot;&gt;Here is the difference between the requests to both Servers using their APIs.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/translate-blocks.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;How do they respond to the request? We will only focus on the way the Google server responded since our objective is to show how to filter the targeted response from the metadata returned. &lt;/p&gt;
+&lt;p&gt;
+App Inventor already handled the Yandex returned result in this event:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/got-translation.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now let’s assume the response from Google is roughly displayed without being parsed, formatted or filtered. What would it look like?&lt;/p&gt;
+&lt;p&gt;
+With this block of code:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/googleapi-gottext.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We would have something like this as output:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/yandex-output.png&quot; style=&quot;float: left; margin-right: 10px; margin-left: 100px; width: 30%;&quot; /&gt;&lt;br /&gt;
+As you may observe on the left, the Yandex translation has been done as expected, whereas google server has returned more than what we expected as a response and we need to find a technique to filter the desired response from what is returned. But the good news is whether you are a programmer or not, App Inventor makes it possible to bypass all the programming challenges that could stop us from getting the desired result. That’s why we will address the concerns of people with no knowledge of JavaScript or any programming language first.&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;Our focus is to get the string of characters between the double quotes inclusively “Me gustaria ver un cambio de tecnologia la forma de pensar.” To do so, we investigated and found that found out that the open quote before Me is at position 61 in the string.  We also found out that the length of the remaining string that follows the closing quote is 111. With this said let’s use the “segment text” block to extract the targeted string as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/segment-text.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;&lt;p&gt;To get rid of the quotes, we attached the previous block to the “replace all text” block as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/replace-text.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s observe the output if this block is connected to the googleAPI.GotText event.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/google-api-got-text.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/spanish-output.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;Final App Inventor code for this version&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/final-api-code.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We have just shown you how to get the intended response after translation from the server using simple arithmetic calculations and the text manipulation features of App Inventor. Perhaps there are people on the other side of the world of App Inventor users who still wish to know another way to deal with the response. I assume these people may have some knowledge of JavaScript language or perhaps they have heard about JSON (JavaScript Object Notation) intended to be used in this practice as an alternative to what we just did. If we have a web component added to the UI as the one called googleAPI in our case, when click this component while in block editor, you will see a block like this one:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-decode.png&quot; style=&quot;display:block; margin:auto; width: 40%;&quot; /&gt;&lt;/p&gt;&lt;p&gt;If we proceed our investigation the same way we started earlier, we can attach the response content to this block to see what the output will look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/api-gotext-2.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The App Inventor JSON decoder has changed the response content to the output seen in purple. This output has led to a map shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-map.png&quot; style=&quot;display:block; margin:auto; width: 40%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This map tells us that if we make use of list of list, then we can have direct access to the last element by creating this chain of select list below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-list.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-long-list.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If we use a loop, we can bring that chain to a certain level of abstraction as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-abstraction.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/final-gottext.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here is the output that follows the block of code above:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/final-app-output.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;Final App Inventor code for this version&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/abs-final-blocks.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Brief, it may have been a long exercise, but we have covered our main objectives that were to provide users an alternative to Yandex API as means for text translation and different strategies or techniques that can be used the specific response from the response content. Among the techniques used, the text features of App Inventor and the JSON block of the web component have been used. The app created for the purpose of this blog can give the reader an opportunity to compare the accuracy of Google Translation vs Yandex Translation. &lt;/p&gt;
+&lt;p&gt;
+Use this QR Code if you want to try the app:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/translate-qr-code.png&quot; style=&quot;float: left; margin-right: 20px; width: 20%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/yandex-app.png?itok=gD5qgUDZ&quot; width=&quot;295&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/afterselecting-block.png?itok=yQRY4phD&quot; width=&quot;472&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/translate-blocks.png?itok=fh7-CCI6&quot; width=&quot;480&quot; height=&quot;103&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/got-translation.png?itok=4ipk8nKo&quot; width=&quot;428&quot; height=&quot;139&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/googleapi-gottext.png?itok=7-uwwy16&quot; width=&quot;480&quot; height=&quot;157&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/yandex-output.png?itok=EOZr21aH&quot; width=&quot;293&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/segment-text.png?itok=oqjotMT3&quot; width=&quot;480&quot; height=&quot;107&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/replace-text.png?itok=bJqPHEQG&quot; width=&quot;480&quot; height=&quot;118&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/api-gottext.png?itok=F_jlk0Hn&quot; width=&quot;480&quot; height=&quot;164&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/spanish-output.png?itok=f4eN427h&quot; width=&quot;295&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-decode.png?itok=TxxhKF2o&quot; width=&quot;286&quot; height=&quot;62&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/api-gotext-2.png?itok=H5TvQkVj&quot; width=&quot;480&quot; height=&quot;166&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/translate-qr-code.png?itok=H5qGh9_O&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/abs-final-blocks.png?itok=QNmH76oe&quot; width=&quot;480&quot; height=&quot;271&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/final-app-output.png?itok=V90Hngf3&quot; width=&quot;279&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/final-gottext.png?itok=Wh1ucDsm&quot; width=&quot;480&quot; height=&quot;189&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-abstraction.png?itok=K-DUhDch&quot; width=&quot;480&quot; height=&quot;176&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-long-list.png?itok=koVdGj71&quot; width=&quot;480&quot; height=&quot;91&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-list.png?itok=0qV_IyVn&quot; width=&quot;480&quot; height=&quot;65&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-map.png?itok=wJvjIcr8&quot; width=&quot;480&quot; height=&quot;108&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/variables-api.png?itok=kC1WpoYB&quot; width=&quot;480&quot; height=&quot;76&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/yandex-components.png?itok=zw2g1535&quot; width=&quot;468&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/google-api-got-text.png?itok=f20msSdI&quot; width=&quot;480&quot; height=&quot;157&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/final-api-code.png?itok=Ts-UVzZy&quot; width=&quot;480&quot; height=&quot;271&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 02 Sep 2016 21:27:42 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">798 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MOSTEC Inventors Showcase Summer Apps</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://oeop.mit.edu/programs/mostec&quot; target=&quot;_blank&quot;&gt;MOSTEC&lt;/a&gt;, the MIT Online Science, Technology, and Engineering Community program, allows rising high school seniors the opportunity for academic study in several areas of STEM during the summer, followed by several months of enrichment activities during the fall of their senior year.
@@ -303,194 +439,6 @@ The centerpiece of YNN will be Youth Mobile Power, a series of stories about    
  <pubDate>Mon, 25 Jul 2016 22:08:37 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">780 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>AITech - Using Procedures and Any component blocks</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/07-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sjaak Bosman&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;When components in your app have similar behavior, you can end up with a lot of blocks almost doing the same thing. Using Procedures and Any component blocks not only gives you the possibility to minimize the use of blocks, but also makes it easier for you to add new components and maintain your app in a more comfortable way.&lt;/p&gt;
-&lt;div style=&quot;clear: both; width: 100%; margin-bottom: 50px;&quot;&gt;
-&lt;div style=&quot;clear: both; float: left; margin-right: 10px; width: 30%;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/0.1_design.jpg&quot; style=&quot;display: block; margin:auto; width: 100%&quot; /&gt;&lt;i&gt;Figure 0.1 Design&lt;/i&gt;&lt;/div&gt;
-&lt;div width:=&quot;&quot; float:=&quot;&quot; right=&quot;&quot;&gt;
-&lt;p style=&quot;padding: 3em;&quot;&gt;
-To demonstrate this we are going to implement a group of 3 radio buttons using the CheckBox component.&lt;/p&gt;
-&lt;p&gt;
-At the end another CheckBox will be added to the group, to demonstrate the ease of using Procedures and Any component blocks.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 1. Straightforward&lt;/h2&gt;
-&lt;p&gt;Pressing a CheckBox will fire its Changed event handler, in which we uncheck both other CheckBoxes. So far it doesn&#039;t look that difficult:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.1_straightforward_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.1: Straightforward blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em&quot;&gt;When the user presses Small, its CheckBox will be checked: A green check mark will appear and the Checked property of the chbSizeSmall component will be set to true.
-&lt;/p&gt;
-&lt;p&gt;
-When the users presses Medium next, Small will be unchecked. Now we expect Medium to be checked, but that is not what is happening:
-&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 100%; padding-bottom: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; margin-left: 20%; margin-right: 10%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.2_press_small.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.2 Press Small&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; margin-right: 10%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.3_press_medium.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.3 Press Medium&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear:both; padding-top: 3em;&quot;&gt;What is going on here?
-&lt;/p&gt;
-&lt;p&gt;
-Pressing Medium causes a Changed event for Medium (1). In the event handler the Checked property of Small is being set to false (2).
-&lt;/p&gt;
-&lt;p&gt;
-Because the Checked property of Small is true (figure 1.2), a Changed event will occur (3). As a result the Checked property of Medium will be set to false (4):
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.4_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.5: Blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;A Changed event for Medium will also occur again, because of the change from true (because of user action) to false (4), but that doesn’t change anything anymore (setting Small and Large to false, what they are already are).&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 2. Straightforward and working&lt;/h2&gt;
-&lt;p&gt;
-So before we can optimize our blocks by using Procedures and Any component blocks, which is initially our plan and the meaning of this blog, we have to solve this little unwanted feature.
-&lt;/p&gt;
-&lt;p&gt;
-Our goal is to prevent the blocks inside a Changed event handler from being executed when it was not fired because of user action. To do so we are going to use its Enabled property.
-&lt;/p&gt;
-&lt;p&gt;
-First all the blocks inside the Changed event handler will be moved into an if-then control block (blocks in the red rectangle). The if-condition will be the Enabled property of that CheckBox. As a result the blocks in the then-part will only be executed if the Enabled property of that CheckBox is true.
-&lt;/p&gt;
-&lt;p&gt;
-Next all CheckBoxes have to be disabled (by setting the Enabled property to false) before changing the Checked property of the other CheckBoxes. Finally all CheckBoxes must be enabled, to make them available to the user again.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.1_straightforward_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.1: Straightforward blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;Now it’s almost working:&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 100%;&quot;&gt;
-&lt;div style=&quot;float: left; margin-left: 5%; margin-right: 5%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.2_press_small.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.2: Press Small&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; margin-right: 5%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.3_press_medium.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.3: Press Medium&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; margin-right: 5%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.4_press_medium_again.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.3: Press Medium again&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear: both; padding-top: 3em;&quot;&gt;
-Pressing a checked CheckBox (figure 2.3) results in all CheckBoxes being unchecked. That issue will be solved in Step 5.
-&lt;/p&gt;
-&lt;p&gt;
-As you can see, each event handler holds a lot of the same blocks: Setting the Enabled property of all CheckBoxes to false and, after setting the Checked property of the other CheckBoxes to false, back to true. If you add another CheckBox to this group of radio buttons, you will have to add a lot of blocks in lots of different places.
-&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 3. Introducing a Procedure&lt;/h2&gt;
-&lt;p&gt;This is the moment where it is handy to use a Procedure to concentrate functionality in one place. Except for the if-then control block, all blocks can be moved to the newly created procedure. Of course identical blocks can then be deleted. You can find the Procedure blocks in the Built-in section of the Blocks pane in the Blocks editor.
-&lt;/p&gt;
-&lt;p&gt;
-Because setting the Checked property of the other CheckBoxes to false (figure 1.5) depends on which CheckBox was pressed, this has to be done conditionally. Therefore the Procedure must know which CheckBox was pressed, which can be realized by adding an input parameter to the procedure (click the small blue square in the upper left corner of the Procedure block to add an input parameter):
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/3.1_procedure_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 3.1: Procedure blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;
-Yet this is still not a generic situation. In the Procedure we must check for the value of the input parameter to determine for which CheckBoxes the Checked property must be set to false.
-&lt;/p&gt;
-&lt;p&gt;
-Also, if we add another CheckBox later on, the Procedure must be modified to include blocks for the new CheckBox.
-&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 4. Introducing the Any component block&lt;/h2&gt;
-&lt;div style=&quot;display: block; margin: auto; width: 100%; padding-bottom: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; width: 25%; margin-right: 10%;&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/4.1_any_component_properties.jpg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 4.1: Any component properties&lt;/i&gt;
-&lt;/p&gt;&lt;/div&gt;
-&lt;div style=&quot;float:right; width: 70%;&quot;&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;To implement a generic solution we are going to use the Any component blocks, in our example the Any CheckBox component.
-&lt;/p&gt;
-&lt;p&gt;
-They look like the specific property blocks equivalent, but in addition give you the possibility to specify the component for which you want to set or get a property.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;display: block; margin: auto; width: 100%; padding-bottom: 3em; padding-top: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; width: 25%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/4.2_component_as_property.jpg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 4.2: Component as property&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float:right: width: 70%;&quot;&gt;
-&lt;p style=&quot;margin-top: 3em;&quot;&gt;
-One property of a component is the component itself. It can be found at the bottom of the list of the component’s event handler and property getters and setters.&lt;/p&gt;
-&lt;p&gt;To be able to process all CheckBoxes, we add them to a list (1a) which can be processed by a for-each control block. Adding of the CheckBoxes to the list cannot be done upon initialization of the variable and therefore has to be done upon initialization of the app (1b).
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear: both; padding-top: 3em;&quot;&gt;
-To let the procedure know which CheckBox it concerns, the CheckBox itself can be passed as parameter (3a and 3b). The if-condition to check if the CheckBox is Enabled has the same structure for all our CheckBoxes, and can now be moved to the Procedure too (2).
-&lt;/p&gt;
-&lt;p&gt;
-The for-each loop (4) returns one CheckBox component from the list at a time and stores it in a local variable. Now we are able to set the Enabled property to false for all CheckBox components in our radio button group in just a single block (5).
-&lt;/p&gt;
-&lt;p&gt;
-Next all Checked properties must be set to false (6b), except for the CheckBox that was pressed (6a).
-&lt;/p&gt;
-&lt;p&gt;
-At last all CheckBoxes must be Enabled.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/4.3_any_component_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;i&gt;Figure 4.3: Any component blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;This powerful combination of a list, for-each loop, Any component blocks and a Procedure gives you the ability to create flexible apps that are easy to modify and expand.&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 5. Adding another CheckBox&lt;/h2&gt;
-&lt;div style=&quot;margin:auto: display: block; width: 100%; padding-bottom: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; margin-right: 10px; width: 30%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/5.1_design.jpg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 5.1: Design&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: right; width: 65%;&quot;&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;Another CheckBox will be added to the radio button group, to demonstrate the ease of using Procedures and Any component blocks.&lt;/p&gt;
-&lt;p&gt;
-Adding another CheckBox to the Radio button group now only consist out of a few simple steps. First add the CheckBox to the designer.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear: both; padding-top: 3em;&quot;&gt;
-In the Blocks Editor you have to add the newly created CheckBox to the list (1) and add its Changed event handler (2). That’s all!
-&lt;/p&gt;
-&lt;p&gt;
-Maybe you noticed that a Checked CheckBox can be unchecked, leaving the radio button group with no selection at all. If you don’t want that to be an option, force the concerning CheckBox to true (3). Prior to this now all CheckBoxes can unconditionally be set to false, which makes our Procedure even easier.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/5.2_extra_checkbox_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;i&gt;Figure 5.2 Extra CheckBox Blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;clear:both; padding-top: 3em;&quot;&gt;Suggestions or questions? Please send an e-mail to   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
- &lt;!--
-  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#039;;
-// --&gt; 
-//--&gt;&lt;!]]&gt;
-&lt;/script&gt;&lt;p&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/0.1_design.jpg?itok=Tmmiud0q&quot; width=&quot;480&quot; height=&quot;430&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.1_straightforward_blocks.jpg?itok=h9S5Ypbv&quot; width=&quot;480&quot; height=&quot;39&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.2_press_small.png?itok=3hbGwA3u&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.3_press_medium.png?itok=EQg-Tv9q&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.4_blocks.jpg?itok=T6F9sSDo&quot; width=&quot;480&quot; height=&quot;39&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.1_straightforward_blocks.jpg?itok=IcVWmH73&quot; width=&quot;480&quot; height=&quot;102&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.2_press_small.png?itok=pFstzV_h&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.3_press_medium.png?itok=k4C_eGf7&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.4_press_medium_again.png?itok=HKvzCrmF&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/3.1_procedure_blocks.jpg?itok=bFZNOXBc&quot; width=&quot;480&quot; height=&quot;255&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/4.1_any_component_properties.jpg?itok=V_5Bx0zv&quot; width=&quot;450&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/4.2_component_as_property.jpg?itok=jParUYtX&quot; width=&quot;353&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/4.3_any_component_blocks.jpg?itok=jzPZLRZJ&quot; width=&quot;480&quot; height=&quot;249&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/5.1_design.jpg?itok=obiz--NK&quot; width=&quot;480&quot; height=&quot;430&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/5.2_extra_checkbox_blocks.jpg?itok=iuBF8qKX&quot; width=&quot;480&quot; height=&quot;284&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 25 Jul 2016 15:43:32 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">779 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

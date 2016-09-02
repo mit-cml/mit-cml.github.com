@@ -6,6 +6,142 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Google Translate API and App Inventor: An Alternative to Yandex</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-1</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/morin.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Yvon Morin&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Nowadays, the number of connected devices available through the Internet has led to connected people. The infrastructure that supports all the communications between devices is also known as the Internet of Things(IoT).
+&lt;/p&gt;
+&lt;p&gt;
+This blog is not intended to advertise Google API neither is its purpose to downplay the great features and capabilities of Yandex. It is only the author’s desire to share with the readers his experience that he thinks may serve a purpose as one may wish to know how to translate something in a language that may not be listed yet in the Yandex repertory or create an app with many different machine translator APIs for analysis and comparison.&lt;br /&gt;
+Our goal in this blog is to provide the user a better understanding about how to filter the result from the web using JSON parser block or the Text features of App Inventor. Of course, when using Yandex, App Inventor has already taken care of those issues so users don’t have to worry about them. But with APIs other than Yandex, you must know how to manipulate the strings to get the desired result; this is what we are about to show you.&lt;/p&gt;
+&lt;p&gt;
+For this purpose, we create an app with the following components for the GUI:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;A spinner button that will be used to select the desired language from a drop-down list. But the list only includes 4 languages for the purpose of this blog (French, Spanish, English and Haitian Creole)&lt;/li&gt;
+&lt;li&gt;A textbox used to receive user input for translation. The hint for this text box is set with steps to get the user started.&lt;/li&gt;
+&lt;li&gt;Two labels are used to show the output of the translated text from each server (Google and Yandex).&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/yandex-app.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To get started with using machine translator API, we need to setup an account for the service unless we are using the built-in Yandex Procedure or method created for this purpose in App Inventor. Since we are making use of Google Translate API and Yandex, we need at least an account for google which we already have. Once an account created, we need to get to the API console to create a project and enable API for that project. When getting API credential for the project, please select browser API key. If help is needed on this process, please follow the API documentation available on the user console. Now that the API key has been created, how do we use it? This is the question that we promise to answer next.
+&lt;/p&gt;
+&lt;p&gt;
+As mentioned before, one of the advantages of using Yandex is that App Inventor has already taken into account the method used to make a request to the web API and how to handle the response and moreover, no worries about creating an account. But when it comes to a custom API, you need to know how to handle it and this is what we are about to show you now. Before we do so, let’s take a look at the components involved in this app by looking at the list in the development interface.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/yandex-components.png&quot; style=&quot;display:block; margin:auto; width: 65%;&quot; /&gt;&lt;br /&gt;
+If you look at figure 1a on the left above, there are two non-visible components at the bottom. One is web component that will be use to access the Google API through a URL and the other is the Yandex component available in App Inventor to deal with those tasks. If we take a look at the Google Translate API documentation, we will see that to make a request for translating a text through Google Translate API, we have to use the following URL:&lt;a href=&quot;https://www.googleapis.com/language/translate/v2?parameters&quot; target=&quot;_blank&quot;&gt;https://www.googleapis.com/language/translate/v2?parameters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+Where the parameters are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;API key: Use the key parameter to identify your application.&lt;/li&gt;
+&lt;li&gt;Target language: Use the target parameter to specify the language you want to translate into.&lt;/li&gt;
+&lt;li&gt;Source text string: Use the q parameter to specify the text to translate.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Here comes when we need to look back to where we left off when we were talking about creating a browser API Key and get credential for that key.&lt;/p&gt;
+&lt;p&gt;
+At this stage, we need to create three variables that will be combined by concatenation to make up the Google API Url needed to make sure we have a successful response (code 200).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/variables-api.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;For security reasons, the API key shown above has been modified and therefore won’t work if used as is. &lt;/p&gt;
+&lt;p&gt;
+Let’s take a look at this block of code before we talk about the way we make the request to both APIs.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/afterselecting-block.png&quot; style=&quot;float: left; margin-right: 10px; width: 55%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This block of codes tells App Inventor that after the user select a language from the list:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Assign the corresponding code to the variable languagecode.&lt;/li&gt;
+&lt;li&gt;Hide the keyboard.&lt;/li&gt;
+&lt;li&gt;Set the Google API URL to the concatenated text in the join block.&lt;/li&gt;
+&lt;li&gt;Get the response.&lt;/li&gt;
+&lt;li&gt;Request the same translation from yandex.&lt;/li&gt;
+&lt;/ol&gt;&lt;p style=&quot;clear:both;&quot;&gt;Here is the difference between the requests to both Servers using their APIs.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/translate-blocks.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;How do they respond to the request? We will only focus on the way the Google server responded since our objective is to show how to filter the targeted response from the metadata returned. &lt;/p&gt;
+&lt;p&gt;
+App Inventor already handled the Yandex returned result in this event:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/got-translation.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now let’s assume the response from Google is roughly displayed without being parsed, formatted or filtered. What would it look like?&lt;/p&gt;
+&lt;p&gt;
+With this block of code:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/googleapi-gottext.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We would have something like this as output:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/yandex-output.png&quot; style=&quot;float: left; margin-right: 10px; margin-left: 100px; width: 30%;&quot; /&gt;&lt;br /&gt;
+As you may observe on the left, the Yandex translation has been done as expected, whereas google server has returned more than what we expected as a response and we need to find a technique to filter the desired response from what is returned. But the good news is whether you are a programmer or not, App Inventor makes it possible to bypass all the programming challenges that could stop us from getting the desired result. That’s why we will address the concerns of people with no knowledge of JavaScript or any programming language first.&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;Our focus is to get the string of characters between the double quotes inclusively “Me gustaria ver un cambio de tecnologia la forma de pensar.” To do so, we investigated and found that found out that the open quote before Me is at position 61 in the string.  We also found out that the length of the remaining string that follows the closing quote is 111. With this said let’s use the “segment text” block to extract the targeted string as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/segment-text.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;&lt;p&gt;To get rid of the quotes, we attached the previous block to the “replace all text” block as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/replace-text.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s observe the output if this block is connected to the googleAPI.GotText event.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/google-api-got-text.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/spanish-output.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;Final App Inventor code for this version&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/final-api-code.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We have just shown you how to get the intended response after translation from the server using simple arithmetic calculations and the text manipulation features of App Inventor. Perhaps there are people on the other side of the world of App Inventor users who still wish to know another way to deal with the response. I assume these people may have some knowledge of JavaScript language or perhaps they have heard about JSON (JavaScript Object Notation) intended to be used in this practice as an alternative to what we just did. If we have a web component added to the UI as the one called googleAPI in our case, when click this component while in block editor, you will see a block like this one:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-decode.png&quot; style=&quot;display:block; margin:auto; width: 40%;&quot; /&gt;&lt;/p&gt;&lt;p&gt;If we proceed our investigation the same way we started earlier, we can attach the response content to this block to see what the output will look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/api-gotext-2.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The App Inventor JSON decoder has changed the response content to the output seen in purple. This output has led to a map shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-map.png&quot; style=&quot;display:block; margin:auto; width: 40%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This map tells us that if we make use of list of list, then we can have direct access to the last element by creating this chain of select list below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-list.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-long-list.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If we use a loop, we can bring that chain to a certain level of abstraction as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/json-abstraction.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/final-gottext.png&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here is the output that follows the block of code above:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/final-app-output.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;Final App Inventor code for this version&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/abs-final-blocks.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Brief, it may have been a long exercise, but we have covered our main objectives that were to provide users an alternative to Yandex API as means for text translation and different strategies or techniques that can be used the specific response from the response content. Among the techniques used, the text features of App Inventor and the JSON block of the web component have been used. The app created for the purpose of this blog can give the reader an opportunity to compare the accuracy of Google Translation vs Yandex Translation. &lt;/p&gt;
+&lt;p&gt;
+Use this QR Code if you want to try the app:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/translate-qr-code.png&quot; style=&quot;float: left; margin-right: 20px; width: 20%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/yandex-app.png?itok=gD5qgUDZ&quot; width=&quot;295&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/afterselecting-block.png?itok=yQRY4phD&quot; width=&quot;472&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/translate-blocks.png?itok=fh7-CCI6&quot; width=&quot;480&quot; height=&quot;103&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/got-translation.png?itok=4ipk8nKo&quot; width=&quot;428&quot; height=&quot;139&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/googleapi-gottext.png?itok=7-uwwy16&quot; width=&quot;480&quot; height=&quot;157&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/yandex-output.png?itok=EOZr21aH&quot; width=&quot;293&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/segment-text.png?itok=oqjotMT3&quot; width=&quot;480&quot; height=&quot;107&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/replace-text.png?itok=bJqPHEQG&quot; width=&quot;480&quot; height=&quot;118&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/api-gottext.png?itok=F_jlk0Hn&quot; width=&quot;480&quot; height=&quot;164&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/spanish-output.png?itok=f4eN427h&quot; width=&quot;295&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-decode.png?itok=TxxhKF2o&quot; width=&quot;286&quot; height=&quot;62&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/api-gotext-2.png?itok=H5TvQkVj&quot; width=&quot;480&quot; height=&quot;166&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/translate-qr-code.png?itok=H5qGh9_O&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/abs-final-blocks.png?itok=QNmH76oe&quot; width=&quot;480&quot; height=&quot;271&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/final-app-output.png?itok=V90Hngf3&quot; width=&quot;279&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/final-gottext.png?itok=Wh1ucDsm&quot; width=&quot;480&quot; height=&quot;189&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-abstraction.png?itok=K-DUhDch&quot; width=&quot;480&quot; height=&quot;176&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-long-list.png?itok=koVdGj71&quot; width=&quot;480&quot; height=&quot;91&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-list.png?itok=0qV_IyVn&quot; width=&quot;480&quot; height=&quot;65&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/json-map.png?itok=wJvjIcr8&quot; width=&quot;480&quot; height=&quot;108&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/variables-api.png?itok=kC1WpoYB&quot; width=&quot;480&quot; height=&quot;76&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/yandex-components.png?itok=zw2g1535&quot; width=&quot;468&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/google-api-got-text.png?itok=f20msSdI&quot; width=&quot;480&quot; height=&quot;157&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/final-api-code.png?itok=Ts-UVzZy&quot; width=&quot;480&quot; height=&quot;271&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 02 Sep 2016 21:27:42 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">798 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MOSTEC Inventors Showcase Summer Apps</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://oeop.mit.edu/programs/mostec&quot; target=&quot;_blank&quot;&gt;MOSTEC&lt;/a&gt;, the MIT Online Science, Technology, and Engineering Community program, allows rising high school seniors the opportunity for academic study in several areas of STEM during the summer, followed by several months of enrichment activities during the fall of their senior year.
@@ -528,39 +664,6 @@ In the future, I would make a connection with Shenzhen Education Bureau and let 
  <pubDate>Mon, 13 Jun 2016 20:42:14 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">756 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Guangzhou Education Information Center(GEIC) Stages App Inventor Robot Contest</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/06</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Zanjian Li, from the GuangZhou Education Information Center&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;On May 8th, the “Robot Competition for Primary school and Secondary School Students of Guangzhou 2016” was successfully held by the Guangzhou Education Information Center (GEIC). 305 teams from 166 schools participated in the competition. The competition consisted of 15 different programs, such as App Inventor Robot Contest, Robot Designing, FIRST LEGO League(FLL), Robot Football, Robot Basketball etc.&lt;/p&gt;
-&lt;div style=&quot;padding:0; margin:0; width: 100%&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots1.jpg&quot; style=&quot;float: left; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots3.jpg&quot; style=&quot;float: left; position: relative; top: -20px; width: 48%;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt; The highlight of the competition was the App Inventor Robot Contest, which was designed by GEIC and was the first contest combining App Inventor and robotic technology in China. &lt;/p&gt;
-&lt;p&gt;The theme of the contest game was “Getting the treasures on the map”. In the game, the players needed to assemble a small robot without a controller, design a controller app using App Inventor, download and install it onto a cellphone, then fix the cellphone on the robotic chassis, to make a fully working robot. The cellphone directed had to execute the task automatically, including finding the path on the map by color blocks, searching for the QR code(treasure), scanning it, and sending the scanning result to the cellphone of judges.&lt;/p&gt;
-&lt;div style=&quot;padding:0; margin:0; width: 100%&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots4.jpg&quot; style=&quot;float: left; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/china-robots2.jpg&quot; style=&quot;float: left; position: relative; top: -20px; width: 48%;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt;The Contest is a part of plan by GEIC to promote the use of App Inventor in China. GEIC spent months in preparation for the App Inventor Robot Contest; they  saw the contest as one of the follow-up measures from the Memorandum of Understanding between MIT and South China University of Technology (SCUT) signed in 2015, and hopes 0the contest will be a good example for other cities.  The contest also drew the interest of several news media outlets in China -  the Guangdong TV station and some local newspapers reported on the contest.&lt;/p&gt;
-&lt;p&gt;  5月8日， 由广州市教育信息中心组织的“2016年广州市中小学电脑机器人竞赛活动”成功举办，共有来自166所学校的305支队伍参加了本次竞赛，竞赛共包括15个项目：如App Inventor机器人竞赛、机器人设计、乐高机器人、机器足球、机器人篮球等。&lt;/p&gt;
-&lt;p&gt; 本次竞赛的亮点在于“App Inventor机器人竞赛”项目，这一项目由广州市教育信息中心设计，是国内首内结合App Inventor和机器人技术的区域性竞赛活动。&lt;/p&gt;
-&lt;p&gt;　竞赛的主题为“地图寻宝”，在竞赛过程中，选手们需要组装一台没有控制器的小型机器人，在App Inventor平台上进行程序设计，安装到一台手机上，再把手机固定到机器人上，使其成为机器人的控制器。这一台携带手机的机器人将自动完成竞赛任务，包括在搭载手机在地图上通过判断颜色寻找路径、搜索和查找二维码（宝藏）、把二维码发送到裁判手机上等。&lt;/p&gt;
-&lt;p&gt; 本次竞赛是广州市教育信息中心推动App Inventor在全国应用的计划的一部分，已准备了数月，并将其视为去年与MIT及华南理工大学签订合作备忘录的后续动作之一，并希望这一竞赛为其它城市起到示范作用。本次活动还吸引了不少新闻媒体，广东电视台和几家报纸对其进行了报导。&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots1.jpg?itok=TqK80WWU&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots2.jpg?itok=0mA4rJcl&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots3.jpg?itok=PBvKr8JX&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/china-robots4.jpg?itok=dW-KNjC-&quot; width=&quot;480&quot; height=&quot;356&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 03 Jun 2016 16:04:35 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">752 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
