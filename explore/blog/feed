@@ -6,6 +6,48 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>An easy way to add a bar graph to your app in App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/10/easy</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/hochgraf.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Clark Hochgraf&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;You can create a simple bar graph in App Inventor using a button and a vertical arrangement. In the image below, the blue bar is a button whose height percent is set by the slider. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/bar-chart.png&quot; style=&quot;clear:both; display:block; margin:auto; width: 35%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;To create the bar graph, add a &lt;strong&gt;VerticalArrangement &lt;/strong&gt;on the Designer Tab. Configure the vertical arrangement as follows:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;AlignHorizontal to &lt;strong&gt;Center&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;AlignVertical to &lt;strong&gt;Bottom&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Height to &lt;strong&gt;50%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Width to &lt;strong&gt;14%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-properties.png&quot; style=&quot;display:block; margin:auto; width: 25%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, place a &lt;strong&gt;Button&lt;/strong&gt; inside the vertical arrangement. The button should appear at the bottom of the VerticalArrangement.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;BackgroundColor to &lt;strong&gt;Blue&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Width to &lt;strong&gt;10%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-properties-2.png&quot; style=&quot;display:block; margin:auto; width: 25%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, place a &lt;strong&gt;Label&lt;/strong&gt; inside the &lt;strong&gt;VerticalArrangement&lt;/strong&gt; and position it so that it is below the &lt;strong&gt;Button&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Height to &lt;strong&gt;4%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Text to &lt;strong&gt;“0”&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;TextAlignment to &lt;strong&gt;Center&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-properties-3.png&quot; style=&quot;display:block; margin:auto; width: 25%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-screenshot.png&quot; style=&quot;display:block; margin:auto; width: 35%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-blocks.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/bar-chart.png?itok=SJurt_P8&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-blocks.png?itok=GBl9jDHu&quot; width=&quot;480&quot; height=&quot;108&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-properties.png?itok=-lNyxeTw&quot; width=&quot;243&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-properties-2.png?itok=qQyQTHFw&quot; width=&quot;229&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-properties-3.png?itok=WpPKqx-J&quot; width=&quot;174&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-screenshot.png?itok=_ND7E9KG&quot; width=&quot;320&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 06 Oct 2016 14:38:29 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">807 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Computational Thinking Concepts with App Inventor for Primary School Children</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-2</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lam.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Carly Lam&lt;/i&gt;&lt;/p&gt;
@@ -496,19 +538,6 @@ Happy inventing!&lt;/p&gt;
  <pubDate>Mon, 08 Aug 2016 15:48:03 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">786 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor’s debt to Seymour Papert</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;To the App Inventor Community:&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-I join in grief with my colleagues in computing and education at passing of Seymour Papert on July 31, 2016.   Papert was the world’s preeminent visionary in educational technology:  you can read testaments to his greatness in the obituaries in the New York Times and the MIT News.   Few people in the App Inventor community would have met him, and only some know his monumental book Mindstorms: Children, Computers, and Powerful Ideas.   But his genius has touched those of us who built App Inventor and everyone who uses it.
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1TpT96F8NG7-PBxd3KGjcnwsZ_fUlqdFBN42dZZpoqHU&quot;&gt;More ...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sun, 07 Aug 2016 14:39:32 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">783 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
