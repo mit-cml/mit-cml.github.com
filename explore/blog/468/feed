@@ -6,6 +6,263 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Show &amp; Tell: Introducing App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/show</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+   width: 60%;
+  display: block;
+   margin: auto;
+}
+th {
+  background-color: #85929e;
+   text-align: center;
+    color: white;
+}
+h3 {
+   margin-top: 40px;
+}
+td {
+  width: 50%;
+  padding: 8px;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sjaak Bosman&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;When you use App Inventor for a while and become familiar with all its possibilities, you might want to spread the word. Of course, you can give people a demo or the link to AppInventor.mit.edu, but that might not be enough to get them really going even though they are interested. At least, that is my experience.
+&lt;/p&gt;
+&lt;p&gt;
+Because I was asked a few times to come and tell about App Inventor, I developed this practical presentation for adults. Not to teach strictly about Computer Science but to get people as enthusiastic as I became about App Inventor. The presentation is a Show &amp;amp; tell kind of way, with which you can introduce App Inventor and demonstrate some examples. Therefore, besides this presentation, activate App Inventor in another window to switch back and forth quickly.&lt;/p&gt;
+&lt;h3&gt;Slide 1: Introduction&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide01.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 1.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;After a short introduction of yourself, and maybe a little chat about people’s experience, you can begin the presentation.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 2: Learn to build Android apps&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide02.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 2.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The goal of this presentation is to learn to build Android apps, while being creative and having fun in controlling your smartphone. But there is a big idea behind this goal: “Computer Science For All” is an initiative of President Obama to motivate children to become equipped with computational thinking skills and familiar with computer science. The idea is that they will become active citizens in a technology-driven world, instead of being just consumers.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;(Source: &lt;a href=&quot;https://www.whitehouse.gov/blog/2016/01/30/computer-science-all&quot; target=&quot;_blank&quot;&gt;https://www.whitehouse.gov/blog/2016/01/30/computer-science-all&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;But even though we are not children anymore, we still can participate and become more active in computer science. This presentation shows how accessible App Inventor is, and how you can make apps for your Android Smartphone in hours. Replacing ‘hours’ by ‘minutes’ is just a practical joke, because the time spent to create apps with App Inventor feels like minutes compared to using traditional programming languages.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 3: Requirements&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide03.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 3.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Actually the first four conditions are probably already met. If not, install the &lt;a href=&quot;https://www.google.com/chrome&quot; target=&quot;_blank&quot;&gt;Chrome&lt;/a&gt;, &lt;a href=&quot;https://www.mozilla.org/firefox&quot; target=&quot;_blank&quot;&gt;Firefox&lt;/a&gt; or &lt;a href=&quot;http://apple.com/safari&quot; target=&quot;_blank&quot;&gt;Safari&lt;/a&gt; browser and &lt;a href=&quot;https://accounts.google.com/SignUp&quot; target=&quot;_blank&quot;&gt;create a Google account&lt;/a&gt;. It costs you only a few minutes to do so. Internet Explorer and Edge are not supported.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 4: Introduction to App Inventor in just 4 easy steps&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide04.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 4.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The environment in which you develop your App Inventor Android apps is 100% web-based. You don’t need to install anything on your computer, just go to &lt;a href=&quot;http://ai2.appinventor.mit.edu&quot; target=&quot;_blank&quot;&gt;http://ai2.appinventor.mit.edu&lt;/a&gt; and log in with your Google account. If this is your first time, you are being asked to accept the Terms of Service and take a short voluntary survey.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The introduction to App Inventor consists of 4 easy steps, each treated separately.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 5: Step 1, Designer: How your app looks&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide05.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 5.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Step 1.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;In the Designer window you design the User Interface of your app:&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Explain the 5 different panes briefly.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;1. Palette: Containing all the components that can be included in the app.&lt;br /&gt;
+The components are arranged in several categories, such as User Interface and Layout.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;2. Viewer: The appearance or User Interface of the app.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Click ‘Start new project’. Name it ‘New’. Wait until the Designer window shows up and demonstrate how to put the textbox and button in the viewer.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;3. Components: A list of components that are included in the app.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4. Properties: A list of properties of the component that is selected in the Components pane.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Demonstrate how to change properties, for example enable FontBold of Button1 and change the text to ‘Speak!’. Also explain de Designer and Blocks Button (as preparation for the next slide).&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;5. Media (not on the screenshot): A list of all media files, such as images and sounds, that have been uploaded into the app. This will be addressed during an optional workshop.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 6: Step 2, Blocks: How your app behaves&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide06.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 6.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Step 2.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;In the Blocks window you design the behavior of your app:&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Explain the 2 different panes briefly.&lt;/td&gt;
+&lt;td&gt;.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Step 2.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;1. Blocks: Containing all the code blocks that can be included in the app.&lt;br /&gt;
+The blocks are arranged in 3 categories, Built-in, Component Specific and Any component.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;2. The code blocks or source code of the app.&lt;br /&gt;
+With the blocks you program the behavior of your app.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Click the Blocks Button and demonstrate how to put the Button1.Click event handler, TextToSpeech procedure call (Because the TextToSpeech component is not available at first, use the Designer mode to include this non-visible Media component.) and Textbox.Text property in the viewer.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If the situation allows, you could talk a little more about event handlers and procedure calls and their purposes and behaviors. But be careful, it can become too difficult quickly. Slide 8, section ‘import a project from the gallery’, gives you the opportunity to demonstrate procedures.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 7: Step 3, Test while you are building&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide07.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 7.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Step 3.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Let’s test the app we just built. Therefore find the app ‘MIT App Inventor Companion’ in Google play and install it on your smartphone.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If on the same WiFi, the Companion app lets you test your app in real-time while you are building it.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In the Connect menu click AI Companion. Switch to your smartphone and start the MIT AI2 Companion app and enter the connection code. Type a text and press the ‘Speak!’ button. Do not forget to enable the volume on your smartphone.
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 8: Step 4, Build you first app&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide08.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 8.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Step 4.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Actually, we just built our first app, New, from scratch. There are three additional methods to create an app:&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;First, one can import an app from a repository. At the moment there are only two projects in the default repository.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Select ‘Import project (.aia-file) from a repository’ in the Projects-menu. Select the HelloPurr app. Name the components (Button1 and Sound1) and discuss what the app probably will do. Reset the connection and restart the MIT AI2 Companion app to demonstrate HelloPurr&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Wouldn&#039;t it be nice if the cat purrs when the smartphone is being shaken? App Inventor comes with lots of sensors, like the accelerometer sensor which detects movements of the smartphone. Of course the actual sensors are hardware components in the smartphone, and App Inventor provides software interfaces to them. For the sake of easiness we just call the software interfaces sensors too.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the designer in the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Add the AccelerometerSensor1 sensor. Switch to the blocks and add the AccelerometerSensor1.Shaking event handler. Copy both blocks in the Button1.Click event handler to the AccelerometerSensor1.Shaking event handler. Demonstrate HelloPurr again to reflect the changes.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Second, one can import a project from the gallery. The gallery is a place where one can share his or hers project. You can find thousands of apps in the gallery. So why start from scratch?&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Select the menu option Gallery. Search for ‘Simple Hands-Free Counting App’ and click ‘OPEN THE APP’ and click ‘OK’. Demonstrate the app on your smartphone. If necessary, reset the connection and restart the MIT AI2 Companion app. Take a brief look at the User Interface and blocks structure to explain what you demonstrated.
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;This project includes a variable, that gives you the opportunity to explain what variables are. Also, all 3 event handlers contain the same blocks, which give you the opportunity to introduce procedures. Depending on the audience, you can discuss this.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Third, you can import a project from your computer. Likewise, you can store a project on your computer. This option will be addressed elsewhere.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 9: What’s next?&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide09.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 9.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;There is, of course, a lot more to tell, explore and invent about App Inventor. So why won’t you give yourself a flying start by attending a program of 5 additional workshops? The workshops will address a lot of aspects of App Inventor, such as:&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;&lt;li&gt;Designer, Palette: Most of the components will be explained and demonstrated in examples.&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;&lt;li&gt;Blocks: You will become more familiar with all sorts of blocks, to program the behavior of your app. Several basic programming techniques will be showed to make and keep your program maintainable and readable.&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;&lt;li&gt;Media: Importing and using files such as images and sounds.&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;&lt;li&gt;One workshop will be dedicated to an introduction to databases, internet connection and Arduino connection&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;&lt;li&gt;Interactive approach: During the workshops there will be a lot of hands-on exercises, so you can explore App Inventor yourself and ask questions to give you a flying start.&lt;/li&gt;
+&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Of course you can change the workshop content as you like.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 10: More information&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide10.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 10.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Lots of information can be found on internet. As a start you can begin at AppInventor.mit.edu, the home of App Inventor. Lots of examples can be found in the ‘App of the Month’ section.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Appinventor.org is a product of the University of San Francisco&#039;s Democratize Computing Lab, and is intended to provide materials for learning and teaching App Inventor.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;PuraVidaApps is a site made by an App Inventor enthusiast, where you can find tons of snippets, tutorials and links.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;If time allows, you can visit these websites.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 11: Questions?&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide11.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
+&lt;th&gt;Tell&lt;/th&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 10.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Suggestions or questions?&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;If you have suggestions or questions afterwards, please send an e-mail to   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ &lt;!--
+  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#039;;
+// --&gt; 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;p&gt;..&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 02 Nov 2016 23:23:27 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">813 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT Master Trainer at Texas Charter School Association Conference </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/10/mit</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/TCSAC.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 35%;&quot; /&gt;Suzan Dalgic – MIT Master Trainer from Harmony Public Schools had a great session of Mobile Education - MIT App Inventor at Texas Charter School Association Conference on October 12, 2016 in Austin, TX.  She introduced MIT App Inventor to the other Texas charter school administrators. She talked about the importance of teaching a block programming language to the students before text-based programming languages and why schools should teach mobile programming to their students. Suzan believes that “The mobile programming is the future in the development of new and great experiences for students, which will make everyone’s life easier.” She gave some examples from her last year students, and she said that “It was amazing to see how students were excited when they completed an application. Students told me that they go home and upload their application to their device and show it to their friends and people around them.” Suzan also says that “MIT App Inventor is a perfect tool to teach Mobile programming to the students. Students can see what they are doing in real time. Also if they want, then they can publish their Application on the Google Play Store. MIT App Inventor is also had Bluetooth feature since June 2016, and you can make an application to control almost anything, such as Arduino projects, Raspberry Pi, and servo motors (if you connect them to Arduino). We should offer mobile programming education to our students and based on my experience I can say that MIT App Inventor is the best tool to teach mobile programming.&quot;&lt;/p&gt;
@@ -520,194 +777,6 @@ Happy inventing!&lt;/p&gt;
  <pubDate>Mon, 08 Aug 2016 15:48:03 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">786 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>AITech - Using Procedures and Any component blocks</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/07-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sjaak Bosman&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;When components in your app have similar behavior, you can end up with a lot of blocks almost doing the same thing. Using Procedures and Any component blocks not only gives you the possibility to minimize the use of blocks, but also makes it easier for you to add new components and maintain your app in a more comfortable way.&lt;/p&gt;
-&lt;div style=&quot;clear: both; width: 100%; margin-bottom: 50px;&quot;&gt;
-&lt;div style=&quot;clear: both; float: left; margin-right: 10px; width: 30%;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/0.1_design.jpg&quot; style=&quot;display: block; margin:auto; width: 100%&quot; /&gt;&lt;i&gt;Figure 0.1 Design&lt;/i&gt;&lt;/div&gt;
-&lt;div width:=&quot;&quot; float:=&quot;&quot; right=&quot;&quot;&gt;
-&lt;p style=&quot;padding: 3em;&quot;&gt;
-To demonstrate this we are going to implement a group of 3 radio buttons using the CheckBox component.&lt;/p&gt;
-&lt;p&gt;
-At the end another CheckBox will be added to the group, to demonstrate the ease of using Procedures and Any component blocks.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 1. Straightforward&lt;/h2&gt;
-&lt;p&gt;Pressing a CheckBox will fire its Changed event handler, in which we uncheck both other CheckBoxes. So far it doesn&#039;t look that difficult:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.1_straightforward_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.1: Straightforward blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em&quot;&gt;When the user presses Small, its CheckBox will be checked: A green check mark will appear and the Checked property of the chbSizeSmall component will be set to true.
-&lt;/p&gt;
-&lt;p&gt;
-When the users presses Medium next, Small will be unchecked. Now we expect Medium to be checked, but that is not what is happening:
-&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 100%; padding-bottom: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; margin-left: 20%; margin-right: 10%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.2_press_small.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.2 Press Small&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; margin-right: 10%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.3_press_medium.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.3 Press Medium&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear:both; padding-top: 3em;&quot;&gt;What is going on here?
-&lt;/p&gt;
-&lt;p&gt;
-Pressing Medium causes a Changed event for Medium (1). In the event handler the Checked property of Small is being set to false (2).
-&lt;/p&gt;
-&lt;p&gt;
-Because the Checked property of Small is true (figure 1.2), a Changed event will occur (3). As a result the Checked property of Medium will be set to false (4):
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/1.4_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 1.5: Blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;A Changed event for Medium will also occur again, because of the change from true (because of user action) to false (4), but that doesn’t change anything anymore (setting Small and Large to false, what they are already are).&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 2. Straightforward and working&lt;/h2&gt;
-&lt;p&gt;
-So before we can optimize our blocks by using Procedures and Any component blocks, which is initially our plan and the meaning of this blog, we have to solve this little unwanted feature.
-&lt;/p&gt;
-&lt;p&gt;
-Our goal is to prevent the blocks inside a Changed event handler from being executed when it was not fired because of user action. To do so we are going to use its Enabled property.
-&lt;/p&gt;
-&lt;p&gt;
-First all the blocks inside the Changed event handler will be moved into an if-then control block (blocks in the red rectangle). The if-condition will be the Enabled property of that CheckBox. As a result the blocks in the then-part will only be executed if the Enabled property of that CheckBox is true.
-&lt;/p&gt;
-&lt;p&gt;
-Next all CheckBoxes have to be disabled (by setting the Enabled property to false) before changing the Checked property of the other CheckBoxes. Finally all CheckBoxes must be enabled, to make them available to the user again.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.1_straightforward_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.1: Straightforward blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;Now it’s almost working:&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 100%;&quot;&gt;
-&lt;div style=&quot;float: left; margin-left: 5%; margin-right: 5%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.2_press_small.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.2: Press Small&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; margin-right: 5%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.3_press_medium.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.3: Press Medium&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: left; margin-right: 5%; width: 20%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/2.4_press_medium_again.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 2.3: Press Medium again&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear: both; padding-top: 3em;&quot;&gt;
-Pressing a checked CheckBox (figure 2.3) results in all CheckBoxes being unchecked. That issue will be solved in Step 5.
-&lt;/p&gt;
-&lt;p&gt;
-As you can see, each event handler holds a lot of the same blocks: Setting the Enabled property of all CheckBoxes to false and, after setting the Checked property of the other CheckBoxes to false, back to true. If you add another CheckBox to this group of radio buttons, you will have to add a lot of blocks in lots of different places.
-&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 3. Introducing a Procedure&lt;/h2&gt;
-&lt;p&gt;This is the moment where it is handy to use a Procedure to concentrate functionality in one place. Except for the if-then control block, all blocks can be moved to the newly created procedure. Of course identical blocks can then be deleted. You can find the Procedure blocks in the Built-in section of the Blocks pane in the Blocks editor.
-&lt;/p&gt;
-&lt;p&gt;
-Because setting the Checked property of the other CheckBoxes to false (figure 1.5) depends on which CheckBox was pressed, this has to be done conditionally. Therefore the Procedure must know which CheckBox was pressed, which can be realized by adding an input parameter to the procedure (click the small blue square in the upper left corner of the Procedure block to add an input parameter):
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/3.1_procedure_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 3.1: Procedure blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;
-Yet this is still not a generic situation. In the Procedure we must check for the value of the input parameter to determine for which CheckBoxes the Checked property must be set to false.
-&lt;/p&gt;
-&lt;p&gt;
-Also, if we add another CheckBox later on, the Procedure must be modified to include blocks for the new CheckBox.
-&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 4. Introducing the Any component block&lt;/h2&gt;
-&lt;div style=&quot;display: block; margin: auto; width: 100%; padding-bottom: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; width: 25%; margin-right: 10%;&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/4.1_any_component_properties.jpg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 4.1: Any component properties&lt;/i&gt;
-&lt;/p&gt;&lt;/div&gt;
-&lt;div style=&quot;float:right; width: 70%;&quot;&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;To implement a generic solution we are going to use the Any component blocks, in our example the Any CheckBox component.
-&lt;/p&gt;
-&lt;p&gt;
-They look like the specific property blocks equivalent, but in addition give you the possibility to specify the component for which you want to set or get a property.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&quot;display: block; margin: auto; width: 100%; padding-bottom: 3em; padding-top: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; width: 25%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/4.2_component_as_property.jpg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 4.2: Component as property&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float:right: width: 70%;&quot;&gt;
-&lt;p style=&quot;margin-top: 3em;&quot;&gt;
-One property of a component is the component itself. It can be found at the bottom of the list of the component’s event handler and property getters and setters.&lt;/p&gt;
-&lt;p&gt;To be able to process all CheckBoxes, we add them to a list (1a) which can be processed by a for-each control block. Adding of the CheckBoxes to the list cannot be done upon initialization of the variable and therefore has to be done upon initialization of the app (1b).
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear: both; padding-top: 3em;&quot;&gt;
-To let the procedure know which CheckBox it concerns, the CheckBox itself can be passed as parameter (3a and 3b). The if-condition to check if the CheckBox is Enabled has the same structure for all our CheckBoxes, and can now be moved to the Procedure too (2).
-&lt;/p&gt;
-&lt;p&gt;
-The for-each loop (4) returns one CheckBox component from the list at a time and stores it in a local variable. Now we are able to set the Enabled property to false for all CheckBox components in our radio button group in just a single block (5).
-&lt;/p&gt;
-&lt;p&gt;
-Next all Checked properties must be set to false (6b), except for the CheckBox that was pressed (6a).
-&lt;/p&gt;
-&lt;p&gt;
-At last all CheckBoxes must be Enabled.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/4.3_any_component_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;i&gt;Figure 4.3: Any component blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;This powerful combination of a list, for-each loop, Any component blocks and a Procedure gives you the ability to create flexible apps that are easy to modify and expand.&lt;/p&gt;
-&lt;h2 style=&quot;clear:both; padding-top: 50px;&quot;&gt;Step 5. Adding another CheckBox&lt;/h2&gt;
-&lt;div style=&quot;margin:auto: display: block; width: 100%; padding-bottom: 3em;&quot;&gt;
-&lt;div style=&quot;float: left; margin-right: 10px; width: 30%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/5.1_design.jpg&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Figure 5.1: Design&lt;/i&gt;
-&lt;/div&gt;
-&lt;div style=&quot;float: right; width: 65%;&quot;&gt;
-&lt;p style=&quot;padding-top: 3em;&quot;&gt;Another CheckBox will be added to the radio button group, to demonstrate the ease of using Procedures and Any component blocks.&lt;/p&gt;
-&lt;p&gt;
-Adding another CheckBox to the Radio button group now only consist out of a few simple steps. First add the CheckBox to the designer.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&quot;clear: both; padding-top: 3em;&quot;&gt;
-In the Blocks Editor you have to add the newly created CheckBox to the list (1) and add its Changed event handler (2). That’s all!
-&lt;/p&gt;
-&lt;p&gt;
-Maybe you noticed that a Checked CheckBox can be unchecked, leaving the radio button group with no selection at all. If you don’t want that to be an option, force the concerning CheckBox to true (3). Prior to this now all CheckBoxes can unconditionally be set to false, which makes our Procedure even easier.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/5.2_extra_checkbox_blocks.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;i&gt;Figure 5.2 Extra CheckBox Blocks&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;clear:both; padding-top: 3em;&quot;&gt;Suggestions or questions? Please send an e-mail to   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
- &lt;!--
-  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#039;;
-// --&gt; 
-//--&gt;&lt;!]]&gt;
-&lt;/script&gt;&lt;p&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/0.1_design.jpg?itok=Tmmiud0q&quot; width=&quot;480&quot; height=&quot;430&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.1_straightforward_blocks.jpg?itok=h9S5Ypbv&quot; width=&quot;480&quot; height=&quot;39&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.2_press_small.png?itok=3hbGwA3u&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.3_press_medium.png?itok=EQg-Tv9q&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/1.4_blocks.jpg?itok=T6F9sSDo&quot; width=&quot;480&quot; height=&quot;39&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.1_straightforward_blocks.jpg?itok=IcVWmH73&quot; width=&quot;480&quot; height=&quot;102&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.2_press_small.png?itok=pFstzV_h&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.3_press_medium.png?itok=k4C_eGf7&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/2.4_press_medium_again.png?itok=HKvzCrmF&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/3.1_procedure_blocks.jpg?itok=bFZNOXBc&quot; width=&quot;480&quot; height=&quot;255&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/4.1_any_component_properties.jpg?itok=V_5Bx0zv&quot; width=&quot;450&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/4.2_component_as_property.jpg?itok=jParUYtX&quot; width=&quot;353&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/4.3_any_component_blocks.jpg?itok=jzPZLRZJ&quot; width=&quot;480&quot; height=&quot;249&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/5.1_design.jpg?itok=obiz--NK&quot; width=&quot;480&quot; height=&quot;430&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/5.2_extra_checkbox_blocks.jpg?itok=iuBF8qKX&quot; width=&quot;480&quot; height=&quot;284&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 25 Jul 2016 15:43:32 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">779 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
