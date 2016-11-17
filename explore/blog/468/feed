@@ -6,6 +6,63 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>2016 Shenzhen student App Inventor Contest</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/2016</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+iframe {
+   display: block;
+   margin: auto;
+   padding-bottom: 50px;
+}
+h3 {
+   padding-top: 50px;
+}
+
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/chen.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT App Inventor Master Trainer Xiangqun Chen.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;The 2nd Shenzhen Student Maker Festival was held at mid-October. The App Inventor Contest is one of the activities. Although preparation time is less than a month, we still received more than seventy projects built by students from grade 3 to grade 12.
+&lt;/p&gt;
+&lt;p&gt;
+Many projects are very creative. Students have used a lot of App Inventor skills, such as API, Activity Starter, TTS, TinyWebDB, Bluetooth, extensions and so on. They also have learned Computational Thinking skills by buiding these apps.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/1shenzhen.jpg&quot; style=&quot;display:block; margin:auto; width: 50%; clear: both;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Apps built by elementary school students:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;
+Who gets the bomb?  - The player who guesses the random digit will lose.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/2bomb.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Rescuing little animals - Control your phone to not let the ball to touch the edge otherwise the cute animal will die.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/3rescure.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Apps built by middle school students:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Learning how to classify trash - Learn to classify trash by playing the game&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/4trash.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Points 24 - An app to play 24 points. This app has entered the 2nd round of the 2016 Google App Inventor contest for high school and middle school students in China!   &lt;strong&gt;&lt;i&gt;Latest news: This app has gained top 10 and entered the final contest! (updated on 15th, November)&lt;/i&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/5points.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Tower of Hanoi - An app to play Tower of Hanoi, which has 7 levels. This app has entered the 2nd round of the 2016 Google App Inventor contest for high school and middle school students in China!&lt;/li&gt;
+&lt;/ul&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gkjH-ExhSQc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/6hanoi.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt; Rope skipping - An app to help you record the number of times you skip rope. &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/7rope.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Apps Built by high school students:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt; Chattingfriend - An app to talk with a virtual friend. This app has entered the 2nd round of the 2016 Google App Inventor contest for high school and middle school students in China!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/8chattingfriend.jpg&quot; style=&quot;display:block; margin:auto; width: 40%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;SMS Assistant - The app can read aloud any SMS on your phone, and can send message to a group contacts. The reading mode can access all SMS on your phone and read it aloud if needed. The driving mode can send SMS automatically.&lt;/li&gt;
+&lt;/ul&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e7ikzbtT-Rc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/9sms.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Bluetooth game: Rock-Paper-Scissors&lt;/li&gt;
+&lt;/ul&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xs1axf3Ycow&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/10rock.jpg&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Learning words for kids - An app to teach kids words by scanning A QR code.&lt;/li&gt;
+&lt;/ul&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XaFI1Th3pUU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/11workds.jpg&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;My School Life - An app where you can add, edit, and delete your online memos, save your school timetable, and take a look at the street viewer of specific locations.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/12gao.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;My School Life Assistant - An app that assembles several functions that can really make your school life convenient.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/12mogao.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 15 Nov 2016 19:03:42 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">814 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Show &amp; Tell: Introducing App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/show</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
@@ -690,93 +747,6 @@ But now, I can tell students the photo filters they have been using can be made 
  <pubDate>Tue, 23 Aug 2016 19:03:36 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">788 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Heart Rate Monitor with Arduino/Genuino 101</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08/heart</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Nowadays, the number of connected devices available through the Internet has led to connected people. The infrastructure that supports all the communications between devices is also known as the Internet of Things(IoT).
-&lt;/p&gt;
-&lt;p&gt;
-The need to create apps that can handle IoT has contributed to the development of an extension for MIT App Inventor that provides an easy way to connect to devices.
-&lt;/p&gt;
-&lt;p&gt;
-This tutorial will teach you how to use the Arduino/Genuino 101 board to read data from a heart rate sensor using the Bluetooth Low Energy(BLE) component. If you don&#039;t have the original sensor you can emulate it by using a potentiometer or another analog sensor.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/AnimatedGIFHeartRateMonitor.gif&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Requirements&lt;/h3&gt;
-&lt;ul&gt;&lt;li&gt;Arduino/Genuino 101 board&lt;/li&gt;
-&lt;li&gt;LED&lt;/li&gt;
-&lt;li&gt;Heart rate sensor, potentiometer or similar analog component&lt;/li&gt;
-&lt;li&gt;Arduino IDE (&lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;https://www.arduino.cc/en/Main/Software&lt;/a&gt;) with libraries BLE and CurieBLE&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;The Circuit&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/fritzing.jpg&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Arduino/Genuino 101 sketch&lt;/h3&gt;
-&lt;p&gt;First, we will have to implement the standard Bluetooth Low Energy &quot;Heart Rate Monitor&quot; service using the Arduino IDE and loading a sketch into our board.&lt;/p&gt;
-&lt;p&gt;You can copy and paste the source code from:&lt;br /&gt;&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&quot; target=&quot;_blank&quot;&gt;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The following points show the operating mode of the sketch:&lt;/p&gt;
-&lt;ol&gt;&lt;li&gt;Declare the BLE peripheral device (our Arduino board) with its service and characteristic (heart rate sensor).
-&lt;/li&gt;&lt;li&gt;Wait for incoming connection with a central device (our smartphone or tablet with Bluetooth).&lt;/li&gt;
-&lt;li&gt;Switch on LED to indicate that the board is connected.&lt;/li&gt;
-&lt;li&gt;Read the analog sensor updating the value when it changes.&lt;/li&gt;
-&lt;li&gt;Switch off the LED when the connection finishes.&lt;/li&gt;
-&lt;/ol&gt;&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Designer view&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm-designer.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;We will use the necessary arrangements to display an image of a heart that beats when the devices are bonded, a set of buttons and a label to show the status.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm-components.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;We will read data from the sensor updating the text of the label once devices are linked. We will have to import the Bluetooth LE extension to be able to receive the values from the sensor.&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;Blocks View&lt;/h3&gt;
-&lt;p&gt;First, we will initialize three global variables to store the address of our Arduino/Genuino 101 board, the standard &quot;Heart Rate Monitor&quot; service and its characteristic UUIDs. If you don&#039;t know the meaning of these concepts, you should review them on the &lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/IoT.html&quot; target=&quot;_blank&quot;&gt;MIT App Inventor IoT reference page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm0.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When the app starts, we will disable the button named &quot;btnDisconnect&quot; and the timer...it doesn&#039;t make sense if we don&#039;t have a link established.&lt;br /&gt;
-At first, the user will press the Scan button and will get a list of Bluetooth devices. We will use a list picker to select our Arduino/Genuino 101 board and connect to it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm1.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;If all goes well we will update the status on the screen using the label. We will also enable the Disconnect button to be able to disconnect from the peripheral device and the timer.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm2.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Every second, an event will trigger the clock and our app will check the connection. If all is OK, the app will play a sound of a heart beat and it will change the image while tries to get data from the sensor. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm3.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;i&gt;ByteValueChanged &lt;/i&gt;event will be triggered when our app detects a change. The new value will be assigned to the text of the label. We will have to use the math round function to convert the byte to a whole number and remove the least significant 0.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm4.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Finally, the buttons that will allow user to disconnect and exit...&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hrm.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;That&#039;s all!&lt;br /&gt;
-Happy inventing!&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;You can download the source code from this link:&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=0B0k5c5YtPa8EZWRfZWFIbkY3MG8&quot; target=&quot;_blank&quot;&gt;https://drive.google.com/open?id=0B0k5c5YtPa8EZWRfZWFIbkY3MG8&lt;/a&gt;&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 1em;&quot;&gt;References:&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&quot; target=&quot;_blank&quot;&gt;https://www.arduino.cc/en/Tutorial/Genuino101CurieBLEHeartRateMonitor&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/IoT.html&quot; target=&quot;_blank&quot;&gt;http://ai2.appinventor.mit.edu/reference/other/IoT.html&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm-designer.png?itok=gEGtvdFu&quot; width=&quot;480&quot; height=&quot;282&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm-components.png?itok=K4L1Rvbs&quot; width=&quot;184&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm-blocks.png?itok=l8TejI7g&quot; width=&quot;480&quot; height=&quot;287&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm.png?itok=57TaVPmH&quot; width=&quot;480&quot; height=&quot;177&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm4.png?itok=qntIcjdl&quot; width=&quot;480&quot; height=&quot;133&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm3.png?itok=Yp-vjFoM&quot; width=&quot;480&quot; height=&quot;292&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm2.png?itok=7bQHZLP2&quot; width=&quot;480&quot; height=&quot;279&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm1.png?itok=0gENQ3WL&quot; width=&quot;480&quot; height=&quot;210&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/hrm0.png?itok=5SwBnLsp&quot; width=&quot;480&quot; height=&quot;81&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/AnimatedGIFHeartRateMonitor.gif?itok=fyODXpko&quot; width=&quot;285&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/fritzing.jpg?itok=1g-6JFGy&quot; width=&quot;306&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/heart-rate-monitor.png?itok=VOrZBD-u&quot; width=&quot;290&quot; height=&quot;226&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 08 Aug 2016 15:48:03 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">786 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
