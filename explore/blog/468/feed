@@ -6,6 +6,17 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New &quot;I Love My Smartphone Curriculum&quot; Released</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/new-i</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Jeremy Scott, of The Royal Society of Edinburgh, just released version 2 of his middle/high school curriculum on mobile app development that features MIT App Inventor. The new resources include a tutor pack, learner pack, screencasts, apps, and media files, all downloadable and free to use.&lt;/p&gt;
+&lt;p&gt;This is a great update to Jeremy’s original I Love My Smartphone curriculum, which used version 1 of App Inventor. The new version has been updated to use App Inventor 2. Please check it out! &lt;a href=&quot;https://www.rse.org.uk/schools/teachers/resources/&quot; target=&quot;_blank&quot;&gt;https://www.rse.org.uk/schools/teachers/resources/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please note, you will have to scroll down the page to Computing Science Resources and look for I Love My Smartphone.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 23 Nov 2016 16:03:03 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">817 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>2016 Shenzhen student App Inventor Contest</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/2016</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -682,71 +693,6 @@ Since the &quot;official&quot; time that is received by the app requesting it wa
  <pubDate>Mon, 29 Aug 2016 20:12:36 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">792 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Feel the Math with App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/08/feel</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Angie Zhou&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;For a lot of young students, learning mathematics means rules to memorize and word problems that exist on paper. But as adults, we know having a sophisticated understanding of mathematical concepts will go a long way in understanding  the world and other social and natural science subjects.
- &lt;/p&gt;
-&lt;p&gt;
-One way we can let students feel the math and play with the math is to use a simple programming tool – MIT App Inventor. We can make practical application of mathematics come alive in the classrooms.
- &lt;/p&gt;
-&lt;p&gt;
-In this post, I am going to give three examples for which young students can play with various areas of mathematics, and see how it applies in real life with just a little bit of programming and lots of fun. &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Feel the calculus by drawing curved lines&lt;/li&gt;
-&lt;li&gt;Think about probability and program a cheating die&lt;/li&gt;
-&lt;li&gt;Understand transformation with Instagram filters&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 style=&quot;padding-top: 30px;&quot;&gt;Feel the calculus&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/paintpot-part1.html&quot; target=&quot;_blank&quot;&gt;PaintPot&lt;/a&gt; is a beginner-level app that allows users to draw on a virtual canvas.  To program drawing curved lines, students use a very interesting event-handler:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Blocks_PaintPot.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;
-When I taught this app, many students wondered - why are we using the DrawLine function call, which draws straight lines, to draw curved lines?
-&lt;/p&gt;
-&lt;p&gt;
-I happily explained, to draw a curved line, you are really drawing lots of very small straight lines. These infinitesimal straight lines can make up curved lines.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/PaintPotCalculus.gif&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;
-There, we are already giving students a sense of calculus without showing any equations.
-&lt;/p&gt;
-&lt;h3 style=&quot;padding-top: 30px;&quot;&gt;Play with probability&lt;/h3&gt;
-&lt;p&gt;A simple dice can be programmed using an App Inventor button.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Dice.gif&quot; style=&quot;float: left; margin-right: 10px; width: 20%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Blocks_Dice1.png&quot; style=&quot;float: left; margin-right: 10px; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;clear:both&quot;&gt;After students learn about the basic probability concepts, apart from doing word problems, they can apply their newly acquired knowledge to program something interesting - dice with various specifications. Below is the solution for a dice with six coming up half of the time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Blocks_Dice2.png&quot; style=&quot;float: left; margin-right: 10px; width: 35%;&quot; /&gt;&lt;/p&gt;
-&lt;h3 style=&quot;clear:both; padding-top: 30px;&quot;&gt;Look at transformation&lt;/h3&gt;
-&lt;p&gt;
-The last example is not related to App Inventor, but I put it in here because it’s for a relatively abstract and advanced concept that is close to students’ lives.
-&lt;/p&gt;
-&lt;p&gt;
-Back when I was young, transformation and matrices were just learning the rules and completing the problems, never seeing how it’s going to be useful. Maths teachers said they were going be useful, and I had to take their word for it.
-&lt;/p&gt;
-&lt;p&gt;
-But now, I can tell students the photo filters they have been using can be made with transformations.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Transformation.png&quot; style=&quot;display:block; margin:auto; width: 75%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;i&gt;Note: the formula is a hypothetical formula used to illustrate the transformation process. The real formula of a filter is most likely much more complex. &lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;For instance, every pixel of an image can use a formula to be transformed into a different color. If you have all the formula of the pixels worked out, then you would have built the secret formula to make a photo filter.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Blocks_Dice1.png?itok=a0azrf7Y&quot; width=&quot;408&quot; height=&quot;150&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Blocks_Dice2.png?itok=yHOb6rbw&quot; width=&quot;288&quot; height=&quot;183&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Blocks_PaintPot.png?itok=fZ8IqyeG&quot; width=&quot;480&quot; height=&quot;169&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Dice.gif?itok=HPUmf3AD&quot; width=&quot;320&quot; height=&quot;393&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/PaintPotCalculus.gif?itok=ctxGRWir&quot; width=&quot;320&quot; height=&quot;385&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/Transformation.png?itok=rk-JlYv5&quot; width=&quot;480&quot; height=&quot;329&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 23 Aug 2016 19:03:36 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">788 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
