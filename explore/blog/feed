@@ -6,6 +6,36 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Spanish Teachers Learn App Inventor to Teach Computational Thinking</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2016/12</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Last Friday, we ran an Android App Development workshop using MIT App Inventor with students of the Master de Profesorado de Enseñanza Secundaria at Pablo de Olavide University in Seville, Spain. These students are future Spanish teachers so the interest was impressive.&lt;/p&gt;
+&lt;p&gt;We discussed the benefits of using MIT App Inventor for Computational Thinking (CT) development and increasing the students’ motivation. We learned how to make simple applications and a method to apply the use of the tool in class.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville1.jpg&quot; style=&quot;display:block; margin:auto; width: 60%; clear:both;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;From App Inventor España, we would like to thank Pablo de Olavide University and its teacher D. Antonio H. Martín Padilla for betting on the use of this tool for the production of digital content within the framework of educational innovation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville3.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;MIT Master Trainers team are aiming very high by introducing MIT App Inventor as a transversal tool in the teaching-learning process of any subject. Undoubtedly, this is a motivating element for students that fosters teamwork, the development of Computational Thinking and the creative expression of solutions to common problems.
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville2.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you are interested in holding a workshop at your university, institute or school do not hesitate to contact any of us through the official MIT website.&lt;/p&gt;
+&lt;p&gt;José Luis Núñez&lt;br /&gt;
+@twajoseluis&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville1.jpg?itok=Zc5OkRjT&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville2.jpg?itok=3Az6iUFv&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville3.jpg?itok=EQYXT9Ia&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 08 Dec 2016 15:20:17 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">822 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>New &quot;I Love My Smartphone Curriculum&quot; Released</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/new-i</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Jeremy Scott, of The Royal Society of Edinburgh, just released version 2 of his middle/high school curriculum on mobile app development that features MIT App Inventor. The new resources include a tutor pack, learner pack, screencasts, apps, and media files, all downloadable and free to use.&lt;/p&gt;
@@ -660,19 +690,6 @@ The Center for STEM Education at The University of Texas at Austin hosted the fi
  <pubDate>Thu, 01 Sep 2016 19:27:46 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">795 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Experiments with Virtual Reality and MIT App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interest in virtual reality (VR) and augmented reality (AR) applications  is exploding.  Last month&#039;s Pokemon Go craze barely hints at what&#039;s coming.   Should we look forward to App Inventor creating  apps with  VR and AR?&lt;br /&gt;&lt;br /&gt;
-I want to give a shout- out to Kseniia Shumelchyk , who worked with MIT App Inventor this summer in Google&#039;s Summer of Code program,  creating App Inventor apps for Google&#039;s Cardboard viewer.  You can see her paper about this here:&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/vr.html&quot;&gt;Experiments with Virtual Reality and MIT App Inventor&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
-Kseniia&#039;s paper presents two demo apps -- one that shows a panorama view and one that shows a 3D object.   You can run these demos, or build them for yourself and modify them.   Kseniia&#039;s project uses an auxiliary Java app that provides interface for the App Inventor ActiviyStarter to call the Google VR libraries.&lt;br /&gt;&lt;br /&gt;
-This work is only just starting:  There&#039;s a lot to do to integrate mode VR and AR capabilities into App Inventor, and even more to do in creating great App Inventor apps that use these capabilities.&lt;br /&gt;&lt;br /&gt;
-Thanks, Kseniia, for showing us how to get started!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 30 Aug 2016 01:42:06 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">793 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
