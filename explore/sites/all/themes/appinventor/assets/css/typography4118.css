@@ -1,0 +1,86 @@
+body {
+  font: 13px/1.5 'Roboto','Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif !important;
+  color: #3D3D3D;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+h5 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc inside none;
+}
+
+li {
+  margin-bottom:10px;
+  margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 10px;
+}
+
+address { font-style: normal; }

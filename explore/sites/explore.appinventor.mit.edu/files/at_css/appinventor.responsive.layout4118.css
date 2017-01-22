@@ -1,0 +1,47 @@
+/* Smartphone portrait one-col-stack */
+@media only screen and (max-width:320px) {
+.two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0;}
+.region-sidebar-first, .region-sidebar-second, .region-sidebar-first .block, .region-sidebar-second .block {width: 100%;}
+.region-sidebar-second {width: 100%;}
+.content-inner,.region-sidebar-first,.region-sidebar-second {float: none;}
+.region-sidebar-first, .region-sidebar-second {clear: both;}
+.container {width: 100%;}
+}
+/* Smartphone landscape one-col-vert */
+@media &#039;only screen and (min-width:32$ {
+.two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0;}
+.region-sidebar-first {width: 50%;}
+.region-sidebar-second {width: 50%;}
+.one-sidebar .sidebar {width: 100%;}
+.region-sidebar-first, .region-sidebar-second {overflow: hidden; margin-top: 20px;}
+.region-sidebar-first .block, .region-sidebar-second .block {width: 100%;}
+.container {width: 100%;}
+}
+/* Tablet portrait one-col-vert */
+@media &#039;only screen and (min-width:481px) $ {
+.two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0;}
+.region-sidebar-first {width: 50%;}
+.region-sidebar-second {width: 50%;}
+.one-sidebar .sidebar {width: 100%;}
+.region-sidebar-first, .region-sidebar-second {overflow: hidden; margin-top: 20px;}
+.region-sidebar-first .block, .region-sidebar-second .block {width: 100%;}
+.container {width: 100%;}
+}
+/* Tablet landscape three-col-grail */
+@media &#039;only screen and (min-width:769px)$ {
+.two-sidebars .content-inner {margin-left: 180px; margin-right: 180px;}
+.sidebar-first .content-inner {margin-left: 180px; margin-right: 0;}
+.sidebar-second .content-inner {margin-right: 180px; margin-left: 0;}
+.region-sidebar-first {width: 180px; margin-left: -100%;}
+.region-sidebar-second {width: 180px; margin-left: -180px; clear: none;}
+.container {width: 500px;}
+}
+/* Standard layout three-col-grail */
+@media only screen and (min-width:1025px) {
+.two-sidebars .content-inner {margin-left: 0px; margin-right: 320px;}
+.sidebar-first .content-inner {margin-left: 0px; margin-right: 0;}
+.sidebar-second .content-inner {margin-right: 320px; margin-left: 0;}
+.region-sidebar-first {width: 0px; margin-left: -100%;}
+.region-sidebar-second {width: 320px; margin-left: -320px; clear: none;}
+.container {width: 960px;}
+}
