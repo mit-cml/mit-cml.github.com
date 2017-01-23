@@ -6,6 +6,21 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Teaching Maths App Project</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lam.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Carly Lam.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Maths Survival Game Project involves creating a mobile game with MIT App Inventor that upon starting, will prompt maths questions to pop up on the screen, which the player will have to answer. There will be a timer that limits the amount of time given to the player to answer the questions correctly. Incorrect answers or answers not submitted in time will cause the player to lose one ‘life’ out of three ‘lives’. Upon losing all ‘lives’, the player will be shown a small pop up screen that informs of the player’s loss, and a button that allows the game to be restarted. When one answer is submitted correctly, the player will be awarded one point, and these points will add up under the player’s High Score. &lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maths-app.png&quot; style=&quot;float: right; margin-left: 10px; margin-top: 5px; width: 25%; border: 1px solid grey;&quot; /&gt;The player will also be congratulated when a new High Score has been reached. The aim of this game is to speed up user’s arithmetic skills such as solving multiplication, division, addition and subtraction under time pressure.&lt;br /&gt;&lt;/p&gt;&lt;h3&gt;The Learning Goals of the Project&lt;/h3&gt;
+&lt;p&gt;In this Maths Game Project, the learning goal we have set up for the students is mainly the ability to learn and apply knowledge. We introduce the students to programming concepts including variables, database storage, random generators, and incrementation. They have to apply these to their game through effective and strategic planning to build this fun, educational, and most importantly, functional game.&lt;/p&gt;
+&lt;p&gt;Students explore cause and effect within this program. They must designate each button to a purpose that it must serve. For example, having a button to generate a question, a number, or to take the player to a different screen. Timers are something else that they had to work with. They must program the computer to recognise at what interval would the player have failed the question and lost a ‘life’, whether they have plenty or just enough time, and to behave to these conditions appropriately.&lt;/p&gt;
+&lt;h3&gt;Summary of Concepts Covered Whilst Doing the Project&lt;/h3&gt;
+&lt;p&gt;This project challenges students to develop their decomposition, abstraction, algorithmic, and pattern recognition skills to provide a solution to a problem in a way that can be understood by both the machine and people.&lt;/p&gt;
+&lt;p&gt;Students learn to break down a problem, and to extract the information most necessary to them through abstraction. In the creation of a solution (in this case, the game itself is the solution!), they must put their understanding of algorithm to the test, and with practice, they will soon recognise the formula behind programming.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 23 Jan 2017 21:54:47 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">846 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Photo analysis with Microsoft Cognitive Services, using Makeblock CamVision extension</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/photo</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tseng.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 18%;&quot; /&gt;This is a guest blog by MIT Master Trainer David Tseng of CAVEDU Education.&lt;/i&gt;&lt;/p&gt;
@@ -517,96 +532,6 @@ With the blocks you program the behavior of your app.&lt;/td&gt;
  <pubDate>Thu, 06 Oct 2016 14:38:29 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">807 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Computational Thinking Concepts with App Inventor for Primary School Children</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/09-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lam.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Carly Lam&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;CS One Academy offers programs to familiarise primary school children with computer science and programming. Technology and computers is already woven so deeply and intricately into our society, there is no doubt that its capabilities will only increase as we continue to proceed forward in time, becoming more and more irreplaceable in our everyday lives. App Inventor was part of our ‘App and Minecraft Mod Maker’ program which was offered during our July Holiday Program. We used App Inventor as a tool to focus on familiarising our students with these computational concepts:
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-Pattern recognition: the ability to observe and record similarities in an effort to break down a problem into smaller pieces, or to make predictions for the future.
-&lt;/p&gt;
-&lt;p&gt;
-Decomposition: the process of fragmenting a problem into smaller sections so that it is made easier to approach and resolve.
-&lt;/p&gt;
-&lt;p&gt;
-Abstraction: to identify what information is important and exclude the unnecessary detail in order to simplify a complex task for easier management.
-&lt;/p&gt;
-&lt;p&gt;
-Algorithms: a set of rules that serves as the instructions the computer uses in order to complete an assigned task.
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class1w.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/app-closeup.png&quot; style=&quot;float: left; margin-right: 10px; width: 40%;&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/classw.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class3w.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Here are some of the learning objectives for our students:
-&lt;/p&gt;
-&lt;h3&gt;Event Handler&lt;/h3&gt;
-&lt;p&gt;
-An Event Handler is a program that commands a response to an execution of an event. App Inventor consists mostly of this type of algorithmic logic: an event occurs, and the computer must act accordingly. The computer cannot act independently - it is nothing without our student’s planning at work. It is our students that must take the task to program the computer upon themselves so that it can comprehend the logic of this game: to make a choice between rock, paper, and scissors, to register the human player’s choice, to display a victory screen when a round is won, and such.&lt;br /&gt;
-Through pattern recognition, students were able to calculate these kind of responses, and translate the method behind the game logically so that a non sentient computer can understand and execute the actions the way a human would be able to.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/rps.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class_interfaceW.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 65%; margin-top: -20px;&quot; /&gt;&lt;/p&gt;
-&lt;h3 style=&quot;clear:both;&quot;&gt;Variables&lt;/h3&gt;
-&lt;p&gt;
-Variables are one of the fundamental concepts of programming. Variables are what stores information in a computer program. In an abstract concept, you can certainly imagine a program to be composed of many of these building blocks of data. Programmers manipulate variables as storage for data, for the assignment of data, and retrieval of said data, etc. At CS Academy, we teach students to utilise these building blocks accordingly: students learn to understand the concept of data, separate, and recall these data structures. In observing the role variables play in programming, students learnt about abstraction and algorithms.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/variable-blocks.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Cause and Effect&lt;/h3&gt;
-&lt;p&gt;
-Impulsivity is a trait often associated with children and teenagers - they can act without consideration of the consequences of their actions. The understanding and practice of planning ahead for the ‘rock, paper, scissors’ game allow the students to recognise and acknowledge the consequences of their actions, and like players in a game of chess, they must think ahead to be able to respond accordingly to future events. Cause and Effect allows the students to further develop their abilities in pattern recognition and their understanding of algorithms.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class_winnerW.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 40%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/computer-closeup.png&quot; style=&quot;float: left; margin-right: 10px; width: 48%;&quot; /&gt;&lt;/p&gt;
-&lt;h3 style=&quot;clear:both; margin-top: 50px;&quot;&gt;Procedures and Strategic Planning&lt;/h3&gt;
-&lt;p&gt;
-Once again, neither programming nor chess acts on improvisation. There is a procedure, a method to be followed. Just as chess players plan out their next moves, programmers need to decide upfront what they want their program to accomplish. Our students were taught to tackle the problem using decomposition: fragmenting it into smaller pieces so it is made easier to handle. During the planning process, they had to ask themselves a list of questions:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;What is the purpose of their program?&lt;/li&gt;
-&lt;li&gt;What does it need to do in specific circumstances? How should the program react to these circumstances?&lt;/li&gt;
-&lt;li&gt;When should a point be attributed to the scoreboard and where should it happen? &lt;/li&gt;
-&lt;li&gt;How is it going to happen?&lt;/li&gt;
-&lt;li&gt;How will I write the code that will allow the A.I. to choose randomly between rock, paper, or scissors? How will I write the code that will register the human player’s choice?&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class_randomW.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class_strategicW.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 45%; margin-top: -20px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/rps-blocks.png&quot; style=&quot;float:left; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;An event handler with the rock button&lt;/p&gt;
-&lt;p&gt;The teaching of strategic planning is to encourage students’ task management skills: being able to efficiently and successfully plan out their code. Should they delve further into the world of computing in their future, the skills of fragmentation and abstraction will, no doubt, be a valuable asset in their understanding.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/class4w.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;List with Index Positioning&lt;/h3&gt;
-&lt;p&gt;
-By creating a pattern list of the opponent’s moves, player can memorise the A.I’s moves in a pattern and are able to win after playing for a number of times. The students were taught to observe and follow the patterns of programming. Furthermore, by implementing a list and manipulating it in the code to instruct the A.I to navigate the choice sequence in the list, students learnt about iteration with a list. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class_interfaceW.jpg?itok=DaOhylMk&quot; width=&quot;480&quot; height=&quot;357&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class_randomW.jpg?itok=Nb4TsXwG&quot; width=&quot;355&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class_strategicW.jpg?itok=GO9pXbpb&quot; width=&quot;344&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class_winnerW.jpg?itok=o1p2sFuw&quot; width=&quot;336&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class1w.jpg?itok=c6L-53zY&quot; width=&quot;480&quot; height=&quot;344&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class2w.jpg?itok=Jj1jzCdA&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class3w.jpg?itok=MVPY1uOl&quot; width=&quot;480&quot; height=&quot;335&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/class4w.jpg?itok=oxtHpUvf&quot; width=&quot;480&quot; height=&quot;372&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/classw.jpg?itok=7nzReQYm&quot; width=&quot;480&quot; height=&quot;370&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/app-closeup.png?itok=TlLe9D-l&quot; width=&quot;480&quot; height=&quot;252&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/variable-blocks.png?itok=1UaYv_qQ&quot; width=&quot;480&quot; height=&quot;184&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/computer-closeup.png?itok=KftWlBmA&quot; width=&quot;480&quot; height=&quot;300&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/rps-blocks.png?itok=onoFQmhu&quot; width=&quot;480&quot; height=&quot;405&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/rps.png?itok=wFD3HCLa&quot; width=&quot;269&quot; height=&quot;448&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 12 Sep 2016 19:31:46 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">799 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
