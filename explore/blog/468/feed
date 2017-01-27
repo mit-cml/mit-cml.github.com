@@ -6,6 +6,24 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>My Experience at the App Inventor Summit</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/my</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lim.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Yen Yen Lim&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;My blog will focus on a couple of presentations I watched as an attendee, and my experience as a hackathon judge at the App Inventor Summit in MIT Media Lab on June 22-24, 2016. &lt;/p&gt;
+&lt;p&gt;I was fascinated by one of the presentations. It showcased an app created by a customized App Inventor which sent live data to iSense (&lt;a href=&quot;http://www.isenseproject.org&quot; target=&quot;_blank&quot;&gt;www.isenseproject.org&lt;/a&gt;) which is an online collaborative data visualization system. Through the system, the data fed to iSense was then transformed into a colorful graphical chart on the website. This App Inventor project, Creating Data-Rich Projects in App Inventor with AppVis, was presented by 3 college students, Fred Martin &amp;amp; Farzeen Harunani from UMass Lowell, and Samantha Michalka from Olin College. The presentation slides can be found &lt;a href=&quot;https://docs.google.com/presentation/d/11WNYx4UIRwj3h_YIvnQ5jNQpsCHUj9UpIQpHcalZvvU/edit#slide=id.g114941b1bd_0_238 target=&quot; _blank=&quot;&quot;&gt;here&lt;/a&gt;.  The group has created iSense-enabled versions of App Inventor and its App companion. The App Inventor IDE is located at &lt;a href=&quot;http://ai.cspathways.org&quot; target=&quot;_blank&quot;&gt;ai.cspathways.org&lt;/a&gt;.  And, its App Inventor companion can be scanned via a QR code by clicking “Help” and then “Companion Information” on ai.cspathways.org, or downloaded from &lt;a href=&quot;http://bit.ly/appviscomp&quot; target=&quot;_blank&quot;&gt;bit.ly/appviscomp&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also learned that the newest release of App Inventor includes a new feature, Bluetooth Low Energy, which allows mobile apps to control Bluetooth-low-energy enabled devices. Jose Gomez-Marquez and Andrew McKinney, from MIT, demonstrated its usage.&lt;/p&gt;
+&lt;p&gt;During the summit, I also had the opportunity to be one of the 4 judges for the kids’ hackathon.  It was an interesting event where the kids were given a task to create an app to address any problem pertaining to environmental science, ecology, or human ecology. The app was judged on the following criteria in decreasing merit: the theme of the app, the feasibility of implementing the idea on the mobile, the originality of the idea, the user-interface of the app, the coding of the app, and the group oral presentation of their idea.  In order to encourage the use of the various mobile components that App Inventor supports, additional points were awarded based on the number of components being utilized in the apps:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Media: player, sound, text to speech, camera, camcorder, image, etc. &lt;/li&gt;
+&lt;li&gt;Sensors: clock, location, orientation, NFC, accelerometer, pedometer, etc.&lt;/li&gt;
+&lt;li&gt;Social: email, texting, photos, sharing, Twitter, use of contact list&lt;/li&gt;
+&lt;li&gt;Storage: fusion tables, files, Tiny DB, Firebase DB&lt;/li&gt;
+&lt;li&gt;Connectivity: Bluetooth, web, activity starter, etc.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 27 Jan 2017 02:29:18 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">850 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Teaching Maths App Project</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lam.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Carly Lam.&lt;/i&gt;&lt;/p&gt;
@@ -490,48 +508,6 @@ With the blocks you program the behavior of your app.&lt;/td&gt;
  <pubDate>Fri, 21 Oct 2016 18:45:58 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">810 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>An easy way to add a bar graph to your app in App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/10/easy</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/hochgraf.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Clark Hochgraf&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;You can create a simple bar graph in App Inventor using a button and a vertical arrangement. In the image below, the blue bar is a button whose height percent is set by the slider. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/bar-chart.png&quot; style=&quot;clear:both; display:block; margin:auto; width: 35%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;To create the bar graph, add a &lt;strong&gt;VerticalArrangement &lt;/strong&gt;on the Designer Tab. Configure the vertical arrangement as follows:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;AlignHorizontal to &lt;strong&gt;Center&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;AlignVertical to &lt;strong&gt;Bottom&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Height to &lt;strong&gt;50%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Width to &lt;strong&gt;14%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-properties.png&quot; style=&quot;display:block; margin:auto; width: 25%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Next, place a &lt;strong&gt;Button&lt;/strong&gt; inside the vertical arrangement. The button should appear at the bottom of the VerticalArrangement.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;BackgroundColor to &lt;strong&gt;Blue&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Width to &lt;strong&gt;10%&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-properties-2.png&quot; style=&quot;display:block; margin:auto; width: 25%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Next, place a &lt;strong&gt;Label&lt;/strong&gt; inside the &lt;strong&gt;VerticalArrangement&lt;/strong&gt; and position it so that it is below the &lt;strong&gt;Button&lt;/strong&gt;.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Height to &lt;strong&gt;4%&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Text to &lt;strong&gt;“0”&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;TextAlignment to &lt;strong&gt;Center&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-properties-3.png&quot; style=&quot;display:block; margin:auto; width: 25%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-screenshot.png&quot; style=&quot;display:block; margin:auto; width: 35%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chart-blocks.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/bar-chart.png?itok=SJurt_P8&quot; width=&quot;270&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-blocks.png?itok=GBl9jDHu&quot; width=&quot;480&quot; height=&quot;108&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-properties.png?itok=-lNyxeTw&quot; width=&quot;243&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-properties-2.png?itok=qQyQTHFw&quot; width=&quot;229&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-properties-3.png?itok=WpPKqx-J&quot; width=&quot;174&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/chart-screenshot.png?itok=_ND7E9KG&quot; width=&quot;320&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 06 Oct 2016 14:38:29 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">807 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
