@@ -435,11 +435,34 @@
               <div id="content-column"><div class="content-inner">
                   <section id="main-content" role="main">
                     <div id="content">  <div class="region region-content">
-                        <h2>Release Notes for MIT App Inventor 2 (Beta!)</h2>
+                        <h2>Release Notes for MIT App Inventor 2</h2>
                         <p>Changes in MIT App Inventor 2 are
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                           bugfix releases.</p>
+                        <h2>Changes between nb153 and nb154 (January 27, 2017)</h2>
+                        <ul>
+                          <li>Changes to better support extension
+                          writers who need to add features to the
+                          Android Manifest</li>
+                          <li>Changes and bugfixes to support newer
+                          versions of Android</li>
+                          <li>“ShowListsAsJson” -- A new property was
+                          added to Screen1 (which affects all
+                          screens). When set to true,
+                          “ShowListsAsJson” will cause all lists, when
+                          converted to a string, to be represented in
+                          JavaScript Object Notation (JSON) instead of
+                          as Lisp lists.
+                            <ul>
+                              <li>In the future we will change the
+                                system so that all new projects are
+                                created with this set by default
+                                (existing projects will not be
+                                affected).</li>
+                            </ul>
+                          </li>
+                        </ul>
 			<h2>Changes between nb152b and nb153 (November 23, 2016)</h2>
 			<ul>
 			  <li>Speed up App Inventor client by reducing the number of server calls
