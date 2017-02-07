@@ -6,6 +6,28 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Technovation 2017 Workshop at MIT</title>
+ <link>http://explore.appinventor.mit.edu/blogs/josh/2017/02</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;On Saturday, January 23, 100+ people attended the MIT App Inventor session  at the Stata Center at MIT to prepare for Technovation 2017. Huge thanks to the rest of the App Inventor team, including Lisa Yuan, Mike Tissenbaum, Paul Medlock-Walton, Jane Im &amp;amp; Marisol Diaz for their parts in making the day go so well. Special thanks too, to Rachel Nicoll and the others from MassTLC Ed Foundation for their help organizing the event, and many others to make Technovation in Massachusetts a success. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation-jan17.jpg&quot; style=&quot;float: right; margin-left 10px; width: 45%;&quot; /&gt;Feedback from 2016 told us that we should run several different levels of App Inventor sessions, not just one advanced session. So, this year, the sessions included a beginner and advanced session, to accommodate different amounts of experience with App Inventor. This, we hypothesized, would let attendees take away the more from the morning.&lt;/p&gt;
+&lt;p&gt;As it turned out, with both sessions running concurrently, people could move between them as they felt necessary, which people did quite willingly and without hesitation. An improvement for next year, though, would be to offer descriptions of each level ahead of time. The descriptions should include a description of the range of experiences, if any, needed for any session.&lt;/p&gt;
+&lt;p&gt;A small puzzle for future years remains, however. How can we appropriately differentiate within a session room for a group that you&#039;ve never met before and may never meet again, that have very different experience levels, especially in the beginners session. A possible, partial solution, would be to have a very short survey ahead of time, asking 2 or 3 questions about programming experience.&lt;/p&gt;
+&lt;p&gt;Another interesting observation was that there were big differences between adult and youth comfort learning programming. True to form, adults were generally less comfortable not knowing things and just exploring, compared to kids who were willing to jump in and try different things without fear of breaking things. As well, teachers and non-teachers behaved differently. Teachers recognized they were there to facilitate and seemed to feel less worry about how much they did or didn&#039;t understand.  &lt;/p&gt;
+&lt;p&gt;In the beginner room, most participants picked up programming with MIT App Inventor really quickly. This allowed time for teams to have the opportunity to share app ideas and then receive feedback from the room. Feedback came both on concept, and on how you might start planning implementations of some parts of the planned app with MIT App Inventor. &lt;/p&gt;
+&lt;p&gt;This feedback opportunity brought to light an idea, namely that good apps do need good programming, but that programming can often be the &quot;easy&quot; part. Another part that is often considered secondary, but often has even more impact than the programming is the social or information system that&#039;s built around the app. For example, an anti-bullying app to allow reporting of incidents may require some programming, but requires much more focus on the social engineering, or providing the right incentives to each group of users to use the app. A drought monitoring app requires programming, but more focus on where to get the information needed to inform stakeholders, i.e. app users, about the state of watersheds. &lt;/p&gt;
+&lt;p&gt;As the Technovation teams move forward with their ideas and coding of their apps, we hope that they, with the help of their mentors, will work to build the systems needs to make their apps and pitches successful and impactful in the world.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/technovation-jan17.jpg?itok=B1y9c8EW&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 07 Feb 2017 21:27:19 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">853 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>New Release Features Extensions, Bluetooth LE &amp; LEGO EV3</title>
  <link>http://explore.appinventor.mit.edu/blogs/josh/2016/06/new</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Late the evening of June 15, EDT, the MIT App Inventor team pushed a significant component release to its live, public-facing main instance. &lt;a href=&quot;https://docs.google.com/document/d/1x6WvQPEZblkrhfroO5q3vbNKiaWyaWGB58r5Se2H8Q4/pub&quot;&gt;More information about the release is available.&lt;/a&gt;&lt;/p&gt;
@@ -159,16 +181,6 @@ Yu-Chang Hsu (Department of Educational Technology)&lt;/p&gt;
  <pubDate>Tue, 23 Jun 2015 07:27:09 +0000</pubDate>
  <dc:creator>Josh</dc:creator>
  <guid isPermaLink="false">595 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT App Inventor Classic to MIT App Inventor 2 Converter Released</title>
- <link>http://explore.appinventor.mit.edu/blogs/adminexplore/2015</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &lt;a href=&quot;http://convert.appinventor.mit.edu/&quot;&gt;converter tool&lt;/a&gt; designed to convert MIT App Inventor Classic projects to MIT App Inventor 2 projects has just been released. Note that it is carefully, and specifically designed to convert projects from the latest version of MIT App Inventor Classic to projects readable by MIT App Inventor 2 while maintaining the functionality, but necessarily not the same form of the projects. Make note, project files developed on other App Inventor systems may well not work with the converter tool and will not be supported by the MIT App Inventor team. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1vY7yKofkMjn87GJfakjfSq1NzG-ZSVQh9Ql2gGALbZk/pub&quot;&gt;Full instructions for using the converter&lt;/a&gt; are available, but the first, and very important step, is to download a copy of your MIT App Inventor Classic project files to your own computer. For each project that you choose to convert, please open it in MIT App Inventor Classic, including opening the blocks, if possible, and then download the source .zip file. After that, &lt;a href=&quot;https://docs.google.com/document/d/1vY7yKofkMjn87GJfakjfSq1NzG-ZSVQh9Ql2gGALbZk/pub&quot;&gt;follow the instructions&lt;/a&gt; to use the converter for each project file. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 18 Jun 2015 15:01:14 +0000</pubDate>
- <dc:creator>Josh</dc:creator>
- <guid isPermaLink="false">594 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
