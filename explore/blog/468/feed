@@ -6,6 +6,90 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>EU Code Week 2016 and MIT App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/eu</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kurrer.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rosanna Kurrer&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;EU Code Week (&lt;a href=&quot;http://codeweek.eu/&quot;&gt;http://codeweek.eu/&lt;/a&gt;) is a grassroots movement which started in 2012 and is supported by the European Commission, and has since spread to over 50 countries around the world. The European Commission is the executive arm of the European Union and promotes the general interests of its 28 member states (&lt;a href=&quot;http://ec.europa.eu/index_en.htm&quot;&gt;http://ec.europa.eu/index_en.htm&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The mission of EU Code Week is to get as much people of all ages take their first steps in learning how to code and to guide them on the path to being creators of digital technology, and effective problem solvers.
+&lt;/p&gt;
+&lt;p&gt;Every year for a whole week in October, coding events and activities are organized in schools, after-school clubs, organizations, offices and libraries. What started with 10,000 participants in 2012 has grown to almost a million people coding, most of them for the first time. (&lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/news/million-coded-in-record-2016-EU-code-week&quot;&gt;https://ec.europa.eu/digital-single-market/en/news/million-coded-in-reco...&lt;/a&gt;)
+&lt;/p&gt;
+&lt;p&gt;Contributing to the success of this initiative has been the tireless work of a lot of Code Week ambassadors in all the 28 EU member states as well as in some participating countries in Africa, Asia and America.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-appinventor.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;At the heart of the EU in Brussels, Belgium, several workshops took place in schools and in organizations to give participants a first-time hands-on experience in Android app development using MIT App Inventor. Among the workshops organized were an after-school coding class for middle school girls aged eleven to fourteen, (&lt;a href=&quot;https://www.facebook.com/digitalmuseorg/posts/1279609008771317&quot;&gt;https://www.facebook.com/digitalmuseorg/posts/1279609008771317&lt;/a&gt;), a digital starter event for women designing digital solutions with and for women refugees (&lt;a href=&quot;https://mifbru16oct.eventbrite.com&quot;&gt;https://mifbru16oct.eventbrite.com&lt;/a&gt;), and a coding session at the European Commission for policy makers and officials (&lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/news/womenintech-organised-first-ever-coding-session-european-commission#WomenInTech&quot;&gt;https://ec.europa.eu/digital-single-market/en/news/womenintech-organised...&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;This year EU Code Week will be celebrating it’s fifth year, and even more coding events and school coding programs will be scheduled to take place in October.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week1.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week2.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week3.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week-poster.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week4.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-appinventor.png?itok=zx9gR9_G&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week-poster.png?itok=crdiaZbR&quot; width=&quot;480&quot; height=&quot;276&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week1.png?itok=9C2Z_uut&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week2.png?itok=Fb1CYE6n&quot; width=&quot;480&quot; height=&quot;262&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week3.png?itok=5vsbN2K7&quot; width=&quot;480&quot; height=&quot;293&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week4.png?itok=7HQOhTws&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 11 Feb 2017 02:01:38 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">855 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Challenges and tips for teaching a large coding class</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Anqi Zhou.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;During summer 2016, I had the opportunity to teach App Inventor to classes of 30 beginners aged 10 - 12 in Beijing. It was exciting to bring the power of coding to so many young persons, but even with three teaching assistants in the room, it was a tough experience.&lt;/p&gt;
+&lt;p&gt;With a limited number of programming teachers available at present, finding ways to effectively teach a large class is important in bringing programming to more students. In this post, I am going to share the challenges and tips I gathered from the teaching experience.&lt;/p&gt;
+&lt;h2&gt;Debugging, distraction and diverse capabilities are key challenges&lt;/h2&gt;
+&lt;p&gt;Firstly, anyone who teaches programming can tell you that “my program is not working” is the most frequently heard phrase in the classroom. Unlike in a maths classroom, where a definite answer can be easily given to most questions, to give an answer to “my program is not working” usually requires timeout for individual attention and teaching experience. Maybe it’s a specific spelling error somewhere, maybe it’s Internet connection issues, maybe it’s anti-virus software going crazy, maybe it’s just a slow computer, the list goes on. When you are responsible for more than six students, you’d probably be rushing around and putting out fires everywhere.&lt;/p&gt;
+&lt;p&gt;Secondly, working on a computer opens a world of distraction to students - websites, links, emails, games, videos and whatnot. The larger the class size, the more difficult it is to keep everyone on track and keep the show moving on.&lt;/p&gt;
+&lt;p&gt;Adding to the complication is that students usually come with a diverse range of capabilities. Some would take five minutes to download and locate a picture and some only type with index fingers. The students more familiar with basic computer skills are prone to distraction while the slower ones may fall behind the classroom flow.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/appinventor-classroom.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;10 Tips for teaching a large class&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1) One machine per student if possible&lt;/strong&gt;&lt;br /&gt;
+Sharing machines by design inevitably sends a subtle message that not everyone needs to be fully engaged at all times. Even though we do need to include elements of teamwork and pair programming in our class, it’s still better to give each person a machine to be responsible for, otherwise it’s easy to see at least half of the students with wandering minds.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2) Prepare the machines&lt;/strong&gt;&lt;br /&gt;
+That includes charging and downloading relevant software ahead of time. You would not want to have many students sharing a limited number of power outlets located in awkward positions in the room nor fighting for Internet bandwidth during your class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3) Good student monitoring software&lt;/strong&gt;&lt;br /&gt;
+Especially the kind that allows you to remotely control a student’s screen and bring it up for the whole class to see. When a student gives you a bug alert, chances are, some other students are probably experiencing similar problems. Helping one student remotely debug and projecting the process to the whole class would make the debugging processes more efficient.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4) Allow students to go at their own pace if needed&lt;/strong&gt;&lt;br /&gt;
+Since it’s easy for students to fall into different paces, it’s helpful to prepare a worksheet, a book or a web page of classroom materials, so that faster students can challenge themselves ahead while students who take more time can go at their comfortable pace.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5) Prepare different questions to challenge on various dimensions&lt;/strong&gt;&lt;br /&gt;
+Students have different strengths, some understand concepts well, some program very fast, and some are more artistic. Apart from programming challenges, I’d also prepare design challenges in each lesson, so that a student who programs fast can be engaged while a student who struggles with code can have opportunities to easily contribute ideas.&lt;/p&gt;
+&lt;p&gt;Here are some examples:&lt;br /&gt;
+How would you change the chat app you programmed if the users are primary school students? How would you change it if the users are the elderly?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6) Warm up exercises for basic computer skills&lt;/strong&gt;&lt;br /&gt;
+If students come from different basic computer skill levels, it’s worthwhile giving them some warmup exercises to save teachers class time explaining computer basics. A typing race or downloading and saving a specific fun picture can work wonders as an ice-breaker game.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7) Set definite and visible time limits for each task&lt;/strong&gt;&lt;br /&gt;
+Unless it’s a designated period of free exploration, I’d usually set a time limit for each task, such as downloading a picture or drawing a sprite, with a visible countdown timer. It’s a way to make it clear that we will stop and move on together when the time is up.  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/classroom-timer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8) Reward good teamwork&lt;/strong&gt;&lt;br /&gt;
+In a large class, I think it’s worthwhile getting the students who program faster to act as your teaching assistant. The upside is that they can solidify their understanding by helping others, and the downside is that young students tend to help by doing rather than by teaching and explaining. I would pre-assign students into various teams and give clear rewards to the teams that not only finish the challenges but also are best at explaining what they have done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;9) Prepare a FAQ sheet&lt;/strong&gt;&lt;br /&gt;
+I would prepare a sheet of FAQs for any lesson to screen common and easy-to-fix bugs. When students encounter a bug, they can check the FAQs first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;10) Make sure students know why they are here&lt;/strong&gt;&lt;br /&gt;
+The last one applies to any class size really. It’s vital for students to understand why they are learning and better to make sure they want to be here. It never hurts to repeat their goals and what they need to do to achieve them frequently. A large class of unmotivated students with access to computers is a recipe for disaster.&lt;/p&gt;
+&lt;p&gt;Teaching a large class is challenge but necessary work as educators. I hope you find my tips helpful!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/appinventor-classroom.png?itok=OsvkrNVg&quot; width=&quot;415&quot; height=&quot;277&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/classroom-timer.png?itok=pzEP1FyO&quot; width=&quot;480&quot; height=&quot;187&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 07 Feb 2017 23:11:41 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">854 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>My Experience at the App Inventor Summit</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/my</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lim.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Yen Yen Lim&lt;/i&gt;&lt;/p&gt;
@@ -242,272 +326,6 @@ Who gets the bomb?  - The player who guesses the random digit will lose.&lt;/li&
  <pubDate>Tue, 15 Nov 2016 19:03:42 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">814 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Show &amp; Tell: Introducing App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/show</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
-&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-table, th, td {
-    border: 1px solid black;
-}
-table {
-   width: 60%;
-  display: block;
-   margin: auto;
-}
-th {
-  background-color: #85929e;
-   text-align: center;
-    color: white;
-}
-h3 {
-   margin-top: 40px;
-}
-td {
-  width: 50%;
-  padding: 8px;
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sjaak Bosman&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;When you use App Inventor for a while and become familiar with all its possibilities, you might want to spread the word. Of course, you can give people a demo or the link to AppInventor.mit.edu, but that might not be enough to get them really going even though they are interested. At least, that is my experience.
-&lt;/p&gt;
-&lt;p&gt;
-Because I was asked a few times to come and tell about App Inventor, I developed this practical presentation for adults. Not to teach strictly about Computer Science but to get people as enthusiastic as I became about App Inventor. The presentation is a Show &amp;amp; tell kind of way, with which you can introduce App Inventor and demonstrate some examples. Therefore, besides this presentation, activate App Inventor in another window to switch back and forth quickly.&lt;/p&gt;
-&lt;h3&gt;Slide 1: Introduction&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide01.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 1.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;After a short introduction of yourself, and maybe a little chat about people’s experience, you can begin the presentation.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 2: Learn to build Android apps&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide02.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 2.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;The goal of this presentation is to learn to build Android apps, while being creative and having fun in controlling your smartphone. But there is a big idea behind this goal: “Computer Science For All” is an initiative of President Obama to motivate children to become equipped with computational thinking skills and familiar with computer science. The idea is that they will become active citizens in a technology-driven world, instead of being just consumers.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;(Source: &lt;a href=&quot;https://www.whitehouse.gov/blog/2016/01/30/computer-science-all&quot; target=&quot;_blank&quot;&gt;https://www.whitehouse.gov/blog/2016/01/30/computer-science-all&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;But even though we are not children anymore, we still can participate and become more active in computer science. This presentation shows how accessible App Inventor is, and how you can make apps for your Android Smartphone in hours. Replacing ‘hours’ by ‘minutes’ is just a practical joke, because the time spent to create apps with App Inventor feels like minutes compared to using traditional programming languages.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 3: Requirements&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide03.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 3.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Actually the first four conditions are probably already met. If not, install the &lt;a href=&quot;https://www.google.com/chrome&quot; target=&quot;_blank&quot;&gt;Chrome&lt;/a&gt;, &lt;a href=&quot;https://www.mozilla.org/firefox&quot; target=&quot;_blank&quot;&gt;Firefox&lt;/a&gt; or &lt;a href=&quot;http://apple.com/safari&quot; target=&quot;_blank&quot;&gt;Safari&lt;/a&gt; browser and &lt;a href=&quot;https://accounts.google.com/SignUp&quot; target=&quot;_blank&quot;&gt;create a Google account&lt;/a&gt;. It costs you only a few minutes to do so. Internet Explorer and Edge are not supported.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 4: Introduction to App Inventor in just 4 easy steps&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide04.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 4.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;The environment in which you develop your App Inventor Android apps is 100% web-based. You don’t need to install anything on your computer, just go to &lt;a href=&quot;http://ai2.appinventor.mit.edu&quot; target=&quot;_blank&quot;&gt;http://ai2.appinventor.mit.edu&lt;/a&gt; and log in with your Google account. If this is your first time, you are being asked to accept the Terms of Service and take a short voluntary survey.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;The introduction to App Inventor consists of 4 easy steps, each treated separately.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 5: Step 1, Designer: How your app looks&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide05.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 5.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Step 1.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;In the Designer window you design the User Interface of your app:&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Explain the 5 different panes briefly.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;1. Palette: Containing all the components that can be included in the app.&lt;br /&gt;
-The components are arranged in several categories, such as User Interface and Layout.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;2. Viewer: The appearance or User Interface of the app.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Click ‘Start new project’. Name it ‘New’. Wait until the Designer window shows up and demonstrate how to put the textbox and button in the viewer.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;3. Components: A list of components that are included in the app.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;4. Properties: A list of properties of the component that is selected in the Components pane.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Demonstrate how to change properties, for example enable FontBold of Button1 and change the text to ‘Speak!’. Also explain de Designer and Blocks Button (as preparation for the next slide).&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;5. Media (not on the screenshot): A list of all media files, such as images and sounds, that have been uploaded into the app. This will be addressed during an optional workshop.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 6: Step 2, Blocks: How your app behaves&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide06.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 6.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Step 2.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;In the Blocks window you design the behavior of your app:&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Explain the 2 different panes briefly.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Step 2.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;1. Blocks: Containing all the code blocks that can be included in the app.&lt;br /&gt;
-The blocks are arranged in 3 categories, Built-in, Component Specific and Any component.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;2. The code blocks or source code of the app.&lt;br /&gt;
-With the blocks you program the behavior of your app.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Click the Blocks Button and demonstrate how to put the Button1.Click event handler, TextToSpeech procedure call (Because the TextToSpeech component is not available at first, use the Designer mode to include this non-visible Media component.) and Textbox.Text property in the viewer.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;If the situation allows, you could talk a little more about event handlers and procedure calls and their purposes and behaviors. But be careful, it can become too difficult quickly. Slide 8, section ‘import a project from the gallery’, gives you the opportunity to demonstrate procedures.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 7: Step 3, Test while you are building&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide07.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 7.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Step 3.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Let’s test the app we just built. Therefore find the app ‘MIT App Inventor Companion’ in Google play and install it on your smartphone.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;If on the same WiFi, the Companion app lets you test your app in real-time while you are building it.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In the Connect menu click AI Companion. Switch to your smartphone and start the MIT AI2 Companion app and enter the connection code. Type a text and press the ‘Speak!’ button. Do not forget to enable the volume on your smartphone.
-&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 8: Step 4, Build you first app&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide08.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 8.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Step 4.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Actually, we just built our first app, New, from scratch. There are three additional methods to create an app:&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;First, one can import an app from a repository. At the moment there are only two projects in the default repository.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Select ‘Import project (.aia-file) from a repository’ in the Projects-menu. Select the HelloPurr app. Name the components (Button1 and Sound1) and discuss what the app probably will do. Reset the connection and restart the MIT AI2 Companion app to demonstrate HelloPurr&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Wouldn&#039;t it be nice if the cat purrs when the smartphone is being shaken? App Inventor comes with lots of sensors, like the accelerometer sensor which detects movements of the smartphone. Of course the actual sensors are hardware components in the smartphone, and App Inventor provides software interfaces to them. For the sake of easiness we just call the software interfaces sensors too.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the designer in the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Add the AccelerometerSensor1 sensor. Switch to the blocks and add the AccelerometerSensor1.Shaking event handler. Copy both blocks in the Button1.Click event handler to the AccelerometerSensor1.Shaking event handler. Demonstrate HelloPurr again to reflect the changes.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Second, one can import a project from the gallery. The gallery is a place where one can share his or hers project. You can find thousands of apps in the gallery. So why start from scratch?&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch to the App Inventor window.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Select the menu option Gallery. Search for ‘Simple Hands-Free Counting App’ and click ‘OPEN THE APP’ and click ‘OK’. Demonstrate the app on your smartphone. If necessary, reset the connection and restart the MIT AI2 Companion app. Take a brief look at the User Interface and blocks structure to explain what you demonstrated.
-&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;This project includes a variable, that gives you the opportunity to explain what variables are. Also, all 3 event handlers contain the same blocks, which give you the opportunity to introduce procedures. Depending on the audience, you can discuss this.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Switch back to the presentation.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Third, you can import a project from your computer. Likewise, you can store a project on your computer. This option will be addressed elsewhere.&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 9: What’s next?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide09.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 9.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;There is, of course, a lot more to tell, explore and invent about App Inventor. So why won’t you give yourself a flying start by attending a program of 5 additional workshops? The workshops will address a lot of aspects of App Inventor, such as:&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;
-&lt;ul&gt;&lt;li&gt;Designer, Palette: Most of the components will be explained and demonstrated in examples.&lt;/li&gt;
-&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;
-&lt;ul&gt;&lt;li&gt;Blocks: You will become more familiar with all sorts of blocks, to program the behavior of your app. Several basic programming techniques will be showed to make and keep your program maintainable and readable.&lt;/li&gt;
-&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;
-&lt;ul&gt;&lt;li&gt;Media: Importing and using files such as images and sounds.&lt;/li&gt;
-&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;
-&lt;ul&gt;&lt;li&gt;One workshop will be dedicated to an introduction to databases, internet connection and Arduino connection&lt;/li&gt;
-&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;
-&lt;ul&gt;&lt;li&gt;Interactive approach: During the workshops there will be a lot of hands-on exercises, so you can explore App Inventor yourself and ask questions to give you a flying start.&lt;/li&gt;
-&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Of course you can change the workshop content as you like.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 10: More information&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide10.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 10.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Lots of information can be found on internet. As a start you can begin at AppInventor.mit.edu, the home of App Inventor. Lots of examples can be found in the ‘App of the Month’ section.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Appinventor.org is a product of the University of San Francisco&#039;s Democratize Computing Lab, and is intended to provide materials for learning and teaching App Inventor.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;PuraVidaApps is a site made by an App Inventor enthusiast, where you can find tons of snippets, tutorials and links.&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;If time allows, you can visit these websites.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Slide 11: Questions?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman-Slide11.JPG&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;table width=&quot;60%&quot;&gt;&lt;tr&gt;&lt;th&gt;Show&lt;/th&gt;
-&lt;th&gt;Tell&lt;/th&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Slide 10.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Suggestions or questions?&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;If you have suggestions or questions afterwards, please send an e-mail to   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
- &lt;!--
-  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#039;;
-// --&gt; 
-//--&gt;&lt;!]]&gt;
-&lt;/script&gt;&lt;p&gt;..&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 02 Nov 2016 23:23:27 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">813 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT Master Trainer at Texas Charter School Association Conference </title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/10/mit</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/TCSAC.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 35%;&quot; /&gt;Suzan Dalgic – MIT Master Trainer from Harmony Public Schools had a great session of Mobile Education - MIT App Inventor at Texas Charter School Association Conference on October 12, 2016 in Austin, TX.  She introduced MIT App Inventor to the other Texas charter school administrators. She talked about the importance of teaching a block programming language to the students before text-based programming languages and why schools should teach mobile programming to their students. Suzan believes that “The mobile programming is the future in the development of new and great experiences for students, which will make everyone’s life easier.” She gave some examples from her last year students, and she said that “It was amazing to see how students were excited when they completed an application. Students told me that they go home and upload their application to their device and show it to their friends and people around them.” Suzan also says that “MIT App Inventor is a perfect tool to teach Mobile programming to the students. Students can see what they are doing in real time. Also if they want, then they can publish their Application on the Google Play Store. MIT App Inventor is also had Bluetooth feature since June 2016, and you can make an application to control almost anything, such as Arduino projects, Raspberry Pi, and servo motors (if you connect them to Arduino). We should offer mobile programming education to our students and based on my experience I can say that MIT App Inventor is the best tool to teach mobile programming.&quot;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 21 Oct 2016 18:45:58 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">810 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
