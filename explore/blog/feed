@@ -6,6 +6,56 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Working with the ITunes API</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/all/files/people/AUBREY.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT graduate and former MIT App Inventor team member Aubrey Colter&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;In May 2015, I went to Oakland, CA, to teach an App Inventor workshop to a group of students at Youth Radio. I wanted to teach them about Application Program Interfaces (APIs) to give them a glimpse of how they could extend their apps beyond the available App Inventor components. APIs allow you to access data available on a variety of different sites, such as YouTube, Facebook, and Twitter. These days, most APIs require the programmer to authenticate in some way (usually with a login or token). I knew that setting up the necessary credentials for using an API would take most of our time together. Instead, I decided to search for APIs that did not require authentication.&lt;/p&gt;
+&lt;p&gt;That was how I found the iTunes API. It felt like it had potential to be part of a fun tutorial, so I began searching through the documentation. The first draft of my app called the iTunes API and retrieved information from the database about a musician. However, I knew that the young programmers I would be working with would be uninterested and bored. They could get the same information by reading Wikipedia. It also didn’t showcase any of the smartphone’s capabilities. So I kept searching, until I found the 30-second preview clip API endpoint. When I realized that the App Inventor Sound component could play sound clips from links, I knew I had a great app. I built my app with a very simple interface -- just a search box and a button. Once the button is clicked, the search terms are parsed and sent to the iTunes servers, which returns a list of the artist’s songs’ 30-second preview clips. I picked the first one and played it, and I knew that I had something fun. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/apis.png&quot; style=&quot;float: right; margin-left: 10px; width: 30%; border: 1px solid grey;&quot; /&gt;I took my app to Youth Radio for our workshop, and the programmers had a good time learning about APIs. As I’ve iterated on the app for other workshops and open houses for both youth and teachers, everyone has always been so surprised. I love that delight moment! Students are always shocked that my phone can pull up a song by any artist they like (Taylor Swift and Justin Bieber are the favorites).&lt;/p&gt;
+&lt;p&gt;You can do a lot to extend the iTunes API app once you understand the concept of an API. I’ve been really pleased with how it has developed as I’ve continued to work on it. I also love hearing positive feedback from teachers and students. I hope you’ll enjoy it, too!&lt;/p&gt;
+&lt;p&gt;Here is a link to the &lt;a href=&quot;https://docs.google.com/document/d/1zr_e7Pu0UVgx8Z_AUqM3I7nD54k8CAFGIUy0FXBzzLo/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 15 Feb 2017 23:13:42 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">856 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>EU Code Week 2016 and MIT App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/eu</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kurrer.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rosanna Kurrer&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;EU Code Week (&lt;a href=&quot;http://codeweek.eu/&quot;&gt;http://codeweek.eu/&lt;/a&gt;) is a grassroots movement which started in 2012 and is supported by the European Commission, and has since spread to over 50 countries around the world. The European Commission is the executive arm of the European Union and promotes the general interests of its 28 member states (&lt;a href=&quot;http://ec.europa.eu/index_en.htm&quot;&gt;http://ec.europa.eu/index_en.htm&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The mission of EU Code Week is to get as much people of all ages take their first steps in learning how to code and to guide them on the path to being creators of digital technology, and effective problem solvers.
+&lt;/p&gt;
+&lt;p&gt;Every year for a whole week in October, coding events and activities are organized in schools, after-school clubs, organizations, offices and libraries. What started with 10,000 participants in 2012 has grown to almost a million people coding, most of them for the first time. (&lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/news/million-coded-in-record-2016-EU-code-week&quot;&gt;https://ec.europa.eu/digital-single-market/en/news/million-coded-in-reco...&lt;/a&gt;)
+&lt;/p&gt;
+&lt;p&gt;Contributing to the success of this initiative has been the tireless work of a lot of Code Week ambassadors in all the 28 EU member states as well as in some participating countries in Africa, Asia and America.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-appinventor.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;At the heart of the EU in Brussels, Belgium, several workshops took place in schools and in organizations to give participants a first-time hands-on experience in Android app development using MIT App Inventor. Among the workshops organized were an after-school coding class for middle school girls aged eleven to fourteen, (&lt;a href=&quot;https://www.facebook.com/digitalmuseorg/posts/1279609008771317&quot;&gt;https://www.facebook.com/digitalmuseorg/posts/1279609008771317&lt;/a&gt;), a digital starter event for women designing digital solutions with and for women refugees (&lt;a href=&quot;https://mifbru16oct.eventbrite.com&quot;&gt;https://mifbru16oct.eventbrite.com&lt;/a&gt;), and a coding session at the European Commission for policy makers and officials (&lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/news/womenintech-organised-first-ever-coding-session-european-commission#WomenInTech&quot;&gt;https://ec.europa.eu/digital-single-market/en/news/womenintech-organised...&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;This year EU Code Week will be celebrating it’s fifth year, and even more coding events and school coding programs will be scheduled to take place in October.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week1.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week2.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week3.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week-poster.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week4.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-appinventor.png?itok=zx9gR9_G&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week-poster.png?itok=crdiaZbR&quot; width=&quot;480&quot; height=&quot;276&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week1.png?itok=9C2Z_uut&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week2.png?itok=Fb1CYE6n&quot; width=&quot;480&quot; height=&quot;262&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week3.png?itok=5vsbN2K7&quot; width=&quot;480&quot; height=&quot;293&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week4.png?itok=7HQOhTws&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 11 Feb 2017 02:01:38 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">855 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Challenges and tips for teaching a large coding class</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Anqi Zhou.&lt;/i&gt;&lt;/p&gt;
@@ -258,47 +308,6 @@ Please note that if you give a wrong API key value (either typing error or wrong
  <pubDate>Tue, 10 Jan 2017 23:19:26 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">837 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Spanish Teachers Learn App Inventor to Teach Computational Thinking</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/12</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Last Friday, we ran an Android App Development workshop using MIT App Inventor with students of the Master de Profesorado de Enseñanza Secundaria at Pablo de Olavide University in Seville, Spain. These students are future Spanish teachers so the interest was impressive.&lt;/p&gt;
-&lt;p&gt;We discussed the benefits of using MIT App Inventor for Computational Thinking (CT) development and increasing the students’ motivation. We learned how to make simple applications and a method to apply the use of the tool in class.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville1.jpg&quot; style=&quot;display:block; margin:auto; width: 60%; clear:both;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;From App Inventor España, we would like to thank Pablo de Olavide University and its teacher D. Antonio H. Martín Padilla for betting on the use of this tool for the production of digital content within the framework of educational innovation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville3.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;MIT Master Trainers team are aiming very high by introducing MIT App Inventor as a transversal tool in the teaching-learning process of any subject. Undoubtedly, this is a motivating element for students that fosters teamwork, the development of Computational Thinking and the creative expression of solutions to common problems.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville2.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;If you are interested in holding a workshop at your university, institute or school do not hesitate to contact any of us through the official MIT website.&lt;/p&gt;
-&lt;p&gt;José Luis Núñez&lt;br /&gt;
-@twajoseluis&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville1.jpg?itok=Zc5OkRjT&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville2.jpg?itok=3Az6iUFv&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville3.jpg?itok=EQYXT9Ia&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 08 Dec 2016 15:20:17 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">822 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>New &quot;I Love My Smartphone Curriculum&quot; Released</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/11/new-i</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Jeremy Scott, of The Royal Society of Edinburgh, just released version 2 of his middle/high school curriculum on mobile app development that features MIT App Inventor. The new resources include a tutor pack, learner pack, screencasts, apps, and media files, all downloadable and free to use.&lt;/p&gt;
-&lt;p&gt;This is a great update to Jeremy’s original I Love My Smartphone curriculum, which used version 1 of App Inventor. The new version has been updated to use App Inventor 2. Please check it out! &lt;a href=&quot;https://www.rse.org.uk/schools/teachers/resources/&quot; target=&quot;_blank&quot;&gt;https://www.rse.org.uk/schools/teachers/resources/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Please note, you will have to scroll down the page to Computing Science Resources and look for I Love My Smartphone.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 23 Nov 2016 16:03:03 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">817 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
