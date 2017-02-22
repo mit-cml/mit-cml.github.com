@@ -199,6 +199,10 @@ h2.block-title{
 }
 #block-block-23{
     float:left;
+    z-index:1000;
+}
+#block-block-31{
+    float:left;
 }
 .gsc-control-searchbox-only {
     float:right;

@@ -30,6 +30,9 @@
   .content-style {
     padding: 10px;
   }
+  #block-block-23 {
+    z-index: 12;
+  }
   #secondary-content-wrapper,
   #top-panels-wrapper,
   #content-wrapper,
