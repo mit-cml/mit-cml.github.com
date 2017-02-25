@@ -6,6 +6,42 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Becoming a Middle School Computer Programming Teacher </title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blanchette.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sarah Blanchette.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Becoming a middle school computer programming teacher has been an enriching and eye-opening experience.   The focus of this blog is what works in middle school.&lt;/p&gt;
+&lt;p&gt;#1:  Start simple.&lt;br /&gt;
+#2: Go slow.  Allow time for concepts to sink in before moving on to the next, more complicated level.&lt;br /&gt;
+#3: Encourage creativity, exploration, and risk-taking.&lt;br /&gt;
+#4: Don’t spend too much time using one particular curriculum tool.&lt;br /&gt;
+#5: Include making stuff. &lt;/p&gt;
+&lt;p&gt;App Inventor is a great tool for learning programming concepts.  Students loved testing their apps on our tablets and showing other students what they created.  In the beginning (#1), we keep our apps simple.  We require certain features in the app and then encourage exploration (#5).&lt;/p&gt;
+&lt;p&gt;When introducing a new concept, stay with it a while (#2).  Think of many ways to utilize the new concept, thereby providing ample time for the concept to sink in. For example, when introducing the concept of variables, provide clear direct instruction on what variables are and how to use them. Give students directions on how to make an app that requires use of a variable (we started with Tally Counter, from Project Lead the Way curriculum). Follow-up with more simple apps that involve variables, encouraging students to be creative.  This past week, a student named T.J. came up with the idea of using buttons with images to allow classmates to vote for their favorite NBA player (Westbrook, Curry, James, Durant). He will effortlessly use variables to hold the votes and the concept will sink in because of how strongly he feels about basketball. &lt;/p&gt;
+&lt;p&gt;We saw much great student engagement when we added “Make Your Own” apps to the assignment list.  We raised the stakes by putting together a Project Show Day (their words), when they showed off their apps to other 6th grade students.  There was some reluctance to go from apps with detailed directions to Make Your Own; encouraging creativity and risk-taking for each and every app helps build students’ confidence levels.  &lt;/p&gt;
+&lt;p&gt;We learned, after a while, students are ready for change (#4).  Even though there were many aspects to App Inventor we had not explored, there was a strong need to “move on.” Even amongst students who eagerly pursued new and creative ways to use App Inventor, the enthusiasm for trying something new was unbridled.&lt;/p&gt;
+&lt;p&gt;Middle school students love to make things (#5). After learning CS concepts using App Inventor, our kids were ready for and quite loved making Arduino projects. This year we will use Makey Makey as an introductory activity (can turn bananas into arrow keys in conjunction with Scratch game) before moving on to the more complex Arduino projects. Now that App Inventor blocks exist for Lego Mindstorms EV3 robots, we look forward to making apps to control our robots.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 25 Feb 2017 01:09:02 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">866 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>App Inventor Mentioned in Batgirl Comics </title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor was mentioned in the latest Batgirl DC Comic Book, when Barbara Gordon, aka Batgirl, volunteers at a coding workshop at a local elementary school. They even added a link to the App Inventor site!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/batgirl.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Image from Batgirl (2016-) #8&lt;br /&gt;
+Son of Penguin Part 2&lt;br /&gt;
+Produced by DC Entertainment (DC Comics)&lt;br /&gt;
+Colored by Mat Lopes&lt;br /&gt;
+Cover by Chris Wildgoose&lt;br /&gt;
+Inks by Chris Wildgoose and Jon Lam&lt;br /&gt;
+Pencils by Chris Wildgoose&lt;br /&gt;
+Written by Hope Larson&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 25 Feb 2017 01:05:01 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">865 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Verizon Innovative Learning App Challenge Winners Announced</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-1</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/vilac.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;
@@ -230,97 +266,6 @@ UTC).
  <pubDate>Sun, 22 Jan 2017 22:11:21 +0000</pubDate>
  <dc:creator>jeff</dc:creator>
  <guid isPermaLink="false">845 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Photo analysis with Microsoft Cognitive Services, using Makeblock CamVision extension</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/photo</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tseng.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 18%;&quot; /&gt;This is a guest blog by MIT Master Trainer David Tseng of CAVEDU Education.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;This is a simple project combining App Inventor and &lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/computer-vision-api&quot; target=&quot;_blank&quot;&gt;Microsoft Cognitive Services :Computer Vision API&lt;/a&gt;. The app can upload a picture to Microsoft Cognitive Services :Computer Vision API after the photo is taken, then get the information below:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Description&lt;/li&gt;
-&lt;li&gt;Foreground color&lt;/li&gt;
-&lt;li&gt;Background color&lt;/li&gt;
-&lt;li&gt;tags (json format, can easily put into Listpicker, Listview or Spinner)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Thanks to the &lt;a href=&quot;http://learn.makeblock.com/en/user-makeblock-computer-vision-extension-for-app-inventor/&quot; target=&quot;_blank&quot;&gt;CamVision extension by Makeblock&lt;/a&gt;. They also have another extension for their mBot robot, you should try it!&lt;/p&gt;
-&lt;p style=&quot;clear:both;&quot;&gt;
-&lt;strong&gt;Notice:&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Your phone&#039;s camera will open when the [Prepare] button is pressed (although you can&#039;t see a preview, it is open). Other programs like QRcode Scanner which will also uses camera will now be unable to be used. You will have to close this app before using other camera-related apps.&lt;/p&gt;
-&lt;h2&gt;How It Works&lt;/h2&gt;
-&lt;p&gt;In the photo below, you can see besides a cat laying on a small table, there are many obstacles in the background, which makes it quite difficult to separate the main object (cat) and the background. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cat-on-desk.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The result:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Description (a cat laying on a bed)&lt;/li&gt;
-&lt;li&gt;Foreground color (grey)&lt;/li&gt;
-&lt;li&gt;Background color (grey)&lt;/li&gt;
-&lt;li&gt;Tags (indoor, cat, wall, laying)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/camvision-screenshot.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;How to Apply for API Key from Microsoft Cognitive Services&lt;/h2&gt;
-&lt;p&gt;Please log in to &lt;a href=&quot;https://www.microsoft.com/cognitive-services/&quot; target=&quot;_blank&quot;&gt;Microsoft Cognitive Services main website&lt;/a&gt; with your Microsoft account (MSN is still working, haha~) or sign up for one.&lt;/p&gt;
-&lt;p&gt;Please click &lt;strong&gt;APIs -&amp;gt; Computer Vision&lt;/strong&gt;, and finally click &lt;strong&gt;Get Started for Free&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cognitive-services.png&quot; style=&quot;display:block; margin:auto; width: 70%; border: 1px solid grey;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Please check &lt;strong&gt;Computer Vision-Preview&lt;/strong&gt;; you can see the limit of the free trial is 5,000 transactions per month, 20 per minute (quite enough I think).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/computer-vision.png&quot; style=&quot;display:block; margin:auto; width: 70%; border: 1px solid grey;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When you are done, you can see there are two Keys under the &lt;strong&gt;Computer Vision-Preview&lt;/strong&gt; section. Please click &lt;strong&gt;Show&lt;/strong&gt; to see the keys. You will need to use these key values in to your App Inventor project (see below). Either Key1 and Key2 are ok to use.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/key-screenshot.png&quot; style=&quot;display:block; margin:auto; width: 70%; border: 1px solid grey;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;You can click &lt;strong&gt;Show Quota&lt;/strong&gt; to check how many calls you&#039;ve used.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cv-quota.png&quot; style=&quot;display:block; margin:auto; width: 70%; border: 1px solid grey;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;How To&lt;/h2&gt;
-&lt;p&gt;Start a new project in App Inventor. Please import &lt;a href=&quot;http://appinventor.makeblock.com/com.makeblock.appinventor.CamVision.aix&quot; target=&quot;_blank&quot;&gt;Makeblock&#039;s CamVision extension&lt;/a&gt; into your App Inventor project or import our &lt;a href=&quot;https://drive.google.com/open?id=0B51cwz24uqobeW94TnVOMzNBeG8&quot; target=&quot;_blank&quot;&gt;sample project&lt;/a&gt; directly.&lt;/p&gt;
-&lt;h3&gt;Designer&lt;/h3&gt;
-&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Button_Prepare:&lt;/strong&gt; Click to open camera, set API key.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Button_Photo:&lt;/strong&gt; Click to take picture.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Label:&lt;/strong&gt; Show result from Microsoft Computer Vision API, including description, foreground color, background color.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ListView:&lt;/strong&gt; Show result from Microsoft Computer Vision API: tags. You can put them into Spinner or ListPicker instead.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CamVision:&lt;/strong&gt; Upload picture to Microsoft Computer Vision API and get the results.&lt;/li&gt;
-&lt;/ol&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/camvision-designer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Blocks&lt;/h3&gt;
-&lt;h4&gt;Step1:&lt;/h4&gt;
-&lt;p&gt;Declare variable: &lt;strong&gt;CVApiKey&lt;/strong&gt; using the Key value we got from Microsoft (above).&lt;/p&gt;
-&lt;p&gt;Clicking &lt;strong&gt;Button_Prepare&lt;/strong&gt; will open the camera, prepare the API key and show a &quot;True&quot; on your Screen1.Title when the camera is successfully opened.&lt;/p&gt;
-&lt;p&gt;Then click &lt;strong&gt;Button_Photo&lt;/strong&gt; to take a picture (the app will not show what you&#039;ve taken on the screen). It will also show a &quot;True&quot; on your Screen1.Title when the picture is successfully taken.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/camvision-blocks1.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;h4&gt;Step 2:
-&lt;/h4&gt;&lt;p&gt;After the picture is taken, the &lt;strong&gt;CamVision.AfterPictureTaken&lt;/strong&gt; event should upload the picture to &lt;a href=&quot;https://www.microsoft.com/cognitive-services/&quot; target=&quot;_blank&quot;&gt;Microsoft Cognitive Services&lt;/a&gt; (&lt;strong&gt;CamVision1.SubmitPictureForComputerVision&lt;/strong&gt;).&lt;br /&gt;
-After that, the &lt;strong&gt;CamVision.AfterComputerVisionResult&lt;/strong&gt; event returns the information we want. Set the Label1.Text to the results. You can try get other information such as AnalyzeColor and FaceDetection as well.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Description: DescriptionFromCV&lt;/li&gt;
-&lt;li&gt;ForegroundColor: ForegroundColorNameFromCV&lt;/li&gt;
-&lt;li&gt;BackgroundColor: BackgroundColorNameFromCV&lt;/li&gt;
-&lt;li&gt;Tags TagsFromCV&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/camvision-blocks2.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;
-Please note that if you give a wrong API key value (either typing error or wrong API key), this app will not get the correct information.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/cat-on-desk.jpg?itok=5Xe-71mL&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/camvision-screenshot.png?itok=jCFQDk_s&quot; width=&quot;225&quot; height=&quot;400&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/cognitive-services.png?itok=zpTX7ugG&quot; width=&quot;480&quot; height=&quot;248&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/computer-vision.png?itok=W27vTiSb&quot; width=&quot;480&quot; height=&quot;210&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/key-screenshot.png?itok=L6miSGb4&quot; width=&quot;480&quot; height=&quot;233&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/cv-quota.png?itok=E5hU3H14&quot; width=&quot;480&quot; height=&quot;87&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/camvision-designer.png?itok=r52auETc&quot; width=&quot;480&quot; height=&quot;382&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/camvision-blocks1.png?itok=e6844wF6&quot; width=&quot;480&quot; height=&quot;207&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/camvision-blocks2.png?itok=mkLmQMyg&quot; width=&quot;480&quot; height=&quot;217&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 18 Jan 2017 23:33:24 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">842 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor and IoTs</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Please read the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2016/12/app-inventor-and-iots.html&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; by MIT Master Trainer Xiangqun &quot;Juliet&quot; Chen.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 18 Jan 2017 20:53:31 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">841 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
