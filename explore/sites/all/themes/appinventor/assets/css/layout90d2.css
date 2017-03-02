@@ -197,12 +197,13 @@ h2.block-title{
 .block-region-featured>.block-inner{
     margin:0 !important;
 }
-#block-block-23{
-    float:left;
+#block-block-23 {
     z-index:1000;
+    clear: both;
 }
 #block-block-31{
-    float:left;
+    float:left !important;
+    position: relative;
 }
 .gsc-control-searchbox-only {
     float:right;

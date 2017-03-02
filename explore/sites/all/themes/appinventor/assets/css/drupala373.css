@@ -1,0 +1,46 @@
+/* TABS */
+.tabs ul.primary { background: url("../images/tabs-border.html") repeat-x scroll left bottom transparent; border: medium none; margin: 0; overflow: hidden; padding: 0 3px; margin-bottom: 20px; }
+.tabs ul.primary li { display: block; float: left; margin: 0 5px 0 0; vertical-align: bottom; }
+.tabs ul.primary li.active a { background-color: #FFFFFF; border-bottom: 1px solid #FFFFFF; }
+.tabs ul.primary li a { background-color: #EDEDED; border-top-left-radius: 6px; border-top-right-radius: 6px; color: #000000; display: block; float: left; font-size: 0.929em; height: 1.8em; line-height: 1.9; margin: 0; padding: 0 10px 3px; text-shadow: 0 1px 0 #FFFFFF; }
+
+/* MENU */
+ul.menu li { margin: 0 0 0 30px; }
+#block-menu-menu-simple-nav h2{display:none;}
+
+/* CURRENT EXHIBITS */
+.current-exhibits .block-title { padding-top: 0; margin-bottom: 20px; }
+.current-exhibits .views-row { background-color: #F1F0F0; height: 177px; margin-bottom: 20px; width: 534px; }
+.current-exhibits .exhibit-img {float: left; margin-right: 20px; }
+.current-exhibits h2 { margin-bottom: 0; padding-top: 20px; }
+.current-exhibits .exhibit-title { color: #1892BF; font-weight: bold; }
+
+/* PREVIOUS EXHIBITS */
+.previous-exhibits .block-title { padding-top: 0; margin-bottom: 20px; }
+.previous-exhibits .views-row { background: #D3DEE3; float: left; height: 215px; margin-right: 15px; width: 259px; }
+.previous-exhibits .exhibit-img { float: left; margin-right: 20px; }
+.previous-exhibits .exhibit-wrapper { padding: 0 20px 20px; }
+.previous-exhibits .exhibit-wrapper h2 { color: #1892BF; font-size: 14px; font-weight: bold; }
+.previous-exhibits .exhibit-date { font-size: 12px; }
+
+/* ASKUS FORM STYLING */
+#webform-client-form-3 { background: #F1F0F0; padding: 20px 20px 60px 20px; }
+#webform-client-form-3 .form-item, #webform-client-form-3 .form-actions { margin-bottom: 0; margin-top: 0; }
+#webform-client-form-3 label{ float: left; clear: left; width: 95px; margin: 11px 20px 0 0; font-weight: normal; }
+#webform-client-form-3 input, #webform-client-form-3 select, #webform-client-form-3 textarea { width: 250px; margin-top: 10px; }
+#webform-client-form-3 .form-required { color: #ff3c00;	}
+#webform-client-form-3 input[type="submit"]{ background: url("../images/soft-shade.html") repeat-x scroll 0 0 transparent; border: 1px solid #B9B9B9; border-radius: 2px 2px 2px 2px; box-shadow: 0 0 2px #DDDDDD; cursor: pointer; display: block; font-size: 11px; font-weight: 900; margin: 3px 0; padding: 5px 16px; text-shadow: 1px 1px 0 #FFFFFF; margin-top: 10px; margin-right: 180px; margin-left: 6px; width: 100px; float: right; }
+#webform-client-form-3 input[type="submit"]{ background-color: #1892bf; color: #FFF; text-shadow: 1px 1px 0 #000; }
+
+/* FEATURE COLLECTION */
+.feature-collection p { margin-bottom: 0; }
+
+/* FEATURE BLOCK */
+.feature-block .event img { float: left; margin-right: 10px; }
+.feature-block .event p.exhibit-title { color: #1892BF; float: left; font-size: 14px; line-height: 16px; margin-bottom: 5px; width: 200px; font-weight: bold; }
+
+/* FEATURE CONTENT */
+.featured-content-block .views-row { float: left; margin-right: 20px; width: 291px; }
+.featured-content-block h3 { font-size: 14px; font-weight: bold; line-height: 16px; margin: 20px 0 5px; }
+.featured-content-block h3.title { font-size: 14px; font-weight: bold; line-height: 16px; margin-bottom: 0; }
+.featured-content-block .date { font-weight: bold; margin-bottom: 2px; }

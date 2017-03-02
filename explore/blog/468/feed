@@ -6,6 +6,42 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Becoming a Middle School Computer Programming Teacher </title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blanchette.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sarah Blanchette.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Becoming a middle school computer programming teacher has been an enriching and eye-opening experience.   The focus of this blog is what works in middle school.&lt;/p&gt;
+&lt;p&gt;#1:  Start simple.&lt;br /&gt;
+#2: Go slow.  Allow time for concepts to sink in before moving on to the next, more complicated level.&lt;br /&gt;
+#3: Encourage creativity, exploration, and risk-taking.&lt;br /&gt;
+#4: Don’t spend too much time using one particular curriculum tool.&lt;br /&gt;
+#5: Include making stuff. &lt;/p&gt;
+&lt;p&gt;App Inventor is a great tool for learning programming concepts.  Students loved testing their apps on our tablets and showing other students what they created.  In the beginning (#1), we keep our apps simple.  We require certain features in the app and then encourage exploration (#5).&lt;/p&gt;
+&lt;p&gt;When introducing a new concept, stay with it a while (#2).  Think of many ways to utilize the new concept, thereby providing ample time for the concept to sink in. For example, when introducing the concept of variables, provide clear direct instruction on what variables are and how to use them. Give students directions on how to make an app that requires use of a variable (we started with Tally Counter, from Project Lead the Way curriculum). Follow-up with more simple apps that involve variables, encouraging students to be creative.  This past week, a student named T.J. came up with the idea of using buttons with images to allow classmates to vote for their favorite NBA player (Westbrook, Curry, James, Durant). He will effortlessly use variables to hold the votes and the concept will sink in because of how strongly he feels about basketball. &lt;/p&gt;
+&lt;p&gt;We saw much great student engagement when we added “Make Your Own” apps to the assignment list.  We raised the stakes by putting together a Project Show Day (their words), when they showed off their apps to other 6th grade students.  There was some reluctance to go from apps with detailed directions to Make Your Own; encouraging creativity and risk-taking for each and every app helps build students’ confidence levels.  &lt;/p&gt;
+&lt;p&gt;We learned, after a while, students are ready for change (#4).  Even though there were many aspects to App Inventor we had not explored, there was a strong need to “move on.” Even amongst students who eagerly pursued new and creative ways to use App Inventor, the enthusiasm for trying something new was unbridled.&lt;/p&gt;
+&lt;p&gt;Middle school students love to make things (#5). After learning CS concepts using App Inventor, our kids were ready for and quite loved making Arduino projects. This year we will use Makey Makey as an introductory activity (can turn bananas into arrow keys in conjunction with Scratch game) before moving on to the more complex Arduino projects. Now that App Inventor blocks exist for Lego Mindstorms EV3 robots, we look forward to making apps to control our robots.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 25 Feb 2017 01:09:02 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">866 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>App Inventor Mentioned in Batgirl Comics </title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor was mentioned in the latest Batgirl DC Comic Book, when Barbara Gordon, aka Batgirl, volunteers at a coding workshop at a local elementary school. They even added a link to the App Inventor site!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/batgirl.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Image from Batgirl (2016-) #8&lt;br /&gt;
+Son of Penguin Part 2&lt;br /&gt;
+Produced by DC Entertainment (DC Comics)&lt;br /&gt;
+Colored by Mat Lopes&lt;br /&gt;
+Cover by Chris Wildgoose&lt;br /&gt;
+Inks by Chris Wildgoose and Jon Lam&lt;br /&gt;
+Pencils by Chris Wildgoose&lt;br /&gt;
+Written by Hope Larson&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 25 Feb 2017 01:05:01 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">865 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Verizon Innovative Learning App Challenge Winners Announced</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-1</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/vilac.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;
@@ -255,52 +291,6 @@ Please note that if you give a wrong API key value (either typing error or wrong
  <pubDate>Wed, 18 Jan 2017 20:53:31 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">841 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Opportunity</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Sue Maddock.&lt;/i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maddock.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;It’s been almost a year since I actively changed my focus from teaching computer science to promoting computer science.  While my fundamental goal has not changed – helping students of any age explore and enjoy the process of problem solving using programming – I have found myself seeking out different audiences in addition to teaching my traditional classes.  MIT App Inventor facilitates the process intuitively and convincingly.&lt;/p&gt;
-&lt;p&gt;I teach in a college preparatory day school and my computer science classes – both at the AP level and the introductory electives – have been ‘full’ for several years.  Since I started teaching at the school I have watched enrollments grow and waitlists form.  However, the primary students in these classes were students who already knew they were interested in computer science; I wanted to reach out to students who had never considered programming or who had already rejected it as unrelated to their interests and therefore not worth pursuing.  I have found exposure to coding – as a first try or as a replacement of an outdated experience – to be critical.  I’d like to share four different ways in which I’ve tackled this problem by taking (or sometimes creating) an opportunity to share my love of coding with different groups.&lt;/p&gt;
-&lt;p&gt;The first opportunity is due to a combination of my own role at school – that of a math teacher and a computer science teacher – and of the open-minded nature of my math department colleagues.  In recent years I’ve volunteered to step into my colleagues’ math classes and to teach a coding class, anywhere from 45 to 90 minutes.  I appreciate that they have been able to give me the time; in return I get to challenge a huge variety of students to try programming.  That short exposure to the type of thinking used in computer science intrigues students in surprising ways and I have had many students, most frequently girls, later tell me that the short lesson was pivotal in their decision to sign up for a class.&lt;/p&gt;
-&lt;p&gt;The second opportunity arose when I visited my daughter in Sapporo, Japan this past summer.  Although her degree is in computer science, she is currently an assistant English teacher in a typical Japanese junior high school (grades 7-9).  Jenna asked me if I would allow her eighth grade students to interview me in order for them to practice their English.  I agreed, but asked if we could also do a programming demonstration.   Our limitation was one computer and four tablets to be ‘shared’ by 35 students.  For the demonstration Jenna and I helped the students collectively create a game app using App Inventor.  The game was then downloaded to the tablets and played by groups of students.  The end result was laughter, chaos, tablet faces that needed a good cleaning, and most importantly, a core of students in each class asking about App Inventor and questioning how they could do more programming.&lt;/p&gt;
-&lt;p&gt;The third and fourth opportunities are directly related to each other through my school.  In June of last year I was asked to lead a 30 minute workshop on programming and when we returned to school in August I led a 2 hour workshop on computational thinking. There were fifteen in each session and the participants ranged from teachers in Pre-K up to 12th grade, as well as a few administrators. Very few of them had ever done any programming and most would check off a box marked Humanities rather than STEM if they were asked to categorize themselves. For the June group we started with a simple drawing app; by the time I told them that had to leave or be late to their next commitment (they had already stayed through their snack break) there were fifteen different projects underway in the classroom. As we worked – as teachers shared their successes and ideas and questions with each other – I was able to draw the parallel between what they were experiencing and what my students do on a daily basis. Suddenly the success I’ve had with students who were traditionally unmotivated in their traditional classes made sense to this group of teachers. I know that my colleagues’ experience of coding will translate into a recommendation to their advisees that computer science is worth trying.&lt;/p&gt;
-&lt;p&gt;The August group also used App Inventor to explore the process of computational thinking. My colleagues were intrigued by how quickly several basic ideas taught in common to a group could swiftly transform into fifteen distinct projects, allowing for expressions of individual interests. I could see my colleagues’ stereotypical images of coding disintegrating as they worked. For me, a secondary but important goal of this session was to open a discussion of how computer science can take a lead or a supporting role in any discipline and that students deserve to be exposed to computer science. Over the past several years I have been collecting examples of how computer science supports research and innovation in diverse fields such as the digital humanities, political science, crisis informatics, and bio-medical engineering; these stories resonate. They are one more way in which we can demonstrate the importance of computer science to a group that needs to be shown.&lt;/p&gt;
-&lt;p&gt;Students (and adults) who are reluctant to try computer science often do so because they have no understanding of what it currently means. Take any opportunity you are given to show them how much fun and meaningful it can be.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 10 Jan 2017 23:19:26 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">837 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Spanish Teachers Learn App Inventor to Teach Computational Thinking</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2016/12</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Last Friday, we ran an Android App Development workshop using MIT App Inventor with students of the Master de Profesorado de Enseñanza Secundaria at Pablo de Olavide University in Seville, Spain. These students are future Spanish teachers so the interest was impressive.&lt;/p&gt;
-&lt;p&gt;We discussed the benefits of using MIT App Inventor for Computational Thinking (CT) development and increasing the students’ motivation. We learned how to make simple applications and a method to apply the use of the tool in class.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville1.jpg&quot; style=&quot;display:block; margin:auto; width: 60%; clear:both;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;From App Inventor España, we would like to thank Pablo de Olavide University and its teacher D. Antonio H. Martín Padilla for betting on the use of this tool for the production of digital content within the framework of educational innovation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville3.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;MIT Master Trainers team are aiming very high by introducing MIT App Inventor as a transversal tool in the teaching-learning process of any subject. Undoubtedly, this is a motivating element for students that fosters teamwork, the development of Computational Thinking and the creative expression of solutions to common problems.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/seville2.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;If you are interested in holding a workshop at your university, institute or school do not hesitate to contact any of us through the official MIT website.&lt;/p&gt;
-&lt;p&gt;José Luis Núñez&lt;br /&gt;
-@twajoseluis&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville1.jpg?itok=Zc5OkRjT&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville2.jpg?itok=3Az6iUFv&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/seville3.jpg?itok=EQYXT9Ia&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 08 Dec 2016 15:20:17 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">822 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
