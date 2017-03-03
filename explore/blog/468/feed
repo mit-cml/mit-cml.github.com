@@ -6,6 +6,22 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor and Makers (1): Smart Bathtub</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/03/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/bathtub-makers.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;
+This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/app-inventor-and-maker-1-smart-bathtub.html&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; from MIT Master Trainer Xiangqun (Juliet) Chen. Check out 9th grade students who make a smart bathtub with MIT App Inventor and Arduino. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/bathtub-makers.jpg?itok=3dqaT80A&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 03 Mar 2017 23:05:37 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">868 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Becoming a Middle School Computer Programming Teacher </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-2</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blanchette.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sarah Blanchette.&lt;/i&gt;&lt;/p&gt;
@@ -282,15 +298,6 @@ Please note that if you give a wrong API key value (either typing error or wrong
  <pubDate>Wed, 18 Jan 2017 23:33:24 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">842 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor and IoTs</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Please read the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2016/12/app-inventor-and-iots.html&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; by MIT Master Trainer Xiangqun &quot;Juliet&quot; Chen.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 18 Jan 2017 20:53:31 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">841 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
