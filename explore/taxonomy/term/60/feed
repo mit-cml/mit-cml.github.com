@@ -6,6 +6,108 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>LEGO EV3 Color Search</title>
+ <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-color-search</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows you how to build a mobile app that instructs an EV3 LEGO robot to search for a certain color on a white surface bordered by black. The user can pick one color out of red, green, blue, or yellow for the robot to search. The robot will search across the white surface and turn around if it gets to the black border. Here is a &lt;a href=&quot;https://www.youtube.com/watch?v=OlD2ruKAvHg&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;demonstration video&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Gn8IDujPLFSffcYfSBBexP2NXBEXDMI2vZpH7u2Qjpc/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        LEGO® EV3      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Tue, 07 Mar 2017 01:04:15 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">870 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Lego EV3 Pet Robot</title>
+ <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-pet-robot</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial helps you to build an app that allows the user to instruct an EV3 LEGO robot to do certain maneuvers and actions through voice commands. The user can pick one of several commands: forward, backward (reverse), stop, forward slow, forward fast, disconnect, circles, right turn (turn right), left turn (turn left). The robot will follow the user’s voice commands and perform the action for half a second before prompting the user for another command. If the user provides no commands, the previous command will be executed until another command is registered.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Bp_iB2H71oXZDYE2DWcYdTIKalbkupVW4ZKBzFKHcKY/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        Intermediate      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
+
+      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
+  
+  &lt;ul class=&quot;field-items&quot;&gt;
+
+    
+      &lt;li class=&quot;field-item even&quot;&gt;
+        LEGO® EV3      &lt;/li&gt;
+
+    
+  &lt;/ul&gt;
+
+&lt;/section&gt;
+</description>
+ <pubDate>Tue, 07 Mar 2017 00:59:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">869 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>LEGO ®  EV3 Tilt-to-Drive Tutorial</title>
  <link>http://explore.appinventor.mit.edu/ai2/lego-%C2%AE-ev3-tilt-drive</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial lets you make an app that drives around an EV3 LEGO robot by tilting a phone or tablet. Tilting forward makes the bot go forward, back --&amp;gt; back, right --&amp;gt; right, left --&amp;gt;left. A steeper pitch will make the robot drive faster… etc.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1KZF1785Kan2ZKHY90114lIXzhn-5SOX3g21h03fHRnA/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
@@ -822,280 +924,6 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
  <pubDate>Thu, 27 Feb 2014 14:16:47 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">487 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Android, Where&#039;s My Car? for App Inventor 2</title>
- <link>http://explore.appinventor.mit.edu/ai2/android-wheres-my-car</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 class=&quot;ai-header&quot;&gt;&lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/tutorials/wheresMyCar/wheresMyCar.zip&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/android-where.jpg&quot; style=&quot;float:right; width:250px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;You parked somewhere near the stadium, but when the concert ends you don&#039;t have a clue where the car is. The friends you came with are equally as clueless.&lt;/p&gt;
-&lt;p&gt;Fortunately you haven&#039;t lost your Android phone that never forgets anything, and you remember you have the hot new app, &lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt;. With this app, you click a button when you park your car, and the Android uses its location sensor to record the car&#039;s GPS coordinates and address. Later, when you reopen the app, it shows you a map from where you are to the remembered location-- problem solved!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dailylifeofmojo/4128596089/&quot;&gt;Photo&lt;/a&gt; licensed under &lt;a href=&quot;http://creativecommons.org/licenses/by/2.0/deed.en&quot;&gt;Creative Commons&lt;/a&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h4&gt;
-&lt;p&gt;The app demonstrates how to communicate with the Android location sensor, how to record data in the phone&#039;s long-term memory (database), and how you can open the Google Maps app from your app to show directions from one one location to another. It makes use of the following App Inventor components:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;Location Sensor&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;TinyDB&lt;/b&gt; -- to store the data&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;ActivityStarter&lt;/b&gt; -- to open a map&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The User Interface&lt;/h4&gt;
-&lt;p&gt;Here are the components for the &lt;span style=&quot;color:green;&quot;&gt;Android, Where&#039;s My Car?&lt;/span&gt; app, as shown in the Component Designer:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/WheresMyCarDesign.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The user interface consists of labels to show location data and buttons to initiate events. Some labels just show static text, e.g., GPSLabel is the text &quot;GPS:&quot; that appears in the user interface. Others, such as CurrentLatLabel, will display dynamic data one the location sensor gets its readings. For these labels, a default value is set (0) here in the Component Designer.&lt;/p&gt;
-&lt;p&gt;The ActivityStarter1 component is used to launch the map when the user asks for directions. Its properties are only partially shown above. Here is how they should be specified:&lt;/p&gt;
-&lt;table&gt;&lt;tr style=&quot;background-color: #EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Property&lt;/td&gt;
-&lt;td&gt;Value&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;Action&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;android.intent.action.VIEW&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;ActivityClass&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;com.google.android.maps.MapsActivity&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;
-&lt;b&gt;ActivityPackage&lt;/b&gt;
-&lt;/td&gt;
-&lt;td&gt;com.google.android.apps.maps&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h4 class=&quot;ai-header&quot;&gt;The App&#039;s Behavior&lt;/h4&gt;
-&lt;p&gt;Here are the blocks for the &lt;span style=&quot;color: green;&quot;&gt;Android, Where&#039;s My Car&lt;/span&gt; app (the yellow annotations will also appear when you load this app into App Inventor):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/wheresMyCar/WheresMyCarBlocks.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Let&#039;s examine the four different event-handlers of the app, starting in the top-left and working around in counter-clockwise order.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;LocationSensor1.LocationChanged&lt;/span&gt;: This event occurs when the phone&#039;s location sensor first gets a reading, or when the phone is moved to produce a new reading. The event-handler just places the readings--latitude, longitude, and current (street) address-- into the corresponding &quot;Current&quot; labels so that they appear on the phone. The RememberButton is also enabled in this event-handler. Its enabled setting should be unchecked in the Component Designer because there is nothing for the user to remember until the sensor gets a reading.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;RememberButton.Click&lt;/span&gt;: When the user clicks the RememberButton , the location sensor&#039;s current readings are put into the &quot;remember&quot; labels and stored to the database as well. The DirectionsButton is enabled as it now makes sense for the user click on it to see a map (though it will make more sense once the user changes location).&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;DirectionsButton.Click&lt;/span&gt;: When the user clicks the DirectionsButton , the event-handler builds a URL for a map and calls ActivityStarter to launch the Maps application and load the map. &lt;span class=&quot;textblock-ai2&quot;&gt;join&lt;/span&gt; is used to build the URL to send to the Maps application. The resulting URL consists of the Maps domain along with two crucial parameters, saddr and daddr , which specify the start and destination for the directions. For this app, the saddr is set to the latitude and longitude of the current location, and the daddr is set to the latitude and longitude of the location that was &quot;remembered&quot; (the location of your car!).&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;controlblock-ai2&quot;&gt;Screen1.Initialize&lt;/span&gt;: This event is always triggered when an app opens. To understand it, you have to envision the user recording the location of the car, then closing the app, then later re-opening the app. When the app re-opens, the user expects that the location remembered earlier should appear on the phone. To facilitate this, the event-handler queries the database (&lt;span class=&quot;callblock-ai2&quot;&gt;call TinyDB.GetValue&lt;/span&gt;). If there is indeed a remembered address stored in the database-- the length of the stored address is greater than zero--the remembered latitude, longitude, and street addres are placed in the corresponding labels.&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Variations&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;Create &quot;Android, Where is Everyone?&quot;, an app that lets a group of people track each other&#039;s whereabouts. Whether your hiking or at the park, this app could help save time and even lives.&lt;/li&gt;
-&lt;li&gt;Create a &quot;breadcrumb&quot; app that tracks your (phone&#039;s) whereabouts by recording each location change. One interesting refinement would be to only record a new &quot;breadcrumb&quot; if the location has changed by a certain amount.&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Review&lt;/h4&gt;
-&lt;p&gt;Lines and paragraphs break automatically.&lt;/p&gt;
-&lt;p&gt;Here are some of the ideas covered in this tutorial:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;The &lt;b&gt;LocationSensor&lt;/b&gt; component can report the phone&#039;s latitude, longitude, and current street address. Its LocationChanged event is triggered when sensor gets its first reading and when the reading changes (the phone has moved).&lt;/li&gt;
-&lt;li&gt;The &lt;b&gt;ActivityStarter&lt;/b&gt; component can launch any app including Google Maps. For Maps, you set the DataUri property to the URL of the map you want to display. If you want to show directions, the URL will be of the form: &lt;a href=&quot;http://maps.google.com/maps/?saddr=0.1,0.1&amp;amp;daddr=0.2,0.2&quot;&gt;http://maps.google.com/maps/?saddr=0.1,0.1&amp;amp;daddr=0.2,0.2&lt;/a&gt;, where the numbers are GPS coordinates.&lt;/li&gt;
-&lt;li&gt;&lt;span class=&quot;textblock-ai2&quot;&gt;join&lt;/span&gt; is used to piece together (concatenate) separate text items into a single text object. It allows you to concatenate dynamic data with static text. With the Maps URL, the GPS coordinates are the dynamic data.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;TinyDB&lt;/b&gt; allows you to store data persistently in the phone&#039;s database. Whereas the data in a variable or property is lost when an app closes, the data you store in the database can be loaded into your app each time it is opened.&lt;/li&gt;
-&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
-&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
-&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/wheresMyCar/AndroidBarcode.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/wheresMyCar/AndroidWheresMyCar_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch7AndroidWhere.pdf&quot;&gt;Download Refined Version (Book Chapter PDF)&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Activity Starter      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Data Storage      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        GPS      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
- <pubDate>Mon, 24 Feb 2014 21:59:40 +0000</pubDate>
- <dc:creator>emily_c</dc:creator>
- <guid isPermaLink="false">486 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>NFC Cup Game for AI2</title>
- <link>http://explore.appinventor.mit.edu/ai2/cup-game</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt; This tutorial will demonstrate App Inventor&#039;s Near Field Communication (NFC) capabilities. You&#039;ll build an application that will simulate the shell game by writing messages to NFC tags in setup mode and reading them in play mode. In order to get the full experience from this application, you will need to purchase readable, writable, NFC tags. &lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;IMPORTANT: Applications built with the NFC component will not respond to tags while in live development mode. &lt;strong&gt;To test your application, you must build your app and download the APK to your phone&lt;/strong&gt;. (&lt;a href=&quot;/ai2/share&quot;&gt;How do I build an APK?&lt;/a&gt;)&lt;/pre&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Getting Started&lt;/h2&gt;
-&lt;p&gt;Go to the App Inventor website, begin a new project titled &#039;BallShuffle&#039;, and connect your phone. Download the following images onto your computer and upload them into your project. (Right-click or ctrl-click and choose Save Image. Remember where you put them!)&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg&quot; target=&quot;blank&quot;&gt;Ping Pong Ball Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/pingpongball.jpg&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png&quot; target=&quot;blank&quot;&gt;Question Mark Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/questionmark.png&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg&quot; target=&quot;blank&quot;&gt;Red Cup Image&lt;/a&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfcballshuffle/redcup.jpg&quot; style=&quot;width:30px;height:30px&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Set up the Components&lt;/h2&gt;
-&lt;p&gt;The user interface will consist of a menu at the top that lets you switch between the “setup” and “play” modes, a menu that will appear during setup mode and disappear during play mode, and in image that will change based on NFC input and output.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcComponentSetup.png&quot; /&gt;&lt;/p&gt;
-&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr style=&quot;background-color:#EFEFEF; font-weight: bold;&quot;&gt;&lt;td&gt;Component Type&lt;/td&gt;
-&lt;td&gt;Palette Group&lt;/td&gt;
-&lt;td&gt;What You&#039;ll Name It&lt;/td&gt;
-&lt;td&gt;Purpose of Component&lt;/td&gt;
-&lt;td&gt;Component Settings&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;MainMenuLabel&lt;/td&gt;
-&lt;td&gt;Title bar for main menu&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Main Menu; &lt;span class=&quot;ButtonText&quot;&gt;Font&lt;/span&gt;: Bold; &lt;span class=&quot;ButtonText&quot;&gt;Fontsize&lt;/span&gt;: 16&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;MainMenuArrangement&lt;/td&gt;
-&lt;td&gt;Line up two &quot;mode&quot; buttons side by side&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Automatic&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;SetupModeButton&lt;/td&gt;
-&lt;td&gt;Change to setup mode&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Setup; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;PlayModeButton&lt;/td&gt;
-&lt;td&gt;Change to play mode&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Play; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;VerticalArrangement&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;SetupArrangement&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;VerticalArrangement&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;SetupMenuArrangement&lt;/td&gt;
-&lt;td&gt;Line up the setup menu options&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;SetupMenuLabel&lt;/td&gt;
-&lt;td&gt;Title bar for setup menu&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: SetupMenu; &lt;span class=&quot;ButtonText&quot;&gt;Font&lt;/span&gt;: Bold&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;HorizontalArrangement&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;SetupButtonArrangement&lt;/td&gt;
-&lt;td&gt;Hold the buttons for setup menu&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;BallButton&lt;/td&gt;
-&lt;td&gt;Lets user define NFC tag as &quot;ball&quot;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Ball; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Button&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;CupButton&lt;/td&gt;
-&lt;td&gt;Lets user define NFC tag as &quot;cup&quot;&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: Cup; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;InstructionLabel&lt;/td&gt;
-&lt;td&gt;Give the user instructions for the mode they are in&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: -; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Image&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;Image1&lt;/td&gt;
-&lt;td&gt;Place holder for images&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Height&lt;/span&gt;: 200 pixels; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;span class=&quot;ButtonText&quot;&gt;Picture&lt;/span&gt;: questionmark.png&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Horizontal Arrangement&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Layout&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;ImageArrangement&lt;/td&gt;
-&lt;td&gt;Allows you to center the image&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;AlignHorizontal&lt;/span&gt;: Center; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent; &lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Label&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;User Interface&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;ResultsLabel&lt;/td&gt;
-&lt;td&gt;Show results of user&#039;s actions&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;Text&lt;/span&gt;: -; &lt;span class=&quot;ButtonText&quot;&gt;Width&lt;/span&gt;: Fill Parent&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;NearField&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Sensors&lt;/td&gt;
-&lt;td style=&quot;color:green&quot;&gt;NearField1&lt;/td&gt;
-&lt;td&gt;Gives access to NFC capabilities&lt;/td&gt;
-&lt;td&gt;&lt;span class=&quot;ButtonText&quot;&gt;ReadMode&lt;/span&gt;: checked;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;&lt;h2 class=&quot;ai-header&quot;&gt;Add Behaviors to the Components&lt;/h2&gt;
-&lt;p&gt;We&#039;re going to build all of the menus and make the menus work, then we&#039;ll modify them to incorperate the NearField component.&lt;/p&gt;
-&lt;p&gt;To start, we&#039;re going to create several variables to make it easier to reference text that will be reused throughout the application:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/globalVariablesBlock.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Next we&#039;re going to define the initialization behavior and define the button behavior:&lt;/p&gt;
-&lt;p&gt;When the screen is initialized, we want the app to display the question mark picture and the setup instructions. Since the SetupMenuArrangement is initially set to visible, we don&#039;t have to address it in the Screen1.Initialize block. When the user clicks on the SetupModeButton or on the PlayModeButton, then we want to change the SetupMenuArrangement to visible or invisible respectively. In addition, when the user clicks one of these two buttons, we want to make sure that the correct instructions for that mode is displayed and that the image resets to the question mark picture. When the user clicks on BallButton, we want the image to a change picture of the ball and the CupButton should change the image to a picture of the cup. &lt;/p&gt;
-&lt;p&gt; The blocks should look like the image below and the buttons should correctly toggle all of the images&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlock.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now that the interface works correctly, we&#039;re going to add the NFC functionality to the app. We&#039;re going to modify the 5 blocks by adding the correct NFC behavior to each one. This will make the buttons turn on read mode when the &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/menuControlBlockNFC.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now, we define the app&#039;s behavior when a tag is written. When the app writes a tag, we want the the instructions to update, we want the picture to reset, and we want to change NearField1.ReadMode to true so that the tag isn&#039;t accidentally overwritten.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagWrittenBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Finally, we&#039;re going to define the tag read block which contains the majority of the logic for the app. If the app is in play mode and it reads a tag that says &quot;ball,&quot; then it will display the victory message and show a picture of a ball. If it reads &quot;cup,&quot; then it will display the loss message and show a picture of a cup. Finally, if it doesn&#039;t recognize the message, it will display an error message and append the message to the end.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/tagReadBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; Finally, here&#039;s a screen shot of the entire completed app &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/nfccupgame/nfcFinalBlocks.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/nfccupgame/cup_game.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
-&lt;p&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;CupGame&lt;/span&gt;? Return to to the other App Inventor 2 tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        NFC (Near Field Comm.)      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Game      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
- <pubDate>Fri, 07 Feb 2014 22:43:37 +0000</pubDate>
- <dc:creator>michaelphox</dc:creator>
- <guid isPermaLink="false">473 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

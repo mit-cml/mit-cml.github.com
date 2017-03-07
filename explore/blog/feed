@@ -6,6 +6,22 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor and Makers (1): Smart Bathtub</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/03/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/bathtub-makers.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;
+This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/app-inventor-and-maker-1-smart-bathtub.html&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; from MIT Master Trainer Xiangqun (Juliet) Chen. Check out 9th grade students who make a smart bathtub with MIT App Inventor and Arduino. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/bathtub-makers.jpg?itok=3dqaT80A&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 03 Mar 2017 23:05:37 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">868 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Becoming a Middle School Computer Programming Teacher </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-2</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blanchette.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sarah Blanchette.&lt;/i&gt;&lt;/p&gt;
@@ -222,50 +238,6 @@ The last one applies to any class size really. It’s vital for students to unde
  <pubDate>Mon, 23 Jan 2017 21:54:47 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">846 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>New Release (nb154) coming next Friday</title>
- <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/01/new</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
-This coming Friday, January 27th, we will be releasing version nb154&lt;br /&gt;
-of MIT App Inventor.
-&lt;/p&gt;
-&lt;p&gt;
-This is a component release, which means that it updates the&lt;br /&gt;
-component software used on devices by MIT App Inventor developed&lt;br /&gt;
-applications. Most of the changes are bugfixes or updates needed to&lt;br /&gt;
-make MIT App Inventor compatible with the latest version of Android.
-&lt;/p&gt;
-&lt;p&gt;
-There is one new feature, the “ShowListsAsJson” has been added to&lt;br /&gt;
-Screen1. This property, when set, will result in list structures being&lt;br /&gt;
-displayed in JavaScript Object Notation (JSON) instead of Lisp&lt;br /&gt;
-structures. This property is only visible on Screen1, but effects all&lt;br /&gt;
-screens.
-&lt;/p&gt;
-&lt;p&gt;
-By default this new property is not set. However at a future date new&lt;br /&gt;
-projects will be created with it set to true (existing projects will&lt;br /&gt;
-not be affected).
-&lt;/p&gt;
-&lt;p&gt;
-Because this is a component release, there will be a new MIT AI2&lt;br /&gt;
-Companion released at the same time. The current Companion (version&lt;br /&gt;
-2.39) will continue to work, but you will need the newer version&lt;br /&gt;
-(currently planned as 2.40) in order to use the “ShowListsAsJson.”
-&lt;/p&gt;
-&lt;p&gt;
-The release is scheduled for January 27th at 10PM US Eastern Standard&lt;br /&gt;
-Time. That is 2017-01-28T03:00:00Z (aka 3AM on Saturday, January 28th,&lt;br /&gt;
-UTC).
-&lt;/p&gt;
-&lt;p&gt;
--Jeff
-&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sun, 22 Jan 2017 22:11:21 +0000</pubDate>
- <dc:creator>jeff</dc:creator>
- <guid isPermaLink="false">845 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
