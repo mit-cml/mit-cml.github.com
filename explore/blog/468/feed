@@ -6,6 +6,45 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor and Maker (2): Bluetooth Desk LED Light</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/04/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/led-desk.jpg&quot; style=&quot;float:left; margin-right:10px; width: 30%;&quot; /&gt;&lt;br /&gt;
+This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/app-inventor-and-maker-2-bluetooth-led.html&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; from MIT Master Trainer Xiangqun (Juliet) Chen. Check out the first prize winning app in 2016 Guangdong Student Maker Contest!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/led-desk.jpg?itok=dQCosGI2&quot; width=&quot;180&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 14 Apr 2017 03:30:27 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">879 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>CS Unplugged in New Zealand</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/04/cs</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/unplugged.png&quot; style=&quot;float: right; margin-left: 10px; width: 25%;&quot; /&gt;I was lucky enough to spend a day last week at the University of Canterbury in Christchurch, New Zealand with Tim Bell and his CS Unplugged team. We had quite a long discussion on computer science, pedagogy, and curricula. The Unplugged team is currently working on revision and additions to the famous CS Unplugged activities. Tim was definitive that the unplugged activities are “one way” to help students understand various computer science concepts, and are not meant to be a complete curriculum. The unplugged activities are interactive, hands-on, and engaging, and allow students to learn CS concepts in a fun and non-threatening way. Microsoft has just awarded the team a large grant to fund the unplugged revisions. The team is also working on programming challenges that follow on from the unplugged activities, making the bridge from unplugged to  “plugged-in” activities. The challenges range from simple to advanced, allowing students (or teachers) to choose a difficulty level to try. Also, students are motivated to make their way through the challenges, from easy to difficult. &lt;/p&gt;
+&lt;p&gt;I also learned about another ongoing project that Tim oversees – the Computer Science Field Guide. It is an open source, interactive textbook that is an online resource for both students and teachers to learn about different aspects of Computer Science. Again, the purpose is not to act as a standalone curriculum, but to be an additional resource for those teaching or learning Computer Science.&lt;/p&gt;
+&lt;p&gt;Our discussions led to the new New Zealand Digital Technologies curricula, and the current development work that is happening, especially at the primary and intermediate levels. Most New Zealand schools only offer Computer Science and programming courses at the college (equivalent to US high school) level. The main languages used to teach Computer Science in New Zealand are Scratch and Python. Much work is underway to bring Computer Science and computational thinking to the lower grades, to ensure that students have access to digital technologies throughout their education. &lt;/p&gt;
+&lt;p&gt;I also had the privilege of meeting a group of local Christchurch teachers, who came to hear more about MIT App Inventor, how it is used in schools, and ways to use to teach computational thinking. We spent an hour or so looking at a simple app made with App Inventor, then discussing how App Inventor can be used in the classroom, and at what grade levels. I talked about the CoolThink Project in Hong Kong, where MIT App Inventor is being used to teach 4th, 5th, and 6th graders computational thinking. Most of the New Zealand teachers were hoping to use App Inventor in year 10 of school, fitting it between Scratch and Python, in their progression of computing languages. &lt;/p&gt;
+&lt;p&gt;Overall, it was an informative and exhilarating day, to see the energy and excitement that is churning around CS education in New Zealand. I look forward to seeing the rollout of the CS Unplugged updates, and also the New Zealand Digital Technologies curriculum over the next year. Exciting times in New Zealand!&lt;/p&gt;
+&lt;div style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/christchurch.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Christchurch Cardboard Cathedral&lt;/i&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/unplugged.png?itok=svGz5Kr-&quot; width=&quot;480&quot; height=&quot;139&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/christchurch.jpg?itok=l8HBaM92&quot; width=&quot;480&quot; height=&quot;340&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 14 Apr 2017 03:23:35 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">878 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>UNESCO YouthMobile Event in Doha</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/03</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Felicia Kamriani.&lt;/i&gt;&lt;/p&gt;
@@ -211,39 +250,6 @@ The last one applies to any class size really. It’s vital for students to unde
  <pubDate>Tue, 07 Feb 2017 23:11:41 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">854 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>My Experience at the App Inventor Summit</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01/my</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lim.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Yen Yen Lim&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;My blog will focus on a couple of presentations I watched as an attendee, and my experience as a hackathon judge at the App Inventor Summit in MIT Media Lab on June 22-24, 2016. &lt;/p&gt;
-&lt;p&gt;I was fascinated by one of the presentations. It showcased an app created by a customized App Inventor which sent live data to iSense (&lt;a href=&quot;http://www.isenseproject.org&quot; target=&quot;_blank&quot;&gt;www.isenseproject.org&lt;/a&gt;) which is an online collaborative data visualization system. Through the system, the data fed to iSense was then transformed into a colorful graphical chart on the website. This App Inventor project, Creating Data-Rich Projects in App Inventor with AppVis, was presented by 3 college students, Fred Martin &amp;amp; Farzeen Harunani from UMass Lowell, and Samantha Michalka from Olin College. The presentation slides can be found &lt;a href=&quot;https://docs.google.com/presentation/d/11WNYx4UIRwj3h_YIvnQ5jNQpsCHUj9UpIQpHcalZvvU/edit#slide=id.g114941b1bd_0_238 target=&quot; _blank=&quot;&quot;&gt;here&lt;/a&gt;.  The group has created iSense-enabled versions of App Inventor and its App companion. The App Inventor IDE is located at &lt;a href=&quot;http://ai.cspathways.org&quot; target=&quot;_blank&quot;&gt;ai.cspathways.org&lt;/a&gt;.  And, its App Inventor companion can be scanned via a QR code by clicking “Help” and then “Companion Information” on ai.cspathways.org, or downloaded from &lt;a href=&quot;http://bit.ly/appviscomp&quot; target=&quot;_blank&quot;&gt;bit.ly/appviscomp&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I also learned that the newest release of App Inventor includes a new feature, Bluetooth Low Energy, which allows mobile apps to control Bluetooth-low-energy enabled devices. Jose Gomez-Marquez and Andrew McKinney, from MIT, demonstrated its usage.&lt;/p&gt;
-&lt;p&gt;During the summit, I also had the opportunity to be one of the 4 judges for the kids’ hackathon.  It was an interesting event where the kids were given a task to create an app to address any problem pertaining to environmental science, ecology, or human ecology. The app was judged on the following criteria in decreasing merit: the theme of the app, the feasibility of implementing the idea on the mobile, the originality of the idea, the user-interface of the app, the coding of the app, and the group oral presentation of their idea.  In order to encourage the use of the various mobile components that App Inventor supports, additional points were awarded based on the number of components being utilized in the apps:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Media: player, sound, text to speech, camera, camcorder, image, etc. &lt;/li&gt;
-&lt;li&gt;Sensors: clock, location, orientation, NFC, accelerometer, pedometer, etc.&lt;/li&gt;
-&lt;li&gt;Social: email, texting, photos, sharing, Twitter, use of contact list&lt;/li&gt;
-&lt;li&gt;Storage: fusion tables, files, Tiny DB, Firebase DB&lt;/li&gt;
-&lt;li&gt;Connectivity: Bluetooth, web, activity starter, etc.&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 27 Jan 2017 02:29:18 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">850 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Teaching Maths App Project</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/01-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lam.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Carly Lam.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Maths Survival Game Project involves creating a mobile game with MIT App Inventor that upon starting, will prompt maths questions to pop up on the screen, which the player will have to answer. There will be a timer that limits the amount of time given to the player to answer the questions correctly. Incorrect answers or answers not submitted in time will cause the player to lose one ‘life’ out of three ‘lives’. Upon losing all ‘lives’, the player will be shown a small pop up screen that informs of the player’s loss, and a button that allows the game to be restarted. When one answer is submitted correctly, the player will be awarded one point, and these points will add up under the player’s High Score. &lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maths-app.png&quot; style=&quot;float: right; margin-left: 10px; margin-top: 5px; width: 25%; border: 1px solid grey;&quot; /&gt;The player will also be congratulated when a new High Score has been reached. The aim of this game is to speed up user’s arithmetic skills such as solving multiplication, division, addition and subtraction under time pressure.&lt;br /&gt;&lt;/p&gt;&lt;h3&gt;The Learning Goals of the Project&lt;/h3&gt;
-&lt;p&gt;In this Maths Game Project, the learning goal we have set up for the students is mainly the ability to learn and apply knowledge. We introduce the students to programming concepts including variables, database storage, random generators, and incrementation. They have to apply these to their game through effective and strategic planning to build this fun, educational, and most importantly, functional game.&lt;/p&gt;
-&lt;p&gt;Students explore cause and effect within this program. They must designate each button to a purpose that it must serve. For example, having a button to generate a question, a number, or to take the player to a different screen. Timers are something else that they had to work with. They must program the computer to recognise at what interval would the player have failed the question and lost a ‘life’, whether they have plenty or just enough time, and to behave to these conditions appropriately.&lt;/p&gt;
-&lt;h3&gt;Summary of Concepts Covered Whilst Doing the Project&lt;/h3&gt;
-&lt;p&gt;This project challenges students to develop their decomposition, abstraction, algorithmic, and pattern recognition skills to provide a solution to a problem in a way that can be understood by both the machine and people.&lt;/p&gt;
-&lt;p&gt;Students learn to break down a problem, and to extract the information most necessary to them through abstraction. In the creation of a solution (in this case, the game itself is the solution!), they must put their understanding of algorithm to the test, and with practice, they will soon recognise the formula behind programming.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 23 Jan 2017 21:54:47 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">846 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
