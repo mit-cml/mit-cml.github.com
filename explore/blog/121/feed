@@ -8,7 +8,7 @@
 <item>
  <title>New Release (nb154) coming next Friday</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/01/new</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
 This coming Friday, January 27th, we will be releasing version nb154&lt;br /&gt;
 of MIT App Inventor.
 &lt;/p&gt;
@@ -44,7 +44,7 @@ UTC).
 &lt;p&gt;
 -Jeff
 &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sun, 22 Jan 2017 22:11:21 +0000</pubDate>
  <dc:creator>jeff</dc:creator>
  <guid isPermaLink="false">845 at http://explore.appinventor.mit.edu</guid>
@@ -52,7 +52,7 @@ UTC).
 <item>
  <title>New Release Coming (nb147)</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2016/02/new</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We will be deploying a new release of MIT App Inventor on Thursday&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We will be deploying a new release of MIT App Inventor on Thursday&lt;br /&gt;
 afternoon on February 18th (2016-02-19 02:00:00 UTC). The details are&lt;br /&gt;
 in the &lt;a href=&quot;https://docs.google.com/document/d/1w_QMUBTmHGFGyekjF1OiBz6cNpSyZ5oPenUigwlZmj8/pub&quot; target=&quot;_blank&quot;&gt;Release Notes (DRAFT).&lt;/a&gt;&lt;/p&gt;
 &lt;!-- break --&gt;&lt;p&gt;This release adds new Components and Features to MIT App Inventor&lt;br /&gt;
@@ -71,7 +71,7 @@ upgrade your companion “on the fly” on a schedule of your&lt;br /&gt;
 choosing. Again, if you downloaded the Companion from the Google Play&lt;br /&gt;
 Store, and auto-update is set, you will get the upgrade without having&lt;br /&gt;
 to take any action.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Thu, 11 Feb 2016 20:08:52 +0000</pubDate>
  <dc:creator>jeff</dc:creator>
  <guid isPermaLink="false">703 at http://explore.appinventor.mit.edu</guid>
@@ -79,11 +79,11 @@ to take any action.&lt;/p&gt;
 <item>
  <title>One Computer At a Time</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2014/03/one</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor is designed to be used by an individual using only one computer at a time. If you open a project on one computer and then open the same project on a second computer (or even in a second browser window) you can cause your project to become corrupted.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor is designed to be used by an individual using only one computer at a time. If you open a project on one computer and then open the same project on a second computer (or even in a second browser window) you can cause your project to become corrupted.&lt;/p&gt;
 &lt;!--break--&gt;&lt;p&gt;This is because the two sessions do not know about each other. So the last session to save the blocks “wins.” For example if you open a project on a computer in your office and then go home and open the same project from your home computer and make some changes. When you return to your office, your office computer will not have the changes you made at home. If you modify any blocks on your office computer, the version in your office computer will be saved. Your changes from your home computer will be lost.&lt;/p&gt;
 &lt;p&gt;On Sunday March 16th we will be installing a new version of MIT App Inventor. This version will introduce a new feature. When you login to App Inventor, any previous session will become “read only.” A red warning bar will appear on them warning you that changes on that computer will not be saved. Simple rule, most recent login is OK, others will not be able to save changes.&lt;/p&gt;
 &lt;p&gt;Unfortunately we cannot introduce this change seamlessly. When we perform the actual upgrade, anyone using MIT App Inventor will receive a red-bar error indicating that we have done an update. You will then just need to reload your browser’s window in order to continue.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sun, 16 Mar 2014 14:52:49 +0000</pubDate>
  <dc:creator>jeff</dc:creator>
  <guid isPermaLink="false">497 at http://explore.appinventor.mit.edu</guid>
@@ -91,7 +91,7 @@ to take any action.&lt;/p&gt;
 <item>
  <title>Time to Update the Companion</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2014/02/time</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Back at the beginning of January &lt;a href=&quot;/blogs/jeff/2014/01/new-version-setup-tools&quot; target=&quot;_blank&quot;&gt;I wrote&lt;/a&gt; to explain how we are going to reduce the number of times you have to update your MIT App Inventor software installation by distributing a Companion App with the ability to update itself.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Back at the beginning of January &lt;a href=&quot;/blogs/jeff/2014/01/new-version-setup-tools&quot; target=&quot;_blank&quot;&gt;I wrote&lt;/a&gt; to explain how we are going to reduce the number of times you have to update your MIT App Inventor software installation by distributing a Companion App with the ability to update itself.&lt;/p&gt;
 &lt;p&gt;On February 11 we’ll implement this auto-update mechanism in MIT App Inventor 2, so that your Companion App will be brought up to the newest version.  To take advantage of this new feature, you might have to manually update Companion one final time.&lt;/p&gt;
 &lt;!--break--&gt;&lt;p&gt;After you have completed this one-time update to install the newest version of the companion, future updates will happen automatically.&lt;/p&gt;
 &lt;h2&gt;What you need to do&lt;/h2&gt;
@@ -99,7 +99,7 @@ to take any action.&lt;/p&gt;
 &lt;p&gt;If you are running version older than 2.10ai2 (and 2.10ai2zx1) you will be prompted that your Companion is out of date and you will have to manually update it by installing the new version using the instructions on the &lt;a href=&quot;/ai2/setup-device-wifi&quot; target=&quot;_blank&quot;&gt;WiFi Setup Page.&lt;/a&gt;  You probably already have been receiving warnings if you are running a Companion that old.&lt;/p&gt;
 &lt;p&gt;If you are running a version between 2.10ai2 and 2.12.ai2, and you did not download it from the Google Play store, then you will see a dialog on your browser when you attempt to connect to the Companion from App Inventor. This dialog will explain that the auto-update is about to happen. Click “OK” and the update will commence. Once you do this, on your device (or in the emulator) you will see the Android Package Manager start (it may take a few seconds). It will tell you that there is an update for the Companion and ask for your permission to install it. Depending on the version of Android you have, you may be asked a second time for confirmation. In both cases, grant the permission and the Companion will update itself. When it is done, you will be returned to your device’s home screen. You will then need to restart the companion, at which point you should see the new version.&lt;/p&gt;
 &lt;p&gt;If you are running in the Emulator, you should be able to select “Connect Emulator” again from the App Inventor Connect menu and you should get connected without issue. If you have difficulty, select “Reset Connections” from the “Connect” menu and try again.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 11 Feb 2014 00:52:22 +0000</pubDate>
  <dc:creator>jeff</dc:creator>
  <guid isPermaLink="false">480 at http://explore.appinventor.mit.edu</guid>
@@ -107,14 +107,14 @@ to take any action.&lt;/p&gt;
 <item>
  <title>Time to Install New Setup Tools!</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2014/01/new-version-setup-tools</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Version 2.2 of the Mac and Windows Setup tools is yet another version!  Why so many versions? And what we are doing about it?!&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Version 2.2 of the Mac and Windows Setup tools is yet another version!  Why so many versions? And what we are doing about it?!&lt;/p&gt;
 &lt;p&gt;The MIT AI2 Companion is a copy of every “component” of App Inventor. When you are using the companion, your blocks program is sent over to the companion which then interprets the blocks in order to run your program.&lt;/p&gt;
 &lt;p&gt;When we update the App Inventor components, we need to distribute a new Companion which contains the updated components. Otherwise your program, when run on the Companion, may not work as expected. When you use a device (phone or tablet) and install the MIT AI2 Companion from the Google Play Store, you should select the “automatic update” option. This will cause the Play Store to send you a new version when we make one available.&lt;/p&gt;
 &lt;p&gt;The Android Emulator, which we distribute with the Setup Tools has a copy of the MIT AI2 Companion embedded in it. Because it wasn’t loaded from the Play Store, it doesn’t get updated. So when we distribute a new Companion, we need to distribute a new version of the Setup Tools. However we know that the Setup Tools package is large and can take some time to download and install. Particularly if you need to install it on several computers.&lt;/p&gt;
 &lt;p&gt;Fortunately we believe that version 2.2 will be the last update for a while (fingers crossed). With version 2.2 we are introducing a self updating version of the Companion. If we update the components and build a new Companion, the next time you use the Emulator we will update the embedded Companion. You will receive a notification and will need to approve the installation in the Emulator. The Companion itself is a very small download, so should take a lot less time to install.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;If you directly download the Companion on your device from our website instead of the Play Store&lt;/strong&gt;, then you will also receive the self updating Companion. When a new version is available, you will be prompted and a new version will be downloaded.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;If you downloaded the Companion from the Play Store&lt;/strong&gt;, you will need to update your Companion from the Store. We cannot auto-update a Companion that was downloaded from the Google Play Store. So &lt;strong&gt;be sure to select the “automatic update” option&lt;/strong&gt; so the Store will automatically update your copy.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 07 Jan 2014 19:14:19 +0000</pubDate>
  <dc:creator>jeff</dc:creator>
  <guid isPermaLink="false">446 at http://explore.appinventor.mit.edu</guid>
@@ -122,7 +122,7 @@ to take any action.&lt;/p&gt;
 <item>
  <title>Import Information about Java and App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2013/02/import-information-about-java-and-app-inventor</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;If you are running Java 6 on a Macintosh, you should run Apple&#039;s latest software update 12 released February 1st. If you have been running Java 7 you may get a notice when opening the Blocks Editor that asks you to update Java. You must run this update to use App Inventor. This issue is due to a vulnerability in Java that affects all users -- not just App Inventor users and not even just Mac users. We will continue to monitor the situation and let you know what else, if anything, you&#039;ll need to do.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;If you are running Java 6 on a Macintosh, you should run Apple&#039;s latest software update 12 released February 1st. If you have been running Java 7 you may get a notice when opening the Blocks Editor that asks you to update Java. You must run this update to use App Inventor. This issue is due to a vulnerability in Java that affects all users -- not just App Inventor users and not even just Mac users. We will continue to monitor the situation and let you know what else, if anything, you&#039;ll need to do.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
  <pubDate>Wed, 06 Feb 2013 15:54:08 +0000</pubDate>
  <dc:creator>jeff</dc:creator>

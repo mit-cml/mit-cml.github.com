@@ -8,7 +8,7 @@
 <item>
  <title>Democratizing the mobile world with MIT App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/leo/2013/07/democratizing-mobile-world-mit-app-inventor</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Built with the mission to democratize app creation for and by all, &lt;a href=&quot;http://appinventor.mit.edu/&quot;&gt;MIT App Inventor&lt;/a&gt; is a graphical tool that turns media consumers into active and critical participants of the mobile world.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Built with the mission to democratize app creation for and by all, &lt;a href=&quot;http://appinventor.mit.edu/&quot;&gt;MIT App Inventor&lt;/a&gt; is a graphical tool that turns media consumers into active and critical participants of the mobile world.&lt;/p&gt;
 &lt;p&gt;As portable devices become ubiquitous, mobile apps are the new Web. Literally bringing data and connectivity to our fingertips, apps are increasingly becoming our primary entryway to local news, weather and market reports, email, digital books, movies, interactive games and socially-relevant information.&lt;/p&gt;
 &lt;p&gt;But like in the early days of the Web, when site creation required highly specialized skills, app creation is still the domain of a small elite of programmers and designers. This is where MIT App Inventor comes into play.&lt;/p&gt;
 &lt;p&gt;By combining visual LEGO-like blocks together on the screen, App Inventor users, even those with no programming experience, can create apps for health, entertainment, education, business and anything else that comes to mind.&lt;/p&gt;
@@ -24,12 +24,32 @@
 &lt;p&gt;In a way, none of those technical and non-technical tasks can or should be done by MIT alone.  In order to be successful, they will depend on strong collaborations among technical education institutions and field organizations that assume true ownership over App Inventor, make sure it enables relevant projects in their region, and support their long term sustainability. A few of these collaborations are already happening, but we need more.&lt;/p&gt;
 &lt;p&gt;This blog entry is an invitation to all who are interested in democratizing the apps creation world. If you are an educator, check the App Inventor tutorials and resources on the &lt;a href=&quot;http://appinventor.mit.edu/explore/teach.html&quot;&gt;website&lt;/a&gt;. If you are a software developer, join the &lt;a href=&quot;http://appinventor.mit.edu/appinventor-sources/&quot;&gt;App Inventor Open Source group&lt;/a&gt;. If you have specific questions or are already doing related work in the field, just send us an email! &lt;/p&gt;
 &lt;p&gt;Note: this entry is a cross-post from the mEducation Alliance blog: &lt;a href=&quot;http://www.meducationalliance.org/blog/democratizing-mobile-world-mit-app-inventor&quot;&gt;http://www.meducationalliance.org/blog/democratizing-mobile-world-mit-ap...&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/no_text_while_driving_0.png?itok=P-OrArSE&quot; width=&quot;480&quot; height=&quot;250&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-20830&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/20830&quot;&gt;no_text_while_driving.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/no_text_while_driving_0.png&quot; width=&quot;1498&quot; height=&quot;781&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/technovation-28-1024x681_0.jpg?itok=hk0TjsKb&quot; width=&quot;480&quot; height=&quot;319&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-20831&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/20831&quot;&gt;technovation-28-1024x681.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/technovation-28-1024x681_0.jpg&quot; width=&quot;1024&quot; height=&quot;681&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -40,10 +60,10 @@
 <item>
  <title>Preliminary Report from World Mobile Congress</title>
  <link>http://explore.appinventor.mit.edu/blogs/leo/2013/02/preliminary-report-world-mobile-congress</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;It&#039;s a busy time here for the App Inventor crew!  CML staff Shay and Leo are currently in Barcelona at Mobile World Congress, presenting on unX. Created through a partnership between MIT, UNED, Santander, Telefónica and CSEV, unX is the first online learning portal (MOOC) specifically created to foster entrepreneurship in Ibero-American countries.  &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/NOTA%20DE%20PRENSA%20PRESENTACION%20unX_EN.pdf&quot;&gt;Learn More about unX and the Mobile World Conference in this downloadable press release&lt;/a&gt;.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;It&#039;s a busy time here for the App Inventor crew!  CML staff Shay and Leo are currently in Barcelona at Mobile World Congress, presenting on unX. Created through a partnership between MIT, UNED, Santander, Telefónica and CSEV, unX is the first online learning portal (MOOC) specifically created to foster entrepreneurship in Ibero-American countries.  &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/NOTA%20DE%20PRENSA%20PRESENTACION%20unX_EN.pdf&quot;&gt;Learn More about unX and the Mobile World Conference in this downloadable press release&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Though we&#039;ll have to wait for a full report until they get back, in the meantime, they&#039;ve sent some exciting news: our partner CSEV recently received the New Media Consortium&#039;s Center of Excellence Award for their work on unX! This award, given for excellence in the application of technology to education and learning, recognizes CSEV&#039;s work in &quot;developing inventive and interactive models to transmit knowledge in online environments. &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/NMC%202013%20Center%20of%20Excellence%20Awards_Release.pdf&quot;&gt;Read More about unX NMC Award&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We know Shay and Leo will return from Barcelona with great stories and insights from their unX colleagues, and from the multitude of exciting technology enthusiasts at the Mobile World Congress. We look forward to sharing them with you soon.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Thu, 28 Feb 2013 20:16:40 +0000</pubDate>
  <dc:creator>leo</dc:creator>
  <guid isPermaLink="false">190 at http://explore.appinventor.mit.edu</guid>

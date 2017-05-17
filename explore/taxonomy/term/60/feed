@@ -8,50 +8,8 @@
 <item>
  <title>LEGO EV3 Color Search</title>
  <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-color-search</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows you how to build a mobile app that instructs an EV3 LEGO robot to search for a certain color on a white surface bordered by black. The user can pick one color out of red, green, blue, or yellow for the robot to search. The robot will search across the white surface and turn around if it gets to the black border. Here is a &lt;a href=&quot;https://www.youtube.com/watch?v=OlD2ruKAvHg&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;demonstration video&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Gn8IDujPLFSffcYfSBBexP2NXBEXDMI2vZpH7u2Qjpc/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        LEGO® EV3      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows you how to build a mobile app that instructs an EV3 LEGO robot to search for a certain color on a white surface bordered by black. The user can pick one color out of red, green, blue, or yellow for the robot to search. The robot will search across the white surface and turn around if it gets to the black border. Here is a &lt;a href=&quot;https://www.youtube.com/watch?v=OlD2ruKAvHg&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;demonstration video&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Gn8IDujPLFSffcYfSBBexP2NXBEXDMI2vZpH7u2Qjpc/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;LEGO® EV3&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 07 Mar 2017 01:04:15 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">870 at http://explore.appinventor.mit.edu</guid>
@@ -59,50 +17,8 @@
 <item>
  <title>Lego EV3 Pet Robot</title>
  <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-pet-robot</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial helps you to build an app that allows the user to instruct an EV3 LEGO robot to do certain maneuvers and actions through voice commands. The user can pick one of several commands: forward, backward (reverse), stop, forward slow, forward fast, disconnect, circles, right turn (turn right), left turn (turn left). The robot will follow the user’s voice commands and perform the action for half a second before prompting the user for another command. If the user provides no commands, the previous command will be executed until another command is registered.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Bp_iB2H71oXZDYE2DWcYdTIKalbkupVW4ZKBzFKHcKY/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        LEGO® EV3      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial helps you to build an app that allows the user to instruct an EV3 LEGO robot to do certain maneuvers and actions through voice commands. The user can pick one of several commands: forward, backward (reverse), stop, forward slow, forward fast, disconnect, circles, right turn (turn right), left turn (turn left). The robot will follow the user’s voice commands and perform the action for half a second before prompting the user for another command. If the user provides no commands, the previous command will be executed until another command is registered.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Bp_iB2H71oXZDYE2DWcYdTIKalbkupVW4ZKBzFKHcKY/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;LEGO® EV3&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 07 Mar 2017 00:59:58 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">869 at http://explore.appinventor.mit.edu</guid>
@@ -110,50 +26,8 @@
 <item>
  <title>LEGO ®  EV3 Tilt-to-Drive Tutorial</title>
  <link>http://explore.appinventor.mit.edu/ai2/lego-%C2%AE-ev3-tilt-drive</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial lets you make an app that drives around an EV3 LEGO robot by tilting a phone or tablet. Tilting forward makes the bot go forward, back --&amp;gt; back, right --&amp;gt; right, left --&amp;gt;left. A steeper pitch will make the robot drive faster… etc.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1KZF1785Kan2ZKHY90114lIXzhn-5SOX3g21h03fHRnA/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        LEGO® EV3      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial lets you make an app that drives around an EV3 LEGO robot by tilting a phone or tablet. Tilting forward makes the bot go forward, back --&amp;gt; back, right --&amp;gt; right, left --&amp;gt;left. A steeper pitch will make the robot drive faster… etc.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1KZF1785Kan2ZKHY90114lIXzhn-5SOX3g21h03fHRnA/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;LEGO® EV3&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 17 Jun 2016 15:13:19 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">759 at http://explore.appinventor.mit.edu</guid>
@@ -161,53 +35,11 @@
 <item>
  <title>Photo Booth App</title>
  <link>http://explore.appinventor.mit.edu/ai2/photo-booth-app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email. &lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email. &lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub&quot;&gt;Go to Photo Booth app&lt;/a&gt;
 &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Camera      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Camera&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 01 May 2015 02:28:06 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">584 at http://explore.appinventor.mit.edu</guid>
@@ -215,51 +47,9 @@
 <item>
  <title>Oh My Spikes</title>
  <link>http://explore.appinventor.mit.edu/ai2/oh-my-spikes</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial by Saj Dutta shows how to create a complete game from scratch.  The game is variant of the popular spikes games and uses App Inventor sprites.&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial by Saj Dutta shows how to create a complete game from scratch.  The game is variant of the popular spikes games and uses App Inventor sprites.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.imagnity.com/android/oh-my-spikes-create-a-game-from-scratch-using-app-inventor/&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Game      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Game&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 06 Sep 2014 16:38:08 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">556 at http://explore.appinventor.mit.edu</guid>
@@ -267,51 +57,9 @@
 <item>
  <title>Sharing Component: send files and text with the app of your choice</title>
  <link>http://explore.appinventor.mit.edu/ai2/file-sharing</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;In this &lt;strong&gt;3-minute video&lt;/strong&gt;, App Inventor Developer José Dominguez shows you how to use the File Sharing component to share text and/or files from your App Inventor app to any capable service on your device (e.g. Gmail, Twitter, G+, WhatsApp, Messaging, etc.).&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;In this &lt;strong&gt;3-minute video&lt;/strong&gt;, App Inventor Developer José Dominguez shows you how to use the File Sharing component to share text and/or files from your App Inventor app to any capable service on your device (e.g. Gmail, Twitter, G+, WhatsApp, Messaging, etc.).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.youtube.com/embed/fCdxtYj09Zw&quot; rel=&quot;lightframe[|width:760px; height:480px;]&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/file_sharing_screenshot.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        File Sharing      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;File Sharing&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 22 Apr 2014 16:02:53 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">505 at http://explore.appinventor.mit.edu</guid>
@@ -319,7 +67,7 @@
 <item>
  <title>QuizMe for App Inventor 2</title>
  <link>http://explore.appinventor.mit.edu/ai2/quizme</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h4 class=&quot;ai-header&quot;&gt;What you&#039;re building&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/quizOnEmulator.png&quot; style=&quot;float:right; height: 453px; width: 197px;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt; is a trivia game about baseball, but you can use it as a template to build quizzes on any topic. With &lt;span style=&quot;color:green;&quot;&gt;QuizMe&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;The user steps through a series of questions, clicking a button to proceed to the next question.&lt;/li&gt;
@@ -673,35 +421,7 @@ Click the &lt;span style=&quot;color:black;&quot;&gt;NextButton&lt;/span&gt; and
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/QuizMe/QuizMe_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;Project | Import project (.aia) from my computer ...&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;QuizMe&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;style&gt;&lt;/style&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;QuizMe&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/ai2/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;style&gt;&lt;/style&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Mon, 14 Apr 2014 17:33:28 +0000</pubDate>
  <dc:creator>emily_c</dc:creator>
  <guid isPermaLink="false">504 at http://explore.appinventor.mit.edu</guid>
@@ -709,52 +429,10 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;QuizMe&lt;/span&gt;? Return
 <item>
  <title>No Text While Driving for AI2</title>
  <link>http://explore.appinventor.mit.edu/no-text-while-driving-ai2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img style=&quot;float:right;width:25%;height:25%&quot; src=&quot;http://www.appinventor.org/apps2/notext/hero.png&quot; /&gt;&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img style=&quot;float:right;width:25%;height:25%&quot; src=&quot;http://www.appinventor.org/apps2/notext/hero.png&quot; /&gt;&lt;br /&gt;
 This tutorial, available on our partner site Appinventor.org, will demonstrate how to respond to an incoming text by sending an automatic text response, and also using Text-to-Speech to read the message out loud. &lt;/p&gt;
 &lt;p&gt;The following link will open a new window and take you away from MIT&#039;s site.&lt;br /&gt;&lt;a href=&quot;http://www.appinventor.org/notext-steps&quot;&gt;http://www.appinventor.org/notext-steps&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Intermediate      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        SMS Texting      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 08 Apr 2014 18:10:12 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">502 at http://explore.appinventor.mit.edu</guid>
@@ -762,54 +440,8 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 <item>
  <title>Exploring with Location Sensor in AI2</title>
  <link>http://explore.appinventor.mit.edu/ai2/location-sensor</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Location Sensor      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        GPS      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Location Sensor&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;GPS&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 22 Mar 2014 14:38:17 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">498 at http://explore.appinventor.mit.edu</guid>
@@ -817,7 +449,7 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 <item>
  <title>Map It: Displaying Locations on a Google Map</title>
  <link>http://explore.appinventor.mit.edu/displaying-maps</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. &lt;strong&gt;For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. &lt;strong&gt;For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;This tutorial introduces:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;List manipulation – creating lists, appending items to lists&lt;/li&gt;
@@ -858,69 +490,7 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
 &lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/MyLocationButtonBlocks.png&quot; /&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/mapIt/MapIt_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        ListPicker      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Data Storage      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Activity Starter      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        External API      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Location Sensor      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        GPS      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;ListPicker&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Data Storage&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Activity Starter&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;External API&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Location Sensor&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;GPS&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Thu, 27 Feb 2014 14:16:47 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">487 at http://explore.appinventor.mit.edu</guid>

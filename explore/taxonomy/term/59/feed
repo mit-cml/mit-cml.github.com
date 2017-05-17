@@ -8,7 +8,7 @@
 <item>
  <title>Get the Gold</title>
  <link>http://explore.appinventor.mit.edu/get-gold</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 .ButtonText {
@@ -243,57 +243,7 @@ Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; prope
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/Teach/GetTheGold/GetTheGold.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;p&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;GetTheGold&lt;/span&gt;? Return to to the other modules &lt;a href=&quot;/teach/module-2-2&quot;&gt;here&lt;/a&gt; or the  tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Sprites      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Clock Timer      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Game      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Sprites&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Clock Timer&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Game&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 28 Jun 2013 21:35:19 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">346 at http://explore.appinventor.mit.edu</guid>
@@ -301,7 +251,7 @@ Change &lt;span class=&quot;ButtonText&quot;&gt;TimerInterval&lt;/span&gt; prope
 <item>
  <title>MoleMash 2</title>
  <link>http://explore.appinventor.mit.edu/content/molemash-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -724,57 +674,7 @@ Purpose
 &lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/moleMash2/MoleMash2.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/moleMash2/MoleMash2.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Sprites      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Clock Timer      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Game      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Sprites&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Clock Timer&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Game&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Wed, 26 Jun 2013 19:45:48 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">338 at http://explore.appinventor.mit.edu</guid>
@@ -782,7 +682,7 @@ Purpose
 <item>
  <title>VideoWall</title>
  <link>http://explore.appinventor.mit.edu/content/videowall</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -1180,49 +1080,7 @@ Purpose of Component
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/videoWall/VideoWall_0.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT is grateful to &lt;a href=&quot;http://explore.appinventor.mit.edu/people/vance-turnewitsch&quot;&gt;Vance Turnewitsch&lt;/a&gt; for developing this tutorial.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;VideoWall&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Video      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;VideoWall&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Video&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:23:45 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">324 at http://explore.appinventor.mit.edu</guid>
@@ -1230,7 +1088,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;VideoWall&lt;/span&gt;? Ret
 <item>
  <title>StockQuotes</title>
  <link>http://explore.appinventor.mit.edu/content/stockquotes</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -1474,49 +1332,7 @@ Purpose
 &lt;h4 class=&quot;ai-header&quot;&gt;Credits&lt;/h4&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;This tutorial is based on &lt;a href=&quot;http://appinventorblog.com/2011/06/02/app-inventor-has-a-new-component-the-web/&quot;&gt;an app created by Prof. David Wolber&lt;/a&gt; and relies on the Yahoo! Finance API.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;StockQuotes&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        External API      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;StockQuotes&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;External API&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:23:17 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">323 at http://explore.appinventor.mit.edu</guid>
@@ -1524,7 +1340,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;StockQuotes&lt;/span&gt;? R
 <item>
  <title>Android, Where&#039;s My Car</title>
  <link>http://explore.appinventor.mit.edu/content/android-wheres-my-car</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -1672,57 +1488,7 @@ text-wrap: suppress;
 &lt;li&gt;&lt;b&gt;TinyDB&lt;/b&gt; allows you to store data persistently in the phone&#039;s database. Whereas the data in a variable or property is lost when an app closes, the data you store in the database can be loaded into your app each time it is opened.&lt;/li&gt;
 &lt;/ul&gt;&lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;Android, Where&#039;s My Car&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Data Storage      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Activity Starter      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        GPS      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;Android, Where&#039;s My Car&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Data Storage&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Activity Starter&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;GPS&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:21:22 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">322 at http://explore.appinventor.mit.edu</guid>
@@ -1730,7 +1496,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;Android, Where&#039;s My Ca
 <item>
  <title>Google Voice for Texting over Wifi</title>
  <link>http://explore.appinventor.mit.edu/content/google-voice</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -1855,49 +1621,7 @@ could be very confusing.  This may have implications for how you design your app
 &lt;p&gt;This authentication process will happen the first time the app sends an outgoing message after it is installed. Depending on how the app and phone are used, the user may never again be asked for permission &lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;In Summary&lt;/h4&gt;
 &lt;p&gt;Congratulations! You have successfully installed Google Voice and are ready to text over Wifi! This will be useful for a variety of Apps that use texting. Now try to build &lt;a href=&quot;http://explore.appinventor.mit.edu/content/alertme&quot;&gt;AlertMe&lt;/a&gt;, an app that allows you to try this new capability.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;Google Voice&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        SMS Texting      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;Google Voice&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:20:49 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">321 at http://explore.appinventor.mit.edu</guid>
@@ -1905,7 +1629,7 @@ could be very confusing.  This may have implications for how you design your app
 <item>
  <title>No Text While Driving (Part 2)</title>
  <link>http://explore.appinventor.mit.edu/content/no-text-while-driving-part-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -2118,49 +1842,7 @@ Purpose
 &lt;p&gt;If you&#039;d like to customize this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/NTWD2/notextwhiledriving2.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving, Part 2&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        SMS Texting      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving, Part 2&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:20:14 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">320 at http://explore.appinventor.mit.edu</guid>
@@ -2168,7 +1850,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving, Part
 <item>
  <title>No Text While Driving</title>
  <link>http://explore.appinventor.mit.edu/content/no-text-while-driving</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -2565,53 +2247,7 @@ Purpose
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/NTWD/NoTextWhileDriving.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        SMS Texting      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Data Storage      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Data Storage&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:19:45 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">319 at http://explore.appinventor.mit.edu</guid>
@@ -2619,7 +2255,7 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;No Text While Driving&lt;/s
 <item>
  <title>AlertMe</title>
  <link>http://explore.appinventor.mit.edu/content/alertme</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -2759,53 +2395,7 @@ text-wrap: suppress;
 &lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/alertMe/AlertMe.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/tutorials/alertMe/AlertMe.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;AlertMe&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        SMS Texting      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Clock Timer      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+&lt;pre class=&quot;ai-box&quot;&gt;Done with &lt;span style=&quot;color:black;&quot;&gt;AlertMe&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Clock Timer&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:13:33 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">318 at http://explore.appinventor.mit.edu</guid>
@@ -2813,7 +2403,7 @@ text-wrap: suppress;
 <item>
  <title>Broadcast Hub</title>
  <link>http://explore.appinventor.mit.edu/content/broadcasthub</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
 &lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
 
 li {
@@ -3248,53 +2838,7 @@ Purpose
 &lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/tutorials/broadcastHub/broadcastHub.zip&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose &lt;b&gt;More Actions | Upload Source&lt;/b&gt;.&lt;/p&gt;
 &lt;pre class=&quot;ai-box&quot;&gt;MIT and Google are grateful to &lt;a href=&quot;http://www.appinventor.org/&quot;&gt;Professor David Wolber&lt;/a&gt;, CS Professor at The University of San Francisco, for developing this tutorial.
 
-Done with &lt;span style=&quot;color:black;&quot;&gt;BroadcastHub&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        &lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        Advanced      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss clearfix&quot;&gt;
-
-      &lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;
-  
-  &lt;ul class=&quot;field-items&quot;&gt;
-
-    
-      &lt;li class=&quot;field-item even&quot;&gt;
-        SMS Texting      &lt;/li&gt;
-
-    
-      &lt;li class=&quot;field-item odd&quot;&gt;
-        Data Storage      &lt;/li&gt;
-
-    
-  &lt;/ul&gt;
-
-&lt;/section&gt;
-</description>
+Done with &lt;span style=&quot;color:black;&quot;&gt;BroadcastHub&lt;/span&gt;? Return to the other tutorials &lt;a href=&quot;http://explore.appinventor.mit.edu/tutorials&quot;&gt;here&lt;/a&gt;.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-1&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Data Storage&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Jun 2013 16:13:05 +0000</pubDate>
  <dc:creator>aaron</dc:creator>
  <guid isPermaLink="false">317 at http://explore.appinventor.mit.edu</guid>

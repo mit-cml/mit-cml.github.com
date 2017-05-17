@@ -8,15 +8,25 @@
 <item>
  <title>App Inventor and Maker (2): Bluetooth Desk LED Light</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/04/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/led-desk.jpg&quot; style=&quot;float:left; margin-right:10px; width: 30%;&quot; /&gt;&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/led-desk.jpg&quot; style=&quot;float:left; margin-right:10px; width: 30%;&quot; /&gt;&lt;br /&gt;
 This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/app-inventor-and-maker-2-bluetooth-led.html&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; from MIT Master Trainer Xiangqun (Juliet) Chen. Check out the first prize winning app in 2016 Guangdong Student Maker Contest!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/led-desk.jpg?itok=dQCosGI2&quot; width=&quot;180&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21757&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21757&quot;&gt;led-desk.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/led-desk.jpg&quot; width=&quot;180&quot; height=&quot;320&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Apr 2017 03:30:27 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">879 at http://explore.appinventor.mit.edu</guid>
@@ -24,22 +34,42 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/
 <item>
  <title>CS Unplugged in New Zealand</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/04/cs</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/unplugged.png&quot; style=&quot;float: right; margin-left: 10px; width: 25%;&quot; /&gt;I was lucky enough to spend a day last week at the University of Canterbury in Christchurch, New Zealand with Tim Bell and his CS Unplugged team. We had quite a long discussion on computer science, pedagogy, and curricula. The Unplugged team is currently working on revision and additions to the famous CS Unplugged activities. Tim was definitive that the unplugged activities are “one way” to help students understand various computer science concepts, and are not meant to be a complete curriculum. The unplugged activities are interactive, hands-on, and engaging, and allow students to learn CS concepts in a fun and non-threatening way. Microsoft has just awarded the team a large grant to fund the unplugged revisions. The team is also working on programming challenges that follow on from the unplugged activities, making the bridge from unplugged to  “plugged-in” activities. The challenges range from simple to advanced, allowing students (or teachers) to choose a difficulty level to try. Also, students are motivated to make their way through the challenges, from easy to difficult. &lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/unplugged.png&quot; style=&quot;float: right; margin-left: 10px; width: 25%;&quot; /&gt;I was lucky enough to spend a day last week at the University of Canterbury in Christchurch, New Zealand with Tim Bell and his CS Unplugged team. We had quite a long discussion on computer science, pedagogy, and curricula. The Unplugged team is currently working on revision and additions to the famous CS Unplugged activities. Tim was definitive that the unplugged activities are “one way” to help students understand various computer science concepts, and are not meant to be a complete curriculum. The unplugged activities are interactive, hands-on, and engaging, and allow students to learn CS concepts in a fun and non-threatening way. Microsoft has just awarded the team a large grant to fund the unplugged revisions. The team is also working on programming challenges that follow on from the unplugged activities, making the bridge from unplugged to  “plugged-in” activities. The challenges range from simple to advanced, allowing students (or teachers) to choose a difficulty level to try. Also, students are motivated to make their way through the challenges, from easy to difficult. &lt;/p&gt;
 &lt;p&gt;I also learned about another ongoing project that Tim oversees – the Computer Science Field Guide. It is an open source, interactive textbook that is an online resource for both students and teachers to learn about different aspects of Computer Science. Again, the purpose is not to act as a standalone curriculum, but to be an additional resource for those teaching or learning Computer Science.&lt;/p&gt;
 &lt;p&gt;Our discussions led to the new New Zealand Digital Technologies curricula, and the current development work that is happening, especially at the primary and intermediate levels. Most New Zealand schools only offer Computer Science and programming courses at the college (equivalent to US high school) level. The main languages used to teach Computer Science in New Zealand are Scratch and Python. Much work is underway to bring Computer Science and computational thinking to the lower grades, to ensure that students have access to digital technologies throughout their education. &lt;/p&gt;
 &lt;p&gt;I also had the privilege of meeting a group of local Christchurch teachers, who came to hear more about MIT App Inventor, how it is used in schools, and ways to use to teach computational thinking. We spent an hour or so looking at a simple app made with App Inventor, then discussing how App Inventor can be used in the classroom, and at what grade levels. I talked about the CoolThink Project in Hong Kong, where MIT App Inventor is being used to teach 4th, 5th, and 6th graders computational thinking. Most of the New Zealand teachers were hoping to use App Inventor in year 10 of school, fitting it between Scratch and Python, in their progression of computing languages. &lt;/p&gt;
 &lt;p&gt;Overall, it was an informative and exhilarating day, to see the energy and excitement that is churning around CS education in New Zealand. I look forward to seeing the rollout of the CS Unplugged updates, and also the New Zealand Digital Technologies curriculum over the next year. Exciting times in New Zealand!&lt;/p&gt;
 &lt;div style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/christchurch.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Christchurch Cardboard Cathedral&lt;/i&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/unplugged.png?itok=svGz5Kr-&quot; width=&quot;480&quot; height=&quot;139&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21755&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21755&quot;&gt;unplugged.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/unplugged.png&quot; width=&quot;800&quot; height=&quot;231&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/christchurch.jpg?itok=l8HBaM92&quot; width=&quot;480&quot; height=&quot;340&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21756&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21756&quot;&gt;christchurch.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/christchurch.jpg&quot; width=&quot;2744&quot; height=&quot;1944&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 14 Apr 2017 03:23:35 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">878 at http://explore.appinventor.mit.edu</guid>
@@ -47,7 +77,7 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/
 <item>
  <title>UNESCO YouthMobile Event in Doha</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/03</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Felicia Kamriani.&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This is a guest blog by Felicia Kamriani.&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/doha.png&quot; style=&quot;float: left; margin-right: 10px; width: 50%;&quot; /&gt;On March 7, 2017, I was invited to speak to students and teachers at the UNESCO YouthMobile event in Doha Qatar. YouthMobile was part of TumuhaTEC’s Digital Youth Festival at QITCOM 2017, Qatar’s biggest digital Expo. Qatar’s Ministry of Transport and Communication and Ministry of Education created the Youth Festival to introduce students ages 8 and up to innovative digital technologies and provide an interactive space for exploration.&lt;/p&gt;
 &lt;p&gt;In addition to a series of inspiring Tech Talks center stage (which included 15 year old serial inventor Fatima Al Kaabi) students engaged in hands-on activities throughout the hall including: building Lego robots, testing the capabilities of 3-D printers, collaborating in the digital productions, racing remote control maker cars, and designing mobile apps with MIT App Inventor. &lt;/p&gt;
 &lt;p&gt;Noticeably present were zones for “girls in tech” to welcome and encourage girls to participate in various digital opportunities both on site and in society. Mentors from the newly formed group, Arab Women in Computing were present to help demonstrate and teach mobile app development with App Inventor. Instruction took place in both English and Arabic. My favorite app that a group of girls created had a Harry Potter theme.&lt;/p&gt;
@@ -55,19 +85,59 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/
 &lt;div style=&quot;display:block; margin:auto; width: 100%;&quot;&gt;
 &lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/doha2.png&quot; style=&quot;float:left; width: 50%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/doha-app.png&quot; style=&quot;float:left; width: 30%;&quot; /&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/doha-poster.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 40%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/doha-app.png?itok=LPTIbV4n&quot; width=&quot;330&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21745&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21745&quot;&gt;doha-app.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/doha-app.png&quot; width=&quot;498&quot; height=&quot;725&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/doha-poster.png?itok=mfYBJ285&quot; width=&quot;480&quot; height=&quot;376&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21746&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21746&quot;&gt;doha-poster.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/doha-poster.png&quot; width=&quot;737&quot; height=&quot;577&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/doha.png?itok=8Tylr0M6&quot; width=&quot;480&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21747&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21747&quot;&gt;doha.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/doha.png&quot; width=&quot;655&quot; height=&quot;655&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/doha2.png?itok=osPEqr7M&quot; width=&quot;480&quot; height=&quot;404&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21748&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21748&quot;&gt;doha2.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/doha2.png&quot; width=&quot;696&quot; height=&quot;586&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 11 Mar 2017 03:44:42 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">874 at http://explore.appinventor.mit.edu</guid>
@@ -75,15 +145,25 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/
 <item>
  <title>App Inventor and Makers (1): Smart Bathtub</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/03/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/bathtub-makers.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/bathtub-makers.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;
 This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/app-inventor-and-maker-1-smart-bathtub.html&quot; target=&quot;_blank&quot;&gt;blog post&lt;/a&gt; from MIT Master Trainer Xiangqun (Juliet) Chen. Check out 9th grade students who make a smart bathtub with MIT App Inventor and Arduino. &lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/bathtub-makers.jpg?itok=3dqaT80A&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21742&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21742&quot;&gt;bathtub-makers.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/bathtub-makers.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Fri, 03 Mar 2017 23:05:37 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">868 at http://explore.appinventor.mit.edu</guid>
@@ -91,7 +171,7 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/
 <item>
  <title>Becoming a Middle School Computer Programming Teacher </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blanchette.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sarah Blanchette.&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blanchette.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sarah Blanchette.&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;Becoming a middle school computer programming teacher has been an enriching and eye-opening experience.   The focus of this blog is what works in middle school.&lt;/p&gt;
 &lt;p&gt;#1:  Start simple.&lt;br /&gt;
 #2: Go slow.  Allow time for concepts to sink in before moving on to the next, more complicated level.&lt;br /&gt;
@@ -103,7 +183,7 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/
 &lt;p&gt;We saw much great student engagement when we added “Make Your Own” apps to the assignment list.  We raised the stakes by putting together a Project Show Day (their words), when they showed off their apps to other 6th grade students.  There was some reluctance to go from apps with detailed directions to Make Your Own; encouraging creativity and risk-taking for each and every app helps build students’ confidence levels.  &lt;/p&gt;
 &lt;p&gt;We learned, after a while, students are ready for change (#4).  Even though there were many aspects to App Inventor we had not explored, there was a strong need to “move on.” Even amongst students who eagerly pursued new and creative ways to use App Inventor, the enthusiasm for trying something new was unbridled.&lt;/p&gt;
 &lt;p&gt;Middle school students love to make things (#5). After learning CS concepts using App Inventor, our kids were ready for and quite loved making Arduino projects. This year we will use Makey Makey as an introductory activity (can turn bananas into arrow keys in conjunction with Scratch game) before moving on to the more complex Arduino projects. Now that App Inventor blocks exist for Lego Mindstorms EV3 robots, we look forward to making apps to control our robots.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 25 Feb 2017 01:09:02 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">866 at http://explore.appinventor.mit.edu</guid>
@@ -111,7 +191,7 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/
 <item>
  <title>App Inventor Mentioned in Batgirl Comics </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor was mentioned in the latest Batgirl DC Comic Book, when Barbara Gordon, aka Batgirl, volunteers at a coding workshop at a local elementary school. They even added a link to the App Inventor site!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/batgirl.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Image from Batgirl (2016-) #8&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor was mentioned in the latest Batgirl DC Comic Book, when Barbara Gordon, aka Batgirl, volunteers at a coding workshop at a local elementary school. They even added a link to the App Inventor site!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/batgirl.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Image from Batgirl (2016-) #8&lt;br /&gt;
 Son of Penguin Part 2&lt;br /&gt;
 Produced by DC Entertainment (DC Comics)&lt;br /&gt;
 Colored by Mat Lopes&lt;br /&gt;
@@ -119,7 +199,7 @@ Cover by Chris Wildgoose&lt;br /&gt;
 Inks by Chris Wildgoose and Jon Lam&lt;br /&gt;
 Pencils by Chris Wildgoose&lt;br /&gt;
 Written by Hope Larson&lt;/i&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 25 Feb 2017 01:05:01 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">865 at http://explore.appinventor.mit.edu</guid>
@@ -127,7 +207,7 @@ Written by Hope Larson&lt;/i&gt;&lt;/p&gt;
 <item>
  <title>Verizon Innovative Learning App Challenge Winners Announced</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-1</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/vilac.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/vilac.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;
 The Best in Nation winners of the Verizon Innovative Learning App Challenge where just announced. Eight teams from around the country were awarded $15,000 by Verizon Innovative Learning, in addition to the $5000 they were awarded as one of 100 Best in State teams. Each member of the winning Best in State teams also received a Verizon tablet. A ninth team, the Fan Favorite, also received Best in Nation status and the resulting prizes, by garnering the most votes in an online poll.&lt;/p&gt;
 &lt;p&gt;The Best in Nation award is intended to help the winning teams build a working mobile app from their design and to enhance STEM education at their school or nonprofit groups/clubs. In addition, each team will work with an MIT App Inventor trainer over the next 3 months to make their mobile app a reality. Each Best in Nation team will also travel to the national TSA (Technology Student Association) conference in Orlando in June to present their mobile apps. &lt;/p&gt;
 &lt;p&gt;Teams will have the support of an MIT App Inventor Master Trainer to help them go beyond the design phase to actually build the app and publish it on the Google Play Store. Trainers will travel to their respective teams for a two day on-site visit, where they will teach the students how to use App Inventor, guide them in the correct choice of available technologies, and assist them in the project management side of app building. Over the next three months, the trainer will continue to support their team via online meetings to ensure they can successfully complete their app. The beauty of using App Inventor for this challenge is that, very quickly, students are able to build a working app, even though many of the students have had little or no prior programming experience. Because of its drag-and-drop visual programming interface, non-programmers can easily pick up the necessary skills to make a fully functional app. The trainers can help students navigate more complex technical issues like map interfaces, web API’s, and bluetooth communication.&lt;/p&gt;
@@ -142,13 +222,23 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
 &lt;p&gt;Another Girls Who Code team, from Mountain View, California, designed another personal safety app. The &lt;strong&gt;Soteria&lt;/strong&gt; app uses crime information from the local police department to create a safe navigation route for pedestrians. It also includes a Twitter feed from the police to keep users up-to-date with possible unsafe conditions.&lt;/p&gt;
 &lt;p&gt;The Fan Favorite, a team from De Pere Middle School in Wyoming, created an anti-bullying app, &lt;strong&gt;Pass It On&lt;/strong&gt;, that “puts the power back in the hands of the kids”. In addition to allowing users to report bullying incidents to school staff, the app also promotes reporting of good deeds that can result in e-cash that can be used in the school store.&lt;/p&gt;
 &lt;p&gt;All of these apps tackle serious issues that are founded on personal experiences and/or connections. The students’ desire to make an app to help others and have an impact on their community and the world is truly inspirational. With the help and support of Verizon Innovative Learning, the Technology Student Association, and MIT, these young people will be able to see their ideas come to fruition, and hopefully be inspired to continue to create and build things with social impact.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/vilac.png?itok=PYSU2bcX&quot; width=&quot;480&quot; height=&quot;299&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21725&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21725&quot;&gt;vilac.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/vilac.png&quot; width=&quot;800&quot; height=&quot;498&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 18 Feb 2017 01:03:02 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">859 at http://explore.appinventor.mit.edu</guid>
@@ -156,13 +246,13 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
 <item>
  <title>Working with the ITunes API</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/all/files/people/AUBREY.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT graduate and former MIT App Inventor team member Aubrey Colter&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/all/files/people/AUBREY.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT graduate and former MIT App Inventor team member Aubrey Colter&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;In May 2015, I went to Oakland, CA, to teach an App Inventor workshop to a group of students at Youth Radio. I wanted to teach them about Application Program Interfaces (APIs) to give them a glimpse of how they could extend their apps beyond the available App Inventor components. APIs allow you to access data available on a variety of different sites, such as YouTube, Facebook, and Twitter. These days, most APIs require the programmer to authenticate in some way (usually with a login or token). I knew that setting up the necessary credentials for using an API would take most of our time together. Instead, I decided to search for APIs that did not require authentication.&lt;/p&gt;
 &lt;p&gt;That was how I found the iTunes API. It felt like it had potential to be part of a fun tutorial, so I began searching through the documentation. The first draft of my app called the iTunes API and retrieved information from the database about a musician. However, I knew that the young programmers I would be working with would be uninterested and bored. They could get the same information by reading Wikipedia. It also didn’t showcase any of the smartphone’s capabilities. So I kept searching, until I found the 30-second preview clip API endpoint. When I realized that the App Inventor Sound component could play sound clips from links, I knew I had a great app. I built my app with a very simple interface -- just a search box and a button. Once the button is clicked, the search terms are parsed and sent to the iTunes servers, which returns a list of the artist’s songs’ 30-second preview clips. I picked the first one and played it, and I knew that I had something fun. &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/apis.png&quot; style=&quot;float: right; margin-left: 10px; width: 30%; border: 1px solid grey;&quot; /&gt;I took my app to Youth Radio for our workshop, and the programmers had a good time learning about APIs. As I’ve iterated on the app for other workshops and open houses for both youth and teachers, everyone has always been so surprised. I love that delight moment! Students are always shocked that my phone can pull up a song by any artist they like (Taylor Swift and Justin Bieber are the favorites).&lt;/p&gt;
 &lt;p&gt;You can do a lot to extend the iTunes API app once you understand the concept of an API. I’ve been really pleased with how it has developed as I’ve continued to work on it. I also love hearing positive feedback from teachers and students. I hope you’ll enjoy it, too!&lt;/p&gt;
 &lt;p&gt;Here is a link to the &lt;a href=&quot;https://docs.google.com/document/d/1zr_e7Pu0UVgx8Z_AUqM3I7nD54k8CAFGIUy0FXBzzLo/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Wed, 15 Feb 2017 23:13:42 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">856 at http://explore.appinventor.mit.edu</guid>
@@ -170,7 +260,7 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
 <item>
  <title>EU Code Week 2016 and MIT App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/eu</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kurrer.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rosanna Kurrer&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kurrer.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rosanna Kurrer&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;EU Code Week (&lt;a href=&quot;http://codeweek.eu/&quot;&gt;http://codeweek.eu/&lt;/a&gt;) is a grassroots movement which started in 2012 and is supported by the European Commission, and has since spread to over 50 countries around the world. The European Commission is the executive arm of the European Union and promotes the general interests of its 28 member states (&lt;a href=&quot;http://ec.europa.eu/index_en.htm&quot;&gt;http://ec.europa.eu/index_en.htm&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;The mission of EU Code Week is to get as much people of all ages take their first steps in learning how to code and to guide them on the path to being creators of digital technology, and effective problem solvers.
 &lt;/p&gt;
@@ -182,23 +272,83 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
 &lt;/p&gt;
 &lt;p&gt;This year EU Code Week will be celebrating it’s fifth year, and even more coding events and school coding programs will be scheduled to take place in October.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week1.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week2.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week3.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week-poster.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week4.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-appinventor.png?itok=zx9gR9_G&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21717&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21717&quot;&gt;eu-appinventor.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-appinventor.png&quot; width=&quot;1004&quot; height=&quot;754&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week-poster.png?itok=crdiaZbR&quot; width=&quot;480&quot; height=&quot;276&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21718&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21718&quot;&gt;eu-code-week-poster.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week-poster.png&quot; width=&quot;1005&quot; height=&quot;577&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week1.png?itok=9C2Z_uut&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21719&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21719&quot;&gt;eu-code-week1.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week1.png&quot; width=&quot;1005&quot; height=&quot;754&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week2.png?itok=Fb1CYE6n&quot; width=&quot;480&quot; height=&quot;262&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21720&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21720&quot;&gt;eu-code-week2.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week2.png&quot; width=&quot;1004&quot; height=&quot;548&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week3.png?itok=5vsbN2K7&quot; width=&quot;480&quot; height=&quot;293&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21721&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21721&quot;&gt;eu-code-week3.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week3.png&quot; width=&quot;1005&quot; height=&quot;613&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/eu-code-week4.png?itok=7HQOhTws&quot; width=&quot;480&quot; height=&quot;360&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21722&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21722&quot;&gt;eu-code-week4.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week4.png&quot; width=&quot;1004&quot; height=&quot;754&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Sat, 11 Feb 2017 02:01:38 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">855 at http://explore.appinventor.mit.edu</guid>
@@ -206,7 +356,7 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
 <item>
  <title>Challenges and tips for teaching a large coding class</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Anqi Zhou.&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Anqi Zhou.&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;During summer 2016, I had the opportunity to teach App Inventor to classes of 30 beginners aged 10 - 12 in Beijing. It was exciting to bring the power of coding to so many young persons, but even with three teaching assistants in the room, it was a tough experience.&lt;/p&gt;
 &lt;p&gt;With a limited number of programming teachers available at present, finding ways to effectively teach a large class is important in bringing programming to more students. In this post, I am going to share the challenges and tips I gathered from the teaching experience.&lt;/p&gt;
 &lt;h2&gt;Debugging, distraction and diverse capabilities are key challenges&lt;/h2&gt;
@@ -238,15 +388,35 @@ I would prepare a sheet of FAQs for any lesson to screen common and easy-to-fix 
 &lt;p&gt;&lt;strong&gt;10) Make sure students know why they are here&lt;/strong&gt;&lt;br /&gt;
 The last one applies to any class size really. It’s vital for students to understand why they are learning and better to make sure they want to be here. It never hurts to repeat their goals and what they need to do to achieve them frequently. A large class of unmotivated students with access to computers is a recipe for disaster.&lt;/p&gt;
 &lt;p&gt;Teaching a large class is challenge but necessary work as educators. I hope you find my tips helpful!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
     &lt;div class=&quot;field-items&quot;&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/appinventor-classroom.png?itok=OsvkrNVg&quot; width=&quot;415&quot; height=&quot;277&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21715&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21715&quot;&gt;appinventor-classroom.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/appinventor-classroom.png&quot; width=&quot;415&quot; height=&quot;277&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
           &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/styles/large/public/blog/classroom-timer.png?itok=pzEP1FyO&quot; width=&quot;480&quot; height=&quot;187&quot; alt=&quot;&quot; /&gt;              &lt;/figure&gt;
+        &lt;div id=&quot;file-21716&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21716&quot;&gt;classroom-timer.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/classroom-timer.png&quot; width=&quot;866&quot; height=&quot;338&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
       &lt;/div&gt;
 &lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
  <pubDate>Tue, 07 Feb 2017 23:11:41 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">854 at http://explore.appinventor.mit.edu</guid>
