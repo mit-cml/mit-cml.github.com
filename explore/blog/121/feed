@@ -6,6 +6,39 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New Release of MIT App Inventor Expected on Thursday</title>
+ <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/05/new</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+On Thursday evening (Eastern United States Time) we will be deploying a new release of MIT App Inventor (version nb156).
+&lt;/p&gt;
+&lt;p&gt;
+This is a “non-component” release, which means that there is no new version of the MIT AI2 Companion to download or update. The major change is a significant upgrade of our “Blocks Editor.”
+&lt;/p&gt;
+&lt;p&gt;
+You are welcome to test the new blocks editor on our test system. To learn more about testing &lt;a href=&quot;http://appinventor.mit.edu/explore/blogs/jeff/2017/05.html&quot;&gt;Read this Blog post.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Updates
+&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Added the ability to zoom the workspace in/out. Zooming gestures include:
+&lt;ul&gt;&lt;li&gt;Click the +/- buttons in the lower left corner above the trashcan.&lt;/li&gt;
+&lt;li&gt;Ctrl+Mouse wheel on a mouse.&lt;/li&gt;
+&lt;li&gt;Multi-touch trackpad users with Chrome, zooming can also be done with the pinch/expand gesture.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added the ability to pan the workspace. Panning gestures include:
+&lt;ul&gt;&lt;li&gt;Mouse wheel up/down will pan the view vertical.&lt;/li&gt;
+&lt;li&gt;Wheels with 2-dimensional scrolling can also pan left/right.&lt;/li&gt;
+&lt;li&gt;Multi-touch trackpad users can pan in two dimensions using two-finger scrolling.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Added Reset to center button will set the zoom back to 1:1 and move to the center of the blocks workspace.&lt;/li&gt;
+&lt;li&gt;Added workspace grid. Right-clicking (Ctrl+Click on Mac) on the workspace brings up a context menu with &quot;Enable Workspace Grid&quot; option. This option is a user setting and will persist across workspaces and across App Inventor sessions.&lt;/li&gt;
+&lt;li&gt;Added workspace snapping. If the grid is enabled, another menu option &quot;Enable Snap to Grid&quot; will be available. Enabling this option will make the top-left corner of blocks snap to the nearest grid point. This option is a user setting and will persist across workspaces and across App Inventor sessions.&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 22 May 2017 19:36:15 +0000</pubDate>
+ <dc:creator>jeff</dc:creator>
+ <guid isPermaLink="false">886 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Welcome to our new Blocks Editor</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/05</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt; Thank you for your interest in helping us test an upcoming major release of MIT App Inventor.  &lt;/p&gt;
