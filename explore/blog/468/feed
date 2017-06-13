@@ -6,6 +6,138 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>CoderDojo, Community-based Programming Clubs for Young People</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/06</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+#bosman {
+   width: 90%;
+   clear: both;
+   margin: auto;
+   padding-top: 20px;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/bosman.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Sjaak Bosman.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;On April 29th MIT Master Trainer Sjaak Bosman has given a Show &amp;amp; Tell presentation and workshop to introduce MIT App Inventor to children at CoderDojo Rotterdam, The Netherlands.
+&lt;/p&gt;
+&lt;p&gt;
+The original Show &amp;amp; tell presentation can be found at &lt;a href=&quot;http://appinventor.mit.edu/explore/blogs/karen/2016/11/show.html&quot;&gt;http://appinventor.mit.edu/explore/blogs/karen/2016/11/show.html&lt;/a&gt;. For this workshop it was slightly changed and translated into Dutch.
+&lt;/p&gt;
+&lt;div id=&quot;bosman&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/coderdojo1.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;The intention of a Show &amp;amp; tell presentation and workshop session is showing the ease of use of App Inventor, and to tell about the endless possibilities to let your smartphone do what you want and most of all; to have fun while learning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;bosman&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/coderdojo2.jpg&quot; style=&quot;float: right; margin-left: 10px; width: 30%;&quot; /&gt;In 2016 Sjaak participated in the MIT Master Trainers Program In Educational Mobile Computing to become a certified professional in mobile computing education using the MIT App Inventor platform. Since then his motto is “Computer Science For All”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;bosman&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/coderdojo3.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 20%;&quot; /&gt;Tiemen Waterreus of CoderDojo says:
+&lt;/p&gt;
+&lt;p&gt;
+“For our 35th Dojo in Rotterdam, the Netherlands (last Saturday April 29th) we had the pleasure of Sjaak Bosman visiting us and giving a guest workshop using App Inventor! It was an amazing afternoon, and here’s why:
+&lt;/p&gt;
+&lt;p&gt;
+As a Champion I’m always looking for new workshops and material to work with. Over the years we’ve done a lot of different workshops ranging from Scratch, HTML &amp;amp; CSS to Python, Java and JavaScript.
+&lt;/p&gt;
+&lt;p&gt;
+Having seen App Inventor I’m impressed by its simplicity and the speed in which the Ninja’s can see the results of their work! something that is quite important when teaching kids to code.”
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;bosman&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/coderdojo4.jpg&quot; style=&quot;float: right; margin-left: 10px; width: 30%;&quot; /&gt;Tiemen continues: “For example; one of the Ninja’s quickly figured out that with a little help of a plugin he could make HTTP calls to a PHP back-end he wrote, setting a key in a MySQL Database that a MineCraft plugin, he built, would poll - so he eventually could control the blocks he was placing using his phone! I’m always amazed by the creativity and problem solving skills of these kids, may I remind you this particular Ninja is 15 years old?”&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;bosman&quot;&gt;
+&lt;p&gt;CoderDojo is a world-wide non-profit organisation that offers free coding lessons for youths of 17 and under. This open source movement started early 2011 in Cork, Ireland but it quickly spread around the world. With currently about 1500 Dojo’s spread over 60 countries all around the world and over 70 locations in the Netherlands alone, you could say it is growing rapidly!&lt;/p&gt;
+&lt;p&gt;Tiemen concludes “I like to thank Sjaak for introducing us to App Inventor and giving the workshop! If I interested you in CoderDojo and you want to know more? Shoot me an email at   &lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ &lt;!--
+  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#116;&amp;#105;&amp;#101;&amp;#109;&amp;#101;&amp;#110;&amp;#64;&amp;#99;&amp;#111;&amp;#100;&amp;#101;&amp;#114;&amp;#100;&amp;#111;&amp;#106;&amp;#111;&amp;#46;&amp;#110;&amp;#108;&quot;&gt;&amp;#116;&amp;#105;&amp;#101;&amp;#109;&amp;#101;&amp;#110;&amp;#64;&amp;#99;&amp;#111;&amp;#100;&amp;#101;&amp;#114;&amp;#100;&amp;#111;&amp;#106;&amp;#111;&amp;#46;&amp;#110;&amp;#108;&#039;;
+// --&gt; 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;p&gt;
+It was a thankful Saturday afternoon. Seeing so many kids having a great time enjoying themselves while discovering and exploring new possibilities: “Computer Science For All”.
+&lt;/p&gt;
+&lt;p&gt;
+Want to know more about Show &amp;amp; tell sessions, please ask me at   &lt;span id=&quot;b605c87554ef12002a17312a2b9fd78634a2745c&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ &lt;!--
+  document.getElementById(&#039;b605c87554ef12002a17312a2b9fd78634a2745c&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&quot;&gt;&amp;#65;&amp;#73;&amp;#50;&amp;#77;&amp;#77;&amp;#84;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#039;;
+// --&gt; 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21781&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coderdojo1jpg&quot;&gt;coderdojo1.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coderdojo1.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21782&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coderdojo2jpg&quot;&gt;coderdojo2.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coderdojo2.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21783&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coderdojo3jpg&quot;&gt;coderdojo3.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coderdojo3.jpg&quot; width=&quot;480&quot; height=&quot;640&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21784&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coderdojo4jpg&quot;&gt;coderdojo4.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coderdojo4.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21785&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coderdojo5jpg&quot;&gt;coderdojo5.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coderdojo5.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 13 Jun 2017 18:24:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">889 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor and Maker (2): Bluetooth Desk LED Light</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/04/app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/led-desk.jpg&quot; style=&quot;float:left; margin-right:10px; width: 30%;&quot; /&gt;&lt;br /&gt;
@@ -352,74 +484,6 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
  <pubDate>Sat, 11 Feb 2017 02:01:38 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">855 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Challenges and tips for teaching a large coding class</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/zhou.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Anqi Zhou.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;During summer 2016, I had the opportunity to teach App Inventor to classes of 30 beginners aged 10 - 12 in Beijing. It was exciting to bring the power of coding to so many young persons, but even with three teaching assistants in the room, it was a tough experience.&lt;/p&gt;
-&lt;p&gt;With a limited number of programming teachers available at present, finding ways to effectively teach a large class is important in bringing programming to more students. In this post, I am going to share the challenges and tips I gathered from the teaching experience.&lt;/p&gt;
-&lt;h2&gt;Debugging, distraction and diverse capabilities are key challenges&lt;/h2&gt;
-&lt;p&gt;Firstly, anyone who teaches programming can tell you that “my program is not working” is the most frequently heard phrase in the classroom. Unlike in a maths classroom, where a definite answer can be easily given to most questions, to give an answer to “my program is not working” usually requires timeout for individual attention and teaching experience. Maybe it’s a specific spelling error somewhere, maybe it’s Internet connection issues, maybe it’s anti-virus software going crazy, maybe it’s just a slow computer, the list goes on. When you are responsible for more than six students, you’d probably be rushing around and putting out fires everywhere.&lt;/p&gt;
-&lt;p&gt;Secondly, working on a computer opens a world of distraction to students - websites, links, emails, games, videos and whatnot. The larger the class size, the more difficult it is to keep everyone on track and keep the show moving on.&lt;/p&gt;
-&lt;p&gt;Adding to the complication is that students usually come with a diverse range of capabilities. Some would take five minutes to download and locate a picture and some only type with index fingers. The students more familiar with basic computer skills are prone to distraction while the slower ones may fall behind the classroom flow.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/appinventor-classroom.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;10 Tips for teaching a large class&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1) One machine per student if possible&lt;/strong&gt;&lt;br /&gt;
-Sharing machines by design inevitably sends a subtle message that not everyone needs to be fully engaged at all times. Even though we do need to include elements of teamwork and pair programming in our class, it’s still better to give each person a machine to be responsible for, otherwise it’s easy to see at least half of the students with wandering minds.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2) Prepare the machines&lt;/strong&gt;&lt;br /&gt;
-That includes charging and downloading relevant software ahead of time. You would not want to have many students sharing a limited number of power outlets located in awkward positions in the room nor fighting for Internet bandwidth during your class.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3) Good student monitoring software&lt;/strong&gt;&lt;br /&gt;
-Especially the kind that allows you to remotely control a student’s screen and bring it up for the whole class to see. When a student gives you a bug alert, chances are, some other students are probably experiencing similar problems. Helping one student remotely debug and projecting the process to the whole class would make the debugging processes more efficient.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4) Allow students to go at their own pace if needed&lt;/strong&gt;&lt;br /&gt;
-Since it’s easy for students to fall into different paces, it’s helpful to prepare a worksheet, a book or a web page of classroom materials, so that faster students can challenge themselves ahead while students who take more time can go at their comfortable pace.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;5) Prepare different questions to challenge on various dimensions&lt;/strong&gt;&lt;br /&gt;
-Students have different strengths, some understand concepts well, some program very fast, and some are more artistic. Apart from programming challenges, I’d also prepare design challenges in each lesson, so that a student who programs fast can be engaged while a student who struggles with code can have opportunities to easily contribute ideas.&lt;/p&gt;
-&lt;p&gt;Here are some examples:&lt;br /&gt;
-How would you change the chat app you programmed if the users are primary school students? How would you change it if the users are the elderly?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;6) Warm up exercises for basic computer skills&lt;/strong&gt;&lt;br /&gt;
-If students come from different basic computer skill levels, it’s worthwhile giving them some warmup exercises to save teachers class time explaining computer basics. A typing race or downloading and saving a specific fun picture can work wonders as an ice-breaker game.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;7) Set definite and visible time limits for each task&lt;/strong&gt;&lt;br /&gt;
-Unless it’s a designated period of free exploration, I’d usually set a time limit for each task, such as downloading a picture or drawing a sprite, with a visible countdown timer. It’s a way to make it clear that we will stop and move on together when the time is up.  &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/classroom-timer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;8) Reward good teamwork&lt;/strong&gt;&lt;br /&gt;
-In a large class, I think it’s worthwhile getting the students who program faster to act as your teaching assistant. The upside is that they can solidify their understanding by helping others, and the downside is that young students tend to help by doing rather than by teaching and explaining. I would pre-assign students into various teams and give clear rewards to the teams that not only finish the challenges but also are best at explaining what they have done.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;9) Prepare a FAQ sheet&lt;/strong&gt;&lt;br /&gt;
-I would prepare a sheet of FAQs for any lesson to screen common and easy-to-fix bugs. When students encounter a bug, they can check the FAQs first.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;10) Make sure students know why they are here&lt;/strong&gt;&lt;br /&gt;
-The last one applies to any class size really. It’s vital for students to understand why they are learning and better to make sure they want to be here. It never hurts to repeat their goals and what they need to do to achieve them frequently. A large class of unmotivated students with access to computers is a recipe for disaster.&lt;/p&gt;
-&lt;p&gt;Teaching a large class is challenge but necessary work as educators. I hope you find my tips helpful!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21715&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21715&quot;&gt;appinventor-classroom.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/appinventor-classroom.png&quot; width=&quot;415&quot; height=&quot;277&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21716&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21716&quot;&gt;classroom-timer.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/classroom-timer.png&quot; width=&quot;866&quot; height=&quot;338&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 07 Feb 2017 23:11:41 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">854 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
