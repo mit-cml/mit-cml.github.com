@@ -6,6 +6,140 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>The 2017 Google App Inventor Contest kicks off</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/06/2017</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
+&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
+
+#china {
+  clear:both;
+  display:block;
+  width: 90%;
+  margin-auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/*--&gt;&lt;!]]&gt;*/
+&lt;/style&gt;&lt;p style=&quot;padding-left:10px;&quot;&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kathy_deng.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by Kathy Deng, Google China&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;In 2014, Google China launched the first nationwide App Inventor contest for students from high schools and middle schools. One goal of the contest is to boost CS education among young students. Another goal of the contest is to encourage high school, middle school, and primary school students to learn Computational Thinking by developing mobile applications using MIT App Inventor.
+ &lt;/p&gt;
+&lt;p style=&quot;padding-left:10px;&quot;&gt;
+In 2015, the MIT App Inventor team, South China University of Technology, and Guangzhou Education Information Center started working together to bring a stable user experience to teachers and students for app development, which is critical to bring MIT App Inventor and Computational Thinking to the classroom in China. &lt;/p&gt;
+&lt;p style=&quot;padding-left:10px;&quot;&gt;
+In the first three years of the contest, 3450+ apps were submitted from 300+ Chinese schools. The 2017 contest has kicked off at &lt;a href=&quot;http://appjs.gzjkw.net/&quot; target=&quot;_blank&quot;&gt;http://appjs.gzjkw.net/&lt;/a&gt; (in Chinese). As &lt;b&gt;Prof. Hal Abelson from MIT&lt;/b&gt; says, “App Inventor by itself is just the tool. The passion, imagination and creativity from the participants really bring the tool alive.”
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/google-contest-2017.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;padding-left:10px;&quot;&gt;Here are some stories from some of 2016 contest winners:&lt;/p&gt;
+&lt;div id=&quot;china&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ruying-hong.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;Ruying HONG, a 11-year-old girl, uses a mobile phone to solve her own problems. She works as a librarian in her school and she found the school computers are quite old and occasionally not working. She created a simple app to help her and has added more and more features to the app as needed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;china&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/qian-yao.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;Qian YAO, the winner of the Grand Prize in the middle school group, is in grade 9. He developed an app to help memorize ancient poetries by using voice recognition and text-to-speech features.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;china&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chenglin-yang.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;Chenglin YANG is the winner of the Grand Prize in the high school group. Chenglin began with App Inventor but  then learned Java by himself during his summer vacation, writing Java code to extend the features in App Inventor. Eventually, the extended features helped him create a 3D game using simple geometric structures, winning the grand prize. Below are the screenshots of his app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;china&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/3d-game1.png&quot; style=&quot;float: left; margin-right: 10px; width: 48%; border: 1px solid black;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/3d-game2.png&quot; style=&quot;float: left; width: 48%;  border: 1px solid black;&quot; /&gt;&lt;/div&gt;
+&lt;div id=&quot;china&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ruoyu-wang.png&quot; style=&quot;float: right; margin-left: 10px; width: 40%;&quot; /&gt;For the first time, in 2016,  we had some finalists from the western regions, such as Xinjiang and Sichuan. Ruoyu WANG from Xinjiang travelled for 2-days and 2-nights to Shanghai in order to participate the final onsite competition. He taught himself App Inventor and kept trying different solutions until he developed a good working app. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;china&quot;&gt;
+&lt;p&gt;Over past three years, we have learned that students can make their own mobile phone apps using App Inventor, to solve problems that relate to their life. For example, quoting a middle school student from Shandong province. “I am not good at Physics because I feel lab experiments are long and don’t connect with my life. Even worse, the physics laws are very hard to grasp”. However, learning Physics through app making is very interesting to her. She is able to understand the basic principles of Physics in this process. She learned that her submitted app might not meet her expectations initially, but she can refine the app step by step over time. She still left the competition realizing that she accomplished something.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21788&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/google-contest&quot;&gt;google-contest-2017.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/google-contest-2017.png&quot; width=&quot;351&quot; height=&quot;487&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21789&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/chenglin-yangpng&quot;&gt;chenglin-yang.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/chenglin-yang.png&quot; width=&quot;387&quot; height=&quot;259&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21790&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/qian-yaopng&quot;&gt;qian-yao.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/qian-yao.png&quot; width=&quot;389&quot; height=&quot;260&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21791&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ruoyu-wangpng&quot;&gt;ruoyu-wang.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ruoyu-wang.png&quot; width=&quot;571&quot; height=&quot;261&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21792&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ruying-hongpng&quot;&gt;ruying-hong.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ruying-hong.png&quot; width=&quot;390&quot; height=&quot;259&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21793&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/3d-game1png&quot;&gt;3d-game1.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/3d-game1.png&quot; width=&quot;536&quot; height=&quot;308&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21794&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/3d-game2png&quot;&gt;3d-game2.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/3d-game2.png&quot; width=&quot;564&quot; height=&quot;321&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 14 Jun 2017 13:54:21 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">892 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>CoderDojo, Community-based Programming Clubs for Young People</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/06</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
@@ -388,102 +522,6 @@ The Best in Nation winners of the Verizon Innovative Learning App Challenge wher
  <pubDate>Wed, 15 Feb 2017 23:13:42 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">856 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>EU Code Week 2016 and MIT App Inventor</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/eu</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kurrer.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rosanna Kurrer&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;EU Code Week (&lt;a href=&quot;http://codeweek.eu/&quot;&gt;http://codeweek.eu/&lt;/a&gt;) is a grassroots movement which started in 2012 and is supported by the European Commission, and has since spread to over 50 countries around the world. The European Commission is the executive arm of the European Union and promotes the general interests of its 28 member states (&lt;a href=&quot;http://ec.europa.eu/index_en.htm&quot;&gt;http://ec.europa.eu/index_en.htm&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The mission of EU Code Week is to get as much people of all ages take their first steps in learning how to code and to guide them on the path to being creators of digital technology, and effective problem solvers.
-&lt;/p&gt;
-&lt;p&gt;Every year for a whole week in October, coding events and activities are organized in schools, after-school clubs, organizations, offices and libraries. What started with 10,000 participants in 2012 has grown to almost a million people coding, most of them for the first time. (&lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/news/million-coded-in-record-2016-EU-code-week&quot;&gt;https://ec.europa.eu/digital-single-market/en/news/million-coded-in-reco...&lt;/a&gt;)
-&lt;/p&gt;
-&lt;p&gt;Contributing to the success of this initiative has been the tireless work of a lot of Code Week ambassadors in all the 28 EU member states as well as in some participating countries in Africa, Asia and America.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-appinventor.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;At the heart of the EU in Brussels, Belgium, several workshops took place in schools and in organizations to give participants a first-time hands-on experience in Android app development using MIT App Inventor. Among the workshops organized were an after-school coding class for middle school girls aged eleven to fourteen, (&lt;a href=&quot;https://www.facebook.com/digitalmuseorg/posts/1279609008771317&quot;&gt;https://www.facebook.com/digitalmuseorg/posts/1279609008771317&lt;/a&gt;), a digital starter event for women designing digital solutions with and for women refugees (&lt;a href=&quot;https://mifbru16oct.eventbrite.com&quot;&gt;https://mifbru16oct.eventbrite.com&lt;/a&gt;), and a coding session at the European Commission for policy makers and officials (&lt;a href=&quot;https://ec.europa.eu/digital-single-market/en/news/womenintech-organised-first-ever-coding-session-european-commission#WomenInTech&quot;&gt;https://ec.europa.eu/digital-single-market/en/news/womenintech-organised...&lt;/a&gt;).
-&lt;/p&gt;
-&lt;p&gt;This year EU Code Week will be celebrating it’s fifth year, and even more coding events and school coding programs will be scheduled to take place in October.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week1.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week2.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week3.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week-poster.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/eu-code-week4.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21717&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21717&quot;&gt;eu-appinventor.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-appinventor.png&quot; width=&quot;1004&quot; height=&quot;754&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21718&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21718&quot;&gt;eu-code-week-poster.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week-poster.png&quot; width=&quot;1005&quot; height=&quot;577&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21719&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21719&quot;&gt;eu-code-week1.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week1.png&quot; width=&quot;1005&quot; height=&quot;754&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21720&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21720&quot;&gt;eu-code-week2.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week2.png&quot; width=&quot;1004&quot; height=&quot;548&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21721&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21721&quot;&gt;eu-code-week3.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week3.png&quot; width=&quot;1005&quot; height=&quot;613&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21722&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21722&quot;&gt;eu-code-week4.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/eu-code-week4.png&quot; width=&quot;1004&quot; height=&quot;754&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sat, 11 Feb 2017 02:01:38 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">855 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
