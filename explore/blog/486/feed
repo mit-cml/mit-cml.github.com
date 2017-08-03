@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>evan&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/evan</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Upcoming App Inventor Features</title>
+ <link>http://explore.appinventor.mit.edu/blogs/evan/2017/08</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello App Inventors!&lt;/p&gt;
+&lt;p&gt;We’re so glad you’re with us!  We wanted to let you know that we are making some big changes to MIT App Inventor.&lt;/p&gt;
+&lt;p&gt;First, the next release of App Inventor will require Android devices running Android system 2.1 or higher (API level 8).  We need to make this restriction in order for App Inventor to support new Android system features.  We estimate that fewer than 1% of App Inventor users are using systems older than version 2.1, and we regret that we can no longer support the old versions: you’ll need to switch to a newer device.&lt;/p&gt;
+&lt;p&gt;We are also adding a feature that lets you customize the emulator. You’ll be able to change the size and density of the emulator screen, as well as add an external SD card to the emulated device. This will allow more flexibility when developing apps using the emulator.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img width=&quot;320px&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/image1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We are also adding support for using Android themes  in the apps you create with App Inventor.   Themes let you customize the look-and-feel of apps by specifying things like things like font size, color, and padding uniformly throughout an entire application. This first release will focus on changing certain colors app-wide, with more granular control coming in future releases.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img width=&quot;320px&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/image3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Finally, we’ve added a full palette color picker to App Inventor to make it easy to use more colors in your apps. When you choose a color, select the &quot;Custom…&quot; option from the dropdown list. This will open a color picker with a full range of color choices. After picking a color, click the &quot;Done&quot; button to finalize the change. Click &quot;Cancel&quot; to dismiss the picker and keep the existing color. &lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img width=&quot;240px&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/image2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;These changes also lay some groundwork for future improvements to App Inventor, so check back in the next few weeks for additional updates. For more detailed technical information on these changes, please &lt;a href=&quot;https://docs.google.com/document/d/1dF1TgkbSgqs7nRFK7gtKRZY4sInRR5_uTagRCB0dWYE/edit?usp=sharing&quot; target=&quot;_blank&quot;&gt;see this document&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cheers, and happy inventing!&lt;/p&gt;
+&lt;p&gt;Evan W. Patton&lt;br /&gt;
+Director of Development, MIT App Inventor&lt;br /&gt;
+On behalf of the MIT App Inventor Team&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21820&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/image1png&quot;&gt;image1.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/image1.png&quot; width=&quot;840&quot; height=&quot;430&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21821&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/image2png&quot;&gt;image2.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/image2.png&quot; width=&quot;434&quot; height=&quot;528&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21822&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/image3png&quot;&gt;image3.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/image3.png&quot; width=&quot;660&quot; height=&quot;274&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 03 Aug 2017 02:52:47 +0000</pubDate>
+ <dc:creator>evan</dc:creator>
+ <guid isPermaLink="false">901 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>
