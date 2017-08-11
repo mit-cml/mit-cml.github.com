@@ -6,6 +6,21 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT App Inventor Team nominated for Distinguished Leadership Award</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2017/08/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span id=&quot;docs-internal-guid-cec2f9ee-cebb-09c0-ce9d-9c7ba0929e61&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;August 10, 2017&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial; font-size: 11pt; white-space: pre-wrap;&quot;&gt;We on the MIT App Inventor team are thrilled to announce that our team has been nominated to receive a 2017 Distinguished Leadership Award from the Mass Technology Leadership Council. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;MassTLC is the largest and most powerful technology association in the region, with the mission of &lt;/span&gt;&lt;span style=&quot;font-size: 11.5pt; font-family: Arial; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;accelerating growth and innovation in the Massachusetts technology industry.  Their awards celebrate&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt; region’s most notable technology leaders, companies and technologies.  We’re gratified and humbled to considered among their rank.   Even more so because the nomination calls out our &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;work in helping to make tech more accessible and empowering people around the globe.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The 20th Annual Mass Technology Leadership Awards Gala will take place on the evening of Thursday, September 14&lt;/span&gt;&lt;span style=&quot;font-size: 6pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;&quot;&gt;th&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;, at the Seaport World Trade Center in Boston.   We’re looking forward to attending in ourselves, while constantly mindful that the real honorees are the members of the App Inventor community, who are actualizing our technology to improve lives through your creativity and your vision.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; white-space: pre-wrap;&quot;&gt;Hal Abelson&lt;/span&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span id=&quot;docs-internal-guid-cec2f9ee-cebb-09c0-ce9d-9c7ba0929e61&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Director, MIT App Inventor&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Aug 2017 00:41:14 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">904 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Experiments with Virtual Reality and MIT App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interest in virtual reality (VR) and augmented reality (AR) applications  is exploding.  Last month&#039;s Pokemon Go craze barely hints at what&#039;s coming.   Should we look forward to App Inventor creating  apps with  VR and AR?&lt;br /&gt;&lt;br /&gt;
@@ -122,15 +137,6 @@ The implementation of App Inventor Extension Components is the work students who
  <pubDate>Wed, 15 Jul 2015 12:52:39 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">605 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Guangzhou conference on Mobile Learning and Computational Thinking based on App Inventor, June 13-15</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The 1st International Conference on Mobile Learning and Computational Thinking Education, based on App Inventor was held from June 13th to June 15th, 2015, in Guangzhou, China.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-optional-iframe field-type-iframe field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;div class=&quot;field-iframe-instance&quot;&gt;&lt;iframe src=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/pub&quot; url=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/pub&quot; title=&quot;&quot; class=&quot;field-iframe-instance&quot; width=&quot;100%&quot; height=&quot;3835&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot; transparency=&quot;0&quot; tokensupport=&quot;0&quot; html=&quot;&quot;&gt;Your browser does not support iframes. But You can use the following link. &lt;a href=&quot;https://docs.google.com/document/d/1GYFX8FuJ7fSeRHW8xnvFjYInUlRRvqyOSwaeD89Ph10/pub&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sun, 05 Jul 2015 01:32:41 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">598 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
