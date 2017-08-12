@@ -6,6 +6,45 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>About our new MIT App Inventor logo </title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/08/about</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ai-bee-horiz.png&quot; style=&quot;display:block; margin:auto; width:60%;&quot; /&gt;&lt;br /&gt;&lt;strong&gt;Why do we need a new logo?&lt;/strong&gt;&lt;br /&gt;
+The MIT App Inventor team felt it was time to move away from our Android-specific green droid. When you use MIT App Inventor next you will see the new logo in the upper left hand corner of the web interface. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why have we chosen a bee for our new logo and mascot?&lt;/strong&gt;&lt;br /&gt;
+Bees and MIT app inventors share many of the same qualities, and they make the world a better place!&lt;br /&gt;
+Bees work hard, individually and in groups, to improve their communities all around the world&lt;br /&gt;
+Bees are creators and makers&lt;br /&gt;
+Bees are industrious and committed to achieving their goals&lt;br /&gt;
+The work that bees do (pollination) is important for the well-being of our planet, just as the apps created by MIT App Inventor users create positive change in the world through mobile computing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What was the process for designing and selecting a new logo?&lt;/strong&gt;&lt;br /&gt;
+Marketing communications projects begin with a creative strategy and buy-in from key stakeholders in an organization. This is the process we used to design the new MIT App Inventor logo. The stakeholder-approved creative strategy was sent to a preferred-MIT design firm that has produced dozens of design projects at MIT (MIT School of Engineering, MIT Media Lab, MIT Department of Mechanical Engineering, the MIT Sloan School, and a dozen others).&lt;/p&gt;
+&lt;p&gt;Several creative options were presented to the MIT App Inventor team, and the bee logo was chosen. Every member of the full App Inventor team agreed to replace the existing logo with the bee, and the new logo was rolled out to a group of master trainers before it was shown to App Inventor power users last week.&lt;/p&gt;
+&lt;p&gt;Design and color preference are highly subjective, which is why the process begins with a creative strategy. The team felt the bee logo achieved the strategic goals of appealing to a number of different audiences from middle school kids to foundations. We are very excited about our new logo and happy to retire the “green Android guy!”&lt;/p&gt;
+&lt;p&gt;While not our motivation for the logo, we at MIT App Inventor recognize that bees help produce many of our favorite foods, are critical to the health of our global ecosystem, and are now endangered. We hope some of our app inventors will be inspired to create apps that bring attention to the shrinking numbers of bees and what we can all do to help.&lt;/p&gt;
+&lt;p&gt;“Honey bees — wild and domestic — perform about 80 percent of all pollination worldwide. A single bee colony can pollinate 300 million flowers each day. Grains are primarily pollinated by the wind, but fruits, nuts and vegetables are pollinated by bees. Seventy out of the top 100 human food crops — which supply about 90 percent of the world’s nutrition — are pollinated by bees.” (source: Greenpeace.org)&lt;/p&gt;
+&lt;p&gt;MIT App Inventor has a large impact on the world as well: 6 million registered users, 25 million apps developed, app built to find clean water, diagnose concussions in football players, prevent bullying, to name a few. App inventors are a &quot;colony&quot; (community) of productive creators aiming to make the world a better place - just like the bees.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21829&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ai-bee-horizpng&quot;&gt;ai-bee-horiz.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ai-bee-horiz.png&quot; width=&quot;600&quot; height=&quot;230&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Aug 2017 15:52:25 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">905 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Students hack plastic pollution with MIT App Inventor apps</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/dalgic.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Suzan Dalgic&lt;/i&gt;&lt;/p&gt;
@@ -500,22 +539,6 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/02/
  <pubDate>Sat, 25 Feb 2017 01:09:02 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">866 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor Mentioned in Batgirl Comics </title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/02/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;MIT App Inventor was mentioned in the latest Batgirl DC Comic Book, when Barbara Gordon, aka Batgirl, volunteers at a coding workshop at a local elementary school. They even added a link to the App Inventor site!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/batgirl.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Image from Batgirl (2016-) #8&lt;br /&gt;
-Son of Penguin Part 2&lt;br /&gt;
-Produced by DC Entertainment (DC Comics)&lt;br /&gt;
-Colored by Mat Lopes&lt;br /&gt;
-Cover by Chris Wildgoose&lt;br /&gt;
-Inks by Chris Wildgoose and Jon Lam&lt;br /&gt;
-Pencils by Chris Wildgoose&lt;br /&gt;
-Written by Hope Larson&lt;/i&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Sat, 25 Feb 2017 01:05:01 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">865 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
