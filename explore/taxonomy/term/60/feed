@@ -6,6 +6,90 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Hello Codi!</title>
+ <link>http://explore.appinventor.mit.edu/ai2/hello-codi</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;padding: 10px;&quot;&gt;
+&lt;h2 class=&quot;ai-header&quot;&gt;Building your first app: HelloCodi&lt;/h2&gt;
+&lt;p&gt;Now that you&#039;ve set up your computer and device, and you&#039;ve learned how the Designer and the Blocks Editor work, you are ready to build the HelloCodi app. At this point, you should have the Designer or Blocks Editor open in your browser, and either an Android device or an Android emulator connected to the Blocks Editor. (See &lt;a href=&quot;/ai2/setup&quot;&gt;Setup Instructions for App Inventor 2&lt;/a&gt; if you do not have these things running.)  Choose “Start a New Project” from the Projects menu and name it HelloCodi.&lt;/p&gt;
+&lt;h3&gt;HelloCodi: tap the bee, hear the bee buzz!&lt;/h3&gt;
+&lt;p&gt;HelloCodi is a simple app that you can build in a very short time. You create a button that has a picture of Codi the bee on it, and then program the button so that when it is clicked the phone will make a buzzing sound.&lt;/p&gt;
+&lt;p&gt;To build HelloCodi, you&#039;ll need an image file of Codi the bee. Download these files to your computer by clicking the following links. To download: after clicking a link, right click on the image and select &quot;Save As.&quot; Save the file onto your desktop or downloads folder, or anywhere that you can easily find it later.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Code picture: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/codi.jpg&quot;&gt; codi.jpg&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
+&lt;li&gt;Bee sound: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/Bee-Sound.mp3&quot;&gt; Bee-Sound.mp3&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Select components to design your app&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/button.png&quot; style=&quot;float:left; width: 15%; border: grey solid 1px; margin-right: 10px; margin-bottom: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;width: 50%;&quot;&gt;The App Inventor &lt;b&gt;Components&lt;/b&gt; are located on the left hand side of the &lt;em&gt;Designer Window&lt;/em&gt; under the title &lt;b&gt;Palette&lt;/b&gt;. Components are the basic elements you use to make apps on the Android phone. They&#039;re like the ingredients in a recipe. Some components are very simple, like a &lt;b&gt;Label&lt;/b&gt; component, which just shows text on the screen, or a &lt;b&gt;Button&lt;/b&gt; component (#1 left) that you tap to initiate an action. &lt;/p&gt;
+&lt;p style=&quot;width: 50%;&quot;&gt;Other components are more elaborate: a drawing &lt;b&gt;Canvas&lt;/b&gt; that can hold still images or animations, an &lt;b&gt;Accelerometer&lt;/b&gt; sensor that works like a Wii controller and detects when you move or shake the phone, components that send text messages, components that play music and video, components that get information from Web sites, and so on.&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;To use a component in your app, you need to click and drag it onto the viewer in the middle of the &lt;b&gt;Designer&lt;/b&gt;. When you add a component to the &lt;b&gt;Viewer&lt;/b&gt; (#1 below), it will also appear in the components list on the right hand side of the Viewer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt; (#2 below) have adjustable properties. These properties change the way the component appears or behaves within the app. To view and change the &lt;strong&gt;Properties&lt;/strong&gt; of a component (#3 below), you must first select the desired component in your list of components.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/viewer.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Steps for selecting components and setting properties&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;HelloCodi&lt;/span&gt; will have a &lt;b&gt;Button&lt;/b&gt; component that displays the image of the bee you downloaded earlier. To accomplish this:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 1a&lt;/b&gt;. From the &lt;b&gt;User Interface&lt;/b&gt; palette, drag and drop the &lt;b&gt;Button&lt;/b&gt; component to Screen1 (#1). &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 1b&lt;/b&gt;.To give the button the image of the bee, in the &lt;b&gt;Properties&lt;/b&gt; pane, under Image, click on the text &lt;em&gt;&quot;None...&quot;&lt;/em&gt; and click &lt;em&gt;&quot;Upload File...&quot;&lt;/em&gt; (#2). A window will pop up to let you choose the image file. Click &quot;Browse&quot; and then navigate to the location of the &lt;em&gt;codi.jpg&lt;/em&gt; file you downloaded earlier (#3). Click the &lt;em&gt;codi.jpg&lt;/em&gt; file, click &quot;Open&quot;, and then click &quot;OK&quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/upload.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:70%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;&lt;p style=&quot;width: 70%;&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/text-properties.png&quot; style=&quot;float:right; width: 25%; border: grey solid 1px; margin-left: 10px; margin-bottom: 10px;&quot; /&gt;&lt;b&gt;Step 2&lt;/b&gt;. Change the Button&#039;s &lt;b&gt;Text&lt;/b&gt; property:&lt;br /&gt;Delete &quot;Text for Button1&quot;, leaving the Button&#039;s text property blank so that there is no writing over the bee image.&lt;/p&gt;
+&lt;hr style=&quot;clear:both;&quot; /&gt;&lt;p&gt;&lt;b&gt;Step 3&lt;/b&gt;. From the &lt;b&gt;User Interface&lt;/b&gt; palette, drag and drop the &lt;b&gt;Label&lt;/b&gt; component to the Viewer (#1), placing it below the picture of the bee. It will appear under your list of components as &lt;strong&gt;Label1&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Under the &lt;b&gt;Properties&lt;/b&gt; pane, change the &lt;/p&gt;
+&lt;ul style=&quot;list-style: none;&quot;&gt;&lt;li&gt;&lt;b&gt;(2) Text&lt;/b&gt; property of Label1 to read &quot;Touch the Bee&quot;. You&#039;ll see the text change in the Designer and on your device.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;(3) FontSize&lt;/b&gt; to 30.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;(4) BackgroundColor&lt;/b&gt; of Label1 by clicking on the box. You can change it to any color you like.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;(5) TextColor&lt;/b&gt; to any color you like. (Note: if BackgroundColor and TextColor are the same, you will not be able to read your text!)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; Here, the background color is set to aqua and the text color is set blue. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/label.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:70%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;&lt;p&gt;&lt;b&gt;Step 4&lt;/b&gt;. Under Palette, click on the &lt;b&gt;Media&lt;/b&gt; drawer and drag out a &lt;b&gt;Sound&lt;/b&gt; component and place it in the Viewer (#1). Wherever you drop it, it will appear in the area at the bottom of the Viewer marked &lt;b&gt;Non-visible components&lt;/b&gt;. Under the Media pane, Click Upload File... (#2) Browse to the location of the &lt;em&gt;Bee-Sound.mp3&lt;/em&gt; file that you downloaded earlier and upload it to this project (#3). Under the Properties pane, see that the Source property currently says None.... Click the word None... to change the Sound1 component&#039;s Source to &lt;em&gt;Bee-Sound.mp3&lt;/em&gt; (#4).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/sound.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:70%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Programming with the Blocks Editor&lt;/h3&gt;
+&lt;p&gt;So far you have been arranging your app&#039;s screen and components in the &lt;em&gt;Designer&lt;/em&gt;, which is in a web browser window. To start programming the behavior of the app, you need to go to the &lt;em&gt;Blocks Editor&lt;/em&gt;. Click the Blocks button in the upper right of your screen to go to the Blocks Editor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/blocks.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:90%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once you have the Blocks Editor in front of you, continue to the next step to start programming your app with blocks.&lt;/p&gt;
+&lt;h3&gt;Playing the Sound&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Step 1&lt;/b&gt;. On the left side of the Blocks Editor, click the &lt;b&gt;Button1&lt;/b&gt; drawer to open it. Drag and drop the &lt;span class=&quot;blocks&quot;&gt;Button1.Click&lt;/span&gt; block in the work area (the open area on the right). &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/buttonblocks.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Those mustard yellow blocks are called &lt;b&gt;event handler&lt;/b&gt; blocks. The event handler blocks specifiy how the phone should respond to certain events: a button has been pressed, the phone is being shaken, the user is dragging her finger over a canvas, etc. &lt;span class=&quot;eventblock&quot;&gt;when Button1.Click&lt;/span&gt; is an event handler.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 2a&lt;/b&gt;. Click the &lt;b&gt;Sound1&lt;/b&gt; drawer and drag the &lt;span class=&quot;blocks&quot;&gt;Sound1.Play&lt;/span&gt; block and connect it to the &quot;do&quot; section of the &lt;span class=&quot;blocks&quot;&gt;when Button1.Click&lt;/span&gt; block. The blocks connect together like puzzle pieces and you can hear a clicking sound when they connect.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/soundblocks.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The purple blocks are called &lt;b&gt;command&lt;/b&gt; blocks, which are placed in the body of event handlers.  When an event handler is executed, it runs the sequence of commands in its body.  A command is a block that specifies an action to be performed (e.g., playing sound) when the event (e.g., pressing Button1) is triggered.&lt;/p&gt;
+&lt;p&gt;Your blocks should look like this at this point:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/button1click.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now you can see that the &lt;b&gt;command block&lt;/b&gt; is in the &lt;b&gt;event handler&lt;/b&gt;. This set of blocks means; &quot;when Button1 is clicked, Sound1 will play.&quot;  The event handler is like a category of action (e.g., a button is being clicked), and the command specifies the type of action and the details of the action (e.g., playing a sound).&lt;/p&gt;
+&lt;p&gt;You can read more about the blocks and how they work here: &lt;a href=&quot;/ai2/support/blocks&quot;&gt;Understanding Blocks in App Inventor 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Try It! When you click the button you should hear Codi buzz. Congratulations, your first app is running! &lt;/p&gt;
+&lt;pre class=&quot;box&quot;&gt;Note: there is a known issue with the Sound component on some devices. If you see an &quot;OS Error&quot; and the sound does not play - or is very delayed in playing, go back into the Designer and try using a Player component (found under Media) instead of the Sound component.&lt;/pre&gt;&lt;h3&gt;Packaging your app&lt;/h3&gt;
+&lt;p&gt;While your device (emulator or phone/tablet) has been connected to App Inventor, your app has been running in real time on your device. If you disconnect the emulator/phone/tablet from the Blocks Editor, the app will vanish. You can always make it return by reconnecting the device. To have an app running without being connected to App Inventor, you must &quot;&lt;b&gt;package&lt;/b&gt;&quot; the app to produce an application package (apk file).&lt;/p&gt;
+&lt;p&gt;To &quot;package&quot; the app to your phone or to send to someone else, click the &lt;strong&gt;Build&lt;/strong&gt; tab at the top of the screen. Under Build, here are two options available for you to choose from:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/package.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;1. &lt;b&gt;App (provide QR code):&lt;/b&gt; You can generate a Barcode (a QR Code), which you can use to install the app on a phone or tablet that has a camera, with the aid of a barcode scanner, like the ZXing barcode scanner (freely available in Google Play). &lt;/p&gt;
+&lt;p style=&quot;color:red;&quot;&gt;Note: this barcode works only for your own device because it is associated with your Google account. If you want to share your app with others via barcode, you&#039;ll need to download the .apk file to your computer and use a third-party software to convert the file into a barcode. More information can be found &lt;a href=&quot;/ai2/share&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;2. &lt;b&gt;App (save to my computer):&lt;/b&gt; You can download the app to your computer as an apk file, which you can distribute and share as you like by manually installing it on other devices. (sometimes called &lt;a href=&quot;http://www.techrepublic.com/blog/smartphones/how-to-side-load-apps-on-your-android-device/3114&quot; target=&quot;blank&quot;&gt;&quot;side loading&quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are the key ideas covered so far:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You build apps by selecting components (ingredients) and then telling them what to do and when to do it.&lt;/li&gt;
+&lt;li&gt;You use the &lt;strong&gt;Designer&lt;/strong&gt; to select components and set each component&#039;s properties. Some components are visible and some aren&#039;t.&lt;/li&gt;
+&lt;li&gt;You can add media (sounds and images) to apps by uploading them from your computer.&lt;/li&gt;
+&lt;li&gt;You use the &lt;strong&gt;Blocks Editor&lt;/strong&gt; to assemble blocks that define the components&#039; behavior&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;eventblock&quot;&gt;when ... do ...&lt;/span&gt; blocks define &lt;em&gt;event handlers&lt;/em&gt;, that tell components what to do &lt;em&gt;when&lt;/em&gt; something happens.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;blocks&quot;&gt;call ...&lt;/span&gt; blocks tell components to do things.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/HelloCodiBarcode.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/helloCodi/HelloCodi.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/HelloCodi.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Next steps&lt;/h4&gt;
+&lt;p&gt;Now that you know the basics of how App Inventor works we recommend you:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Complete additional &lt;a href=&quot;/ai2/tutorials&quot;&gt;Tutorials&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Review the &lt;a href=&quot;/library&quot;&gt;User Guide for App Inventor 2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Join the &lt;a href=&quot;/forums&quot;&gt;User Discussion Forum&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Read the guide to &lt;a href=&quot;/ai2/support/blocks&quot;&gt;Understanding Blocks&lt;/a&gt;&lt;a&gt;.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or, if you&#039;ve been using the emulator and want to start using your phone, you can &lt;a href=&quot;/ai2/setup&quot;&gt;set up your Android device&lt;/a&gt; to build apps.&lt;/li&gt;
+&lt;/ul&gt;&lt;pre class=&quot;ai-box&quot;&gt;Something not working right? Visit the &lt;a href=&quot;/ai2/support/troubleshooting&quot;&gt;troubleshooting page&lt;/a&gt;, or check the &lt;a href=&quot;/forums&quot;&gt;App Inventor User Forum&lt;/a&gt; for help.&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Basic&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 12 Sep 2017 18:45:51 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">909 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>LEGO EV3 Color Search</title>
  <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-color-search</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows you how to build a mobile app that instructs an EV3 LEGO robot to search for a certain color on a white surface bordered by black. The user can pick one color out of red, green, blue, or yellow for the robot to search. The robot will search across the white surface and turn around if it gets to the black border. Here is a &lt;a href=&quot;https://www.youtube.com/watch?v=OlD2ruKAvHg&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;demonstration video&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Gn8IDujPLFSffcYfSBBexP2NXBEXDMI2vZpH7u2Qjpc/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
@@ -445,55 +529,6 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
  <pubDate>Sat, 22 Mar 2014 14:38:17 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">498 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Map It: Displaying Locations on a Google Map</title>
- <link>http://explore.appinventor.mit.edu/displaying-maps</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows how you can develop an app that allows you to record list of addresses and view the address on the Google Maps. It will also show you how view your current location on the Google Map. This tutorial assumes you have completed the basic tutorials of App Inventor. &lt;strong&gt;For basic and intermediate tutorials, &lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot;&gt;click here&lt;/a&gt;.&lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Introduction&lt;/h4&gt;
-&lt;p&gt;This tutorial introduces:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;List manipulation – creating lists, appending items to lists&lt;/li&gt;
-&lt;li&gt;ListPicker – adding items to lists, saving list data&lt;/li&gt;
-&lt;li&gt;LocationSensor – detecting current location for displaying on Google Maps&lt;/li&gt;
-&lt;li&gt;ActivityStarter – used to start-up Google Maps for current or predefined address&lt;/li&gt;
-&lt;li&gt;Notifier – displaying messages&lt;/li&gt;
-&lt;li&gt;TinyDB – saving data into a persistent database&lt;/li&gt;
-&lt;li&gt;Misc. – text manipulation, basic validation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We will be working toward the design shown in figure blow:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/design.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The figure below shows how the components are arranged in the design editor. It also shows you the non-visible components (e.g. TinyDb, ActivityStarter, LocationSensor, Notifier) that are used in the app.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/mapItDesigner.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Blocks&lt;/h4&gt;
-&lt;p&gt;We define 2 global variables.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;em&gt;tagAddress&lt;/em&gt; – a variable that is a constant and will be used, as a tag, for storing and retrieving data from our database.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;listLocations&lt;/em&gt; – a variable that can be used to store and manipulate list of addresses.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We now create a procedure that can be invoked when the app is started (initialized). The procedure sets up the initial state of some of the components. Some of these settings could have been done from the design editor, but for demo purpose and clarification, we are using a procedure. In the procedure, we also check our database to find out if there are any stored addresses. If no data, then we just use an empty list.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/InitializeScreen1blocks.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Adding a New Addresses&lt;/h4&gt;
-&lt;p&gt;We use AddLocationButton to add a new address, CancelButton to cancel the process of adding, and LocationHelpButton to display what type of addresses can be entered. The blocks to make these actions work are here:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/AddingNewAddresses.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When AddLocationButton is clicked, we make our address data entry visible (using screen arrangement), allowing user to enter address. If user clicks on Cancel, we make the arrangement hidden again. Using this approach, we keep the screen simple and avoid the clutter. We also provide the SubmitButton to allow the user to indicate that they want to store data.&lt;/p&gt;
-&lt;p&gt;When the user clicks on SubmitButton, we perform basic validation to ensure data has been submitted. If validation does not pass, we display an error message. Otherwise, we invoke a procedure that appends the new address to our list. We also store the updated list into our database. Once address is added, we hide our arrangement again.  The blocks below show how this logic is done:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/SubmittingNewAddresses.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Selecting an Addresses&lt;/h4&gt;
-&lt;p&gt;When the user clicks on ListPicker1 ‘Select Location’ and selects an address, this action calls the blocks below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/ListPicker1AfterPicking.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;This displays the address in the device and allow the user to tap on ViewOnMapButton to see the blocks selected address on the Google Map — see the figure below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/SelectAddress.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;When ViewOnMapButton is clicked, we validate to ensure that an address already has been selected. If not, an error message is displayed. Otherwise, we use blocks below to show address:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/ViewOnMapBlocks.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The above blocks will open the map and the output will be like image below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/Map.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Viewing Current Location On the Map&lt;/h4&gt;
-&lt;p&gt;We have dropped in a button, MyLocationButton ‘My location On the Map’ that can be clicked to view one&#039;s current location. It will use &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/mapIt/MyLocationButtonBlocks.png&quot; /&gt;&lt;/p&gt;
-&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
-&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/mapIt/MapIt_MIT.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
-&lt;pre class=&quot;ai-box&quot;&gt;MIT App Inventor expresses its gratitude to M. Hossein Amerkashi for developing this tutorial. Visit &lt;a href=&quot;http://amerkashi.wordpress.com/2014/02/27/how-to-develop-location-based-android-app/&quot;&gt;Hossein&#039;s blog&lt;/a&gt; to find out more about him and his App Inventor support materials.&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;ListPicker&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Data Storage&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Activity Starter&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;External API&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Location Sensor&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;GPS&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 27 Feb 2014 14:16:47 +0000</pubDate>
- <dc:creator>shay</dc:creator>
- <guid isPermaLink="false">487 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
