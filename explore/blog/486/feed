@@ -6,6 +6,36 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Upcoming Feature: Maps</title>
+ <link>http://explore.appinventor.mit.edu/blogs/evan/2017/09</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello App Inventors!&lt;/p&gt;
+&lt;p&gt;We are adding a new feature to MIT App Inventor: Maps! The Maps update will include seven new components you can leverage to build a wide range of geographically oriented applications, including finding the best places for pizza, favorite hangout spots, walking/hiking trackers, and more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Map:&lt;/strong&gt; Renders map content. It can contain special components (called Features) that are specific to the Map and behave similarly to sprites on a Canvas. The Map sports three different map types: Road, Aerial, and Terrain. App users can trigger many events on the map, including clicks and zooms.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-map.png&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Marker:&lt;/strong&gt; Represents points on a Map. Markers can have custom images, are scalable by width/height, and styleable if Scalable Vector Graphic images are used. Markers can be made draggable and also have infoboxes to present detailed information.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-markers.png&quot; width=&quot;268&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-infobox.png&quot; width=&quot;100&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LineString:&lt;/strong&gt; Represents paths on a Map as a sequence of line segments. This can be used to render open paths and routes on a map. For example, combine a LineString with a LocationSensor component to build a hike tracking application, or use markers to indicate the start/end points of a navigation route.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-linestring.png&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Polygon:&lt;/strong&gt; Marks a closed, 2-dimensional area. It can be used to draw features such as parks, buildings, or countries.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-polygon.png&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rectangle:&lt;/strong&gt; Bounds an area on the north, east, west, and south. This can be used for behaviors such as geofencing, where the app triggers an action if the user enters or leaves a designated region.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-rectangle.png&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Circle:&lt;/strong&gt; Displays a radius around a point on a map. Like the Rectangle, the Circle may be useful for geofencing applications to detect when a user enters or leaves the area around a point.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-circle.png&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FeatureCollection:&lt;/strong&gt; Provides a container for loading multiple features as a group, such as a group of polygons representing the United States (below). Each feature becomes its own component that can be edited in the designer.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/maps-usstates.png&quot; width=&quot;360&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In addition to the visualizations provided by these components, there are a number of behaviors provided so that you can build data rich, interactive applications. Features can be made draggable by app users, data can be shown using infoboxes in response to a user tapping on a feature, and the distance between features can be computed using blocks. &lt;/p&gt;
+&lt;p&gt;We can&#039;t wait to see all of the great apps you invent with these new components.&lt;/p&gt;
+&lt;p&gt;Cheers, and happy inventing!&lt;/p&gt;
+&lt;p&gt;Evan W. Patton&lt;br /&gt;
+Director of Development, MIT App Inventor&lt;br /&gt;
+On behalf of the MIT App Inventor Team&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 26 Sep 2017 18:19:43 +0000</pubDate>
+ <dc:creator>evan</dc:creator>
+ <guid isPermaLink="false">913 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Upcoming App Inventor Features</title>
  <link>http://explore.appinventor.mit.edu/blogs/evan/2017/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello App Inventors!&lt;/p&gt;
