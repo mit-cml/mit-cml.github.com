@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="../node/921.html" />
+<link rel="canonical" href="firebase.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Firebase Authentication in App Inventor Using Javascript | Explore MIT App Inventor</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.base3ae0.css?owuidk");
+@import url("../modules/system/system.menus3ae0.css?owuidk");
+@import url("../modules/system/system.messages3ae0.css?owuidk");
+@import url("../modules/system/system.theme3ae0.css?owuidk");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min3ae0.css?owuidk");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min3ae0.css?owuidk");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min3ae0.css?owuidk");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/date/date_api/date3ae0.css?owuidk");
+@import url("../sites/all/modules/date/date_repeat_field/date_repeat_field3ae0.css?owuidk");
+@import url("../modules/field/theme/field3ae0.css?owuidk");
+@import url("../modules/node/node3ae0.css?owuidk");
+@import url("../modules/search/search3ae0.css?owuidk");
+@import url("../modules/user/user3ae0.css?owuidk");
+@import url("../sites/all/modules/extlink/extlink3ae0.css?owuidk");
+@import url("../sites/all/modules/views/css/views3ae0.css?owuidk");
+@import url("../sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base3ae0.css?owuidk");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctools3ae0.css?owuidk");
+@import url("../sites/all/modules/lightbox2/css/lightbox3ae0.css?owuidk");
+@import url("../sites/all/modules/panels/css/panels3ae0.css?owuidk");
+@import url("../sites/all/libraries/superfish/css/superfish3ae0.css?owuidk");
+@import url("../sites/all/libraries/superfish/css/superfish-smallscreen3ae0.css?owuidk");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/adaptivetheme/at_core/css/at.layout3ae0.css?owuidk");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/sky/css/html-elements3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/forms3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/tables3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/page3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/articles3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/comments3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/fields3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/blocks3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/navigation3ae0.css?owuidk");
+@import url("../sites/all/themes/newexploretheme/color/colors3ae0.css?owuidk");
+@import url("../sites/all/themes/sky/css/sky.settings.style3ae0.css?owuidk");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme3ae0.css?owuidk");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js3ae0.css?owuidk");
+@import url("../sites/all/themes/appinventor/assets/css/reset3ae0.css?owuidk");
+@import url("../sites/all/themes/appinventor/assets/css/typography3ae0.css?owuidk");
+@import url("../sites/all/themes/appinventor/assets/css/layout3ae0.css?owuidk");
+@import url("../sites/all/themes/appinventor/assets/css/drupal3ae0.css?owuidk");
+</style>
+<style type="text/css" media="print">
+@import url("../sites/all/themes/sky/css/print3ae0.css?owuidk");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.default.layout3ae0.css?owuidk");
+</style>
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.responsive.layout3ae0.css?owuidk" media="only screen" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style3ae0.css?owuidk" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels3ae0.css?owuidk" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style3ae0.css?owuidk" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels3ae0.css?owuidk" media="all" />
+  <script type="text/javascript" src="../sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupal3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.effect.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/extlink/extlink3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/modules/iframe/iframe3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/modules/lightbox2/js/lightbox3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalytics3ae0.js?owuidk"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","http://www.google-analytics.com/analytics.js","ga");ga("create", "UA-31803258-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-slider3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsMasonry/main3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/jquery.hoverIntent.minified3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/sfsmallscreen3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/superfish3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/supersubs3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/modules/superfish/superfish3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/themes/sky/js/scripts3ae0.js?owuidk"></script>
+<script type="text/javascript" src="../sites/all/themes/newexploretheme/video-js/video3ae0.js?owuidk"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"moN0H0HO6ZowreBiiBb-uUDzkaJTzQnEiJ0YrMxqJaQ","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/iframe\/iframe.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/themes\/appinventor\/assets\/jsMasonry\/main.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.default.layout.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.responsive.layout.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":0,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","title":"! ACTIVE AI 2 MAIN MENU"},"supersubs":true}}},"adaptivetheme":{"appinventor":{"layout_settings":{"bigscreen":"two-sidebars-right","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"\u0026#039;only screen and (min-width:769px)$","tablet_portrait":"\u0026#039;only screen and (min-width:481px) $","smalltouch_landscape":"\u0026#039;only screen and (min-width:32$","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-921 node-type-tutorial atv-7.54 color-scheme-default appinventor  fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html"><img class="site-logo" typeof="foaf:Image" src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor" /></a></div>
+          
+    </div>
+    <div id="menu-bar" class="nav clearfix"><nav id="block-superfish-1" class="block block-superfish menu-wrapper menu-bar-wrapper clearfix odd first last block-count-1 block-region-menu-bar block-1" >  
+      <h2 class="element-invisible block-title element-invisible">! ACTIVE AI 2 MAIN MENU</h2>
+  
+  <ul  id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-3 sf-single-items-0"><li id="menu-4230-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="../about-us.html" title="" class="sf-depth-1 menuparent">About ▾</a><ul><li id="menu-4231-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../about-us.html" title="" class="sf-depth-2">About Us  </a></li><li id="menu-4234-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../our-team.html" title="" class="sf-depth-2">Our Team</a></li><li id="menu-5013-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../research.html" title="Research related to MIT App Inventor" class="sf-depth-2">Research</a></li><li id="menu-4233-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../sponsors.html" title="" class="sf-depth-2">Sponsors</a></li><li id="menu-5798-1" class="last odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../master-trainers.html" title="MIT App Inventor Master Trainers" class="sf-depth-2">Master Trainers</a></li></ul></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">News &amp; Events ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">In The News</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-4429-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../team-blog.html" title="" class="sf-depth-2">Team Blog</a></li><li id="menu-4074-1" class="last even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../app-month-gallery.html" title="Information about the App of the Month Program" class="sf-depth-2">App of the Month</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="../resources.html" title="" class="sf-depth-1 menuparent">Resources ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3783-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="http://teach.appinventor.mit.edu/" title="" class="sf-depth-2">Teach</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Documentation</a></li><li id="menu-3036-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-5012-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../books.html" title="" class="sf-depth-2">Books</a></li><li id="menu-3038-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="https://groups.google.com/forum/#!forum/mitappinventortest" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="last even sf-item-8 sf-depth-2 sf-list-anchors sf-no-children"><a href="support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li></ul></li></ul>
+  </nav></div>    <div class="region region-create"><div class="region-inner clearfix"><section id="block-block-21" class="block block-block odd first last block-count-2 block-region-create block-21" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Create Button</h2>
+  
+  <div class="block-content content"><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+      var gotoappinventor = function() {
+          var referrer = document.location.pathname;
+          var patt = /.*hour-of-code.*/;
+          if (referrer.match(patt)) {
+            window.open("http://code.appinventor.mit.edu/", "new");
+          } else {
+            window.open("http://ai2.appinventor.mit.edu/", "new");
+          }
+    }
+
+//--><!]]>
+</script><p><a href="#" onclick="gotoappinventor();"><button style="font-size:120%">Create apps!</button></a></p>
+</div>
+  </div></section></div></div>    </div>
+    <div class="region region-header"><div class="region-inner clearfix"><section id="block-block-31" class="block block-block odd first block-count-3 block-region-header block-31" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Top Headline Block</h2>
+  
+  <div class="block-content content"><div style="color: #0d6622; font-style: italic; font-family: verdana; font-weight: bold; font-size: 18px; padding-top:2px; float:left; position: relative; top: 50%; left: 50%; transform: translate(-50%, 10%);">Anyone Can Build Apps That Impact the World</div>
+</div>
+  </div></section><div id="block-block-7" class="block block-block no-title even last block-count-4 block-region-header block-7" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div style="float:right;">
+<script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div></div>
+  </div></div></div></div>    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content"><section id="block-block-23" class="block block-block odd first block-count-5 block-region-content block-23" >  
+      <h2 class="block-title">Social Icons</h2>
+  
+  <div style="height:50px !important;">
+<p style="float:left;margin: 10px 7px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://plus.google.com/communities/109900432278954380687"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/google%2b.png" style="width:25px;" /></a>    <a href="https://twitter.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="https://www.youtube.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>    <a href="https://groups.google.com/forum/#!forum/mitappinventortest"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/googlegroups.png" style="width:25px;" /></a>    <a href="http://www.weibo.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wb.png" style="width:25px;" /></a>    <a href="http://mp.weixin.qq.com/s?__biz=MzAxODE1NTc1MQ==&amp;mid=201968203&amp;idx=1&amp;sn=01f8946b01a98b63e97e201a812dc844#rd"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wc.png" style="width:25px;" /></a>
+</p></div>
+
+  </section><div id="block-system-main" class="block block-system no-title even last block-count-6 block-region-content block-main" >  
+  
+  <article id="article-921" class="node node-tutorial article odd node-lang-en node-full clearfix" about="/ai2/firebase" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 class="node-title">
+                      Firebase Authentication in App Inventor Using Javascript                  </h1>
+      
+      
+    </header>
+    <span property="dc:title" content="Firebase Authentication in App Inventor Using Javascript" class="rdf-meta element-hidden"></span>
+  <div class="node-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p><i>This tutorial is written by MIT Master Trainer Rich Interdonato.</i></p>
+<p>The Firebase component that is provided by App Inventor is super useful, especially when you need to update any number of apps with fresh data.  In addition to using Firebase as a datastore, you can also leverage its website authentication in your apps to take care of your user management needs.  This means, sign-up, email verification, and login.  What is more, all the user information is stored and maintained on Firebase’s servers, so the most difficult problems of user authentication are solved for you.</p>
+<p>Firebase provides the javascript code that handles all the necessary steps to setup, and then log in, new and existing users.  Read more about the details <a href="https://firebase.google.com/docs/auth/web/password-auth" target="_blank">here</a>.  This javascript code can be included in a static HTML file, which you can then add to the apps you create with App Inventor, so long as you also incorporate a WebViewer component to process it for you, AND you make a few simple modifications to it so App Inventor can “look inside” the running javascript.  All of this will be explained in the sections that follow.  But first you must set up a Firebase account and set it to allow users to authenticate using an email and their password.</p>
+<h3>Set Up Firebase to use Email/Password Authentication</h3>
+<p>Setting up a datastore is really easy once you have a Firebase account.  Once you create one and log in, there are only 4 steps required to use Firebase authentication.</p>
+<p><strong>Step 1</strong></p>
+<p>The first thing you must do to use Firebase authentication is to create a project.  This can be completed at <a href="https://console.firebase.google.com/" target="_blank">https://console.firebase.google.com/</a>.  Simply click on the <strong>Add project</strong> button and you will be presented with the <strong>Create a project</strong> dialog.  Complete the dialog’s fields and then click on the <strong>CREATE PROJECT</strong> button.</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/firebase-start.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p><strong>Step 2</strong></p>
+<p>Second, click on the <strong>Add Firebase to your web app button</strong> that is shown in the image below:</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/firebase-project.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p><strong>Step 3</strong></p>
+<p>The <strong>Add Firebase to your web app</strong> dialog shows you all the necessary information that you will need to use Firebase’s website security in your App Inventor apps.  This information includes:</p>
+<ul><li>apiKey</li>
+<li>databaseURL</li>
+<li>storageBucket</li>
+<li>messageSenderId</li>
+</ul><p>These values are presented as comma delimited, key:”value” pairs, surrounded by curly braces {}.  You will use this information as the value for the <strong>firebaseCredentials</strong> variable in the App Inventor Blocks Editor.</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/firebase-add-to-project.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p>PLEASE NOTE: you can delete the authDomain and projectId key value pairs if you like because they are optional.  However, you must remember the surrounding curly braces and the quotes around all the keys and values, as shown below:</p>
+<pre>
+	{
+		"apiKey":"YOUR_apiKey_HERE",
+		"databaseURL":"YOUR_databaseURL_HERE",
+		"storageBucket":"YOUR_storageBucket_HERE",
+		"messagingSenderId":"YOUR_messagingSenderId_HERE"
+	}
+</pre><p>Note that all the key/value pairs must have quotes around them. If you copy/paste from the Firebase window, you may have to add quotes. All of this information can be compressed into a single line and it will work just fine:</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/apikey.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p><strong>Step 4</strong></p>
+<p>Lastly you must enable the Email/Password SIGN-IN METHOD on Firebase’s Authentication page.  This simply involves selecting the Authentication menu option (on the left) and then clicking on the pencil icon at the end of the Email/Password row as shown below:</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/firebase-email.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p>Doing so will display the Email/Password dialog as follows:</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/firebase-email-dialog.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p>After enabling the Email/Password Authentication, click SAVE and Firebase will then allow your website – and your App Inventor apps that use the FirebaseAuthenticator.html page (below) – to make use of the features and power of Firebase’s own security.  And that is pretty awesome!</p>
+<p>More information about fine tuning Firebase’s authentication can be found here.</p>
+<h3>Edit the Firebase Website Authentication HTML file <span style="font-family: Courier;">(FirebaseAuthenticator.html)</span></h3>
+<p>This example file is almost an exact copy of the original one that can be found <a href="https://github.com/firebase/quickstart-js/blob/master/auth/email.html" target="_blank">here</a>.  The changes that have been made are highlighted in <span style="background-color: yellow;">yellow</span> below.  The reason the changes are necessary is that the WebViewer component understands some special, App Inventor only javascript that allows it to communicate with the javascript as it runs inside web pages.  By using Firebase’s website authentication inside a WebViewer, App Inventor apps can show users a login page as if the app were a real website, and once the user is logged in, the WebViewer can tell the app that the user has been authenticated (or not).<br /><span style="font-family: Courier;"></span></p>
+<pre>
+
+<!--
+Copyright (c) 2016 Google Inc.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=utf-8 /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Email/Password Authentication Example&lt;/title&gt;
+
+  &lt;!-- Material Design Theming --&gt;
+  &lt;link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css"&gt;
+  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;
+  &lt;script defer src="https://code.getmdl.io/1.1.3/material.min.js"&gt;&lt;/script&gt;
+
+  &lt;!-- Firebase --&gt;
+
+
+&lt;script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"&gt;&lt;/script&gt;
+&lt;script&gt;<span style="background-color: yellow;">
+  // Initialize Firebase
+  
+  // Get the Firebase configuration from App Inventor via the WebViewer.WebViewString property
+  var config = JSON.parse(window.AppInventor.getWebViewString());
+  
+  firebase.initializeApp(config);
+&lt;/script&gt;
+
+  &lt;script type="text/javascript"&gt;
+    function tellAppInventor(message) {
+        try {
+            window.AppInventor.setWebViewString( message );
+        } catch(e) {
+            console.log("App Inventor Communication Error",e)
+        }
+    }
+    </span>
+    /**
+     * Handles the sign in button press.
+     */
+    function toggleSignIn() {
+      if (firebase.auth().currentUser) {
+        // [START signout]
+        firebase.auth().signOut();
+        // [END signout]
+      } else {
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        if (email.length &lt; 4) {
+          <span style="background-color: yellow;">tellAppInventor</span>('Please enter an email address.');
+          return;
+        }
+        if (password.length &lt; 4) {
+          <span style="background-color: yellow;">tellAppInventor</span>('Please enter a password.');
+          return;
+        }
+        // Sign in with email and pass.
+        // [START authwithemail]
+        firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          // [START_EXCLUDE]
+          if (errorCode === 'auth/wrong-password') {
+            <span style="background-color: yellow;">tellAppInventor</span>('Wrong password.');
+          } else {
+            <span style="background-color: yellow;">tellAppInventor</span>(errorMessage);
+          }
+          console.log(error);
+          document.getElementById('quickstart-sign-in').disabled = false;
+          // [END_EXCLUDE]
+        });
+        // [END authwithemail]
+      }
+      document.getElementById('quickstart-sign-in').disabled = true;
+    }
+    /**
+     * Handles the sign up button press.
+     */
+    function handleSignUp() {
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+      if (email.length &lt; 4) {
+        <span style="background-color: yellow;">tellAppInventor</span>('Please enter an email address.');
+        return;
+      }
+      if (password.length &lt; 4) {
+        <span style="background-color: yellow;">tellAppInventor</span>('Please enter a password of 4 or more characters.');
+        return;
+      }
+      // Sign in with email and pass.
+      // [START createwithemail]
+      firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == 'auth/weak-password') {
+          <span style="background-color: yellow;">tellAppInventor</span>('The password is too weak.');
+        } else {
+          <span style="background-color: yellow;">tellAppInventor</span>(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END createwithemail]
+    }
+    /**
+     * Sends an email verification to the user.
+     */
+    function sendEmailVerification() {
+      // [START sendemailverification]
+      firebase.auth().currentUser.sendEmailVerification().then(function() {
+        // Email Verification sent!
+        // [START_EXCLUDE]
+        <span style="background-color: yellow;">tellAppInventor</span>('Email Verification Sent!');
+        // [END_EXCLUDE]
+      });
+      // [END sendemailverification]
+    }
+    function sendPasswordReset() {
+      var email = document.getElementById('email').value;
+      // [START sendpasswordemail]
+      firebase.auth().sendPasswordResetEmail(email).then(function() {
+        // Password Reset Email Sent!
+        // [START_EXCLUDE]
+        <span style="background-color: yellow;">tellAppInventor</span>('Password Reset Email Sent!');
+        // [END_EXCLUDE]
+      }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == 'auth/invalid-email') {
+          <span style="background-color: yellow;">tellAppInventor</span>(errorMessage);
+        } else if (errorCode == 'auth/user-not-found') {
+          <span style="background-color: yellow;">tellAppInventor</span>(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END sendpasswordemail];
+    }
+    /**
+     * initApp handles setting up UI event listeners and registering Firebase auth listeners:
+     *  - firebase.auth().onAuthStateChanged: This listener is called when the user is signed in or
+     *    out, and that is where we update the UI.
+     */
+    function initApp() {
+      // Listening for auth state changes.
+      // [START authstatelistener]
+      firebase.auth().onAuthStateChanged(function(user) {
+        // [START_EXCLUDE silent]
+        document.getElementById('quickstart-verify-email').disabled = true;
+        // [END_EXCLUDE]
+        if (user) {
+          // User is signed in.
+          var displayName = user.displayName;
+          var email = user.email;
+          var emailVerified = user.emailVerified;
+          var photoURL = user.photoURL;
+          var isAnonymous = user.isAnonymous;
+          var uid = user.uid;
+          var providerData = user.providerData;
+
+          <span style="background-color: yellow;">if (emailVerified &amp;&amp; !isAnonymous) {
+                tellAppInventor( uid + ',' + email + ',' + displayName + ',' + photoURL );
+            } else if (!emailVerified) {
+                tellAppInventor( 'Please click the Send Email Verification button to confirm your account.' );
+            }</span>
+          
+          // [START_EXCLUDE]
+<span style="background-color: yellow;">//</span>          document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
+<span style="background-color: yellow;">//</span>          document.getElementById('quickstart-sign-in').textContent = 'Sign out';
+<span style="background-color: yellow;">//</span>          document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
+          if (!emailVerified) {
+            document.getElementById('quickstart-verify-email').disabled = false;
+          }
+          // [END_EXCLUDE]
+        } else {
+          // User is signed out.
+          // [START_EXCLUDE]
+<span style="background-color: yellow;">//</span>          document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
+<span style="background-color: yellow;">//</span>          document.getElementById('quickstart-sign-in').textContent = 'Sign in';
+<span style="background-color: yellow;">//</span>          document.getElementById('quickstart-account-details').textContent = 'null';
+          // [END_EXCLUDE]
+        }
+        // [START_EXCLUDE silent]
+        document.getElementById('quickstart-sign-in').disabled = false;
+        // [END_EXCLUDE]
+      });
+      // [END authstatelistener]
+      document.getElementById('quickstart-sign-in').addEventListener('click', toggleSignIn, false);
+      document.getElementById('quickstart-sign-up').addEventListener('click', handleSignUp, false);
+      document.getElementById('quickstart-verify-email').addEventListener('click', sendEmailVerification, false);
+      document.getElementById('quickstart-password-reset').addEventListener('click', sendPasswordReset, false);
+    }
+    window.onload = function() {
+      initApp();
+    };
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header"&gt;
+
+  &lt;!-- Header section containing <span style="background-color: yellow;">title</span> 
+  &lt;header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700"&gt;
+    &lt;div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid"&gt;
+      &lt;div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop"&gt;
+        &lt;a href="/"&gt;&lt;h3&gt;Firebase Authentication&lt;/h3&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+  <span style="background-color: yellow;">--&gt;</span>
+
+  vmain class="mdl-layout__content mdl-color--grey-100"&gt;
+    &lt;div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid"&gt;
+
+      &lt;!-- Container for the demo --&gt;
+      vdiv class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop"&gt;
+        &lt;div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white"&gt;
+          <span style="background-color: yellow;">&lt;h2 class="mdl-card__title-text"&gt;Sign In or Sign Up&lt;/h2&gt;</span>
+        &lt;/div&gt;
+        &lt;div class="mdl-card__supporting-text mdl-color-text--grey-600"&gt;
+          &lt;p&gt;Enter an email and password below and either sign in to an existing account or sign up&lt;/p&gt;
+
+          &lt;input class="mdl-textfield__input" style="display:inline;width:auto;" type="text" id="email" name="email" placeholder="Email"/&gt;
+          <span style="background-color: yellow;">&lt;p/&gt;&lt;p/&gt;</span>
+          &lt;input class="mdl-textfield__input" style="display:inline;width:auto;" type="password" id="password" name="password" placeholder="Password"/&gt;
+          <span style="background-color: yellow;">&lt;p/&gt;</span>
+          &lt;button disabled class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in" name="signin"&gt;Sign In&lt;/button&gt;
+             
+          &lt;button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-up" name="signup"&gt;Sign Up&lt;/button&gt;
+          <span style="background-color: yellow;">&lt;p/&gt;</span>
+          &lt;button class="mdl-button mdl-js-button mdl-button--raised" disabled id="quickstart-verify-email" name="verify-email"&gt;Send Email Verification&lt;/button&gt;
+          <span style="background-color: yellow;">&lt;p/&gt;</span>
+          &lt;button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email"&gt;Send Password Reset Email&lt;/button&gt;
+          <span style="background-color: yellow;">&lt;p/&gt;</span>
+
+          &lt;!-- Container where we'll display the user details --&gt;
+          <span style="background-color: yellow;">&lt;div class="quickstart-user-details-container" style="display:none"&gt;
+            Sign-in</span> status: &lt;span id="quickstart-sign-in-status"&gt;Unknown&lt;/span&gt;
+            <span style="background-color: yellow;">&lt;div&gt;Authorization</span> &lt;code&gt;currentUser&lt;/code&gt; object value:&lt;/div&gt;
+            &lt;pre&gt;&lt;code id="quickstart-account-details"&gt;null&lt;/code&gt;&lt;/pre&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/main&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre><h3>Create an App Inventor App to Use Firebase Website Authentication</h3>
+<h3>Designer</h3>
+<p><img src="../sites/explore.appinventor.mit.edu/files/firebase-designer.png" style="display:block; margin:auto; width: 80%;" /></p>
+<p>The Designer is really quite simple.  There are only three components on Screen1: a WebViewer, a  Notifier, and a Clock.  There is also an included asset file, <span style="font-family: Courier;">FirebaseAuthenticator.html</span>.</p>
+<ul><li><strong>WebViewer</strong> – loads the FirebaseAuthenticator.html file, and uses the javascript it contains to access Firebase’s website authentication system.</li>
+<li><strong>Notifier</strong> – displays alert messages to the user about the status of the login process, and reports when the user is successfully logged in.</li>
+<li><strong>Clock</strong> – periodically checks the status of the WebViewer’s javascript that handles logging in to Firebase. </li>
+</ul><p>
+You may notice that there are no Buttons or other components needed to start the login process from our App Inventor app.  This is because the web page <span style="font-family: Courier;">(FirebaseAuthenticator.html)</span> has its own buttons to do that as part of Firebase’s ready-made login screen!</p>
+<p><srong>Blocks Overview<br /><img src="../sites/explore.appinventor.mit.edu/files/firebase-blocks-overview.png" style="display:block; margin:auto; width: 100%;" /></srong></p>
+<p>As you can see, the blocks for this app are also quite simple.  There are only 3 variables, 2 event handlers, and 1 procedure needed to incorporate Firebase’s website authentication into an App Inventor app.  Each will be explained in individual sections below.</p>
+<p><strong>Variable</strong><br /><img src="../sites/explore.appinventor.mit.edu/files/firebase-variable-blocks.png" style="float:left; width: 80%;" /><br /><img src="../sites/explore.appinventor.mit.edu/files/firebase-firsttime.png" style="clear:both; float:left; width: 40%;" /></p>
+<p style="clear:both;">The variables needed by the app are as follows:</p>
+<ul><li><strong>firebaseCredentials</strong> – contains the information needed to connect to your Firebase database.  Firebase expects these credentials to be submitted as a JSON string composed of your <i>apiKey, authDomain, databaseURL, projectId, storageBucket</i>, and <i>messagingSenderId</i> (see comment in the image above).  All of these values can be found here on Firebase’s website, and the <i>authDomain</i> and <i>projectId</i> values are technically optional, but it doesn’t hurt to include them as well.</li>
+<li><strong>debugMode</strong> – used to set the location of the HTML file that is used by the WebViewer because App Inventor apps use different directories for development and running apps.</li>
+<li><strong>LIST_userId_email_name_photoUrl</strong> – holds the user credentials obtained after a user successfully logs in via the WebViewer component.</li>
+<li><strong>firstTime</strong> – used to test if the Clock timer is firing for the first time, to allow for a time lag when displaying the WebViewer on app start.</li>
+</ul><p><i>Screen1.Initialize</i><br /><img src="../sites/explore.appinventor.mit.edu/files/firebase-initialize.png" style="float: left; width: 80%;" /></p>
+<p style="clear:both;">As soon as the app opens, the Screen1.Initialize event is triggered and the following occurs, in order:</p>
+<ol><li>The Clock1.TimerInterval property is set to 5000 milliseconds.  This causes the Clock1.Timer event to fire every 5 seconds.  This value can be adjusted based on your own needs and experience with the app, but the Firebase authentication process seems to work with this setting.</li>
+<li>Based on the value of the debugMode variable, the directory that the app looks for the <span style="font-family: Courier;">FirebaseAuthenticator.html</span> is set so the app will work in both debug and run modes.</li>
+<li>WebViewer1.WebViewString is set to the value of the <strong>firebaseCredentials</strong> variable, so that the WebViewer will have the necessary configuration to work with your Firebase instance.  This information includes your apiKey, databaseURL, storageBucket, and messagingSenderId.</li>
+<li>The WebViewer is instructed to go to its home page, which means load the <span style="font-family: Courier;">FirebaseAuthenticator.html file.</span></li>
+<li>The Clock1.TimerEnabled property is set to true, which starts the Clock1.Timer event firing.</li>
+</ol><p>
+<i>Clock1.Timer</i><br /><img src="../sites/explore.appinventor.mit.edu/files/firebase-timer.png" style="float: left; width: 80%;" /></p>
+<p style="clear:both;">The first time the Clock timer goes off, we want to call WebViewer.GoHome to run the javascript code. Due to time lag, we can’t count on Screen1.Initalize to do this, so the 5 second time lag is enough to load the code. We only want this to happen the first time, so we’ll set firstTime to false and continue.</p>
+<p>This event is where App Inventor repeatedly checks the state of the javascript code that is running in the WebViewer component.  Each time the event is triggered, it checks to see if the WebViewer1.WebViewString is not empty and that it is different from the text in the <strong>firebaseCredentials</strong> variable.  If so, then it checks to see if the text is “Email Verification Sent!”.  If it is, then the app knows that the user is setting up an account and Firebase is waiting for the user to confirm their email address, so the app tells the WebViewer component to GoHome, where the rest of the login process can occur.</p>
+<p>If the WebViewer1.WebViewString contains an “@” symbol, then this means that the login was successful, so the WebViewer.Visible and Clock1.TimerEnabled properties are set to false.  Also, as soon as the user is authenticated by Firebase, the WebViewer1.WebViewString property contains a comma separated value list of the user’s userId, email address, user name, and photo URL, and this text is stored in the variable <strong>LIST_userId_email_name_photoUrl</strong>.  Since the user has been authenticated, another procedure is called: <strong>AuthenticatedInitialize</strong>, and this is where you insert the code you want your app to run immediately after a user logs in.  In short, your app really should START with the <strong>AuthenticatedInitialize</strong> event.</p>
+<p>If the WebViewer1.WebViewString does not contain an “@” symbol, then this means that some other message has been sent from the javascript inside the <span style="font-family: Courier;">FirebaseAuthenticator.html</span> file, and it should be shown to the user.  These messages are usually about incorrect passwords or user names.</p>
+<p>Finally, if the WebViewer1.WebViewString was not empty and did not match the text in the <strong>firebaseCredentials</strong> variable when the Clock1.Timer event was triggered, it is reset to an empty string ("") so that the next time the Clock1.Timer event is triggered, it will only take action if the javascript running inside the <span style="font-family: Courier;">FirebaseAuthenticator.html</span> file has set it to some non-empty value.</p>
+<p><i>AuthenticatedInitialize Procedure</i><br /><img src="../sites/explore.appinventor.mit.edu/files/authenticate-initialize.png" style="float: left; width: 80%;" /></p>
+<p style="clear:both;">The <strong>AuthenticatedInitialize</strong> procedure is where the App Inventor app <i>really</i> begins, once a user has been authenticated by Firebase. In our example, this means that the app changes the Screen1.Title property to "AUTHENTICATED USER" to remind you that the user’s credentials have been authenticated.  It also displays a reminder to you in a Notification dialog, so that you remember to add your own blocks.</p>
+<h3>Conclusion</h3>
+<p>With 3 components, 2 events, and 1 procedure, we have been able to leverage Firebase’s website security infrastructure for an Android app created with App Inventor.  This is enormously powerful, secure, and useful.  Thank you Firebase for doing all the “heavy lifting” for us with your website authentication javascript, and thank you App Inventor for providing the WebViewer component with the ability to “look inside” any javascript that is running on an HTML page!</p>
+<p>
+*One last pro-tip for all you App Inventors out there: make sure you set the <strong>debugMode</strong> variable correctly.  While you are developing your app using App Inventor, it should be set to true.  When you build your apk file, it should be set to false.  If you set it incorrectly the app will display an error message about how the <span style="font-family: Courier;">FirebaseAuthenticator.html</span> file cannot be found – and nobody likes that. :)</p>
+</div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Version:&nbsp;</h2><ul class="field-items"><li class="field-item even"><a href="../tutorial-version/app-inventor-2.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 2</a></li></ul></section><section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Difficulty:&nbsp;</h2><ul class="field-items"><li class="field-item even">Advanced</li></ul></section><section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Type:&nbsp;</h2><ul class="field-items"><li class="field-item even">WebViewer</li></ul></section>  </div>
+
+  
+  
+</article>
+
+  </div></div>
+
+        
+      </section>
+
+      <div class="region region-content-aside"><div class="region-inner clearfix"><div id="block-block-25" class="block block-block no-title odd first last block-count-7 block-region-content-aside block-25" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div id="container" style="margin: 10px 0px;width: 60%">
+<div id="sub1" style="float:left;width:22%">
+<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="appinventor">Tweet</a>
+<script>
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+//--><!]]>
+</script></div>
+<div id="sub2" style="float:left;width:24%">
+<div id="fb-root"></div>
+<script>
+<!--//--><![CDATA[// ><!--
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//--><!]]>
+</script><div class="fb-share-button" data-href="" data-type="button_count"></div>
+</div>
+<div id="sub4" style="float:left;width:20%">
+<script src="http://platform.linkedin.com/in.js" type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  lang: en_US
+
+//--><!]]>
+</script><script type="IN/Share" data-counter="right"></script></div>
+<div id="sub5" style="float:left;width:15%">
+<p><a href="http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"><img src="http://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></p>
+<!-- Please call pinit.js only once per page --><script type="text/javascript" async="" src="http://assets.pinterest.com/js/pinit.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+(function(d){
+    var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+    p.type = 'text/javascript';
+    p.async = true;
+    p.src = 'http://assets.pinterest.com/js/pinit.js';
+    f.parentNode.insertBefore(p, f);
+}(document));
+
+//--><!]]>
+</script></div>
+<div id="sub3" style="float:left;width:19%">
+<div class="g-plusone" data-size="medium"></div>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+//--><!]]>
+</script></div>
+</div>
+</div>
+  </div></div></div></div>
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+            <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-3" class="block block-block no-title odd first last block-count-8 block-region-footer block-3" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+
+}
+a strong {
+text-decoration: underline;
+}
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><a href="../index-2.html"><strong>Home</strong></a></li>
+</ul><ul><li><a href="../about-us.html"><strong>About</strong></a></li>
+<li><a href="../about-us.html">About Us</a></li>
+<li><a href="../our-team.html">Our Team</a></li>
+<li><a href="../sponsors.html">Sponsors</a></li>
+</ul><ul><li><a href="../news-events.html"><strong>News &amp; Stories</strong></a></li>
+<li><a href="../news-events.html">In The News</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../team-blog.html">Team Blog</a></li>
+<li><a href="../app-month-gallery.html">App of the Month</a></li>
+</ul><ul><li><a href="../resources.html"><strong>Resources</strong></a></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../teach.html">Teach</a></li>
+<li><a href="../library.html">Documentation</a></li>
+<li><a href="tutorials.html">Tutorials</a></li>
+<li><a href="../support.html">AI Classic</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">Forums</a></li>
+<li><a href="support/troubleshooting.html">Troubleshooting</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="../sites/all/sa_3.0_88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;">© 2012-2017 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+</div>
+  </div></div></div></div>    </footer>
+  
+</div>
+
+  </body>
+</html>

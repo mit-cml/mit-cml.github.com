@@ -6,6 +6,17 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Two New Tutorials on Using Javascript in App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/10/two</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/interdonato.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;MIT Master Trainer Rich Interdonato, Professor at the University of Utah, has written two tutorials that show readers how to utilize the WebViewer component to execute javascript code. &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;appinventor.mit.edu/ai2/webview-javascript&quot;&gt;WebView Javascript Processor for App Inventor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;appinventor.mit.edu/ai2/firebase&quot;&gt;Firebase Authentication in App Inventor Using Javascript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 06 Oct 2017 18:00:13 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">922 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Teen-Code</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/10/teen</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ovazza.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Youmna Ovazza&lt;/i&gt;
@@ -643,49 +654,6 @@ This is the latest &lt;a href=&quot;https://xiangqunchen.blogspot.co.nz/2017/04/
  <pubDate>Fri, 14 Apr 2017 03:30:27 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">879 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>CS Unplugged in New Zealand</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/04/cs</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/unplugged.png&quot; style=&quot;float: right; margin-left: 10px; width: 25%;&quot; /&gt;I was lucky enough to spend a day last week at the University of Canterbury in Christchurch, New Zealand with Tim Bell and his CS Unplugged team. We had quite a long discussion on computer science, pedagogy, and curricula. The Unplugged team is currently working on revision and additions to the famous CS Unplugged activities. Tim was definitive that the unplugged activities are “one way” to help students understand various computer science concepts, and are not meant to be a complete curriculum. The unplugged activities are interactive, hands-on, and engaging, and allow students to learn CS concepts in a fun and non-threatening way. Microsoft has just awarded the team a large grant to fund the unplugged revisions. The team is also working on programming challenges that follow on from the unplugged activities, making the bridge from unplugged to  “plugged-in” activities. The challenges range from simple to advanced, allowing students (or teachers) to choose a difficulty level to try. Also, students are motivated to make their way through the challenges, from easy to difficult. &lt;/p&gt;
-&lt;p&gt;I also learned about another ongoing project that Tim oversees – the Computer Science Field Guide. It is an open source, interactive textbook that is an online resource for both students and teachers to learn about different aspects of Computer Science. Again, the purpose is not to act as a standalone curriculum, but to be an additional resource for those teaching or learning Computer Science.&lt;/p&gt;
-&lt;p&gt;Our discussions led to the new New Zealand Digital Technologies curricula, and the current development work that is happening, especially at the primary and intermediate levels. Most New Zealand schools only offer Computer Science and programming courses at the college (equivalent to US high school) level. The main languages used to teach Computer Science in New Zealand are Scratch and Python. Much work is underway to bring Computer Science and computational thinking to the lower grades, to ensure that students have access to digital technologies throughout their education. &lt;/p&gt;
-&lt;p&gt;I also had the privilege of meeting a group of local Christchurch teachers, who came to hear more about MIT App Inventor, how it is used in schools, and ways to use to teach computational thinking. We spent an hour or so looking at a simple app made with App Inventor, then discussing how App Inventor can be used in the classroom, and at what grade levels. I talked about the CoolThink Project in Hong Kong, where MIT App Inventor is being used to teach 4th, 5th, and 6th graders computational thinking. Most of the New Zealand teachers were hoping to use App Inventor in year 10 of school, fitting it between Scratch and Python, in their progression of computing languages. &lt;/p&gt;
-&lt;p&gt;Overall, it was an informative and exhilarating day, to see the energy and excitement that is churning around CS education in New Zealand. I look forward to seeing the rollout of the CS Unplugged updates, and also the New Zealand Digital Technologies curriculum over the next year. Exciting times in New Zealand!&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/christchurch.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;&lt;i&gt;Christchurch Cardboard Cathedral&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21755&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21755&quot;&gt;unplugged.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/unplugged.png&quot; width=&quot;800&quot; height=&quot;231&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21756&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/21756&quot;&gt;christchurch.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/christchurch.jpg&quot; width=&quot;2744&quot; height=&quot;1944&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 14 Apr 2017 03:23:35 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">878 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>

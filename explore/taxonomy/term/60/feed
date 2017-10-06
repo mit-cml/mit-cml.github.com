@@ -6,6 +6,353 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Firebase Authentication in App Inventor Using Javascript</title>
+ <link>http://explore.appinventor.mit.edu/ai2/firebase</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This tutorial is written by MIT Master Trainer Rich Interdonato.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;The Firebase component that is provided by App Inventor is super useful, especially when you need to update any number of apps with fresh data.  In addition to using Firebase as a datastore, you can also leverage its website authentication in your apps to take care of your user management needs.  This means, sign-up, email verification, and login.  What is more, all the user information is stored and maintained on Firebase’s servers, so the most difficult problems of user authentication are solved for you.&lt;/p&gt;
+&lt;p&gt;Firebase provides the javascript code that handles all the necessary steps to setup, and then log in, new and existing users.  Read more about the details &lt;a href=&quot;https://firebase.google.com/docs/auth/web/password-auth&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.  This javascript code can be included in a static HTML file, which you can then add to the apps you create with App Inventor, so long as you also incorporate a WebViewer component to process it for you, AND you make a few simple modifications to it so App Inventor can “look inside” the running javascript.  All of this will be explained in the sections that follow.  But first you must set up a Firebase account and set it to allow users to authenticate using an email and their password.&lt;/p&gt;
+&lt;h3&gt;Set Up Firebase to use Email/Password Authentication&lt;/h3&gt;
+&lt;p&gt;Setting up a datastore is really easy once you have a Firebase account.  Once you create one and log in, there are only 4 steps required to use Firebase authentication.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first thing you must do to use Firebase authentication is to create a project.  This can be completed at &lt;a href=&quot;https://console.firebase.google.com/&quot; target=&quot;_blank&quot;&gt;https://console.firebase.google.com/&lt;/a&gt;.  Simply click on the &lt;strong&gt;Add project&lt;/strong&gt; button and you will be presented with the &lt;strong&gt;Create a project&lt;/strong&gt; dialog.  Complete the dialog’s fields and then click on the &lt;strong&gt;CREATE PROJECT&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-start.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Second, click on the &lt;strong&gt;Add Firebase to your web app button&lt;/strong&gt; that is shown in the image below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-project.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Add Firebase to your web app&lt;/strong&gt; dialog shows you all the necessary information that you will need to use Firebase’s website security in your App Inventor apps.  This information includes:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;apiKey&lt;/li&gt;
+&lt;li&gt;databaseURL&lt;/li&gt;
+&lt;li&gt;storageBucket&lt;/li&gt;
+&lt;li&gt;messageSenderId&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;These values are presented as comma delimited, key:”value” pairs, surrounded by curly braces {}.  You will use this information as the value for the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable in the App Inventor Blocks Editor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-add-to-project.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;PLEASE NOTE: you can delete the authDomain and projectId key value pairs if you like because they are optional.  However, you must remember the surrounding curly braces and the quotes around all the keys and values, as shown below:&lt;/p&gt;
+&lt;pre&gt;
+	{
+		&quot;apiKey&quot;:&quot;YOUR_apiKey_HERE&quot;,
+		&quot;databaseURL&quot;:&quot;YOUR_databaseURL_HERE&quot;,
+		&quot;storageBucket&quot;:&quot;YOUR_storageBucket_HERE&quot;,
+		&quot;messagingSenderId&quot;:&quot;YOUR_messagingSenderId_HERE&quot;
+	}
+&lt;/pre&gt;&lt;p&gt;Note that all the key/value pairs must have quotes around them. If you copy/paste from the Firebase window, you may have to add quotes. All of this information can be compressed into a single line and it will work just fine:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/apikey.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lastly you must enable the Email/Password SIGN-IN METHOD on Firebase’s Authentication page.  This simply involves selecting the Authentication menu option (on the left) and then clicking on the pencil icon at the end of the Email/Password row as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-email.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Doing so will display the Email/Password dialog as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-email-dialog.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After enabling the Email/Password Authentication, click SAVE and Firebase will then allow your website – and your App Inventor apps that use the FirebaseAuthenticator.html page (below) – to make use of the features and power of Firebase’s own security.  And that is pretty awesome!&lt;/p&gt;
+&lt;p&gt;More information about fine tuning Firebase’s authentication can be found here.&lt;/p&gt;
+&lt;h3&gt;Edit the Firebase Website Authentication HTML file &lt;span style=&quot;font-family: Courier;&quot;&gt;(FirebaseAuthenticator.html)&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;This example file is almost an exact copy of the original one that can be found &lt;a href=&quot;https://github.com/firebase/quickstart-js/blob/master/auth/email.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.  The changes that have been made are highlighted in &lt;span style=&quot;background-color: yellow;&quot;&gt;yellow&lt;/span&gt; below.  The reason the changes are necessary is that the WebViewer component understands some special, App Inventor only javascript that allows it to communicate with the javascript as it runs inside web pages.  By using Firebase’s website authentication inside a WebViewer, App Inventor apps can show users a login page as if the app were a real website, and once the user is logged in, the WebViewer can tell the app that the user has been authenticated (or not).&lt;br /&gt;&lt;span style=&quot;font-family: Courier;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;
+
+&lt;!--
+Copyright (c) 2016 Google Inc.
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--&gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=utf-8 /&amp;gt;
+  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+  &amp;lt;title&amp;gt;Email/Password Authentication Example&amp;lt;/title&amp;gt;
+
+  &amp;lt;!-- Material Design Theming --&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://code.getmdl.io/1.1.3/material.orange-indigo.min.css&quot;&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;&amp;gt;
+  &amp;lt;script defer src=&quot;https://code.getmdl.io/1.1.3/material.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;!-- Firebase --&amp;gt;
+
+
+&amp;lt;script src=&quot;https://www.gstatic.com/firebasejs/3.7.2/firebase.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;&lt;span style=&quot;background-color: yellow;&quot;&gt;
+  // Initialize Firebase
+  
+  // Get the Firebase configuration from App Inventor via the WebViewer.WebViewString property
+  var config = JSON.parse(window.AppInventor.getWebViewString());
+  
+  firebase.initializeApp(config);
+&amp;lt;/script&amp;gt;
+
+  &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    function tellAppInventor(message) {
+        try {
+            window.AppInventor.setWebViewString( message );
+        } catch(e) {
+            console.log(&quot;App Inventor Communication Error&quot;,e)
+        }
+    }
+    &lt;/span&gt;
+    /**
+     * Handles the sign in button press.
+     */
+    function toggleSignIn() {
+      if (firebase.auth().currentUser) {
+        // [START signout]
+        firebase.auth().signOut();
+        // [END signout]
+      } else {
+        var email = document.getElementById(&#039;email&#039;).value;
+        var password = document.getElementById(&#039;password&#039;).value;
+        if (email.length &amp;lt; 4) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter an email address.&#039;);
+          return;
+        }
+        if (password.length &amp;lt; 4) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter a password.&#039;);
+          return;
+        }
+        // Sign in with email and pass.
+        // [START authwithemail]
+        firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          // [START_EXCLUDE]
+          if (errorCode === &#039;auth/wrong-password&#039;) {
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Wrong password.&#039;);
+          } else {
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+          }
+          console.log(error);
+          document.getElementById(&#039;quickstart-sign-in&#039;).disabled = false;
+          // [END_EXCLUDE]
+        });
+        // [END authwithemail]
+      }
+      document.getElementById(&#039;quickstart-sign-in&#039;).disabled = true;
+    }
+    /**
+     * Handles the sign up button press.
+     */
+    function handleSignUp() {
+      var email = document.getElementById(&#039;email&#039;).value;
+      var password = document.getElementById(&#039;password&#039;).value;
+      if (email.length &amp;lt; 4) {
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter an email address.&#039;);
+        return;
+      }
+      if (password.length &amp;lt; 4) {
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter a password of 4 or more characters.&#039;);
+        return;
+      }
+      // Sign in with email and pass.
+      // [START createwithemail]
+      firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == &#039;auth/weak-password&#039;) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;The password is too weak.&#039;);
+        } else {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END createwithemail]
+    }
+    /**
+     * Sends an email verification to the user.
+     */
+    function sendEmailVerification() {
+      // [START sendemailverification]
+      firebase.auth().currentUser.sendEmailVerification().then(function() {
+        // Email Verification sent!
+        // [START_EXCLUDE]
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Email Verification Sent!&#039;);
+        // [END_EXCLUDE]
+      });
+      // [END sendemailverification]
+    }
+    function sendPasswordReset() {
+      var email = document.getElementById(&#039;email&#039;).value;
+      // [START sendpasswordemail]
+      firebase.auth().sendPasswordResetEmail(email).then(function() {
+        // Password Reset Email Sent!
+        // [START_EXCLUDE]
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Password Reset Email Sent!&#039;);
+        // [END_EXCLUDE]
+      }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == &#039;auth/invalid-email&#039;) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+        } else if (errorCode == &#039;auth/user-not-found&#039;) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END sendpasswordemail];
+    }
+    /**
+     * initApp handles setting up UI event listeners and registering Firebase auth listeners:
+     *  - firebase.auth().onAuthStateChanged: This listener is called when the user is signed in or
+     *    out, and that is where we update the UI.
+     */
+    function initApp() {
+      // Listening for auth state changes.
+      // [START authstatelistener]
+      firebase.auth().onAuthStateChanged(function(user) {
+        // [START_EXCLUDE silent]
+        document.getElementById(&#039;quickstart-verify-email&#039;).disabled = true;
+        // [END_EXCLUDE]
+        if (user) {
+          // User is signed in.
+          var displayName = user.displayName;
+          var email = user.email;
+          var emailVerified = user.emailVerified;
+          var photoURL = user.photoURL;
+          var isAnonymous = user.isAnonymous;
+          var uid = user.uid;
+          var providerData = user.providerData;
+
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;if (emailVerified &amp;amp;&amp;amp; !isAnonymous) {
+                tellAppInventor( uid + &#039;,&#039; + email + &#039;,&#039; + displayName + &#039;,&#039; + photoURL );
+            } else if (!emailVerified) {
+                tellAppInventor( &#039;Please click the Send Email Verification button to confirm your account.&#039; );
+            }&lt;/span&gt;
+          
+          // [START_EXCLUDE]
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in-status&#039;).textContent = &#039;Signed in&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in&#039;).textContent = &#039;Sign out&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-account-details&#039;).textContent = JSON.stringify(user, null, &#039;  &#039;);
+          if (!emailVerified) {
+            document.getElementById(&#039;quickstart-verify-email&#039;).disabled = false;
+          }
+          // [END_EXCLUDE]
+        } else {
+          // User is signed out.
+          // [START_EXCLUDE]
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in-status&#039;).textContent = &#039;Signed out&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in&#039;).textContent = &#039;Sign in&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-account-details&#039;).textContent = &#039;null&#039;;
+          // [END_EXCLUDE]
+        }
+        // [START_EXCLUDE silent]
+        document.getElementById(&#039;quickstart-sign-in&#039;).disabled = false;
+        // [END_EXCLUDE]
+      });
+      // [END authstatelistener]
+      document.getElementById(&#039;quickstart-sign-in&#039;).addEventListener(&#039;click&#039;, toggleSignIn, false);
+      document.getElementById(&#039;quickstart-sign-up&#039;).addEventListener(&#039;click&#039;, handleSignUp, false);
+      document.getElementById(&#039;quickstart-verify-email&#039;).addEventListener(&#039;click&#039;, sendEmailVerification, false);
+      document.getElementById(&#039;quickstart-password-reset&#039;).addEventListener(&#039;click&#039;, sendPasswordReset, false);
+    }
+    window.onload = function() {
+      initApp();
+    };
+  &amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;div class=&quot;demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header&quot;&amp;gt;
+
+  &amp;lt;!-- Header section containing &lt;span style=&quot;background-color: yellow;&quot;&gt;title&lt;/span&gt; 
+  &amp;lt;header class=&quot;mdl-layout__header mdl-color-text--white mdl-color--light-blue-700&quot;&amp;gt;
+    &amp;lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid&quot;&amp;gt;
+      &amp;lt;div class=&quot;mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop&quot;&amp;gt;
+        &amp;lt;a href=&quot;/&quot;&amp;gt;&amp;lt;h3&amp;gt;Firebase Authentication&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/header&amp;gt;
+  &lt;span style=&quot;background-color: yellow;&quot;&gt;--&amp;gt;&lt;/span&gt;
+
+  vmain class=&quot;mdl-layout__content mdl-color--grey-100&quot;&amp;gt;
+    &amp;lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid&quot;&amp;gt;
+
+      &amp;lt;!-- Container for the demo --&amp;gt;
+      vdiv class=&quot;mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop&quot;&amp;gt;
+        &amp;lt;div class=&quot;mdl-card__title mdl-color--light-blue-600 mdl-color-text--white&quot;&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;h2 class=&quot;mdl-card__title-text&quot;&amp;gt;Sign In or Sign Up&amp;lt;/h2&amp;gt;&lt;/span&gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;mdl-card__supporting-text mdl-color-text--grey-600&quot;&amp;gt;
+          &amp;lt;p&amp;gt;Enter an email and password below and either sign in to an existing account or sign up&amp;lt;/p&amp;gt;
+
+          &amp;lt;input class=&quot;mdl-textfield__input&quot; style=&quot;display:inline;width:auto;&quot; type=&quot;text&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email&quot;/&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;input class=&quot;mdl-textfield__input&quot; style=&quot;display:inline;width:auto;&quot; type=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot;/&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;button disabled class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; id=&quot;quickstart-sign-in&quot; name=&quot;signin&quot;&amp;gt;Sign In&amp;lt;/button&amp;gt;
+             
+          &amp;lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; id=&quot;quickstart-sign-up&quot; name=&quot;signup&quot;&amp;gt;Sign Up&amp;lt;/button&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; disabled id=&quot;quickstart-verify-email&quot; name=&quot;verify-email&quot;&amp;gt;Send Email Verification&amp;lt;/button&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; id=&quot;quickstart-password-reset&quot; name=&quot;verify-email&quot;&amp;gt;Send Password Reset Email&amp;lt;/button&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+
+          &amp;lt;!-- Container where we&#039;ll display the user details --&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;div class=&quot;quickstart-user-details-container&quot; style=&quot;display:none&quot;&amp;gt;
+            Sign-in&lt;/span&gt; status: &amp;lt;span id=&quot;quickstart-sign-in-status&quot;&amp;gt;Unknown&amp;lt;/span&amp;gt;
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;div&amp;gt;Authorization&lt;/span&gt; &amp;lt;code&amp;gt;currentUser&amp;lt;/code&amp;gt; object value:&amp;lt;/div&amp;gt;
+            &amp;lt;pre&amp;gt;&amp;lt;code id=&quot;quickstart-account-details&quot;&amp;gt;null&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+          &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/main&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/pre&gt;&lt;h3&gt;Create an App Inventor App to Use Firebase Website Authentication&lt;/h3&gt;
+&lt;h3&gt;Designer&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-designer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Designer is really quite simple.  There are only three components on Screen1: a WebViewer, a  Notifier, and a Clock.  There is also an included asset file, &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;WebViewer&lt;/strong&gt; – loads the FirebaseAuthenticator.html file, and uses the javascript it contains to access Firebase’s website authentication system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notifier&lt;/strong&gt; – displays alert messages to the user about the status of the login process, and reports when the user is successfully logged in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clock&lt;/strong&gt; – periodically checks the status of the WebViewer’s javascript that handles logging in to Firebase. &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+You may notice that there are no Buttons or other components needed to start the login process from our App Inventor app.  This is because the web page &lt;span style=&quot;font-family: Courier;&quot;&gt;(FirebaseAuthenticator.html)&lt;/span&gt; has its own buttons to do that as part of Firebase’s ready-made login screen!&lt;/p&gt;
+&lt;p&gt;&lt;srong&gt;Blocks Overview&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-blocks-overview.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/srong&gt;&lt;/p&gt;
+&lt;p&gt;As you can see, the blocks for this app are also quite simple.  There are only 3 variables, 2 event handlers, and 1 procedure needed to incorporate Firebase’s website authentication into an App Inventor app.  Each will be explained in individual sections below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Variable&lt;/strong&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-variable-blocks.png&quot; style=&quot;float:left; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-firsttime.png&quot; style=&quot;clear:both; float:left; width: 40%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;The variables needed by the app are as follows:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;firebaseCredentials&lt;/strong&gt; – contains the information needed to connect to your Firebase database.  Firebase expects these credentials to be submitted as a JSON string composed of your &lt;i&gt;apiKey, authDomain, databaseURL, projectId, storageBucket&lt;/i&gt;, and &lt;i&gt;messagingSenderId&lt;/i&gt; (see comment in the image above).  All of these values can be found here on Firebase’s website, and the &lt;i&gt;authDomain&lt;/i&gt; and &lt;i&gt;projectId&lt;/i&gt; values are technically optional, but it doesn’t hurt to include them as well.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;debugMode&lt;/strong&gt; – used to set the location of the HTML file that is used by the WebViewer because App Inventor apps use different directories for development and running apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LIST_userId_email_name_photoUrl&lt;/strong&gt; – holds the user credentials obtained after a user successfully logs in via the WebViewer component.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;firstTime&lt;/strong&gt; – used to test if the Clock timer is firing for the first time, to allow for a time lag when displaying the WebViewer on app start.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;i&gt;Screen1.Initialize&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-initialize.png&quot; style=&quot;float: left; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;As soon as the app opens, the Screen1.Initialize event is triggered and the following occurs, in order:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;The Clock1.TimerInterval property is set to 5000 milliseconds.  This causes the Clock1.Timer event to fire every 5 seconds.  This value can be adjusted based on your own needs and experience with the app, but the Firebase authentication process seems to work with this setting.&lt;/li&gt;
+&lt;li&gt;Based on the value of the debugMode variable, the directory that the app looks for the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; is set so the app will work in both debug and run modes.&lt;/li&gt;
+&lt;li&gt;WebViewer1.WebViewString is set to the value of the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable, so that the WebViewer will have the necessary configuration to work with your Firebase instance.  This information includes your apiKey, databaseURL, storageBucket, and messagingSenderId.&lt;/li&gt;
+&lt;li&gt;The WebViewer is instructed to go to its home page, which means load the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html file.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;The Clock1.TimerEnabled property is set to true, which starts the Clock1.Timer event firing.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;
+&lt;i&gt;Clock1.Timer&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-timer.png&quot; style=&quot;float: left; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;The first time the Clock timer goes off, we want to call WebViewer.GoHome to run the javascript code. Due to time lag, we can’t count on Screen1.Initalize to do this, so the 5 second time lag is enough to load the code. We only want this to happen the first time, so we’ll set firstTime to false and continue.&lt;/p&gt;
+&lt;p&gt;This event is where App Inventor repeatedly checks the state of the javascript code that is running in the WebViewer component.  Each time the event is triggered, it checks to see if the WebViewer1.WebViewString is not empty and that it is different from the text in the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable.  If so, then it checks to see if the text is “Email Verification Sent!”.  If it is, then the app knows that the user is setting up an account and Firebase is waiting for the user to confirm their email address, so the app tells the WebViewer component to GoHome, where the rest of the login process can occur.&lt;/p&gt;
+&lt;p&gt;If the WebViewer1.WebViewString contains an “@” symbol, then this means that the login was successful, so the WebViewer.Visible and Clock1.TimerEnabled properties are set to false.  Also, as soon as the user is authenticated by Firebase, the WebViewer1.WebViewString property contains a comma separated value list of the user’s userId, email address, user name, and photo URL, and this text is stored in the variable &lt;strong&gt;LIST_userId_email_name_photoUrl&lt;/strong&gt;.  Since the user has been authenticated, another procedure is called: &lt;strong&gt;AuthenticatedInitialize&lt;/strong&gt;, and this is where you insert the code you want your app to run immediately after a user logs in.  In short, your app really should START with the &lt;strong&gt;AuthenticatedInitialize&lt;/strong&gt; event.&lt;/p&gt;
+&lt;p&gt;If the WebViewer1.WebViewString does not contain an “@” symbol, then this means that some other message has been sent from the javascript inside the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; file, and it should be shown to the user.  These messages are usually about incorrect passwords or user names.&lt;/p&gt;
+&lt;p&gt;Finally, if the WebViewer1.WebViewString was not empty and did not match the text in the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable when the Clock1.Timer event was triggered, it is reset to an empty string (&quot;&quot;) so that the next time the Clock1.Timer event is triggered, it will only take action if the javascript running inside the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; file has set it to some non-empty value.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;AuthenticatedInitialize Procedure&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/authenticate-initialize.png&quot; style=&quot;float: left; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;The &lt;strong&gt;AuthenticatedInitialize&lt;/strong&gt; procedure is where the App Inventor app &lt;i&gt;really&lt;/i&gt; begins, once a user has been authenticated by Firebase. In our example, this means that the app changes the Screen1.Title property to &quot;AUTHENTICATED USER&quot; to remind you that the user’s credentials have been authenticated.  It also displays a reminder to you in a Notification dialog, so that you remember to add your own blocks.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;With 3 components, 2 events, and 1 procedure, we have been able to leverage Firebase’s website security infrastructure for an Android app created with App Inventor.  This is enormously powerful, secure, and useful.  Thank you Firebase for doing all the “heavy lifting” for us with your website authentication javascript, and thank you App Inventor for providing the WebViewer component with the ability to “look inside” any javascript that is running on an HTML page!&lt;/p&gt;
+&lt;p&gt;
+*One last pro-tip for all you App Inventors out there: make sure you set the &lt;strong&gt;debugMode&lt;/strong&gt; variable correctly.  While you are developing your app using App Inventor, it should be set to true.  When you build your apk file, it should be set to false.  If you set it incorrectly the app will display an error message about how the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; file cannot be found – and nobody likes that. :)&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;WebViewer&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 06 Oct 2017 16:54:53 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">921 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>WebView Javascript Processor for App Inventor</title>
  <link>http://explore.appinventor.mit.edu/ai2/webview-javascript</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This tutorial is written by Rich Interdonato, MIT Master Trainer.&lt;/i&gt;&lt;/p&gt;
@@ -21,9 +368,9 @@
 &amp;lt;/head&amp;gt;
 
 &amp;lt;body onload=&quot;processJavascript();&quot;&amp;gt;
-&amp;lt;b&amp;gt;his page includes a javascript function that reverses text.&amp;gt;
-&amp;lt;p&amp;gt;The javascript function incorporates a special App Inventor feature called &lt;i&gt;window.AppInventor.getWebViewString()&lt;/i&gt;, which allows App Inventor apps to communicate with the WebViewer component&#039;s internal processing of javascript.
-&amp;lt;p&amp;gt;This simple example shows how to use the &amp;lt;i&amp;gt;window.AppInventor.getWebViewString() function to pass data to and from the WebViewer component, and thereby an App Inventor app.
+&amp;lt;b&amp;gt;This page includes a javascript function that reverses text.&amp;lt;/b&amp;gt;
+&amp;lt;p&amp;gt;The javascript function incorporates a special App Inventor feature called &amp;lt;i&amp;gt;window.AppInventor.getWebViewString()&amp;lt;/i&amp;gt;, which allows App Inventor apps to communicate with the WebViewer component&#039;s internal processing of javascript.
+&amp;lt;p&amp;gt;This simple example shows how to use the &amp;lt;i&amp;gt;window.AppInventor.getWebViewString()&amp;lt;/i&amp;gt; function to pass data to and from the WebViewer component, and thereby an App Inventor app.
 
 &amp;lt;script&amp;gt;
     var result = new Date().toString();
@@ -32,7 +379,7 @@
         if (appInventorInput.length &amp;gt; 0) {
             document.write( &quot;WebView InputString received FROM app:&lt;br /&gt;&quot; + appInventorInput );
             &lt;span style=&quot;background-color: yellow;&quot;&gt;result = appInventorInput.split(&quot;&quot;).reverse().join(&quot;&quot;);&lt;/span&gt;
-            document.write( &quot;&lt;p&gt;&lt;/p&gt;WebView InputString sending BACK TO app:&amp;lt;br/&amp;gt;&quot; +
+            document.write( &quot;&amp;lt;p/&amp;gt;WebView InputString sending BACK TO app:&amp;lt;br/&amp;gt;&quot; +
             result );
         } else {
             document.write( &quot;No WebView InputString set by app at: &amp;lt;br/&amp;gt;&quot; + result );
@@ -578,17 +925,6 @@ Done with &lt;span style=&quot;color:black;&quot;&gt;QuizMe&lt;/span&gt;? Return
  <pubDate>Mon, 14 Apr 2014 17:33:28 +0000</pubDate>
  <dc:creator>emily_c</dc:creator>
  <guid isPermaLink="false">504 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>No Text While Driving for AI2</title>
- <link>http://explore.appinventor.mit.edu/no-text-while-driving-ai2</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img style=&quot;float:right;width:25%;height:25%&quot; src=&quot;http://www.appinventor.org/apps2/notext/hero.png&quot; /&gt;&lt;br /&gt;
-This tutorial, available on our partner site Appinventor.org, will demonstrate how to respond to an incoming text by sending an automatic text response, and also using Text-to-Speech to read the message out loud. &lt;/p&gt;
-&lt;p&gt;The following link will open a new window and take you away from MIT&#039;s site.&lt;br /&gt;&lt;a href=&quot;http://www.appinventor.org/notext-steps&quot;&gt;http://www.appinventor.org/notext-steps&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;SMS Texting&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 08 Apr 2014 18:10:12 +0000</pubDate>
- <dc:creator>shay</dc:creator>
- <guid isPermaLink="false">502 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
