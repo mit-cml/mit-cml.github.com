@@ -6,6 +6,75 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>WebView Javascript Processor for App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/ai2/webview-javascript</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This tutorial is written by Rich Interdonato, MIT Master Trainer.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;App Inventor allows users to write powerful programs using blocks instead of “traditional” programming languages.  It also allows advanced users to include traditional Java code in their apps by means of its new Extensions feature.  What you might not know is that there is another, even older way for you to incorporate “traditional” programming into your apps.  The technique involves using the WebViewer component as a javascript processor, and this blog post will show you how it can be done using a simple example.  In it, an HTML file is sent input text from an App Inventor program, it reverses the text using javascript, and then it sends the result back to the App Inventor program as output that the app can use (show to the user in a Message Dialog).&lt;/p&gt;
+&lt;p&gt;Our example requires an HTML file that includes javascript that can reverse text.  The file is included below, and the javascript command that reverses the text is highlighted in &lt;span style=&quot;background-color: yellow;&quot;&gt;yellow&lt;/span&gt;.  The javascript in this file is like the other javascript you might find on the Web, except in one way.  It includes two special App Inventor Only functions, &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.getWebViewString()&lt;/span&gt; and &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.setWebViewString()&lt;/span&gt;.  It is these two, App Inventor Only functions that allow your apps to communicate with the javascript that runs inside the WebViewer component.  By using them creatively, you can leverage the vast number of javascript programs that are freely available on the Web, and some of them can be really useful.&lt;/p&gt;
+&lt;p&gt;For now, let’s keep things simple and create a file called &lt;span style=&quot;font-family: Courier;&quot;&gt;javascriptWebViewProcessor.html&lt;/span&gt;.  The complete text of the file follows:&lt;/p&gt;
+&lt;h3&gt;HTML file (included as media/asset: javascriptWebViewProcessor.html)&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: Courier;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;WebView Javascript Processor&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body onload=&quot;processJavascript();&quot;&amp;gt;
+&amp;lt;b&amp;gt;his page includes a javascript function that reverses text.&amp;gt;
+&amp;lt;p&amp;gt;The javascript function incorporates a special App Inventor feature called &lt;i&gt;window.AppInventor.getWebViewString()&lt;/i&gt;, which allows App Inventor apps to communicate with the WebViewer component&#039;s internal processing of javascript.
+&amp;lt;p&amp;gt;This simple example shows how to use the &amp;lt;i&amp;gt;window.AppInventor.getWebViewString() function to pass data to and from the WebViewer component, and thereby an App Inventor app.
+
+&amp;lt;script&amp;gt;
+    var result = new Date().toString();
+    var appInventorInput = &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.getWebViewString()&lt;/span&gt;;
+        function processJavascript() {
+        if (appInventorInput.length &amp;gt; 0) {
+            document.write( &quot;WebView InputString received FROM app:&lt;br /&gt;&quot; + appInventorInput );
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;result = appInventorInput.split(&quot;&quot;).reverse().join(&quot;&quot;);&lt;/span&gt;
+            document.write( &quot;&lt;p&gt;&lt;/p&gt;WebView InputString sending BACK TO app:&amp;lt;br/&amp;gt;&quot; +
+            result );
+        } else {
+            document.write( &quot;No WebView InputString set by app at: &amp;lt;br/&amp;gt;&quot; + result );
+        }
+        &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.setWebViewString( result )&lt;/span&gt;;
+    }
+&amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Designer&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-designer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once the &lt;span style=&quot;font-family: Courier;&quot;&gt; javascriptWebViewProcessor.html&lt;/span&gt; has been created, make a new App Inventor app called SimpleWebviewerJavascriptProcessor, and upload the HTML file as an app media asset.  Add a HorizontalArrangement with a:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;i&gt;TextBox&lt;/i&gt; named &lt;i&gt;StringToBeProcessedByJavascriptFile&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Button&lt;/i&gt; named &lt;i&gt;btnProcess&lt;/i&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Also, using the default names and properties for each, add a:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;WebViewer component&lt;/li&gt;
+&lt;li&gt;Notifier component&lt;/li&gt;
+&lt;li&gt;Clock component&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;
+Blocks Overview&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-blocks-overview.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;
+As you can see, the blocks for this app are quite simple.  There are 4 variables and 3 event handlers.  Each will be explained in individual sections.&lt;/p&gt;
+&lt;h4&gt;Variables&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-variables.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;processingIntervalMillis:&lt;/strong&gt; sets the frequency of calls to the WebViewer component from the App Inventor app&lt;br /&gt;&lt;strong&gt;debugMode:&lt;/strong&gt; used to specify the location of the HTML file that is used by the WebViewer because App Inventor apps use different directories for development and running apps&lt;br /&gt;&lt;strong&gt;currentProcessingDurationMillis:&lt;/strong&gt; tracks the amount of time (in milliseconds) that the WebViewer has been working as it processes the javascript in the HTML file&lt;br /&gt;&lt;strong&gt;maximumProcessingDurationMillis:&lt;/strong&gt; controls the number of milliseconds that the app will wait for a reply from the WebViewer component before determining that it is unresponsive&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Screen1.Initialize&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-initialize.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This block sets the &lt;i&gt;WebViewer1.HomeUrl&lt;/i&gt; property to either &lt;span style=&quot;font-family: Courier;&quot;&gt;file:///mnt/sdcard/AppInventor/assets/javascriptWebViewProcessor.html&lt;/span&gt; (when &lt;strong&gt;debugMode&lt;/strong&gt; is TRUE), or &lt;span style=&quot;font-family: Courier;&quot;&gt;file:///android_asset/javascriptWebViewProcessor.html&lt;/span&gt; (when &lt;strong&gt;debugMode&lt;/strong&gt; is FALSE).  It then sets the &lt;i&gt;Clock1.TimerInterval&lt;/i&gt; property to the value of &lt;strong&gt;processingIntervalMillis&lt;/strong&gt; (50ms), and disables the &lt;i&gt;Clock1&lt;/i&gt; component so it does not start triggering events as soon as the app starts.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;btnProcess.Click&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-btnprocess.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;span style=&quot;font-family: Courier;&quot;&gt;javascriptWebViewProcessor.html&lt;/span&gt; file processing begins once the user activates the app.  This activation is captured by the &lt;i&gt;btnProcess.Click&lt;/i&gt; event handler block, which sets the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; component to the value of the &lt;i&gt;StringToBeProceesedByJavascriptFile.Text&lt;/i&gt;.  Then the &lt;i&gt;WebViewer1.GoHome&lt;/i&gt; procedure is called, which causes the WebViewer to load the &lt;span style=&quot;font-family: Courier;&quot;&gt;javascriptWebViewProcessor.html&lt;/span&gt; page, thereby starting the javascript processing.  Once the javascript processing has begun, the app needs to monitor progress, and so the &lt;i&gt;Clock1.TimerEnabled&lt;/i&gt; property is set to TRUE.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Clock1.Timer&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-timer.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As soon as the &lt;i&gt;Clock1.TimerEnabled property&lt;/i&gt; is set to TRUE, the &lt;i&gt;Clock1.Timer&lt;/i&gt; event begins to fire at an interval set by the &lt;strong&gt;processingIntervalMillis&lt;/strong&gt; value in the &lt;i&gt;Screen1.Initialize&lt;/i&gt; event.  Each time the &lt;i&gt;Clock1.Timer&lt;/i&gt; event is triggered, the app &lt;u&gt;first&lt;/u&gt; checks to see if the value of the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; is the same as the &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt;.  If they are the same, this means that the WebViewer component is still processing the javascript, and it increments the &lt;strong&gt;currentProcessingDurationMillis&lt;/strong&gt; by the &lt;strong&gt;processingIntervalMillis&lt;/strong&gt; and then checks to see if the new &lt;strong&gt;currentProcessingDurationMillis&lt;/strong&gt; value is greater than or equal to the &lt;strong&gt;maximumProcessingDurationMillis&lt;/strong&gt; value.  If it is, the app changes to value of the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; property (by concatenating adds the text “ TIMEOUT” to the current value of &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt; to make it different from the value of the  &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt;, and thereby ensure that the next time the &lt;i&gt;Clock1.Timer&lt;/i&gt; event is triggered, the &lt;span style=&quot;text-decoration: underline;&quot;&gt;first&lt;/span&gt; check will fail.&lt;/p&gt;
+&lt;p&gt;As soon as the &lt;span style=&quot;text-decoration: underline;&quot;&gt;first&lt;/span&gt; check fails (i.e. &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; differs from &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt;), the app will reset the &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt; to an empty string (“”), set &lt;i&gt;Clock1.TimerEnabled&lt;/i&gt; to FALSE, and then display a message to the user in a Message Dialog that includes the result of the javascript processing, as well as how long it took to do it.  The output of the processing is available to the app in the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; property, which is set inside the javascript processing file.  As a final “cleanup” action, the &lt;strong&gt;currentProcessingDurationMillis&lt;/strong&gt; is reset to 0, so the next time the user clicks on &lt;i&gt;btnProcess&lt;/i&gt;, the app will properly calculate the processing duration.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;In this article, we have explored how the WebViewer component can be used to process javascript in your App Inventor apps.  Our example was simple, but it demonstrated the fact that App Inventor can communicate with running javascript, and this provides you with a foundation for more advanced and useful javascript processing.  There is a LOT of javascript code available on the web, and some of it can be used immediately by you to implement advanced features in your apps.  In my next blog post, I will explore an advanced application of WebView javascript processing that you can use right away to freely make your apps much more secure.  Until then, keep inventing!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;WebViewer&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 05 Oct 2017 19:56:34 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">919 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Hello Codi!</title>
  <link>http://explore.appinventor.mit.edu/ai2/hello-codi</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;padding: 10px;&quot;&gt;
@@ -520,15 +589,6 @@ This tutorial, available on our partner site Appinventor.org, will demonstrate h
  <pubDate>Tue, 08 Apr 2014 18:10:12 +0000</pubDate>
  <dc:creator>shay</dc:creator>
  <guid isPermaLink="false">502 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Exploring with Location Sensor in AI2</title>
- <link>http://explore.appinventor.mit.edu/ai2/location-sensor</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1V1Zm5cYoa12KVb_cTlfelSfyUkW7IH2WPHUoTa02XaY/pub&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Location Sensor&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;GPS&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
- <pubDate>Sat, 22 Mar 2014 14:38:17 +0000</pubDate>
- <dc:creator>shay</dc:creator>
- <guid isPermaLink="false">498 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
