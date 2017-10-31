@@ -271,11 +271,11 @@ limitations under the License.
   &amp;lt;/header&amp;gt;
   &lt;span style=&quot;background-color: yellow;&quot;&gt;--&amp;gt;&lt;/span&gt;
 
-  vmain class=&quot;mdl-layout__content mdl-color--grey-100&quot;&amp;gt;
+  &amp;lt;main class=&quot;mdl-layout__content mdl-color--grey-100&quot;&amp;gt;
     &amp;lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid&quot;&amp;gt;
 
       &amp;lt;!-- Container for the demo --&amp;gt;
-      vdiv class=&quot;mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop&quot;&amp;gt;
+      &amp;lt;div class=&quot;mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop&quot;&amp;gt;
         &amp;lt;div class=&quot;mdl-card__title mdl-color--light-blue-600 mdl-color-text--white&quot;&amp;gt;
           &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;h2 class=&quot;mdl-card__title-text&quot;&amp;gt;Sign In or Sign Up&amp;lt;/h2&amp;gt;&lt;/span&gt;
         &amp;lt;/div&amp;gt;
