@@ -6,6 +6,90 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Things we learned from teaching 25,000 kids how to code</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/11-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/author_philipp.jpg&quot; style=&quot;float: left; margin-right: 10px; margin-bottom: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by Philipp Knodel of App Camps Germany&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;With our non-profit  &lt;a href=&quot;https://appcamps.de/&quot; target=&quot;_blank&quot;&gt;App Camps&lt;/a&gt; we provide teaching resources for teachers and schools to teach coding. Teaching resources means: short videos and tutorials. Our goal is to give all young people the chance to experience how much fun programming can be. The content of the course “Basics of App development” is the result of many offline workshops we did with students aged 10+ years. Over the last 12 months more than  25,000 kids learned how to develop   Apps with our teaching resources. Here’s what we learned.&lt;/p&gt;
+&lt;h2 style=&quot;clear:both;&quot;&gt;1.  Build Products. Fast.&lt;/h2&gt;
+&lt;p&gt;For young people (and probably also for adults) it is crucial to build real products. And you need to quickly see the results. In our course on App development, it takes 15 minutes until the kids can test the first version of the app. Ok, it’s pretty simple - you click on a cat picture, a sound plays (guess what: miauuu) and the text on a label changes. But that’s already something you can show our friends and parents. You can use it right away and be proud of what you did.&lt;/p&gt;
+&lt;h2&gt;2.   Team   Work&lt;/h2&gt;
+&lt;p&gt;Students benefit strongly if they work together in teams. In our workshops two students share one computer. In real software development, this is called pair programming: one person controls the keyboard, but the pairs constantly discuss how the coding challenges are solved. About every 15 minutes they change who controls the keyboard. In doing so they learn how to solve and discuss problems in teams.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/girls-work-on-app.jpg&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;3.   Address everyone&lt;/h2&gt;
+&lt;p&gt;In every group there are learners with different experience levels. Especially in school classes there is usually high variance with regards to prior knowledge and performance. To guarantee a great experience for everyone it is necessary to address different levels of difficulty. This means: breaking down challenges into small bits that can be solved step by step. So everyone can participate and work on the tasks at their own pace. When we first tested our teaching resources we didn’t consider this - the result was a mess. Slow learners were frustrated because they weren’t able to finish a single app, fast learners because it was way too slow for them.&lt;/p&gt;
+&lt;h2&gt;4.   No yellow triangles&lt;/h2&gt;
+&lt;p&gt;This one is simple: if you want to show how much fun coding can be, let them build something real. In many coding courses the challenges are like this: let the monster walk to the left, program yellow triangles that spin, program a chess field just for the purpose of programming a chess field. Sorry, but this gets boring pretty quickly. We always let students build products. This can be an app or a website, even if the app is super simple and the website is just some HTML. But you can use it. Or in other words - the   results are cool enough to proudly show friends and family.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/girls-show-off-app.jpg&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;5.   Reduce barriers&lt;/h2&gt;
+&lt;p&gt;The less problems the better. With teaching resources it’s the same as with new devices: you will love them if you turn them on and they simply work without a long installation process. That’s why we use the MIT App Inventor - you login and start coding in the web browser. There is no need to install an IDE, all you need is an Android device or emulator to test the apps. In our course on app development we use so-called learning cards. This means that teachers need to print out those materials before the course. We learned that printing so and so many pages (color!) at a school is quite challenging. So we are currently testing ways to let students   access the learning cards online.&lt;/p&gt;
+&lt;h2&gt;6.   Learn together&lt;/h2&gt;
+&lt;p&gt;Coding is not about knowing everything. It is about finding creative ways to solve problems together with others. As a teacher (in a coding class) there is no need to pretend that you know everything. There is not a single programmer in the world who knows everything. Programmers use platforms like Stackoverflow or Google a lot - because they want to know how others solved a similar or identical problem. When we organize coding workshops - both for kids and adults - we make this point clear at the very beginning of each workshop: there are many, many things that we don’t know. But ask us, and we’ll find an answer together.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/looking-over-shoulder.jpg&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Only for kids?&lt;/h2&gt;
+&lt;p&gt;While writing this article we realized that our learning can be applied to any subject in any context...not only to coding classes in schools. We believe, however, that they are especially important when kids write their first line of code because they need a good experience. That’s exactly why we started our non-profit App Camps: we believe that every kid should get the chance to try coding. Because only if you try something, you can decide if you like it or not. Having a basic understanding of programming and algorithms is crucial to understand the world around you. And today’s kids build tomorrow&#039;s future, so it’s about us all to prepare them.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.appcamps.de&quot;&gt;www.appcamps.de&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://appcamps.de/mission_english/&quot; target=&quot;_blank&quot;&gt;appcamps.de/mission_english/&lt;/a&gt;&lt;br /&gt;
+Philipp Knodel, CEO &amp;amp; Founder App Camps&lt;br /&gt;&lt;span id=&quot;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;!--//--&gt;&lt;![CDATA[// &gt;&lt;!--
+ &lt;!--
+  document.getElementById(&#039;7fcabfe4911afec8b5b8fd80ef54fc7b1cfad1d3&#039;).innerHTML = &#039;&lt;a href=&quot;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#112;&amp;#104;&amp;#105;&amp;#108;&amp;#105;&amp;#112;&amp;#112;&amp;#64;&amp;#97;&amp;#112;&amp;#112;&amp;#99;&amp;#97;&amp;#109;&amp;#112;&amp;#115;&amp;#46;&amp;#100;&amp;#101;&quot;&gt;&amp;#112;&amp;#104;&amp;#105;&amp;#108;&amp;#105;&amp;#112;&amp;#112;&amp;#64;&amp;#97;&amp;#112;&amp;#112;&amp;#99;&amp;#97;&amp;#109;&amp;#112;&amp;#115;&amp;#46;&amp;#100;&amp;#101;&#039;;
+// --&gt; 
+//--&gt;&lt;!]]&gt;
+&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21962&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/authorphilippjpg&quot;&gt;author_philipp.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/author_philipp.jpg&quot; width=&quot;960&quot; height=&quot;960&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21963&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/girls-show-appjpg&quot;&gt;girls-show-off-app.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/girls-show-off-app.jpg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21964&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/girls-work-appjpg&quot;&gt;girls-work-on-app.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/girls-work-on-app.jpg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21965&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/looking-over&quot;&gt;looking-over-shoulder.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/looking-over-shoulder.jpg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 13 Nov 2017 17:57:14 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">932 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Technovation workshop at Roxbury Innovation Center</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/11</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT App Inventor team presented at a workshop for interested girls, teachers, and parents at the Roxbury Innovation Center on Saturday, November 4. While the numbers were low, the enthusiasm was evident as participants tried out the new App Building Guide, &lt;a href=&quot;http://ai2.appinventor.mit.edu/?repo=http://appinventor.mit.edu/yrtoolkit/yr/aiaFiles/snapchatRemix/snapmix_default.asc&quot; target=&quot;_blank&quot;&gt;Bootleg Snapchat&lt;/a&gt;. The event was sponsored by MassTLC Education Foundation, as part of their efforts to kick off the Technovation Challenge 2018 in Massachusetts. Please see their &lt;a href=&quot;http://masstlcef.org/technovation/&quot; target=&quot;_blank&quot;&gt;website&lt;/a&gt; for more information and a schedule of future workshops.&lt;/p&gt;
@@ -221,10 +305,10 @@ I am writing to you from Paris to introduce Teen-Code to the international App I
 <item>
  <title>Building your own apps: App Summer Camp for Girls in Germany  </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/09</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/diana.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by Diane Knodel of App Camps Germany&lt;/i&gt;&lt;/p&gt;
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/diana.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by Diana Knodel of App Camps Germany&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;
 In 2013 we came across MIT App Inventor and were fascinated immediately. It allows you the build your own apps without prior coding experience - and along the way you learn basic concepts of coding and building apps. Great! In the summer of 2013 we organized a three-day workshop for female students in Hamburg: This was the first Summer Camp. Since then we offer a 3-day App Summer Camp during summer and are amazed by the ideas and apps young students create.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/app-camps-group.jpg&quot; style=&quot;clear: both; display:block; margin:auto; width: 50%; padding-top: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/appcamps-new.jpeg&quot; style=&quot;clear: both; display:block; margin:auto; width: 50%; padding-top: 10px;&quot; /&gt;&lt;/p&gt;
 &lt;h3 style=&quot;padding-top: 20px;&quot;&gt;Day 1: Basics of App Development&lt;/h3&gt;
 &lt;p&gt;The 2017 App Summer Camp was hosted in the Google office in Hamburg. Twenty-two girls between 13 and 17 years old took part – none had ever developed an app before. Therefore the first day was a crash course about App Inventor and app development in general. After only a few hours the girls naturally used if-else-conditions, variables, lists and databases. In addition, they learned about pair programming, debugging and code reviews.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/girls-look-at-code.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
@@ -318,6 +402,18 @@ In 2013 we came across MIT App Inventor and were fascinated immediately. It allo
   
   &lt;div class=&quot;content&quot;&gt;
     &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/girls-with-dog-app.jpg&quot; width=&quot;400&quot; height=&quot;267&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21961&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/appcamps-newjpeg&quot;&gt;appcamps-new.jpeg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/appcamps-new.jpeg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
 
   
 &lt;/div&gt;
@@ -491,140 +587,6 @@ Marketing communications projects begin with a creative strategy and buy-in from
  <pubDate>Mon, 17 Jul 2017 19:54:44 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">898 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>The 2017 Google App Inventor Contest kicks off</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/06/2017</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;style&gt;
-&lt;!--/*--&gt;&lt;![CDATA[/* &gt;&lt;!--*/
-
-#china {
-  clear:both;
-  display:block;
-  width: 90%;
-  margin-auto;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-/*--&gt;&lt;!]]&gt;*/
-&lt;/style&gt;&lt;p style=&quot;padding-left:10px;&quot;&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/kathy_deng.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by Kathy Deng, Google China&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;In 2014, Google China launched the first nationwide App Inventor contest for students from high schools and middle schools. One goal of the contest is to boost CS education among young students. Another goal of the contest is to encourage high school, middle school, and primary school students to learn Computational Thinking by developing mobile applications using MIT App Inventor.
- &lt;/p&gt;
-&lt;p style=&quot;padding-left:10px;&quot;&gt;
-In 2015, the MIT App Inventor team, South China University of Technology, and Guangzhou Education Information Center started working together to bring a stable user experience to teachers and students for app development, which is critical to bring MIT App Inventor and Computational Thinking to the classroom in China. &lt;/p&gt;
-&lt;p style=&quot;padding-left:10px;&quot;&gt;
-In the first three years of the contest, 3450+ apps were submitted from 300+ Chinese schools. The 2017 contest has kicked off at &lt;a href=&quot;http://appjs.gzjkw.net/&quot; target=&quot;_blank&quot;&gt;http://appjs.gzjkw.net/&lt;/a&gt; (in Chinese). As &lt;b&gt;Prof. Hal Abelson from MIT&lt;/b&gt; says, “App Inventor by itself is just the tool. The passion, imagination and creativity from the participants really bring the tool alive.”
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/google-contest-2017.png&quot; style=&quot;display:block; margin:auto; width: 30%;&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;padding-left:10px;&quot;&gt;Here are some stories from some of 2016 contest winners:&lt;/p&gt;
-&lt;div id=&quot;china&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ruying-hong.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;Ruying HONG, a 11-year-old girl, uses a mobile phone to solve her own problems. She works as a librarian in her school and she found the school computers are quite old and occasionally not working. She created a simple app to help her and has added more and more features to the app as needed.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;china&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/qian-yao.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;Qian YAO, the winner of the Grand Prize in the middle school group, is in grade 9. He developed an app to help memorize ancient poetries by using voice recognition and text-to-speech features.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;china&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/chenglin-yang.png&quot; style=&quot;float: left; margin-right: 10px; width: 30%;&quot; /&gt;Chenglin YANG is the winner of the Grand Prize in the high school group. Chenglin began with App Inventor but  then learned Java by himself during his summer vacation, writing Java code to extend the features in App Inventor. Eventually, the extended features helped him create a 3D game using simple geometric structures, winning the grand prize. Below are the screenshots of his app.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;china&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/3d-game1.png&quot; style=&quot;float: left; margin-right: 10px; width: 48%; border: 1px solid black;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/3d-game2.png&quot; style=&quot;float: left; width: 48%;  border: 1px solid black;&quot; /&gt;&lt;/div&gt;
-&lt;div id=&quot;china&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ruoyu-wang.png&quot; style=&quot;float: right; margin-left: 10px; width: 40%;&quot; /&gt;For the first time, in 2016,  we had some finalists from the western regions, such as Xinjiang and Sichuan. Ruoyu WANG from Xinjiang travelled for 2-days and 2-nights to Shanghai in order to participate the final onsite competition. He taught himself App Inventor and kept trying different solutions until he developed a good working app. &lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;china&quot;&gt;
-&lt;p&gt;Over past three years, we have learned that students can make their own mobile phone apps using App Inventor, to solve problems that relate to their life. For example, quoting a middle school student from Shandong province. “I am not good at Physics because I feel lab experiments are long and don’t connect with my life. Even worse, the physics laws are very hard to grasp”. However, learning Physics through app making is very interesting to her. She is able to understand the basic principles of Physics in this process. She learned that her submitted app might not meet her expectations initially, but she can refine the app step by step over time. She still left the competition realizing that she accomplished something.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21788&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/google-contest&quot;&gt;google-contest-2017.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/google-contest-2017.png&quot; width=&quot;351&quot; height=&quot;487&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21789&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/chenglin-yangpng&quot;&gt;chenglin-yang.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/chenglin-yang.png&quot; width=&quot;387&quot; height=&quot;259&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21790&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/qian-yaopng&quot;&gt;qian-yao.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/qian-yao.png&quot; width=&quot;389&quot; height=&quot;260&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21791&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ruoyu-wangpng&quot;&gt;ruoyu-wang.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ruoyu-wang.png&quot; width=&quot;571&quot; height=&quot;261&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21792&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ruying-hongpng&quot;&gt;ruying-hong.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ruying-hong.png&quot; width=&quot;390&quot; height=&quot;259&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21793&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/3d-game1png&quot;&gt;3d-game1.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/3d-game1.png&quot; width=&quot;536&quot; height=&quot;308&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21794&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/3d-game2png&quot;&gt;3d-game2.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/3d-game2.png&quot; width=&quot;564&quot; height=&quot;321&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 14 Jun 2017 13:54:21 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">892 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
