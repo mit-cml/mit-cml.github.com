@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>hedge&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hedge</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Racing robots in Brazil with App Inventor!</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hedge/2017/11</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The ROBOCOMP19 is a project to develop small vibration-based racing robots controlled through a mobile application over Bluetooth. The project was conceived by Professor Douglas Soares within the Brazilian Aeronautics Institute of Technology (ITA), one of the most distinguished universities in Brazil, and aims to deliver hands-on engineering challenges to third-year Computer Engineering undergraduates.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/aiblogpic1.jpeg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Image description: The small vibration-based robot developed by each team.&lt;/p&gt;
+&lt;p&gt;
+Each robot is embedded with two vibration motors which enables it to turn left and right. Alternating motors in a coordinated manner, the robot is able to move forward in small steps as well as take turns. Each team is tasked with presenting the faster robot possible to compete in small racing circuits.
+&lt;/p&gt;
+&lt;p&gt;The students are divided into three-person teams, with specialized responsibilities: designing the electronic board, developing the PIC microcontroller software and developing the mobile Android software.
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/aiblogpic2.jpeg&quot; style=&quot;display:block; margin:auto; width: 50%;” /&amp;gt;&amp;lt;/p&amp;gt;&amp;#10;&amp;lt;p&amp;gt;Screen capture of the mobile application developed by a team.&amp;lt;/p&amp;gt;&amp;#10;&amp;lt;p&amp;gt;For the mobile app, the MIT App Inventor is employed since it allows fast prototyping, easy graphical interface development and has Bluetooth serial communication support. Thanks to the platform, the students had no problem in deploying the needed application, integrating with the PIC microcontroller and swiftly implementing changes as necessary. &amp;lt;/p&amp;gt;&amp;#10;&amp;lt;p&amp;gt;A video about the previous iteration of this project can be seen here: &amp;lt;a href=&quot; https:=&quot;&quot; /&gt;https://www.youtube.com/watch?v=YXHRkXaNH8M&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/aiblogpic3.png&quot; style=&quot;display:block; margin:auto; width: 50%;” /&amp;gt;&amp;lt;br /&amp;gt;&amp;#10;Image description: Professor Douglas Soares and students from the “COMP 19 Class”, third-year Computer Engineering undergraduates.&amp;lt;/p&amp;gt;&amp;#10;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&quot; /&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 16 Nov 2017 16:45:03 +0000</pubDate>
+ <dc:creator>hedge</dc:creator>
+ <guid isPermaLink="false">934 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>
