@@ -9,7 +9,7 @@
  <title>New Component Release on December 27th</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/12/newrelease</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
-    We are planning a Component Release of MIT App Inventor around December 20th. Component Releases require the installation of a new MIT AI2 Companion App in order to receive full functionality.
+    We are planning a Component Release of MIT App Inventor around December 27th. Component Releases require the installation of a new MIT AI2 Companion App in order to receive full functionality.
 &lt;/p&gt;
 &lt;!--break--&gt;&lt;p&gt;
     The changes in this release are outlined below. Starting with this release, &lt;b&gt;MIT App Inventor will require Android version 2.1 or higher.&lt;/b&gt; We believe that there are only a very small number of devices in use today that have software older than this. Version 2.1 was released in 2009 and has been unsupported by Google for several years.
