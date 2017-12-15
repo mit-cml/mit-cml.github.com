@@ -6,6 +6,44 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New Component Release on December 27th</title>
+ <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/12/newrelease</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+    We are planning a Component Release of MIT App Inventor around December 20th. Component Releases require the installation of a new MIT AI2 Companion App in order to receive full functionality.
+&lt;/p&gt;
+&lt;!--break--&gt;&lt;p&gt;
+    The changes in this release are outlined below. Starting with this release, &lt;b&gt;MIT App Inventor will require Android version 2.1 or higher.&lt;/b&gt; We believe that there are only a very small number of devices in use today that have software older than this. Version 2.1 was released in 2009 and has been unsupported by Google for several years.
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+        Introducing the new &lt;b&gt;Map component&lt;/b&gt; to MIT App Inventor. This component, built on OpenStreetMaps, works on any Android device. It includes a significant amount of new functionality including customizability of seven new map-related components, web-based editing of map content, and native support for distance calculations (e.g., Haversine). More details are available at &lt;a href=&quot;http://appinventor.mit.edu/explore/blogs/evan/2017/09.html&quot;&gt;Evan’s Blog Post.&lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;
+        Introducing the new &lt;b&gt;CloudDB component&lt;/b&gt;. This experimental component provides a lot of the functionality of the FirebaseDB component but without requiring a proprietary back-end database. Like Firebase, MIT will supply a default storage back-end for a reasonable usage. However MIT App Inventor programmers can choose to operate their own back-end storage server using the open source &lt;a href=&quot;https://redis.io/&quot;&gt;Redis&lt;/a&gt; system
+    &lt;/li&gt;
+&lt;li&gt;
+        Adds support for &lt;b&gt;App Themes&lt;/b&gt;, including Material UI support, which let you specify the look and feel of user interface elements such as buttons
+    &lt;/li&gt;
+&lt;li&gt;
+        Adds a &lt;b&gt;color wheel&lt;/b&gt; to the designer color property editor, permitting selection of colors from the full RGB color space and control over opacity
+    &lt;/li&gt;
+&lt;li&gt;
+        Adds an &lt;b&gt;“is-text?”&lt;/b&gt; block to test whether a value is a string
+    &lt;/li&gt;
+&lt;li&gt;
+        Implements a workaround for an Android issue that would cause the Accelerometer to switch X and Y directions on some landscape mode devices
+    &lt;/li&gt;
+&lt;li&gt;
+        Various updates to facilitate the easier creation of extensions
+    &lt;/li&gt;
+&lt;li&gt;
+        Various bug fixes and performance improvements
+    &lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 15 Dec 2017 16:44:48 +0000</pubDate>
+ <dc:creator>jeff</dc:creator>
+ <guid isPermaLink="false">941 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>New Release of MIT App Inventor Expected on Thursday</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/05/new</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
