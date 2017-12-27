@@ -440,6 +440,44 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                           bugfix releases.</p>
+                        <h2>Changes between nb163 and nb164 (Decmeber 27, 2017)</h2>
+                        <p>This is a component release, a new Companion (version 2.45) contains
+                            the changes for this release. Older Companion Apps may work, but new
+                            features will not work and other issues may be encountered. We
+                            recommend updating to the latest Companion as soon as possible.
+                            Companions downloaded from the Google App Store should auto-update.</p>
+                        <p>Starting with this release, MIT App Inventor
+                            will require Android version 2.1 or higher. We believe that there are
+                            only a very small number of devices in use today that have software
+                            older than this. Version 2.1 was released in 2009 and has been
+                            unsupported by Google for several years.</p>
+                        <ul>
+                            <li>Introducing the new <strong>Map component</strong> to
+                                MIT App Inventor. This component, built on OpenStreetMaps, works on any
+                                Android device. It includes a significant amount of new functionality
+                                including customizability of seven new map-related components,
+                                web-based editing of map content, and native support for distance
+                                calculations (e.g., Haversine). More details are available at Evan’s Blog Post.</li>
+                            <li>Introducing the new <strong>CloudDB component</strong>.
+                                This experimental component provides a lot of the functionality of the
+                                FirebaseDB component but without requiring a proprietary back-end
+                                database. Like Firebase, MIT will supply a default storage back-end for
+                                a reasonable usage. However MIT App Inventor programmers can choose to
+                                operate their own back-end storage server using the open source Redis system</li>
+                            <li>Adds support for <strong>App Themes</strong>, including
+                                Material UI support, which let you specify the look and feel of user
+                                interface elements such as buttons</li>
+                            <li>Adds a color wheel to the designer
+                                color property editor, permitting selection of colors from the full RGB
+                                color space and control over opacity</li>
+                            <li>Adds an <strong>“is-text?” block</strong> to test whether a value is a string</li>
+                            <li>Implements a workaround for an Android issue that would cause the
+                                Accelerometer to switch X and Y directions on some landscape mode
+                                devices</li>
+                            <li>Various updates to
+                                facilitate the easier creation of extensions</li>
+                            <li>Various bug fixes and performance improvements</li>
+                        </ul>
                         <h2>Changes between nb162 and nb163 (November 19, 2017)</h2>
                         <p>This is a non-component release</p>
                         <ul>
