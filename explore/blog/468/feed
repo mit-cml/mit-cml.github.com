@@ -6,6 +6,49 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Teaching App Inventor in Hong Kong: Map Component </title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2017/12-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tlam.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Tony Lam&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;mailto:CoolThink@JC&quot;&gt;CoolThink@JC&lt;/a&gt; Project is created and funded by The Hong Kong Jockey Club Charities Trust, and co-created by Massachusetts Institute of Technology, The Education University of Hong Kong, and City University of Hong Kong. The Programme supports 32 primary schools in Hong Kong to provide either 9-hour or 14-hour computational thinking education lessons per school year over three years’ time. The support includes teacher training, learning materials and teaching assistants.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/tony-lam.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;On December 14, 2017, I was very honoured to have Professor Hal Abelson and Josh Sheldon visiting my coding lesson. In that lesson, I taught the newest Map components. Students learned to use the Map component in App Inventor to create a tour guide app that shows tourists sites in their community. Visitors can use the app to locate and learn about sites in the area.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/map-component.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Students also used the TinyDB component to store data persistently in an app. Students continued to develop their use of Computational Thinking Concepts such as conditionals (showcasing different information according to the location chosen), lists (containing the information of tourist sites), and operators in creating this app.&lt;/p&gt;
+&lt;p&gt;Most importantly, the students loved the new Map component very much and they enjoyed making the tour guide app!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21985&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/tony-lampng&quot;&gt;tony-lam.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/tony-lam.png&quot; width=&quot;541&quot; height=&quot;313&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21986&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/map-componentpng&quot;&gt;map-component.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/map-component.png&quot; width=&quot;539&quot; height=&quot;278&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 28 Dec 2017 01:17:18 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">945 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Watershed Protection Hackathon in Austin</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/12</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/dalgic.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Suzan Dalgic.&lt;/i&gt;&lt;/p&gt;
@@ -604,44 +647,6 @@ Marketing communications projects begin with a creative strategy and buy-in from
  <pubDate>Fri, 11 Aug 2017 15:52:25 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">905 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Students hack plastic pollution with MIT App Inventor apps</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/08</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/dalgic.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Suzan Dalgic&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;July 18th, 2017 was the day 3rd-8th-grade students hacked plastic pollution and they created apps by using MIT App Inventor. MIT Master Trainer Suzan Dalgic collaborated with JASON Learning, Dr. Luk Hendrik, and Paula Freund, to make this hackathon a success for Del Valle ISD. Dr. Mike Cassidy was there to do the research from TERC. The event was sponsored by DELL. Even though it was their first time with MIT App Inventor, students came up with amazing ideas, such as apps to control robots to clean the oceans, game apps, etc., and they did a fantastic job.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/hackathon-flyer.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 80%; padding-top: 20px;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/del-valle-hackathon.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21826&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/hackathon-flyerpng&quot;&gt;hackathon-flyer.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/hackathon-flyer.png&quot; width=&quot;663&quot; height=&quot;497&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21827&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/del-valle&quot;&gt;del-valle-hackathon.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/del-valle-hackathon.png&quot; width=&quot;675&quot; height=&quot;380&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 07 Aug 2017 16:09:02 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">903 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
