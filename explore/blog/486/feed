@@ -6,6 +6,25 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor for iOS is in progress</title>
+ <link>http://explore.appinventor.mit.edu/blogs/evan/2017/12/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello App Inventors!&lt;/p&gt;
+&lt;p&gt;We are excited to announce that we are implementing MIT App Inventor for iOS! Support for iOS has been one of the most frequent feature requests over the years, and we can&#039;t wait to see all of the great projects people will build for this new platform. We are aiming to make our Android and iOS offerings as compatible as possible within the constraints set by both platforms. There won&#039;t be a separate service--apps designed and programmed in MIT App Inventor will run on both platforms (some limitations may apply).&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ios-companion.png&quot; width=&quot;232&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ios-hello-purr.png&quot; width=&quot;232&quot; /&gt;&lt;br /&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; The MIT App Inventor Companion and an example of Hello Purr running on iOS.
+&lt;/div&gt;
+&lt;p&gt;MIT App Inventor for iOS will be released in two phases. Phase 1 will see the MIT App Inventor Companion launched in the Apple App Store. Anyone with an iOS device running iOS 9 or higher will be able to try out their existing App Inventor apps using this Companion. Phase 2 will include the ability to build projects for iOS as well as Android. Users will need to participate in the Apple Developer Program to publish built apps on the App Store, similar to joining the Google Play Store Developer Program. This will allow anyone building apps with App Inventor to run on both Android and iOS.&lt;/p&gt;
+&lt;p&gt;As with App Inventor for Android, MIT will provide App Inventor for iOS free for use worldwide.    Please help us keep it free by contributing to our &lt;a href=&quot;https://crowdfund.mit.edu/appinventor&quot; target=&quot;_blank&quot;&gt;App Inventor for iOS Crowdfunding Campaign&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy Inventing!&lt;/p&gt;
+&lt;p&gt;Evan W. Patton, Ph.D.&lt;br /&gt;
+Director of Software Development, MIT App Inventor&lt;br /&gt;
+On behalf of the MIT App Inventor team&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 19 Dec 2017 18:33:42 +0000</pubDate>
+ <dc:creator>evan</dc:creator>
+ <guid isPermaLink="false">944 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Upcoming Feature: Maps</title>
  <link>http://explore.appinventor.mit.edu/blogs/evan/2017/09</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello App Inventors!&lt;/p&gt;
