@@ -440,6 +440,40 @@
                         documented on this page. Note: Versions that
                         end with a letter (for example: nb117c) are
                           bugfix releases.</p>
+                        <h2>Changes between nb164a and nb165 (January 8, 2018)</h2>
+                        <p>This is a Component Release. There is a new
+                           Companion, version 2.46. Version 2.45 should
+                           work if you do not use Themes, but we recommend updating.</p>
+                        <ul>
+                            <li><strong>Update to Themes:</strong><br/>
+                                <ul>
+                                    <li>Added a Classic theme option, which is the
+                                        now the default theme, to address compatibility
+                                        issues for developers used to the old theme</li>
+                                    <li>Switching themes now takes effect in the
+                                        companion assuming the device supports it</li>
+                                    <li>Dark theme will set the screen background
+                                        to black and checkbox, label, and spinner text
+                                        to white if the "Default" color is used</li>
+                                </ul></li>
+                            <li>The emulator update mechanism uses a shim called
+                                CompanionUpgradeHelper to work around an issue with
+                                the companion running out of memory during an companion update</li>
+                            <li>The companion now writes assets received
+                                from the browser directly to disk rather than storing
+                                them in memory. This will prevent future out of memory
+                                errors during upgrades</li>
+                            <li>Made MockFeatureCollection
+                                have an icon while dragging and fixed some minor
+                                bugs related to the MockFeatureCollection properties</li>
+                            <li>Carriage return "\r" is supported in the blocks language</li>
+                            <li>Fixed an issue where the titlebar did not appear
+                                with certain combination of theme settings</li>
+                            <li>Fixed an issue where compiled apps would crash on
+                                some devices if the AccentColor or PrimaryColor values were not opaque</li>
+                            <li>Updates to Dutch Translation</li>
+                            <li>Bugfixes</li>
+                        </ul>
                         <h2>Changes between nb164 and nb164a (January 4, 2018)</h2>
                         <ul>
                             <li>Add European Portuguese</li>
