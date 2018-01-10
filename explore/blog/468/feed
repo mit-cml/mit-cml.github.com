@@ -6,6 +6,37 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor Makes a Surprise Appearance at CES 2018</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/01/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/interdonato.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rich Interdonato&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Each year I attend CES to see what the latest consumer electronics look like so I can share the observations with my students at the University of Utah.  This year, I was focused on seeing the newest wearable health technologies, and was not disappointed.  What is more, I got a pleasant surprise at the Kickmaker booth (#51874) in the form of a custom made eBike that was controlled by an App Inventor app!&lt;/p&gt;
+&lt;p&gt;Silvio Garnier-Gaume from Paris, France was demonstrating a single speed, belt-drive eBike that includes a 1hp electric motor in the bottom bracket, and a battery that is hidden in the downtube of the frame that he welded himself.  What is more, the device automatically senses when riders apply force to the pedals, and when this happens, the motor is activated to provide power assist.  This is particularly helpful in a single speed design because it can be very difficult to start the eBike moving, and once it gets going fast, it can be difficult to keep up with the pedals.&lt;/p&gt;
+&lt;p&gt;This is where App Inventor comes in.  Silvio said that he knows about hardware and electronics and bicycles and welding, but he &quot;is not a programmer&quot;.  Well, I absolutely disagree!  He was able to connect his invention to App Inventor using Bluetooth, and through the app that he built, he can tune the motor&#039;s parameters (maximum speed and torque), as well as detect the riders cadence and applied force.  He also uses App Inventor to communicate with the eBike&#039;s hidden battery to determine the available power.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ces-2018.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;
+Silvio and I talked about his future plans for the eBike and he said that he wants to enhance his app so that a rider can enter a route on a map and this will inform the way the power assist is delivered.  For example, if the app knows that the bike will need to ascend 3 hills, but only has power for two, it can limit the way it helps the rider, or it can automatically engage its regenerative braking on the downhill in an optimized way.  We discussed the opportunity for him to use App Inventor&#039;s latest Mapping component for this task and how it is very useful for the eBike to know the path that it will be following so that it&#039;s performance can be tailored to the ride.&lt;/p&gt;
+&lt;p&gt;Hardware like Silvio&#039;s eBike is very exciting to me because it showcases inventiveness and provides an elegant example of an enhancement that improves the performance and experience of bike riding.  By adding modern electronic technology, an otherwise &quot;low tech&quot; device is transformed into a &quot;high tech&quot; vehicle for modern mobility.  What is especially exciting is that the connection between the two is an App Inventor app!  Well done, Silvio!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-21987&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ces-2018png&quot;&gt;ces-2018.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ces-2018.png&quot; width=&quot;1000&quot; height=&quot;486&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 10 Jan 2018 21:03:56 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">947 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Teaching App Inventor in Hong Kong: Map Component </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2017/12-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tlam.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Tony Lam&lt;/i&gt;&lt;/p&gt;
@@ -608,45 +639,6 @@ Congratulations to our newest MIT Master Trainers! Eighteen people, hailing from
  <pubDate>Mon, 14 Aug 2017 20:28:22 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">906 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>About our new MIT App Inventor logo </title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/08/about</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ai-bee-horiz.png&quot; style=&quot;display:block; margin:auto; width:60%;&quot; /&gt;&lt;br /&gt;&lt;strong&gt;Why do we need a new logo?&lt;/strong&gt;&lt;br /&gt;
-The MIT App Inventor team felt it was time to move away from our Android-specific green droid. When you use MIT App Inventor next you will see the new logo in the upper left hand corner of the web interface. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why have we chosen a bee for our new logo and mascot?&lt;/strong&gt;&lt;br /&gt;
-Bees and MIT app inventors share many of the same qualities, and they make the world a better place!&lt;br /&gt;
-Bees work hard, individually and in groups, to improve their communities all around the world&lt;br /&gt;
-Bees are creators and makers&lt;br /&gt;
-Bees are industrious and committed to achieving their goals&lt;br /&gt;
-The work that bees do (pollination) is important for the well-being of our planet, just as the apps created by MIT App Inventor users create positive change in the world through mobile computing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What was the process for designing and selecting a new logo?&lt;/strong&gt;&lt;br /&gt;
-Marketing communications projects begin with a creative strategy and buy-in from key stakeholders in an organization. This is the process we used to design the new MIT App Inventor logo. The stakeholder-approved creative strategy was sent to a preferred-MIT design firm that has produced dozens of design projects at MIT (MIT School of Engineering, MIT Media Lab, MIT Department of Mechanical Engineering, the MIT Sloan School, and a dozen others).&lt;/p&gt;
-&lt;p&gt;Several creative options were presented to the MIT App Inventor team, and the bee logo was chosen. Every member of the full App Inventor team agreed to replace the existing logo with the bee, and the new logo was rolled out to a group of master trainers before it was shown to App Inventor power users last week.&lt;/p&gt;
-&lt;p&gt;Design and color preference are highly subjective, which is why the process begins with a creative strategy. The team felt the bee logo achieved the strategic goals of appealing to a number of different audiences from middle school kids to foundations. We are very excited about our new logo and happy to retire the “green Android guy!”&lt;/p&gt;
-&lt;p&gt;While not our motivation for the logo, we at MIT App Inventor recognize that bees help produce many of our favorite foods, are critical to the health of our global ecosystem, and are now endangered. We hope some of our app inventors will be inspired to create apps that bring attention to the shrinking numbers of bees and what we can all do to help.&lt;/p&gt;
-&lt;p&gt;“Honey bees — wild and domestic — perform about 80 percent of all pollination worldwide. A single bee colony can pollinate 300 million flowers each day. Grains are primarily pollinated by the wind, but fruits, nuts and vegetables are pollinated by bees. Seventy out of the top 100 human food crops — which supply about 90 percent of the world’s nutrition — are pollinated by bees.” (source: Greenpeace.org)&lt;/p&gt;
-&lt;p&gt;MIT App Inventor has a large impact on the world as well: 6 million registered users, 25 million apps developed, apps built to find clean water, diagnose concussions in football players, prevent bullying, to name a few. App inventors are a &quot;colony&quot; (community) of productive creators aiming to make the world a better place - just like the bees.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21829&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ai-bee-horizpng&quot;&gt;ai-bee-horiz.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ai-bee-horiz.png&quot; width=&quot;600&quot; height=&quot;230&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 11 Aug 2017 15:52:25 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">905 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
