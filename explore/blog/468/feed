@@ -6,6 +6,69 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor against Cyberbullying</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/03/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Two 16-year-old students from IES Isbilya, Seville(Spain), have developed a mobile application using MIT App Inventor to raise community awareness of the problem of cyberbullying.&lt;/p&gt;
+&lt;p&gt;The work, which is in the context of a European program called Erasmus+ Minus Cyberbullying, has managed to win the distinction of &lt;a href=&quot;http://appinventor.mit.edu/explore/app-month-gallery.html&quot; target=&quot;_blank&quot;&gt;&#039;App of the month&#039;&lt;/a&gt; on the App Inventor website itself.&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cyberbullying-students.png&quot; style=&quot;float: right; margin-left: 15px; width: 25%;&quot; /&gt;We asked the authors, Antonio Lobo and Miguel Salas, about it: 
+&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why did you develop this application?&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;We are working on a European project on cyberbullying and we wanted to carry out a work that was original and that added value.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Why have you used MIT App Inventor?&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;We have chosen MIT App Inventor because it is very easy to use and, at the same time, it allowed us to quickly develop the idea we wanted to transmit from the application.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;How long did it take you to complete the app?&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;About a week.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;What does your application do?&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;It displays a series of conversations in the context of instant messaging and allows, through a simple questionnaire, to determine if the person who uses it is aware of the problem of cyberbullying ... it offers a score showing if you would behave as a bully or as a victim.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Congratulations and thank you for sharing your work!&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/?galleryId=5554499389358080&quot; target=&quot;_blank&quot;&gt;Stop Cyberbullying by Verona Project on Gallery&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;h3&gt;Screenshots&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cyberbullying-screenshot1.png&quot; style=&quot;display:block; margin:auto; width: 60%;  border: 1px solid black;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cyberbullying-screenshots2.png&quot; style=&quot;display:block; margin:auto; width: 60%; border: 1px solid black;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22011&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cyberbullying&quot;&gt;cyberbullying-screenshot1.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cyberbullying-screenshot1.png&quot; width=&quot;1656&quot; height=&quot;1108&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22012&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cyberbullying-0&quot;&gt;cyberbullying-screenshots2.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cyberbullying-screenshots2.png&quot; width=&quot;1736&quot; height=&quot;1110&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22013&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cyberbullying-1&quot;&gt;cyberbullying-students.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cyberbullying-students.png&quot; width=&quot;499&quot; height=&quot;667&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 16 Mar 2018 01:43:01 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">960 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>#GirlsMakeTech Hong Kong in support of Technovation 2018 Launch </title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/02</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lee.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Ringo Lee&lt;/i&gt;&lt;/p&gt;
@@ -444,79 +507,6 @@ Philipp Knodel, CEO &amp;amp; Founder App Camps&lt;br /&gt;&lt;span id=&quot;7fc
  <pubDate>Fri, 06 Oct 2017 18:00:13 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">922 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Teen-Code</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/10/teen</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ovazza.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Youmna Ovazza&lt;/i&gt;
-&lt;/p&gt;&lt;p&gt;
-I am writing to you from Paris to introduce Teen-Code to the international App Inventor community!&lt;/p&gt;
-&lt;p&gt;Teen-Code started back a little less than a year ago in Paris, France and aims at teaching teenagers (13 to 18 years old) how to code and create digital projects, through holiday workshops and weekly sessions. We are big App Inventor fans and are very happy to contribute to the App Inventor community from France!&lt;/p&gt;
-&lt;p&gt;We regularly publish short free video tutorials in French on our YouTube channel (17 videos to date), that could be useful to all French-speaking AI fans worldwide, and that you can check out below! &lt;/p&gt;
-&lt;p&gt;We have even created a course for beginners on the Udemy platform (not free however), should that be useful to anyone.&lt;/p&gt;
-&lt;p&gt;As the founder of Teen-Code, I am a MIT Master Trainer in Educational Mobile Computing program and spent 3 days at MIT in July as part of the program.&lt;/p&gt;
-&lt;p&gt;A few links to share:&lt;/p&gt;
-&lt;p&gt;* Teen-Code website:  &lt;a href=&quot;http://www.teen-code.com&quot; target=&quot;_blank&quot;&gt;www.teen-code.com&lt;/a&gt;&lt;br /&gt;
-* Teen-Code blog (with pictures illustrating workshops with App Inventor): &lt;a href=&quot;http://www.teen-code.com/blog&quot; target=&quot;_blank&quot;&gt;http://teen-code.com/blog/&lt;/a&gt;   or  &lt;a href=&quot;http://teen-code.com/2017/02/11/stage-creation-dapplications-mobiles-fevrier-2017/&quot; target=&quot;_blank&quot;&gt;http://teen-code.com/2017/02/11/stage-creation-dapplications-mobiles-fevrier-2017/&lt;/a&gt;&lt;br /&gt;
-* YouTube channel (17 free tutorial videos in French): &lt;a href=&quot;http://www.youtube.com/c/Teen-code&quot; target=&quot;_blank&amp;quot;&quot;&gt;www.youtube.com/c/Teen-code&lt;/a&gt;&lt;br /&gt;
-* Apps made by students: &lt;a href=&quot;http://bit.ly/2o6iKBD&quot; target=&quot;_blank&quot;&gt;http://bit.ly/2o6iKBD&lt;/a&gt;&lt;br /&gt;
-* Udemy course for beginners on Android using App Inventor:  &lt;a href=&quot;https://www.udemy.com/creation-applis-mobiles-debutants-android/&quot; target=&quot;_blank&quot;&gt;https://www.udemy.com/creation-applis-mobiles-debutants-android/&lt;/a&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Teen-Code1.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Teen-Code2.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Teen-Code3.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Teen-Code4.jpg&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21903&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/teen-code1jpg&quot;&gt;Teen-Code1.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Teen-Code1.jpg&quot; width=&quot;2000&quot; height=&quot;1125&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21904&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/teen-code2jpg&quot;&gt;Teen-Code2.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Teen-Code2.jpg&quot; width=&quot;2000&quot; height=&quot;1125&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21905&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/teen-code3jpg&quot;&gt;Teen-Code3.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Teen-Code3.jpg&quot; width=&quot;2000&quot; height=&quot;1125&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21906&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/teen-code4jpg&quot;&gt;Teen-Code4.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Teen-Code4.jpg&quot; width=&quot;2000&quot; height=&quot;1374&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 03 Oct 2017 18:57:39 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">917 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
