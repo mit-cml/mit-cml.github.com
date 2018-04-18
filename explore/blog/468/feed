@@ -6,6 +6,52 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Coding Hackathon With Business School Students in Paris, France</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/04-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ovazza.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/huguet.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt; This is a guest blog by MIT Master Trainers Youmna Ovazza and Pierre Huguet.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;The ISG (Institut Supérieur de Gestion) is a French business school offering MBA programs. Pierre and I had taught a group of Masters students the basics of mobile programming with App Inventor, during an intensive 3-day course built as a Hackathon. Here’s how it went:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;The initial brief:&lt;/i&gt;&lt;/b&gt;  The school objective was to add a coding course to the Masters curriculum to strengthen their digital skills and experiment an App development cycle. Course was built as a 2-step Hackathon, with students learning programming basics, then working in teams on a final project that could become a « real » app.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/PhotoMix_ISG.jpg&quot; style=&quot;display:block; margin:auto; width: 100%; padding: 20px 0;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;The program:&lt;/i&gt;&lt;/b&gt;  We had a group of 9 students coming from various Master 2 programs (Marketing, Digital, Finance and Consulting). Over the course of 3 full days, they had 70% of the time dedicated to programming, 20% to Design Thinking and 10% to coaching on their projects.  As for programming, they were exposed to 4 different mobile apps exploring a variety of components to initiate them to algorithmic and event-driven programming, following a Build - Conceptualize - Customize - Create approach. After they had created their first « Hello World » app, we switched to a flipped classroom mode based on the  online course on App Inventor I created on the Udemy Platform where they learned and trained on their own with the video tutorials. Pierre and I were more like coaches, clarifying notions when needed and managing the overall agenda and group dynamics.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;The final projects:&lt;/i&gt;&lt;/b&gt; Following the 3-day training on App Inventor, students had 5 days (not entirely free of other school courses though) to produce a functional prototype of a « real » app project, then present to a jury of 4 teachers and the school director. They teamed up in groups of three. Their app had to solve a problem related to school life. They had to follow the Design Thinking methodology taught earlier on to uncover a specific problem to address, present their solution and a functional prototype.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/PhotoApplis.png&quot; style=&quot;display:block; margin:auto; width: 100%; padding: 20px 0;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;Results and feedback:&lt;/i&gt;&lt;/b&gt; All made it! Students and teachers alike were very excited with the final projects presented (one tackling the school’s course agenda issues, one with flashcodes to ease school wifi access, and last one focusing on out-of-school activities), so excited that we forgot to take pictures  !&lt;br /&gt;
+A feedback survey showed a very high rate of student satisfaction, and enduring interest for more mobile app programming, and courses oriented towards digital project creation and innovation. App development with App inventor was felt as a fully relevant experience by MBA students. &lt;/p&gt;
+&lt;p&gt;A short video demo of each app can be checked on YouTube: &lt;a href=&quot;https://www.youtube.com/watch?v=Xy23n6E5Mok&quot; target=&quot;_blank&quot;&gt;Connect&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=kKDeBmsMNAw&quot; target=&quot;_blank&quot;&gt;My Planning&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=0bg76MdD7GM&quot; target=&quot;_blank&quot;&gt;Drop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;Next step / challenge for us:&lt;/i&gt;&lt;/b&gt;  scale up this first session and address 5 to 10 times more Masters students next year! We’re not there yet but we’ll keep you posted!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22056&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/photoapplispng&quot;&gt;PhotoApplis.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/PhotoApplis.png&quot; width=&quot;1293&quot; height=&quot;557&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22057&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/photomixisgjpg&quot;&gt;PhotoMix_ISG.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/PhotoMix_ISG.jpg&quot; width=&quot;663&quot; height=&quot;373&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 17 Apr 2018 14:18:30 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">965 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>CoderDojo-coaches translate App Inventor to Dutch</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/04</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/Maarten.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by Maarten Thimpont of CoderDojo Belgium&lt;/i&gt;&lt;/p&gt;
@@ -686,58 +732,6 @@ Philipp Knodel, CEO &amp;amp; Founder App Camps&lt;br /&gt;&lt;span id=&quot;7fc
  <pubDate>Mon, 13 Nov 2017 17:57:14 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">932 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Technovation workshop at Roxbury Innovation Center</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/11</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT App Inventor team presented at a workshop for interested girls, teachers, and parents at the Roxbury Innovation Center on Saturday, November 4. While the numbers were low, the enthusiasm was evident as participants tried out the new App Building Guide, &lt;a href=&quot;http://ai2.appinventor.mit.edu/?repo=http://appinventor.mit.edu/yrtoolkit/yr/aiaFiles/snapchatRemix/snapmix_default.asc&quot; target=&quot;_blank&quot;&gt;Bootleg Snapchat&lt;/a&gt;. The event was sponsored by MassTLC Education Foundation, as part of their efforts to kick off the Technovation Challenge 2018 in Massachusetts. Please see their &lt;a href=&quot;http://masstlcef.org/technovation/&quot; target=&quot;_blank&quot;&gt;website&lt;/a&gt; for more information and a schedule of future workshops.&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 100%; padding-top; 20px;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation-workshop-1104.jpg&quot; style=&quot;float;left; margin-right:5px; width: 49%;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation2-1104.jpg&quot; style=&quot;float;left; margin-top:20px; width: 49%;&quot; /&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/technovation-1104.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21956&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/technovation&quot;&gt;technovation-workshop-1104.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/technovation-workshop-1104.jpg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21957&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/technovation2&quot;&gt;technovation2-1104.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/technovation2-1104.jpg&quot; width=&quot;800&quot; height=&quot;559&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21960&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/technovation-1104jpg&quot;&gt;technovation-1104.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/technovation-1104.jpg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 06 Nov 2017 16:28:27 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">930 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
