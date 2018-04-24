@@ -440,6 +440,32 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb166 and nb167 (April 24, 2018)</h2>
+                        <p>This is a non-component release. No new Companion is needed.</p>
+                        <ul>
+                            <li>Feature: Touch support for the designer and blocks editors.
+                                App inventors can now create projects on a touch screen device,
+                                such as a tablet.</li>
+                            <li>Feature: Buttons with destructive actions (e.g., delete)
+                                have a red background with white text to differentiate them from
+                                non-destructive actions</li>
+                            <li>Bug: NxtColorSensor was missing a default values, which resulted
+                                in an error that prevented using the component. The default value
+                                in the editor now matches the value specified in the companion.</li>
+                            <li>Bug: Added missing documentation for File AfterFileSaved
+                                event and addressed other minor typographical errors in the documentation.</li>
+                            <li>Bug: Fixed a bug where extension icons would not appear in
+                                the "Any Component" section of the blocks tree.</li>
+                            <li>Bug: Fixed a bug where component names were not being translated
+                                in "Any Component" blocks.</li>
+                            <li>Bug: Fixed an edge-case bug that involved an interaction
+                                between loading multiple screens of of an out-of-date project
+                                in the wrong order and the project upgrader. This would result
+                                in a project structure that could not compile unless the project
+                                was exported and then reimported back to App Inventor.</li>
+                            <li>Miscellaneous code cleanup and bug fixes that, in rare cases,
+                                could result in instability.</li>
+                        </ul>
                         <h2>Changes between nb165 and nb166 (January 24, 2018)</h2>
                         <p>This is a bugfix release. It does contain
                             new components, but no new Companion is
