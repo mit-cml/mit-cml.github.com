@@ -6,6 +6,32 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>The Connected Classroom</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/05</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello! I’m Cindy Kim from the Chinese International School in Hong Kong. I started to code with Scratch when I was in Year 7, and then with MIT App Inventor after I joined a coding camp for girls. Later on in Year 10, I had an idea for a Co-Curricular activity where I would teach the primary students (Year 5 - 6) at our school coding through MIT App Inventor. I chose to use MIT App Inventor due to its clear structure and versatile use - with just the right blocks you are able to create anything you have in mind! After a year of planning and organizing, I created the activity and it lasted a semester each year (it’s been two years now), and logged my process on a blog. It serves to not only demonstrate my progress but also to act as a guide for those who want to do the same. There are a variety of pages ranging from the projects that my students made to small tips that I acquired throughout the process of creating and experiencing the activity, so please do read it if you need any advice! My contact information is on the blog as well, so please feel free to contact me whenever you need to. Thank you!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://csjk372.wixsite.com/connectedclassroom&quot; target=&quot;_blank&quot;&gt;Here is the blog!&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22059&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cispng&quot;&gt;cis.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cis.png&quot; width=&quot;634&quot; height=&quot;428&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 01 May 2018 13:30:14 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">967 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>6 Award Winning Apps from AppJamming Summit 2018</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/04/6</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/sun.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;a href=&quot;https://blog.firstcodeacademy.com/6-award-winning-apps-from-appjamming-summit-2018-71ef458940d4&quot; target=&quot;_blank&quot;&gt;Read about the AppJamming Summit 2018&lt;/a&gt;, held in Hong Kong, and hosted by First Code Academy. &lt;/p&gt;
@@ -611,70 +637,6 @@ Silvio and I talked about his future plans for the eBike and he said that he wan
  <pubDate>Thu, 28 Dec 2017 01:17:18 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">945 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Watershed Protection Hackathon in Austin</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/12</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/dalgic.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Suzan Dalgic.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Austin ISD elementary and middle school students participated in a daylong hackathon to tackle watershed pollution during the Computer Science education week in Austin on December 9th, 2017. The event is hosted by the AISD Science team, in partnership with Jason Learning, MIT Master Trainer Suzan Dalgic and the city of Austin Watershed Protection Department. The event was sponsored by DELL. Students came up with great ideas and apps and presented their apps, posters to the parents/ guardians at the end of the day.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/AISD2.jpg&quot; style=&quot;clear: both; display:block; margin:auto; width: 50%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/AISD4.jpg&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
-&lt;div style=&quot;display:block; margin:auto; width: 80%;&quot;&gt;
-&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/AISD.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/AISD3.jpg&quot; style=&quot;float: left; margin-right: 10px; margin-top: -20px; width: 48%;&quot; /&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21977&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/aisd2jpg&quot;&gt;AISD2.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/AISD2.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21978&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/aisd3jpg&quot;&gt;AISD3.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/AISD3.jpg&quot; width=&quot;480&quot; height=&quot;640&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21979&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/aisd4jpg&quot;&gt;AISD4.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/AISD4.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21981&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/aisdjpg&quot;&gt;AISD.jpg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/AISD.jpg&quot; width=&quot;480&quot; height=&quot;640&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 12 Dec 2017 23:17:00 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">940 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
