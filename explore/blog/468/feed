@@ -6,6 +6,47 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>App Inventor: Who do we train and from where do we teach ?</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/05/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/france-mba-.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 100%; padding-bottom: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ovazza.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/huguet.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt; This is a guest blog by MIT Master Trainers Youmna Ovazza and Pierre Huguet.&lt;/i&gt;&lt;br /&gt;
+App Inventor empowers “normal people to build Apps” that are relevant to their daily life and community. We have a great time teaching with it, Thanks Hal :=)  &lt;/p&gt;
+&lt;p&gt;Lowering access thresholds to computer programming also has impacts on teaching.  Normal teachers (English, history, maths, French  …) can become mobile CSP teachers! What is it then, that we teach or what is the impact of App Inventor on the way we teach? &lt;/p&gt;
+&lt;p&gt;Authors, from very different backgrounds (Marketing and Engineering) joined with Design thinking specialists to teach a mobile CSP course to MBA students (&lt;a href=&quot;http://appinventor.mit.edu/explore/blogs/karen/2018/04-0.html&quot; target=&quot;_blank&quot;&gt;see this link&lt;/a&gt;&lt;a&gt;&lt;/a&gt;). This project-oriented course used a Build-Conceptualize-Customize-Create framework and a flipped classroom mode. Training covered a panel of components (sensors, communication, local and Web databases), then switched to students’ created projects. No student yet intends to become a professional programmer, but all experienced this course as relevant to their curriculum. Most were looking for more!&lt;/p&gt;
+&lt;p&gt;Merging multidisciplinary views which is often difficult (design, marketing, computational), came out smoothly: students did their own cooking from several teachers’ fields. Over this short course, they experienced practical connections between:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;the hard science view :  Turing basis for algorithms, abstraction, event driven programming, Internet architecture, APIs, …&lt;/li&gt;
+&lt;li&gt;the design and marketing view: address real-life projects and user relevant issues, search  insights, iterate between design and user’s experience,&lt;/li&gt;
+&lt;li&gt;the management view : match a goal with short deadline, work in a group with new colleagues, match constraints (limited coding knowledge and access to instructors, …).&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;We feel that for college and PD training, App Inventor is helpful to break barriers between disciplines that generally stand next to each other ...&lt;br /&gt;
+What’s next ? Following this first experience, we see the following issues: &lt;/p&gt;
+&lt;p&gt;1.    How can we scale up this course to match classes beyond a hundred students?&lt;/p&gt;
+&lt;p&gt;There is a request for this as a first week icebreaker for MBA students.  Current student/teacher ratio is around 5 to 1. We need to rise to around 15 or 20:1. How can we then provide a similar quality and keep students’ motivation?  Can we also keep student’s involvement which is linked to the short-project or Hackaton like intensity of the course?&lt;br /&gt;
+Scalability through course design? Part of the answer is to keep with video tutorials and flipped classroom, with teachers as coaches.  Some more work is required on pedagogy, using more of App Inventor’s prototyping capabilities and App canvas to deal with complex issues. &lt;/p&gt;
+&lt;p&gt;2.    Data is all over the place:&lt;/p&gt;
+&lt;p&gt;Sharing data on the web is a key to socially relevant Apps that students want to create. As this course is intended to extend digital literacy of students that will become managers, we also need to address this issue and give a flavor of the data management or the server side. &lt;/p&gt;
+&lt;p&gt;We will keep moving!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22062&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/france-mba-png&quot;&gt;france-mba-.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/france-mba-.png&quot; width=&quot;453&quot; height=&quot;183&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 17 May 2018 15:28:48 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">970 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>The Connected Classroom</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/05</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello! I’m Cindy Kim from the Chinese International School in Hong Kong. I started to code with Scratch when I was in Year 7, and then with MIT App Inventor after I joined a coding camp for girls. Later on in Year 10, I had an idea for a Co-Curricular activity where I would teach the primary students (Year 5 - 6) at our school coding through MIT App Inventor. I chose to use MIT App Inventor due to its clear structure and versatile use - with just the right blocks you are able to create anything you have in mind! After a year of planning and organizing, I created the activity and it lasted a semester each year (it’s been two years now), and logged my process on a blog. It serves to not only demonstrate my progress but also to act as a guide for those who want to do the same. There are a variety of pages ranging from the projects that my students made to small tips that I acquired throughout the process of creating and experiencing the activity, so please do read it if you need any advice! My contact information is on the blog as well, so please feel free to contact me whenever you need to. Thank you!&lt;/p&gt;
@@ -594,49 +635,6 @@ Silvio and I talked about his future plans for the eBike and he said that he wan
  <pubDate>Wed, 10 Jan 2018 21:03:56 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">947 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Teaching App Inventor in Hong Kong: Map Component </title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2017/12-0</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tlam.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Tony Lam&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;mailto:CoolThink@JC&quot;&gt;CoolThink@JC&lt;/a&gt; Project is created and funded by The Hong Kong Jockey Club Charities Trust, and co-created by Massachusetts Institute of Technology, The Education University of Hong Kong, and City University of Hong Kong. The Programme supports 32 primary schools in Hong Kong to provide either 9-hour or 14-hour computational thinking education lessons per school year over three years’ time. The support includes teacher training, learning materials and teaching assistants.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/tony-lam.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;On December 14, 2017, I was very honoured to have Professor Hal Abelson and Josh Sheldon visiting my coding lesson. In that lesson, I taught the newest Map components. Students learned to use the Map component in App Inventor to create a tour guide app that shows tourists sites in their community. Visitors can use the app to locate and learn about sites in the area.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/map-component.png&quot; style=&quot;display:block; margin:auto; width: 60%;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Students also used the TinyDB component to store data persistently in an app. Students continued to develop their use of Computational Thinking Concepts such as conditionals (showcasing different information according to the location chosen), lists (containing the information of tourist sites), and operators in creating this app.&lt;/p&gt;
-&lt;p&gt;Most importantly, the students loved the new Map component very much and they enjoyed making the tour guide app!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21985&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/tony-lampng&quot;&gt;tony-lam.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/tony-lam.png&quot; width=&quot;541&quot; height=&quot;313&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21986&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/map-componentpng&quot;&gt;map-component.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/map-component.png&quot; width=&quot;539&quot; height=&quot;278&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Thu, 28 Dec 2017 01:17:18 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">945 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
