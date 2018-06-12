@@ -6,6 +6,39 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Smarthuerto, a Smart Decision</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/06</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
+&lt;p style=&quot;margin-top: 10px&quot;&gt;With this slogan, a mixture of English and Spanish, six students from IES Isbilya from Seville (Spain), managed to win the first edition of the Grow-Lab contest of the international Spanish company EC2CE (&lt;a href=&quot;http://www.ec2ce.com/grow-lab/&quot; target=&quot;_blank&quot;&gt;http://www.ec2ce.com/grow-lab/&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The event allowed more than 60 students from 9 different schools in Seville to present innovative and creative projects that encouraged team work, with three different topics: Business, Information Technology and Mathematics. The objective is to connect the business with the educational world.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/smarthuerto.png&quot; style=&quot;display:block; margin:auto; width: 80%; clear: both; padding-top: 20px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The team of students in the IT category of the IES Isbilya opted for the development of a crop optimization project by combining IoT hardware with decision-making software based on an app built with MIT App Inventor and a Firebase database.&lt;/p&gt;
+&lt;p&gt;Demo video: &lt;a href=&quot; https://youtu.be/bld-7zm4RMs&quot; target=&quot;_blank&quot;&gt;https://youtu.be/bld-7zm4RMs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The result is an impressive work of monitoring in real time the parameters of an orchard via the Internet that, helped by a mobile application, allows, among other things, to help the farmer when it comes to knowing the temperature, humidity of the soil and air, pressure and rain in their crops. The best? Both the code and the schemes have been published so that anyone can set up their own smart garden and also with a very tight budget. Congratulations!!! &lt;/p&gt;
+&lt;p&gt;More information:&lt;br /&gt;&lt;a href=&quot;http://smarthuerto.com&quot; target=&quot;_blank&quot;&gt;http://smarthuerto.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AIA file: &lt;a href=&quot;https://github.com/SmartHuerto/Smart-huerto/blob/master/Smart_Huerto.aia&quot;&gt;https://github.com/SmartHuerto/Smart-huerto/blob/master/Smart_Huerto.aia&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22065&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/smarthuertopng&quot;&gt;smarthuerto.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/smarthuerto.png&quot; width=&quot;531&quot; height=&quot;397&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 12 Jun 2018 13:36:41 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">973 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor: Who do we train and from where do we teach ?</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/05/app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/france-mba-.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 100%; padding-bottom: 20px;&quot; /&gt;&lt;/p&gt;
@@ -604,37 +637,6 @@ The client, the Opa-locka Community Development Corporation (OLCDC), operates a 
  <pubDate>Sun, 21 Jan 2018 22:04:33 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">948 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>App Inventor Makes a Surprise Appearance at CES 2018</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/01/app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/interdonato.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Rich Interdonato&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;Each year I attend CES to see what the latest consumer electronics look like so I can share the observations with my students at the University of Utah.  This year, I was focused on seeing the newest wearable health technologies, and was not disappointed.  What is more, I got a pleasant surprise at the Kickmaker booth (#51874) in the form of a custom made eBike that was controlled by an App Inventor app!&lt;/p&gt;
-&lt;p&gt;Silvio Garnier-Gaume from Paris, France was demonstrating a single speed, belt-drive eBike that includes a 1hp electric motor in the bottom bracket, and a battery that is hidden in the downtube of the frame that he welded himself.  What is more, the device automatically senses when riders apply force to the pedals, and when this happens, the motor is activated to provide power assist.  This is particularly helpful in a single speed design because it can be very difficult to start the eBike moving, and once it gets going fast, it can be difficult to keep up with the pedals.&lt;/p&gt;
-&lt;p&gt;This is where App Inventor comes in.  Silvio said that he knows about hardware and electronics and bicycles and welding, but he &quot;is not a programmer&quot;.  Well, I absolutely disagree!  He was able to connect his invention to App Inventor using Bluetooth, and through the app that he built, he can tune the motor&#039;s parameters (maximum speed and torque), as well as detect the riders cadence and applied force.  He also uses App Inventor to communicate with the eBike&#039;s hidden battery to determine the available power.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ces-2018.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;
-Silvio and I talked about his future plans for the eBike and he said that he wants to enhance his app so that a rider can enter a route on a map and this will inform the way the power assist is delivered.  For example, if the app knows that the bike will need to ascend 3 hills, but only has power for two, it can limit the way it helps the rider, or it can automatically engage its regenerative braking on the downhill in an optimized way.  We discussed the opportunity for him to use App Inventor&#039;s latest Mapping component for this task and how it is very useful for the eBike to know the path that it will be following so that it&#039;s performance can be tailored to the ride.&lt;/p&gt;
-&lt;p&gt;Hardware like Silvio&#039;s eBike is very exciting to me because it showcases inventiveness and provides an elegant example of an enhancement that improves the performance and experience of bike riding.  By adding modern electronic technology, an otherwise &quot;low tech&quot; device is transformed into a &quot;high tech&quot; vehicle for modern mobility.  What is especially exciting is that the connection between the two is an App Inventor app!  Well done, Silvio!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21987&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ces-2018png&quot;&gt;ces-2018.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ces-2018.png&quot; width=&quot;1000&quot; height=&quot;486&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 10 Jan 2018 21:03:56 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">947 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
