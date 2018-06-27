@@ -6,6 +6,98 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>SmartCity linked App development at E2C</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/06-1</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/huguet.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/MarieCarolinGries.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Pierre Huguet and Marie-Caroline Gries&lt;/i&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both; padding-top: 20px;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/e2c.png&quot; style=&quot;float: right; margin-left: 10px; width: 15%;&quot; /&gt;&lt;a href=&quot;https://reseau-e2c.fr/&quot; target=&quot;_blank&quot;&gt;Ecole de la deuxième chance&lt;/a&gt; is a public network of schools, created to offer an alternate solution for students that break out the schooling system with no degree nor professional qualification. This program addresses young men and women who volunteer to catchup on key subjects including French, English, web design, programming and robotics. E2C trains 15 000 young adults each year.&lt;/p&gt;
+&lt;p&gt;A 30 hours pilot workshop was designed with &lt;a href=&quot;https://www.bibliosansfrontieres.org/&quot; target=&quot;_blank&quot;&gt;Bibliothèques Sans Frontières&lt;/a&gt;, that drives digital literacy programs. Students were asked to learn App Inventor, and then build their own app in connection with city life.
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/e2c1.png&quot; style=&quot;float: right; margin-left: 10px; width: 30%;&quot; /&gt;The workshop started with basic apps, then focused on sensors, networks and development methods:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;phone sensors, test geolocation with GPS or Wi-Fi and do a sensitivity analysis,&lt;/li&gt;
+&lt;li&gt;read Web addresses, identify protocols, services and APIs, use map servers with browser then program blocks,&lt;/li&gt;
+&lt;li&gt;define their project (Design Thinking), prototype (paper)  and plan (project management).&lt;/li&gt;
+&lt;/ul&gt;&lt;div style=&quot;height: 50px&quot;&gt;&lt;/div&gt;
+
+&lt;p style=&quot;clear: both;&quot;&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/e2c2.png&quot; style=&quot;float: right; margin-left: 10px; width: 40%;&quot; /&gt;Student created Apps were the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;City walking tour with shopping bonus, &lt;/li&gt;
+&lt;li&gt;Geo-located events agenda,&lt;/li&gt;
+&lt;li&gt;Peer to peer Uber App for motorcycles (see picture),&lt;/li&gt;
+&lt;li&gt;Record user’s sports training activities (see picture). &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Time was short, and students required significant help to complete a first version of their app, but the goal was reached to experience a full development cycle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/e2c3.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Projects were shown on the school’s “&lt;i&gt;Digital label certification day&lt;/i&gt;” (Grande école du numérique) to Edith Cresson, founder and chair of E2C and former prime minister: Eliott shows an Uber like App and how smartphones can exchange data over the Web, Marouane explains the sports training App, Everest and Marwan demonstrate robotics.&lt;br /&gt;
+Students were surprised with their own App creation capabilities. They also improved their mental map of digital technologies (“it’s not magics”) and capability to use them. These were our priorities. For later workshops, we will take more time and connect with a course on the server side (html, php) and Web data sharing that is a key to socially relevant apps. We will also use existing geo-App &lt;a href=&quot;https://www.youtube.com/watch?v=3dz4-ivw_00&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;frameworks&lt;/a&gt; to gain time.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Acknowledgements:&lt;/b&gt; special thanks to Iris Lupianez (E2C) and Dorothée Arnaud (BSF)  &lt;br /&gt;&lt;b&gt;Links:&lt;/b&gt; &lt;a href=&quot;https://www.bibliosansfrontieres.org/&quot; target=&quot;_blank&quot;&gt;BSF&lt;/a&gt;, &lt;a href=&quot;https://reseau-e2c.fr/&quot; target=&quot;_blank&quot;&gt;E2C&lt;/a&gt;, &lt;a href=&quot;https://voyageursdunumerique.fr/&quot; target=&quot;_blank&quot;&gt;les voyageurs du numérique&lt;/a&gt;, &lt;a href=&quot;https://www.grandeecolenumerique.fr/&quot; target=&quot;_blank&quot;&gt;grande école du numérique&lt;/a&gt;,  &lt;a href=&quot;https://onvaessayer.org/&quot; target=&quot;_blank&quot;&gt;OnVaEssayer.org&lt;/a&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22073&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/e2cpng&quot;&gt;e2c.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/e2c.png&quot; width=&quot;165&quot; height=&quot;128&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22074&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/e2c1png&quot;&gt;e2c1.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/e2c1.png&quot; width=&quot;408&quot; height=&quot;241&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22075&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/e2c2png&quot;&gt;e2c2.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/e2c2.png&quot; width=&quot;294&quot; height=&quot;226&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22076&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/e2c3png&quot;&gt;e2c3.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/e2c3.png&quot; width=&quot;925&quot; height=&quot;238&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22077&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/mariecarolingriespng&quot;&gt;MarieCarolinGries.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/MarieCarolinGries.png&quot; width=&quot;345&quot; height=&quot;401&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 27 Jun 2018 20:51:59 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">978 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>#GirlsMakeTech Hong Kong in support of Technovation 2018!</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/06-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lee.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Ringo Lee&lt;/i&gt;&lt;/p&gt;
@@ -637,34 +729,6 @@ When the user chooses to zoom in the picture, the canvas width and height will b
  <pubDate>Fri, 16 Mar 2018 01:43:01 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">960 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>#GirlsMakeTech Hong Kong in support of Technovation 2018 Launch </title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/02</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/lee.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Ringo Lee&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;On January 26, 2018, MIT AppInventor Master Trainers, Ringo Lee and Emile Wong, joined the launch of #GirlsMakeTech Hong Kong in support of the Technovation 2018 launch held at Hong Kong University. The initiative is led by &lt;a href=&quot;https://www.facebook.com/YoungMakers.ChangeMakers/&quot; target=&quot;_blank&quot;&gt;Young Makers &amp;amp; ChangeMakers&lt;/a&gt;, an inclusive platform and community fostering young maker mindsets and STEM (science, technology, engineering and mathematics) skills, in collaboration with the public sector (such as Hong Kong SAR Education Bureau and Innovation and Technology Bureau) and private sector (such as Alibaba Entrepreneurs Fund, &lt;a href=&quot;https://www.facebook.com/Cyberport.DE/&quot; target=&quot;_blank&quot;&gt;Cyberport&lt;/a&gt; and &lt;a href=&quot;https://www.facebook.com/pages/Google-HK-Office/158902317506942&quot; target=&quot;_blank&quot;&gt;Google HK Office&lt;/a&gt;). &lt;/p&gt;
-&lt;p&gt;Last year, two teams of Hong Kong girls attended the Technovation World Pitch Summit in Silicon Valley and one of the teams won the Grand Prize (Junior Division) at Google&#039;s Mountain View headquarters with their Dementia Care Companion app made with MIT App Inventor. &lt;/p&gt;
-&lt;p&gt;Ringo and Emile will be assisting Young Makers &amp;amp; ChangeMakers with its #GirlsMakeTech Train the Trainers program of App Inventor to support Hong Kong Technovation girls this year.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Technovation_2018_HK.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-21997&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file-5&quot;&gt;Technovation_2018_HK.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Technovation_2018_HK.png&quot; width=&quot;800&quot; height=&quot;450&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Fri, 09 Feb 2018 02:31:10 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">956 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
