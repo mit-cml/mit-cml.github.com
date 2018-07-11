@@ -440,6 +440,31 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb168 and nb169 (July 11, 2018)</h2>
+                        <ul>
+                            <li>CloudDB: The DataChanged event now can handle images.</li>
+                            <li>WebViewer: A new event “WebViewStringChange” is fired when the
+                                “webviewstring” is updated within the webviewer.</li>
+                            <li>FusionTablesControl: The dialog that displays while FusionTables is
+                                working can be suppressed or have its wording changed.</li>
+                            <li>Slider: Fixes for some versions of Android.</li>
+                            <li>Added the “Break” block which can be used to exit a “while” or “for
+                                each” loop pre-maturely.</li>
+                            <li>Maps: Fixes the Compass location and to the Zoom controls (which
+                                didn’t work on some versions of Android).
+                                <ul>
+                                    <li>Maps can now be rotated programmatically using blocks.</li>
+                                </ul></li>
+                            <li>BackPack: Individual items can now be removed instead of having to
+                                completely empty the backback to remove items.</li>
+                            <li>Clock: Added more flexibility to “DateValue” and “FormatDateTime.”</li>
+                            <li>Notifier: Implement ChoosingCanceled and TextInputCanceled.
+                                <ul>
+                                    <li>You can now get events when a dialog is canceled.</li>
+                                </ul></li>
+                            <li>Web: Added a UriDecode function.</li>
+                            <li>Bugfixes and overall Performance Improvements</li>
+                        </ul>
                         <h2>Changes between nb167 and nb168 (May 31, 2018)</h2>
                         <p>
                             This is a non-component maintenance release. It re-engineers how the
