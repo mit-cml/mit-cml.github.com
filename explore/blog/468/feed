@@ -6,6 +6,48 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Florida Gulf Coast University and University of South Florida Summer Camp Students Learn App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/08-0</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/logan.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Lyra Logan&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;High school students in programs at two Florida public universities learned about event-driven programming as they built quick useful apps with App Inventor this summer. &lt;/p&gt;
+&lt;p&gt;In June 2018, I taught Mobile Software Development with App Inventor to 50 honor students from Southwest Florida schools who participated in the Florida Gulf Coast University Summer STEM Camp in Fort Myers, Florida.  In the sessions, the students and I discussed the app development design process and worked through tutorials that demonstrate the many useful components we can incorporate into apps created with App Inventor. Participants built prototypes that featured text-to-speech, animation, drawing, the accelerometer sensor, and AI’s new Maps components.  The clear highlight for most was using Maps components to build interactive apps that track their locations and calculate their distance from favorite Florida destinations. &lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width:60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/FGCU.jpg&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Florida Gold Coast University Summer STEM Camp&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;This past spring, I also trained two instructors to teach a class in app development as part of the University of South Florida’s Upward Bound summer program in Tampa, which serves Hillsborough County, Florida, high school students living in low-income households or households in which neither parent holds a bachelor&#039;s degree. The class spent 20 hours during June and the first part of July learning to create apps with App Inventor. At the end of summer, students showcased their projects and talked about the benefits of learning to create with technology. The winning app project used the new Maps, database and other components to show the location and real-time game scores of intramural basketball and soccer matches on campus.  &lt;/p&gt;
+&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width:80%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/USFApp.jpg&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;University of South Florida Upward Bound Summer Camp, Intramural Game Day App&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22087&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/usfappjpg&quot;&gt;USFApp.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/USFApp.jpg&quot; width=&quot;1600&quot; height=&quot;1200&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22088&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/fgcujpg&quot;&gt;FGCU.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/FGCU.jpg&quot; width=&quot;1600&quot; height=&quot;900&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 07 Aug 2018 19:02:49 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">984 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Welcome 41 New MIT Master Trainers in Educational Mobile Computing</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/08</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/mmt-2018-group.jpg&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;
@@ -463,299 +505,6 @@ Zinnia is already a big fan of App Inventor. At CoderDojo Kortrijk she has been 
  <pubDate>Tue, 03 Apr 2018 19:41:24 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">964 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Responsive Design: Drag a Canvas larger than screen size</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/03</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/wong.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Emile Wong&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;One day, when I put the keywords “Responsive design in App Inventor” in a web search, Google returned a &lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/responsiveDesign.html&quot; target=&quot;_blank&quot;&gt;page&lt;/a&gt; from MIT, other App Inventor Features references. The page suggested some important rules and common approaches to responsive design. The article also included a &lt;a href=&quot;https://groups.google.com/forum/#!category-topic/app-inventor-developers-library/other/hkt7gyMO2nU&quot; target=&quot;_blank&amp;quot;&quot;&gt;hyperlink to a forum post&lt;/a&gt; with an example which demonstrated that a Canvas could be dragged. The post provides a project aia file for download. I tried the downloaded project, and would like to share the mechanism behind it with others  here. &lt;/p&gt;
-&lt;p&gt;I created a simplified and modified application based on the downloaded project and explain it here.&lt;/p&gt;
-&lt;h3&gt;&lt;b&gt;Running the application&lt;/b&gt;&lt;/h3&gt;
-&lt;p&gt;When the application runs, the screen is initialized, and a picture is displayed on the screen as in figure 1.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/InitialScreen.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 1 Initial screen&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-When the user touches the screen, a popup notification will be shown, and users have options by clicking the appropriate buttons as in figure 2.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ScreenTouched.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 2 When the screen is touched&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-When the user clicks on the “Zoom In” button, the picture will be enlarged 2 times its original size in both width and height. The picture will display only the center part of the picture as in figure 3.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ZoomIn.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 3 Display the picture 2 times larger&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-The user can drag anywhere on the screen to view different parts of the picture as figure 4 and 5.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/DraggedToLeftTop.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 4 Dragged to the top left corner&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/DraggedToRightBottom.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 5 Dragged to the bottom right corner&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-When the user clicks on the “Help” button in figure 2, a notification shows the instructions.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 40%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Help.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 6 Show instructions&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;b&gt;Design Overview&lt;/b&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Components.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 7 shows the outline of the Components used in the project&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-In the Designer, add the following components into the Viewer.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;WorkArea:  vertical arrangement as working area&lt;/li&gt;
-&lt;li&gt;Y_Controller: vertical arrangement inside the working area as height controller&lt;/li&gt;
-&lt;li&gt;HorizontallArrangement1: horizontal arrangement inside the working area as a container&lt;/li&gt;
-&lt;li&gt;X_Controller: horizontal arrangement inside the horizontal container as width controller&lt;/li&gt;
-&lt;li&gt;PictureCanvas: A Canvas displays the picture&lt;/li&gt;
-&lt;li&gt;Notifier1: a Notifier&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;On Screen1,  change the default settings of the following properties.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;AlignHorizontal set to “Center”&lt;/li&gt;
-&lt;li&gt;AlignVertical set to “Center”&lt;/li&gt;
-&lt;li&gt;Sizing set to “Responsive” as in figure 8.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 30%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Sizing_Responsive.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 8 Sizing properties of Screen Component&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-Upload a picture to Media as the application’s asset which will be packaged with the application as in figure 9.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 30%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/UploadFile.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 9 Upload a picture to display&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;b&gt;Blocks Overview&lt;/b&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Initialize.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 10 Define the global parameters and prepare the initialization of the screen when app first runs&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;b&gt;&lt;i&gt;Global Parameters&lt;/i&gt;&lt;/b&gt;&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;DisplayAreaHeight – store the Screen width&lt;/li&gt;
-&lt;li&gt;DisplayAreaHeight – store the Screen height&lt;/li&gt;
-&lt;/ul&gt;&lt;h4&gt;&lt;i&gt;&lt;b&gt;Procedures&lt;/b&gt;&lt;/i&gt;&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;Initialize: The procedure will be called when Screen1 is initialized. The procedure sets the width and height of the components WorkingArea, X_Controller, Y_Controller, PictureCanvas as in figure 10.&lt;/li&gt;
-&lt;li&gt;ZoomIn: The procedure will be called when the user chooses to enlarge the picture. The width and height of the PictureCanvas will be 2 times bigger then the screen size.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Procedure_ZoomIn.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 11 Procedure ZoomIn&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Help: The procedure shows instructions in an alert when it is called as in figure 12.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Procedure_Help.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 12 Procedure Help&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;b&gt;&lt;i&gt;Events and Actions&lt;/i&gt;&lt;/b&gt;&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;When the PictureCanvas is touched, it will determine if the canvas size is the same as the screen width or 2 times the screen width. An alert shows two buttons for users to choose.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/PictureCanavasTouched.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 13 when PictureCanvas is touched, an event will occur&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;After the user picks an option, the related procedure will be called.
-&lt;ul&gt;&lt;li&gt;When Zoom In is picked, the procedure ZoomIn will be called and the picture will be 2 times bigger and only part of the picture will be displayed on the screen.&lt;/li&gt;
-&lt;li&gt;When Zoom Out is picked, the procedure Initialize will be called. The screen will return to its original settings as when the app starts.&lt;/li&gt;
-&lt;li&gt;When Help is picked, the procedure Help will be called to display an alert to shows the instructions.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/NotifierAfterChoosing.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 14 After an option button is clicked by the user, it will call the related procedure&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;When the PictureCanvas is dragged, and if the screen size is 2 times larger than the screen width, users can drag the picture to display different areas.&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;figure style=&quot;display:block; margin:auto; width: 70%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/PictureCanvasDragged.PNG&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 15  Event for dragging the picture&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;b&gt;How the application works?&lt;/b&gt;&lt;/h3&gt;
-&lt;p&gt;When the application is initialized, the application creates a virtual working area that is 3 times larger than the actual device screen size. It uses a vertical arrangement as a Y_Controller, and a horizontal arrangement as an X_Controller. The canvas size will be the same as the screen size. It will be displayed at the center of the working area as in figure 16. The Canvas’ background is set to the picture name you want to display.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Dragged Canvas.png&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 16 Initial screen layout&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;br /&gt;
-When the user chooses to zoom in the picture, the canvas width and height will be set to 2 times the screen size.  The screen is not enough to display the whole picture. It can only display ¼ the center area of the enlarged picture. By adjusting the height of Y_Controller and the width of the X_Controller, the controllers can move the canvas around the working area. The application gets the start position and the current position when the user drags on the screen. The related dragged distance will be added or subtracted from Y_Controller and X_Controller as in figure 17.&lt;br /&gt;&lt;figure style=&quot;display:block; margin:auto; width: 60%;&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ZoomInLayoutpng.png&quot; style=&quot;padding: 20px 0;&quot; /&gt;&lt;br /&gt;&lt;figcaption&gt;&lt;i&gt;Figure 17 The layout when zoomed in&lt;/i&gt;&lt;/figcaption&gt;&lt;br /&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;b&gt;Summary&lt;/b&gt;&lt;/h3&gt;
-&lt;p&gt;The application demonstrates that Canvas and Arrangement components of App Inventor can be set to larger than the screen size. By controlling a virtual spacer on a virtual working area, the application can manipulate a canvas and the canvas can be dragged. By applying responsive design in the project, an application can be creative. Please also note that I can only run this application on a device and emulator with Android 8.0 Oreo, and I tested the app on a Android 7.0 emulator and an Android 4.4 device, but it does not work.&lt;/p&gt;
-&lt;h3&gt;&lt;b&gt;Reference&lt;/b&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/responsiveDesign.html&amp;lt;br /&amp;gt;&amp;#10;&quot; target=&quot;_blank&quot;&gt;http://ai2.appinventor.mit.edu/reference/other/responsiveDesign.html&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://groups.google.com/forum/#!category-topic/app-inventor-developers-library/other/hkt7gyMO2nU&quot; target=&quot;_blank&quot;&gt;https://groups.google.com/forum/#!category-topic/app-inventor-developers-library/other/hkt7gyMO2nU&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22033&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/androidversionpng-0&quot;&gt;AndroidVersion.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/AndroidVersion_0.PNG&quot; width=&quot;952&quot; height=&quot;44&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22038&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/componentspng&quot;&gt;Components.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Components.PNG&quot; width=&quot;786&quot; height=&quot;857&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22039&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/dragged-canvaspng&quot;&gt;Dragged Canvas.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Dragged%20Canvas.png&quot; width=&quot;720&quot; height=&quot;718&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22040&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/draggedtolefttoppng&quot;&gt;DraggedToLeftTop.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/DraggedToLeftTop.PNG&quot; width=&quot;621&quot; height=&quot;919&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22041&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file-8&quot;&gt;DraggedToRightBottom.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/DraggedToRightBottom.PNG&quot; width=&quot;622&quot; height=&quot;927&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22042&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/helppng&quot;&gt;Help.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Help.PNG&quot; width=&quot;620&quot; height=&quot;926&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22043&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/initializepng&quot;&gt;Initialize.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Initialize.PNG&quot; width=&quot;772&quot; height=&quot;466&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22044&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/initialscreenpng&quot;&gt;InitialScreen.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/InitialScreen.PNG&quot; width=&quot;620&quot; height=&quot;924&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22045&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/intialize-settingpng&quot;&gt;Intialize setting.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Intialize%20setting.png&quot; width=&quot;718&quot; height=&quot;650&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22046&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file-9&quot;&gt;NotifierAfterChoosing.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/NotifierAfterChoosing.PNG&quot; width=&quot;533&quot; height=&quot;309&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22047&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file-10&quot;&gt;PictureCanavasTouched.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/PictureCanavasTouched.PNG&quot; width=&quot;854&quot; height=&quot;519&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22048&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file-11&quot;&gt;PictureCanvasDragged.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/PictureCanvasDragged.PNG&quot; width=&quot;1133&quot; height=&quot;529&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22049&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/procedurehelppng&quot;&gt;Procedure_Help.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Procedure_Help.PNG&quot; width=&quot;867&quot; height=&quot;213&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22050&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/procedurezoominpng&quot;&gt;Procedure_ZoomIn.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Procedure_ZoomIn.PNG&quot; width=&quot;861&quot; height=&quot;280&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22051&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/screentouchedpng&quot;&gt;ScreenTouched.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ScreenTouched.PNG&quot; width=&quot;629&quot; height=&quot;929&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22052&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/sizingresponsivepng&quot;&gt;Sizing_Responsive.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Sizing_Responsive.PNG&quot; width=&quot;188&quot; height=&quot;141&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22053&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/uploadfilepng&quot;&gt;UploadFile.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/UploadFile.PNG&quot; width=&quot;289&quot; height=&quot;135&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22054&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/zoominpng&quot;&gt;ZoomIn.PNG&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ZoomIn.PNG&quot; width=&quot;625&quot; height=&quot;925&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22055&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/zoominlayoutpngpng&quot;&gt;ZoomInLayoutpng.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ZoomInLayoutpng.png&quot; width=&quot;719&quot; height=&quot;652&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Mon, 19 Mar 2018 01:46:48 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">961 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
