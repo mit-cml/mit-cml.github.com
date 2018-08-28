@@ -6,6 +6,61 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>David Tseng presents at Maker Faires</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/08/david</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tseng.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%; padding-bottom: 10px;&quot; /&gt;This is a guest blog by CSAIL Visiting Scientist and MIT Master Trainer David Tseng&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;On June 14 and 15, 2018, educators from all over the world came to the Education University of Hong Kong for the &lt;a href=&quot;http://www.eduhk.hk/cte2018/program.html&quot; target=&quot;_blank&quot;&gt;CTE conference 2018&lt;/a&gt; and shared their wonderful experiences of computational thinking. There was also an App Inventor IoT workshop focusing on how to communicate with small IoT boards with your smart phone. David Tseng, one of the Visiting Scientists of MIT CSAIL and one of the MIT Master Trainers, was there to conduct the workshop. During the interesting two hours, participants learned the basics of Bluetooth Low Energy communication and how to interact with the LinkIt 7697 board with their smart phone. David also hosted two App Inventor workshops later at the &lt;a href=&quot;http://makerfairehongkong.com/2018/&quot; target=&quot;_blank&quot;&gt;Hong Kong Maker Faire&lt;/a&gt; and &lt;a href=&quot;https://singapore.makerfaire.com/&quot; target=&quot;_blank&quot;&gt;Singapore Maker Faire&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt; &lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/tseng-presentation.jpg&quot; style=&quot;display:block; margin:auto; width: 80%; padding-bottom: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/maker-faire.jpg&quot; style=&quot;display:block; margin:auto; width: 80%; padding-bottom: 10px;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cte-workshop.jpg&quot; style=&quot;display:block; margin:auto; width: 80%; padding-bottom: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More information about MIT App Inventor IoT&lt;/strong&gt;: &lt;a href=&quot; http://iot.appinventor.mit.edu/&quot; target=&quot;_blank&quot;&gt;http://iot.appinventor.mit.edu/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;AI2 workshop  in HongKong maker faire&lt;/strong&gt;: &lt;a href=&quot;http://makerfairehongkong.com/2018/tc/attractions/full-makers-list/#p_programming-education-mit-app-inventor&quot; target=&quot;_blank&quot;&gt;http://makerfairehongkong.com/2018/tc/attractions/full-makers-list/#p_programming-education-mit-app-inventor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI2 IoT workshop  in Singapore maker faire&lt;/strong&gt;: &lt;a href=&quot;https://singapore.makerfaire.com/maker/entry/31/&quot; target=&quot;_blank&quot;&gt;https://singapore.makerfaire.com/maker/entry/31/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22104&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/maker-fairejpg&quot;&gt;maker-faire.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/maker-faire.jpg&quot; width=&quot;4608&quot; height=&quot;2592&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22105&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/tseng&quot;&gt;tseng-presentation.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/tseng-presentation.jpg&quot; width=&quot;4032&quot; height=&quot;3024&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22107&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cte-workshopjpg&quot;&gt;cte-workshop.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cte-workshop.jpg&quot; width=&quot;1000&quot; height=&quot;750&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 28 Aug 2018 17:54:18 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">989 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Florida Gulf Coast University and University of South Florida Summer Camp Students Learn App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/08-0</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/logan.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Lyra Logan&lt;/i&gt;&lt;/p&gt;
@@ -479,32 +534,6 @@ A feedback survey showed a very high rate of student satisfaction, and enduring 
  <pubDate>Tue, 17 Apr 2018 14:18:30 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">965 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>CoderDojo-coaches translate App Inventor to Dutch</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/04</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/Maarten.jpeg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by Maarten Thimpont of CoderDojo Belgium&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;“I made a little game on my tablet”, explains Zinnia (10 years old) while firing up here tablet. “If my picture appears on the screen, I should tab it as fast as I can to collect points.” She starts tapping the pictures popping up on her screen. Suddenly a different picture appears. “I don’t want to tab on the picture of my dad or else I will lose points”, she tells us with a grin on her face. “I’ve got exactly 1 chance out of 5 to get a picture of my dad so I better keep my head in the game.”
-&lt;/p&gt;
-&lt;p&gt;
-Zinnia got to work with App Inventor, a tool developed by MIT for young coders to work on their own apps for Android devices. Experienced coaches may know MIT as the developers of Scratch, a programming environment that is used in almost all of the Dojo’s to teach kids the principles of coding. What App Inventor has in common with Scratch is that it works with blocks to puzzle the different pieces of code together. So, like Scratch, it is very suitable for teaching young children the principles of programming.
-&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/Zinnia.jpg&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;br /&gt;
-The major disadvantage of App Inventor was that, until recently, it was not available in Dutch. Since English in Flanders is only taught from secondary school onwards, our youngest coders found it difficult to find their way into the tool.
-&lt;/p&gt;
-&lt;p&gt;
-That is why a number of coaches put their heads together and started working on a Dutch translation. A collaboration was set up with CoderDojo Netherlands where they also wanted to start working with the tool. It paid off! Soon the whole tool had been translated. Thanks to Jefrey Schiller and Josh Sheldon at MIT, the Dutch translation was also added to the original product. As a result, children all over the world can now work with App Inventor in Dutch.
-&lt;/p&gt;
-&lt;p&gt;
-&quot;App Inventor has the advantage that kids can easily take their self-made apps with them,&quot; says Mario Witdoek, App Inventor enthusiast and initiator in Flanders. &quot;From a relatively young age, many children nowadays own a smartphone. By scanning a QR code, you can easily install your homemade apps on your mobile device and our young creative coders are only too happy to show them to their friends at school. In doing so, they are making even more children and young people enthusiastic about technology. In addition, we already have a few projects that are well on their way to being included in Google&#039;s Play Store. Speaking of a success story!”
-&lt;/p&gt;
-&lt;p&gt;
-Zinnia is already a big fan of App Inventor. At CoderDojo Kortrijk she has been working with the tool for two sessions now. After her photo game, she is currently working on a remote control for an mBot. &quot;I want to control my robot and change the colours of the lights by using my own app,&quot; she reveals her plans for the future. Watch out for this coder girl!&lt;/p&gt;
-&lt;p&gt;This blog post can also be seen at &lt;a target=&quot;_blank&quot;&gt;https://www.coderdojobelgium.be/en/coderdojo-coaches-translate-app-inventor-dutch&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 03 Apr 2018 19:41:24 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">964 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
