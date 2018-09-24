@@ -6,6 +6,20 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>MIT App Inventor for iOS Status Update</title>
+ <link>http://explore.appinventor.mit.edu/blogs/evan/2018/09/mit</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We know many App Inventor users are looking forward to the iOS version of MIT App Inventor.  We&#039;ve been working diligently on a release, and we hope to make the iOS version publicly available in the first quarter of 2019.  One feature of the release that will be especially interesting to teachers is the ability to use the same curriculum and teaching materials in building apps for iOS as for Android.&lt;/p&gt;
+&lt;p&gt;If you would like to check on MIT&#039;s development progress, please visit &lt;a href=&quot;http://doesappinventorrunonios.com&quot; target=&quot;_blank&quot;&gt;doesappinventorrunonios.com&lt;/a&gt; at any time. This site presents progress on implementing the specific blocks and components of App Inventor iOS.&lt;/p&gt;
+&lt;p&gt;Last week we submitted iOS App Inventor to Apple&#039;s TestFlight service for review and testing, as a first step toward making iOS App Inventor available in Apple&#039;s App Store.   We will now begin working on the review with Apple, which could take a couple of months.&lt;/p&gt;
+&lt;p&gt;We will publish updates on our iOS progress as we achieve critical milestones.&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;br /&gt;&lt;br /&gt;
+The MIT App Inventor Team&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 24 Sep 2018 15:51:51 +0000</pubDate>
+ <dc:creator>evan</dc:creator>
+ <guid isPermaLink="false">993 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>App Inventor for iOS is in progress</title>
  <link>http://explore.appinventor.mit.edu/blogs/evan/2017/12/app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello App Inventors!&lt;/p&gt;
