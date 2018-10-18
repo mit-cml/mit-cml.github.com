@@ -440,7 +440,7 @@ As you can see, the blocks for this app are quite simple.  There are 4 variables
 &lt;h3&gt;HelloCodi: tap the bee, hear the bee buzz!&lt;/h3&gt;
 &lt;p&gt;HelloCodi is a simple app that you can build in a very short time. You create a button that has a picture of Codi the bee on it, and then program the button so that when it is clicked the phone will make a buzzing sound.&lt;/p&gt;
 &lt;p&gt;To build HelloCodi, you&#039;ll need an image file of Codi the bee. Download these files to your computer by clicking the following links. To download: after clicking a link, right click on the image and select &quot;Save As.&quot; Save the file onto your desktop or downloads folder, or anywhere that you can easily find it later.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Code picture: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/codi.jpg&quot;&gt; codi.jpg&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Codi picture: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/codi.jpg&quot;&gt; codi.jpg&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
 &lt;li&gt;Bee sound: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/Bee-Sound.mp3&quot;&gt; Bee-Sound.mp3&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3&gt;Select components to design your app&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/button.png&quot; style=&quot;float:left; width: 15%; border: grey solid 1px; margin-right: 10px; margin-bottom: 10px;&quot; /&gt;&lt;/p&gt;
