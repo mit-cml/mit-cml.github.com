@@ -6,6 +6,96 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>HK Children built Burger Ordering App for local restaurant</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/10/hk</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tlo.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Tommie Lo.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;It’s 11:30 in the morning, 45 minutes away to your lunch break. Having been in a rush and skipped breakfast, you are suffering from the complaint of your rumbling stomach. Here, you pick up a tablet, access an app and start ordering your customized burger.&lt;/p&gt;
+&lt;p&gt;You choose from a selection of buns, vegetables, patties to a list of chef’s secret sauce. When you are ready, a simulated mouthwatering burger appears in front of you. Then you place your order and grab your burger out of your office right at 12:15.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/Texas Burger_designer.png&quot; style=&quot;display:block; margin:auto; width: 70%; padding: 20px 0; clear: both;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This is what our coders aged 9-12 built during the Preface Hackathon last Sunday -  a &quot;Create Your Own Burger&amp;amp;quot. custom app for Hong Kong burger chain Texas Burger, which was structured with Variables and ListPicker components, and further fine-tuned with Procedure components and colour coding. As aforementioned, the app provides enhanced visualization for customers, and also serves as a confirmation tool for store owners to minimize wrong orders.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/trying-apps.jpg&quot; style=&quot;display:block; margin:auto; width: 70%; padding: 20px 0;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;All kids are born with limitless creativity. Give them a platform to channel their abilities, and they may end up with creations with larger impacts than any adult could fathom. There is an ever growing influence of coding knowledge in the real world, and hence, newer platforms for kids’ creativity are needed to reflect this change. The App Inventor blocks that our coders have thoroughly explored may be interpreted as the next &quot;Lego&quot;.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/student-looking-over-code.jpg&quot; style=&quot;display:block; margin:auto; width: 70%; padding: 20px 0;&quot; /&gt;&lt;br /&gt;
+This was well reflected in our Hackathon. Though many kids at the event were young, and had little experience with coding, they exhibited a passion and excitement for coding that stunned their own parents. They were fully engaged throughout, and were buzzing to contribute in any way they could. This bodes well with our role as Preface Programmers - to guide young coders in not only learning, but applying coding knowledge practically too. We are extremely proud of every kid for the work they’ve put in, and would also like to take this opportunity to thank Texas Burger for being a reliable partner all through this event!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/students-texas-burger.jpg&quot; style=&quot;display:block; margin:auto; width: 70%; padding: 10px 0 0 0;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/students-tb.jpg&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/students-tb2.jpg&quot; style=&quot;display:block; margin:auto; width: 70%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22138&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/student-looking-over&quot;&gt;student-looking-over-code.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/student-looking-over-code.jpg&quot; width=&quot;6000&quot; height=&quot;4000&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22139&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/students-tbjpg&quot;&gt;students-tb.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/students-tb.jpg&quot; width=&quot;5952&quot; height=&quot;3968&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22140&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/students-tb2jpg&quot;&gt;students-tb2.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/students-tb2.jpg&quot; width=&quot;5233&quot; height=&quot;3489&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22141&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/students-texas&quot;&gt;students-texas-burger.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/students-texas-burger.jpg&quot; width=&quot;5952&quot; height=&quot;3968&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22142&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/texas&quot;&gt;Texas Burger_designer.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Texas%20Burger_designer.png&quot; width=&quot;2388&quot; height=&quot;1171&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22143&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/trying-appsjpg&quot;&gt;trying-apps.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/trying-apps.jpg&quot; width=&quot;800&quot; height=&quot;533&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 23 Oct 2018 19:18:10 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">994 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>Changing the Asian Community one App at a time - Preface Hackathon</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/09</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/ling.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Queena Ling.&lt;/i&gt;&lt;/p&gt;
@@ -483,33 +573,6 @@ Scalability through course design? Part of the answer is to keep with video tuto
  <pubDate>Tue, 01 May 2018 13:30:14 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">967 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>6 Award Winning Apps from AppJamming Summit 2018</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/04/6</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/sun.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;&lt;a href=&quot;https://blog.firstcodeacademy.com/6-award-winning-apps-from-appjamming-summit-2018-71ef458940d4&quot; target=&quot;_blank&quot;&gt;Read about the AppJamming Summit 2018&lt;/a&gt;, held in Hong Kong, and hosted by First Code Academy. &lt;/p&gt;
-&lt;p&gt;&lt;i&gt;This is a guest blog by MIT Master Trainer Michelle Sun.&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/ap-jamming-summit.jpeg&quot; style=&quot;display:block; margin:auto; width: 100%; clear: both; padding-top: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22058&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/ap-jamming&quot;&gt;ap-jamming-summit.jpeg&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/ap-jamming-summit.jpeg&quot; width=&quot;1600&quot; height=&quot;900&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 18 Apr 2018 19:32:57 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">966 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
