@@ -6,6 +6,73 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Joy of Coding</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2018/11/joy</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/mwu.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Ming Wu&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;After the coding class, my ten year old boy praised: “Mom, you did it!”.  &quot;Are you proud of me?&quot; I asked him immediately.  “Yes, I am”.  He replied with a radiant smile that warmed my heart. All the hard work paid off when seeing young people passionate and eager to learn to code.&lt;/p&gt;
+&lt;p&gt;Today, we kicked off our first free coding class at Agnew H Johnson school.  We were overwhelmed with twenty-one enthusiastic coders. In the App Inventor Creator class, it was the students first time to learn to use App Inventor to create apps. We first discussed why young people should learn to code. What is coding? Many students shared their thoughts about coding and understand the benefit of taking coding classes. During the class, students logged in with Gmail accounts or an anonymous account. We learned how to setup MIT AI2 companion on the tablet/phone. We explored the programming environment of App Inventor, such as User interface controls, Viewer, Properties, and Blocks Editor. Our first app was Talk to Me. Students played with the app on the Phone, then followed the instructor, step by step to create the app. The first version of the app uses a button and TextToSpeech control. When clicking on the button, the phone will say a message. After coding the block, students learned to use MIT AI2 companion to scan the QR Code, so the app instantly appears on the tablet/phone. When the user clicks the button, the phone says the message, such as “Congratulations, you’ve made your first app.” Students were excited and thrilled about their first app. Students left with questions on how to improve the app in the next class.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/app-inventor-coding-class.png&quot; style=&quot;clear: both; display:block; margin:auto; width: 60%;padding: 10px 0px;&quot; /&gt;&lt;br /&gt;
+In the Scratch Explorer class, students were assigned an account to log into Scratch. Our first project was to “Animate a name”. Students are asked to choose a name, any type of name, such as the name of her pet, a place, or sport they like. The project is to animate the name, and bring the name alive by adding different effects: dance, singing, spinning, changing color, etc. After choosing the name, students followed instructions to choose letter sprites. The first animation effect is to change the color of the letter. We dragged and dropped the Change color block. Every click on the sprite block made the color of the letter change. How to make the color change without clicking on the sprite block? We used the Loop block to repeat the Change color action. There is a problem as the color of the letter change too fast. How to fix it? We need to slow down the change so that we can see the color change in the letter. To do so, we added a Wait timer after or before the Change color block. Students were encouraged to play with the setting by changing different values in the timer and the loop to see different results. We also learned a trick on how to duplicate the coding blocks to each letter by drag and drop of the entire blocks to the other image sprite.  Lastly, we added an Event. When the Flag is clicked, all of the letters started changing color.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/coding-class1.jpg&quot; style=&quot;display:block; margin:auto; width: 30%; padding: 10px;&quot; /&gt;&lt;br /&gt;
+How nice to hear a student say:  I could not wait to come to the next class! &lt;/p&gt;
+&lt;p&gt;Unlike traditional coding, visual block coding transforms creativity into actions instantly. Learning by doing, students see their ideas come to life. Learning in a fun way stimulates their natural curiosities. Just like any other activity, sport, music or drawing, coding takes practice to be better.  Coding also instills design and problem-solving skills, enabling young people to think, to adapt, and to deal with challenges.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/coding-class2.jpg&quot; style=&quot;display:block; margin:auto; width: 30%;padding: 10px;&quot; /&gt;&lt;br /&gt;
+With innovative tools like App Inventor and Scratch, teaching kids to code is no longer a daunting task. Welcome to the world of happy coding! Cheers!&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/learning-scratch.jpg&quot; style=&quot;display:block; margin:auto; width: 60%; padding: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22153&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/app-inventor-coding&quot;&gt;app-inventor-coding-class.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/app-inventor-coding-class.png&quot; width=&quot;975&quot; height=&quot;549&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22154&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coding-class1jpg&quot;&gt;coding-class1.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coding-class1.jpg&quot; width=&quot;450&quot; height=&quot;600&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22155&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/coding-class2jpg&quot;&gt;coding-class2.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/coding-class2.jpg&quot; width=&quot;450&quot; height=&quot;600&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22156&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/learning-scratchjpg&quot;&gt;learning-scratch.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/learning-scratch.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 19 Nov 2018 21:34:07 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">995 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>HK Children built Burger Ordering App for local restaurant</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/10/hk</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/tlo.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Tommie Lo.&lt;/i&gt;&lt;/p&gt;
@@ -547,32 +614,6 @@ Scalability through course design? Part of the answer is to keep with video tuto
  <pubDate>Thu, 17 May 2018 15:28:48 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">970 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>The Connected Classroom</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/05</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hello! I’m Cindy Kim from the Chinese International School in Hong Kong. I started to code with Scratch when I was in Year 7, and then with MIT App Inventor after I joined a coding camp for girls. Later on in Year 10, I had an idea for a Co-Curricular activity where I would teach the primary students (Year 5 - 6) at our school coding through MIT App Inventor. I chose to use MIT App Inventor due to its clear structure and versatile use - with just the right blocks you are able to create anything you have in mind! After a year of planning and organizing, I created the activity and it lasted a semester each year (it’s been two years now), and logged my process on a blog. It serves to not only demonstrate my progress but also to act as a guide for those who want to do the same. There are a variety of pages ranging from the projects that my students made to small tips that I acquired throughout the process of creating and experiencing the activity, so please do read it if you need any advice! My contact information is on the blog as well, so please feel free to contact me whenever you need to. Thank you!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://csjk372.wixsite.com/connectedclassroom&quot; target=&quot;_blank&quot;&gt;Here is the blog!&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22059&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cispng&quot;&gt;cis.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cis.png&quot; width=&quot;634&quot; height=&quot;428&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 01 May 2018 13:30:14 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">967 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
