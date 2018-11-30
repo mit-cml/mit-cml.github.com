@@ -1,0 +1,100 @@
+#+TITLE: Release nb172 is coming
+#+OPTIONS: num:nil toc:nil author:nil email:nil timestamp:nil creator:nil
+#+HTML_HEAD_EXTRA: <style> .figure p {text-align: center;}</style>
+
+* TL;DR
+
+The MIT App Inventor team will be releasing a new version of MIT App
+Inventor (nb172) over the coming weekend. It contains two changes.
+These changes are important to App Inventor internally, but most users
+should not see much difference:
+
+
+1. In MIT App Inventor, for the past several months, there have been
+   two options under “build”, asking users to decide whether their
+   packaged apps could be submitted to Google Play.  With this new
+   change there is only one option, and all built apps will now work
+   with Google play.  (Details below.)
+
+2. We have changed the way the MIT AI2 Companion connects to the
+   browser. We anticipate that this change will work better in many
+   situations. However, the newer method of connecting may not work
+   with some network configurations. If this is the case, you will be
+   able to instruct the Companion to use the older “legacy” connection
+   method, making it work as it did prior to this release.
+
+* Changes in Release nb172
+
+** One Buildserver for Google Play and All Devices!
+
+We will be releasing MIT App Inventor version nb172 over the
+weekend. As mentioned above, the most important changes have to do
+with going back to one “buildserver” for packaging apps. Not only is
+this version compatible with Google Play (it targets Android SDK 26
+[Oreo]) and works on older devices, it has many bugs fixed since the
+version we put out in October.
+
+One of the major changes in later versions of Android, which we now
+support, is the need to ask permission of the end user for access to
+what Google calls “dangerous permissions.” These are permissions like
+using the Microphone and Camera as well as writing to some storage
+areas on a device.
+
+For the most part we will automatically put up the required dialogs
+when these permissions are needed by an MIT App Inventor
+component. However if the end user denies the permission, the
+component will not be able to perform whatever operation it was
+attempting. In this case an application will generate an error. In
+this release we have added blocks (in Screen1) that allows you to
+determine if this has happened and take appropriate remedial actions
+(like generating a message explaining why you need the permission,
+etc.). You can also use these new blocks to proactively request the
+needed permission ahead of time. Keep in mind that to debug an
+application with these new blocks you will need at least Companion
+version 2.48, which will be released through Google Play when the
+release goes live. If you do not get your Companion from Google Play,
+you can scan the barcode below to download it directly from MIT App
+Inventor (but wait until after the release goes live).
+
+[[./companion.png]]
+
+** A New Way To Communicate (WebRTC)
+
+The other significant change we have made is how the browser and the
+Companion communicate.
+
+You may have noticed that more and more web sites and applications on
+the web are being served by “secure” http (https) while MIT App
+Inventor continues to *NOT* be served via https. Recent versions of
+Chrome will label MIT App Inventor as not secure as a result. The
+reason we do not use https is that it is incompatible with the way we
+communicate between the browser and the Companion. The exact details
+are beyond the scope of this document.
+
+Starting with this release we have implemented a new method of
+communicating between the browser and the Companion. This new approach
+is based on a technology known as WebRTC. It offers several advantages
+over the current (now called “legacy”) approach:
+
+WebRTC connections are secure and private Android device and browser
+need not be on the same network. In some cases it will even work over
+the cellular network It will permit MIT App Inventor to be delivered
+for a secure (http) connection
+
+Although we believe that WebRTC should work on most situations, it may
+not work on some networks that have firewalls blocking many
+ports. Unlike our current (legacy) approach, which uses a few fixed
+network ports which we can tell you about in our documentation, WebRTC
+uses several different and in some cases randomly chosen ports for
+communicating.
+
+If WebRTC, the default approach in Companion version 2.48, doesn’t
+work on your network, you can switch back to the legacy approach by
+checking the (new to this release) “Use Legacy Connection” checkbox on
+the Companion’s main screen.
+
+Please let us know if our new communications approach fails on your
+network. Eventually we will have to remove the legacy method in order
+to finally move MIT App Inventor to being delivered via https.
+
+Thank you and Happy Inventing!
