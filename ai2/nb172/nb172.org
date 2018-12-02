@@ -1,12 +1,12 @@
-#+TITLE: Release nb172 is coming
+#+TITLE: Release nb172 has been released
 #+OPTIONS: num:nil toc:nil author:nil email:nil timestamp:nil creator:nil
-#+HTML_HEAD_EXTRA: <style> .figure p {text-align: center;}</style>
+#+HTML_HEAD_EXTRA: <style type="text/css"> .figure p {text-align: center;}</style>
 
 * TL;DR
 
-The MIT App Inventor team will be releasing a new version of MIT App
-Inventor (nb172) over the coming weekend. It contains two changes.
-These changes are important to App Inventor internally, but most users
+The MIT App Inventor team has released a new version of MIT App
+Inventor (nb172) on December 1st. It contains two changes.  These
+changes are important to App Inventor internally, but most users
 should not see much difference:
 
 
@@ -27,12 +27,12 @@ should not see much difference:
 
 ** One Buildserver for Google Play and All Devices!
 
-We will be releasing MIT App Inventor version nb172 over the
-weekend. As mentioned above, the most important changes have to do
-with going back to one “buildserver” for packaging apps. Not only is
-this version compatible with Google Play (it targets Android SDK 26
-[Oreo]) and works on older devices, it has many bugs fixed since the
-version we put out in October.
+We released MIT App Inventor version nb172 on December 1st.  As
+mentioned above, the most important changes have to do with going back
+to one “buildserver” for packaging apps. Not only is this version
+compatible with Google Play (it targets Android SDK 26 [Oreo]) and
+works on older devices, it has many bugs fixed since the version we
+put out in October.
 
 One of the major changes in later versions of Android, which we now
 support, is the need to ask permission of the end user for access to

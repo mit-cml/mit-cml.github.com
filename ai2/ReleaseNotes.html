@@ -440,6 +440,77 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb172 and nb171 (December 1, 2018)</h2>
+                        <h3>Major changes:</h3>
+                        <ul>
+                            <li>Added a new communication protocol for the MIT AI2 Companion that
+                                should be more versatile to different networks and firewalls. If you
+                                experience difficulties connecting, you can use the old behavior by
+                                enabling the "Use Legacy Connection" option in the companion</li>
+
+                            <li>Update for Android 8.0 Oreo (SDK 26). This includes many fixes to
+                                account for behavior changes in Android since our previous target,
+                                Android 2.1.</li>
+
+                            <li>Added three new blocks to Screen to handle user interaction with the
+                                Android 6.0+ permissions model.
+
+                                <ul>
+                                    <li>AskForPermission: You can ask for permission explicitly by calling
+                                        this method. Generally, components will handle asking permissions by
+                                        themselves, so no change is necessary for existing apps to work.</li>
+
+                                    <li>PermissionGranted: The PermissionGranted event will be run if the app
+                                        user grants permission in response to an AskForPermission call.</li>
+
+                                    <li>PermissionDenied: If a user denies a permission and you want to
+                                        provide custom handling, you can drag in a Screen.PermissionDenied
+                                        event block to ask again or disable any functionality that needed the
+                                        permission.</li>
+                                </ul></li>
+                        </ul>
+                        <h3>Bug fixes:</h3>
+                        <ul>
+                            <li><b>Blocks editor</b>: Migrated the built-in blocks documentation to
+                                ai2.appinventor.mit.edu</li>
+
+                            <li><b>Blocks editor</b>: Fixed a bug to allow the "Show warnings" button to work
+                                in Firefox</li>
+
+                            <li><b>Blocks editor</b>: Fixed a bug to ensure apps will compile even where
+                                there are empty local variable blocks</li>
+
+                            <li><b>Blocks editor</b>: Fixed help URLs for some blocks</li>
+
+                            <li><b>Button and related components</b>: Allow buttons on newer themes to be
+                                smaller than the Android UI guidelines if they have an image set</li>
+
+                            <li><b>Button and related components</b>: Fixed a bug where setting the
+                                background color of a button to "None" would show the button as if the
+                                background color were "Default" rather than removing the background
+                                color</li>
+
+                            <li><b>Material UI ripple effect</b>: Added support for ripple effect on button
+                                clicks in non-Classic themes when on Android 5.0 and higher</li>
+
+                            <li><b>Designer</b>: Fixed a bug allowing  project templates to load even if the
+                                project file contains a terminating newline</li>
+
+                            <li><b>Designer</b>: Improved performance of loading projects with complicated
+                                user interfaces</li>
+
+                            <li><b>Maps component</b>: Fixed bugs in the GeoJSON support in Maps components</li>
+
+                            <li><b>Tutorials</b>: Fixed a bug where large images linked from the tutorial
+                                sidebar would take up the entire workspace, preventing any further
+                                progress</li>
+
+                            <li><b>Texting component</b>: Fixed a bug to allow SMS messages longer than 160
+                                characters</li>
+
+                            <li><b>WebViewer component</b>: Fixed a bug where setting the WebViewString from
+                                blocks would trigger a WebViewStringChanged event</li>
+                        </ul>
                         <h2>Changes between nb170 and nb171 (October 21, 2018)</h2>
                         <ul>
                             <li>Prohibit projects and component names that may conflict with reserved words in the Java language</li>
