@@ -440,6 +440,40 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb174 and nb173 (January 6, 2019)</h2>
+                        <p>Note: This is a Component Release. Use MIT AI2 Companion version
+                            2.50.</p>
+                        <ul>
+                            <li>Fixed an issue that prevented loading of pre-existing
+                                projects containing a Map component</li>
+                            <li>Fixed an issue where the default BackgroundColor for a
+                                Screen running on Android 2.x was black instead of
+                                white</li>
+                            <li>Fixed a bug in the backpack that would prevent it from
+                                opening if it contained blocks related from an
+                                extension but the project didn't contain the extension</li>
+                            <li>Fixed a bug in the new connection mechanism that would
+                                prevent large projects (e.g., with maps) from
+                                transferring to the companion</li>
+                            <li>Fixed an issue where the AboutScreen textbox could be
+                                made larger than the Properties panel (thanks to
+                                @ethanhon for this patch)</li>
+                            <li>Fixed an issue where the textbox labels in forms were
+                                visually off-center (thanks to @ethanhon for this
+                                patch)</li>
+                            <li>Fixed a performance issue in the blocks connection
+                                database that would result in long switch times to the
+                                blocks editor in larger projects</li>
+                            <li>Added two context menu item to show and hide comment
+                                bubbles (thanks to @conorshipp of Kodular for this
+                                patch)</li>
+                            <li>Added bitwise and, or, and xor operators to the math
+                                drawer</li>
+                            <li>Added ShowScale (default: false) designer property to
+                                Map to draw a scale</li>
+                            <li>Added ScaleUnits property to control whether the Map
+                                scale uses metric or imperial units (default: metric)</li>
+                        </ul>
                         <h2>Changes between nb173 and nb172 (December 15, 2018)</h2>
                         <p>
                             This is a bugfix release.
