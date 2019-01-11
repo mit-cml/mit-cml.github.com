@@ -6,6 +6,29 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Change to Google’s policy for the Play Store may require changes to App Inventor apps</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2019/01/change</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Google recently released a new Play Store policy that will affect some App Inventor apps.&lt;br /&gt;
+All apps that use the Texting or PhoneCall component AND are published in the Play Store must be rebuilt.  The MIT App Inventor team is making a change to PhoneCall and Texting to help our users deal with this Google policy.&lt;/p&gt;
+&lt;p&gt;How will this affect my App Inventor apps and what do I need to do?&lt;/p&gt;
+&lt;p&gt;With Google’s change, if you create an App Inventor app that uses Phone or Texting components, you will not be able to submit it to Google Play.&lt;/p&gt;
+&lt;p&gt;The MIT App Inventor team is changing the Texting and PhoneCall components so that newly built apps will satisfy Google’s restrictions and can be submitted to Play just as before.  We’re currently testing the  changes, and we’ll release them in App Inventor as soon as February 2019. &lt;/p&gt;
+&lt;p&gt;Google is also planning to remove from Play apps that violate their policy.   If that happens to you, you’ll need to wait for the change to App Inventor, and then rebuild your app and resubmit it to Play, &lt;/p&gt;
+&lt;p&gt;What is the Google Play Store policy change?&lt;/p&gt;
+&lt;p&gt;Google’s change is that they will no longer permit apps in the Play Store that directly send Text messages (SMS) or make phone calls.  Instead you must invoke the device&#039;s built in Text Messaging (or phone call) application.  For example, an app that periodically sends texts without notifying the phone’s user will no longer be accepted to the Play Store, and Google might also remove such apps that are currently in the Play Store.   Google has also created a process where developers can fill out a form asking that their app be allowed as an exception to the policy.   Look here for the information Google has provided:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://support.google.com/googleplay/android-developer/answer/9047303&quot;&gt;https://support.google.com/googleplay/android-developer/answer/9047303&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Will my apps behave differently after App Inventor changes?&lt;/p&gt;
+&lt;p&gt;Yes, there will be a change.  When you use Texting.SendMessage, the phone will now route the message to the phone’s normal text message sending application.   Similarly for Phone.MakePhoneCall.&lt;/p&gt;
+&lt;p&gt;Can I still use App Inventor to  build apps that violate Google’s policy for Play?&lt;/p&gt;
+&lt;p&gt;Yes.&lt;/p&gt;
+&lt;p&gt;MIT’s change to App Inventor will include alternate versions of Texting.SendMessage and Phone.MakePhoneCall that do directly send texts and make phone calls.   You can build apps with these alternate versions and share them with your friends and family.  But you would need to ask Google for a policy exception in order to publish those apps in the Play Store.&lt;/p&gt;
+&lt;p&gt;We’ll post again when we release these features into the main MIT App Inventor.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Jan 2019 20:59:29 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">1006 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor Team nominated for Distinguished Leadership Award</title>
  <link>http://explore.appinventor.mit.edu/blogs/hal/2017/08/mit-app</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span id=&quot;docs-internal-guid-cec2f9ee-cebb-09c0-ce9d-9c7ba0929e61&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;August 10, 2017&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -129,14 +152,6 @@ The implementation of App Inventor Extension Components is the work students who
  <pubDate>Tue, 04 Aug 2015 13:52:13 +0000</pubDate>
  <dc:creator>hal</dc:creator>
  <guid isPermaLink="false">624 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>MIT App Inventor Classic RIP (Jan. 2012 - Jul.  2015)</title>
- <link>http://explore.appinventor.mit.edu/blogs/hal/2015/07/mit-app</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-optional-iframe field-type-iframe field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;div class=&quot;field-iframe-instance&quot;&gt;&lt;iframe src=&quot;https://docs.google.com/document/d/1k4DY1I5t2lJn4K4YowWB_Dv9gZzmlC3z_OaR3icZ3Rc/edit&quot; url=&quot;https://docs.google.com/document/d/1k4DY1I5t2lJn4K4YowWB_Dv9gZzmlC3z_OaR3icZ3Rc/edit&quot; title=&quot;&quot; class=&quot;field-iframe-instance&quot; width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot; transparency=&quot;0&quot; tokensupport=&quot;0&quot; html=&quot;&quot;&gt;Your browser does not support iframes. But You can use the following link. &lt;a href=&quot;https://docs.google.com/document/d/1k4DY1I5t2lJn4K4YowWB_Dv9gZzmlC3z_OaR3icZ3Rc/edit&quot; title=&quot;&quot;&gt;Link&lt;/a&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Wed, 15 Jul 2015 12:52:39 +0000</pubDate>
- <dc:creator>hal</dc:creator>
- <guid isPermaLink="false">605 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
