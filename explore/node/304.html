@@ -218,7 +218,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li>Optional supporting hard copy materials such as the <a href="../media-library.html">App Inventor Overview Handouts</a>, and the <a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxhcHBpbnZlbnRvcmxlc3NvbnN8Z3g6MjJkNmViOGQ3MDNmZWYwZQ">PDF version</a> of this lesson.</li>
 <li>Basic App Inventor tutorial - getting around [<a href="http://www.youtube.com/watch?v=nC_x9iOby0g">video</a>]</li>
 </ul><h3>Outline</h3>
-<ol><li><a href="../setup-mit-app-inventor.html">Set up</a> computers and phones or emulators. (Suggestion: do this ahead of time)</li>
+<ol><li><a href="../content/setup">Set up</a> computers and phones or emulators. (Suggestion: do this ahead of time)</li>
 <li>Part One:<a href="#m8one">Click a Button, Hear a Sound</a> </li>
 <li>Part Two: <a href="#m8two">Click the Button, Get a Prediction + Hear a Sound</a> </li>
 <li>Part Three: <a href="#m8three">Shake the Phone, Get a Prediction + Hear a Sound</a> </li>
@@ -243,7 +243,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 </li>
 <p><img src="../sites/all/files/tutorials/magic8ball/viewer_sound1.png" /></p><li>You have now completed the work in the Designer for Part One of this app. It's time now to go over to the Blocks Editor to program the behavior of these components.</li>
 </ol><p style="color:green;">BUILD: Blocks Editor</p>
-<p>In the upper right corner of the Designer, click on the Blocks Editor button. Wait for a few moments while the blocks editor loads. This takes some time, and often requires you to click “accept”, “ok”, or “keep” as the java program downloads to your computer. (Be sure to look at the very top or very bottom of your browser to see if it is prompting you to accept.) If you are having trouble loading the Blocks Editor, go back to the <a href="../setup-mit-app-inventor.html">Setup Instructions</a> for help.</p>
+<p>In the upper right corner of the Designer, click on the Blocks Editor button. Wait for a few moments while the blocks editor loads. This takes some time, and often requires you to click “accept”, “ok”, or “keep” as the java program downloads to your computer. (Be sure to look at the very top or very bottom of your browser to see if it is prompting you to accept.) If you are having trouble loading the Blocks Editor, go back to the <a href="../content/setup">Setup Instructions</a> for help.</p>
 <p>Now you are going to tell your app how to behave when the button is clicked. This is actually very simple in App Inventor, because the "code" for the program only consists of two blocks!</p>
 <p>Once the Blocks Editor is open, there are several options running along the left side of the screen. We refer to these as "Palettes" with “Drawers.” </p>
 <p>From the My Blocks palette, click on the Button1 drawer. Drag the <span class="basicblock">when Button1.Click</span> block into the work area (#1). From the My Blocks palette, click on the Sound1 drawer, drag the <span class="call block">Sound1.Play</span> block into the work area and insert it into the <span class="basicblock">when Button1.Click</span> block (#2). They will click together like magnetic puzzle pieces.</p>
@@ -252,7 +252,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <p><img src="../sites/all/files/tutorials/magic8ball/button1.click.png" /></p>
 <p>That's it! You've written the program for Part One of Magic 8-Ball. Now it's time to test that it's working right.</p>
 <p style="color:green;">TEST: Phone/Emulator</p>
-<p>You have now built an app! To test that it works, you either have to launch an emulator, or connect to a phone. Go back to the <a href="../setup-mit-app-inventor.html">Setup Instructions</a> if you do not have a phone or an emulator running.</p>
+<p>You have now built an app! To test that it works, you either have to launch an emulator, or connect to a phone. Go back to the <a href="../content/setup">Setup Instructions</a> if you do not have a phone or an emulator running.</p>
 <p><b>Emulator</b>: click on the picture, you will hear the sound play.<br /><b>Phone</b>: tap the picture, you will hear the sound play.</p>
 <pre class="ai-box">Note: If you don't hear the sound, first be sure you have the volume turned up on your device (or computer if using emulator). Also, make sure your device has an SD card. App Inventor stores media files to the SD card. In some devices, the Play component does not work correctly. You will need to use the Player component instead of the Sound component.</pre><h3><a name="m8two" id="m8two"></a>Part Two: Click the Button, Get a Prediction + Hear a Sound</h3>
 <p>Now that we've gotten the button to perform an action (play a sound), we want to extend that action to include giving the user a prediction. First we'll need two labels: Label1 will display the instructions, and Label2 will display the chosen prediction. We'll use blocks to program a "list picker" to choose from a list of predictions. Each time the button is clicked, the app will change the text of Label2 to display the chosen prediction.</p>
