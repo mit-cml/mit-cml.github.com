@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - Other</title>
+ <link>http://explore.appinventor.mit.edu/resource-type/other</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Unlocking Smartphone Data for Educational Use in Teaching and Learning Environment</title>
+ <link>http://explore.appinventor.mit.edu/resources/unlocking</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Authors: Fuming Shih and Weihua Li &lt;br /&gt;
+Abstract. We address the challenges of applying smartphone data to improve the&lt;br /&gt;
+experiences of teaching and learning in the university environment. Specifically, we cre-&lt;br /&gt;
+ated a framework to collect, monitor and analyze student behavioral data and increase&lt;br /&gt;
+social interactions for educational uses. The framework has three essential components.&lt;br /&gt;
+The first component is App Inventor, a web-based platform with drag-and-drop tools&lt;br /&gt;
+for novices to create mobile apps that collect personal and environmental data. The sec-&lt;br /&gt;
+ond component is Reactive Data Store, an intuitive mechanism that connects multiple&lt;br /&gt;
+data sources and automates the tasks for analyzing personal data. The third compo-&lt;br /&gt;
+nent is a push notification mechanism that delivers personalized or group messages as&lt;br /&gt;
+the results of the real-time analysis and triggers more actions accordingly. Together,&lt;br /&gt;
+these components will transform people&#039;s campus experiences by unleashing the values&lt;br /&gt;
+of smartphone data. Lastly, we introduced the framework to a group of teachers in&lt;br /&gt;
+higher education with a focus group discussion to identify the plausible use cases in&lt;br /&gt;
+terms of performance assessments, pedagogy design and collaborative learning.&lt;br /&gt;
+In Book Title: Smart University Workshop in Eighth International and Interdisciplinary Conference on Modeling and Using Context, November 2013 &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-resource-files field-type-file field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Files:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;PDF icon&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/resources/smartUniv.pdf&quot; type=&quot;application/pdf; length=637769&quot;&gt;smartUniv.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Grade Level:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Undergraduate&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Master&amp;#039;s and Above&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-difficulty-level field-type-taxonomy-term-reference field-label-inline clearfix view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Difficulty Level:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Subject:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Computer Science&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Resource Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Other&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 20 Oct 2014 18:16:12 +0000</pubDate>
+ <dc:creator>marisol</dc:creator>
+ <guid isPermaLink="false">562 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Chinese App Inventor Site</title>
+ <link>http://explore.appinventor.mit.edu/resources/chinese-app-inventor-site</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;A group of App Inventor fans in China came together and created the site, &lt;a href=&quot;www.appinventor.com.cn&quot;&gt;www.appinventor.com.cn&lt;/a&gt;, in 2010. The founders strongly believe App Inventor has unlimited possibilities and bright future. They want to share App Inventor with the people in China by using this website as a local hub.  The site has many App Inventor resources, especially the online video tutorials which have three seasons and more than 70 videos. There is also a technical discussion forum and the Tencent QQ group for App Inventor users at all levels. Currently, they have more than 400 active members in the group, many of whom are educators from high schools and universities. Many members have gone beyond their active involvement in the group and have started App Inventor classes in their own schools. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-resource-url field-type-link-field field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Resource URL:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;http://www.appinventor.com.cn&quot;&gt;http://www.appinventor.com.cn&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-taxonomy field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Grade Level:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;6-8&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;9-12&lt;/li&gt;&lt;li class=&quot;field-item even&quot;&gt;Undergraduate&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Master&amp;#039;s and Above&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-difficulty-level field-type-taxonomy-term-reference field-label-inline clearfix view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Difficulty Level:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Basic&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-subject field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Subject:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Computer Science&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Entrepreneurship&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-resource-lesson-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Resource Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Tutorial&lt;/li&gt;&lt;li class=&quot;field-item odd&quot;&gt;Other&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 09 Jul 2013 22:10:59 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">361 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>

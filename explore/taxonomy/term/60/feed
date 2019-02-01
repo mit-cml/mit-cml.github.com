@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Explore MIT App Inventor - App Inventor 2</title>
+ <link>http://explore.appinventor.mit.edu/tutorial-version/app-inventor-2</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>State Geography Quiz with Map Component</title>
+ <link>http://explore.appinventor.mit.edu/ai2/state-geography-quiz</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial uses the Map and FeatureCollection components to make a quiz about the New England states. Users click on the state when prompted with the state name or state capital. This is an example of using a GeoJSON file to add clickable polygon information to a map. &lt;/p&gt;
+&lt;p&gt;Here is the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/stateQuiz/StateQuizTutorial.pdf&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;If you&#039;d like to see the completed project in App Inventor, download the &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/stateQuiz/StateQuiz.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, go to the My Projects page, and choose Project | Import project (.aia) from my computer.&lt;/p&gt;
+&lt;h2&gt;GeoJson&lt;/h2&gt;
+&lt;p&gt;If you would like to download and view the GeoJson file used in this tutorial, click on this &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/stateQuiz/usa-new-england.json&quot;&gt;link.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Map&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 13 Jun 2018 14:49:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">975 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Firebase Authentication in App Inventor Using Javascript</title>
+ <link>http://explore.appinventor.mit.edu/ai2/firebase</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This tutorial is written by MIT Master Trainer Rich Interdonato.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;The Firebase component that is provided by App Inventor is super useful, especially when you need to update any number of apps with fresh data.  In addition to using Firebase as a datastore, you can also leverage its website authentication in your apps to take care of your user management needs.  This means, sign-up, email verification, and login.  What is more, all the user information is stored and maintained on Firebase’s servers, so the most difficult problems of user authentication are solved for you.&lt;/p&gt;
+&lt;p&gt;Firebase provides the javascript code that handles all the necessary steps to setup, and then log in, new and existing users.  Read more about the details &lt;a href=&quot;https://firebase.google.com/docs/auth/web/password-auth&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.  This javascript code can be included in a static HTML file, which you can then add to the apps you create with App Inventor, so long as you also incorporate a WebViewer component to process it for you, AND you make a few simple modifications to it so App Inventor can “look inside” the running javascript.  All of this will be explained in the sections that follow.  But first you must set up a Firebase account and set it to allow users to authenticate using an email and their password.&lt;/p&gt;
+&lt;h3&gt;Set Up Firebase to use Email/Password Authentication&lt;/h3&gt;
+&lt;p&gt;Setting up a datastore is really easy once you have a Firebase account.  Once you create one and log in, there are only 4 steps required to use Firebase authentication.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first thing you must do to use Firebase authentication is to create a project.  This can be completed at &lt;a href=&quot;https://console.firebase.google.com/&quot; target=&quot;_blank&quot;&gt;https://console.firebase.google.com/&lt;/a&gt;.  Simply click on the &lt;strong&gt;Add project&lt;/strong&gt; button and you will be presented with the &lt;strong&gt;Create a project&lt;/strong&gt; dialog.  Complete the dialog’s fields and then click on the &lt;strong&gt;CREATE PROJECT&lt;/strong&gt; button.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-start.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Second, click on the &lt;strong&gt;Add Firebase to your web app button&lt;/strong&gt; that is shown in the image below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-project.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Add Firebase to your web app&lt;/strong&gt; dialog shows you all the necessary information that you will need to use Firebase’s website security in your App Inventor apps.  This information includes:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;apiKey&lt;/li&gt;
+&lt;li&gt;databaseURL&lt;/li&gt;
+&lt;li&gt;storageBucket&lt;/li&gt;
+&lt;li&gt;messageSenderId&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;These values are presented as comma delimited, key:”value” pairs, surrounded by curly braces {}.  You will use this information as the value for the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable in the App Inventor Blocks Editor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-add-to-project.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;PLEASE NOTE: you can delete the authDomain and projectId key value pairs if you like because they are optional.  However, you must remember the surrounding curly braces and the quotes around all the keys and values, as shown below:&lt;/p&gt;
+&lt;pre&gt;
+	{
+		&quot;apiKey&quot;:&quot;YOUR_apiKey_HERE&quot;,
+		&quot;databaseURL&quot;:&quot;YOUR_databaseURL_HERE&quot;,
+		&quot;storageBucket&quot;:&quot;YOUR_storageBucket_HERE&quot;,
+		&quot;messagingSenderId&quot;:&quot;YOUR_messagingSenderId_HERE&quot;
+	}
+&lt;/pre&gt;&lt;p&gt;Note that all the key/value pairs must have quotes around them. If you copy/paste from the Firebase window, you may have to add quotes. All of this information can be compressed into a single line and it will work just fine:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/apikey.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lastly you must enable the Email/Password SIGN-IN METHOD on Firebase’s Authentication page.  This simply involves selecting the Authentication menu option (on the left) and then clicking on the pencil icon at the end of the Email/Password row as shown below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-email.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Doing so will display the Email/Password dialog as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-email-dialog.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After enabling the Email/Password Authentication, click SAVE and Firebase will then allow your website – and your App Inventor apps that use the FirebaseAuthenticator.html page (below) – to make use of the features and power of Firebase’s own security.  And that is pretty awesome!&lt;/p&gt;
+&lt;p&gt;More information about fine tuning Firebase’s authentication can be found here.&lt;/p&gt;
+&lt;h3&gt;Edit the Firebase Website Authentication HTML file &lt;span style=&quot;font-family: Courier;&quot;&gt;(FirebaseAuthenticator.html)&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;This example file is almost an exact copy of the original one that can be found &lt;a href=&quot;https://github.com/firebase/quickstart-js/blob/master/auth/email.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.  The changes that have been made are highlighted in &lt;span style=&quot;background-color: yellow;&quot;&gt;yellow&lt;/span&gt; below.  The reason the changes are necessary is that the WebViewer component understands some special, App Inventor only javascript that allows it to communicate with the javascript as it runs inside web pages.  By using Firebase’s website authentication inside a WebViewer, App Inventor apps can show users a login page as if the app were a real website, and once the user is logged in, the WebViewer can tell the app that the user has been authenticated (or not).&lt;br /&gt;&lt;span style=&quot;font-family: Courier;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;
+
+&lt;!--
+Copyright (c) 2016 Google Inc.
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+--&gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=utf-8 /&amp;gt;
+  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+  &amp;lt;title&amp;gt;Email/Password Authentication Example&amp;lt;/title&amp;gt;
+
+  &amp;lt;!-- Material Design Theming --&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://code.getmdl.io/1.1.3/material.orange-indigo.min.css&quot;&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;&amp;gt;
+  &amp;lt;script defer src=&quot;https://code.getmdl.io/1.1.3/material.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;!-- Firebase --&amp;gt;
+
+
+&amp;lt;script src=&quot;https://www.gstatic.com/firebasejs/3.7.2/firebase.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;&lt;span style=&quot;background-color: yellow;&quot;&gt;
+  // Initialize Firebase
+  
+  // Get the Firebase configuration from App Inventor via the WebViewer.WebViewString property
+  var config = JSON.parse(window.AppInventor.getWebViewString());
+  
+  firebase.initializeApp(config);
+&amp;lt;/script&amp;gt;
+
+  &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    function tellAppInventor(message) {
+        try {
+            window.AppInventor.setWebViewString( message );
+        } catch(e) {
+            console.log(&quot;App Inventor Communication Error&quot;,e)
+        }
+    }
+    &lt;/span&gt;
+    /**
+     * Handles the sign in button press.
+     */
+    function toggleSignIn() {
+      if (firebase.auth().currentUser) {
+        // [START signout]
+        firebase.auth().signOut();
+        // [END signout]
+      } else {
+        var email = document.getElementById(&#039;email&#039;).value;
+        var password = document.getElementById(&#039;password&#039;).value;
+        if (email.length &amp;lt; 4) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter an email address.&#039;);
+          return;
+        }
+        if (password.length &amp;lt; 4) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter a password.&#039;);
+          return;
+        }
+        // Sign in with email and pass.
+        // [START authwithemail]
+        firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          // [START_EXCLUDE]
+          if (errorCode === &#039;auth/wrong-password&#039;) {
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Wrong password.&#039;);
+          } else {
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+          }
+          console.log(error);
+          document.getElementById(&#039;quickstart-sign-in&#039;).disabled = false;
+          // [END_EXCLUDE]
+        });
+        // [END authwithemail]
+      }
+      document.getElementById(&#039;quickstart-sign-in&#039;).disabled = true;
+    }
+    /**
+     * Handles the sign up button press.
+     */
+    function handleSignUp() {
+      var email = document.getElementById(&#039;email&#039;).value;
+      var password = document.getElementById(&#039;password&#039;).value;
+      if (email.length &amp;lt; 4) {
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter an email address.&#039;);
+        return;
+      }
+      if (password.length &amp;lt; 4) {
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Please enter a password of 4 or more characters.&#039;);
+        return;
+      }
+      // Sign in with email and pass.
+      // [START createwithemail]
+      firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == &#039;auth/weak-password&#039;) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;The password is too weak.&#039;);
+        } else {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END createwithemail]
+    }
+    /**
+     * Sends an email verification to the user.
+     */
+    function sendEmailVerification() {
+      // [START sendemailverification]
+      firebase.auth().currentUser.sendEmailVerification().then(function() {
+        // Email Verification sent!
+        // [START_EXCLUDE]
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Email Verification Sent!&#039;);
+        // [END_EXCLUDE]
+      });
+      // [END sendemailverification]
+    }
+    function sendPasswordReset() {
+      var email = document.getElementById(&#039;email&#039;).value;
+      // [START sendpasswordemail]
+      firebase.auth().sendPasswordResetEmail(email).then(function() {
+        // Password Reset Email Sent!
+        // [START_EXCLUDE]
+        &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(&#039;Password Reset Email Sent!&#039;);
+        // [END_EXCLUDE]
+      }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == &#039;auth/invalid-email&#039;) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+        } else if (errorCode == &#039;auth/user-not-found&#039;) {
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;tellAppInventor&lt;/span&gt;(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END sendpasswordemail];
+    }
+    /**
+     * initApp handles setting up UI event listeners and registering Firebase auth listeners:
+     *  - firebase.auth().onAuthStateChanged: This listener is called when the user is signed in or
+     *    out, and that is where we update the UI.
+     */
+    function initApp() {
+      // Listening for auth state changes.
+      // [START authstatelistener]
+      firebase.auth().onAuthStateChanged(function(user) {
+        // [START_EXCLUDE silent]
+        document.getElementById(&#039;quickstart-verify-email&#039;).disabled = true;
+        // [END_EXCLUDE]
+        if (user) {
+          // User is signed in.
+          var displayName = user.displayName;
+          var email = user.email;
+          var emailVerified = user.emailVerified;
+          var photoURL = user.photoURL;
+          var isAnonymous = user.isAnonymous;
+          var uid = user.uid;
+          var providerData = user.providerData;
+
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;if (emailVerified &amp;amp;&amp;amp; !isAnonymous) {
+                tellAppInventor( uid + &#039;,&#039; + email + &#039;,&#039; + displayName + &#039;,&#039; + photoURL );
+            } else if (!emailVerified) {
+                tellAppInventor( &#039;Please click the Send Email Verification button to confirm your account.&#039; );
+            }&lt;/span&gt;
+          
+          // [START_EXCLUDE]
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in-status&#039;).textContent = &#039;Signed in&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in&#039;).textContent = &#039;Sign out&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-account-details&#039;).textContent = JSON.stringify(user, null, &#039;  &#039;);
+          if (!emailVerified) {
+            document.getElementById(&#039;quickstart-verify-email&#039;).disabled = false;
+          }
+          // [END_EXCLUDE]
+        } else {
+          // User is signed out.
+          // [START_EXCLUDE]
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in-status&#039;).textContent = &#039;Signed out&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-sign-in&#039;).textContent = &#039;Sign in&#039;;
+&lt;span style=&quot;background-color: yellow;&quot;&gt;//&lt;/span&gt;          document.getElementById(&#039;quickstart-account-details&#039;).textContent = &#039;null&#039;;
+          // [END_EXCLUDE]
+        }
+        // [START_EXCLUDE silent]
+        document.getElementById(&#039;quickstart-sign-in&#039;).disabled = false;
+        // [END_EXCLUDE]
+      });
+      // [END authstatelistener]
+      document.getElementById(&#039;quickstart-sign-in&#039;).addEventListener(&#039;click&#039;, toggleSignIn, false);
+      document.getElementById(&#039;quickstart-sign-up&#039;).addEventListener(&#039;click&#039;, handleSignUp, false);
+      document.getElementById(&#039;quickstart-verify-email&#039;).addEventListener(&#039;click&#039;, sendEmailVerification, false);
+      document.getElementById(&#039;quickstart-password-reset&#039;).addEventListener(&#039;click&#039;, sendPasswordReset, false);
+    }
+    window.onload = function() {
+      initApp();
+    };
+  &amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;div class=&quot;demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header&quot;&amp;gt;
+
+  &amp;lt;!-- Header section containing &lt;span style=&quot;background-color: yellow;&quot;&gt;title&lt;/span&gt; 
+  &amp;lt;header class=&quot;mdl-layout__header mdl-color-text--white mdl-color--light-blue-700&quot;&amp;gt;
+    &amp;lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid&quot;&amp;gt;
+      &amp;lt;div class=&quot;mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop&quot;&amp;gt;
+        &amp;lt;a href=&quot;/&quot;&amp;gt;&amp;lt;h3&amp;gt;Firebase Authentication&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/header&amp;gt;
+  &lt;span style=&quot;background-color: yellow;&quot;&gt;--&amp;gt;&lt;/span&gt;
+
+  &amp;lt;main class=&quot;mdl-layout__content mdl-color--grey-100&quot;&amp;gt;
+    &amp;lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid&quot;&amp;gt;
+
+      &amp;lt;!-- Container for the demo --&amp;gt;
+      &amp;lt;div class=&quot;mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop&quot;&amp;gt;
+        &amp;lt;div class=&quot;mdl-card__title mdl-color--light-blue-600 mdl-color-text--white&quot;&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;h2 class=&quot;mdl-card__title-text&quot;&amp;gt;Sign In or Sign Up&amp;lt;/h2&amp;gt;&lt;/span&gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&quot;mdl-card__supporting-text mdl-color-text--grey-600&quot;&amp;gt;
+          &amp;lt;p&amp;gt;Enter an email and password below and either sign in to an existing account or sign up&amp;lt;/p&amp;gt;
+
+          &amp;lt;input class=&quot;mdl-textfield__input&quot; style=&quot;display:inline;width:auto;&quot; type=&quot;text&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email&quot;/&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;input class=&quot;mdl-textfield__input&quot; style=&quot;display:inline;width:auto;&quot; type=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot;/&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;button disabled class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; id=&quot;quickstart-sign-in&quot; name=&quot;signin&quot;&amp;gt;Sign In&amp;lt;/button&amp;gt;
+             
+          &amp;lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; id=&quot;quickstart-sign-up&quot; name=&quot;signup&quot;&amp;gt;Sign Up&amp;lt;/button&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; disabled id=&quot;quickstart-verify-email&quot; name=&quot;verify-email&quot;&amp;gt;Send Email Verification&amp;lt;/button&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+          &amp;lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised&quot; id=&quot;quickstart-password-reset&quot; name=&quot;verify-email&quot;&amp;gt;Send Password Reset Email&amp;lt;/button&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;p/&amp;gt;&lt;/span&gt;
+
+          &amp;lt;!-- Container where we&#039;ll display the user details --&amp;gt;
+          &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;div class=&quot;quickstart-user-details-container&quot; style=&quot;display:none&quot;&amp;gt;
+            Sign-in&lt;/span&gt; status: &amp;lt;span id=&quot;quickstart-sign-in-status&quot;&amp;gt;Unknown&amp;lt;/span&amp;gt;
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;&amp;lt;div&amp;gt;Authorization&lt;/span&gt; &amp;lt;code&amp;gt;currentUser&amp;lt;/code&amp;gt; object value:&amp;lt;/div&amp;gt;
+            &amp;lt;pre&amp;gt;&amp;lt;code id=&quot;quickstart-account-details&quot;&amp;gt;null&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+          &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/main&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/pre&gt;&lt;h3&gt;Create an App Inventor App to Use Firebase Website Authentication&lt;/h3&gt;
+&lt;h3&gt;Designer&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-designer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Designer is really quite simple.  There are only three components on Screen1: a WebViewer, a  Notifier, and a Clock.  There is also an included asset file, &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;WebViewer&lt;/strong&gt; – loads the FirebaseAuthenticator.html file, and uses the javascript it contains to access Firebase’s website authentication system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notifier&lt;/strong&gt; – displays alert messages to the user about the status of the login process, and reports when the user is successfully logged in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clock&lt;/strong&gt; – periodically checks the status of the WebViewer’s javascript that handles logging in to Firebase. &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+You may notice that there are no Buttons or other components needed to start the login process from our App Inventor app.  This is because the web page &lt;span style=&quot;font-family: Courier;&quot;&gt;(FirebaseAuthenticator.html)&lt;/span&gt; has its own buttons to do that as part of Firebase’s ready-made login screen!&lt;/p&gt;
+&lt;p&gt;&lt;srong&gt;Blocks Overview&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-blocks-overview.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;/srong&gt;&lt;/p&gt;
+&lt;p&gt;As you can see, the blocks for this app are also quite simple.  There are only 3 variables, 2 event handlers, and 1 procedure needed to incorporate Firebase’s website authentication into an App Inventor app.  Each will be explained in individual sections below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Variable&lt;/strong&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-variable-blocks.png&quot; style=&quot;float:left; width: 80%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-firsttime.png&quot; style=&quot;clear:both; float:left; width: 40%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;The variables needed by the app are as follows:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;firebaseCredentials&lt;/strong&gt; – contains the information needed to connect to your Firebase database.  Firebase expects these credentials to be submitted as a JSON string composed of your &lt;i&gt;apiKey, authDomain, databaseURL, projectId, storageBucket&lt;/i&gt;, and &lt;i&gt;messagingSenderId&lt;/i&gt; (see comment in the image above).  All of these values can be found here on Firebase’s website, and the &lt;i&gt;authDomain&lt;/i&gt; and &lt;i&gt;projectId&lt;/i&gt; values are technically optional, but it doesn’t hurt to include them as well.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;debugMode&lt;/strong&gt; – used to set the location of the HTML file that is used by the WebViewer because App Inventor apps use different directories for development and running apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LIST_userId_email_name_photoUrl&lt;/strong&gt; – holds the user credentials obtained after a user successfully logs in via the WebViewer component.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;firstTime&lt;/strong&gt; – used to test if the Clock timer is firing for the first time, to allow for a time lag when displaying the WebViewer on app start.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;i&gt;Screen1.Initialize&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-initialize.png&quot; style=&quot;float: left; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;As soon as the app opens, the Screen1.Initialize event is triggered and the following occurs, in order:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;The Clock1.TimerInterval property is set to 5000 milliseconds.  This causes the Clock1.Timer event to fire every 5 seconds.  This value can be adjusted based on your own needs and experience with the app, but the Firebase authentication process seems to work with this setting.&lt;/li&gt;
+&lt;li&gt;Based on the value of the debugMode variable, the directory that the app looks for the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; is set so the app will work in both debug and run modes.&lt;/li&gt;
+&lt;li&gt;WebViewer1.WebViewString is set to the value of the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable, so that the WebViewer will have the necessary configuration to work with your Firebase instance.  This information includes your apiKey, databaseURL, storageBucket, and messagingSenderId.&lt;/li&gt;
+&lt;li&gt;The WebViewer is instructed to go to its home page, which means load the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html file.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;The Clock1.TimerEnabled property is set to true, which starts the Clock1.Timer event firing.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;
+&lt;i&gt;Clock1.Timer&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/firebase-timer.png&quot; style=&quot;float: left; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;The first time the Clock timer goes off, we want to call WebViewer.GoHome to run the javascript code. Due to time lag, we can’t count on Screen1.Initalize to do this, so the 5 second time lag is enough to load the code. We only want this to happen the first time, so we’ll set firstTime to false and continue.&lt;/p&gt;
+&lt;p&gt;This event is where App Inventor repeatedly checks the state of the javascript code that is running in the WebViewer component.  Each time the event is triggered, it checks to see if the WebViewer1.WebViewString is not empty and that it is different from the text in the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable.  If so, then it checks to see if the text is “Email Verification Sent!”.  If it is, then the app knows that the user is setting up an account and Firebase is waiting for the user to confirm their email address, so the app tells the WebViewer component to GoHome, where the rest of the login process can occur.&lt;/p&gt;
+&lt;p&gt;If the WebViewer1.WebViewString contains an “@” symbol, then this means that the login was successful, so the WebViewer.Visible and Clock1.TimerEnabled properties are set to false.  Also, as soon as the user is authenticated by Firebase, the WebViewer1.WebViewString property contains a comma separated value list of the user’s userId, email address, user name, and photo URL, and this text is stored in the variable &lt;strong&gt;LIST_userId_email_name_photoUrl&lt;/strong&gt;.  Since the user has been authenticated, another procedure is called: &lt;strong&gt;AuthenticatedInitialize&lt;/strong&gt;, and this is where you insert the code you want your app to run immediately after a user logs in.  In short, your app really should START with the &lt;strong&gt;AuthenticatedInitialize&lt;/strong&gt; event.&lt;/p&gt;
+&lt;p&gt;If the WebViewer1.WebViewString does not contain an “@” symbol, then this means that some other message has been sent from the javascript inside the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; file, and it should be shown to the user.  These messages are usually about incorrect passwords or user names.&lt;/p&gt;
+&lt;p&gt;Finally, if the WebViewer1.WebViewString was not empty and did not match the text in the &lt;strong&gt;firebaseCredentials&lt;/strong&gt; variable when the Clock1.Timer event was triggered, it is reset to an empty string (&quot;&quot;) so that the next time the Clock1.Timer event is triggered, it will only take action if the javascript running inside the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; file has set it to some non-empty value.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;AuthenticatedInitialize Procedure&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/authenticate-initialize.png&quot; style=&quot;float: left; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;The &lt;strong&gt;AuthenticatedInitialize&lt;/strong&gt; procedure is where the App Inventor app &lt;i&gt;really&lt;/i&gt; begins, once a user has been authenticated by Firebase. In our example, this means that the app changes the Screen1.Title property to &quot;AUTHENTICATED USER&quot; to remind you that the user’s credentials have been authenticated.  It also displays a reminder to you in a Notification dialog, so that you remember to add your own blocks.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;With 3 components, 2 events, and 1 procedure, we have been able to leverage Firebase’s website security infrastructure for an Android app created with App Inventor.  This is enormously powerful, secure, and useful.  Thank you Firebase for doing all the “heavy lifting” for us with your website authentication javascript, and thank you App Inventor for providing the WebViewer component with the ability to “look inside” any javascript that is running on an HTML page!&lt;/p&gt;
+&lt;p&gt;
+*One last pro-tip for all you App Inventors out there: make sure you set the &lt;strong&gt;debugMode&lt;/strong&gt; variable correctly.  While you are developing your app using App Inventor, it should be set to true.  When you build your apk file, it should be set to false.  If you set it incorrectly the app will display an error message about how the &lt;span style=&quot;font-family: Courier;&quot;&gt;FirebaseAuthenticator.html&lt;/span&gt; file cannot be found – and nobody likes that. :)&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;WebViewer&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 06 Oct 2017 16:54:53 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">921 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>WebView Javascript Processor for App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/ai2/webview-javascript</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;This tutorial is written by Rich Interdonato, MIT Master Trainer.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;App Inventor allows users to write powerful programs using blocks instead of “traditional” programming languages.  It also allows advanced users to include traditional Java code in their apps by means of its new Extensions feature.  What you might not know is that there is another, even older way for you to incorporate “traditional” programming into your apps.  The technique involves using the WebViewer component as a javascript processor, and this blog post will show you how it can be done using a simple example.  In it, an HTML file is sent input text from an App Inventor program, it reverses the text using javascript, and then it sends the result back to the App Inventor program as output that the app can use (show to the user in a Message Dialog).&lt;/p&gt;
+&lt;p&gt;Our example requires an HTML file that includes javascript that can reverse text.  The file is included below, and the javascript command that reverses the text is highlighted in &lt;span style=&quot;background-color: yellow;&quot;&gt;yellow&lt;/span&gt;.  The javascript in this file is like the other javascript you might find on the Web, except in one way.  It includes two special App Inventor Only functions, &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.getWebViewString()&lt;/span&gt; and &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.setWebViewString()&lt;/span&gt;.  It is these two, App Inventor Only functions that allow your apps to communicate with the javascript that runs inside the WebViewer component.  By using them creatively, you can leverage the vast number of javascript programs that are freely available on the Web, and some of them can be really useful.&lt;/p&gt;
+&lt;p&gt;For now, let’s keep things simple and create a file called &lt;span style=&quot;font-family: Courier;&quot;&gt;javascriptWebViewProcessor.html&lt;/span&gt;.  The complete text of the file follows:&lt;/p&gt;
+&lt;h3&gt;HTML file (included as media/asset: javascriptWebViewProcessor.html)&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: Courier;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;WebView Javascript Processor&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body onload=&quot;processJavascript();&quot;&amp;gt;
+&amp;lt;b&amp;gt;This page includes a javascript function that reverses text.&amp;lt;/b&amp;gt;
+&amp;lt;p&amp;gt;The javascript function incorporates a special App Inventor feature called &amp;lt;i&amp;gt;window.AppInventor.getWebViewString()&amp;lt;/i&amp;gt;, which allows App Inventor apps to communicate with the WebViewer component&#039;s internal processing of javascript.
+&amp;lt;p&amp;gt;This simple example shows how to use the &amp;lt;i&amp;gt;window.AppInventor.getWebViewString()&amp;lt;/i&amp;gt; function to pass data to and from the WebViewer component, and thereby an App Inventor app.
+
+&amp;lt;script&amp;gt;
+    var result = new Date().toString();
+    var appInventorInput = &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.getWebViewString()&lt;/span&gt;;
+        function processJavascript() {
+        if (appInventorInput.length &amp;gt; 0) {
+            document.write( &quot;WebView InputString received FROM app:&lt;br /&gt;&quot; + appInventorInput );
+            &lt;span style=&quot;background-color: yellow;&quot;&gt;result = appInventorInput.split(&quot;&quot;).reverse().join(&quot;&quot;);&lt;/span&gt;
+            document.write( &quot;&amp;lt;p/&amp;gt;WebView InputString sending BACK TO app:&amp;lt;br/&amp;gt;&quot; +
+            result );
+        } else {
+            document.write( &quot;No WebView InputString set by app at: &amp;lt;br/&amp;gt;&quot; + result );
+        }
+        &lt;span style=&quot;background-color: lightgrey;&quot;&gt;window.AppInventor.setWebViewString( result )&lt;/span&gt;;
+    }
+&amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Designer&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-designer.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once the &lt;span style=&quot;font-family: Courier;&quot;&gt; javascriptWebViewProcessor.html&lt;/span&gt; has been created, make a new App Inventor app called SimpleWebviewerJavascriptProcessor, and upload the HTML file as an app media asset.  Add a HorizontalArrangement with a:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;i&gt;TextBox&lt;/i&gt; named &lt;i&gt;StringToBeProcessedByJavascriptFile&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Button&lt;/i&gt; named &lt;i&gt;btnProcess&lt;/i&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Also, using the default names and properties for each, add a:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;WebViewer component&lt;/li&gt;
+&lt;li&gt;Notifier component&lt;/li&gt;
+&lt;li&gt;Clock component&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;
+Blocks Overview&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-blocks-overview.png&quot; style=&quot;display:block; margin:auto; width: 100%;&quot; /&gt;&lt;br /&gt;
+As you can see, the blocks for this app are quite simple.  There are 4 variables and 3 event handlers.  Each will be explained in individual sections.&lt;/p&gt;
+&lt;h4&gt;Variables&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-variables.png&quot; style=&quot;display:block; margin:auto; width: 80%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;processingIntervalMillis:&lt;/strong&gt; sets the frequency of calls to the WebViewer component from the App Inventor app&lt;br /&gt;&lt;strong&gt;debugMode:&lt;/strong&gt; used to specify the location of the HTML file that is used by the WebViewer because App Inventor apps use different directories for development and running apps&lt;br /&gt;&lt;strong&gt;currentProcessingDurationMillis:&lt;/strong&gt; tracks the amount of time (in milliseconds) that the WebViewer has been working as it processes the javascript in the HTML file&lt;br /&gt;&lt;strong&gt;maximumProcessingDurationMillis:&lt;/strong&gt; controls the number of milliseconds that the app will wait for a reply from the WebViewer component before determining that it is unresponsive&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Screen1.Initialize&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-initialize.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This block sets the &lt;i&gt;WebViewer1.HomeUrl&lt;/i&gt; property to either &lt;span style=&quot;font-family: Courier;&quot;&gt;file:///mnt/sdcard/AppInventor/assets/javascriptWebViewProcessor.html&lt;/span&gt; (when &lt;strong&gt;debugMode&lt;/strong&gt; is TRUE), or &lt;span style=&quot;font-family: Courier;&quot;&gt;file:///android_asset/javascriptWebViewProcessor.html&lt;/span&gt; (when &lt;strong&gt;debugMode&lt;/strong&gt; is FALSE).  It then sets the &lt;i&gt;Clock1.TimerInterval&lt;/i&gt; property to the value of &lt;strong&gt;processingIntervalMillis&lt;/strong&gt; (50ms), and disables the &lt;i&gt;Clock1&lt;/i&gt; component so it does not start triggering events as soon as the app starts.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;btnProcess.Click&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-btnprocess.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;span style=&quot;font-family: Courier;&quot;&gt;javascriptWebViewProcessor.html&lt;/span&gt; file processing begins once the user activates the app.  This activation is captured by the &lt;i&gt;btnProcess.Click&lt;/i&gt; event handler block, which sets the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; component to the value of the &lt;i&gt;StringToBeProceesedByJavascriptFile.Text&lt;/i&gt;.  Then the &lt;i&gt;WebViewer1.GoHome&lt;/i&gt; procedure is called, which causes the WebViewer to load the &lt;span style=&quot;font-family: Courier;&quot;&gt;javascriptWebViewProcessor.html&lt;/span&gt; page, thereby starting the javascript processing.  Once the javascript processing has begun, the app needs to monitor progress, and so the &lt;i&gt;Clock1.TimerEnabled&lt;/i&gt; property is set to TRUE.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Clock1.Timer&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/webviewer-timer.png&quot; style=&quot;display:block; margin:auto; width: 50%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As soon as the &lt;i&gt;Clock1.TimerEnabled property&lt;/i&gt; is set to TRUE, the &lt;i&gt;Clock1.Timer&lt;/i&gt; event begins to fire at an interval set by the &lt;strong&gt;processingIntervalMillis&lt;/strong&gt; value in the &lt;i&gt;Screen1.Initialize&lt;/i&gt; event.  Each time the &lt;i&gt;Clock1.Timer&lt;/i&gt; event is triggered, the app &lt;u&gt;first&lt;/u&gt; checks to see if the value of the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; is the same as the &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt;.  If they are the same, this means that the WebViewer component is still processing the javascript, and it increments the &lt;strong&gt;currentProcessingDurationMillis&lt;/strong&gt; by the &lt;strong&gt;processingIntervalMillis&lt;/strong&gt; and then checks to see if the new &lt;strong&gt;currentProcessingDurationMillis&lt;/strong&gt; value is greater than or equal to the &lt;strong&gt;maximumProcessingDurationMillis&lt;/strong&gt; value.  If it is, the app changes to value of the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; property (by concatenating adds the text “ TIMEOUT” to the current value of &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt; to make it different from the value of the  &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt;, and thereby ensure that the next time the &lt;i&gt;Clock1.Timer&lt;/i&gt; event is triggered, the &lt;span style=&quot;text-decoration: underline;&quot;&gt;first&lt;/span&gt; check will fail.&lt;/p&gt;
+&lt;p&gt;As soon as the &lt;span style=&quot;text-decoration: underline;&quot;&gt;first&lt;/span&gt; check fails (i.e. &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; differs from &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt;), the app will reset the &lt;i&gt;StringToBeProcessedByJavascriptFile.Text&lt;/i&gt; to an empty string (“”), set &lt;i&gt;Clock1.TimerEnabled&lt;/i&gt; to FALSE, and then display a message to the user in a Message Dialog that includes the result of the javascript processing, as well as how long it took to do it.  The output of the processing is available to the app in the &lt;i&gt;WebViewer1.WebViewString&lt;/i&gt; property, which is set inside the javascript processing file.  As a final “cleanup” action, the &lt;strong&gt;currentProcessingDurationMillis&lt;/strong&gt; is reset to 0, so the next time the user clicks on &lt;i&gt;btnProcess&lt;/i&gt;, the app will properly calculate the processing duration.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;In this article, we have explored how the WebViewer component can be used to process javascript in your App Inventor apps.  Our example was simple, but it demonstrated the fact that App Inventor can communicate with running javascript, and this provides you with a foundation for more advanced and useful javascript processing.  There is a LOT of javascript code available on the web, and some of it can be used immediately by you to implement advanced features in your apps.  In my next blog post, I will explore an advanced application of WebView javascript processing that you can use right away to freely make your apps much more secure.  Until then, keep inventing!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;WebViewer&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 05 Oct 2017 19:56:34 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">919 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Hello Codi!</title>
+ <link>http://explore.appinventor.mit.edu/ai2/hello-codi</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;padding: 10px;&quot;&gt;
+&lt;h2 class=&quot;ai-header&quot;&gt;Building your first app: HelloCodi&lt;/h2&gt;
+&lt;p&gt;Now that you&#039;ve set up your computer and device, and you&#039;ve learned how the Designer and the Blocks Editor work, you are ready to build the HelloCodi app. At this point, you should have the Designer or Blocks Editor open in your browser, and either an Android device or an Android emulator connected to the Blocks Editor. (See &lt;a href=&quot;/ai2/setup&quot;&gt;Setup Instructions for App Inventor 2&lt;/a&gt; if you do not have these things running.)  Choose “Start a New Project” from the Projects menu and name it HelloCodi.&lt;/p&gt;
+&lt;h3&gt;HelloCodi: tap the bee, hear the bee buzz!&lt;/h3&gt;
+&lt;p&gt;HelloCodi is a simple app that you can build in a very short time. You create a button that has a picture of Codi the bee on it, and then program the button so that when it is clicked the phone will make a buzzing sound.&lt;/p&gt;
+&lt;p&gt;To build HelloCodi, you&#039;ll need an image file of Codi the bee. Download these files to your computer by clicking the following links. To download: after clicking a link, right click on the image and select &quot;Save As.&quot; Save the file onto your desktop or downloads folder, or anywhere that you can easily find it later.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Codi picture: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/codi.jpg&quot;&gt; codi.jpg&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
+&lt;li&gt;Bee sound: &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/Bee-Sound.mp3&quot;&gt; Bee-Sound.mp3&lt;/a&gt; (Right-click and Save)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Select components to design your app&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/button.png&quot; style=&quot;float:left; width: 15%; border: grey solid 1px; margin-right: 10px; margin-bottom: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;width: 50%;&quot;&gt;The App Inventor &lt;b&gt;Components&lt;/b&gt; are located on the left hand side of the &lt;em&gt;Designer Window&lt;/em&gt; under the title &lt;b&gt;Palette&lt;/b&gt;. Components are the basic elements you use to make apps on the Android phone. They&#039;re like the ingredients in a recipe. Some components are very simple, like a &lt;b&gt;Label&lt;/b&gt; component, which just shows text on the screen, or a &lt;b&gt;Button&lt;/b&gt; component (#1 left) that you tap to initiate an action. &lt;/p&gt;
+&lt;p style=&quot;width: 50%;&quot;&gt;Other components are more elaborate: a drawing &lt;b&gt;Canvas&lt;/b&gt; that can hold still images or animations, an &lt;b&gt;Accelerometer&lt;/b&gt; sensor that works like a Wii controller and detects when you move or shake the phone, components that send text messages, components that play music and video, components that get information from Web sites, and so on.&lt;/p&gt;
+&lt;p style=&quot;clear:both;&quot;&gt;To use a component in your app, you need to click and drag it onto the viewer in the middle of the &lt;b&gt;Designer&lt;/b&gt;. When you add a component to the &lt;b&gt;Viewer&lt;/b&gt; (#1 below), it will also appear in the components list on the right hand side of the Viewer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt; (#2 below) have adjustable properties. These properties change the way the component appears or behaves within the app. To view and change the &lt;strong&gt;Properties&lt;/strong&gt; of a component (#3 below), you must first select the desired component in your list of components.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/viewer.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Steps for selecting components and setting properties&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;color:green;&quot;&gt;HelloCodi&lt;/span&gt; will have a &lt;b&gt;Button&lt;/b&gt; component that displays the image of the bee you downloaded earlier. To accomplish this:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 1a&lt;/b&gt;. From the &lt;b&gt;User Interface&lt;/b&gt; palette, drag and drop the &lt;b&gt;Button&lt;/b&gt; component to Screen1 (#1). &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 1b&lt;/b&gt;.To give the button the image of the bee, in the &lt;b&gt;Properties&lt;/b&gt; pane, under Image, click on the text &lt;em&gt;&quot;None...&quot;&lt;/em&gt; and click &lt;em&gt;&quot;Upload File...&quot;&lt;/em&gt; (#2). A window will pop up to let you choose the image file. Click &quot;Browse&quot; and then navigate to the location of the &lt;em&gt;codi.jpg&lt;/em&gt; file you downloaded earlier (#3). Click the &lt;em&gt;codi.jpg&lt;/em&gt; file, click &quot;Open&quot;, and then click &quot;OK&quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/upload.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:70%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;&lt;p style=&quot;width: 70%;&quot;&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/text-properties.png&quot; style=&quot;float:right; width: 25%; border: grey solid 1px; margin-left: 10px; margin-bottom: 10px;&quot; /&gt;&lt;b&gt;Step 2&lt;/b&gt;. Change the Button&#039;s &lt;b&gt;Text&lt;/b&gt; property:&lt;br /&gt;Delete &quot;Text for Button1&quot;, leaving the Button&#039;s text property blank so that there is no writing over the bee image.&lt;/p&gt;
+&lt;hr style=&quot;clear:both;&quot; /&gt;&lt;p&gt;&lt;b&gt;Step 3&lt;/b&gt;. From the &lt;b&gt;User Interface&lt;/b&gt; palette, drag and drop the &lt;b&gt;Label&lt;/b&gt; component to the Viewer (#1), placing it below the picture of the bee. It will appear under your list of components as &lt;strong&gt;Label1&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Under the &lt;b&gt;Properties&lt;/b&gt; pane, change the &lt;/p&gt;
+&lt;ul style=&quot;list-style: none;&quot;&gt;&lt;li&gt;&lt;b&gt;(2) Text&lt;/b&gt; property of Label1 to read &quot;Touch the Bee&quot;. You&#039;ll see the text change in the Designer and on your device.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;(3) FontSize&lt;/b&gt; to 30.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;(4) BackgroundColor&lt;/b&gt; of Label1 by clicking on the box. You can change it to any color you like.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;(5) TextColor&lt;/b&gt; to any color you like. (Note: if BackgroundColor and TextColor are the same, you will not be able to read your text!)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; Here, the background color is set to aqua and the text color is set blue. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/label.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:70%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;&lt;p&gt;&lt;b&gt;Step 4&lt;/b&gt;. Under Palette, click on the &lt;b&gt;Media&lt;/b&gt; drawer and drag out a &lt;b&gt;Sound&lt;/b&gt; component and place it in the Viewer (#1). Wherever you drop it, it will appear in the area at the bottom of the Viewer marked &lt;b&gt;Non-visible components&lt;/b&gt;. Under the Media pane, Click Upload File... (#2) Browse to the location of the &lt;em&gt;Bee-Sound.mp3&lt;/em&gt; file that you downloaded earlier and upload it to this project (#3). Under the Properties pane, see that the Source property currently says None.... Click the word None... to change the Sound1 component&#039;s Source to &lt;em&gt;Bee-Sound.mp3&lt;/em&gt; (#4).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/sound.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:70%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Programming with the Blocks Editor&lt;/h3&gt;
+&lt;p&gt;So far you have been arranging your app&#039;s screen and components in the &lt;em&gt;Designer&lt;/em&gt;, which is in a web browser window. To start programming the behavior of the app, you need to go to the &lt;em&gt;Blocks Editor&lt;/em&gt;. Click the Blocks button in the upper right of your screen to go to the Blocks Editor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/blocks.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:90%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once you have the Blocks Editor in front of you, continue to the next step to start programming your app with blocks.&lt;/p&gt;
+&lt;h3&gt;Playing the Sound&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Step 1&lt;/b&gt;. On the left side of the Blocks Editor, click the &lt;b&gt;Button1&lt;/b&gt; drawer to open it. Drag and drop the &lt;span class=&quot;blocks&quot;&gt;Button1.Click&lt;/span&gt; block in the work area (the open area on the right). &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/buttonblocks.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Those mustard yellow blocks are called &lt;b&gt;event handler&lt;/b&gt; blocks. The event handler blocks specifiy how the phone should respond to certain events: a button has been pressed, the phone is being shaken, the user is dragging her finger over a canvas, etc. &lt;span class=&quot;eventblock&quot;&gt;when Button1.Click&lt;/span&gt; is an event handler.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Step 2a&lt;/b&gt;. Click the &lt;b&gt;Sound1&lt;/b&gt; drawer and drag the &lt;span class=&quot;blocks&quot;&gt;Sound1.Play&lt;/span&gt; block and connect it to the &quot;do&quot; section of the &lt;span class=&quot;blocks&quot;&gt;when Button1.Click&lt;/span&gt; block. The blocks connect together like puzzle pieces and you can hear a clicking sound when they connect.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/soundblocks.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The purple blocks are called &lt;b&gt;command&lt;/b&gt; blocks, which are placed in the body of event handlers.  When an event handler is executed, it runs the sequence of commands in its body.  A command is a block that specifies an action to be performed (e.g., playing sound) when the event (e.g., pressing Button1) is triggered.&lt;/p&gt;
+&lt;p&gt;Your blocks should look like this at this point:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/button1click.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now you can see that the &lt;b&gt;command block&lt;/b&gt; is in the &lt;b&gt;event handler&lt;/b&gt;. This set of blocks means; &quot;when Button1 is clicked, Sound1 will play.&quot;  The event handler is like a category of action (e.g., a button is being clicked), and the command specifies the type of action and the details of the action (e.g., playing a sound).&lt;/p&gt;
+&lt;p&gt;You can read more about the blocks and how they work here: &lt;a href=&quot;/ai2/support/blocks&quot;&gt;Understanding Blocks in App Inventor 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Try It! When you click the button you should hear Codi buzz. Congratulations, your first app is running! &lt;/p&gt;
+&lt;pre class=&quot;box&quot;&gt;Note: there is a known issue with the Sound component on some devices. If you see an &quot;OS Error&quot; and the sound does not play - or is very delayed in playing, go back into the Designer and try using a Player component (found under Media) instead of the Sound component.&lt;/pre&gt;&lt;h3&gt;Packaging your app&lt;/h3&gt;
+&lt;p&gt;While your device (emulator or phone/tablet) has been connected to App Inventor, your app has been running in real time on your device. If you disconnect the emulator/phone/tablet from the Blocks Editor, the app will vanish. You can always make it return by reconnecting the device. To have an app running without being connected to App Inventor, you must &quot;&lt;b&gt;package&lt;/b&gt;&quot; the app to produce an application package (apk file).&lt;/p&gt;
+&lt;p&gt;To &quot;package&quot; the app to your phone or to send to someone else, click the &lt;strong&gt;Build&lt;/strong&gt; tab at the top of the screen. Under Build, here are two options available for you to choose from:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/package.png&quot; style=&quot;border: grey solid 1px; margin:auto; width:50%; display: block;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;1. &lt;b&gt;App (provide QR code):&lt;/b&gt; You can generate a Barcode (a QR Code), which you can use to install the app on a phone or tablet that has a camera, with the aid of a barcode scanner, like the ZXing barcode scanner (freely available in Google Play). &lt;/p&gt;
+&lt;p style=&quot;color:red;&quot;&gt;Note: this barcode works only for your own device because it is associated with your Google account. If you want to share your app with others via barcode, you&#039;ll need to download the .apk file to your computer and use a third-party software to convert the file into a barcode. More information can be found &lt;a href=&quot;/ai2/share&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;2. &lt;b&gt;App (save to my computer):&lt;/b&gt; You can download the app to your computer as an apk file, which you can distribute and share as you like by manually installing it on other devices. (sometimes called &lt;a href=&quot;http://www.techrepublic.com/blog/smartphones/how-to-side-load-apps-on-your-android-device/3114&quot; target=&quot;blank&quot;&gt;&quot;side loading&quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Review&lt;/h4&gt;
+&lt;p&gt;Here are the key ideas covered so far:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You build apps by selecting components (ingredients) and then telling them what to do and when to do it.&lt;/li&gt;
+&lt;li&gt;You use the &lt;strong&gt;Designer&lt;/strong&gt; to select components and set each component&#039;s properties. Some components are visible and some aren&#039;t.&lt;/li&gt;
+&lt;li&gt;You can add media (sounds and images) to apps by uploading them from your computer.&lt;/li&gt;
+&lt;li&gt;You use the &lt;strong&gt;Blocks Editor&lt;/strong&gt; to assemble blocks that define the components&#039; behavior&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;eventblock&quot;&gt;when ... do ...&lt;/span&gt; blocks define &lt;em&gt;event handlers&lt;/em&gt;, that tell components what to do &lt;em&gt;when&lt;/em&gt; something happens.&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;blocks&quot;&gt;call ...&lt;/span&gt; blocks tell components to do things.&lt;/li&gt;
+&lt;/ul&gt;&lt;h4 class=&quot;ai-header&quot;&gt;Scan the Sample App to your Phone&lt;/h4&gt;
+&lt;p&gt;Scan the following barcode onto your phone to install and run the sample app.
+&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/helloCodi/HelloCodiBarcode.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/helloCodi/HelloCodi.apk&quot;&gt;download the apk&lt;/a&gt;&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Download Source Code&lt;/h4&gt;
+&lt;p&gt;If you&#039;d like to work with this sample in App Inventor, download the &lt;a href=&quot;/sites/all/files/ai2tutorials/helloCodi/HelloCodi.aia&quot;&gt;source code&lt;/a&gt; to your computer, then open App Inventor, click &lt;b&gt;Projects&lt;/b&gt;, choose &lt;b&gt;Import project (.aia) from my computer...&lt;/b&gt;, and select the source code you just downloaded.&lt;/p&gt;
+&lt;h4 class=&quot;ai-header&quot;&gt;Next steps&lt;/h4&gt;
+&lt;p&gt;Now that you know the basics of how App Inventor works we recommend you:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Complete additional &lt;a href=&quot;/ai2/tutorials&quot;&gt;Tutorials&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Review the &lt;a href=&quot;/library&quot;&gt;User Guide for App Inventor 2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Join the &lt;a href=&quot;/forums&quot;&gt;User Discussion Forum&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Read the guide to &lt;a href=&quot;/ai2/support/blocks&quot;&gt;Understanding Blocks&lt;/a&gt;&lt;a&gt;.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or, if you&#039;ve been using the emulator and want to start using your phone, you can &lt;a href=&quot;/ai2/setup&quot;&gt;set up your Android device&lt;/a&gt; to build apps.&lt;/li&gt;
+&lt;/ul&gt;&lt;pre class=&quot;ai-box&quot;&gt;Something not working right? Visit the &lt;a href=&quot;/ai2/support/troubleshooting&quot;&gt;troubleshooting page&lt;/a&gt;, or check the &lt;a href=&quot;/forums&quot;&gt;App Inventor User Forum&lt;/a&gt; for help.&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Basic&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 12 Sep 2017 18:45:51 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">909 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>LEGO EV3 Color Search</title>
+ <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-color-search</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial shows you how to build a mobile app that instructs an EV3 LEGO robot to search for a certain color on a white surface bordered by black. The user can pick one color out of red, green, blue, or yellow for the robot to search. The robot will search across the white surface and turn around if it gets to the black border. Here is a &lt;a href=&quot;https://www.youtube.com/watch?v=OlD2ruKAvHg&amp;amp;feature=youtu.be&quot; target=&quot;_blank&quot;&gt;demonstration video&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Gn8IDujPLFSffcYfSBBexP2NXBEXDMI2vZpH7u2Qjpc/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;LEGO® EV3&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 07 Mar 2017 01:04:15 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">870 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Lego EV3 Pet Robot</title>
+ <link>http://explore.appinventor.mit.edu/ai2/lego-ev3-pet-robot</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial helps you to build an app that allows the user to instruct an EV3 LEGO robot to do certain maneuvers and actions through voice commands. The user can pick one of several commands: forward, backward (reverse), stop, forward slow, forward fast, disconnect, circles, right turn (turn right), left turn (turn left). The robot will follow the user’s voice commands and perform the action for half a second before prompting the user for another command. If the user provides no commands, the previous command will be executed until another command is registered.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Bp_iB2H71oXZDYE2DWcYdTIKalbkupVW4ZKBzFKHcKY/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;LEGO® EV3&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 07 Mar 2017 00:59:58 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">869 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>LEGO ®  EV3 Tilt-to-Drive Tutorial</title>
+ <link>http://explore.appinventor.mit.edu/ai2/lego-%C2%AE-ev3-tilt-drive</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial lets you make an app that drives around an EV3 LEGO robot by tilting a phone or tablet. Tilting forward makes the bot go forward, back --&amp;gt; back, right --&amp;gt; right, left --&amp;gt;left. A steeper pitch will make the robot drive faster… etc.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://docs.google.com/document/d/1KZF1785Kan2ZKHY90114lIXzhn-5SOX3g21h03fHRnA/edit?usp=sharing&quot;&gt;Go to tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;LEGO® EV3&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 17 Jun 2016 15:13:19 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">759 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Photo Booth App</title>
+ <link>http://explore.appinventor.mit.edu/ai2/photo-booth-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial demonstrates how to develop a Photo Booth app. You’ll build an app that let’s you take pictures, assign pictures to canvases and share pictures via email. &lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://docs.google.com/document/d/1trt9smFfyiztdVoaq5ONaOM8GWOMoSFxTRJ7Eyyajuw/pub&quot;&gt;Go to Photo Booth app&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Camera&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 01 May 2015 02:28:06 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">584 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Oh My Spikes</title>
+ <link>http://explore.appinventor.mit.edu/ai2/oh-my-spikes</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This tutorial by Saj Dutta shows how to create a complete game from scratch.  The game is variant of the popular spikes games and uses App Inventor sprites.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.imagnity.com/android/oh-my-spikes-create-a-game-from-scratch-using-app-inventor/&quot;&gt;Go to tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Advanced&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Game&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 06 Sep 2014 16:38:08 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">556 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Sharing Component: send files and text with the app of your choice</title>
+ <link>http://explore.appinventor.mit.edu/ai2/file-sharing</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;In this &lt;strong&gt;3-minute video&lt;/strong&gt;, App Inventor Developer José Dominguez shows you how to use the File Sharing component to share text and/or files from your App Inventor app to any capable service on your device (e.g. Gmail, Twitter, G+, WhatsApp, Messaging, etc.).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/embed/fCdxtYj09Zw&quot; rel=&quot;lightframe[|width:760px; height:480px;]&quot;&gt;&lt;br /&gt;&lt;img src=&quot;/sites/all/files/ai2tutorials/file_sharing_screenshot.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Version:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tutorial-version/app-inventor-2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;App Inventor 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Difficulty:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;Intermediate&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section class=&quot;field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Tutorial Type:&amp;nbsp;&lt;/h2&gt;&lt;ul class=&quot;field-items&quot;&gt;&lt;li class=&quot;field-item even&quot;&gt;File Sharing&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 22 Apr 2014 16:02:53 +0000</pubDate>
+ <dc:creator>shay</dc:creator>
+ <guid isPermaLink="false">505 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>

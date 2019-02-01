@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>carole&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/carole</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>MIT App Inventor Well Represented @ ISTE 2014</title>
+ <link>http://explore.appinventor.mit.edu/blogs/carole/2014/07/mit</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;line-height: 1.538em;&quot;&gt;Last week, Los Angles Unified School District teacher Steve Zanotti and Wellesley University Professor Lyn Turback conducted a hands-on workshop at International Society for Technology in Education (ISTE) Conference in Atlanta.   The group of approximately forty secondary teachers heard from Steve how he has been using MIT App Inventor in LAUSD highlighting a portfolio of student work. The App Inventor team introduced participants to a &lt;/span&gt;&lt;a href=&quot;http://appinventor.mit.edu/explore/ai2/tutorials.html&quot; style=&quot;line-height: 1.538em;&quot;&gt;few of the tutorials and teaching tools&lt;/a&gt;&lt;span style=&quot;line-height: 1.538em;&quot;&gt;  Then the group got busy playing, exploring and inventing.  We look forward to hearing from them about how they brought MIT App Inventor back to their schools and districts. &lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p1&quot;&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-20912&quot; class=&quot;file file-image file-image-png&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/20912&quot;&gt;Screen Shot 2014-07-02 at 11.47.17 AM.png&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/Screen%20Shot%202014-07-02%20at%2011.47.17%20AM.png&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;News&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 02 Jul 2014 15:50:52 +0000</pubDate>
+ <dc:creator>carole</dc:creator>
+ <guid isPermaLink="false">530 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>

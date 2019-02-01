@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>hal&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Change to Google’s policy for the Play Store may require changes to App Inventor apps</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2019/01/change</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Google recently released a new Play Store policy that will affect some App Inventor apps.&lt;br /&gt;
+All apps that use the Texting or PhoneCall component AND are published in the Play Store must be rebuilt.  The MIT App Inventor team is making a change to PhoneCall and Texting to help our users deal with this Google policy.&lt;/p&gt;
+&lt;p&gt;How will this affect my App Inventor apps and what do I need to do?&lt;/p&gt;
+&lt;p&gt;With Google’s change, if you create an App Inventor app that uses Phone or Texting components, you will not be able to submit it to Google Play.&lt;/p&gt;
+&lt;p&gt;The MIT App Inventor team is changing the Texting and PhoneCall components so that newly built apps will satisfy Google’s restrictions and can be submitted to Play just as before.  We’re currently testing the  changes, and we’ll release them in App Inventor as soon as February 2019. &lt;/p&gt;
+&lt;p&gt;Google is also planning to remove from Play apps that violate their policy.   If that happens to you, you’ll need to wait for the change to App Inventor, and then rebuild your app and resubmit it to Play, &lt;/p&gt;
+&lt;p&gt;What is the Google Play Store policy change?&lt;/p&gt;
+&lt;p&gt;Google’s change is that they will no longer permit apps in the Play Store that directly send Text messages (SMS) or make phone calls.  Instead you must invoke the device&#039;s built in Text Messaging (or phone call) application.  For example, an app that periodically sends texts without notifying the phone’s user will no longer be accepted to the Play Store, and Google might also remove such apps that are currently in the Play Store.   Google has also created a process where developers can fill out a form asking that their app be allowed as an exception to the policy.   Look here for the information Google has provided:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://support.google.com/googleplay/android-developer/answer/9047303&quot;&gt;https://support.google.com/googleplay/android-developer/answer/9047303&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Will my apps behave differently after App Inventor changes?&lt;/p&gt;
+&lt;p&gt;Yes, there will be a change.  When you use Texting.SendMessage, the phone will now route the message to the phone’s normal text message sending application.   Similarly for Phone.MakePhoneCall.&lt;/p&gt;
+&lt;p&gt;Can I still use App Inventor to  build apps that violate Google’s policy for Play?&lt;/p&gt;
+&lt;p&gt;Yes.&lt;/p&gt;
+&lt;p&gt;MIT’s change to App Inventor will include alternate versions of Texting.SendMessage and Phone.MakePhoneCall that do directly send texts and make phone calls.   You can build apps with these alternate versions and share them with your friends and family.  But you would need to ask Google for a policy exception in order to publish those apps in the Play Store.&lt;/p&gt;
+&lt;p&gt;We’ll post again when we release these features into the main MIT App Inventor.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Jan 2019 20:59:29 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">1006 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>MIT App Inventor Team nominated for Distinguished Leadership Award</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2017/08/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span id=&quot;docs-internal-guid-cec2f9ee-cebb-09c0-ce9d-9c7ba0929e61&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;August 10, 2017&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); font-family: Arial; font-size: 11pt; white-space: pre-wrap;&quot;&gt;We on the MIT App Inventor team are thrilled to announce that our team has been nominated to receive a 2017 Distinguished Leadership Award from the Mass Technology Leadership Council. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;MassTLC is the largest and most powerful technology association in the region, with the mission of &lt;/span&gt;&lt;span style=&quot;font-size: 11.5pt; font-family: Arial; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;accelerating growth and innovation in the Massachusetts technology industry.  Their awards celebrate&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt; region’s most notable technology leaders, companies and technologies.  We’re gratified and humbled to considered among their rank.   Even more so because the nomination calls out our &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;work in helping to make tech more accessible and empowering people around the globe.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The 20th Annual Mass Technology Leadership Awards Gala will take place on the evening of Thursday, September 14&lt;/span&gt;&lt;span style=&quot;font-size: 6pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: super; white-space: pre-wrap;&quot;&gt;th&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;, at the Seaport World Trade Center in Boston.   We’re looking forward to attending in ourselves, while constantly mindful that the real honorees are the members of the App Inventor community, who are actualizing our technology to improve lives through your creativity and your vision.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial; font-size: 10pt; white-space: pre-wrap;&quot;&gt;Hal Abelson&lt;/span&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;span id=&quot;docs-internal-guid-cec2f9ee-cebb-09c0-ce9d-9c7ba0929e61&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Director, MIT App Inventor&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 11 Aug 2017 00:41:14 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">904 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Experiments with Virtual Reality and MIT App Inventor</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interest in virtual reality (VR) and augmented reality (AR) applications  is exploding.  Last month&#039;s Pokemon Go craze barely hints at what&#039;s coming.   Should we look forward to App Inventor creating  apps with  VR and AR?&lt;br /&gt;&lt;br /&gt;
+I want to give a shout- out to Kseniia Shumelchyk , who worked with MIT App Inventor this summer in Google&#039;s Summer of Code program,  creating App Inventor apps for Google&#039;s Cardboard viewer.  You can see her paper about this here:&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://ai2.appinventor.mit.edu/reference/other/vr.html&quot;&gt;Experiments with Virtual Reality and MIT App Inventor&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+Kseniia&#039;s paper presents two demo apps -- one that shows a panorama view and one that shows a 3D object.   You can run these demos, or build them for yourself and modify them.   Kseniia&#039;s project uses an auxiliary Java app that provides interface for the App Inventor ActiviyStarter to call the Google VR libraries.&lt;br /&gt;&lt;br /&gt;
+This work is only just starting:  There&#039;s a lot to do to integrate mode VR and AR capabilities into App Inventor, and even more to do in creating great App Inventor apps that use these capabilities.&lt;br /&gt;&lt;br /&gt;
+Thanks, Kseniia, for showing us how to get started!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 30 Aug 2016 01:42:06 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">793 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/welcome</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Welcome Mike Tissenbaum and Evan Patton to the MIT App Inventor team&lt;/p&gt;
+&lt;p&gt;Those of us at MIT this summer already know Mike and Evan, but I&#039;d like to announce to the entire App Inventor community our delight at welcoming two our new members to the core MIT App Inventor team.&lt;/p&gt;
+&lt;p&gt;Mike Tissenbaum comes to App Inventor upon completing a postdoc in Madison at the School of Education, University Wisconsin, a position he took up after earning a Ph.D. at University of Toronto&#039;s Ontario Institute for Studies in Education.   Mike&#039;s work on design principles to support collaborative inquiry in smart classrooms was nominated as the best student paper at the 2014 International Conference for the Learning Sciences (ICLS). He&#039;s interested in formal and informal learning environments to support computational literacies, and in gaining insight into these through data mining and learning analytics.  Mike has developed and run several multi-week after-school Scratch programming Camps for kids 8-16, and he&#039;s looking forward to advancing research into blocks-based programming environments and how they support learners in developing socially relevant questions about the world.   At MIT, Mike is assuming the position of research scientist in App Inventor&#039;s project for the Hong Kong primary schools on computational thinking and coding education.&lt;/p&gt;
+&lt;p&gt;Our second new team member, Evan Patton, recently completed his doctorate at RPI.  Evan is new to the MIT team, but hardly new to App Inventor -- he&#039;s been a prime contributor to the Punya platform (an extension of App Inventor) and he developed the unit testing framework for Punya and App Inventor.   Beyond App Inventor, he’s been a consultant to startups in developing both Android and iOS applications.  He also administered and developed hardware to support Web applications with large user bases in the scientific community.  At MIT, Evan has now become a senior member of the App Inventor development team, and he has with special responsibility for our infrastructure with the Hong Kong project.&lt;/p&gt;
+&lt;p&gt;Mike and Evan bring enormous expertise and greatly increase capacity to the MIT team.&lt;/p&gt;
+&lt;p&gt;Welcome!
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 08 Aug 2016 23:39:27 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">787 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>App Inventor’s debt to Seymour Papert</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/08/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;To the App Inventor Community:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+I join in grief with my colleagues in computing and education at passing of Seymour Papert on July 31, 2016.   Papert was the world’s preeminent visionary in educational technology:  you can read testaments to his greatness in the obituaries in the New York Times and the MIT News.   Few people in the App Inventor community would have met him, and only some know his monumental book Mindstorms: Children, Computers, and Powerful Ideas.   But his genius has touched those of us who built App Inventor and everyone who uses it.
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1TpT96F8NG7-PBxd3KGjcnwsZ_fUlqdFBN42dZZpoqHU&quot;&gt;More ...&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 07 Aug 2016 14:39:32 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">783 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>MIT App Inventor and Youth Radio to launch the Youth News Network STEM desk</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/07/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+I’m exhilarated to announce that MIT App Inventor and Youth Radio (&lt;a href=&quot;https://youthradio.org/&quot;&gt;https://youthradio.org/&lt;/a&gt;)  are beginning a 3-year initiative to launch the STEM Desk for Youth News Network (YNN).  YNN will be a new nationwide model for STEM education based on youth-­driven, multimedia journalism and related app development with App Inventor.   This work is funded by the National Science Foundation’s Advanced Informal STEP Learning program.
+&lt;/p&gt;
+&lt;p&gt;
+Youth Radio trains young people in digital media and technology and launches them on career and education pathways.  Headquartered in Oakland, CA, it serves as National Public Radio’s Youth Desk and reports stories by and about young people across the U.S., bringing youth perspectives to issues of public concern.
+&lt;/p&gt;
+&lt;p&gt;
+YNN aims to overturn conventional beliefs about teens and their phones­­: that these devices are sources of distraction, addiction, abuse, and other forms of trouble.&lt;br /&gt;
+The centerpiece of YNN will be Youth Mobile Power, a series of stories about      young people using mobile technologies with creativity and purpose to empower themselves and their communities: activities such as tracking access to fresh water in poor communities, supporting effective autism treatment, and promoting safety on college campuses.  The stories will build on Youth Radio’s Peabody Award-­winning media production capabilities and MIT’s technology strengths to create powerful multimedia productions augmented by new mobile computing resources built on App Inventor.
+&lt;/p&gt;
+&lt;p&gt;The App Inventor team is tremendously excited by this opportunity to collaborate with Youth Radio.  We’ll be starting work on the project in September.  Watch for us over the next 3 years as we help support and promote the next generation of mobile STEM media innovators!
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 25 Jul 2016 22:08:37 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">780 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Major computational thinking research project and new MIT staff positions</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/03/major</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1sN9A7hMLCgXX42eWXWfqikGayFirawvZAq6wE8IdC78&quot; target=&quot;_blank&quot;&gt;See here for details&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sun, 06 Mar 2016 17:19:01 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">715 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>MIT App Inventor Update February 25, 2016</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/02/mit-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/10I8wpwIyVs_TmupTdxoYEUN-zsqdniGqGALqQRGdqVU/pub&quot;&gt;&lt;br /&gt;
+Click here to see blog entry.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Sat, 27 Feb 2016 15:00:18 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">711 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title>Two App Inventor tablets for under $100</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2016/01/two-app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;I recently tested App Inventor with two low-priced tablets, the Kindle Fire 7&quot; and the HP 7 G2. Both of these work fine with App Inventor.  They could be reasonable choices for school or personal use, provided you have WiFi don&#039;t need phone calls or cellular connections. Here are instructions on how to set up these tablets for use with App Inventor 
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1osjY0wsZbZ0Bt_JT153f-ZH4cmA9mcc0MXKhMely4aU/edit#heading=h.sm3824vkq394&quot;&gt;Installing App Inventor on the Amazon Kindle Fire Tablet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1eYipj_mqblnqcSoFnmkS8q_l3WCh0WnxVKIU95M2ks0/edit#&quot;&gt;Installing App Inventor on the HP 7G2 Tablet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;   &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Fri, 29 Jan 2016 22:05:38 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">698 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
+ <title> App Inventor Extension Components available for testing</title>
+ <link>http://explore.appinventor.mit.edu/blogs/hal/2015/08/app</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The MIT App Inventor team is delighted to announce the availability of Extension Components for testing. We hope the Extension Components will prove to be a major enhancement to App Inventor: Extensions provide a way for anyone to build their own App Inventor components, which others can then use in creating apps.&lt;/p&gt;
+&lt;p .=&quot;&quot;&gt;
+ App Inventor is free and open software, so people have always been able to build personal systems and install their own components. But until now, the only way to make those components available to others has been to create and maintain a personal App Inventor server that has those components built in. &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+Extension components, in contrast, can be loaded dynamically into any App Inventor system, so they can be shared and imported into projects as needed. For example, educators and educational software developers to provide extension components tailored to specific lessons and activities, so that students can have these available in building apps. Examples might be simulations or tools for large-scale data analysis, or image recognition. Those features might be unfeasible to implement with the built-in App Inventor blocks, either because of processing speed or programming complexity. But the same capability might be readily implemented using extension components that encapsulate the necessary processing. 
+&lt;p&gt;&lt;/p&gt;
+Anyone can create extension components. This requires gaining some familiarity with the App Inventor source code (located on Github) and programming in Java. Once you create an extension component, you can share it with anyone for use in their App Inventor projects. Extension components can be housed anywhere on the Web. They need not be stored at MIT or any other special place, although MIT hosts a repository where people can make extension components available for sharing and public use. 
+&lt;p&gt;&lt;/p&gt;
+Today, we’re releasing a test server for App Inventor that supports the Extension Components feature. You can find it at extension-test.appinventor.mit.edu. There&#039;s also a document called App Inventor Extensions that explains how to create and use Extension Components. Once we&#039;ve accumulated enough feedback, we&#039;ll make extension components a regular part of App Inventor. With extensions, the range of App Inventor features can be expanded enormously. We hope that people will explore this tool to build new capabilities for App Inventor and their creations. 
+&lt;p&gt;&lt;/p&gt;
+The implementation of App Inventor Extension Components is the work students who participated with the MIT App Inventor team in through Google Summer of Code: Ethan Hon, Justus Raju, and Mouhamadou Sall. Other summer GSoC App Inventor participants in 2015 are Devid Farinelli, Yucun Li, and Shruti Rijhwani. All of them are extraordinarily talented, and the entire App Inventor community is in their debt.
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Tue, 04 Aug 2015 13:52:13 +0000</pubDate>
+ <dc:creator>hal</dc:creator>
+ <guid isPermaLink="false">624 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>
