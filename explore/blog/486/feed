@@ -6,6 +6,18 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Trip Report: Computers, Privacy &amp; Data Protection 2019</title>
+ <link>http://explore.appinventor.mit.edu/blogs/evan/2019/02/trip</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;I recently traveled to Brussels, Belgium for the &lt;a href=&quot;https://www.cpdpconferences.org/&quot; target=&quot;_blank&quot;&gt;CPDP 2019 conference&lt;/a&gt;. Privacy and data protection are important for MIT App Inventor, not only because we support educational outreach around the world, but because we want to ensure that people who build apps with MIT App Inventor can be compliant with local, provincial/state, national, and international law, such as the General Data Privacy Regulation (GDPR) and the Children&#039;s Online Privacy Protection Act (COPPA). While attending this conference, I had an opportunity to discuss MIT App Inventor as a platform both as a computer science education platform and as a platform for developers to build mobile apps. The conference also raised a lot of questions too around some of the areas that we are looking into building extensions for, including health data and artificial intelligence. Internet of Things (IOT) was also a hot topic at this event, with many concerns raised about how these technologies can be used to monitor people&#039;s behaviors and potentially used against them in unsavory ways. At MIT, we have built our own suite of IOT extensions for App Inventor, released under the Apache Software License 2.0, to encourage people to interact with IOT in an open, transparent way. It will be great to see how app inventors around the world benefit from this approach versus a closed approach currently championed by tech companies.&lt;/p&gt;
+&lt;p&gt;With warm regards,&lt;br /&gt;
+Evan W. Patton, Ph.D.&lt;br /&gt;
+On behalf of the MIT App Inventor team&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Wed, 06 Feb 2019 17:47:56 +0000</pubDate>
+ <dc:creator>evan</dc:creator>
+ <guid isPermaLink="false">1012 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>MIT App Inventor for iOS Status Update</title>
  <link>http://explore.appinventor.mit.edu/blogs/evan/2018/09/mit</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We know many App Inventor users are looking forward to the iOS version of MIT App Inventor. We&#039;ve been working diligently on a release, and we hope to make the iOS version publicly available in the first quarter of 2019. One feature of the release that will be especially interesting to teachers is the ability to use the same curriculum and teaching materials in building apps for iOS as for Android.&lt;/p&gt;

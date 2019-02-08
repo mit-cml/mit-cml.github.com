@@ -6,6 +6,57 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>New Release (nb175) Planned for Thursday, February 7th.</title>
+ <link>http://explore.appinventor.mit.edu/blogs/jeff/2019/02/new</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
+    We plan to release a new version of MIT App Inventor on Thursday. This version, nb175, will include a new Companion (version 2.51). The current companion (version 2.50) will continue to work, but you will require the new version to use the new functionality described below.
+&lt;/p&gt;
+&lt;!-- break --&gt;&lt;h2&gt;New functionality&lt;/h2&gt;
+&lt;p&gt;
+    We implemented conditional permissions for Texting and PhoneCall components so apps built with MIT App Inventor will be compliant with new Google Play Store policies. By default, apps using the Texting and PhoneCall components will now launch the device&#039;s default texting and dialer apps. Most app inventors will be able to continue using the existing blocks for their apps.
+&lt;/p&gt;
+&lt;p&gt;
+    If you want to build apps that respond to SMS or phone calls, or directly initiate a text or call, you may do so. To send a message or start a call, use the SendMessageDirect and MakePhoneCallDirect blocks, respectively. Receiving texts and calls continues to behave as it did. However, apps built with these behaviors will trigger additional review when being submitted to Google Play.
+&lt;/p&gt;
+&lt;p&gt;
+    We implemented default handling for the Map.GotFeatures and Map.LoadError events. For GotFeatures, the default behavior will be to create features and populate the Map with them. For LoadError, the Screen&#039;s ErrorOccurred event will be run if defined, otherwise a toast will be shown.
+&lt;/p&gt;
+&lt;h2&gt;Documentation improvements&lt;/h2&gt;
+&lt;p&gt;
+    Fixed issues with some Help menu items being disabled Added documentation to combine date and time information from DatePicker and TimePicker. Made miscellaneous improvements to the documentation based on feedback.
+&lt;/p&gt;
+&lt;h2&gt;FustionTables Deprecated&lt;/h2&gt;
+&lt;p&gt;
+    We have deprecated the FusiontablesControl component due to Google’s planned shutdown of Fusiontables in December 2019.
+&lt;/p&gt;
+&lt;h2&gt;Connectivity&lt;/h2&gt;
+&lt;p&gt;
+    Fixed an issue with new connection method not working in Safari 11+ We added a progress bar to report connection status.
+&lt;/p&gt;
+&lt;p&gt;
+    Bug fixes
+&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+        Fixed an issue where changing the visibility of a Marker would not update the Map containing the Marker until the user interacted with the map
+    &lt;/li&gt;
+&lt;li&gt;
+        Fixed an issue with the SDK 26 update that caused Error 1101 when scanning QR codes for built apps on older devices
+    &lt;/li&gt;
+&lt;li&gt;
+        Fixed an issue where polygons would not be parsed correctly from a GeoJSON file on the device
+    &lt;/li&gt;
+&lt;li&gt;
+        Fixed an issue where loading a list of elements into ListView would not handle large numerical values in the list
+    &lt;/li&gt;
+&lt;li&gt;
+        Fixed an issue where the MIT AI2 Companion would crash on some older devices
+    &lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 04 Feb 2019 22:56:10 +0000</pubDate>
+ <dc:creator>jeff</dc:creator>
+ <guid isPermaLink="false">1011 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>New Component Release on December 27th</title>
  <link>http://explore.appinventor.mit.edu/blogs/jeff/2017/12/newrelease</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;
