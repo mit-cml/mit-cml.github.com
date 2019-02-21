@@ -6,6 +6,124 @@
  <description></description>
  <language>en</language>
 <item>
+ <title>Starting Coding from a Young Age</title>
+ <link>http://explore.appinventor.mit.edu/blogs/karen/2019/02</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/yu.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Anna Yu.&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;
+The first Preface Hackathon of 2019 started off with a bang, as Preface coders aged 9-12 aimed to build on their past year of creating impactful applications for the community. The past few months saw Preface coders design impressive applications ranging from local Geostories to event countdown timers. January was no different, as they bustled around with an abundance of passion and inspired minds, striving to utilize TinyWebDB and Variables components to build an online item trading platform. &lt;/p&gt;
+&lt;div style=&quot;width:100%; padding: 10px 0px; clear: both;&quot;&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth6.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth7.jpg&quot; style=&quot;float: left; width: 48%; margin-top: -20px;&quot; /&gt;&lt;/div&gt;
+&lt;p style=&quot;clear: both; padding-top: 20px;&quot;&gt;The event also celebrated the winning coders from November’s Hackathon, as Hector Lo, Hilary Yum and Edison Fu of Team Black saw their game-based discount application officially uploaded to the Google Play Store. Built for local snack store Cameo’s Kitchen, the game offered discounts for food at Cameo’s in accordance with how well players completed particular challenges. The application was a success, not only giving Cameo’s Kitchen a further attraction in line with its delicious snacks, but also a platform for increased customer interaction.&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/cameo.jpg&quot; style=&quot;display:block; margin:auto; width: 90%; margin: 20px;&quot; /&gt;&lt;br /&gt;
+The key attraction of the Cameo’s Kitchen discount application is its motion sensing ability. Named “Cameo’s Kitchen Tilting Game”, the game enabled users to control components of the game through tilting their devices. This was something our Scratch coders strived to emulate in their own Hackathon, as they took full advantage of Scratch’s new extension “Video Sensing” to create an interactive Lai-See collection game capable of tracking motions of  players to score points! The recent upgrades coupled with its development as MIT software, exhibits Scratch as an ideal stepping stone to App Inventor by allowing kid coders to have a taste of app design and development.&lt;/p&gt;
+&lt;div style=&quot;width:100%; padding: 20px 0px 20px 0;&quot;&gt;
+&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth4.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 48%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth1.jpg&quot; style=&quot;float: left; width: 48%; margin-top: -20px;&quot; /&gt;&lt;/div&gt;
+&lt;p style=&quot;clear: both; padding-top: 20px;&quot;&gt;Age doesn&#039;t matter in the world of coding - rather it’s the inherent creativity and the thought process that counts. These kids showed that given the right tools, even a six year old can build an application that can wow entire audiences.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth2.jpg&quot; style=&quot;display:block; margin:auto; width: 90%; margin-top: 20px;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth3.jpg&quot; style=&quot;display:block; margin:auto; width: 90%;&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/preface-youth5.jpg&quot; style=&quot;display:block; margin:auto; width: 90%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22232&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/cameojpg&quot;&gt;cameo.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/cameo.jpg&quot; width=&quot;957&quot; height=&quot;516&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22233&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth1jpg&quot;&gt;preface-youth1.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth1.jpg&quot; width=&quot;804&quot; height=&quot;537&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22234&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth2jpg&quot;&gt;preface-youth2.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth2.jpg&quot; width=&quot;806&quot; height=&quot;537&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22235&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth3jpg&quot;&gt;preface-youth3.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth3.jpg&quot; width=&quot;811&quot; height=&quot;537&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22236&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth4jpg&quot;&gt;preface-youth4.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth4.jpg&quot; width=&quot;808&quot; height=&quot;539&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22237&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth5jpg&quot;&gt;preface-youth5.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth5.jpg&quot; width=&quot;809&quot; height=&quot;539&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22238&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth6jpg&quot;&gt;preface-youth6.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth6.jpg&quot; width=&quot;807&quot; height=&quot;538&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+          &lt;figure class=&quot;field-item&quot;&gt;
+        &lt;div id=&quot;file-22239&quot; class=&quot;file file-image file-image-jpeg&quot;&gt;
+
+        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/preface-youth7jpg&quot;&gt;preface-youth7.jpg&lt;/a&gt;&lt;/h2&gt;
+    
+  
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/preface-youth7.jpg&quot; width=&quot;802&quot; height=&quot;537&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
+
+  
+&lt;/div&gt;
+              &lt;/figure&gt;
+      &lt;/div&gt;
+&lt;/div&gt;
+&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Thu, 21 Feb 2019 23:29:45 +0000</pubDate>
+ <dc:creator>Karen</dc:creator>
+ <guid isPermaLink="false">1017 at http://explore.appinventor.mit.edu</guid>
+</item>
+<item>
  <title>African Union CIEFFA Stem Ambassadors Get Introduced to MIT App Inventor</title>
  <link>http://explore.appinventor.mit.edu/blogs/karen/2018/12</link>
  <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/osullivan.jpg&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Evbi O&quot;Sullivan&lt;/i&gt;&lt;/p&gt;
@@ -661,39 +779,6 @@ Students were surprised with their own App creation capabilities. They also impr
  <pubDate>Thu, 14 Jun 2018 16:45:58 +0000</pubDate>
  <dc:creator>Karen</dc:creator>
  <guid isPermaLink="false">977 at http://explore.appinventor.mit.edu</guid>
-</item>
-<item>
- <title>Smarthuerto, a Smart Decision</title>
- <link>http://explore.appinventor.mit.edu/blogs/karen/2018/06</link>
- <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;i&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/nunez.png&quot; style=&quot;float: left; margin-right: 10px; width: 15%;&quot; /&gt;This is a guest blog by MIT Master Trainer Jose Luis Núñez&lt;/i&gt;&lt;/p&gt;
-&lt;p style=&quot;margin-top: 10px&quot;&gt;With this slogan, a mixture of English and Spanish, six students from IES Isbilya from Seville (Spain), managed to win the first edition of the Grow-Lab contest of the international Spanish company EC2CE (&lt;a href=&quot;http://www.ec2ce.com/grow-lab/&quot; target=&quot;_blank&quot;&gt;http://www.ec2ce.com/grow-lab/&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The event allowed more than 60 students from 9 different schools in Seville to present innovative and creative projects that encouraged team work, with three different topics: Business, Information Technology and Mathematics. The objective is to connect the business with the educational world.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/sites/explore.appinventor.mit.edu/files/blog/smarthuerto.png&quot; style=&quot;display:block; margin:auto; width: 80%; clear: both; padding-top: 20px;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The team of students in the IT category of the IES Isbilya opted for the development of a crop optimization project by combining IoT hardware with decision-making software based on an app built with MIT App Inventor and a Firebase database.&lt;/p&gt;
-&lt;p&gt;Demo video: &lt;a href=&quot; https://youtu.be/bld-7zm4RMs&quot; target=&quot;_blank&quot;&gt;https://youtu.be/bld-7zm4RMs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The result is an impressive work of monitoring in real time the parameters of an orchard via the Internet that, helped by a mobile application, allows, among other things, to help the farmer when it comes to knowing the temperature, humidity of the soil and air, pressure and rain in their crops. The best? Both the code and the schemes have been published so that anyone can set up their own smart garden and also with a very tight budget. Congratulations!!! &lt;/p&gt;
-&lt;p&gt;More information:&lt;br /&gt;&lt;a href=&quot;http://smarthuerto.com&quot; target=&quot;_blank&quot;&gt;http://smarthuerto.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;AIA file: &lt;a href=&quot;https://github.com/SmartHuerto/Smart-huerto/blob/master/Smart_Huerto.aia&quot;&gt;https://github.com/SmartHuerto/Smart-huerto/blob/master/Smart_Huerto.aia&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-blog-images field-type-image field-label-hidden view-mode-rss view-mode-rss&quot;&gt;
-    &lt;div class=&quot;field-items&quot;&gt;
-          &lt;figure class=&quot;field-item&quot;&gt;
-        &lt;div id=&quot;file-22065&quot; class=&quot;file file-image file-image-png&quot;&gt;
-
-        &lt;h2 class=&quot;element-invisible&quot;&gt;&lt;a href=&quot;/file/smarthuertopng&quot;&gt;smarthuerto.png&lt;/a&gt;&lt;/h2&gt;
-    
-  
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;img typeof=&quot;foaf:Image&quot; class=&quot;image-style-none&quot; src=&quot;http://explore.appinventor.mit.edu/sites/explore.appinventor.mit.edu/files/blog/smarthuerto.png&quot; width=&quot;531&quot; height=&quot;397&quot; alt=&quot;&quot; /&gt;  &lt;/div&gt;
-
-  
-&lt;/div&gt;
-              &lt;/figure&gt;
-      &lt;/div&gt;
-&lt;/div&gt;
-&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
- <pubDate>Tue, 12 Jun 2018 13:36:41 +0000</pubDate>
- <dc:creator>Karen</dc:creator>
- <guid isPermaLink="false">973 at http://explore.appinventor.mit.edu</guid>
 </item>
 </channel>
 </rss>
