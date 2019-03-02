@@ -436,6 +436,49 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb175 and nb175a (March 2, 2019)</h2>
+                        <p>
+                            This is a bugfix release, primarily to resolve an issue with using Map
+                            tiles. There is an updated Companion, version 2.51a (and 2.51au, see
+                            note below).
+                        </p>
+
+                        <ul>
+                            <li>Change how MIT App Inventor identifies itself to the Open Street
+                                Map tile server. This change re-enables use of map tiles.
+                            </li>
+                            <li>Minor bugfix so Apps which include the “File” component do not
+                                prompt for permission until the permission is needed.
+                            </li>
+                        </ul>
+                        <h3>A note on Companion versions.</h3>
+                        <p>
+                            Google now limits some permissions in
+                            the Google Play Store. Companion version 2.51a is available via Google
+                            Play. With this version of the Companion the “MakePhoneCallDirect”
+                            block (PhoneCall Component) and the “SendMessageDirect” block (Texting
+                            Component) will generate a permission error and will not work.
+                        </p>
+
+                        <p>
+                            Companion version 2.51au can be directly downloaded from
+                            ai2.appinventor.mit.edu (Help-&gt;Companion Information). This version
+                            has the necessary permissions for the “Direct” versions of the blocks
+                            to operate.
+                        </p>
+
+                        <p>
+                            Note: If you use the Direct blocks in a packaged application, it will
+                            not be accepted into the Google Play Store without special
+                            permission, which is not likely to be granted. More information is
+                            available in the Play Store’s publishing dashboard.
+                        </p>
+
+                        <p>
+                            We are working on a solution for the future that will not require two
+                            separate versions of the Companion while still abiding by the rules of
+                            the Google Play Store. However it is not yet ready.
+                        </p>
                         <h2>Changes between nb174 and nb175 (February 7, 2019)</h2>
                         <p>
                             This is a Component Release. You should use MIT AI2 Companion version
@@ -2205,35 +2248,35 @@
                                     <li>Corrected a fault that can occur when a component is deleted with the designer.</li>
                                     <li>Fix a bug that causes Screen1.Initialize to run twice in the Companion.</li>
                                     <li>Fix a bug in the networking code that could cause blocks to be loaded to the Companion in the wrong order to
-                            slow networks.</li>
-                        </ul>
-                        <h2>Changes between nb111 and nb112 (August 2, 2013)</h2>
-                        <ul>
-                          <li>Spaces are removed from variable names (they only caused errors).</li>
-                          <li>More cleanup to communication with the Companion: The Companion now updates faster and even when the
-                            blocks editor is in the "Designer."</li>
-                          <li>Various bugfixes and interface tweaks.</li>
-                        </ul>
-                        <h2>Changes between nb110 and nb111 (July 24, 2013)</h2>
-                        <ul>
-                          <li>The Components Panel has been moved to the right of "Viewer" when in the designer panel. This makes it easier
-                            to add items from the UI Palette to the Viewer mockup of the phone.</li>
-                          <li>When connected to the Companion App for incremental development, changes now take effect even when in the
-                            Designer panel. Previously you had to change to the Blocks panel for changes to be seen on the connected phone or
-                            emulator.</li>
-                        </ul>
-                      </div>
+                                        slow networks.</li>
+                                </ul>
+                                <h2>Changes between nb111 and nb112 (August 2, 2013)</h2>
+                                <ul>
+                                    <li>Spaces are removed from variable names (they only caused errors).</li>
+                                    <li>More cleanup to communication with the Companion: The Companion now updates faster and even when the
+                                        blocks editor is in the "Designer."</li>
+                                    <li>Various bugfixes and interface tweaks.</li>
+                                </ul>
+                                <h2>Changes between nb110 and nb111 (July 24, 2013)</h2>
+                                <ul>
+                                    <li>The Components Panel has been moved to the right of "Viewer" when in the designer panel. This makes it easier
+                                        to add items from the UI Palette to the Viewer mockup of the phone.</li>
+                                    <li>When connected to the Companion App for incremental development, changes now take effect even when in the
+                                        Designer panel. Previously you had to change to the Blocks panel for changes to be seen on the connected phone or
+                                        emulator.</li>
+                                </ul>
                     </div>
-                  </section>
-              </div></div>
-          </div></div>
+                    </div>
+                </section>
+            </div></div>
+        </div></div>
 
-          <footer role="contentinfo">
+        <footer role="contentinfo">
             <div class="region region-footer">
-              <div id="block-block-3" class="block block-block block-odd block-count-8 block-region-footer">
-                <div class="block-inner clearfix">
-                  <div class="block-content content no-title">
-                    <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a> <br>
+                <div id="block-block-3" class="block block-block block-odd block-count-8 block-region-footer">
+                    <div class="block-inner clearfix">
+                        <div class="block-content content no-title">
+                            <p style="text-align: center;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a> <br>
                           This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" class="ext" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a><span class="ext"></span></p>
                         <p style="text-align: center;">© 2012-2013 <a href="http://web.mit.edu/" class="ext" target="_blank">Massachusetts Institute of Technology</a><span class="ext"></span></p>
                         <p style="text-align: center;"><a href="http://dev-explore.appinventor.mit.edu/contact">Contact Us</a></p>
