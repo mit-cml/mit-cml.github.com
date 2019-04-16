@@ -1,0 +1,826 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="quizme.html" />
+<link rel="shortlink" href="../node/312.html" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+  <title>QuizMe | Explore MIT App Inventor</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.base4061.css?pq117e");
+@import url("../modules/system/system.menus4061.css?pq117e");
+@import url("../modules/system/system.messages4061.css?pq117e");
+@import url("../modules/system/system.theme4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min4061.css?pq117e");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min4061.css?pq117e");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/date/date_api/date4061.css?pq117e");
+@import url("../sites/all/modules/date/date_repeat_field/date_repeat_field4061.css?pq117e");
+@import url("../modules/field/theme/field4061.css?pq117e");
+@import url("../modules/node/node4061.css?pq117e");
+@import url("../modules/search/search4061.css?pq117e");
+@import url("../modules/user/user4061.css?pq117e");
+@import url("../sites/all/modules/extlink/extlink4061.css?pq117e");
+@import url("../sites/all/modules/views/css/views4061.css?pq117e");
+@import url("../sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctools4061.css?pq117e");
+@import url("../sites/all/modules/lightbox2/css/lightbox4061.css?pq117e");
+@import url("../sites/all/modules/panels/css/panels4061.css?pq117e");
+@import url("../sites/all/libraries/superfish/css/superfish4061.css?pq117e");
+@import url("../sites/all/libraries/superfish/css/superfish-smallscreen4061.css?pq117e");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/adaptivetheme/at_core/css/at.layout4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/sky/css/html-elements4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/forms4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/tables4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/page4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/articles4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/comments4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/fields4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/blocks4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/navigation4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/color/colors4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/sky.settings.style4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/reset4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/typography4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/layout4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/drupal4061.css?pq117e");
+</style>
+<style type="text/css" media="print">
+@import url("../sites/all/themes/sky/css/print4061.css?pq117e");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.default.layout4061.css?pq117e");
+</style>
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.responsive.layout4061.css?pq117e" media="only screen" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels4061.css?pq117e" media="all" />
+  <script type="text/javascript" src="../sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupal4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.effect.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/extlink/extlink4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/iframe/iframe4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/lightbox2/js/lightbox4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalytics4061.js?pq117e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-31803258-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-slider4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsMasonry/main4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/jquery.hoverIntent.minified4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/sfsmallscreen4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/superfish4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/supersubs4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/superfish/superfish4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/sky/js/scripts4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/newexploretheme/video-js/video4061.js?pq117e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"-vcNBIXJMm7jCKcbhGHtdTrm3esb-psJsM2W5qVtfhs","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/iframe\/iframe.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/themes\/appinventor\/assets\/jsMasonry\/main.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.default.layout.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.responsive.layout.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":0,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0,"useragent":"Mozilla\/4.5 (compatible; HTTrack 3.0x; Windows 98)"},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","title":"! ACTIVE AI 2 MAIN MENU"},"supersubs":true}}},"adaptivetheme":{"appinventor":{"layout_settings":{"bigscreen":"two-sidebars-right","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"\u0026#039;only screen and (min-width:769px)$","tablet_portrait":"\u0026#039;only screen and (min-width:481px) $","smalltouch_landscape":"\u0026#039;only screen and (min-width:32$","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-312 node-type-tutorial atv-7.63 color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html"><img class="site-logo" typeof="foaf:Image" src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor" /></a></div>
+          
+    </div>
+    <div id="menu-bar" class="nav clearfix"><nav id="block-superfish-1" class="block block-superfish menu-wrapper menu-bar-wrapper clearfix odd first last block-count-1 block-region-menu-bar block-1" >  
+      <h2 class="element-invisible block-title element-invisible">! ACTIVE AI 2 MAIN MENU</h2>
+  
+  <ul  id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-3 sf-single-items-0"><li id="menu-4230-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="../about-us.html" title="" class="sf-depth-1 menuparent">About ▾</a><ul><li id="menu-4231-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../about-us.html" title="" class="sf-depth-2">About Us  </a></li><li id="menu-4234-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../our-team.html" title="" class="sf-depth-2">Our Team</a></li><li id="menu-5013-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../research.html" title="Research related to MIT App Inventor" class="sf-depth-2">Research</a></li><li id="menu-4233-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../sponsors.html" title="" class="sf-depth-2">Sponsors</a></li><li id="menu-5798-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../master-trainers.html" title="MIT App Inventor Master Trainers" class="sf-depth-2">Master Trainers</a></li><li id="menu-6147-1" class="last even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ios-launch-campaign.html" title="" class="sf-depth-2">iOS Donors</a></li></ul></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">News &amp; Events ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">In The News</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-4429-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../team-blog.html" title="" class="sf-depth-2">Team Blog</a></li><li id="menu-4074-1" class="last even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../app-month-gallery.html" title="Information about the App of the Month Program" class="sf-depth-2">App of the Month</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="../resources.html" title="" class="sf-depth-1 menuparent">Resources ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3783-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="http://teach.appinventor.mit.edu/" title="" class="sf-depth-2">Teach</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Documentation</a></li><li id="menu-3036-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-5012-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../books.html" title="" class="sf-depth-2">Books</a></li><li id="menu-3038-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="https://groups.google.com/forum/#!forum/mitappinventortest" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="last even sf-item-8 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li></ul></li></ul>
+  </nav></div>    <div class="region region-create"><div class="region-inner clearfix"><section id="block-block-21" class="block block-block odd first last block-count-2 block-region-create block-21" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Create Button</h2>
+  
+  <div class="block-content content"><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+      var gotoappinventor = function() {
+          var referrer = document.location.pathname;
+          var patt = /.*hour-of-code.*/;
+          if (referrer.match(patt)) {
+            window.open("http://code.appinventor.mit.edu/", "new");
+          } else {
+            window.open("http://ai2.appinventor.mit.edu/", "new");
+          }
+    }
+
+//--><!]]>
+</script><p><a href="#" onclick="gotoappinventor();"><button style="font-size:120%">Create apps!</button></a></p>
+</div>
+  </div></section></div></div>    </div>
+    <div class="region region-header"><div class="region-inner clearfix"><section id="block-block-31" class="block block-block odd first block-count-3 block-region-header block-31" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Top Headline Block</h2>
+  
+  <div class="block-content content"><div style="color: #0d6622; font-style: italic; font-family: verdana; font-weight: bold; font-size: 18px; padding-top:2px; float:left; position: relative; top: 50%; left: 50%; transform: translate(-50%, 10%);">Anyone Can Build Apps That Impact the World</div>
+</div>
+  </div></section><div id="block-block-7" class="block block-block no-title even last block-count-4 block-region-header block-7" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div style="float:right;">
+<script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div></div>
+  </div></div></div></div>    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content"><section id="block-block-23" class="block block-block odd first block-count-5 block-region-content block-23" >  
+      <h2 class="block-title">Social Icons</h2>
+  
+  <div style="height:50px !important;">
+<p style="float:left;margin: 10px 7px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://plus.google.com/communities/109900432278954380687"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/google%2b.png" style="width:25px;" /></a>    <a href="https://twitter.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="https://www.youtube.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>    <a href="https://groups.google.com/forum/#!forum/mitappinventortest"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/googlegroups.png" style="width:25px;" /></a>    <a href="http://www.weibo.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wb.png" style="width:25px;" /></a>    <a href="http://mp.weixin.qq.com/s?__biz=MzAxODE1NTc1MQ==&amp;mid=201968203&amp;idx=1&amp;sn=01f8946b01a98b63e97e201a812dc844#rd"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wc.png" style="width:25px;" /></a>
+</p></div>
+
+  </section><div id="block-system-main" class="block block-system no-title even last block-count-6 block-region-content block-main" >  
+  
+  <article id="article-312" class="node node-tutorial article odd node-lang-en node-full clearfix" about="/content/quizme" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 class="node-title">
+                      QuizMe                  </h1>
+      
+      
+    </header>
+    <span property="dc:title" content="QuizMe" class="rdf-meta element-hidden"></span>
+  <div class="node-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.ButtonText {
+color:green;
+font-weight: bold;
+}
+
+li {
+padding-bottom: 7px;
+}
+
+.basicblock {
+border: 1px dashed #7AA81C;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E7F2CB;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.callblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E0D1FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.argblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #E5E5FF;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.textblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FADAA0;
+font-size: 9pt;
+text-wrap: suppress;
+
+}
+
+.setblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #C1D5F8;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.controlblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FAEDBB;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+.listblock {
+border: 1px dashed #000000;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-color: #FCF5D7;
+font-size: 9pt;
+text-wrap: suppress;
+}
+
+
+/*--><!]]>*/
+</style><h2 class="ai-header"><span style="color:green;">QuizMe</span></h2>
+<p class="ai-classic-header" style="text-align:center">App Inventor Classic • App Inventor Classic • FOR APP INVENTOR 2 <a href="../library.html">CLICK HERE</a>• App Inventor Classic • App Inventor Classic</p>
+<pre class="ai-box">This information pertains to App Inventor 1 (Classic). For tutorials about App Inventor 2, go to the <a href="../ai2/tutorials.html">App Inventor 2 Tutorials</a>.</pre><h4 class="ai-header">What you're building</h4>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/quizOnEmulator.png" style="float:right; height: 453px; width: 197px;" /></p>
+<p><a href="http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch8Quiz.pdf">Download Alternate Example Version (Book Chapter PDF)</a></p>
+<p><span style="color:green;">QuizMe</span> is a trivia game about baseball, but you can use it as a template to build quizzes on any topic. With <span style="color:green;">QuizMe</span>:</p>
+<ul><li>The user steps through a series of questions, clicking a button to proceed to the next question.</li>
+<li>The user enters an answer for each question and the app reports whether each answer is correct or not.</li>
+</ul><p>With <span style="color:green;">QuizMe</span>, the quiz questions are always the same unless you, the programmer, change them. Later, you can create <a href="makequiz-and-takequiz.html">MakeQuiz &amp; TakeQuiz</a>, an app that lets users of the app create and modify the quiz questions.</p>
+<p>This tutorial assumes you are familiar with the basics of App Inventor -- using the Component Designer to build a user interface, and using the Blocks Editor to specify event-handlers. If you are not familiar with the basics, try stepping through some of the <a href="../tutorials.html">basic tutorials</a> before continuing.</p>
+<h4 class="ai-header">Getting Started</h4>
+<p>Connect to the App Inventor web site and start a new project. Name it <span style="color:green;">QuizMe</span>, and also set the screen's <strong style="color:green;">Title</strong> to "QuizMe". Open the Blocks Editor and connect to the phone.</p>
+<p>Also download the following pictures of baseball players and save them on your computer. Later, you'll load these images into your project.</p>
+<ul><li><a href="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/Larsenberra.jpg">Larsenberra.jpg</a></li>
+<li><a href="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/dallasbraden.jpg">Dallasbraden.jpg</a></li>
+<li><a href="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/cyyoung.jpg">Cyyoung.jpg</a></li>
+<li><a href="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/nolanryan.jpg">Nolanryan.jpg</a></li>
+</ul><h4 class="ai-header">Introduction</h4>
+<p>You'll design the quiz game so that the user proceeds from question to question by clicking a Next button, and receives simple correct/incorrect feedback on each answer.</p>
+<p>This tutorial introduces:</p>
+<ul><li>Defining and displaying lists of information.</li>
+<li>Sequencing through a list using an index variable -- a variable that keeps track of a position in a list.</li>
+<li>Conditional behaviors-- performing certain operations only when a condition is met.</li>
+<li>Switching an image to show a different picture at different times.</li>
+</ul><h4 class="ai-header">Set up the Components</h4>
+<p>Use the component designer to create the interface for <span style="color:green;">QuizMe</span>. When you finish, it should look something like the snapshot below (there are also more detailed instructions below the snapshot).</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/designer.png" /></p>
+<p>To create this interface, first load the images you downloaded into the project. Click on the Add button in the Media area and select one of the downloaded files (e.g., Larsenberra.jpg). Then do the same for the other three images.</p>
+<p>Next, create the following components by dragging them from the Palette into the Viewer.</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>
+Component Type
+</td>
+<td>
+Palette Group
+</td>
+<td>
+What you'll name it
+</td>
+<td>
+Purpose of Component
+</td>
+</tr><tr><td>
+<strong>Image</strong>
+</td>
+<td>Basic</td>
+<td style="color:green;">Image1</td>
+<td>The picture part of the question</td>
+</tr><tr><td><strong>Label</strong></td>
+<td>Basic</td>
+<td style="color:green;">QuestionLabel</td>
+<td>Displays the current question</td>
+</tr><tr><td><strong>HorizontalArrangement</strong></td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement1</td>
+<td>Organizes the AnswerPrompt and Text</td>
+</tr><tr><td><strong>Label</strong></td>
+<td>Basic</td>
+<td style="color:green;">AnswerPromptLabel</td>
+<td>Text prompting for an anwer</td>
+</tr><tr><td><strong>TextBox</strong></td>
+<td>Basic</td>
+<td style="color:green;">AnswerText</td>
+<td>User will enter answer here.</td>
+</tr><tr><td><strong>Label</strong></td>
+<td>Basic</td>
+<td style="color:green;">RightWrongLabel</td>
+<td>Correct/Incorrect is displayed here.</td>
+</tr><tr><td><strong>HorizontalArrangement</strong></td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement2</td>
+<td>Organizes the AnswerButton and NextButton</td>
+</tr><tr><td><strong>Button</strong></td>
+<td>Basic</td>
+<td style="color:green;">AnswerButton</td>
+<td>User clicks to submit an answer</td>
+</tr><tr><td><strong>Button</strong></td>
+<td>Basic</td>
+<td style="color:green;">NextButton</td>
+<td>User clicks to proceed to the next answer</td>
+</tr></table><p>Set the properties of the components as described below:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td><strong>Component</strong></td>
+<td><strong>Action</strong></td>
+</tr><tr><td>
+<span style="color:green;">Image1</span>
+</td>
+<td>Set its <span class="ButtonText">Picture</span> property to "Larsenberra.jpg". This is the first picture that should appear.</td>
+</tr><tr><td><span style="color:green;">QuestionLabel</span>
+</td>
+<td>
+Change <span class="ButtonText">Text</span> property to "question"
+</td>
+</tr><tr><td><span style="color:green;">AnswerPromptLabel</span>
+</td>
+<td>Change <span class="ButtonText">Text</span> property to "Enter Answer:". On the Viewer screen, move this label into <span style="color:green;">HorizontalArrangement1</span>.
+</td>
+</tr><tr><td><span style="color:green;">AnswerText</span>
+</td>
+<td>Change <span class="ButtonText">Hint</span> to "please enter an answer". On the Viewer screen, move <span style="color:green;">AnswerText</span> into <span style="color:green;">HorizontalArrangement1</span>.
+</td>
+</tr><tr><td><span style="color:green;">AnswerButton</span>
+</td>
+<td>Change <span class="ButtonText">Text</span> property to "Submit". On the Viewer, move the button into <span style="color:green;">HorizontalArrangment2.</span>
+</td>
+</tr><tr><td>
+<span style="color:green;">NextButton</span>
+</td>
+<td>Change <span class="ButtonText">Text</span> property to "Next". Move the button into <span style="color:green;">HorizontalArrangement2</span>.
+</td>
+</tr><tr><td><span style="color:green;">RightWrongLabel</span></td>
+<td>
+Change <span class="ButtonText">Text</span> property to "correct/incorrect".
+</td>
+</tr></table><h4 class="ai-header">Add Behaviors to the Components</h4>
+<p>Open the Blocks Editor to add the behaviors for the app. First, you'll define two list variables, <span style="color:green;">QuestionList</span> to hold the list of questions, and <span style="color:green;">AnswerList</span> to hold the list of corresponding answers.</p>
+<p>To define the two list variables, you'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="setblock">def variable</span></td>
+<td>Definitions</td>
+<td>Defines the <span style="color:green;">QuestionList</span> variable (rename it)</td>
+</tr><tr><td><span class="setblock">def variable</span></td>
+<td>Definitions</td>
+<td>Defines the <span style="color:green;">AnswerList</span> variable (rename it)</td>
+</tr><tr><td><span class="listblock">make a list</span></td>
+<td>Lists</td>
+<td>Used to insert the items of the <span style="color:green;">QuestionList</span></td>
+</tr><tr><td><span class="textblock">text</span> (3 of them)</td>
+<td>Text</td>
+<td>The actual questions</td>
+</tr><tr><td><span class="listblock">make a list</span></td>
+<td>Lists</td>
+<td>Used to insert the items of the <span style="color:green;">AnswerList</span></td>
+</tr><tr><td><span class="textblock">text</span> (3 of them)</td>
+<td>Text</td>
+<td>The actual answers</td>
+</tr></table><p>You create global variables by dragging in a <span class="setblock">def variable</span> block from the Definitions drawer and double-clicking the default name "variable" to change its name. The <span class="setblock">def variable</span> block has a slot for the initial value of the variable. The variable can represent a number or text, or even a list, for which you can plug in a <span class="listblock">make a list</span> block into the variable definition.</p>
+<p>The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/questionlist.png" /></p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/AnswerList.png" /></p>
+<h4 class="ai-header">Define the Hidden Index Variable</h4>
+<p>Each time the user clicks the <span style="color:green;">NextButton</span> to proceed through the quiz, the app needs to remember which question it is on. In programming, to remember something, you define a new variable.  In this case, the app needs to remember the current question number -- the index into the list <span style="color:green;">QuestionList</span>.</p>
+<p>To create the variable <span style="color:green;">currentQuestionIndex</span>, you'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="setblock">def variable</span></td>
+<td>Definitions</td>
+<td>Defines the <span style="color:green;">currentQuestionIndex</span> variable (rename it)</td>
+</tr><tr><td><span class="basicblock">number</span> (1)</td>
+<td>Math</td>
+<td>Set the initial value of <span style="color:green;">currentQuestionIndex</span> to 1</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/index.png" /></p>
+<h4 class="ai-header">Display the first question</h4>
+<p>To start, you'll ignore the answers and just work on the behavior to sequence through the questions. The desired behavior is the following: when the app starts, the first question should appear in the label named <span style="color:green;">QuestionLabel</span>. When the user clicks the <span style="color:green;">NextButton</span>, the second question should appear. When the user clicks again, the third should appear. When the last question is reached, clicking the <span style="color:green;">NextButton</span> should result in the first question once again appearing in the <span color="color:green;">QuestionLabel</span>.</p>
+<pre class="ai-box">With App Inventor, you select particular items in a list with the <span class="listblock">select list item</span> block. The block asks you to specify the list and an index--a position in the list. If a list has three items, the indexes 1, 2, and 3 are valid.</pre><p>For <span style="color:green;">QuizMe</span>, when the app starts, the app should choose the first question in the list and display it in the <span style="color:green;">QuestionLabel</span> component.</p>
+<p>For this app initialization behavior, you'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="basicblock">Screen1.Initialize</span></td>
+<td>Screen1</td>
+<td>When the app begins, this event-handler is triggered.</td>
+</tr><tr><td><span class="setblock">set QuestionLabel.Text to</span></td>
+<td>QuestionLabel</td>
+<td>Need to put the first question in <span style="color:green;">QuestionLabel</span></td>
+</tr><tr><td><span class="listblock">select list item</span></td>
+<td>Lists</td>
+<td>Need to select the first question from <span style="color:green;">QuestionLabel</span></td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>The list to select from</td>
+</tr><tr><td><span class="basicblock">number</span> (1)</td>
+<td>Math</td>
+<td>Select the first question by using an index of 1</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/screenInit.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>The <span class="basicblock">Screen1.Initialize</span> event is triggered when the app begins. The first item of the variable <span style="color:green;">QuestionList</span> is selected and placed into <span class="basicblock">QuestionLabel.Text</span>. So when the app begins, the user will see the first question.</p>
+<pre class="ai-testing"><strong style="color:black;">Test this behavior.</strong> Click <span style="color:black;">Restart Phone App</span> (or <span style="color:black;">Connect Phone</span> if not connected). What appears on the phone? If you created the <span style="color:black;">QuestionList</span> as described above, the first item of <span style="color:black;">QuestionList</span>, "Who pitched a perfect game in the World Series?", should appear in the <span style="color:black;">QuestionLabel</span>.</pre><h4 class="ai-header">Iterating Through the Questions</h4>
+<p>Now program the behavior of the <span style="color:green;">NextButton</span>. You've already defined the <span class="listblock">currentQuestionIndex</span> to remember the question the user is on. When <span style="color:green;">NextButton</span> is clicked, the app needs to increment this variable, e.g., change it from 1 to 2 or from 2 to 3, etc., and then use the resulting value to select the new "current" question. For this behavior, you'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="basicblock">NextButton.Click</span></td>
+<td>NextButton</td>
+<td>When user clicks Next, this event-handler is triggered.</td>
+</tr><tr><td><span class="setblock">set currentQuestionIndex to</span></td>
+<td>My Definitions</td>
+<td>Need to put the first question in <span style="color:green;">QuestionLabel</span></td>
+</tr><tr><td><span class="basicblock">+</span> block</td>
+<td>Math</td>
+<td>Used to increment <span style="color:green;">currentQuestionIndex</span></td>
+</tr><tr><td><span class="argblock">global currentQuestionIndex</span></td>
+<td>My Definitions</td>
+<td>New value will be old value + 1</td>
+</tr><tr><td><span class="basicblock">number</span> (1)</td>
+<td>Math</td>
+<td>For the + 1</td>
+</tr><tr><td><span class="setblock">set QuestionLabel.Text to</span></td>
+<td>QuestionLabel</td>
+<td>Need to display the next question here</td>
+</tr><tr><td><span class="listblock">select list item</span></td>
+<td>Lists</td>
+<td>Need to select the first question from <span style="color:green;">QuestionList</span></td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>Plug into <span style="color:green;">list</span> slot of call select list item</td>
+</tr><tr><td><span class="argblock">global currentQuestionIndex</span></td>
+<td>My Definitions</td>
+<td>Plug into <span style="color:green;">index</span> slot of call select list item, we want nth item</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/firstNext.png" /></p>
+<h4 class="ai-header">How the Blocks Work</h4>
+<p>The first row of blocks increments the variable <span style="color:green;">currentQuestionIndex</span>. If <span style="color:green;">currentQuestionIndex</span> has a 1 in it, it is changed to 2. If it has a 2, it is changed to 3, and so on. Once the <span style="color:green;">currentQuestionIndex</span> variable has been changed, the app uses it to select the "current" question.</p>
+<p>Recall that in the <span class="basicblock">Screen.Initialize</span> event-handler, the app selected the first question to display:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/selectFirst.png" /></p>
+<p>When the <span style="color:green;">NextButton</span> is clicked, the app doesn't choose the first item in the list, or the 2nd or 3rd, it chooses the <span class="listblock">currentQuestionIndex</span>-th item.</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/chooseCurrent.png" /></p>
+<p>The blocks are executed in a right-to-left manner. The app first evaluates the index parameter of <span class="listblock">select list item</span>, which is the variable <span style="color:green;">currentQuestionIndex</span>. The number is stored in <span style="color:green;">currentQuestionIndex</span> is used as the index when the select list item is executed.</p>
+<p>When the <span style="color:green;">NextButton</span> is clicked for the first time, the increment blocks will set <span style="color:green;">currentQuestionIndex</span> from 1 to 2, so the app will select the second item from <span style="color:green;">QuestionList</span>, "who pitched the first perfect game of 2010?". The second time <span style="color:green;">NextButton</span> is clicked, <span style="color:green;">currentQuestionIndex</span> will be set from 2 to 3, and the app will select the 3rd question in the list, "who pitched the first perfect game of the modern era?"</p>
+<pre class="ai-testing"><strong style="color:black;">Test this behavior.</strong> Test the behavior of the <span style="color:black;">NextButton</span> to see if the app is working correctly thus far. To test, play the role of the user and click the <span style="color:black;">NextButton</span> on the phone. Does the phone display the second question, "Who pitched the first perfect game of 2010?" It should, and the third question should appear when you click the <span style="color:black;">NextButton</span> again. If this is working, pat yourself on the back quickly, and then go on.
+
+Try clicking the <span style="color:black;">NextButton</span> again (a third time). You should see an error: "Attempting to get item 4 of a list of length 3". The app has a bug-- do you know what the problem is?</pre><p>The problem with the app is that it always increments the <span style="color:green;">currentQuestionIndex</span> variable when the <span style="color:green;">NextButton</span> is clicked.  When <span style="color:green;">currentQuestionIndex</span> is already 3 and the user clicks the <span style="color:green;">NextButton</span>, the app changes <span style="color:green;">currentQuestionIndex</span> from 3 to 4, then calls select list item to get the <span style="color:green;">currentQuestionIndex</span>-th , or in this case, the 4th item. Since there are only three items in the variable <span style="color:green;">QuestionList</span>, Android complains.</p>
+<p>What the app needs to do is ask a question-- check a condition-- when the <span style="color:green;">NextButton</span> is clicked, and execute different blocks dependending on the answer. One way to ask the question is to ask, "is the variable <span style="color:green;">currentQuestionIndex</span> already 3?" If the answer is yes, you should set <span style="color:green;">currentQuestionIndex</span> back to 0 so the user is taken back to the first question.</p>
+<p>You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="controlblock">if test then-do</span></td>
+<td>Control</td>
+<td>To ask if user is on last question</td>
+</tr><tr><td><span class="basicblock">=</span> block</td>
+<td>Math</td>
+<td>to test if <span class="listblock">currentQuestionIndex</span> is 3</td>
+</tr><tr><td><span class="setblock">global currentQuestionIndex</span></td>
+<td>My Definitions</td>
+<td>-</td>
+</tr><tr><td><span class="basicblock">number</span> 3</td>
+<td>Math</td>
+<td>3 is number of items in the list</td>
+</tr><tr><td><span class="setblock">set currentQuestionIndex to</span></td>
+<td>My Definitions</td>
+<td>set to 0 to go back to first question</td>
+</tr><tr><td><span class="basicblock">Number</span> 0</td>
+<td>Math</td>
+<td>set to 0 because next blocks will increment to 1</td>
+</tr></table><p>The modified <span class="basicblock">NextButton.Click</span> event-handler should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/nextif3.png" /></p>
+<h4 class="ai-header">How the blocks work</h4>
+<p>When the <span style="color:green;">NextButton</span> is clicked, the app first checks to see if <span style="color:green;">currentQuestionIndex</span> has a 3 in it. If it does, <span style="color:green;">currentQuestionIndex</span> is set back to 0 so that when 1 is added to it with the blocks below, it will be 1 and the quiz will loop back to display the first question. Note that only the blocks inset within the <span class="controlblock">if-test-then-do</span> block are dependent on the condition-- the increment and set <span class="setblock">QuestionLabel.Text to</span> blocks are executed under all conditions.</p>
+<pre class="ai-testing"><strong style="color:black;">Test this behavior.</strong> Because variables like <span style="color:black;">currentQuestionIndex</span> are hidden, they are often the source of bugs in a program. Fortunately, App Inventor provides a way to make such hidden variables transparent during testing. Specifically, App Inventor allows you to "watch" how the value of a variable change as an app progresses. For this test, right-click the <span style="color:black;">currentQuestionIndex</span> def block in the Blocks Editor and choose <span style="color:black;">Watch</span>. Then choose <span style="color:black;">Restart Phone App</span>. The def block will then appear with a watch box showing the initial value of <span style="color:black;">currentQuestionIndex</span> (which should be 1):
+<img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/watchindex1.png" />
+Now pick up the phone and click the <span style="color:black;">NextButton</span>. The second question, "who pitched the most recent perfect game in the major leagues?" should appear in the <span style="color:black;">QuestionLabel</span> on the phone, as before. On the App Inventor screen, 2 should appear in the <span style="color:black;">currentQuestionIndex</span> memory cell:
+<img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/watchindex2.png" />
+When you click again, the third question should appear on the phone and 3 should appear in the memory cell . If you click again, 1 should appear in <span style="color:black;">currentQuestionIndex</span> and the first question on the phone.</pre><h4 class="ai-header">A Maintainable App: Making it Easy to Modify the Questions</h4>
+<p>Next, you'll modify the app to make it easy to add and remove elements from the list. You'll rewrite the blocks so that they'll work on any list, not just one with exactly three items. To begin, add a fourth question to <span style="color:green;">QuestionList</span> and another answer into <span style="color:green;">AnswerList</span>. The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/listsWith4.png" /></p>
+<pre class="ai-testing"><strong style="color:black;">Test the modified app.</strong> Click the <span style="color:black;">NextButton</span> a number of times. You should see that the fourth question never appears, no matter how many times you click <span style="color:black;">Next</span>.</pre><p>The problem is that the test to see if the user is on the last question is too specific: it asks if the <span style="color:green;">currentQuestionIndex</span> variable is 3:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/if3.png" /></p>
+<p>You could just change the number 3 to a 4, and the app would again work correctly. The problem with this solution, however, is that each time you modify the questions and answers, you also have to remember to make this change. Such dependencies in a computer program often lead to bugs, especially as an app grows in complexity. It's much better to set the program up so that it will work no matter how many questions there are. Such generality is even more important when the list you are working with changes dynamically, e.g., a quiz app that allows the user to add new questions.</p>
+<p>The better solution is to ask the question in a more general way. You really want to know if the current question the user is on-- the value of <span style="color:green;">currentQuestionIndex</span> -- is as large as the number of items in <span style="color:green;">QuestionList</span>. If the app asks the question in this more general manner, it will work even when you add to or remove items from the <span style="color:green;">QuestionList</span>. To modify the <span class="basicblock">NextButton.Click</span> event-handler you'll replace the previous test that referred directly to 3. You'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="listblock">length of list</span></td>
+<td>Lists</td>
+<td>asks how many items are in <span style="color:green;">QuestionList</span></td>
+</tr><tr><td><span class="argblock">global QuestionList</span></td>
+<td>My Definitions</td>
+<td>put into list slot of <span class="listblock">length of list</span></td>
+</tr></table><p>Your <span class="basicblock">NextButton.Click</span> event-handler should now appear as:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/nextWithLength.png" /></p>
+<h4 class="ai-header">How the Blocks Work</h4>
+<p>The <span class="controlblock">if</span> test now compares the <span style="color:green;">currentQuestionIndex</span> to the length of the <span style="color:green;">QuestionList</span>. So if <span style="color:green;">currentQuestionIndex</span> has a 4 in it, and the length of the <span style="color:green;">QuestionList</span> is 4, then the <span style="color:green;">currentQuestionIndex</span> will be set to 0 (and then 1 after the increment operation in the first row of blocks after the if). Note that, because the blocks no longer refer to 3 or any specific size, the behavior will work no matter how many items are in the list.</p>
+<pre class="ai-testing"><strong style="color:black;">Test the modified behavior.</strong> When you click the <span style="color:black;">NextButton</span>, does the app now sequence through the four questions, moving to the first one after the fourth?</pre><h4 class="ai-header">Switching the Image for Each Question</h4>
+<p>The current app shows the same image, no matter what question is being asked. You can change this so an image pertaining to each question appears when the <span style="color:green;">NextButton</span> is clicked. Earlier, you added four pictures as media for the project. Now, you'll create a third list, <span style="color:green;">PictureList</span>, with the names of the image files as its items. and you'll modify the <span class="basicblock">NextButton.Click</span> event-handler to switch the picture each time.</p>
+<p>First, create a <span style="color:green;">PictureList</span> and initialize it with the names of the image files. Be sure that the names are exactly the same as the names of the files that were loaded in to the media of the project. Here's how the blocks for the <span style="color:green;">PictureList</span> should look:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/pictureList.png" /></p>
+<p>Next, you need to modify the <span class="basicblock">NextButton.Click</span> event-handler so that it modifies the picture depending on what question the user is on. If you set the <strong style="color:green;">Image.Picture</strong> property to a file name of an image that has been loaded, that image will appear. To modify <span class="basicblock">NextButton.Click</span>, you'll need the following blocks:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="setblock">set Image1.Picture to	</span></td>
+<td>Image1</td>
+<td>set this to change the picture</td>
+</tr><tr><td><span class="listblock">select list item</span></td>
+<td>Lists</td>
+<td>need to select the picture corresponding to current question</td>
+</tr><tr><td><span class="argblock">global PictureList</span></td>
+<td>My Definitions</td>
+<td>select a file name from this list</td>
+</tr><tr><td><span class="argblock">global currentQuestionIndex</span></td>
+<td>My Definitions</td>
+<td>select the <span style="color:green;">currentQuestionIndex</span>-th item</td>
+</tr></table><p>Here is how the blocks should look:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/nextWithImageSwitch.png" /></p>
+<h4 class="ai-header">How the Blocks Work</h4>
+<p>The <span style="color:green;">currentQuestionIndex</span> serves as the index for the <span style="color:green;">QuestionList</span> and the <span style="color:green;&gt;PictureList&lt;/span&gt;. When &lt;span style=" color:green="">currentQuestionIndex</span> is 1, the app selects the first question and the first picture. When <span style="color:green;">currentQuestionIndex</span> is 2, the app selects the second question and second picture. Of course this scheme depends on the lists being in sync and indeed they are. For instance, the first picture, LarsenBerra.jpg, is a picture of Don Larsen, and Don Larsen is the answer to the first question, "Who pitched a perfect game in the World Series?" Test the modified behavior. Does a different image appear each time you click the <span style="color:green;">NextButton</span>?</p>
+<h4 class="ai-header">Evaluating Answers</h4>
+<p>Next, you'll add blocks that report whether the user has answered a question correctly or not. The user enters the answer in <span style="color:green;">AnswerText</span> and then clicks the <span style="color:green;">AnswerButton</span>. The app must compare the user's entry with the answer to the "current" question, using an <span class="controlblock">ifelse</span> block to check. The <span style="color:green;">RightWrongLabel</span> should be modified to report whether or not the answer is correct. You'll need the following blocks for this behavior:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="basicblock">AnswerButton.Click</span></td>
+<td>AnswerButton</td>
+<td>the behavior is triggered when user clicks the <span style="color:green;">AnswerButton</span></td>
+</tr><tr><td><span class="controlblock">ifelse</span></td>
+<td>Control</td>
+<td>if answer is correct, do one thing, else do another</td>
+</tr><tr><td><span class="basicblock">=</span> block</td>
+<td>Math</td>
+<td>to ask if answer is correct</td>
+</tr><tr><td><span class="argblock">AnswerText.Text</span></td>
+<td>AnswerText</td>
+<td>the user's answer is in this textbox</td>
+</tr><tr><td><span class="listblock">select list item</span></td>
+<td>Lists</td>
+<td>to select the current answer from <span style="color:green;">AnswerList</span></td>
+</tr><tr><td><span class="argblock">global AnswerList</span></td>
+<td>My Definitions</td>
+<td>The list to select from</td>
+</tr><tr><td><span class="argblock">global currentQuestionIndex</span></td>
+<td>My Definitions</td>
+<td>the question number (and answer number) the user is on</td>
+</tr><tr><td><span class="setblock">set RightWrongLabel.Text to</span></td>
+<td>RightWrongLabel</td>
+<td>report the answer here</td>
+</tr><tr><td><span class="textblock">text block</span> "correct"</td>
+<td>Text</td>
+<td>if answer is right</td>
+</tr><tr><td><span class="setblock">set RightWrongLabel.Text to</span></td>
+<td>RightWrongLabel</td>
+<td>report the answer here</td>
+</tr><tr><td><span class="textblock">text block</span> "incorrect"</td>
+<td>Text</td>
+<td>if answer is wrong</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/answerButton.png" /></p>
+<h4 class="ai-header">How the Blocks Work</h4>
+<p>The <span class="controlblock">ifelse</span> test reads, "is the user's answer (<strong style="color:green;">AnswerText.Text</strong>) equal to the <span style="color:green;">currentQuestionIndex</span>-th item in the <span style="color:green;">AnswerList</span>?" If <span style="color:green;">currentQuestionIndex</span> is 1, the app will compare the user's answer with the first item in <span style="color:green;">AnswerList</span>, "Don Larsen". If <span style="color:green;">currentQuestionIndex</span> is 2, the app will compare the user's answer with the second answer in the list, "Dallas Braden", and so on. If the test result is positive, the <span class="controlblock">then-do</span> blocks are executed and the <span style="color:green;">RightWrongLabel</span> is set to "correct!". If the test is false, the <span class="controlblock">else-do</span> blocks are executed and the <span style="color:green;">RightWrongLabel</span> is set to "incorrect".</p>
+<pre class="ai-testing"><strong style="color:black;">Test the modified app.</strong> Try answering one of the questions. It should report whether or not you answered the question exactly as is specified in the <span style="color:black;">AnswerList</span>. Test with both a correct and incorrect answer (because text is being compared, the test is case-sensitive).
+
+Click the <span style="color:black;">NextButton</span> and answer a second question. Does it still work? It should, but you might notice that when you click the <span style="color:black;">NextButton</span>, the "correct"/"incorrect" text and the previous answer are still there. Though it's fairly innocuous, such user interface issues will definitely be noticed by the users of your app.</pre><p>To blank out the <span style="color:green;">RightWrongLabel</span> and the <span style="color:green;">AnswerText</span>, you'll put the following blocks within the <span class="basicblock">NextButton.click</span> event-handler:</p>
+<table><tr style="background-color: #EFEFEF; font-weight: bold;"><td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr><tr><td><span class="setblock">set RightWrongLabel.Text to</span></td>
+<td>RightWrongLabel</td>
+<td>the label to blank out</td>
+</tr><tr><td><span class="textblock">text</span> (blank)</td>
+<td>Text</td>
+<td>When <span style="color:green;">Next</span> is clicked, erase old answer critique</td>
+</tr><tr><td><span class="setblock">set AnswerText.Text to</span></td>
+<td>AnswerText</td>
+<td>the user's answer from previous question</td>
+</tr><tr><td><span class="textblock">text</span> (blank)</td>
+<td>Text</td>
+<td>When <span style="color:green;">Next</span> is clicked, erase old answer</td>
+</tr></table><p>The blocks should look like this:</p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/nextButtonFinal.png" /></p>
+<h4 class="ai-header">How the Blocks Work</h4>
+<p>When the <span style="color:green;">NextButton</span> is clicked, the user is moving on to the next question, so the top two rows of the event-handler blank out the <span style="color:green;">RightWrongLabel</span> and the <span style="color:green;">AnswerText</span>.</p>
+<pre class="ai-testing"><strong style="color:black;">Test this behavior.</strong> Answer a question and click <span style="color;black;">Submit</span>, then click the <span style="color:black;">NextButton</span>. Does your previous answer and the apps critique disappear?</pre><h4 class="ai-header">Final Program</h4>
+<p><strong><span style="color:green;">QuizMe</span>! Final Version:</strong></p>
+<p><img src="http://beta.appinventor.mit.edu/learn/tutorials/quizme/QuizMeAssets/quizmeFinal.png" /></p>
+<p>Package the final version of the app by choosing <strong>Package For Phone | Barcode</strong> from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app.</p>
+<h4 class="ai-header">Variations</h4>
+<p>Once you get a quiz working, you might want to explore some variations. For example,</p>
+<ul><li>Instead of just showing images for each question, try playing a sound clip or a short video. With sound, you can turn your quiz app into a <span style="color:green;">Name That Tune</span> app.</li>
+<li>The quiz is very rigid in terms of what is accepted as a valid answer. There are a number of ways to modify this. One is to use the text.contains block to see if the user's answer is contained in the actual answer. Another is to provide multiple answers for each question, and check by iterating (using <span class="controlblock">foreach</span>) through them to see if any match.</li>
+<li>Transform the quiz so that it is multiple-choice. The list of answers will need to be a list of lists, with each sub-list holding the answer choices. Use the <strong>ListPicker</strong> component to allow the user to choose an answer.</li>
+</ul><h4 class="ai-header">Review</h4>
+<p>Here are some of the ideas covered in this tutorial:</p>
+<ul><li>Apps can be written in a general manner so that they work with any data list.</li>
+<li>Index variables are used to track the current position within a list. When you increment them, be careful about reaching the end of the list.</li>
+</ul><h4 class="ai-header">Scan the Sample App to your Phone</h4>
+<p>Scan the following barcode onto your phone to install and run the sample app.
+</p><p><img src="../sites/all/files/tutorials/quizMe/QuizMeBarcode.png" /></p>
+<h4 class="ai-header">Download Source Code</h4>
+<p>If you'd like to work with this sample in App Inventor, download the <a href="../sites/all/files/tutorials/quizMe/QuizMe.zip">source code</a> to your computer, then open App Inventor, go to the My Projects page, and choose <b>More Actions | Upload Source</b>.</p>
+<pre class="ai-box">MIT and Google are grateful to <a href="http://www.appinventor.org/">Professor David Wolber</a>, CS Professor at The University of San Francisco, for developing this tutorial.
+
+Done with <span style="color:black;">QuizMe</span>? Return to the other tutorials <a href="../tutorials.html">here</a>.</pre><style></style></div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Version:&nbsp;</h2><ul class="field-items"><li class="field-item even"><a href="../tutorial-version/app-inventor-1.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 1</a></li></ul></section><section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Difficulty:&nbsp;</h2><ul class="field-items"><li class="field-item even">Advanced</li></ul></section><section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Type:&nbsp;</h2><ul class="field-items"><li class="field-item even">Game</li><li class="field-item odd">Data Storage</li></ul></section>  </div>
+
+  
+  
+</article>
+
+  </div></div>
+
+        
+      </section>
+
+      <div class="region region-content-aside"><div class="region-inner clearfix"><div id="block-block-25" class="block block-block no-title odd first last block-count-7 block-region-content-aside block-25" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div id="container" style="margin: 10px 0px;width: 60%">
+<div id="sub1" style="float:left;width:22%">
+<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="appinventor">Tweet</a>
+<script>
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+//--><!]]>
+</script></div>
+<div id="sub2" style="float:left;width:24%">
+<div id="fb-root"></div>
+<script>
+<!--//--><![CDATA[// ><!--
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//--><!]]>
+</script><div class="fb-share-button" data-href="" data-type="button_count"></div>
+</div>
+<div id="sub4" style="float:left;width:20%">
+<script src="http://platform.linkedin.com/in.js" type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  lang: en_US
+
+//--><!]]>
+</script><script type="IN/Share" data-counter="right"></script></div>
+<div id="sub5" style="float:left;width:15%">
+<p><a href="http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"><img src="http://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></p>
+<!-- Please call pinit.js only once per page --><script type="text/javascript" async="" src="http://assets.pinterest.com/js/pinit.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+(function(d){
+    var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+    p.type = 'text/javascript';
+    p.async = true;
+    p.src = 'http://assets.pinterest.com/js/pinit.js';
+    f.parentNode.insertBefore(p, f);
+}(document));
+
+//--><!]]>
+</script></div>
+<div id="sub3" style="float:left;width:19%">
+<div class="g-plusone" data-size="medium"></div>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+//--><!]]>
+</script></div>
+</div>
+</div>
+  </div></div></div></div>
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+            <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-3" class="block block-block no-title odd first last block-count-8 block-region-footer block-3" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+
+}
+a strong {
+text-decoration: underline;
+}
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><a href="../index-2.html"><strong>Home</strong></a></li>
+</ul><ul><li><a href="../about-us.html"><strong>About</strong></a></li>
+<li><a href="../about-us.html">About Us</a></li>
+<li><a href="../our-team.html">Our Team</a></li>
+<li><a href="../research.html">Research</a></li>
+<li><a href="../sponsors.html">Sponsors</a></li>
+<li><a href="../master-trainers.html">Master Trainers</a></li>
+<li><a href="../node/955.html">iOS Donors</a></li>
+</ul><ul><li><a href="../news-events.html"><strong>News &amp; Events</strong></a></li>
+<li><a href="../news-events.html">In The News</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../team-blog.html">Team Blog</a></li>
+<li><a href="../app-month-gallery.html">App of the Month</a></li>
+</ul><ul><li><a href="../resources.html"><strong>Resources</strong></a></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../teach.html">Teach</a></li>
+<li><a href="../library.html">Documentation</a></li>
+<li><a href="../ai2/tutorials.html">Tutorials</a></li>
+<li><a href="../books.html">Books</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">Forums</a></li>
+<li><a href="../ai2/support/troubleshooting.html">Troubleshooting</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="../sites/all/sa_3.0_88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;"><a href="http://ai2.appinventor.mit.edu/about/termsofservice.html">Terms of Service</a></p>
+<p style="text-align: center;">© 2012-2019 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+</div>
+  </div></div></div></div>    </footer>
+  
+</div>
+
+  </body>
+</html>

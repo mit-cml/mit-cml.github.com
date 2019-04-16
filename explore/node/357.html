@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../ai2/paintpot-part1.html" />
+<link rel="shortlink" href="357.html" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+  <title>PaintPot (Part 1) for App Inventor 2 | Explore MIT App Inventor</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.base4061.css?pq117e");
+@import url("../modules/system/system.menus4061.css?pq117e");
+@import url("../modules/system/system.messages4061.css?pq117e");
+@import url("../modules/system/system.theme4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min4061.css?pq117e");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min4061.css?pq117e");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/date/date_api/date4061.css?pq117e");
+@import url("../sites/all/modules/date/date_repeat_field/date_repeat_field4061.css?pq117e");
+@import url("../modules/field/theme/field4061.css?pq117e");
+@import url("../modules/node/node4061.css?pq117e");
+@import url("../modules/search/search4061.css?pq117e");
+@import url("../modules/user/user4061.css?pq117e");
+@import url("../sites/all/modules/extlink/extlink4061.css?pq117e");
+@import url("../sites/all/modules/views/css/views4061.css?pq117e");
+@import url("../sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctools4061.css?pq117e");
+@import url("../sites/all/modules/lightbox2/css/lightbox4061.css?pq117e");
+@import url("../sites/all/modules/panels/css/panels4061.css?pq117e");
+@import url("../sites/all/libraries/superfish/css/superfish4061.css?pq117e");
+@import url("../sites/all/libraries/superfish/css/superfish-smallscreen4061.css?pq117e");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/adaptivetheme/at_core/css/at.layout4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/sky/css/html-elements4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/forms4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/tables4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/page4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/articles4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/comments4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/fields4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/blocks4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/navigation4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/color/colors4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/sky.settings.style4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/reset4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/typography4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/layout4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/drupal4061.css?pq117e");
+</style>
+<style type="text/css" media="print">
+@import url("../sites/all/themes/sky/css/print4061.css?pq117e");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.default.layout4061.css?pq117e");
+</style>
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.responsive.layout4061.css?pq117e" media="only screen" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels4061.css?pq117e" media="all" />
+  <script type="text/javascript" src="../sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupal4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.effect.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/extlink/extlink4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/iframe/iframe4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/lightbox2/js/lightbox4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalytics4061.js?pq117e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-31803258-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-slider4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsMasonry/main4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/jquery.hoverIntent.minified4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/sfsmallscreen4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/superfish4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/supersubs4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/superfish/superfish4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/sky/js/scripts4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/newexploretheme/video-js/video4061.js?pq117e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"pJmGYyxhCcGFcqdSqSVel4_I08NWDAPatuDd8rSNpXo","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/iframe\/iframe.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/themes\/appinventor\/assets\/jsMasonry\/main.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.default.layout.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.responsive.layout.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":0,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0,"useragent":"Mozilla\/4.5 (compatible; HTTrack 3.0x; Windows 98)"},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","title":"! ACTIVE AI 2 MAIN MENU"},"supersubs":true}}},"adaptivetheme":{"appinventor":{"layout_settings":{"bigscreen":"two-sidebars-right","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"\u0026#039;only screen and (min-width:769px)$","tablet_portrait":"\u0026#039;only screen and (min-width:481px) $","smalltouch_landscape":"\u0026#039;only screen and (min-width:32$","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-357 node-type-tutorial atv-7.63 color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html"><img class="site-logo" typeof="foaf:Image" src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor" /></a></div>
+          
+    </div>
+    <div id="menu-bar" class="nav clearfix"><nav id="block-superfish-1" class="block block-superfish menu-wrapper menu-bar-wrapper clearfix odd first last block-count-1 block-region-menu-bar block-1" >  
+      <h2 class="element-invisible block-title element-invisible">! ACTIVE AI 2 MAIN MENU</h2>
+  
+  <ul  id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-3 sf-single-items-0"><li id="menu-4230-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="../about-us.html" title="" class="sf-depth-1 menuparent">About ▾</a><ul><li id="menu-4231-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../about-us.html" title="" class="sf-depth-2">About Us  </a></li><li id="menu-4234-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../our-team.html" title="" class="sf-depth-2">Our Team</a></li><li id="menu-5013-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../research.html" title="Research related to MIT App Inventor" class="sf-depth-2">Research</a></li><li id="menu-4233-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../sponsors.html" title="" class="sf-depth-2">Sponsors</a></li><li id="menu-5798-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../master-trainers.html" title="MIT App Inventor Master Trainers" class="sf-depth-2">Master Trainers</a></li><li id="menu-6147-1" class="last even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ios-launch-campaign.html" title="" class="sf-depth-2">iOS Donors</a></li></ul></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">News &amp; Events ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">In The News</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-4429-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../team-blog.html" title="" class="sf-depth-2">Team Blog</a></li><li id="menu-4074-1" class="last even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../app-month-gallery.html" title="Information about the App of the Month Program" class="sf-depth-2">App of the Month</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="../resources.html" title="" class="sf-depth-1 menuparent">Resources ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3783-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="http://teach.appinventor.mit.edu/" title="" class="sf-depth-2">Teach</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Documentation</a></li><li id="menu-3036-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-5012-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../books.html" title="" class="sf-depth-2">Books</a></li><li id="menu-3038-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="https://groups.google.com/forum/#!forum/mitappinventortest" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="last even sf-item-8 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li></ul></li></ul>
+  </nav></div>    <div class="region region-create"><div class="region-inner clearfix"><section id="block-block-21" class="block block-block odd first last block-count-2 block-region-create block-21" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Create Button</h2>
+  
+  <div class="block-content content"><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+      var gotoappinventor = function() {
+          var referrer = document.location.pathname;
+          var patt = /.*hour-of-code.*/;
+          if (referrer.match(patt)) {
+            window.open("http://code.appinventor.mit.edu/", "new");
+          } else {
+            window.open("http://ai2.appinventor.mit.edu/", "new");
+          }
+    }
+
+//--><!]]>
+</script><p><a href="#" onclick="gotoappinventor();"><button style="font-size:120%">Create apps!</button></a></p>
+</div>
+  </div></section></div></div>    </div>
+    <div class="region region-header"><div class="region-inner clearfix"><section id="block-block-31" class="block block-block odd first block-count-3 block-region-header block-31" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Top Headline Block</h2>
+  
+  <div class="block-content content"><div style="color: #0d6622; font-style: italic; font-family: verdana; font-weight: bold; font-size: 18px; padding-top:2px; float:left; position: relative; top: 50%; left: 50%; transform: translate(-50%, 10%);">Anyone Can Build Apps That Impact the World</div>
+</div>
+  </div></section><div id="block-block-7" class="block block-block no-title even last block-count-4 block-region-header block-7" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div style="float:right;">
+<script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div></div>
+  </div></div></div></div>    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content"><section id="block-block-23" class="block block-block odd first block-count-5 block-region-content block-23" >  
+      <h2 class="block-title">Social Icons</h2>
+  
+  <div style="height:50px !important;">
+<p style="float:left;margin: 10px 7px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://plus.google.com/communities/109900432278954380687"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/google%2b.png" style="width:25px;" /></a>    <a href="https://twitter.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="https://www.youtube.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>    <a href="https://groups.google.com/forum/#!forum/mitappinventortest"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/googlegroups.png" style="width:25px;" /></a>    <a href="http://www.weibo.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wb.png" style="width:25px;" /></a>    <a href="http://mp.weixin.qq.com/s?__biz=MzAxODE1NTc1MQ==&amp;mid=201968203&amp;idx=1&amp;sn=01f8946b01a98b63e97e201a812dc844#rd"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wc.png" style="width:25px;" /></a>
+</p></div>
+
+  </section><div id="block-system-main" class="block block-system no-title even last block-count-6 block-region-content block-main" >  
+  
+  <article id="article-357" class="node node-tutorial article odd node-lang-en node-full clearfix" about="/ai2/paintpot-part1" typeof="sioc:Item foaf:Document" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 class="node-title">
+                      PaintPot (Part 1) for App Inventor 2                  </h1>
+      
+      
+    </header>
+    <span property="dc:title" content="PaintPot (Part 1) for App Inventor 2" class="rdf-meta element-hidden"></span>
+  <div class="node-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This tutorial has two parts: <a href="../ai2/paintpot-part1.html">Part 1</a> | <a href="../ai2/paintpot-part2.html">Part 2</a> </p>
+<p>This tutorial introduces the <strong>Canvas</strong> component for creating simple two-dimensional graphics. You'll build an app that lets you draw on the phone screen in different colors.</p>
+<pre class="ai-box"><strong>Historical note</strong>: PaintPot was one of the first programs developed to demonstrate the potential of personal computers, as far back as the 1970s.</pre><p><a href="http://cs.usfca.edu/~wolber/appinventor/bookSplits/ch2PaintPot.pdf">Download Book Chapter PDF</a></p>
+<p><img style="float:right;margin:5px;" src="../sites/all/files/ai2tutorials/paintPot1/PaintPotPart1PhoneImage.png" /></p>
+<p>With the <span style="font-style:italic;">PaintPot</span> app, you can:</p>
+<ul><li>Dip your finger into a virtual paint pot to draw in that color.</li>
+<li>Drag your finger along the screen to draw a line.</li>
+<li>Tap the screen to make dots.</li>
+<li>Use the button at the bottom to wipe the screen clean.</li>
+<li>Include an image as a drawing background.</li>
+</ul><p><span style="font-style:italic;">
+<p>This tutorial assumes that you have completed the <a href="../ai2/hellopurr.html">HelloPurr</a> tutorial. This tutorial introduces the following App Inventor concepts:</p>
+<ul><li>The <strong>Canvas</strong> component for drawing.</li>
+<li>Controlling screen layout with <strong>Arrangement</strong> components.</li>
+<li>Event handlers that take arguments.</li>
+<li>Variables.</li>
+</ul><h4 class="ai-header">Before starting</h4>
+<p>Make sure your computer and your phone are set up to use App Inventor. Start a new project in the Designer window, and name it <span style="font-style:italic;">"PaintPot"</span>. Open the Blocks Editor, click <strong>Connect to Phone</strong>, and make sure the phone has started the App Inventor app.</p>
+<h4 class="ai-header">Screen title</h4>
+<p>To get started, go to the Properties panel on the right of the Designer and change the screen <strong>Title</strong> to "PaintPot". You should see this change on phone, with the new title showing in the title bar.</p>
+<p>There are three names in App Inventor, and it's easy to confuse them:</p>
+<ol><li>The name you choose for your project as you work on it (in this case, <span style="font-style:italic;">PaintPot</span>). This will also be the name of the application if you package it for the phone.</li>
+<li>The name "Screen1", which is the name of the <strong>Screen</strong> component. You'll see it listed in the Components panel in the Designer. You can't change the name of the first Screen component in the current version of App Inventor but you can create additional screens with names of anything you should choose.</li>
+<li>The <strong>Title</strong> property of the screen, which is what you'll see in the phone's title bar. Title is a property of the <strong>Screen</strong> component. The Title starts out being "Screen1", which is what you used in  <span style="font-style:italic;">HelloPurr</span>. However, you can change it, as you're doing for <span style="font-style:italic;">PaintPot</span>. To reiterate, the name and the title of Screen1 are initially the same, but you can change the title if you want.</li>
+</ol><h4 class="ai-header">Set up the Components</h4>
+<p>You'll use these components to make <span style="font-style:italic;">PaintPot</span>:</p>
+<ul><li>Three <strong>Buttons</strong> for selecting <strong style="color:red">red</strong>, <strong style="color:blue">blue</strong>, or <strong style="color:green">green</strong> paint, and another button for wiping the drawing.</li>
+<li>A <strong>Canvas</strong>, the drawing surface. This canvas has a <strong>BackgroundImage</strong>, which is <a href="../sites/all/files/ai2tutorials/helloPurr/kitty.png">this kitty</a> from the <span style="font-style:italic;">HelloPurr</span> tutorial. You can also draw on a blank canvas. That's just a canvas without a background image.</li>
+<li>There's also a component you don't see: you use a <strong>HorizontalArrangement</strong> to make the three color buttons line up.</li>
+</ul><p>That makes five components in all. Let's get them and build the app.</p>
+<h4 class="ai-header">Color Buttons</h4>
+<ul><li>Drag a <strong>Button</strong> component onto the Viewer and change the button's <strong>Text</strong> attribute to "Red" and make its <strong>BackgroundColor</strong> red.</li>
+<li>Click on <span style="font-style:italic;">Button1</span> in the components list in the Viewer to highlight it (it might already be highlighted) and use the <strong>Rename...</strong> button to change its name from "Button1" to "ButtonRed".</li>
+<li>Similarly, make two more buttons for blue and green, named "ButtonBlue" and "ButtonGreen", placing them vertically under the red button.</li>
+</ul><p>Here's how this should look in the designer, with the button names appearing in the list of project components. In this project, you're changing the names of the components rather than leaving them as the default names as you did with <span style="font-style:italic;">HelloPurr</span>. Using meaningful names makes your projects more readable to yourself and others.</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot1/PaintPotThreeButtonsVertically.png" /></p>
+<p>You should also see the three buttons on the phone screen.</p>
+<h4 class="ai-header">Layout with Screen Arrangement</h4>
+<p>You should now have three buttons, one above the other. The next step is to make them line up horizontally. You do this using a <strong>HorizontalArrangement</strong> component.</p>
+<ol><li>From the Palette's Layout category, drag out a <strong>HorizontalArrangement</strong> component and place it under the buttons. Change the name of this component from "HorizontalArrangement1" to "ThreeButtons".</li>
+<li>In the Properties panel, change the <strong>Width</strong> of <span style="font-style:italic;">ThreeButtons</span> to "Fill Parent..." so that it fills the entire width of the screen.</li>
+<li>Move the three buttons side by side into the <strong>HorizontalArrangement</strong> component. <strong>Hint</strong>: You'll see a blue vertical line that shows where the piece you're dragging will go.</li>
+</ol><p>If you look in the list of project components, you'll see the three buttons indented under the <span style="font-style:italic;">ThreeButtons</span> to show that they are now its subcomponents. Notice that all the components are indented under <span style="font-style:italic;">Screen1</span>.</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot1/PaintPotThreeButtonsHoriz.png" /></p>
+<p>You should also see your three buttons line up in a row on the phone screen, although things might not look exactly as on the Designer. For example, the Arrangement's outline shows in the Designer but not on the phone.</p>
+<p>In general, you use Screen Arrangement to create simple vertical or horizontal layouts. You can create more complex layouts by nesting Screen Arrangement components. There is also a <strong>TableArrangement</strong> component (not covered in this tutorial).</p>
+<h4 class="ai-header">Canvas and wipe button</h4>
+<p>The final two components are the canvas and the wipe button.</p>
+<ol><li>From the Palette's Drawing and Animation category drag a <strong>Canvas</strong> component onto the Viewer. Change its name to "DrawingCanvas". Set its <strong>Width</strong> to "Fill Parent" and set its <strong>Height</strong> to 300 pixels.</li>
+<li>Add a Background Image to the <strong>Canvas</strong>. Click on the field containing "None..." next to <strong>BackgroundImage</strong> in the canvas's Properties panel. You can use the same kitty.png file, if you still have it on your desktop from an earlier tutorial. Or you can use another image.<br /><pre class="ai-box">You can use any image you like, but you'll get the best results if the size of the image (in pixels) is close to the size at which you'll be showing it on the phone. Also, large images will take a long time to load, and might exceed the memory capacity of the phone allocates for applications.</pre></li>
+<li>From the Palette, drag the final button onto the screen, placing it under the canvas. Rename this button component to "ButtonWipe" and change its <strong>Text</strong> attribute to "Wipe".</li>
+</ol><p>You've now completed the steps to set the appearance of your app. Here's how this should look in the Designer. Next, you'll define how the components behave.</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot1/PaintPotDesign.png" /></p>
+<h4 class="ai-header">Add behaviors to the components</h4>
+<p>Click the Blocks button to switch to the Blocks Editor. First you will set up the buttons that change the paint color. Later you will add blocks to decide what happens when someone touches or drags the screen.</p>
+<h4 class="ai-header">Add button event handlers</h4>
+<p>In the Blocks Editor:</p>
+<ol><li>Open the drawer for <span style="font-style:italic;">ButtonRed</span> and drag out the <span class="controlblock-ai2">when ButtonRed.Click </span> block.</li>
+<li>Open the <span style="font-style:italic;">DrawingCanvas</span> drawer. Drag out the <span class="setcomponent-ai2">set DrawingCanvas.PaintColor to </span> block (remember that the set block of components is a <a href="../ai2/concepts/dropdowns.html">dropdown</a> so PaintColor is a selection in the dropdown) and place it in the <span class="controlblock-ai2">do</span> section of <span class="controlblock-ai2">when ButtonRed.Click </span>.<br /><img src="../sites/all/files/ai2tutorials/paintPot1/canvasdropdown.gif" /></li>
+<li>Open the Colors drawer and drag out the block for the color Red and put it into <span class="setcomponent-ai2">set DrawingCanvas.PaintColor to </span>. (Clicking on a color block after it's been placed will display a table of colors that you can select from.)</li>
+<li>Repeat steps 2-4 for the blue and green buttons.</li>
+<li>The final button to set up is the Wipe button. Make a click event handler for <span style="font-style:italic;">ButtonWipe</span> by dragging <span class="controlblock-ai2">when ButtonWipe.Click </span> from the <span style="font-style:italic;">ButtonWipe</span> drawer. From the <span style="font-style:italic;">DrawingCanvas</span> drawer, drag <span class="callblock-ai2">call DrawingCanvas.Clear </span> and place it in the <span class="controlblock-ai2">do</span> area of the <span class="controlblock-ai2">when ButtonWipe.Click</span> block.</li>
+</ol><p>The blocks for the buttons should look like this:</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot1/buttonsclick.png" /></p>
+<h4 class="ai-header">Add Touch-event Handlers</h4>
+<p>Now for the next step: drawing on the <strong>Canvas</strong>. You'll arrange things so that when you touch the canvas, you get a dot at the spot where you touch. If you drag your finger slowly along the canvas, it draws a line.</p>
+<ul><li>In the Blocks Editor, open the drawer for the canvas and drag the <span class="controlblock-ai2">when DrawingCanvas.Touched</span> block to the workspace. As soon as you drag the block out, you may notice three argument names (highlighted in orange) located at the top of the block <strong>x</strong>, <strong>y</strong>, and <strong>touchedSprite</strong>. These arguments are also known as local variables and can get accessed by using the <span class="variableblock-ai2">get</span> or <span class="variableblock-ai2">set</span> block found in the Variables drawer and then selecting the proper variable in the drop drown menu. You can also access these variables by moving your cursor over to the highlighted name and selecting the variable you would like to use.</li>
+</ul><p>You've already seen button click events. Clicks are simple, because there's nothing to know about the click other than that it happened. Other event handlers such as <span class="controlblock-ai2">when ... Touched</span> need information about the event. In App Inventor, this information is expressed as the value of arguments associated with the event handler. For the <span class="controlblock-ai2">when ... Touched</span> event, the first two arguments stand for the x and y coordinates of where the touch happened. We'll save <strong>touchedSprite</strong> for a later tutorial.</p>
+<ul><li>For this touch event, make the canvas draw a small circle at the point with coordinates (x, y). Drag out a <span class="callblock-ai2">call DrawingCanvas.DrawCircle</span> command from the canvas drawer and place it in the <span class="controlblock-ai2">do</span> section of <span class="controlblock-ai2">when DrawingCanvas.Touched</span>.</li>
+</ul><p>On the right side of the <span class="callblock-ai2">call DrawingCanvas.DrawCircle</span> block are four sockets where you must specify values for the x and y coordinates where the circle should be drawn, <strong>r</strong>, which is the radius of the circle, and <strong>fill</strong>, which is true to draw a filled circle, or false to draw an outlined circle. For <strong>x</strong> and <strong>y</strong>, you'll use values of the arguments that were supplied to the Touched handler:</p>
+<ol><li>Move your cursor over the x variable (highlighted in orange). Find the <span class="getblock">get x</span> block and drag it into the corresponding x socket in the <span class="controlblock-ai2">when DrawingCanvas.Touched</span> block.</li>
+<li>Do the same for the y variable.</li>
+<li>You'll also need to specify the radius of the circle to draw. Five (pixels) is a good value for this app. Click in a blank area of the screen and type the number 5 followed by return to create a number block with a value of 5. Typing on the blank area of the screen is called <a href="../tips/typeblocking.html">typeblocking</a> and is a useful shortcut to know. This can be done for any block, not just numbers. Plug the block for 5 into the radius slot. Click on the following links for more information on <a href="../ai2/support/concepts/procedures.html">arguments</a> and <a href="../tips/typeblocking.html">typeblocking</a>.</li>
+<li>Drag out a true block from the Logic drawer and plug it into the fill slot. This ensures the dots drawn will be filled in.</li>
+</ol><p>Here's how the touch event handler should look:</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot1/PaintPotTouchHandler.png" /></p>
+<p>Try out what you have so far on the phone. Touch a color button. Now touch the canvas, and your finger should leave a spot at each place you touch. Touching the Wipe button should clear your drawing.</p>
+<h4 class="ai-header">Add Drag Events</h4>
+<p>Finally, add the drag event handler. Here's the difference between a touch and a drag:</p>
+<ul><li>A touch is when you place your finger on the canvas and lift it without moving it.</li>
+<li>A drag is when you place your finger on the canvas and move your finger while keeping it in contact.</li>
+</ul><p>When you drag your finger across the screen, it appears to draw a giant, curved line where you moved your finger. What you're actually doing is drawing hundreds of tiny straight lines: each time you move your finger, even a little bit, you extend the line from your finger's immediate last position to its new position.</p>
+<p>A drag event comes with 6 arguments. These are three pairs of x and y coordinates that show:</p>
+<ul><li>The position of your finger back where the drag started.</li>
+<li>The current position of your finger.</li>
+<li>The immediately previous position of your finger.</li>
+</ul><p>There's also a sprite, which we'll ignore for this tutorial.</p>
+<p>Now make dragging draw a line between the previous position and the current position by creating a drag handler:</p>
+<ol><li>From the <span style="font-style:italic;">DrawingCanvas</span> drawer, drag the <span class="controlblock-ai2">when DrawingCanvas.Dragged</span> block to the workspace.</li>
+<li>Also from the <span style="font-style:italic;">DrawingCanvas</span> drawer, drag the <span class="callblock-ai2">call DrawingCanvas.DrawLine</span> block into the <span class="controlblock-ai2">do</span> slot of the <span class="controlblock-ai2">when DrawingCanvas.Dragged</span> block.</li>
+<li>Drag a <span class="variableblock-ai2">get prevX</span> block to the open <strong>x1</strong> slot in <span class="callblock-ai2">when DrawingCanvas.DrawLine</span>. Do the same for the other spaces: <strong>y1</strong> should be <span class="variableblock-ai2">get prevY</span>, <strong>x2</strong> should be <span class="variableblock-ai2">get currentX</span>, and <strong>y2</strong> should be <span class="variableblock-ai2">get currentY</span>.</li>
+</ol><p>Here's the result:</p>
+<p><img src="../sites/all/files/ai2tutorials/paintPot1/PaintPotDragHandler.png" /></p>
+<p>Test your work by trying it on the phone: drag your finger around on the screen to draw lines and curves. Touch the screen to make spots. Use the Wipe button to clear the screen.</p>
+<p>In <a href="../ai2/paintpot-part2.html">PaintPot Part 2</a>, you'll see how to use global variables to create dots of different sizes.</p>
+<h4 class="ai-header">Review</h4>
+<p>Here are some of the ideas covered in this tutorial:</p>
+<ul><li>You can use Screen Arrangement components to specify screen layouts other than just placing components one under the other.</li>
+<li>The <strong>Canvas</strong> component lets you draw on it. It can also sense touches and drags.</li>
+<li>Some event handlers are called with information about the event, such as the coordinates of where the screen was touched. This information is represented by arguments. When you select an event handler that has arguments, App Inventor creates <span class="variableblock-ai2">value</span> blocks for these.</li>
+</ul><h4 class="ai-header">Scan the Sample App to your Phone</h4>
+<p>Scan the following barcode onto your phone to install and run the sample app.
+</p><p><img src="../sites/all/files/tutorials/paintPot1/PaintPotBarcode.png" /></p>
+<p>Or <a href="../sites/all/files/ai2tutorials/paintPot1/PaintPot.apk">download the apk</a></p>
+<h4 class="ai-header">Download Source Code</h4>
+<p>If you'd like to work with this sample in App Inventor, download the <a href="../sites/all/files/ai2tutorials/paintPot1/PaintPot.aia">source code</a> to your computer, then open App Inventor, click <b>Projects</b>, choose <b>Import project (.aia) from my computer...</b>, and select the source code you just downloaded.</p>
+</span></p></div></div></div><section class="field field-name-field-version field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Version:&nbsp;</h2><ul class="field-items"><li class="field-item even"><a href="../tutorial-version/app-inventor-2.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">App Inventor 2</a></li></ul></section><section class="field field-name-field-tutorial-difficulty field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Difficulty:&nbsp;</h2><ul class="field-items"><li class="field-item even">Basic</li></ul></section><section class="field field-name-field-tutorial-type field-type-taxonomy-term-reference field-label-above view-mode-full view-mode-full"><h2 class="field-label">Tutorial Type:&nbsp;</h2><ul class="field-items"><li class="field-item even">Drawing Canvas</li></ul></section>  </div>
+
+  
+  
+</article>
+
+  </div></div>
+
+        
+      </section>
+
+      <div class="region region-content-aside"><div class="region-inner clearfix"><div id="block-block-25" class="block block-block no-title odd first last block-count-7 block-region-content-aside block-25" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div id="container" style="margin: 10px 0px;width: 60%">
+<div id="sub1" style="float:left;width:22%">
+<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="appinventor">Tweet</a>
+<script>
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+//--><!]]>
+</script></div>
+<div id="sub2" style="float:left;width:24%">
+<div id="fb-root"></div>
+<script>
+<!--//--><![CDATA[// ><!--
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//--><!]]>
+</script><div class="fb-share-button" data-href="" data-type="button_count"></div>
+</div>
+<div id="sub4" style="float:left;width:20%">
+<script src="http://platform.linkedin.com/in.js" type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  lang: en_US
+
+//--><!]]>
+</script><script type="IN/Share" data-counter="right"></script></div>
+<div id="sub5" style="float:left;width:15%">
+<p><a href="http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"><img src="http://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></p>
+<!-- Please call pinit.js only once per page --><script type="text/javascript" async="" src="http://assets.pinterest.com/js/pinit.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+(function(d){
+    var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+    p.type = 'text/javascript';
+    p.async = true;
+    p.src = 'http://assets.pinterest.com/js/pinit.js';
+    f.parentNode.insertBefore(p, f);
+}(document));
+
+//--><!]]>
+</script></div>
+<div id="sub3" style="float:left;width:19%">
+<div class="g-plusone" data-size="medium"></div>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+//--><!]]>
+</script></div>
+</div>
+</div>
+  </div></div></div></div>
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+            <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-3" class="block block-block no-title odd first last block-count-8 block-region-footer block-3" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+
+}
+a strong {
+text-decoration: underline;
+}
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><a href="../index-2.html"><strong>Home</strong></a></li>
+</ul><ul><li><a href="../about-us.html"><strong>About</strong></a></li>
+<li><a href="../about-us.html">About Us</a></li>
+<li><a href="../our-team.html">Our Team</a></li>
+<li><a href="../research.html">Research</a></li>
+<li><a href="../sponsors.html">Sponsors</a></li>
+<li><a href="../master-trainers.html">Master Trainers</a></li>
+<li><a href="955.html">iOS Donors</a></li>
+</ul><ul><li><a href="../news-events.html"><strong>News &amp; Events</strong></a></li>
+<li><a href="../news-events.html">In The News</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../team-blog.html">Team Blog</a></li>
+<li><a href="../app-month-gallery.html">App of the Month</a></li>
+</ul><ul><li><a href="../resources.html"><strong>Resources</strong></a></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../teach.html">Teach</a></li>
+<li><a href="../library.html">Documentation</a></li>
+<li><a href="../ai2/tutorials.html">Tutorials</a></li>
+<li><a href="../books.html">Books</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">Forums</a></li>
+<li><a href="../ai2/support/troubleshooting.html">Troubleshooting</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="../sites/all/sa_3.0_88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;"><a href="http://ai2.appinventor.mit.edu/about/termsofservice.html">Terms of Service</a></p>
+<p style="text-align: center;">© 2012-2019 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+</div>
+  </div></div></div></div>    </footer>
+  
+</div>
+
+  </body>
+</html>

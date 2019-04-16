@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://explore.appinventor.mit.edu"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Benji&#039;s blog</title>
+ <link>http://explore.appinventor.mit.edu/blogs/benji</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Errors and Debugging of Blocks-­Based Programming in App Inventor - a SuperUROP Project</title>
+ <link>http://explore.appinventor.mit.edu/blogs/benji/2014/12</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden view-mode-rss view-mode-rss&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Hi App Inventor World! I’m Benji, a Super UROP on the MIT App Inventor team. Although I do have superpowers (shhh…), &lt;a href=&quot;https://superurop.eecs.mit.edu/&quot; target=&quot;new&quot;&gt;Super UROP is an MIT program&lt;/a&gt; for advanced undergraduates at the Institute to do long-term, intensive research. My research interests lie at the intersection of data science and education. I am currently creating systems to collect data that will help myself and the team better understand how users program with App Inventor’s blocks-based visual programming language, Blockly!&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/ILl8EdWEfkU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;While Blockly is used by millions of users in dozens of projects worldwide, little is known about how people use the blocks. I have created a logging system known as Blocks-Level Analytics (BLA). It logs every step a user takes in her or his app creation process. The basis of my research is that by seeing the entire process (as opposed to just the finished app) programmers go through while creating their programs, in this case apps, we can better understand the thought process of these people as they program.&lt;/p&gt;
+&lt;p&gt;I am currently looking at how errors occur while people program and how these people then resolve the errors (or, in other words, how they debug). BLA enables us to analyze and understand errors in context. The eventual goal of this understanding is to further develop App Inventor and its teaching resources to prevent similar frustrations in the future!&lt;/p&gt;
+&lt;p&gt;You can learn a little more about this research by looking at &lt;a href=&quot;http://explore.appinventor.mit.edu/sites/all/files/blogs/BXiePoster.pdf&quot; target=&quot;new&quot;&gt;this poster&lt;/a&gt; that I presented in early December at the SuperUROP research fair, highlighted in the video above.&lt;/p&gt;
+&lt;p&gt;This research is supervised by Hal Abelson and funded by the MIT EECS - Google Research and Innovation Scholarship.&lt;/p&gt;
+&lt;p&gt;----------&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;About Benji:&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;Benjamin “Benji” Xie is a senior (4th year) at MIT studying computer science and education. He has been working with the App Inventor team since January 2014 and has previous experience in data analytics and software development. Away from the laptop, Benji is a captain of the MIT Cross Country Team and the technical lead for EECScon, a conference showcasing undergraduate research at MIT. He plans on pursuing a masters in engineering (MEng) at MIT next year.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;section class=&quot;field field-name-field-genre field-type-list-text field-label-above view-mode-rss view-mode-rss&quot;&gt;&lt;h2 class=&quot;field-label&quot;&gt;Genre:&amp;nbsp;&lt;/h2&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Blog&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;</description>
+ <pubDate>Mon, 29 Dec 2014 23:54:43 +0000</pubDate>
+ <dc:creator>Benji</dc:creator>
+ <guid isPermaLink="false">567 at http://explore.appinventor.mit.edu</guid>
+</item>
+</channel>
+</rss>

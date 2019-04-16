@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../blogs/karen/2016/04.html" />
+<link rel="shortlink" href="728.html" />
+<link rel="shortcut icon" href="../sites/explore.appinventor.mit.edu/files/AI2-Favicon_1.ico" type="image/vnd.microsoft.icon" />
+  <title>BusBudE Secure Travel Notification System | Explore MIT App Inventor</title>
+  <style type="text/css" media="all">
+@import url("../modules/system/system.base4061.css?pq117e");
+@import url("../modules/system/system.menus4061.css?pq117e");
+@import url("../modules/system/system.messages4061.css?pq117e");
+@import url("../modules/system/system.theme4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min4061.css?pq117e");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min4061.css?pq117e");
+@import url("../sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/date/date_api/date4061.css?pq117e");
+@import url("../sites/all/modules/date/date_repeat_field/date_repeat_field4061.css?pq117e");
+@import url("../modules/field/theme/field4061.css?pq117e");
+@import url("../modules/node/node4061.css?pq117e");
+@import url("../modules/search/search4061.css?pq117e");
+@import url("../modules/user/user4061.css?pq117e");
+@import url("../sites/all/modules/extlink/extlink4061.css?pq117e");
+@import url("../sites/all/modules/views/css/views4061.css?pq117e");
+@import url("../sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/modules/ctools/css/ctools4061.css?pq117e");
+@import url("../sites/all/modules/lightbox2/css/lightbox4061.css?pq117e");
+@import url("../sites/all/modules/panels/css/panels4061.css?pq117e");
+@import url("../sites/all/libraries/superfish/css/superfish4061.css?pq117e");
+@import url("../sites/all/libraries/superfish/css/superfish-smallscreen4061.css?pq117e");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/all/themes/adaptivetheme/adaptivetheme/adaptivetheme/at_core/css/at.layout4061.css?pq117e");
+</style>
+<style type="text/css" media="all">
+@import url("../sites/all/themes/sky/css/html-elements4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/forms4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/tables4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/page4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/articles4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/comments4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/fields4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/blocks4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/navigation4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/color/colors4061.css?pq117e");
+@import url("../sites/all/themes/sky/css/sky.settings.style4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/css/NewExploretheme4061.css?pq117e");
+@import url("../sites/all/themes/newexploretheme/video-js/video-js4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/reset4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/typography4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/layout4061.css?pq117e");
+@import url("../sites/all/themes/appinventor/assets/css/drupal4061.css?pq117e");
+</style>
+<style type="text/css" media="print">
+@import url("../sites/all/themes/sky/css/print4061.css?pq117e");
+</style>
+<style type="text/css" media="screen">
+@import url("../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.default.layout4061.css?pq117e");
+</style>
+<link type="text/css" rel="stylesheet" href="../sites/explore.appinventor.mit.edu/files/adaptivetheme/appinventor_files/appinventor.responsive.layout4061.css?pq117e" media="only screen" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.style4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/sky/css/sky.responsive.gpanels4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/appinventor.responsive.style4061.css?pq117e" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/themes/appinventor/css/modtheme.responsive.gpanels4061.css?pq117e" media="all" />
+  <script type="text/javascript" src="../sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../misc/jquery.once7839.js?v=1.2"></script>
+<script type="text/javascript" src="../misc/drupal4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.effect.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min468f.js?v=1.10.2"></script>
+<script type="text/javascript" src="../sites/all/modules/extlink/extlink4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/iframe/iframe4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/lightbox2/js/lightbox4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/google_analytics/googleanalytics4061.js?pq117e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-31803258-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsImgSlider/js-image-slider4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/appinventor/assets/jsMasonry/main4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/jquery.hoverIntent.minified4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/sfsmallscreen4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/superfish4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/libraries/superfish/supersubs4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/modules/superfish/superfish4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/sky/js/scripts4061.js?pq117e"></script>
+<script type="text/javascript" src="../sites/all/themes/newexploretheme/video-js/video4061.js?pq117e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"appinventor","theme_token":"x8T6aNalwfbb0zyXbaRoUkBp0GnpAphSIp_eXgYdiy0","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/iframe\/iframe.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/appinventor\/assets\/jsImgSlider\/js-image-slider.js":1,"sites\/all\/themes\/appinventor\/assets\/jsMasonry\/main.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/sky\/js\/scripts.js":1,"sites\/all\/themes\/newexploretheme\/video-js\/video.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/sky\/css\/html-elements.css":1,"sites\/all\/themes\/sky\/css\/forms.css":1,"sites\/all\/themes\/sky\/css\/tables.css":1,"sites\/all\/themes\/sky\/css\/page.css":1,"sites\/all\/themes\/sky\/css\/articles.css":1,"sites\/all\/themes\/sky\/css\/comments.css":1,"sites\/all\/themes\/sky\/css\/fields.css":1,"sites\/all\/themes\/sky\/css\/blocks.css":1,"sites\/all\/themes\/sky\/css\/navigation.css":1,"sites\/all\/themes\/newexploretheme\/color\/colors.css":1,"sites\/all\/themes\/sky\/css\/sky.settings.style.css":1,"sites\/all\/themes\/newexploretheme\/css\/NewExploretheme.css":1,"sites\/all\/themes\/newexploretheme\/video-js\/video-js.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/reset.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/typography.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/layout.css":1,"sites\/all\/themes\/appinventor\/assets\/css\/drupal.css":1,"sites\/all\/themes\/sky\/css\/print.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.default.layout.css":1,"public:\/\/adaptivetheme\/appinventor_files\/appinventor.responsive.layout.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.style.css":1,"sites\/all\/themes\/sky\/css\/sky.responsive.gpanels.css":1,"sites\/all\/themes\/appinventor\/css\/appinventor.responsive.style.css":1,"sites\/all\/themes\/appinventor\/css\/modtheme.responsive.gpanels.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":0,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0,"useragent":"Mozilla\/4.5 (compatible; HTTrack 3.0x; Windows 98)"},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/node":true},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","title":"! ACTIVE AI 2 MAIN MENU"},"supersubs":true}}},"adaptivetheme":{"appinventor":{"layout_settings":{"bigscreen":"two-sidebars-right","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"\u0026#039;only screen and (min-width:769px)$","tablet_portrait":"\u0026#039;only screen and (min-width:481px) $","smalltouch_landscape":"\u0026#039;only screen and (min-width:32$","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-728 node-type-blog atv-7.63 color-scheme-default appinventor gecko win fs-medium bs-n bb-n mb-dd rc-0 rct-8 ia-r bf-l snf-a ssf-a ptf-a ntf-a ctf-a btf-a" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" class="container">
+
+  
+  <header class="clearfix" role="banner">
+
+  <div id="top_bar">
+   <div id="branding">
+      <!--        <hgroup>
+                      <h1 id="site-name"><a href="/" title="Home page">Explore MIT App Inventor</a></h1>
+                            </hgroup>
+      -->
+              <div id="logo"><a href="../index-2.html"><img class="site-logo" typeof="foaf:Image" src="../sites/all/themes/appinventor/logo.png" alt="Explore MIT App Inventor" /></a></div>
+          
+    </div>
+    <div id="menu-bar" class="nav clearfix"><nav id="block-superfish-1" class="block block-superfish menu-wrapper menu-bar-wrapper clearfix odd first last block-count-1 block-region-menu-bar block-1" >  
+      <h2 class="element-invisible block-title element-invisible">! ACTIVE AI 2 MAIN MENU</h2>
+  
+  <ul  id="superfish-1" class="menu sf-menu sf-menu-simple-nav sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-3 sf-single-items-0"><li id="menu-4230-1" class="first odd sf-item-1 sf-depth-1 sf-list-anchors sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="../about-us.html" title="" class="sf-depth-1 menuparent">About ▾</a><ul><li id="menu-4231-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../about-us.html" title="" class="sf-depth-2">About Us  </a></li><li id="menu-4234-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../our-team.html" title="" class="sf-depth-2">Our Team</a></li><li id="menu-5013-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../research.html" title="Research related to MIT App Inventor" class="sf-depth-2">Research</a></li><li id="menu-4233-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../sponsors.html" title="" class="sf-depth-2">Sponsors</a></li><li id="menu-5798-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../master-trainers.html" title="MIT App Inventor Master Trainers" class="sf-depth-2">Master Trainers</a></li><li id="menu-6147-1" class="last even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ios-launch-campaign.html" title="" class="sf-depth-2">iOS Donors</a></li></ul></li><li id="menu-2893-1" class="middle even sf-item-2 sf-depth-1 sf-list-anchors sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="../news-events.html" title="" class="sf-depth-1 menuparent">News &amp; Events ▾</a><ul><li id="menu-3040-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../news-events.html" title="" class="sf-depth-2">In The News</a></li><li id="menu-3039-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="../stories.html" title="" class="sf-depth-2">Stories</a></li><li id="menu-4429-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../team-blog.html" title="" class="sf-depth-2">Team Blog</a></li><li id="menu-4074-1" class="last even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../app-month-gallery.html" title="Information about the App of the Month Program" class="sf-depth-2">App of the Month</a></li></ul></li><li id="menu-2894-1" class="last odd sf-item-3 sf-depth-1 sf-list-anchors sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="../resources.html" title="" class="sf-depth-1 menuparent">Resources ▾</a><ul><li id="menu-3041-1" class="first odd sf-item-1 sf-depth-2 sf-list-anchors sf-no-children"><a href="../get-started.html" title="" class="sf-depth-2">Get Started</a></li><li id="menu-3783-1" class="middle even sf-item-2 sf-depth-2 sf-list-anchors sf-no-children"><a href="http://teach.appinventor.mit.edu/" title="" class="sf-depth-2">Teach</a></li><li id="menu-3104-1" class="middle odd sf-item-3 sf-depth-2 sf-list-anchors sf-no-children"><a href="../library.html" title="" class="sf-depth-2">Documentation</a></li><li id="menu-3036-1" class="middle even sf-item-4 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/tutorials.html" title="Tutorials to learn about using MIT App Inventor" class="sf-depth-2">Tutorials</a></li><li id="menu-5012-1" class="middle odd sf-item-5 sf-depth-2 sf-list-anchors sf-no-children"><a href="../books.html" title="" class="sf-depth-2">Books</a></li><li id="menu-3038-1" class="middle even sf-item-6 sf-depth-2 sf-list-anchors sf-no-children"><a href="../resources.html" title="" class="sf-depth-2">Resources</a></li><li id="menu-3037-1" class="middle odd sf-item-7 sf-depth-2 sf-list-anchors sf-no-children"><a href="https://groups.google.com/forum/#!forum/mitappinventortest" title="" class="sf-depth-2">Forums</a></li><li id="menu-3105-1" class="last even sf-item-8 sf-depth-2 sf-list-anchors sf-no-children"><a href="../ai2/support/troubleshooting.html" title="" class="sf-depth-2">Troubleshooting</a></li></ul></li></ul>
+  </nav></div>    <div class="region region-create"><div class="region-inner clearfix"><section id="block-block-21" class="block block-block odd first last block-count-2 block-region-create block-21" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Create Button</h2>
+  
+  <div class="block-content content"><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+      var gotoappinventor = function() {
+          var referrer = document.location.pathname;
+          var patt = /.*hour-of-code.*/;
+          if (referrer.match(patt)) {
+            window.open("http://code.appinventor.mit.edu/", "new");
+          } else {
+            window.open("http://ai2.appinventor.mit.edu/", "new");
+          }
+    }
+
+//--><!]]>
+</script><p><a href="#" onclick="gotoappinventor();"><button style="font-size:120%">Create apps!</button></a></p>
+</div>
+  </div></section></div></div>    </div>
+    <div class="region region-header"><div class="region-inner clearfix"><section id="block-block-31" class="block block-block odd first block-count-3 block-region-header block-31" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Top Headline Block</h2>
+  
+  <div class="block-content content"><div style="color: #0d6622; font-style: italic; font-family: verdana; font-weight: bold; font-size: 18px; padding-top:2px; float:left; position: relative; top: 50%; left: 50%; transform: translate(-50%, 10%);">Anyone Can Build Apps That Impact the World</div>
+</div>
+  </div></section><div id="block-block-7" class="block block-block no-title even last block-count-4 block-region-header block-7" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div style="float:right;">
+<script>
+  (function() {
+    var cx = '005719495929270354943:tlvxrelje-e';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div></div>
+  </div></div></div></div>    
+
+  </header>
+  <div id="featured-block">
+    </div>
+  <div id="columns"class="no-menu-bar"><div class="columns-inner clearfix">
+            
+    
+    <div id="content-column"><div class="content-inner">
+
+      
+            <section id="main-content" role="main">
+
+                        
+        
+        <div id="content"><section id="block-block-23" class="block block-block odd first block-count-5 block-region-content block-23" >  
+      <h2 class="block-title">Social Icons</h2>
+  
+  <div style="height:50px !important;">
+<p style="float:left;margin: 10px 7px;"><a href="https://www.facebook.com/MITAppInventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/facebook.png" style="width:25px;" /></a>    <a href="https://plus.google.com/communities/109900432278954380687"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/google%2b.png" style="width:25px;" /></a>    <a href="https://twitter.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/twitter.png" style="width:25px;" /></a>    <a href="https://www.youtube.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/youtube.png" style="width:25px;" /></a>    <a href="https://groups.google.com/forum/#!forum/mitappinventortest"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/googlegroups.png" style="width:25px;" /></a>    <a href="http://www.weibo.com/mitappinventor"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wb.png" style="width:25px;" /></a>    <a href="http://mp.weixin.qq.com/s?__biz=MzAxODE1NTc1MQ==&amp;mid=201968203&amp;idx=1&amp;sn=01f8946b01a98b63e97e201a812dc844#rd"><img src="../sites/all/themes/appinventor/assets/images/flatSocialMediaIcons/soc-wc.png" style="width:25px;" /></a>
+</p></div>
+
+  </section><div id="block-system-main" class="block block-system no-title even last block-count-6 block-region-content block-main" >  
+  
+  <article id="article-728" class="node node-blog node-promoted article odd node-lang-en node-full clearfix" about="/blogs/karen/2016/04" typeof="sioc:Post sioct:BlogPost" role="article">
+
+  
+        <header class="clearfix">
+
+      
+              <h1 class="node-title">
+                      BusBudE Secure Travel Notification System                  </h1>
+      
+              <div class="submitted"><span property="dc:date dc:created" content="2016-04-04T16:01:25-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/users/karen" typeof="sioc:UserAccount" property="foaf:name" datatype="">Karen</span> on <time datetime="2016-04-04T16:01:25-0400">Mon, 04/04/2016 - 16:01</time></span></div>
+      
+    </header>
+    <span property="dc:title" content="BusBudE Secure Travel Notification System" class="rdf-meta element-hidden"></span>
+  <div class="node-content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><p><i>This is a guest blog post by the BusBudE team, South Fayette Township School District, Pennsylvania</i></p>
+<div style="width: 55%; margin: auto; display: block; padding-top: 20px;">
+<cite><q><b>Every problem has its solution. You just have to be creative enough to find it.</b></q></cite>
+<p style="float:right"><i>Travis Kalanick - Co-founder of Uber</i> </p>
+</div>
+<div id="container" style="display:block; margin:auto; clear:both; width: 95%;">
+<div style="float:left; width="><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude1.png" /></div>
+<div style="float:right; width="><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude2.png" /></div>
+</div>
+<p style="clear:both;">Each year nationwide, there are reports of young children being dropped off of school buses in the wrong neighborhoods, unable to find their way home, and widespread reports in the media of children who are inadvertently left on the bus alone, posing a dangerous health risk. Most children live in households where families work, making it difficult for parents to be home to ensure the safe departure and arrival of their children. School notification systems contact parents during the first hours of school if their child has an unreported absence. Parents often are not aware if their children have returned home at the appropriate time until parents discover them missing hours later. The significant lapse in time can mean the difference between life and death. We put our creativity to the test to find a solution for this problem and created BusBudE Secure Travel Notification System.</p>
+<p>We are the BusBudE Team, middle school and high school students from South Fayette Township School District near Pittsburgh, Pennsylvania. Each member has their own individual role and duty that helps our team stay organized and efficient. Our team includes: Co-project Managers: Joe Cavanaugh (grade: 11), Parv Shrivastava (grade: 8); Director of Computer Programming: Sam Cohen (grade: 11); Computer Programming Team: Anish Thangavelu (grade: 8), Vinay Pedapati (grade: 9); and Director of Business Marketing: Meghan Banerjee (grade: 12). We are part of the Emerging Innovation Leaders Program led by South Fayette’s Director of Technology and Innovation, Aileen Owens. Our goal for BusBudE is to create a system that helps young students board the bus safely and allows parents peace of mind knowing their child is safe.  </p>
+<p>BusBudE is a product designed to help keep students safe while traveling to and from school on the school bus. Currently we are beta testing our product design. Our plan for the future is to create system for parents to register their young children for this service. Currently during beta testing our children receive a tag and small device attached to their backpack. As children enter the bus they scan their BusBudE tag to the mobile device on the bus. Immediately a text message is sent to the child’s parents alerting them as to the date, time, and location that their child enters and leaves the bus. Parents know exactly where their children are when they enter and exit the bus. The BusBude application is designed to increase students’ safety and decrease parents’ fears and apprehension.</p>
+<h3>Technical Aspects</h3>
+<p><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude-screenshot.png" style="float:right; margin-left: 10px;" />BusBudE uses a variety of technology within a cohesive system to keep children safe.  Currently, the major components of BusBudE are near field communication (NFC) tags and a NFC-capable phone.  We envision every bus outfitted with a phone that has NFC capabilities. Each participating student will receive a tag with customized information specific to each child and a custom designed tag holder. When the students enter the bus, they will scan their NFC tag to the NFC reader on the phone. Each phone is loaded with the BusBudE application which takes in the student’s information and puts it into a text that is sent to his or her parents.  Here is an example of a text message:  Sara is getting off bus 10 at 77 Massachusetts Ave, Cambridge, MA 02139.</p>
+<p>
+We designed the prototype app for BusBudE using App Inventor. The app has a variety of features. The features include an accurate location and time based algorithm that detects whether the student is getting on or off the bus in the morning or the afternoon.  With this algorithm, bus drivers do not have to manually select whether a student is getting on or off the bus as we did in an earlier iteration.  Additionally, a notification sounds when the phone as read the tag to notify the student if his or her NFC tag has been scanned, a necessary feature that we added after our first beta test.</p>
+<p>Featured below is a small snippet of the code that takes the name of the student and phone number from the NFC tag.  It shows the BusBudE logo and a counter that increases by 1 every time the student has scanned their tag.</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude-blocks.png" /></p>
+<h3>Design Stages</h3>
+<p>Once we designed the prototype version of the device and programmed the tags and the reader, we decided to beta test the application with a small group of students and their parents. We selected 5 students in 1st and 2nd grade from Bus 10 and ran the first beta test in March 2015.</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude-diagram.png" style="float:right; width: 30%; margin-left: 10px;" />The test concentrated on specific research questions to help develop the app to meet our user needs. We focused on analyzing the technical facets of the device and the students’ responses. The questions we focused on included:</p>
+<ul><li>Would the technical aspects of the device work effectively and efficiently?</li>
+<li>Would there be any time restraints or issues scanning and receiving text messages? </li>
+<li>Would the device be easy for the students to use?</li>
+</ul><p>We held a parent-student training session with five students and their parents from 1st and 2nd grade to explain exactly what the product was intended to do. After distributing the individual badges, we ran through a practice run with the students to set expectations and explain how to scan their badges through role-playing. During the first beta test the device had the capacity to send a text to the student’s parent or guardian with a notification to let parents know that their childe had entered or exited the bus. We provided training for the bus driver and with her assistance located the best placement for the device on the bus.</p>
+<p><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude-team.png" style="float:left; margin-right: 10px;" />On the morning and afternoon of the beta test, Aileen Owens rode the bus and monitored the students, observing and taking notes. After each alert was received, parents texted back to Aileen’s cell phone to let her know that they received the alert. She could then see in real time when students scanned and when the text was received. Parents reported that they received the texts and provided enthusiastic and positive feedback. The first beta test was a success.</p>
+<p>Some of the lessons we learned from this beta test were:</p>
+<ul><li>Scanning cards was easy for the students and was accomplished quickly without significant delay to the bus schedule.</li>
+<li>The reading device on the bus was positioned right for the elementary school children to scan without difficulty. </li>
+<li>The parents really loved the fact that they were receiving texts that alerted them to the fact that their children were safely riding the bus at the right times.</li>
+</ul><p>Potential areas for improvement were also discovered.</p>
+<ul><li>There was no visual cue on the reading device that allowed students to see that their card had been scanned. As a result, some students scanned multiple times since they were not sure if their scan had been completed. As a result, some parents received multiple text messages.</li>
+<li>Another area for improvement was the handling of the reading device on the bus. The Bus driver suggested that the device be switched on at the start of the route and switched off at the end of the route, so that the driver did not have to touch the device at any time during the trip. If the driver were to touch the device anytime in between, it could potentially send repeat messages to parents, and cause confusion.</li>
+<li>The driver also recommended that the text message sends an alert to parents stating the bus number that the students entered. She explained that one of the biggest challenges for elementary students is learning to board the correct bus. There are times that students take a different bus route home from school when traveling to parents living in separate households.</li>
+</ul><p>
+The first beta test presented us with several areas for improvement which we incorporated into the second iteration of the product.</p>
+<p>
+The responses and results of this test were reported to Josh Sheldon, an App Inventor team member from MIT. One of his suggestions was to program the device to include the location of the student when entering and exiting the bus. Josh explained to the team how to use the location sensor feature on the App Inventor program.
+</p>
+<p>
+The team made this addition to the device, upgraded to a higher data plan, and tested the second iteration of the program through a second beta test. This beta test was also successful.  Our team began preparing to expand the device to accommodate more students, and to make adjustments to the badge size and look, with the idea of theoretically scaling-up for implementation for our school transportation department.</p>
+<h3>Beta Tests</h3>
+<p><img src="../sites/explore.appinventor.mit.edu/files/blog/busbude-screenshot2.png" style="float:right" />After the original beta test that took place in mid-2015 with children in grades K-2, the BusbudE team took the opportunity to test an alternate use of the design and to consider product flexibility. South Fayette belongs to Digital Promise, League of Innovative Schools, a nationwide organization designed to accelerate innovation in education. The League hosts meetings twice a year in different parts of the country. In October 2015 they chose to host their meeting in Pittsburgh and visit three League schools including South Fayette. Our BusBudE team prepared 70 tags for visitors. Each visitor was assigned to one of four groups and each group followed a different schedule for the day. When visitors entered the bus to travel from downtown Pittsburgh to South Fayette they scanned their tags and their specific schedule, as well as information and web site links about South Fayette’s computational thinking and STEAM program, was texted to their phone. </p>
+
+<p>
+This beta test of the product provided excellent results. We were able to show that BusBudE could be adapted and configured for other uses. From this beta test we were able to move through another iteration of the application and promptly moved back to development for the intended age group in order to complete a larger beta test in early 2016.
+</p>
+<p>
+The beta test that was completed in March 2016 included 38 students in 1st – 5th grade riding Bus 10. This beta test was a user-centered interaction test with a larger population specifically designed for the following reasons. We changed the plastic 3D printing device that holds the NFC tag and needed to discover: (1) were the devices designed appropriately for small hands, (2) could students use the device effectively, (3) would larger numbers of students scanning tags significantly delay or affect the bus schedule, and (4) to discover any additional challenges or obstacles that must be addressed. During this third test, we encountered our first issue with the system. In the morning students scanned when entering the bus but their parents did not receive the text alert. However, the afternoon test worked well. Parents received the text alerts when students entered and exited the bus. </p>
+<p>
+From this test we learned that we need to build a failsafe system into the BusBudE application. We realize that before the phone was attached to the bus it was dropped down several stairs of the bus. The phone must have turned off but because of the way the case was designed there was no way to visually see that the phone was disconnected. The team is working on a re-design to address this issue. In addition, the team is working on a way to design the app so that students can scan without touching the device to make the scanning process faster. </p>
+<h3>The Future of BusBudE</h3>
+<p>
+Currently BusBudE is in its beta stages, thus there are many aspects that need to be altered and adapted before our product can truly be finished.  In terms of upgrading our system, we would like to integrate a clear light and sound indication for the students.  This would allow them to recognize if their tag scanned and if they are on the correct bus by using a green light and a sound notification for the correct bus and a red light with a sound alert if they are on the wrong bus.  We are also looking into the addition of an external display indicating the status of the scanned NFC tag as a solution to this problem.  Also, we are currently working to edit our code to enable more features such as precise GPS location notification and to further enhance the reach of the application. </p>
+<p>
+The NFC tags we had purchased for previous beta tests weren't cost effective and were a temporary solution, thus we have started collaborating with an Australian based start-up to lower costs for mass orders and integrate our logo onto each tag.  We currently use a phone for our NFC scanner, yet in future iterations we would like to change it to a customized scanner specifically for BusBudE to include increased proximity and reliability.
+</p>
+<p>
+We have already conducted several beta tests, yet with every revision to BusBudE we would like to hold at least one beta test to observe the effect of each specific change in our product. In the future we hope to include full functionality and use of the application serving every student within the South Fayette School District.  From this point, assuming the implementation is successful, we would like to begin to expand to other districts and potentially become an entrepreneurship venture.</p>
+<h2 style="text-align: center">Meet the BusBudE Team from South Fayette Township School District
+<div style="width: 80%; display: block; margin: auto;">
+<img src="../sites/explore.appinventor.mit.edu/files/blog/busbude-team2.png" /><p style="text-align: center;">Anish Thangavelu, 8th Grade; Meghan Banerjee, 12th Grade; Vinay Pedapati, 9th Grade;<br />
+Parv Shrivastava, 8th Grade; Joe Cavanaugh, 11th Grade; Sam Cohen, 11th Grade; Nick Wilke, 11th Grade</p>
+</div>
+</h2></div></div></div>  </div>
+
+      <nav class="clearfix"><ul class="links inline"><li class="blog_usernames_blog first last"><a href="../blogs/karen.html" title="Read Karen&#039;s latest blog entries.">Karen&#039;s blog</a></li></ul></nav>
+  
+  
+</article>
+
+  </div></div>
+
+        
+      </section>
+
+      <div class="region region-content-aside"><div class="region-inner clearfix"><div id="block-block-25" class="block block-block no-title odd first last block-count-7 block-region-content-aside block-25" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><div id="container" style="margin: 10px 0px;width: 60%">
+<div id="sub1" style="float:left;width:22%">
+<a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="appinventor">Tweet</a>
+<script>
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+//--><!]]>
+</script></div>
+<div id="sub2" style="float:left;width:24%">
+<div id="fb-root"></div>
+<script>
+<!--//--><![CDATA[// ><!--
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//--><!]]>
+</script><div class="fb-share-button" data-href="" data-type="button_count"></div>
+</div>
+<div id="sub4" style="float:left;width:20%">
+<script src="http://platform.linkedin.com/in.js" type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  lang: en_US
+
+//--><!]]>
+</script><script type="IN/Share" data-counter="right"></script></div>
+<div id="sub5" style="float:left;width:15%">
+<p><a href="http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"><img src="http://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" /></a></p>
+<!-- Please call pinit.js only once per page --><script type="text/javascript" async="" src="http://assets.pinterest.com/js/pinit.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+(function(d){
+    var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+    p.type = 'text/javascript';
+    p.async = true;
+    p.src = 'http://assets.pinterest.com/js/pinit.js';
+    f.parentNode.insertBefore(p, f);
+}(document));
+
+//--><!]]>
+</script></div>
+<div id="sub3" style="float:left;width:19%">
+<div class="g-plusone" data-size="medium"></div>
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+//--><!]]>
+</script></div>
+</div>
+</div>
+  </div></div></div></div>
+    </div></div>
+
+            
+  </div></div>
+
+      <footer role="contentinfo">
+            <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-3" class="block block-block no-title odd first last block-count-8 block-region-footer block-3" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content no-title"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+#footer-nav {
+width: 60%;
+margin: 0 auto;
+left: 30px;
+margin-bottom: 20px;
+overflow: hidden;
+position: relative;
+
+}
+a strong {
+text-decoration: underline;
+}
+#footer-nav ul{
+width: 24%;
+list-style: none;
+display: block;
+float: left;
+}
+
+/*--><!]]>*/
+</style><div id="footer-nav">
+<ul><li><a href="../index-2.html"><strong>Home</strong></a></li>
+</ul><ul><li><a href="../about-us.html"><strong>About</strong></a></li>
+<li><a href="../about-us.html">About Us</a></li>
+<li><a href="../our-team.html">Our Team</a></li>
+<li><a href="../research.html">Research</a></li>
+<li><a href="../sponsors.html">Sponsors</a></li>
+<li><a href="../master-trainers.html">Master Trainers</a></li>
+<li><a href="955.html">iOS Donors</a></li>
+</ul><ul><li><a href="../news-events.html"><strong>News &amp; Events</strong></a></li>
+<li><a href="../news-events.html">In The News</a></li>
+<li><a href="../stories.html">Stories</a></li>
+<li><a href="../team-blog.html">Team Blog</a></li>
+<li><a href="../app-month-gallery.html">App of the Month</a></li>
+</ul><ul><li><a href="../resources.html"><strong>Resources</strong></a></li>
+<li><a href="../get-started.html">Get Started</a></li>
+<li><a href="../teach.html">Teach</a></li>
+<li><a href="../library.html">Documentation</a></li>
+<li><a href="../ai2/tutorials.html">Tutorials</a></li>
+<li><a href="../books.html">Books</a></li>
+<li><a href="../resources.html">Resources</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/mitappinventortest" target="_blank">Forums</a></li>
+<li><a href="../ai2/support/troubleshooting.html">Troubleshooting</a></li>
+</ul></div>
+<p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="../sites/all/sa_3.0_88x31.png" /></a> <br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+<p style="text-align: center;"><a href="http://ai2.appinventor.mit.edu/about/termsofservice.html">Terms of Service</a></p>
+<p style="text-align: center;">© 2012-2019 <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a></p>
+<p style="text-align: center;"><a href="../contact.html">Contact Us</a></p>
+</div>
+  </div></div></div></div>    </footer>
+  
+</div>
+
+  </body>
+</html>

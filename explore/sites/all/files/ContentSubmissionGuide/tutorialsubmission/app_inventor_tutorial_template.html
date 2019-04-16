@@ -1,0 +1,558 @@
+<!--This HTML template should be used to format tutorials for App Inventor. Fill in this template with the relevant info, and send this file plus any images that go with your tutorials (we encourage several screenshots of the designer and blocks). Anywhere that you see capital letters inside of square brackets, you should fill in your tutorial's information in those spots. You can zip all the files together and email it to aiwebreview@mit.edu. Contact the Education team aiwebreview@mit.edu if you have any questions. -->
+
+
+<h4 class="ai-header">What you're building</h4>
+
+<!--***********Replace the following with your own description*********-->
+
+<p>The [YOUR PROJECT NAME] tutorial demonstrates how [CHANGE THIS TO FIT YOUR APP...] you can control the size of a video playing in an app by using the <strong>Video Player</strong> component's <b style="color:green;">Width</b>, <b style="color:green;">Height</b>, and <b style="color:green;">FullScreen</b> features. The VideoWall uses media assets (videos stored in the app itself), but you can use the app to display videos from the internet as well.</p>
+
+<!--insert a picture of the app - either a screen shot of the Designer window or a screenshot of the running app (getting one from the emulator is easiest)-->
+
+<!--insert a link to the .APK file and a QR code that takes you to the apk so that users can download the app-->
+
+<!--insert a link to the .zip file so users can upload the source code and play with the app-->
+
+
+<!--***********Leave this part here as is*********-->
+<p>This tutorial assumes you are familiar with the basics of App Inventor-- using the Component Designer to build a user interface, and using the Blocks Editor to specify the app's behavior. If you are not familiar with the basics, try stepping through some of the <a href="http://appinventor.mit.edu/explore/content/tutorials.html">basic tutorials</a> before continuing.</a>
+<!--**************************************-->
+
+<h4 class="ai-header">Getting Started</h4>
+
+<p>Connect to the App Inventor web site and start a new project. Name the new project [YOUR PROJECT NAME] and set the screen's Orientation to Landscape.</p>
+
+<!--***********Put links to any media files they will need to get. If none, then delete this part-->
+
+<p>Download the following image/video files for use later on:</p>
+
+<ul>
+<li><a href="#">BigBuckBunny (bigbuckbunny.3gp)</a></li>
+<li><a href="#">NASA (nasa.3gp)</a></li>
+<li><a href="#">Sintel (sintel.3gp)</a></li>
+</ul>
+
+<h4 class="ai-header">Introduction</h4>
+
+<!-- INSERT YOUR OWN WORDING BELOW-->
+<p>The finished VideoWall app will display a wall of three videos that can be expanded to their true size and then shrunk back down again. The app will also allow you to display the videos in fullscreen. This tutorial assumes you have followed earlier tutorials to learn how the following blocks work:</p>
+
+<ul>
+<li><span class="argblock">Variables</span></li>
+<li><span class="callblock">Procedures</li>
+<li><span class="basicblock">Button.Click blocks</span></li>
+<li><span class="controlblock">Logic (if-else) blocks</li>
+</ul>
+
+<p>This tutorial introduces the following:</p>
+<!-- INSERT YOUR OWN WORDING BELOW-->
+<ul>
+<li>Using Advanced blocks</li>
+<li>Resizing the VideoPlayer</li>
+<li>Showing the VideoPlayer video in fullscreen mode</li>
+</ul>
+
+<h4 class="ai-header">Set up the Components</h4>
+
+<p>Use the component designer to create the interface for the <span style="color:green;">[YOUR APP NAME]</span>. When completed, the designer should look similar to the snapshot below.</p>
+
+<!-- INCLUDE A SCREENSHOT OF YOUR USER INTERFACE FROM THE DESIGN WINDOW-->
+
+<img src="#" />
+
+<p>Descriptive text should go between paragraph tags like this.</p>
+
+<!-- This table is for showing the user all of the things they need to put into the design window, with a short explanation of what each one will do. Delete the things below and add your own.-->
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>
+Component Type
+</td>
+<td>
+Palette Group
+</td>
+<td>
+What you'll name it
+</td>
+<td>
+Purpose of Component
+</td>
+</tr>
+<tr>
+<td>
+<b>HorizontalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">HorizontalArrangement1</td>
+<td>Holds all other components: makes the three vertical arrangements line up side by side</td>
+</tr>
+<tr>
+<td>
+<b>VerticalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">VerticalArrangement1</td>
+<td>Holds the left-most VideoPlayer and controls</td>
+</tr>
+<tr>
+<td>
+<b>VerticalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">VerticalArrangement2</td>
+<td>Holds the middle VideoPlayer and controls</td>
+</tr>
+<tr>
+<td>
+<b>VerticalArrangement</b>
+</td>
+<td>Screen Arrangement</td>
+<td style="color:green;">VerticalArrangement3</td>
+<td>Holds the right-most VideoPlayer and controls</td>
+</tr>
+<tr>
+<td>
+<b>VideoPlayer</b>
+</td>
+<td>Media</td>
+<td style="color:green;">VideoPlayer1</td>
+<td>Displays the BigBuckBunny video</td>
+</tr>
+<tr>
+<td>
+<b>VideoPlayer</b>
+</td>
+<td>Media</td>
+<td style="color:green;">VideoPlayer2</td>
+<td>Displays the NASA video</td>
+</tr>
+<tr>
+<td>
+<b>VideoPlayer</b>
+</td>
+<td>Media</td>
+<td style="color:green;">VideoPlayer3</td>
+<td>Displays the Sintel video</td>
+</tr>
+<tr>
+<td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">ResizeButton1</td>
+<td>Resizes VideoPlayer1</td>
+</tr>
+<tr>
+<td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">ResizeButton2</td>
+<td>Resizes VideoPlayer2</td>
+</tr>
+<tr>
+<td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">ResizeButton3</td>
+<td>Resizes VideoPlayer3</td>
+</tr>
+<tr>
+<td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">FullScreenButton1</td>
+<td>Shows the VideoPlayer1 video in fullscreen</td>
+</tr>
+<tr>
+<td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">FullScreenButton2</td>
+<td>Shows the VideoPlayer2 video in fullscreen</td>
+</tr>
+<tr>
+<td>
+<b>Button</b>
+</td>
+<td>Basic</td>
+<td style="color:green;">FullScreenButton3</td>
+<td>Shows the VideoPlayer3 video in fullscreen</td>
+</tr>
+</table>
+
+<p>Set the properties as described below:</p>
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>Component</td>
+<td>Action</td>
+</tr>
+<tr>
+<td style="color:green;">HorizontalArrangement1</td>
+<td>Set Width to Fill parent...</td>
+</tr>
+<tr>
+<td style="color:green;">VerticalArrangement1, VerticalArrangement2, <span style="color:black;">and</span> VerticalArrangement3</td>
+<td>Set Width to Fill parent...</td>
+</tr>
+<tr>
+<td style="color:green;">ResizeButton1, ResizeButton2, <span style="color:black;">and</span> ResizeButton3</td>
+<td>Set Text to "Grow" and set Width to Fill parent...</td>
+</tr>
+<tr>
+<td style="color:green;">FullScreenButton1, FullScreenButton2, <span style="color:black;">and</span> FullScreenButton3
+</td>
+<td>Set Text to Show FullScreen and set Width to Fill parent...</td>
+</tr>
+<tr>
+<td style="color:green;">VideoPlayer1</td>
+<td>Set Source to bigbuckbunny.3gp , set Width to Fill parent... , and set Height to 36 pixels</td>
+</tr>
+<tr>
+<td style="color:green;">VideoPlayer2</td>
+<td>Set Source to nasa.3gp , set Width to Fill parent... , and set Height to 36 pixels</td>
+</tr>
+<tr>
+<td style="color:green;">VideoPlayer3</td>
+<td>Set Source to sintel.3gp , set Width to Fill parent... , and set Height to 36 pixels</td>
+</tr>
+</table>
+
+<h4 class="ai-header">Add Behaviors to the Components</h4>
+
+<p>The interface is complete, but the buttons don't resize the videos yet. Open the Blocks Editor to add the behavior to the buttons. First, you'll define three variable blocks to keep track of the size of the VideoPlayers:</p>
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">def variable</span></td>
+<td>Definition</td>
+<td>Defines the vid1_zoomed variable (rename it)</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">def variable</span></td>
+<td>Definition</td>
+<td>Defines the vid2_zoomed variable (rename it)</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">def variable</span></td>
+<td>Definition</td>
+<td>Defines the vid3_zoomed variable (rename it)</td>
+</tr>
+</table>
+
+<p>The three variables should like this:</p>
+
+<img src="../../../../explore.appinventor.mit.edu/files/flagblocks.png" />
+
+<p>Create the <span class="callblock">resizeVideoPlayer Procedure</span> block. There are three VideoPlayers in the app, but you'll use one Procedure block to resize all three. To accomplish this simplicity, you will use the Advance blocks component <span class="setblock">Any VideoPlayer</span> blocks. Create the <span class="callblock">resizeVideoPlayer Procedure</span> block using the following blocks:</p>
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">Procedure</span></td>
+<td>Definition</td>
+<td>Defines the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">name</span> (x5)</td>
+<td>Definition</td>
+<td>Defines the VideoPlayer argument for the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">name</span> (x2)</td>
+<td>Definition</td>
+<td>Defines the zoomed argument for the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">name</span> (x3)</td>
+<td>Definition</td>
+<td>Defines the button argument for the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">ifelse</span></td>
+<td>Control</td>
+<td>Defines the ifelse block that chooses whether the VideoPlayer is shrunk or expanded</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">=</span> block</td>
+<td>Logic</td>
+<td>Defines the equals block for testing if the zoomed block is true</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">true</span></td>
+<td>Logic</td>
+<td>Defines the block that zoomed is compared to</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">VideoPlayer.Width</span> (x2)</td>
+<td>Any VideoPlayer</td>
+<td>Sets the VideoPlayer Width to a number</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">Number (-1)</span> (x2)</td>
+<td>Math</td>
+<td>Width to set VideoPlayer to</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">VideoPlayer.Height </span> (x2)</td>
+<td>Any VideoPlayer</td>
+<td>Sets the VideoPlayer Height to a number</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">Number</span> (x2), values of 26 and 144</td>
+<td>Math</td>
+<td>Height to set VideoPlayer to</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">Button.text</span></td>
+<td>Any Button</td>
+<td>Changes the button text</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">Text</span></td>
+<td>Text</td>
+<td>Text to set button to. Make one text block text's Shrink and the other's Grow.</td>
+</tr>
+</table>
+
+<p>The <span class="callblock">resizeVideoPlayer</span> block should look like the following:</p>
+
+<img src="../../../../explore.appinventor.mit.edu/files/resize_block.png" />
+
+<p>The <span class="callblock">resizeVideoPlayer</span> block will be explained later after you create the blocks for responding to button clicks.</p>
+
+<h4 class="ai-header">Create the Click Blocks</h4>
+
+<p>The blocks you will create respond to clicks on the ResizeButton buttons. To build the three blocks, you will need the following blocks:</p>
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">ResizeButton1.Click</span></td>
+<td>ResizeButton1</td>
+<td>Defines the block for responding to clicks on ResizeButton1</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">ResizeButton2.Click</span></td>
+<td>ResizeButton2</td>
+<td>Defines the block for responding to clicks on ResizeButton2</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">ResizeButton3.Click</span></td>
+<td>ResizeButton3</td>
+<td>Defines the block for responding to clicks on ResizeButton3</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">ResizeVideoPlayer</span> (x3)</td>
+<td>My Definitions</td>
+<td>Starts the resizeVideoPlayer block for resizing a VideoPlayer</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">not</span> (x3)</td>
+<td>Logic</td>
+<td>Defines the block for switching the various zoomed block values</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">set global vid1_zoomed</span></td>
+<td>My Definitions</td>
+<td>Sets the vid1_zoomed block to a different value</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">set global vid2_zoomed</span></td>
+<td>My Definitions</td>
+<td>Sets the vid2_zoomed block to a different value</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">set global vid3_zoomed</span></td>
+<td>My Definitions</td>
+<td>Sets the vid3_zoomed block to a different value</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">global vid1_zoomed</span></td>
+<td>My Definitions</td>
+<td>Used to change the vid1_zoomed value.</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">global vid2_zoomed</span></td>
+<td>My Definitions</td>
+<td>Used to change the vid2_zoomed value.</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">global vid3_zoomed</span></td>
+<td>My Definitions</td>
+<td>Used to change the vid3_zoomed value.</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">component ResizeButton1</span></td>
+<td>ResizeButton1</td>
+<td>Passed to the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">component ResizeButton2</span></td>
+<td>ResizeButton2</td>
+<td>Passed to the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">component ResizeButton3</span></td>
+<td>ResizeButton3</td>
+<td>Passed to the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">component VideoPlayer1</span></td>
+<td>VideoPlayer1</td>
+<td>Passed to the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">component VideoPlayer2</span></td>
+<td>VideoPlayer2</td>
+<td>Passed to the resizeVideoPlayer procedure</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">component VideoPlayer3</span></td>
+<td>VideoPlayer3</td>
+<td>Passed to the resizeVideoPlayer procedure</td>
+</tr>
+</table>
+
+<p>The blocks should look like the following:</p>
+
+<img src="../../../../explore.appinventor.mit.edu/files/resize_blocks.png" />
+
+<p>Most blocks in App Inventor require you to know exactly what component your app will manipulate when you design the app. For some apps, you will have several of the same type of component and you want to program the same behavior for all of the similar components (like the VideoPlayer blocks in this app). The blocks in the Advanced section allow you to build some general manipulation on some type of component. When you built the <span class="callblock">resizeVideoPlayer procedure</span> block, you didn't know specifically which VideoPlayer would be used in the procedure. The <span class="callblock">resizeVideoPlayer</span> works on VideoPlayers; but not until the <span class="callblock">resizeVideoPlayer</span> block is used in the <span class="basicblock">ResizeButton1.Click</span> block (for example) is the specific VideoPlayer known.</p>
+
+<b>Note:</b> The <span style="color:green;">VideoWall</span> app could have been designed with a specific resizing procedure for each VideoPlayer. By using the Advanced blocks in a single resizing procedure, the app is much simpler.
+
+<h4 class="ai-header">How the Blocks Work</h4>
+
+<p>Setting the Width and Height property for a VideoPlayer works exactly the same way as setting the Width and Height of a Button. For whatever positive number is set, the video playing will resize its appearance to fit that value. There are two values that are exceptions to the using positive values rule: -1 and -2. Setting VideoPlayer.Width or VideoPlayer.Height to -1 is like setting the Width or Height to <em>Fill parent</em> in the designer. Setting VideoPlayer.Width or VideoPlayer.Height to -2 is like setting the Width or Height to <em>Automatic</em> in the designer.</p>
+
+<pre class="ai-warning"><b>Warning:</b> You can set the VideoPlayer Width and Height to any positive number you want. The VideoPlayer will change its size to match the values you set; but on some devices, the VideoPlayer does not change its size correctly. The behavior on such devices is usually unpredictable.</pre>
+
+<pre class="ai-testing"><b>Test this behavior.</b> Click on the Grow button below the BigBuckBunny video. The video's size should expand, and the text of the button should change to "Shrink". Click on the Shrink button below the BigBuckBunny video. The video's size should shrink back to its original size and the text should change back to "Grow".</pre>
+
+<h4 class="ai-header">Create the blocks for showing fullscreen video</h4>
+
+<p>You will now add the blocks for showing the videos in fullscreen mode. Use the following blocks:</p>
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>Block Type</td>
+<td>Drawer</td>
+<td>Purpose</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">true</span> (x3)</td>
+<td>Logic</td>
+<td>Value to set FullScreen as</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">FullScreenButton1.Click</span></td>
+<td>FullScreenButton1</td>
+<td>Responds to clicks on FullScreenButton1</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">set VideoPlayer1.FullScreen</span></td>
+<td>VideoPlayer1</td>
+<td>Used to show fullscreen video</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">FullScreenButton2.Click</span></td>
+<td>FullScreenButton2</td>
+<td>Responds to clicks on FullScreenButton2</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">set VideoPlayer2.FullScreen</span></td>
+<td>VideoPlayer2</td>
+<td>Used to show fullscreen video</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">FullScreenButton3.Click</span></td>
+<td>FullScreenButton3</td>
+<td>Responds to clicks on FullScreenButton3</td>
+</tr>
+<tr>
+<td><span class="ai-blocks">set VideoPlayer3.FullScreen</span></td>
+<td>VideoPlayer3</td>
+<td>Used to show fullscreen video</td>
+</tr>
+</table>
+
+<p>The blocks should look like the following:</p>
+
+<img src="../../../../explore.appinventor.mit.edu/files/fullscreen_blocks.png" />
+
+<h4 class="ai-header">How the Blocks Work</h4>
+
+<p>The <span class="setblock">VideoPlayer.FullScreen</span> block takes a true/false value (also called a boolean) to tell it whether to go full screen or not. Setting a <span class="setblock">VideoPlayer.FullScreen</span> block to true causes that VideoPlayer to be displayed in fullscreen mode. If there is another VideoPlayer in fullscreen mode, that VideoPlayer's .FullScreen value is set to false and it is replaced with the current VideoPlayer. If a <span class="setblock">VideoPlayer.FullScreen</span> is true, setting a <span class="setblock">VideoPlayer.FullScreen</span> block to false causes the fullscreen mode to be exited and the app's interface to display. Test this behavior. Start playing the BigBuckVideo, and click on the Show FullScreen button below the BigBuckBunny video. The app's interface should disappear and some media controls with the BigBuckBunny video should appear. Use the Back button on your device or the emulator to exit fullscreen. The app's interface should appear.</p>
+
+<h4 class="ai-header">Final Program</h4>
+
+<p>VideoWall Final Version</p>
+
+<img src="../../../../explore.appinventor.mit.edu/files/blockseditor_full.png" />
+
+<p>Package the final version of the app by choosing <b>Package For Phone | Barcode</b> from the Component Designer menu. When the barcode appears, use the barcode scanner on your phone to download and install the app. 
+
+<h4 class="ai-header">Variations</h4>
+
+<p>Now that you have finished the first <span style="color:green;">VideoWall</span> app, you might want to build some variations. For example:</p>
+
+<ul>
+<li>Get more video files and add a second row to create a real VideoWall</li>
+<li>Use videos from an online server.</li>
+<li>Expand the resizeVideoPlayer procedure to resize VideoPlayers by small increments to create an animation effect. You could use multiple Clocks to start the resizeVideoPlayer procedure and animate multiple VideoPlayers at once.</li>
+</ul>
+
+<p><b>If you distribute your app to others, make sure you respect any license requirements for the videos you use.</b></p>
+
+<!-- YOU CAN DELETE WHAT'S BELOW BUT IF YOU USED COPYRIGHTED MEDIA YOU SHOULD GIVE ATTRIBUTION HERE -->
+
+<p>Below are the attributions to the video files included in this demo app. The creators of the source videos that these clips are from do not endorse App Inventor.</p>
+
+<table>
+<tr style="background-color: #EFEFEF; font-weight: bold;">
+<td>Video File</td>
+<td>Information</td>
+<td>Attribution</td>
+</tr>
+<tr>
+<td>bigbuckbunny.3gp</td>
+<td>A clip from the full length film</td>
+<td>(c) copyright 2008, Blender Foundation / http://www.bigbuckbunny.org</td>
+</tr>
+<tr>
+<td>nasa.3gp</td>
+<td>A formatted version of the Mars' Whirling Dust Devil clip.</td>
+<td>Here is the <a>original video.</a></td>
+</tr>
+<tr>
+<td>sintel.3gp</td>
+<td>A clip from the full length film
+</td>
+<td>(c) copyright Blender Foundation | http://durian.blender.org</td>
+</tr>
+</table>
+
+<!-- INSERT YOUR OWN NAME BELOW, if you'd like->
+
+<pre class="ai-box">MIT is grateful to <a href="../../../../../people/vance-turnewitsch.html">Vance Turnewitsch</a> for developing this tutorial.
+
+Done with <span style="color:black;">VideoWall</span>? Return to the other tutorials <a href="../../../../../content/tutorials.html">here</a>.</pre>
