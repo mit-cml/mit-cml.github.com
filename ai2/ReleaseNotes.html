@@ -436,6 +436,85 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb175b to nb176 (May 10, 2019)</h2>
+                        <p>Note: This is a Component Release with a new Companion. There are actually two different Companions
+                            for this release. Version 2.52 which is available from Google Play. Version 2.52u is directly
+                            downloadable from ai2.appinventor.mit.edu (Help-&gt;Companion Information). The 2.52 version
+                            implements some restrictions mandated by Google. These restrictions are not present in version
+                            2.52u.</p>
+                        <p>More information about this release can be found <a href="https://docs.google.com/document/d/e/2PACX-1vTn1utPFg6G6uatIW6ZK-exmFsdTLEHPQ-ODwLWc5vguwh9M8L9Xc8yN-qWteh_8VPS7QCLtKSKYlkX/pub" target="_blank">on this detail page.</a></p>
+                        <ul>
+                            <li>New features:
+                                <ul>
+                                    <li>Added Hungarian translation
+                                    </li>
+                                    <li>Added German translation
+                                    </li>
+                                    <li>Added new User Interface component: Switch
+                                    </li>
+                                    <li>Added ShowPasswordDialog method to Notifier
+                                    </li>
+                                    <li>Added DrawShape and DrawArc methods to Canvas
+                                    </li>
+                                    <li>Added MakeDate, MakeTime, and MakeInstantFromParts methods to Clock
+                                    </li>
+                                    <li>Added Stop method to VideoPlayer
+                                    </li>
+                                    <li>Added "join with separator" block
+                                    </li>
+                                    <li>Added "reverse list" block
+                                    </li>
+                                    <li>Added generic (e.g., when any Button click) events
+                                    </li>
+                                    <li>Added menu option to convert blocks to/from "any component" form
+                                    </li>
+                                    <li>Added buttons to navigate through warnings and errors on the blocks workspace
+                                    </li>
+                                    <li>Added a dropdown to switch designer preview size
+                                    </li>
+                                    <li>Added a menu option to the blocks editor to hide the controls
+                                    </li>
+                                    <li>Corrected the order of Copy/Paste All Blocks from Backpack to match the traditional order (i.e., Copy before Paste)
+                                    </li>
+                                    <li>Increased contrast of blocks editor controls
+                                    </li>
+                                    <li>Implemented app isolation in Map component
+                                    </li>
+                                    <li>Made blocks return to their original positions if a trashing operation is cancelled
+                                    </li>
+                                    <li>Made component blocks and property getters usable in "initialize global variable" blocks
+                                    </li>
+                                    <li>Made locale saved by the system so returning users will automatically see the last locale used rather than English
+                                    </li>
+                                    <li>Moved the "Empty Backpack" context menu item from the workspace to the backpack
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Bugfixes:
+                                <ul>
+                                    <li>Fixed a bug that prevented ActivityStarter, Sharing, and Camera from correctly sharing files on older versions of Android
+                                    </li>
+                                    <li>Fixed a bug where the "no projects dialog" would be shown when opening a gallery link
+                                    </li>
+                                    <li>Fixed a bug that caused the Terms of Service page to forget new user information (e.g., locale)
+                                    </li>
+                                    <li>Removed dead code related to package installation
+                                    </li>
+                                    <li>Fixed issues with HolePoints property in the Polygon component
+                                    </li>
+                                    <li>Fixed blocks PNG export in Safari
+                                    </li>
+                                    <li>Hide the progress bar when a dialog appears
+                                    </li>
+                                    <li>Fixed bug that prevented arrow key navigation in typeblocking
+                                    </li>
+                                    <li>Fixed an issue with themes due to initialization order of components and properties
+                                    </li>
+                                    <li>Fixed a logic bug in MakePhoneCallDirect that launched the default dialer app rather than directly calling
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <h2>Changes between nb175a and nb175b (March 3, 2019)</h2>
                         <ul>
                             <li>Minor bugfix to fix issue with loading template projects from appinventor.mit.edu.
