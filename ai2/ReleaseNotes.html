@@ -436,6 +436,30 @@
                             documented on this page. Note: Versions that
                             end with a letter (for example: nb117c) are
                             bugfix releases.</p>
+                        <h2>Changes between nb176 an nb177 (May 25, 2019)</h2>
+                        <p>Note: This is mostly a bugfix release. There is a new Companion,
+                            version 2.53 (and version 2.53u if downloaded directly
+                            from http://ai2.appinventor.mit.edu).</p>
+                        <p>Companion Upgrade is encouraged, particularly if you are experiencing poor
+                            connectivity with your PC. It includes significant improvements with
+                            how we use WebRTC to commmunicate between the Companion and your PC (WebRTC is the
+                            technology used if "Legacy Mode" is not selected).</p>
+                        <ul>
+                            <li>Switch component should work correctly in Classic theme</li>
+                            <li>Return of the Update Companion menu item in order to force an update of the emulator</li>
+                            <li>Fix translations of event parameters when switching languages</li>
+                            <li>Make the word "global" internationalizable ("global" from "global variable")</li>
+                            <li>Make English the blocks editor base language. This will result in untranslated words in a language being presented in English instead of an arbitrary different language</li>
+                            <li>Fallback to application/octet-stream for unknown file types. This permits the downloading of files that are not understood by the system</li>
+                            <li>Maps Fixes
+                                <ul>
+                                    <li>Apply AnchorHorizontal and AnchorVertical values to Marker</li>
+                                    <li>Initialize polygons loaded at runtime</li>
+                                </ul>
+                            </li>
+                            <li>WebRTC (non legacy companion connection) stability improvements, particularly for high latency networks</li>
+                            <li>Other Minor bugfixes</li>
+                        </ul>
                         <h2>Changes between nb175b to nb176 (May 10, 2019)</h2>
                         <p>Note: This is a Component Release with a new Companion. There are actually two different Companions
                             for this release. Version 2.52 which is available from Google Play. Version 2.52u is directly
