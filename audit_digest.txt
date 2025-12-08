@@ -1,0 +1,136 @@
+Disk usage before clone:
+Filesystem        Size Used Avail Use% Mounted on
+/dev/block/dm-12  879M 876M     0 100% /
+tmpfs             3.5G 1.9M  3.5G   1% /dev
+tmpfs             3.5G    0  3.5G   0% /mnt
+/dev/block/dm-14  331M 330M     0 100% /system_ext
+/dev/block/dm-15  3.9G 3.9G     0 100% /product
+/dev/block/dm-16  779M 777M     0 100% /vendor
+/dev/block/dm-17   20M  20M     0 100% /vendor_dlkm
+tmpfs             3.5G  28K  3.5G   1% /apex
+/dev/block/loop6  232K 152K   76K  67% /apex/com.android.hardware.cas@1
+/dev/block/loop7  6.6M 6.6M     0 100% /apex/com.google.pixel.wifi.ext@1
+/dev/block/loop4  256M 254M     0 100% /apex/com.google.pixel.camera.hal@1714164480
+/dev/block/loop5  7.4M 7.4M     0 100% /apex/com.android.devicelock@343201000
+/dev/block/dm-23  4.4M 4.4M     0 100% /apex/com.android.neuralnetworks@360528200
+/dev/block/dm-24   19M  19M     0 100% /apex/com.android.cellbroadcast@360913060
+/dev/block/dm-26  4.4M 4.4M     0 100% /apex/com.android.resolv@360911240
+/dev/block/dm-22   11M  11M     0 100% /apex/com.android.configinfrastructure@360528200
+/dev/block/loop11 5.1M 5.1M     0 100% /apex/com.google.android.widevine@190250226
+/dev/block/loop13 604K 576K   16K  98% /apex/com.android.hardware.biometrics.fingerprint.virtual@1
+/dev/block/loop23 3.8M 3.8M     0 100% /apex/com.android.compos@3
+/dev/block/dm-32   20M  20M     0 100% /apex/com.android.bt@360832420
+/dev/block/dm-35   29M  29M     0 100% /apex/com.android.media.swcodec@360913040
+/dev/block/dm-28   16M  16M     0 100% /apex/com.android.healthfitness@360915160
+/dev/block/dm-20  840K 812K   12K  99% /apex/com.android.ipsec@360840100
+/dev/block/dm-29   10M  10M     0 100% /apex/com.android.nfcservices@360911780
+/dev/block/dm-31   23M  23M     0 100% /apex/com.android.adservices@360650020
+/dev/block/dm-33  6.7M 6.7M     0 100% /apex/com.android.adbd@360528200
+/dev/block/dm-34  1.5M 1.5M     0 100% /apex/com.android.uprobestats@360528200
+/dev/block/dm-36  4.9M 4.9M     0 100% /apex/com.android.conscrypt@360913040
+/dev/block/dm-42  6.3M 6.2M     0 100% /apex/com.android.extservices@360906083
+/dev/block/dm-39   26M  26M     0 100% /apex/com.android.permission@361004080
+/dev/block/loop26  73M  73M     0 100% /apex/com.google.android.hardware.biometrics.face@1
+/dev/block/dm-37  788K 756K   16K  98% /apex/com.android.tzdata@360527580
+/dev/block/loop32 232K  48K  180K  22% /apex/com.google.pixel.euicc.update@360799999
+/dev/block/dm-43   28M  28M     0 100% /apex/com.android.art@360910040
+/dev/block/dm-44   13M  13M     0 100% /apex/com.android.ondevicepersonalization@360659040
+/dev/block/dm-45   27M  27M     0 100% /apex/com.android.mediaprovider@360911480
+/dev/block/dm-41  6.8M 6.7M     0 100% /apex/com.android.uwb@360911260
+/dev/block/loop37 232K 112K  116K  50% /apex/com.android.apex.cts.shim@1
+/dev/block/dm-52  1.7M 1.7M     0 100% /apex/com.android.profiling@360528200
+/dev/block/dm-49  1.3M 1.3M     0 100% /apex/com.android.rkpd@361011000
+/dev/block/loop43  36M  36M     0 100% /apex/com.android.i18n@1
+/dev/block/dm-25   21M  21M     0 100% /apex/com.android.tethering@360911700
+/dev/block/loop47 7.8M 7.7M     0 100% /apex/com.android.runtime@1
+/dev/block/loop39 364K 332K   28K  93% /apex/com.android.hardware.biometrics.face.virtual@2
+/dev/block/dm-50  5.8M 5.7M     0 100% /apex/com.android.media@360913040
+/dev/block/dm-48  2.9M 2.9M     0 100% /apex/com.android.os.statsd@361020060
+/dev/block/dm-55  764K 736K   16K  98% /apex/com.android.sdkext@360840080
+/dev/block/dm-54  4.2M 4.2M     0 100% /apex/com.android.appsearch@361004020
+/dev/block/dm-60  232K 104K  124K  46% /apex/com.android.scheduling@360528200
+/dev/block/dm-58  312K 280K   28K  91% /apex/com.android.crashrecovery@360528200
+/dev/block/dm-56   11M  11M     0 100% /apex/com.android.wifi@360911300
+/dev/block/loop45  86M  86M     0 100% /apex/com.android.virt@3
+tmpfs             3.5G 4.0K  3.5G   1% /bootstrap-apex
+/dev/block/loop0  788K 756K   16K  98% /bootstrap-apex/com.android.tzdata@360527580
+/dev/block/loop3  7.8M 7.7M     0 100% /bootstrap-apex/com.android.runtime@1
+/dev/block/loop2   86M  86M     0 100% /bootstrap-apex/com.android.virt@3
+/dev/block/loop1   36M  36M     0 100% /bootstrap-apex/com.android.i18n@1
+tmpfs             3.5G    0  3.5G   0% /tmp
+/dev/fuse         109G 108G  1.0G 100% /storage/emulated
+=== Repo health check Fri Nov 28 19:36:48 EST 2025 ===
+Filesystem        Size Used Avail Use% Mounted on
+/dev/block/dm-12  879M 876M     0 100% /
+tmpfs             3.5G 1.9M  3.5G   1% /dev
+tmpfs             3.5G    0  3.5G   0% /mnt
+/dev/block/dm-14  331M 330M     0 100% /system_ext
+/dev/block/dm-15  3.9G 3.9G     0 100% /product
+/dev/block/dm-16  779M 777M     0 100% /vendor
+/dev/block/dm-17   20M  20M     0 100% /vendor_dlkm
+tmpfs             3.5G  28K  3.5G   1% /apex
+/dev/block/loop6  232K 152K   76K  67% /apex/com.android.hardware.cas@1
+/dev/block/loop7  6.6M 6.6M     0 100% /apex/com.google.pixel.wifi.ext@1
+/dev/block/loop4  256M 254M     0 100% /apex/com.google.pixel.camera.hal@1714164480
+/dev/block/loop5  7.4M 7.4M     0 100% /apex/com.android.devicelock@343201000
+/dev/block/dm-23  4.4M 4.4M     0 100% /apex/com.android.neuralnetworks@360528200
+/dev/block/dm-24   19M  19M     0 100% /apex/com.android.cellbroadcast@360913060
+/dev/block/dm-26  4.4M 4.4M     0 100% /apex/com.android.resolv@360911240
+/dev/block/dm-22   11M  11M     0 100% /apex/com.android.configinfrastructure@360528200
+/dev/block/loop11 5.1M 5.1M     0 100% /apex/com.google.android.widevine@190250226
+/dev/block/loop13 604K 576K   16K  98% /apex/com.android.hardware.biometrics.fingerprint.virtual@1
+/dev/block/loop23 3.8M 3.8M     0 100% /apex/com.android.compos@3
+/dev/block/dm-32   20M  20M     0 100% /apex/com.android.bt@360832420
+/dev/block/dm-35   29M  29M     0 100% /apex/com.android.media.swcodec@360913040
+/dev/block/dm-28   16M  16M     0 100% /apex/com.android.healthfitness@360915160
+/dev/block/dm-20  840K 812K   12K  99% /apex/com.android.ipsec@360840100
+/dev/block/dm-29   10M  10M     0 100% /apex/com.android.nfcservices@360911780
+/dev/block/dm-31   23M  23M     0 100% /apex/com.android.adservices@360650020
+/dev/block/dm-33  6.7M 6.7M     0 100% /apex/com.android.adbd@360528200
+/dev/block/dm-34  1.5M 1.5M     0 100% /apex/com.android.uprobestats@360528200
+/dev/block/dm-36  4.9M 4.9M     0 100% /apex/com.android.conscrypt@360913040
+/dev/block/dm-42  6.3M 6.2M     0 100% /apex/com.android.extservices@360906083
+/dev/block/dm-39   26M  26M     0 100% /apex/com.android.permission@361004080
+/dev/block/loop26  73M  73M     0 100% /apex/com.google.android.hardware.biometrics.face@1
+/dev/block/dm-37  788K 756K   16K  98% /apex/com.android.tzdata@360527580
+/dev/block/loop32 232K  48K  180K  22% /apex/com.google.pixel.euicc.update@360799999
+/dev/block/dm-43   28M  28M     0 100% /apex/com.android.art@360910040
+/dev/block/dm-44   13M  13M     0 100% /apex/com.android.ondevicepersonalization@360659040
+/dev/block/dm-45   27M  27M     0 100% /apex/com.android.mediaprovider@360911480
+/dev/block/dm-41  6.8M 6.7M     0 100% /apex/com.android.uwb@360911260
+/dev/block/loop37 232K 112K  116K  50% /apex/com.android.apex.cts.shim@1
+/dev/block/dm-52  1.7M 1.7M     0 100% /apex/com.android.profiling@360528200
+/dev/block/dm-49  1.3M 1.3M     0 100% /apex/com.android.rkpd@361011000
+/dev/block/loop43  36M  36M     0 100% /apex/com.android.i18n@1
+/dev/block/dm-25   21M  21M     0 100% /apex/com.android.tethering@360911700
+/dev/block/loop47 7.8M 7.7M     0 100% /apex/com.android.runtime@1
+/dev/block/loop39 364K 332K   28K  93% /apex/com.android.hardware.biometrics.face.virtual@2
+/dev/block/dm-50  5.8M 5.7M     0 100% /apex/com.android.media@360913040
+/dev/block/dm-48  2.9M 2.9M     0 100% /apex/com.android.os.statsd@361020060
+/dev/block/dm-55  764K 736K   16K  98% /apex/com.android.sdkext@360840080
+/dev/block/dm-54  4.2M 4.2M     0 100% /apex/com.android.appsearch@361004020
+/dev/block/dm-60  232K 104K  124K  46% /apex/com.android.scheduling@360528200
+/dev/block/dm-58  312K 280K   28K  91% /apex/com.android.crashrecovery@360528200
+/dev/block/dm-56   11M  11M     0 100% /apex/com.android.wifi@360911300
+/dev/block/loop45  86M  86M     0 100% /apex/com.android.virt@3
+tmpfs             3.5G 4.0K  3.5G   1% /bootstrap-apex
+/dev/block/loop0  788K 756K   16K  98% /bootstrap-apex/com.android.tzdata@360527580
+/dev/block/loop3  7.8M 7.7M     0 100% /bootstrap-apex/com.android.runtime@1
+/dev/block/loop2   86M  86M     0 100% /bootstrap-apex/com.android.virt@3
+/dev/block/loop1   36M  36M     0 100% /bootstrap-apex/com.android.i18n@1
+tmpfs             3.5G    0  3.5G   0% /tmp
+/dev/fuse         109G 108G  1.0G 100% /storage/emulated
+On branch master
+Your branch is up to date with 'origin/master'.
+
+You are in a sparse checkout with 1% of tracked files present.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	audit_digest.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+=== End check ===
+c800d69c3299552ee072561d1ab76bd761e6d9e3
+c800d69c3299552ee072561d1ab76bd761e6d9e3
+PAT_HASH=a4ab47622d1d5d385df9a44949507a5d95a220958d56e8dd182d16dfff15f3f1  -
